@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Head injury after a mechanical fall at home at about 09:30.\",\n      \"transcript_evidence\": \"Patient: About half past nine.\",\n      \"evidence_turns\": [\n        6\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records the time of the injury as 09:30, which is a significant temporal discrepancy from the transcript stating the time was 'about half past nine' (21:30).\"\n    },\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"3 cm laceration with haematoma over the right temple.\",\n      \"transcript_evidence\": \"There's a cut here, about 3 centimetres long, on your left temple, with a bump around it.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the injury site as the right temple, whereas the transcript clearly states the injury was on the left temple.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Head injury after a mechanical fall at home at about 09:30.",
+    "transcript_evidence": "Patient: About half past nine.",
+    "evidence_turns": [
+     6
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records the time of the injury as 09:30, which is a significant temporal discrepancy from the transcript stating the time was 'about half past nine' (21:30)."
+   },
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "3 cm laceration with haematoma over the right temple.",
+    "transcript_evidence": "There's a cut here, about 3 centimetres long, on your left temple, with a bump around it.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the injury site as the right temple, whereas the transcript clearly states the injury was on the left temple."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

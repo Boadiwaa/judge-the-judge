@@ -1,0 +1,50 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Dry cough for approximately 2 weeks.\",\n      \"transcript_evidence\": \"About six weeks now. ... More like two months, then.\",\n      \"evidence_turns\": [\n        7,\n        9\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note inaccurately records the duration of the patient's cough, understating the time frame mentioned in the transcript.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Start losartan 50 mg twice daily.\",\n      \"transcript_evidence\": \"We'll start at fifty milligrams once a day.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the frequency of the losartan prescription as twice daily, whereas the transcript specifies once daily.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Ex-smoker: stopped 20 years ago, previously 10 per day for about 15 years (approximately 7.5 pack-years).\",\n      \"transcript_evidence\": \"Before that I smoked about ten a day, for maybe fifteen years.\",\n      \"evidence_turns\": [\n        23\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note contains a significant arithmetic error in calculating the pack-years based on the transcript, misrepresenting the patient's smoking history.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Dry cough for approximately 2 weeks.",
+    "transcript_evidence": "About six weeks now. ... More like two months, then.",
+    "evidence_turns": [
+     7,
+     9
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note inaccurately records the duration of the patient's cough, understating the time frame mentioned in the transcript."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Start losartan 50 mg twice daily.",
+    "transcript_evidence": "We'll start at fifty milligrams once a day.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the frequency of the losartan prescription as twice daily, whereas the transcript specifies once daily."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Ex-smoker: stopped 20 years ago, previously 10 per day for about 15 years (approximately 7.5 pack-years).",
+    "transcript_evidence": "Before that I smoked about ten a day, for maybe fifteen years.",
+    "evidence_turns": [
+     23
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note contains a significant arithmetic error in calculating the pack-years based on the transcript, misrepresenting the patient's smoking history."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

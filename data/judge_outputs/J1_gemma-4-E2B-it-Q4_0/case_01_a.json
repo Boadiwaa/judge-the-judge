@@ -1,0 +1,73 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Ramipril 10 mg once daily.\",\n      \"transcript_evidence\": \"No, it's five. Five milligrams, once a day.\",\n      \"evidence_turns\": [\n        29\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records the patient's current Ramipril dose as 10 mg, which contradicts the transcript where the patient states they are taking 5 mg.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Known asthma.\",\n      \"transcript_evidence\": \"I'm the one who coughs at night as well, but mine's my asthma. Don't go putting that in his notes!\",\n      \"evidence_turns\": [\n        34\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note states the patient has known asthma, but the transcript shows the relative explicitly mentioning the patient's asthma and advising against documenting it, indicating a critical omission of a known condition.\"\n    },\n    {\n      \"type\": \"ATTRIBUTION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Ex-smoker: stopped 20 years ago, previously 10 per day for about 15 years (approximately 7.5 pack-years).\",\n      \"transcript_evidence\": \"Before that I smoked about ten a day, for maybe fifteen years.\",\n      \"evidence_turns\": [\n        23\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note contains a significant calculation error in the pack-years (10 cigarettes/day for 15 years is 150 pack-years, not 7.5), which misrepresents the patient's smoking history.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"U&Es at next annual review.\",\n      \"transcript_evidence\": \"I'd like a blood test to check your kidneys and salt levels one to two weeks after you start it, and I'll see you again in four weeks to check your blood pressure.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note fails to document the specific timing of the U&Es (one to two weeks after starting losartan), instead stating they are due at the next annual review.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Chest X-ray (ex-smoker, cough for 2 months).\",\n      \"transcript_evidence\": \"Because you used to smoke and the cough has gone on for a couple of months, I'd also like to arrange a chest X-ray, just to be thorough.\",\n      \"evidence_turns\": [\n        47\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note omits the clinical justification for the chest X-ray (the patient's history of smoking), which is a relevant clinical fact.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Ramipril 10 mg once daily.",
+    "transcript_evidence": "No, it's five. Five milligrams, once a day.",
+    "evidence_turns": [
+     29
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records the patient's current Ramipril dose as 10 mg, which contradicts the transcript where the patient states they are taking 5 mg."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Known asthma.",
+    "transcript_evidence": "I'm the one who coughs at night as well, but mine's my asthma. Don't go putting that in his notes!",
+    "evidence_turns": [
+     34
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note states the patient has known asthma, but the transcript shows the relative explicitly mentioning the patient's asthma and advising against documenting it, indicating a critical omission of a known condition."
+   },
+   {
+    "type": "ATTRIBUTION",
+    "note_section": "History",
+    "note_span": "Ex-smoker: stopped 20 years ago, previously 10 per day for about 15 years (approximately 7.5 pack-years).",
+    "transcript_evidence": "Before that I smoked about ten a day, for maybe fifteen years.",
+    "evidence_turns": [
+     23
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note contains a significant calculation error in the pack-years (10 cigarettes/day for 15 years is 150 pack-years, not 7.5), which misrepresents the patient's smoking history."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "U&Es at next annual review.",
+    "transcript_evidence": "I'd like a blood test to check your kidneys and salt levels one to two weeks after you start it, and I'll see you again in four weeks to check your blood pressure.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note fails to document the specific timing of the U&Es (one to two weeks after starting losartan), instead stating they are due at the next annual review."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Plan",
+    "note_span": "Chest X-ray (ex-smoker, cough for 2 months).",
+    "transcript_evidence": "Because you used to smoke and the cough has gone on for a couple of months, I'd also like to arrange a chest X-ray, just to be thorough.",
+    "evidence_turns": [
+     47
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note omits the clinical justification for the chest X-ray (the patient's history of smoking), which is a relevant clinical fact."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

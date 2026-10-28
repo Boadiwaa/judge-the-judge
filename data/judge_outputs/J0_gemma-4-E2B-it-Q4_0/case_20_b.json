@@ -1,0 +1,25 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Omission of proposed investigations\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"No further investigations needed.\",\n      \"transcript_evidence\": \"I'd like an MRI scan of your brain, using an epilepsy protocol, and an EEG, a recording of the brain's electrical activity.\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly states that no further investigations are needed, omitting the planned MRI and EEG scans mentioned in the transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "plan",
+    "note_span": "No further investigations needed.",
+    "transcript_evidence": "I'd like an MRI scan of your brain, using an epilepsy protocol, and an EEG, a recording of the brain's electrical activity.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note incorrectly states that no further investigations are needed, omitting the planned MRI and EEG scans mentioned in the transcript."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

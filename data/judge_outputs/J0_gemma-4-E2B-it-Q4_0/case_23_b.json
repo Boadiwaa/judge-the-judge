@@ -1,0 +1,35 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Omission of examination findings\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"Mucous membranes moist; anterior fontanelle not sunken.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note includes an examination finding that is not present in the consultation transcript.\"\n    },\n    {\n      \"type\": \"Incomplete plan details\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Continue breastfeeding; oral rehydration solution in small, frequent amounts.\",\n      \"transcript_evidence\": \"Continue breastfeeding; oral rehydration solution, like Dioralyte, a teaspoon every few minutes.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The plan omits the specific instruction regarding the frequency and method of administering the oral rehydration solution.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "examination",
+    "note_span": "Mucous membranes moist; anterior fontanelle not sunken.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note includes an examination finding that is not present in the consultation transcript."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "plan",
+    "note_span": "Continue breastfeeding; oral rehydration solution in small, frequent amounts.",
+    "transcript_evidence": "Continue breastfeeding; oral rehydration solution, like Dioralyte, a teaspoon every few minutes.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The plan omits the specific instruction regarding the frequency and method of administering the oral rehydration solution."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

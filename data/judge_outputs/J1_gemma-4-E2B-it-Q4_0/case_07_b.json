@@ -1,0 +1,47 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"approximately 4 hours ago.\",\n      \"transcript_evidence\": \"About... it'd be about four hours ago? No, sorry, less than that. It was just after my ten o'clock meeting, so two hours, maybe a bit more.\",\n      \"evidence_turns\": [\n        6\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note uses an approximate time frame that contradicts the patient's correction of 'less than that' and 'two hours, maybe a bit more'.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports numbness and tingling.\",\n      \"transcript_evidence\": \"No, it just throbs.\",\n      \"evidence_turns\": [\n        18\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the presence of numbness and tingling, which the patient explicitly denied in the transcript.\"\n    },\n    {\n      \"type\": \"HALLUC\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Anterior drawer test negative.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 3,\n      \"likelihood\": 2,\n      \"rationale\": \"The note documents the anterior drawer test, which was never mentioned or performed in the consultation transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "approximately 4 hours ago.",
+    "transcript_evidence": "About... it'd be about four hours ago? No, sorry, less than that. It was just after my ten o'clock meeting, so two hours, maybe a bit more.",
+    "evidence_turns": [
+     6
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note uses an approximate time frame that contradicts the patient's correction of 'less than that' and 'two hours, maybe a bit more'."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Reports numbness and tingling.",
+    "transcript_evidence": "No, it just throbs.",
+    "evidence_turns": [
+     18
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the presence of numbness and tingling, which the patient explicitly denied in the transcript."
+   },
+   {
+    "type": "HALLUC",
+    "note_section": "Examination",
+    "note_span": "Anterior drawer test negative.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 3,
+    "likelihood": 2,
+    "rationale": "The note documents the anterior drawer test, which was never mentioned or performed in the consultation transcript."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

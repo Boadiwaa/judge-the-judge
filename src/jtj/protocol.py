@@ -28,6 +28,66 @@ TYPE_EXAMPLES = {
 }
 
 
+# Each reference was checked against its publisher or arXiv record on 2026-10-28.
+REFERENCES = [
+    "Zheng L, Chiang W-L, et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. NeurIPS 2023 "
+    "(Datasets and Benchmarks). [arXiv:2306.05685](https://arxiv.org/abs/2306.05685)",
+    "Wang P, et al. Large Language Models are not Fair Evaluators. ACL 2024, pp. 9440–9450. "
+    "[aclanthology.org/2024.acl-long.511](https://aclanthology.org/2024.acl-long.511)",
+    "Panickssery A, Bowman SR, Feng S. LLM Evaluators Recognize and Favor Their Own Generations. NeurIPS 2024. "
+    "[arXiv:2404.13076](https://arxiv.org/abs/2404.13076)",
+    "Liu Y, Iter D, Xu Y, Wang S, Xu R, Zhu C. G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment. "
+    "EMNLP 2023, pp. 2511–2522. [doi:10.18653/v1/2023.emnlp-main.153](https://aclanthology.org/2023.emnlp-main.153)",
+    "Kim S, et al. Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models. "
+    "EMNLP 2024. [aclanthology.org/2024.emnlp-main.248](https://aclanthology.org/2024.emnlp-main.248)",
+    "Min S, Krishna K, Lyu X, Lewis M, Yih W, Koh PW, Iyyer M, Zettlemoyer L, Hajishirzi H. FActScore: Fine-grained "
+    "Atomic Evaluation of Factual Precision in Long Form Text Generation. EMNLP 2023, pp. 12076–12100. "
+    "[doi:10.18653/v1/2023.emnlp-main.741](https://aclanthology.org/2023.emnlp-main.741)",
+    "Wei J, et al. Long-form factuality in large language models. NeurIPS 2024. "
+    "[arXiv:2403.18802](https://arxiv.org/abs/2403.18802)",
+    "Dhuliawala S, et al. Chain-of-Verification Reduces Hallucination in Large Language Models. Findings of ACL 2024, "
+    "pp. 3563–3578. [arXiv:2309.11495](https://arxiv.org/abs/2309.11495)",
+    "Kryściński W, McCann B, Xiong C, Socher R. Evaluating the Factual Consistency of Abstractive Text Summarization. "
+    "EMNLP 2020, pp. 9332–9346. [doi:10.18653/v1/2020.emnlp-main.750](https://aclanthology.org/2020.emnlp-main.750)",
+    "Ben Abacha A, et al. MEDEC: A Benchmark for Medical Error Detection and Correction in Clinical Notes. Findings of "
+    "ACL 2025, pp. 22539–22550. [arXiv:2412.19260](https://arxiv.org/abs/2412.19260)",
+    "Asgari E, et al. A framework to assess clinical safety and hallucination rates of LLMs for medical text "
+    "summarisation. npj Digital Medicine 2025;8:274. "
+    "[doi:10.1038/s41746-025-01670-7](https://doi.org/10.1038/s41746-025-01670-7)",
+    "Verga P, et al. Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models. "
+    "arXiv preprint 2024. [arXiv:2404.18796](https://arxiv.org/abs/2404.18796)",
+    "Gu J, et al. A Survey on LLM-as-a-Judge. arXiv preprint 2024 (revised 2025). "
+    "[arXiv:2411.15594](https://arxiv.org/abs/2411.15594)",
+]
+
+RELATED_WORK = (
+    "**LLMs as judges.** Using a strong LLM to grade other models' output became mainstream with MT-Bench, where GPT-4 "
+    "agreed with human preferences over 80% of the time [1]. The same work, and later studies, documented systematic "
+    "biases: position bias, where reordering candidates can flip the verdict [2]; verbosity bias [1]; and "
+    "self-preference, where evaluators recognise and favour their own outputs [3]. These findings are why a judge's "
+    "agreement with clinicians has to be measured rather than assumed. A recent survey covers both how to make "
+    "judges more reliable and how to evaluate their reliability [13].\n\n"
+    "**Where each judge design comes from.** J0 is the plain LLM-as-a-judge baseline [1]. J1 follows rubric-based "
+    "evaluation: G-Eval gives the judge criteria and a form to fill in [4], and Prometheus 2 trains open evaluators "
+    "to score against user-defined rubrics [5]. Its severity × likelihood scale comes from UK clinical safety "
+    "risk management (DCB0129/DCB0160) rather than the NLP literature. J2 follows atomic-fact verification: FActScore "
+    "splits text into atomic facts and checks each against a source [6], SAFE automates this with search [7], and "
+    "Chain-of-Verification has a model plan and answer its own verification questions [8]. Those methods mainly "
+    "measure precision; J2 also checks every transcript fact for presence in the note, to catch omissions.\n\n"
+    "**Seeded errors and clinical notes.** Creating evaluation data by applying rule-based edits (entity swaps, "
+    "negation, number changes) to source text goes back to FactCC [9]. MEDEC, a public benchmark for detecting and "
+    "correcting medical errors in clinical notes (five error types, 3,848 texts), found that recent LLMs were still "
+    "outperformed by doctors [10]. A clinical-safety framework for LLM note generation graded clinician-annotated "
+    "hallucinations and omissions for harm [11]; this study's risk tiers follow the same spirit.\n\n"
+    "**How this design relates to current practice.** J1 and J2 are well-established designs, not the frontier. "
+    "The judge here is a small open-weight model run locally. Current directions include strong reasoning models as "
+    "judges, juries of diverse models (a panel of three smaller models from different families beat a single large "
+    "judge at lower cost [12]), judges fine-tuned on clinician labels, and calibrated judges that abstain. This "
+    "study's contribution is the validation method (planted errors with an exact answer key, clinical risk grading, "
+    "blinded clinician ratings and honest uncertainty), which can be applied unchanged to any of those judges."
+)
+
+
 def judge_prompts() -> dict[str, list[tuple[str, str]]]:
     """(label, text) pairs per judge, exactly as sent (with placeholders for transcript and note)."""
     fill = dict(taxonomy=judges.TAXONOMY, risk_scales=judges.RISK_SCALES, output_schema=judges.OUTPUT_SCHEMA,
@@ -66,6 +126,7 @@ def sections(cases: list[Case]) -> list[tuple[str, str]]:
         "a more structured judge design detect more high-risk errors than a naive one?\n\n"
         "**Secondary:** Does the judge grade clinical risk the way the answer key (and, later, clinicians) would? "
         "Which error types do judges miss most?")))
+    out.append(("Related work", RELATED_WORK))
     out.append(("Design", (
         "Synthetic UK consultations, each with a transcript and a clean reference note fully supported by the "
         "transcript. \"AI-style\" note variants are created by programmatically injecting known errors (seeded "
@@ -150,6 +211,7 @@ def sections(cases: list[Case]) -> list[tuple[str, str]]:
         "- Unadjudicated flags are not yet classified, so judge precision is unknown.",
         "- The matcher relies on judges quoting text; a correct finding with a poor quote may be scored as a miss.",
     ])))
+    out.append(("References", "\n".join(f"{i}. {r}" for i, r in enumerate(REFERENCES, 1))))
     out.append(("Version", f"Version {VERSION}, {DATE}. Independent study; synthetic data only; not a medical device."))
     return out
 

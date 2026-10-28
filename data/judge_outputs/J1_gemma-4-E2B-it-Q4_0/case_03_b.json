@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Callus under the right first metatarsal head.\",\n      \"transcript_evidence\": \"There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.\",\n      \"evidence_turns\": [\n        38\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly identifies the location of the callus (right vs. left foot).\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue gliclazide 80 mg twice daily.\",\n      \"transcript_evidence\": \"I'd like to reduce it to 80 milligrams in the morning only, and stop the teatime dose.\",\n      \"evidence_turns\": [\n        42\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note fails to document the agreed-upon change in the gliclazide dosing schedule (reducing frequency/dose).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Callus under the right first metatarsal head.",
+    "transcript_evidence": "There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.",
+    "evidence_turns": [
+     38
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly identifies the location of the callus (right vs. left foot)."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Continue gliclazide 80 mg twice daily.",
+    "transcript_evidence": "I'd like to reduce it to 80 milligrams in the morning only, and stop the teatime dose.",
+    "evidence_turns": [
+     42
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note fails to document the agreed-upon change in the gliclazide dosing schedule (reducing frequency/dose)."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

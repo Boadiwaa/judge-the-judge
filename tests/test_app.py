@@ -124,6 +124,14 @@ def test_tier_and_text_colours_meet_wcag_aa(pal):
 
 def test_protocol_markdown_has_all_sections_and_prompts(empty):
     md = protocol.markdown(empty.cases)
-    for heading in ("Background", "Error taxonomy", "Matching rule", "Sample size", "Limitations"):
+    for heading in ("Background", "Related work", "Error taxonomy", "Matching rule", "Sample size", "Limitations",
+                    "References"):
         assert f"## {heading}" in md
     assert "J2 · Step 2 user" in md and "246 high-risk errors" in md
+
+
+def test_related_work_citations_resolve_to_references():
+    import re
+
+    cited = {int(n) for n in re.findall(r"\[(\d+)\]", protocol.RELATED_WORK)}
+    assert cited == set(range(1, len(protocol.REFERENCES) + 1))  # every reference cited, none missing

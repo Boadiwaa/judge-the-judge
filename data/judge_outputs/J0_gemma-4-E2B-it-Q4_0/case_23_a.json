@@ -1,0 +1,50 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate symptom description (vomit color)\",\n      \"note_section\": \"History\",\n      \"note_span\": \"About five bile-stained, green vomits since last night, fewer today.\",\n      \"transcript_evidence\": \"No, it's milky. Just her milk coming back.\",\n      \"evidence_turns\": [\n        12\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly describes the vomit as bile-stained and green, contradicting the transcript which states it is milky.\"\n    },\n    {\n      \"type\": \"Inaccurate symptom description (blood in stool)\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Blood in stool.\",\n      \"transcript_evidence\": \"No. Her brother had blood in his last week when he had the same thing, but there's none in hers.\",\n      \"evidence_turns\": [\n        15,\n        16\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note claims there is blood in the stool, which is factually incorrect according to the relative's statement in the transcript.\"\n    },\n    {\n      \"type\": \"Inaccurate symptom description (wet nappies count)\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Four wet nappies since this morning.\",\n      \"transcript_evidence\": \"I've only changed two wet ones since this morning. The others were dirty.\",\n      \"evidence_turns\": [\n        20\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note inaccurately reports the number of wet nappies, stating four, when the transcript indicates only two wet nappies since the morning.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "History",
+    "note_span": "About five bile-stained, green vomits since last night, fewer today.",
+    "transcript_evidence": "No, it's milky. Just her milk coming back.",
+    "evidence_turns": [
+     12
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly describes the vomit as bile-stained and green, contradicting the transcript which states it is milky."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "History",
+    "note_span": "Blood in stool.",
+    "transcript_evidence": "No. Her brother had blood in his last week when he had the same thing, but there's none in hers.",
+    "evidence_turns": [
+     15,
+     16
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note claims there is blood in the stool, which is factually incorrect according to the relative's statement in the transcript."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "History",
+    "note_span": "Four wet nappies since this morning.",
+    "transcript_evidence": "I've only changed two wet ones since this morning. The others were dirty.",
+    "evidence_turns": [
+     20
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note inaccurately reports the number of wet nappies, stating four, when the transcript indicates only two wet nappies since the morning."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

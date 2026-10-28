@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Using salbutamol twice a day.\",\n      \"transcript_evidence\": \"Since last night it's been every two hours, maybe more.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note inaccurately summarizes the patient's reported salbutamol usage frequency, which was reported as every two hours since the previous night.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Prednisolone 4 mg once daily for 5 days.\",\n      \"transcript_evidence\": \"prednisolone, 40 milligrams once a day for five days.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the prescribed dose of prednisolone as 4 mg instead of 40 mg.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Using salbutamol twice a day.",
+    "transcript_evidence": "Since last night it's been every two hours, maybe more.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note inaccurately summarizes the patient's reported salbutamol usage frequency, which was reported as every two hours since the previous night."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Prednisolone 4 mg once daily for 5 days.",
+    "transcript_evidence": "prednisolone, 40 milligrams once a day for five days.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the prescribed dose of prednisolone as 4 mg instead of 40 mg."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

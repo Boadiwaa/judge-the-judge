@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Start empagliflozin 100 mg once daily\",\n      \"transcript_evidence\": \"I'd like to add a tablet called empagliflozin, 10 milligrams once a day.\",\n      \"evidence_turns\": [\n        44\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The planned dose of empagliflozin (100 mg) is significantly higher than the dose agreed upon in the transcript (10 mg), posing a risk of adverse effects.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Start empagliflozin 100 mg once daily",
+    "transcript_evidence": "I'd like to add a tablet called empagliflozin, 10 milligrams once a day.",
+    "evidence_turns": [
+     44
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The planned dose of empagliflozin (100 mg) is significantly higher than the dose agreed upon in the transcript (10 mg), posing a risk of adverse effects."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

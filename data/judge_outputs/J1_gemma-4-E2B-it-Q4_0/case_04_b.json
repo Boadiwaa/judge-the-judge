@@ -1,0 +1,38 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Recurrent headaches for 6 days.\",\n      \"transcript_evidence\": \"About six months now. Maybe two or three a month.\",\n      \"evidence_turns\": [\n        2,\n        4\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly states the duration of the headache complaint, misrepresenting the patient's history.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue combined pill.\",\n      \"transcript_evidence\": \"I'd like you to stop the Rigevidon and switch to a progestogen-only pill called desogestrel, 75 micrograms, one every day without a break. It doesn't carry that risk.\",\n      \"evidence_turns\": [\n        39\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The plan to continue the combined pill contradicts the clinician's explicit instruction in the transcript to stop the medication due to stroke risk.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Presenting complaint",
+    "note_span": "Recurrent headaches for 6 days.",
+    "transcript_evidence": "About six months now. Maybe two or three a month.",
+    "evidence_turns": [
+     2,
+     4
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly states the duration of the headache complaint, misrepresenting the patient's history."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Continue combined pill.",
+    "transcript_evidence": "I'd like you to stop the Rigevidon and switch to a progestogen-only pill called desogestrel, 75 micrograms, one every day without a break. It doesn't carry that risk.",
+    "evidence_turns": [
+     39
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The plan to continue the combined pill contradicts the clinician's explicit instruction in the transcript to stop the medication due to stroke risk."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

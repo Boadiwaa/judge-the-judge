@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Central chest pain starting at about 13:00 while gardening.\",\n      \"transcript_evidence\": \"After lunch. No, before. I hadn't eaten yet. About eleven o'clock.\",\n      \"evidence_turns\": [\n        7\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records the onset time as 13:00, which contradicts the transcript indicating the pain started around 11:00.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Central chest pain starting at about 13:00 while gardening.",
+    "transcript_evidence": "After lunch. No, before. I hadn't eaten yet. About eleven o'clock.",
+    "evidence_turns": [
+     7
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records the onset time as 13:00, which contradicts the transcript indicating the pain started around 11:00."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

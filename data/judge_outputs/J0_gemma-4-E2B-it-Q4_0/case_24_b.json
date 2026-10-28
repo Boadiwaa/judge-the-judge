@@ -1,0 +1,63 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate symptom duration\",\n      \"note_section\": \"presenting_complaint\",\n      \"note_span\": \"Diarrhoea and vomiting for 2 weeks.\",\n      \"transcript_evidence\": \"Two days now. Since Monday.\",\n      \"evidence_turns\": [\n        2,\n        11\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the duration of the complaint as two weeks, while the transcript indicates the symptoms have been present for two days.\"\n    },\n    {\n      \"type\": \"Inaccurate symptom detail\",\n      \"note_section\": \"history\",\n      \"note_span\": \"Blood in stools.\",\n      \"transcript_evidence\": \"Any blood in it? No.\",\n      \"evidence_turns\": [\n        16,\n        17\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note claims there is blood in the stools, but the patient explicitly denies this in the transcript.\"\n    },\n    {\n      \"type\": \"Inaccurate plan\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"U&E at next routine review.\",\n      \"transcript_evidence\": \"I'd like a blood test tomorrow to check your kidneys.\",\n      \"evidence_turns\": [\n        51\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan states a routine U&E, but the clinician explicitly states a blood test is planned for the following day.\"\n    },\n    {\n      \"type\": \"Minor linguistic inconsistency\",\n      \"note_section\": \"safety_netting\",\n      \"note_span\": \"or blood in stool.\",\n      \"transcript_evidence\": \"or you see blood in the diarrhoea\",\n      \"evidence_turns\": [\n        53\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note uses 'blood in stool' while the transcript uses 'blood in the diarrhoea', which is a minor linguistic variation.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "presenting_complaint",
+    "note_span": "Diarrhoea and vomiting for 2 weeks.",
+    "transcript_evidence": "Two days now. Since Monday.",
+    "evidence_turns": [
+     2,
+     11
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the duration of the complaint as two weeks, while the transcript indicates the symptoms have been present for two days."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "history",
+    "note_span": "Blood in stools.",
+    "transcript_evidence": "Any blood in it? No.",
+    "evidence_turns": [
+     16,
+     17
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note claims there is blood in the stools, but the patient explicitly denies this in the transcript."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "plan",
+    "note_span": "U&E at next routine review.",
+    "transcript_evidence": "I'd like a blood test tomorrow to check your kidneys.",
+    "evidence_turns": [
+     51
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The plan states a routine U&E, but the clinician explicitly states a blood test is planned for the following day."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "safety_netting",
+    "note_span": "or blood in stool.",
+    "transcript_evidence": "or you see blood in the diarrhoea",
+    "evidence_turns": [
+     53
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note uses 'blood in stool' while the transcript uses 'blood in the diarrhoea', which is a minor linguistic variation."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

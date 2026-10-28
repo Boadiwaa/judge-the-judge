@@ -1,0 +1,47 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Head injury after a mechanical fall at home at about 07:45.\",\n      \"transcript_evidence\": \"Relative: Mum, it was before that. The post hadn't come and you hadn't had your breakfast. It was about quarter to eight.\",\n      \"evidence_turns\": [\n        7\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records the time of the fall as 07:45, but the transcript indicates the relative corrected the time to approximately 19:45, which is a significant temporal discrepancy.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"Head injury in an anticoagulated 81-year-old with brief post-traumatic confusion and amnesia, and one episode of vomiting.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 1,\n      \"rationale\": \"The age of the patient (81) is not mentioned or supported by any information in the consultation transcript.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"One episode of vomiting in the car.\",\n      \"transcript_evidence\": \"Relative: She was sick once in the car on the way here.\",\n      \"evidence_turns\": [\n        17\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note attributes the vomiting to the car journey, whereas the transcript confirms it occurred on the way to the clinic.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Head injury after a mechanical fall at home at about 07:45.",
+    "transcript_evidence": "Relative: Mum, it was before that. The post hadn't come and you hadn't had your breakfast. It was about quarter to eight.",
+    "evidence_turns": [
+     7
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records the time of the fall as 07:45, but the transcript indicates the relative corrected the time to approximately 19:45, which is a significant temporal discrepancy."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Impression",
+    "note_span": "Head injury in an anticoagulated 81-year-old with brief post-traumatic confusion and amnesia, and one episode of vomiting.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 1,
+    "rationale": "The age of the patient (81) is not mentioned or supported by any information in the consultation transcript."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "One episode of vomiting in the car.",
+    "transcript_evidence": "Relative: She was sick once in the car on the way here.",
+    "evidence_turns": [
+     17
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note attributes the vomiting to the car journey, whereas the transcript confirms it occurred on the way to the clinic."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"maximum 600 mg in 24 hours\",\n      \"transcript_evidence\": \"but no more than 300 milligrams in 24 hours.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The maximum prescribed dose of sumatriptan in the plan is incorrect, potentially leading to over-treatment.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "maximum 600 mg in 24 hours",
+    "transcript_evidence": "but no more than 300 milligrams in 24 hours.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The maximum prescribed dose of sumatriptan in the plan is incorrect, potentially leading to over-treatment."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}
