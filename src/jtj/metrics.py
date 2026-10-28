@@ -30,7 +30,8 @@ def load_outputs(outputs_dir: Path, judge: str) -> dict[str, dict]:
 
 
 def compute_all(cases: list[Case], outputs_dir: Path, judges=("J0", "J1", "J2"),
-                strict_spec_matching: bool = False, n_boot: int = stats.BOOTSTRAP_N) -> dict:
+                strict_spec_matching: bool = False, n_boot: int = stats.BOOTSTRAP_N, model: str | None = None) -> dict:
+    """model: read outputs from data/judge_outputs/<judge>_<model>; None reads <judge>/ (fixtures)."""
     errors = []  # flat answer key
     for c in cases:
         for v in c.variants:
@@ -47,7 +48,7 @@ def compute_all(cases: list[Case], outputs_dir: Path, judges=("J0", "J1", "J2"),
     available = []
 
     for j in judges:
-        outs = load_outputs(outputs_dir, j)
+        outs = load_outputs(outputs_dir, f"{j}_{model}" if model else j)
         if not outs:
             continue
         available.append(j)
@@ -138,6 +139,7 @@ def compute_all(cases: list[Case], outputs_dir: Path, judges=("J0", "J1", "J2"),
             "status": status, "generated": date.today().isoformat(), "judges_available": available,
             "n_cases": len(cases), "n_notes": n_notes, "n_errors": len(errors),
             "n_high_errors": sum(e["tier"] in HIGH_TIERS for e in errors),
+            "judge_model": model,
             "matching_rule": "spec_literal" if strict_spec_matching else "spec_plus_evidence_turns",
             "prompt_hashes": prompt_hashes(), "per_judge": per_judge, "comparisons": comparisons,
             "most_dangerous_misses": dangerous[:15],

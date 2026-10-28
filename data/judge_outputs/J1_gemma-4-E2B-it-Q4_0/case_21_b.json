@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Dysuria and urinary frequency for 1 day.\",\n      \"transcript_evidence\": \"Patient: Since yesterday. Sorry, no, since Saturday. So three days now.\",\n      \"evidence_turns\": [\n        10\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the duration of symptoms as one day, whereas the transcript confirms the symptoms have been present since Saturday (three days).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Dysuria and urinary frequency for 1 day.",
+    "transcript_evidence": "Patient: Since yesterday. Sorry, no, since Saturday. So three days now.",
+    "evidence_turns": [
+     10
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the duration of symptoms as one day, whereas the transcript confirms the symptoms have been present since Saturday (three days)."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

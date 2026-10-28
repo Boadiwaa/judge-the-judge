@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Increase sertraline to 200 mg once daily.\",\n      \"transcript_evidence\": \"I think we should increase the sertraline to 100 milligrams once a day.\",\n      \"evidence_turns\": [\n        47\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The planned dose increase is documented incorrectly in the note, potentially leading to an under-treatment of the patient.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Increase sertraline to 200 mg once daily.",
+    "transcript_evidence": "I think we should increase the sertraline to 100 milligrams once a day.",
+    "evidence_turns": [
+     47
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The planned dose increase is documented incorrectly in the note, potentially leading to an under-treatment of the patient."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

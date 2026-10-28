@@ -6,6 +6,7 @@
  "n_notes": 18,
  "n_errors": 39,
  "n_high_errors": 14,
+ "judge_model": "gemma-4-E2B-it-Q4_0",
  "matching_rule": "spec_plus_evidence_turns",
  "prompt_hashes": {
   "J0": "5b534af6eabd",

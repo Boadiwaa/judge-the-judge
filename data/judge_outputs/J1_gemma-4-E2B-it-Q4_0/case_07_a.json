@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Bony tenderness at the posterior edge of the right lateral malleolus.\",\n      \"transcript_evidence\": \"I'm going to press on a few places. I'm pressing on the bony bit at the back of your left ankle, on the outside.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the location of bony tenderness as the right lateral malleolus, contradicting the examination findings and the clinician's actions on the left ankle.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Analgesia: paracetamol 1 g six times daily (maximum 4 g in 24 hours)\",\n      \"transcript_evidence\": \"For pain, I'm going to give you paracetamol, one gram, which you can take four times a day, no more than four grams in twenty-four hours.\",\n      \"evidence_turns\": [\n        45\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note specifies a frequency of six times daily for paracetamol, which contradicts the transcript stating four times a day.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Bony tenderness at the posterior edge of the right lateral malleolus.",
+    "transcript_evidence": "I'm going to press on a few places. I'm pressing on the bony bit at the back of your left ankle, on the outside.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the location of bony tenderness as the right lateral malleolus, contradicting the examination findings and the clinician's actions on the left ankle."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Analgesia: paracetamol 1 g six times daily (maximum 4 g in 24 hours)",
+    "transcript_evidence": "For pain, I'm going to give you paracetamol, one gram, which you can take four times a day, no more than four grams in twenty-four hours.",
+    "evidence_turns": [
+     45
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note specifies a frequency of six times daily for paracetamol, which contradicts the transcript stating four times a day."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

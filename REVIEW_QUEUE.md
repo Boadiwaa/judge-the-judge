@@ -4,7 +4,9 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 
 ## Blocking (nothing can proceed without you)
 
-- [ ] **Provide `ANTHROPIC_API_KEY`** (in `.env`, see `.env.example`), then run `python scripts/run_judges.py --judge J1 --limit 6` (pilot), inspect, then `--judge all`. Until then the app shows "Results pending" everywhere. Estimated calls: J0 72 + J1 72 + J2 ~216 (3 steps) ≈ 360, well under the 1,500 cap.
+- [x] ~~Provide `ANTHROPIC_API_KEY`~~ Superseded 2026-10-28: judges now run locally on open-weight models (DECISIONS D-14).
+- [ ] **Choose the judge model(s) for the full run.** Pilot on Gemma 4 E2B Q4_0: see the pilot notes below. MedGemma 1.5 4B **Q3_K_M** looped and produced no usable output on the one note tried. Options: (a) Gemma 4 E2B only; (b) also compress the **Gemma 4 E4B** in your Hugging Face cache to Q4_K_M (larger, likely better); (c) download a lighter-compressed MedGemma (Q4_K_M or Q8_0) for a general-vs-medical comparison. Time: about 1 minute per J1 call on E2B, so a full J0+J1+J2 run is about 5 hours per model.
+- [ ] **Check the model licences** (Gemma terms of use; MedGemma Health AI Developer Foundations terms) before publishing results.
 - [ ] **Decide whether to deploy.** Spec forbids deploying before clinical review. `DEPLOY.md` has the steps.
 
 ## Clinical content (must review before anyone sees the app)
@@ -24,7 +26,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 
 <!-- appended below as work proceeds -->
 
-- [ ] **Matching rule for omissions (DECISIONS D-03).** I extended the spec rule so a judge quoting the transcript lines that prove an omitted fact counts as a detection. Approve, or say "spec-literal only" and I'll make `--strict-spec` the primary analysis. This changes the primary endpoint, so it should be fixed *before* the judges run (pre-registration).
+- [x] **Matching rule for omissions (DECISIONS D-03).** Approved 2026-10-28: extension is primary, spec-literal reported alongside. I extended the spec rule so a judge quoting the transcript lines that prove an omitted fact counts as a detection. Approve, or say "spec-literal only" and I'll make `--strict-spec` the primary analysis. This changes the primary endpoint, so it should be fixed *before* the judges run (pre-registration).
 - [ ] **Answer-key grading calls I was least sure of:**
   - `case_07_a_e2` penicillin allergy dropped (ED ankle): S4 × L4 = 16, Very high. I justified it via perioperative flucloxacillin if the fracture needs fixing. The mockup showed 20; is 16 right?
   - `case_13_a_e1` passive suicidal ideation recorded as denied: S5 × L3 = 15, High (just below Very high). Arguably L4.

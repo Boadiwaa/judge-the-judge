@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue apixaban 2.5 mg twice daily; do not stop.\",\n      \"transcript_evidence\": \"[44] Clinician: Your apixaban dose of five milligrams twice a day is correct for you, based on your age, weight and kidney function, so we'll keep that the same.\",\n      \"evidence_turns\": [\n        44\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan incorrectly documents the apixaban dose as 2.5 mg twice daily, contradicting the clinician's instruction in the transcript to maintain the dose at 5 mg twice daily.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Continue apixaban 2.5 mg twice daily; do not stop.",
+    "transcript_evidence": "[44] Clinician: Your apixaban dose of five milligrams twice a day is correct for you, based on your age, weight and kidney function, so we'll keep that the same.",
+    "evidence_turns": [
+     44
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The plan incorrectly documents the apixaban dose as 2.5 mg twice daily, contradicting the clinician's instruction in the transcript to maintain the dose at 5 mg twice daily."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}
