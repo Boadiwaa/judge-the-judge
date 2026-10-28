@@ -1,0 +1,51 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Factual error (History)\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports diarrhoea and unsteadiness; no vomiting or confusion.\",\n      \"transcript_evidence\": \"[23] Patient: No. [24] Clinician: Any feeling unsteady on your feet, or muddled? [25] Patient: No.\",\n      \"evidence_turns\": [\n        23,\n        24,\n        25\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the patient reports diarrhoea and unsteadiness, whereas the transcript shows the patient denied both.\"\n    },\n    {\n      \"type\": \"Factual error (Blood Test data)\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"lithium level today 0.7 mmol/L (12-hour post-dose)\",\n      \"transcript_evidence\": \"[32] Clinician: Your blood tests: your lithium level last month was 0.7, taken 12 hours after your dose, which is in range.\",\n      \"evidence_turns\": [\n        32\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly reports the current lithium level as 0.7 mmol/L, while the transcript indicates this was the level from the previous month.\"\n    },\n    {\n      \"type\": \"Factual error (Plan)\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Repeat lithium level in 3 months.\",\n      \"transcript_evidence\": \"[36] Clinician: Because you've taken naproxen, I'd like to recheck your lithium level in one week, 12 hours after your evening dose. After that we'll go back to every three months.\",\n      \"evidence_turns\": [\n        36\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan incorrectly states a repeat lithium level in 3 months, when the transcript specifies a repeat in one week, followed by every three months.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "History",
+    "note_span": "Reports diarrhoea and unsteadiness; no vomiting or confusion.",
+    "transcript_evidence": "[23] Patient: No. [24] Clinician: Any feeling unsteady on your feet, or muddled? [25] Patient: No.",
+    "evidence_turns": [
+     23,
+     24,
+     25
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the patient reports diarrhoea and unsteadiness, whereas the transcript shows the patient denied both."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Examination",
+    "note_span": "lithium level today 0.7 mmol/L (12-hour post-dose)",
+    "transcript_evidence": "[32] Clinician: Your blood tests: your lithium level last month was 0.7, taken 12 hours after your dose, which is in range.",
+    "evidence_turns": [
+     32
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note incorrectly reports the current lithium level as 0.7 mmol/L, while the transcript indicates this was the level from the previous month."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Plan",
+    "note_span": "Repeat lithium level in 3 months.",
+    "transcript_evidence": "[36] Clinician: Because you've taken naproxen, I'd like to recheck your lithium level in one week, 12 hours after your evening dose. After that we'll go back to every three months.",
+    "evidence_turns": [
+     36
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The plan incorrectly states a repeat lithium level in 3 months, when the transcript specifies a repeat in one week, followed by every three months."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

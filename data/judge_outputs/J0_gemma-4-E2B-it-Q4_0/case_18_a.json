@@ -1,0 +1,37 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inconsistent physical examination finding\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"Coarse crackles at the right base (new).\",\n      \"transcript_evidence\": \"There's some coarse crackles at the bottom of your left lung, at the left base.\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the crackles are at the right base, while the transcript explicitly states they are at the left base.\"\n    },\n    {\n      \"type\": \"Omission of medication detail\",\n      \"note_section\": \"medications_allergies\",\n      \"note_span\": \"Salbutamol as needed (about twice daily).\",\n      \"transcript_evidence\": \"And the blue one, maybe twice a day.\",\n      \"evidence_turns\": [\n        28\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note mentions Salbutamol use, but the transcript only refers to 'the blue one' without explicitly stating the drug name or frequency.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "examination",
+    "note_span": "Coarse crackles at the right base (new).",
+    "transcript_evidence": "There's some coarse crackles at the bottom of your left lung, at the left base.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the crackles are at the right base, while the transcript explicitly states they are at the left base."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "medications_allergies",
+    "note_span": "Salbutamol as needed (about twice daily).",
+    "transcript_evidence": "And the blue one, maybe twice a day.",
+    "evidence_turns": [
+     28
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note mentions Salbutamol use, but the transcript only refers to 'the blue one' without explicitly stating the drug name or frequency."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate clinical threshold\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"eosinophils \u22650.3, suitable for triple therapy.\",\n      \"transcript_evidence\": \"And your blood eosinophil count last month was 0.35.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the eosinophil count threshold (\u22650.3) when the transcript provides a specific count (0.35) which is below that threshold.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Impression",
+    "note_span": "eosinophils \u22650.3, suitable for triple therapy.",
+    "transcript_evidence": "And your blood eosinophil count last month was 0.35.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the eosinophil count threshold (\u22650.3) when the transcript provides a specific count (0.35) which is below that threshold."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

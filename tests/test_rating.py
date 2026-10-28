@@ -104,6 +104,9 @@ def test_export_requires_owner_code(db, monkeypatch):
     from jtj.app.main import asgi_app
 
     client = TestClient(asgi_app())
+    for path in ("/docs", "/openapi.json", "/redoc"):
+        r = client.get(path)
+        assert "swagger" not in r.text.lower() and '"openapi"' not in r.text, path  # API docs not exposed
     assert client.get("/export/ratings.zip").status_code == 404  # OWNER_CODE unset
     monkeypatch.setenv("OWNER_CODE", "s3cret")
     assert client.get("/export/ratings.zip").status_code == 401

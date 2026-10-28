@@ -1,0 +1,48 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Timing discrepancy\",\n      \"note_section\": \"presenting_complaint\",\n      \"note_span\": \"approximately 4 hours ago\",\n      \"transcript_evidence\": \"About... it'd be about four hours ago? No, sorry, less than that. It was just after my ten o'clock meeting, so two hours, maybe a bit more.\",\n      \"evidence_turns\": [\n        2,\n        6\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note inaccurately states the time of injury, which is contradicted by the patient's report.\"\n    },\n    {\n      \"type\": \"Symptom mismatch\",\n      \"note_section\": \"history\",\n      \"note_span\": \"Reports numbness and tingling.\",\n      \"transcript_evidence\": \"No, it just throbs.\",\n      \"evidence_turns\": [\n        18\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note includes symptoms (numbness and tingling) that are not mentioned in the transcript, which contradicts the patient's report of throbbing pain.\"\n    },\n    {\n      \"type\": \"Omission of examination finding\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"Anterior drawer test negative.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note includes a specific physical examination finding (Anterior drawer test negative) that is not documented in the consultation transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "presenting_complaint",
+    "note_span": "approximately 4 hours ago",
+    "transcript_evidence": "About... it'd be about four hours ago? No, sorry, less than that. It was just after my ten o'clock meeting, so two hours, maybe a bit more.",
+    "evidence_turns": [
+     2,
+     6
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note inaccurately states the time of injury, which is contradicted by the patient's report."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "history",
+    "note_span": "Reports numbness and tingling.",
+    "transcript_evidence": "No, it just throbs.",
+    "evidence_turns": [
+     18
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note includes symptoms (numbness and tingling) that are not mentioned in the transcript, which contradicts the patient's report of throbbing pain."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "examination",
+    "note_span": "Anterior drawer test negative.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note includes a specific physical examination finding (Anterior drawer test negative) that is not documented in the consultation transcript."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

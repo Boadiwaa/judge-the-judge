@@ -1,0 +1,37 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Impression specificity\",\n      \"note_section\": \"impression\",\n      \"note_span\": \"Suspected acute coronary syndrome (possible NSTEMI).\",\n      \"transcript_evidence\": \"It's possible. It could be what we call an acute coronary syndrome.\",\n      \"evidence_turns\": [\n        40\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note makes a specific diagnostic assumption (NSTEMI) that is not explicitly stated in the transcript, which only mentions 'acute coronary syndrome'.\"\n    },\n    {\n      \"type\": \"Plan detail discrepancy\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Serial high-sensitivity troponin.\",\n      \"transcript_evidence\": \"We've taken a blood test for troponin, which shows heart muscle damage, and we'll repeat it in a few hours.\",\n      \"evidence_turns\": [\n        40\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note specifies 'high-sensitivity troponin' testing, which is not mentioned in the transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "impression",
+    "note_span": "Suspected acute coronary syndrome (possible NSTEMI).",
+    "transcript_evidence": "It's possible. It could be what we call an acute coronary syndrome.",
+    "evidence_turns": [
+     40
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note makes a specific diagnostic assumption (NSTEMI) that is not explicitly stated in the transcript, which only mentions 'acute coronary syndrome'."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "plan",
+    "note_span": "Serial high-sensitivity troponin.",
+    "transcript_evidence": "We've taken a blood test for troponin, which shows heart muscle damage, and we'll repeat it in a few hours.",
+    "evidence_turns": [
+     40
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note specifies 'high-sensitivity troponin' testing, which is not mentioned in the transcript."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

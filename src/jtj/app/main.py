@@ -112,6 +112,20 @@ ASSETS = os.path.join(os.path.dirname(__file__), "assets")
 STATIC_SUFFIXES = (".wasm", ".js", ".mjs", ".otf", ".ttf", ".png", ".json", ".symbols")
 
 
+API_DOC_PATHS = ("/openapi.json", "/docs", "/docs/oauth2-redirect", "/redoc")
+
+
+def _drop_api_docs(app) -> None:
+    """Remove FastAPI's auto-generated docs from the app and from Flet's mounted inner app."""
+    router = getattr(app, "router", None)
+    if router is None:
+        return
+    router.routes[:] = [r for r in router.routes if getattr(r, "path", None) not in API_DOC_PATHS]
+    for r in router.routes:
+        if hasattr(r, "app") and r.app is not app:
+            _drop_api_docs(r.app)
+
+
 def asgi_app():
     """Flet's web server as an ASGI app, with gzip and caching added.
 
@@ -161,8 +175,7 @@ def asgi_app():
     # Flet mounts a catch-all static handler first; move our route ahead of it so it is reachable,
     # and drop FastAPI's auto-generated API docs, which this app doesn't need to expose
     app.router.routes.insert(0, app.router.routes.pop())
-    app.router.routes[:] = [r for r in app.router.routes
-                            if getattr(r, "path", None) not in ("/openapi.json", "/docs", "/docs/oauth2-redirect", "/redoc")]
+    _drop_api_docs(app)
     app.add_middleware(GZipMiddleware, minimum_size=1024, compresslevel=6)
     return app
 

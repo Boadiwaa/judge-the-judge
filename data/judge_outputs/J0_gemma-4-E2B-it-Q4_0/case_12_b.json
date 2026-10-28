@@ -1,0 +1,49 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate duration of presenting complaint\",\n      \"note_section\": \"presenting_complaint\",\n      \"note_span\": \"Pain below the right kneecap for 2 days.\",\n      \"transcript_evidence\": \"[8] Patient: About two months.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 3,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly states the duration of the pain as two days, whereas the transcript indicates the patient has had the pain for about two months.\"\n    },\n    {\n      \"type\": \"Inaccurate history of onset\",\n      \"note_section\": \"history\",\n      \"note_span\": \"Gradual onset without specific injury\",\n      \"transcript_evidence\": \"[10] Patient: Not really. It just started hurting after football.\",\n      \"evidence_turns\": [\n        10\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note claims a gradual onset without specific injury, but the transcript indicates the pain started after football.\"\n    },\n    {\n      \"type\": \"Inaccurate medication dosage\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Paracetamol or ibuprofen 800 mg up to three times daily with food as needed.\",\n      \"transcript_evidence\": \"[45] Clinician: For pain you can take paracetamol, or ibuprofen 400 milligrams up to three times a day with food.\",\n      \"evidence_turns\": [\n        45\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan specifies a dosage of 800 mg for ibuprofen, which contradicts the transcript's instruction of 400 mg.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "presenting_complaint",
+    "note_span": "Pain below the right kneecap for 2 days.",
+    "transcript_evidence": "[8] Patient: About two months.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 3,
+    "likelihood": 5,
+    "rationale": "The note incorrectly states the duration of the pain as two days, whereas the transcript indicates the patient has had the pain for about two months."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "history",
+    "note_span": "Gradual onset without specific injury",
+    "transcript_evidence": "[10] Patient: Not really. It just started hurting after football.",
+    "evidence_turns": [
+     10
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note claims a gradual onset without specific injury, but the transcript indicates the pain started after football."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "plan",
+    "note_span": "Paracetamol or ibuprofen 800 mg up to three times daily with food as needed.",
+    "transcript_evidence": "[45] Clinician: For pain you can take paracetamol, or ibuprofen 400 milligrams up to three times a day with food.",
+    "evidence_turns": [
+     45
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The plan specifies a dosage of 800 mg for ibuprofen, which contradicts the transcript's instruction of 400 mg."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

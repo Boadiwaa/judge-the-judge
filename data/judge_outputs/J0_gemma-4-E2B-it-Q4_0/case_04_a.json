@@ -1,0 +1,37 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate history detail\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Not preceded by aura.\",\n      \"transcript_evidence\": \"It starts with my vision. I get these zigzag lines, shimmering, off to one side.\",\n      \"evidence_turns\": [\n        6\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the patient's headaches are not preceded by aura, contradicting the transcript which explicitly states the headache starts with visual symptoms (aura).\"\n    },\n    {\n      \"type\": \"Inaccurate medication dosage\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Sumatriptan 50 mg at headache onset (not during aura); may repeat after 2 hours, maximum 600 mg in 24 hours\",\n      \"transcript_evidence\": \"I'll prescribe sumatriptan, 50 milligrams. Take it as soon as the headache starts, not during the zigzags. If the headache comes back, you can take another after two hours, but no more than 300 milligrams in 24 hours.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 3,\n      \"rationale\": \"The maximum prescribed dose for sumatriptan in the note (600 mg) is incorrect; the transcript specifies a maximum dose of 300 mg in 24 hours.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "History",
+    "note_span": "Not preceded by aura.",
+    "transcript_evidence": "It starts with my vision. I get these zigzag lines, shimmering, off to one side.",
+    "evidence_turns": [
+     6
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the patient's headaches are not preceded by aura, contradicting the transcript which explicitly states the headache starts with visual symptoms (aura)."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Plan",
+    "note_span": "Sumatriptan 50 mg at headache onset (not during aura); may repeat after 2 hours, maximum 600 mg in 24 hours",
+    "transcript_evidence": "I'll prescribe sumatriptan, 50 milligrams. Take it as soon as the headache starts, not during the zigzags. If the headache comes back, you can take another after two hours, but no more than 300 milligrams in 24 hours.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 3,
+    "rationale": "The maximum prescribed dose for sumatriptan in the note (600 mg) is incorrect; the transcript specifies a maximum dose of 300 mg in 24 hours."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

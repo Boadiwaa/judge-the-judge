@@ -1,0 +1,25 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Medication dosage discrepancy\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Apixaban 5 mg once daily.\",\n      \"transcript_evidence\": \"Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday.\",\n      \"evidence_turns\": [\n        20\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the apixaban dosage is once daily, while the transcript indicates the patient takes it twice daily (morning and night).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Medications and allergies",
+    "note_span": "Apixaban 5 mg once daily.",
+    "transcript_evidence": "Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday.",
+    "evidence_turns": [
+     20
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the apixaban dosage is once daily, while the transcript indicates the patient takes it twice daily (morning and night)."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

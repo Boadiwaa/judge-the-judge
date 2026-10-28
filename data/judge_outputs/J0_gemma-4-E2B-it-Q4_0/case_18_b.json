@@ -1,0 +1,25 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate/Unsupported finding\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"Chest X-ray last month clear.\",\n      \"transcript_evidence\": \"Because of the crackles at the left base, I'd like a chest X-ray today, before you go.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note asserts the result of a chest X-ray from last month was clear, but the transcript only confirms the plan to perform a chest X-ray today, making the note's statement an unsupported assertion.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "examination",
+    "note_span": "Chest X-ray last month clear.",
+    "transcript_evidence": "Because of the crackles at the left base, I'd like a chest X-ray today, before you go.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note asserts the result of a chest X-ray from last month was clear, but the transcript only confirms the plan to perform a chest X-ray today, making the note's statement an unsupported assertion."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}
