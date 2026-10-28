@@ -19,7 +19,9 @@ from jtj.schema import TIERS
 
 QUERIES = [{}, {"mode": "explain"}, {"mode": "explain", "error": "case_07_a_e2"}, {"variant": "clean", "mode": "explain"},
            {"type": "LATERALITY"}, {"tier": "High+"}, {"setting": "REMOTE", "mode": "challenge"},
-           {"missed": "J2", "mode": "explain"}, {"error": "does_not_exist"}]
+           {"missed": "J2", "mode": "explain"}, {"error": "does_not_exist"}, {"subtle": "subtle"},
+           {"subtle": "obvious", "type": "DRUG_NAME", "missed": "J1"}]
+PAGE_QUERIES = {"/explorer": QUERIES, "/protocol": [{}, {"section": "external-validity"}, {"section": "nope"}]}
 
 
 def make_ctx(data: AppData, narrow=False, dark=False, query=None):
@@ -64,14 +66,15 @@ def full(tmp_path_factory):
 @pytest.mark.parametrize("route", list(PAGES))
 @pytest.mark.parametrize("narrow,dark", [(False, False), (True, True)])
 def test_pages_build_without_results(empty, route, narrow, dark):
-    for q in (QUERIES if route == "/explorer" else [{}]):
+    for q in PAGE_QUERIES.get(route, [{}]):
         assert PAGES[route](make_ctx(empty, narrow, dark, q)) is not None
 
 
 @pytest.mark.parametrize("route", list(PAGES))
 def test_pages_build_with_full_results(full, route):
-    for q in (QUERIES if route == "/explorer" else [{}]):
+    for q in PAGE_QUERIES.get(route, [{}]):
         assert PAGES[route](make_ctx(full, query=q)) is not None
+    assert set(full.metrics["per_judge"]["J1"]["by_subtlety"]) == {"subtle", "obvious"}
 
 
 def test_challenge_reveal_scoring(empty):
@@ -124,10 +127,17 @@ def test_tier_and_text_colours_meet_wcag_aa(pal):
 
 def test_protocol_markdown_has_all_sections_and_prompts(empty):
     md = protocol.markdown(empty.cases)
-    for heading in ("Background", "Related work", "Error taxonomy", "Matching rule", "Sample size", "Limitations",
-                    "References"):
+    for heading in ("Background", "Related work", "Error taxonomy", "Matching rule", "Sample size",
+                    "External validity: why seeded errors", "Limitations", "References"):
         assert f"## {heading}" in md
     assert "J2 · Step 2 user" in md and "246 high-risk errors" in md
+    assert "`DRUG_NAME`" in md and "subtle vs obvious" in md
+
+
+def test_protocol_deep_link_shows_section_first(empty):
+    page = PAGES["/protocol"](make_ctx(empty, query={"section": "external-validity"}))
+    first = page.controls[1].content.controls[0]  # controls[0] is the page header
+    assert first.value == "External validity: why seeded errors"
 
 
 def test_related_work_citations_resolve_to_references():

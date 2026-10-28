@@ -300,6 +300,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The patient corrected 10 mg to 5 mg after checking the box; ramipril is being stopped, so harm is limited to a misleading medication history.",
+          "subtle": true,
           "description": "Ramipril dose kept at the figure the patient corrected"
         },
         {
@@ -316,6 +317,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "The wife's asthma recorded as the patient's may lead to the cough being attributed to asthma and to inappropriate inhaler or beta-blocker decisions in future.",
+          "subtle": true,
           "description": "Wife's asthma recorded as the patient's"
         },
         {
@@ -330,7 +332,23 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Renal function and potassium monitoring after starting an angiotensin receptor blocker would be missed, risking undetected hyperkalaemia or kidney injury.",
+          "subtle": true,
           "description": "Kidney blood test after the switch deferred to annual review"
+        },
+        {
+          "error_id": "case_01_a_e4",
+          "type": "DRUG_NAME",
+          "section": "medications_allergies",
+          "original_text": "Atorvastatin 20 mg at night.",
+          "mutated_text": "Rosuvastatin 20 mg at night.",
+          "evidence_turns": [
+            31
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Atorvastatin recorded as rosuvastatin, a similar-sounding statin; 20 mg of rosuvastatin is a higher-intensity dose, so continuing it as recorded adds some risk of muscle side effects, but serious harm is unlikely.",
+          "subtle": true,
+          "description": "Atorvastatin recorded as rosuvastatin"
         }
       ]
     },
@@ -352,6 +370,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "A 2-week cough falls below the 3-week threshold for chest X-ray in an ex-smoker over 40 (NICE NG12), so the X-ray may be cancelled or deprioritised.",
+          "subtle": true,
           "description": "Cough duration shortened from two months to two weeks"
         },
         {
@@ -366,6 +385,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 2,
           "seeded_rationale": "Red-flag advice about haemoptysis and weight loss was given verbally but is undocumented, so it will not be reinforced and its absence is medicolegally significant.",
+          "subtle": false,
           "description": "Red-flag safety-netting dropped"
         },
         {
@@ -380,6 +400,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Twice-daily dosing doubles the intended starting dose, increasing the risk of hypotension, falls and hyperkalaemia.",
+          "subtle": true,
           "description": "Losartan frequency doubled"
         },
         {
@@ -395,6 +416,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 1,
           "seeded_rationale": "Who attended is useful context but does not change management.",
+          "subtle": true,
           "description": "Wife's attendance not recorded"
         }
       ]

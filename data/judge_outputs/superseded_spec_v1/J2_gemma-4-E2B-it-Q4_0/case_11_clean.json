@@ -1,0 +1,294 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient has a flare of atopic eczema lasting 2 weeks."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient's eczema flare duration was initially reported as a month but corrected to two weeks."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient experiences nocturnal itch that disturbs sleep."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient's eczema flare is worst in the flexures, specifically the right elbow."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient denies weeping, crusting, blisters, or punched-out lesions."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has recently started using bubble baths."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient uses Epaderm once daily and hydrocortisone 1% cream."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has no personal history of asthma or wheezing."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient's father has hay fever and her sister has asthma."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "The patient uses Epaderm emollient and hydrocortisone 1% cream (over the counter)."
+   },
+   {
+    "id": "c11",
+    "section": "Examination",
+    "claim": "The patient has dry, erythematous, excoriated patches in both antecubital and both popliteal fossae."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "The right elbow crease is the most severe area of the rash."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "There are no signs of infection (no weeping, crusting, or vesicles)."
+   },
+   {
+    "id": "c14",
+    "section": "Impression",
+    "claim": "The condition is a moderate flare of atopic eczema with no signs of infection."
+   },
+   {
+    "id": "c15",
+    "section": "Impression",
+    "claim": "A possible trigger for the flare is bubble baths."
+   },
+   {
+    "id": "c16",
+    "section": "Plan",
+    "claim": "The plan is to use clobetasone butyrate 0.05% once daily for 7 days, followed by hydrocortisone 1% if needed."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "The patient should use Epaderm 3\u20134 times daily and as a soap substitute (at least 500 g tub every 2 weeks)."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The patient should stop using bubble baths."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The follow-up appointment is scheduled in two weeks."
+   },
+   {
+    "id": "c20",
+    "section": "Safety-netting",
+    "claim": "The patient should seek same-day review if they develop painful sores, blisters, or punched-out spots, especially with fever or feeling unwell (possible eczema herpeticum)."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     4
+    ],
+    "fact": "The patient's eczema is flared up badly, causing nocturnal itch and sleep disturbance.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     6
+    ],
+    "fact": "The patient's eczema flare duration was corrected from a month to two weeks.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     8
+    ],
+    "fact": "The worst areas of the flare are the backs of the knees and the insides of the elbows, with the right elbow being the worst.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     9
+    ],
+    "fact": "The patient reports the condition is very itchy.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     11
+    ],
+    "fact": "The patient denies weeping, crusting, or yellow discharge, reporting only red, dry, and scratched skin.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     12
+    ],
+    "fact": "The patient denies having blisters or painful sores that look like little punched-out holes.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     15
+    ],
+    "fact": "The patient denies having fevers or feeling unwell.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     17
+    ],
+    "fact": "The patient is currently using Epaderm once a day and hydrocortisone cream from the chemist.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     19
+    ],
+    "fact": "The hydrocortisone cream strength is one percent.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     21
+    ],
+    "fact": "The patient denies having any other medications or drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     23
+    ],
+    "fact": "The patient's father has hay fever and her big sister has asthma.",
+    "about": "relative"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     25
+    ],
+    "fact": "The patient has no personal history of asthma or wheezing.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     27
+    ],
+    "fact": "The patient has a cat at home.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     29
+    ],
+    "fact": "The patient has started having bubble baths at her mum's.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     30
+    ],
+    "fact": "Examination findings show dry, red, scratched patches in both elbow creases and behind both knees, with the right elbow crease being the worst.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     30
+    ],
+    "fact": "Examination findings show no weeping, crusting, or blisters, indicating no sign of infection.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     32
+    ],
+    "fact": "The plan is to use clobetasone butyrate 0.05% once daily on the red patches for seven days, then switch back to hydrocortisone 1% if needed.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     34
+    ],
+    "fact": "The clinician explained that the cream should be applied using a fingertip unit, covering an area the size of two adult hands.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     36
+    ],
+    "fact": "The plan is to use Epaderm three or four times a day, at least a 500 gram tub every two weeks, and to use it as a soap substitute.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     36
+    ],
+    "fact": "The patient is instructed to stop using bubble baths.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     38
+    ],
+    "fact": "The clinician plans to review the patient in two weeks.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     40
+    ],
+    "fact": "Safety netting advises seeking same-day review if the patient develops painful sores, blisters, or punched-out spots, especially with fever or feeling unwell (possible eczema herpeticum).",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

@@ -293,6 +293,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Possible pregnancy changes antibiotic choice, urine culture and follow-up; without it in the history, the pregnancy test and call-back look unexplained and may be dropped.",
+          "subtle": false,
           "description": "Late period dropped from the history"
         },
         {
@@ -307,6 +308,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Four times daily doubles the dose of the modified-release preparation, increasing nausea and adverse effects without benefit.",
+          "subtle": true,
           "description": "Nitrofurantoin frequency doubled"
         },
         {
@@ -323,6 +325,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Recorded loin pain and fever imply pyelonephritis, for which a 3-day nitrofurantoin course is inappropriate; the record contradicts the plan and may prompt unnecessary escalation.",
+          "subtle": false,
           "description": "Absent loin pain and fever recorded as present"
         }
       ]
@@ -343,6 +346,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "The patient corrected yesterday to Saturday; duration has little effect on management of uncomplicated cystitis.",
+          "subtle": true,
           "description": "Symptom duration kept at the figure the patient corrected"
         },
         {
@@ -357,6 +361,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "An examination recorded in a telephone consultation is fabricated; it falsely documents that pyelonephritis was excluded clinically.",
+          "subtle": false,
           "description": "Examination recorded in a phone call"
         },
         {
@@ -371,6 +376,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Without the call-back, a positive pregnancy test may not reach the practice, and antibiotics, analgesia and urine culture would not be reviewed for pregnancy.",
+          "subtle": false,
           "description": "Pregnancy-test call-back dropped from the plan"
         }
       ]

@@ -1,0 +1,383 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "History/Symptom",
+    "claim": "The presenting complaint is a dry cough lasting approximately 2 months."
+   },
+   {
+    "id": "c2",
+    "section": "History/Symptom",
+    "claim": "The patient has a persistent dry, tickly, non-productive cough."
+   },
+   {
+    "id": "c3",
+    "section": "History/Symptom",
+    "claim": "The patient denies haemoptysis, fevers, night sweats, weight loss, breathlessness, chest pain, or heartburn."
+   },
+   {
+    "id": "c4",
+    "section": "History/Medication",
+    "claim": "Ramipril was started at the end of May for hypertension."
+   },
+   {
+    "id": "c5",
+    "section": "History/Medication",
+    "claim": "The ramipril dose was increased from 2.5 mg to 5 mg in July."
+   },
+   {
+    "id": "c6",
+    "section": "History/Causality",
+    "claim": "The cough began after starting ramipril."
+   },
+   {
+    "id": "c7",
+    "section": "History/Smoking",
+    "claim": "The patient is an ex-smoker who stopped 20 years ago, having previously smoked about 10 per day for 15 years (approximately 7.5 pack-years)."
+   },
+   {
+    "id": "c8",
+    "section": "History/Medical",
+    "claim": "The patient has a known history of asthma."
+   },
+   {
+    "id": "c9",
+    "section": "Medications",
+    "claim": "Current medications include Ramipril 10 mg once daily and Atorvastatin 20 mg at night."
+   },
+   {
+    "id": "c10",
+    "section": "Examination",
+    "claim": "The chest examination is clear bilaterally."
+   },
+   {
+    "id": "c11",
+    "section": "Examination",
+    "claim": "The throat examination is normal."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "The patient's blood pressure is 134/82."
+   },
+   {
+    "id": "c13",
+    "section": "Impression",
+    "claim": "The persistent dry cough is most likely induced by an ACE inhibitor."
+   },
+   {
+    "id": "c14",
+    "section": "Plan",
+    "claim": "The plan is to stop ramipril and switch the patient to losartan 50 mg once daily."
+   },
+   {
+    "id": "c15",
+    "section": "Plan",
+    "claim": "A blood test for kidneys and salt levels is planned one to two weeks after starting losartan."
+   },
+   {
+    "id": "c16",
+    "section": "Plan",
+    "claim": "A chest X-ray is arranged due to the patient being an ex-smoker with a cough for 2 months."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "A follow-up appointment is scheduled in four weeks to check blood pressure."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The patient is advised that the cough may take up to three months to resolve after stopping ramipril."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "If the cough does not improve at the four-week review, other causes will be considered."
+   },
+   {
+    "id": "c20",
+    "section": "Safety-netting",
+    "claim": "The patient is advised to contact the practice sooner if they experience haemoptysis, breathlessness, unintentional weight loss, or chest pain."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     5
+    ],
+    "fact": "The patient reports a dry, tickly cough that never stops.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     7
+    ],
+    "fact": "The patient reports the cough has been going on for about six weeks.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     8
+    ],
+    "fact": "The relative states the cough started before the patient's sister's birthday, which was early August.",
+    "about": "relative"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     9
+    ],
+    "fact": "The patient corrects the duration, stating it is more like two months.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     11
+    ],
+    "fact": "The patient denies bringing anything up when coughing, stating it is completely dry.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     13
+    ],
+    "fact": "The patient denies any blood.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     15
+    ],
+    "fact": "The patient denies fevers, night sweats, or losing weight, stating they have put on a bit of weight.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     17
+    ],
+    "fact": "The patient denies breathlessness or chest pain, stating they are fine walking the dog and have no chest pain.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     19
+    ],
+    "fact": "The patient denies heartburn or acid coming up into the throat.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     23
+    ],
+    "fact": "The patient gave up smoking 20 years ago and previously smoked about 10 cigarettes a day for maybe 15 years.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     24
+    ],
+    "fact": "The clinician notes the patient was started on ramipril for blood pressure.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     25
+    ],
+    "fact": "The patient states ramipril was started in the summer, specifically in June.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     26
+    ],
+    "fact": "The relative corrects the timing, stating it was the end of May because they had just returned from Whitby.",
+    "about": "relative"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     29
+    ],
+    "fact": "The patient corrects the ramipril dose, stating it is 5 mg once a day, and it was increased from 2.5 mg in July.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     31
+    ],
+    "fact": "The patient is taking atorvastatin 20 mg at night.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     33
+    ],
+    "fact": "The patient reports no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     34
+    ],
+    "fact": "The relative mentions that she coughs at night, but her condition is asthma.",
+    "about": "relative"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     36
+    ],
+    "fact": "The patient denies ever having asthma.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician performs a chest examination and notes the chest sounds clear on both sides.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician notes the patient's throat looks normal.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician measures the patient's blood pressure as 134/82.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician suggests ramipril is causing the cough because it is a well-known side effect and the timing fits.",
+    "about": "clinician"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician suggests stopping ramipril and switching to losartan.",
+    "about": "clinician"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician plans to start losartan at 50 mg once a day.",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician plans to order a blood test to check kidneys and salt levels one to two weeks after starting losartan.",
+    "about": "clinician"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician plans to see the patient again in four weeks to check blood pressure.",
+    "about": "clinician"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician advises that the cough may take a few weeks, sometimes up to three months, to settle after stopping ramipril.",
+    "about": "clinician"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     47
+    ],
+    "fact": "The clinician suggests arranging a chest X-ray because the patient used to smoke and the cough has lasted for a couple of months.",
+    "about": "clinician"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     49
+    ],
+    "fact": "The clinician provides safety-netting advice to contact the practice sooner if the patient coughs up blood, becomes short of breath, loses weight without trying, or gets chest pain.",
+    "about": "clinician"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     52
+    ],
+    "fact": "The clinician states that if the cough has not improved at the four-week review, they will think again about other causes.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History/Medical\",\n      \"note_span\": \"Known asthma.\",\n      \"transcript_evidence\": \"F36: Patient: No, never.\",\n      \"evidence_turns\": [\n        36\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the patient has a known history of asthma, which is directly contradicted by the patient's denial in the transcript.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"U&Es at next annual review.\",\n      \"transcript_evidence\": \"F43: Clinician: I'd like a blood test to check your kidneys and salt levels one to two weeks after you start it.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the critical timing detail that the blood test for kidneys and salt levels is planned one to two weeks after starting losartan, instead stating it is for the next annual review.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History/Medical",
+    "note_span": "Known asthma.",
+    "transcript_evidence": "F36: Patient: No, never.",
+    "evidence_turns": [
+     36
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the patient has a known history of asthma, which is directly contradicted by the patient's denial in the transcript."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Plan",
+    "note_span": "U&Es at next annual review.",
+    "transcript_evidence": "F43: Clinician: I'd like a blood test to check your kidneys and salt levels one to two weeks after you start it.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the critical timing detail that the blood test for kidneys and salt levels is planned one to two weeks after starting losartan, instead stating it is for the next annual review."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

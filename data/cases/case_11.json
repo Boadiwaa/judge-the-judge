@@ -246,11 +246,12 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "The side of the worst patch matters little in symmetrical flexural eczema.",
+          "subtle": true,
           "description": "Worst patch recorded on the wrong arm"
         },
         {
           "error_id": "case_11_a_e2",
-          "type": "DOSE_UNIT",
+          "type": "DRUG_NAME",
           "section": "plan",
           "original_text": "Clobetasone butyrate 0.05%",
           "mutated_text": "Clobetasol propionate 0.05%",
@@ -260,6 +261,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Clobetasol is a very potent steroid, not moderate; in a child it increases the risk of skin thinning and adrenal suppression, and the names are easily confused at dispensing.",
+          "subtle": true,
           "description": "Moderate steroid swapped for a very potent one"
         },
         {
@@ -274,6 +276,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "Lymph nodes were not examined; recorded lymphadenopathy could prompt unnecessary antibiotics or investigation.",
+          "subtle": true,
           "description": "Lymph node finding recorded that was never examined"
         }
       ]
@@ -293,6 +296,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "Flare duration has little effect on management here.",
+          "subtle": true,
           "description": "Flare duration kept at the figure the father corrected"
         },
         {
@@ -308,6 +312,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "The sister's asthma recorded as Mia's gives her an incorrect diagnosis that may lead to inappropriate inhaler prescribing.",
+          "subtle": true,
           "description": "Sister's asthma recorded as the child's"
         },
         {
@@ -322,6 +327,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 2,
           "seeded_rationale": "Eczema herpeticum needs urgent antiviral treatment; the advice was given but is undocumented.",
+          "subtle": false,
           "description": "Eczema herpeticum safety-netting dropped"
         },
         {
@@ -336,6 +342,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 1,
           "seeded_rationale": "A long-standing pet is unlikely to be the flare trigger, and its absence will not change management.",
+          "subtle": true,
           "description": "Pet cat dropped"
         }
       ]

@@ -256,6 +256,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "The sister's apnoea recorded as Arlo's would mandate emergency admission and misrepresent his illness on his record.",
+          "subtle": true,
           "description": "Sister's apnoea recorded as the baby's"
         },
         {
@@ -271,6 +272,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "The father corrected the feeding history to about half; recording 'most feeds' removes the main reason for early review and could delay admission for dehydration.",
+          "subtle": true,
           "description": "Feeding kept at the amount the father corrected"
         },
         {
@@ -285,6 +287,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "Household smoking is relevant for counselling and risk, but its absence will not change immediate management.",
+          "subtle": true,
           "description": "Household smoking dropped"
         }
       ]
@@ -304,6 +307,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "A four-week cough in an infant suggests a different illness such as pertussis, which could prompt unnecessary tests or misdirect care.",
+          "subtle": true,
           "description": "Illness duration recorded as four weeks"
         },
         {
@@ -318,6 +322,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The baby was not weighed; an invented weight could be used for drug dosing or growth monitoring.",
+          "subtle": true,
           "description": "Weight recorded that was never measured"
         },
         {
@@ -332,6 +337,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 2,
           "seeded_rationale": "Emergency advice for an infant with bronchiolitis, whose sibling had an apnoea, is undocumented; if he deteriorates there is no record the parents knew when to call 999.",
+          "subtle": false,
           "description": "Emergency breathing advice dropped"
         },
         {
@@ -346,6 +352,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Home management was only reasonable with next-day review; without it, a borderline infant may deteriorate unseen.",
+          "subtle": false,
           "description": "Next-day review changed to one week"
         }
       ]

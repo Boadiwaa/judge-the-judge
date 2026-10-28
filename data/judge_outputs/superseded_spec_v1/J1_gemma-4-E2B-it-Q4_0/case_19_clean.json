@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Early morning stiffness lasting about 90 minutes (initially said 30 minutes).\",\n      \"transcript_evidence\": \"About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.\",\n      \"evidence_turns\": [\n        7\n      ],\n      \"severity\": 1,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly records the initial duration of morning stiffness, potentially leading to an inaccurate assessment of disease activity.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Early morning stiffness lasting about 90 minutes (initially said 30 minutes).",
+    "transcript_evidence": "About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.",
+    "evidence_turns": [
+     7
+    ],
+    "severity": 1,
+    "likelihood": 4,
+    "rationale": "The note incorrectly records the initial duration of morning stiffness, potentially leading to an inaccurate assessment of disease activity."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

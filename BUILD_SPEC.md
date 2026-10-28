@@ -70,8 +70,18 @@ We write synthetic UK consultations, each with a transcript and a clean referenc
 | TEMPORAL | Timing error | "3 days" becomes "3 weeks" |
 | CORRECTION_LOST | Self-correction ignored | Note keeps the figure the patient later corrected |
 | PLAN_CHANGE | Plan altered | Follow-up "1 week" becomes "if needed" |
+| DRUG_NAME | Drug name swapped for a sound-alike or look-alike | "hydralazine" becomes "hydroxyzine" |
 
 Distribute types so each appears at least 8 times across the dataset.
+
+**Make the seeded errors realistic, not just easy to plant.** Published evaluation of production ambient scribes reports that most serious errors are **medication-name confusions** and **negation or status flips**. Weight the dataset towards these: give DRUG_NAME and NEGATION at least 12 instances each, and make most of them High or Very high risk where clinically justified.
+
+For DRUG_NAME:
+- Use sound-alike or look-alike pairs that a speech-recognition or summarisation system could plausibly confuse, preferring pairs that appear on UK look-alike/sound-alike medication safety lists. Starting set (Paulina reviews every pair): hydralazine/hydroxyzine, amlodipine/amiloride, chlorpromazine/chlorphenamine, carbamazepine/oxcarbazepine, prednisolone/propranolol, sulfasalazine/sulfadiazine.
+- The swapped drug must be one the reference note actually mentions, and the mutated text must still read as a plausible note (correct dose form, plausible dose).
+- Record the pair and why it is dangerous in `seeded_rationale` (for example, an antihypertensive recorded as a sedating antihistamine).
+
+Also make some errors *subtle*: at least a third of all seeded errors should be ones a busy clinician could plausibly miss on a quick read (for example TEMPORAL "3 days" → "3 weeks", CORRECTION_LOST), not only obvious ones. Tag each seeded error with `"subtle": true|false`, and report sensitivity separately for subtle and obvious errors on the Scorecard.
 
 ### 2.4 Clinical risk grading (answer key)
 
@@ -120,6 +130,26 @@ Deterministic, no LLM:
 **Reporting standard:** follow the spirit of GRRAS (reliability and agreement) and DECIDE-AI (describing the AI system). Include a short checklist on the Protocol page.
 
 Implement Gwet's AC1/AC2 yourself in `stats.py` and cross-check against the `irrCAC` package if it installs; unit-test against a worked example with known values. If the two disagree, trust neither until you find out why, and log it.
+
+### 2.8 External validity: why seeded errors (put on the Protocol page and summarise on the Overview)
+
+Planted errors will not tell us how often a judge misses errors in real-world notes. They measure something real-note studies cannot: **an exact miss rate for known error types**, because the answer key is complete. Studies of real notes can only judge errors that something flagged, and expert reviewers miss errors too, so the true number of errors is unknown and the miss rate must be estimated statistically.
+
+State the value plainly, with the clinical analogies:
+
+1. **A floor test.** Like spike-and-recovery in a lab assay or a phantom in radiology QA: if a judge misses a planted tenfold dose error, it will miss subtler real ones. Passing is necessary, not sufficient.
+2. **The miss rate, exactly,** by error type and risk tier.
+3. **Fair comparisons.** Identical notes with one change isolate the effect of judge design, model or prompt.
+4. **Cheap, repeatable regression testing.** Re-run in minutes when a model or prompt changes, with no clinician time. In production this becomes a standing check that a judge update has not started missing, for example, drug-name errors: post-market surveillance for the judge itself.
+5. **No patient data,** so it can run from day one.
+
+State the limits just as plainly:
+
+- Planted errors may be easier, or simply different, from the errors a real scribe makes, so sensitivity here is likely an *upper bound* on real-world sensitivity for the same error types.
+- Error types we did not plant are not measured at all.
+- Planting is mitigated, not solved, by modelling errors on reported real-world failure modes (2.3).
+
+Close with the recommended design: **use seeded errors alongside real-note validation** (blinded clinician review, adjudicated reference standards, latent-class or capture–recapture estimates of errors everyone missed), not instead of it. In production, real failures found in surveillance become new seeded cases, so the test set keeps up with the errors that actually occur.
 
 ---
 
@@ -174,7 +204,8 @@ Implement Gwet's AC1/AC2 yourself in `stats.py` and cross-check against the `irr
 - Script `scripts/compute_agreement.py` reads ratings and regenerates the clinician-agreement results; the Scorecard's agreement section unlocks when ≥2 raters have rated ≥20 notes each.
 
 **5. Protocol**
-- Written like a short pre-registered protocol: background, question, design, cases, error taxonomy table, risk matrix, judges (with full prompts in collapsible blocks), matching rule, endpoints, analysis plan, sample size reasoning, GRRAS/DECIDE-AI checklist, limitations, version and date.
+- Written like a short pre-registered protocol: background, question, design, cases, error taxonomy table, risk matrix, judges (with full prompts in collapsible blocks), matching rule, endpoints, analysis plan, sample size reasoning, **external validity: why seeded errors (section 2.8)**, GRRAS/DECIDE-AI checklist, limitations, version and date.
+- On the Overview, add one line under the Limitations strip linking to the external validity section: "Why planted errors? They give an exact miss rate for known error types; they don't replace real-note validation."
 - "Download protocol (Markdown)" button.
 
 **6. About**
@@ -268,7 +299,8 @@ judge-the-judge/
           "evidence_turns": [14, 15],
           "seeded_severity": 3,
           "seeded_likelihood": 3,
-          "seeded_rationale": "..."
+          "seeded_rationale": "...",
+          "subtle": false
         }
       ]
     }
@@ -333,7 +365,7 @@ Run order: J1 on 6 notes first, inspect the outputs and the matcher by hand, fix
 
 ## 7. Tests (pytest; all must pass before the final commit)
 
-- Case validation (5.2) over all case files.
+- Case validation (5.2) over all case files, including: DRUG_NAME and NEGATION each have at least 12 instances; every DRUG_NAME mutation swaps a drug that appears in the reference note for a different drug name; at least a third of seeded errors are tagged `"subtle": true`.
 - Mutation application: produces expected text; omissions remove text cleanly.
 - Matcher: at least 10 hand-written cases, including near-misses and omissions.
 - Stats: Wilson CI, McNemar exact, Holm, weighted kappa, Gwet AC1/AC2 against known worked values.

@@ -281,6 +281,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The daughter's carpal tunnel symptoms recorded as the patient's may prompt unnecessary neuropathy work-up or a wrong diagnosis on his record.",
+          "subtle": true,
           "description": "Daughter's pins and needles recorded as the patient's"
         },
         {
@@ -295,6 +296,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 2,
           "seeded_rationale": "A tenfold dose would likely be caught at dispensing, but if given it increases the risk of volume depletion and ketoacidosis.",
+          "subtle": false,
           "description": "Empagliflozin dose ten times too high"
         },
         {
@@ -309,6 +311,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 2,
           "seeded_rationale": "A driver on a sulfonylurea with a recent severe hypo has no documented driving advice; a hypo at the wheel could be fatal to him or others.",
+          "subtle": false,
           "description": "Driving and hypo advice dropped"
         }
       ]
@@ -328,6 +331,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The podiatrist may look at the wrong foot first, but the callus would be found on examination.",
+          "subtle": true,
           "description": "Callus recorded on the wrong foot"
         },
         {
@@ -342,6 +346,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "The dose reduction agreed to prevent further hypos would not happen, leaving him at risk of another severe hypoglycaemic episode.",
+          "subtle": false,
           "description": "Gliclazide reduction dropped from the plan"
         },
         {
@@ -356,6 +361,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "No ABPI was measured; a recorded normal result gives false reassurance about peripheral arterial disease in future foot assessments.",
+          "subtle": true,
           "description": "Vascular test recorded that was never done"
         },
         {
@@ -370,6 +376,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "A recent severe hypo drives the gliclazide reduction and driving advice; recording it as months ago lowers the urgency of both.",
+          "subtle": true,
           "description": "Recent hypo recorded as three months ago"
         }
       ]

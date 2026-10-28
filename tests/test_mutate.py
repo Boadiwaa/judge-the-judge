@@ -16,7 +16,7 @@ NOTE = ReferenceNote(
 
 def m(**kw):
     base = dict(error_id="x", type="LATERALITY", section="examination", evidence_turns=[1],
-                seeded_severity=2, seeded_likelihood=2, seeded_rationale="r")
+                seeded_severity=2, seeded_likelihood=2, seeded_rationale="r", subtle=False)
     base.update(kw)
     return Mutation(**base)
 

@@ -19,6 +19,9 @@ PANE_H = 640
 # ---------------------------------------------------------------- selection & filters
 
 
+ERROR_FILTERS = ("type", "tier", "subtle", "missed")
+
+
 def _matches_filters(ctx: C.Ctx, m) -> bool:
     q = ctx.query
     if q.get("type") and m.type != q["type"]:
@@ -27,6 +30,8 @@ def _matches_filters(ctx: C.Ctx, m) -> bool:
         if m.tier not in ("High", "Very high"):
             return False
     elif q.get("tier") and m.tier != q["tier"]:
+        return False
+    if q.get("subtle") in ("subtle", "obvious") and m.subtle != (q["subtle"] == "subtle"):
         return False
     if q.get("missed"):
         v = ctx.data.verdict(q["missed"], m.error_id)
@@ -37,7 +42,7 @@ def _matches_filters(ctx: C.Ctx, m) -> bool:
 
 def _filtered_cases(ctx: C.Ctx):
     q, out = ctx.query, []
-    error_filter = any(q.get(k) for k in ("type", "tier", "missed"))
+    error_filter = any(q.get(k) for k in ERROR_FILTERS)
     for c in ctx.data.cases:
         if q.get("setting") and c.setting != q["setting"]:
             continue
@@ -61,7 +66,7 @@ def _resolve(ctx: C.Ctx):
     if c is None:
         c = next((x for x in cases if x.case_id == "case_07"), cases[0])  # the mockup's case
     kind = q.get("variant")
-    error_filter = any(q.get(k) for k in ("type", "tier", "missed"))
+    error_filter = any(q.get(k) for k in ERROR_FILTERS)
     if kind is None and error_filter:
         kind = next((v.kind for v in c.variants if any(_matches_filters(ctx, m) for m in v.mutations)), "a")
     kind = kind or "a"
@@ -115,13 +120,13 @@ def _controls(ctx: C.Ctx, case, variant, cases, mode: str, judge: str) -> ft.Con
                              lambda v: ctx.go(ctx.with_query("/explorer", case=case.case_id, variant=variant.kind,
                                                              judge=v)), ctx), ctx))
 
-    show_filters = ctx.state.get("filters_open") or any(ctx.query.get(k) for k in ("setting", "type", "tier", "missed"))
+    show_filters = ctx.state.get("filters_open") or any(ctx.query.get(k) for k in ("setting",) + ERROR_FILTERS)
 
     def toggle_filters(e):
         ctx.state["filters_open"] = not show_filters
         ctx.rerender()
 
-    active = [ctx.query[k] for k in ("setting", "type", "tier") if ctx.query.get(k)]
+    active = [ctx.query[k] for k in ("setting", "type", "tier", "subtle") if ctx.query.get(k)]
     if ctx.query.get("missed"):
         active.append(f"missed by {ctx.query['missed']}")
     filt_btn = ft.OutlinedButton(
@@ -147,6 +152,9 @@ def _controls(ctx: C.Ctx, case, variant, cases, mode: str, judge: str) -> ft.Con
             _labelled("Risk tier", _dropdown(ctx.query.get("tier", ""), any_opt + [(t, t) for t in TIERS] +
                                              [("High+", "High or Very high")],
                                              lambda e: fq(tier=e.control.value), ctx, 160), ctx),
+            _labelled("Subtlety", _dropdown(ctx.query.get("subtle", ""), any_opt + [("subtle", "Subtle"),
+                                                                                    ("obvious", "Obvious")],
+                                            lambda e: fq(subtle=e.control.value), ctx, 140), ctx),
             _labelled("Judge", _dropdown(ctx.query.get("missed", ""), missed_opts,
                                          lambda e: fq(missed=e.control.value), ctx, 180), ctx),
             ft.TextButton("Clear filters", on_click=lambda e: ctx.go("/explorer"),
@@ -416,7 +424,8 @@ def _error_list(ctx: C.Ctx, case, variant, judge: str) -> ft.Control:
         items.append(ft.Container(ft.Row([
             C.tier_badge(m.tier, ctx, m.risk_score),
             ft.Column([C.body(m.description, ctx, size=14, weight=ft.FontWeight.W_600),
-                       C.body(f"{ERROR_TYPES[m.type]} · {judge} {status}", ctx, size=13, muted=True)],
+                       C.body(f"{ERROR_TYPES[m.type]} · {'subtle' if m.subtle else 'obvious'} · {judge} {status}", ctx,
+                              size=13, muted=True)],
                       spacing=2, expand=True),
             ft.Icon(ft.Icons.CHEVRON_RIGHT, color=ctx.p.text_muted),
         ]), padding=10, border_radius=10, border=ft.Border.all(1, ctx.p.border),

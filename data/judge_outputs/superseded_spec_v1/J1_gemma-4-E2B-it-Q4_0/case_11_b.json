@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Has asthma.\",\n      \"transcript_evidence\": \"I've got hay fever. Her big sister has asthma.\",\n      \"evidence_turns\": [\n        23\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note states the patient has asthma, but the transcript only mentions the sister has asthma, omitting the patient's own history.\"\n    },\n    {\n      \"type\": \"OMIT_SAFETY\",\n      \"note_section\": \"Safety-netting\",\n      \"note_span\": \"\",\n      \"transcript_evidence\": \"If she gets painful sores, blisters or punched-out spots, especially with a fever or feeling unwell, that can be a herpes infection in eczema. Get her seen the same day.\",\n      \"evidence_turns\": [\n        40\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note completely omits the critical safety netting advice regarding the signs of a herpes infection in eczema.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Has asthma.",
+    "transcript_evidence": "I've got hay fever. Her big sister has asthma.",
+    "evidence_turns": [
+     23
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note states the patient has asthma, but the transcript only mentions the sister has asthma, omitting the patient's own history."
+   },
+   {
+    "type": "OMIT_SAFETY",
+    "note_section": "Safety-netting",
+    "note_span": "",
+    "transcript_evidence": "If she gets painful sores, blisters or punched-out spots, especially with a fever or feeling unwell, that can be a herpes infection in eczema. Get her seen the same day.",
+    "evidence_turns": [
+     40
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note completely omits the critical safety netting advice regarding the signs of a herpes infection in eczema."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

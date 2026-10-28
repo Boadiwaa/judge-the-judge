@@ -1,0 +1,38 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports loin pain and fever; no rigors, nausea or vomiting.\",\n      \"transcript_evidence\": \"[13] Clinician: Any pain in your back or sides, just under your ribs?\\n[15] Clinician: Any fever, shivers or shakes?\",\n      \"evidence_turns\": [\n        13,\n        15\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note claims the patient reports loin pain and fever, but the transcript shows the patient denies these symptoms.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Nitrofurantoin 100 mg modified-release four times daily for 3 days.\",\n      \"transcript_evidence\": \"[37] Clinician: I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for three days.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note specifies a frequency of four times daily, while the transcript states twice a day.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Reports loin pain and fever; no rigors, nausea or vomiting.",
+    "transcript_evidence": "[13] Clinician: Any pain in your back or sides, just under your ribs?\n[15] Clinician: Any fever, shivers or shakes?",
+    "evidence_turns": [
+     13,
+     15
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note claims the patient reports loin pain and fever, but the transcript shows the patient denies these symptoms."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Nitrofurantoin 100 mg modified-release four times daily for 3 days.",
+    "transcript_evidence": "[37] Clinician: I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for three days.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note specifies a frequency of four times daily, while the transcript states twice a day."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

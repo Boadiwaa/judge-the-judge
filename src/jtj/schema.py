@@ -16,6 +16,7 @@ ERROR_TYPES: dict[str, str] = {
     "TEMPORAL": "Timing",
     "CORRECTION_LOST": "Self-correction lost",
     "PLAN_CHANGE": "Plan altered",
+    "DRUG_NAME": "Drug name swapped",
 }
 JUDGE_TYPES = set(ERROR_TYPES) | {"UNSPECIFIED"}
 
@@ -105,6 +106,7 @@ class Mutation(BaseModel):
     seeded_severity: int = Field(ge=1, le=5)
     seeded_likelihood: int = Field(ge=1, le=5)
     seeded_rationale: str = Field(min_length=1)
+    subtle: bool  # a busy clinician could plausibly miss it on a quick read (BUILD_SPEC §2.3)
     description: str = ""  # plain-English one-liner for the UI, e.g. "Penicillin allergy dropped"
 
     @field_validator("type")

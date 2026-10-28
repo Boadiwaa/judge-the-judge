@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"followed by generalised stiffening and shaking lasting about 5 minutes.\",\n      \"transcript_evidence\": \"It felt like five minutes. But I looked at the clock when it started and when it stopped, and it was two minutes.\",\n      \"evidence_turns\": [\n        10\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note inaccurately records the duration of the seizure event, potentially leading to incorrect patient education or follow-up.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"No further investigations needed.\",\n      \"transcript_evidence\": \"I'd like an MRI scan of your brain, using an epilepsy protocol, and an EEG, a recording of the brain's electrical activity.\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan omits the requested investigations (MRI and EEG) discussed in the consultation, which is a significant deviation from the agreed management pathway.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "followed by generalised stiffening and shaking lasting about 5 minutes.",
+    "transcript_evidence": "It felt like five minutes. But I looked at the clock when it started and when it stopped, and it was two minutes.",
+    "evidence_turns": [
+     10
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note inaccurately records the duration of the seizure event, potentially leading to incorrect patient education or follow-up."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "No further investigations needed.",
+    "transcript_evidence": "I'd like an MRI scan of your brain, using an epilepsy protocol, and an EEG, a recording of the brain's electrical activity.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The plan omits the requested investigations (MRI and EEG) discussed in the consultation, which is a significant deviation from the agreed management pathway."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

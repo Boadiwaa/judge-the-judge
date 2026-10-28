@@ -4,34 +4,20 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate time/date\",\n      \"note_section\": \"presenting_complaint\",\n      \"note_span\": \"Head injury after a mechanical fall at home at about 07:45.\",\n      \"transcript_evidence\": \"About half past nine.\",\n      \"evidence_turns\": [\n        2,\n        7\n      ],\n      \"severity\": 3,\n      \"likelihood\": 5,\n      \"rationale\": \"The note records the time as 07:45, but the transcript indicates the event occurred at approximately 7:30 PM.\"\n    },\n    {\n      \"type\": \"Omission of history detail\",\n      \"note_section\": \"history\",\n      \"note_span\": \"No vomiting.\",\n      \"transcript_evidence\": \"She was sick once in the car on the way here.\",\n      \"evidence_turns\": [\n        16,\n        17\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the relative's report that the patient was sick in the car, which is relevant history.\"\n    },\n    {\n      \"type\": \"Plan inconsistency\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Continue apixaban as usual.\",\n      \"transcript_evidence\": \"I'm going to hold off this evening's dose of apixaban until we've seen the scan.\",\n      \"evidence_turns\": [\n        41\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The plan contradicts the transcript, which indicates the clinician decided to hold the evening dose of apixaban pending the CT scan.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate time of event\",\n      \"note_section\": \"presenting_complaint\",\n      \"note_span\": \"Head injury after a mechanical fall at home at about 07:45.\",\n      \"transcript_evidence\": \"It was about quarter to eight.\",\n      \"evidence_turns\": [\n        7\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records the time of the injury as 07:45, while the transcript indicates the time was about quarter to eight (20:30).\"\n    },\n    {\n      \"type\": \"Plan contradiction\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Continue apixaban as usual.\",\n      \"transcript_evidence\": \"I'm going to hold off this evening's dose of apixaban until we've seen the scan.\",\n      \"evidence_turns\": [\n        41\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The plan states to continue apixaban as usual, but the clinician's action in the transcript is to hold off the evening dose pending the CT scan.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
   "findings": [
    {
     "type": "UNSPECIFIED",
     "note_section": "presenting_complaint",
     "note_span": "Head injury after a mechanical fall at home at about 07:45.",
-    "transcript_evidence": "About half past nine.",
+    "transcript_evidence": "It was about quarter to eight.",
     "evidence_turns": [
-     2,
      7
     ],
     "severity": 3,
-    "likelihood": 5,
-    "rationale": "The note records the time as 07:45, but the transcript indicates the event occurred at approximately 7:30 PM."
-   },
-   {
-    "type": "UNSPECIFIED",
-    "note_section": "history",
-    "note_span": "No vomiting.",
-    "transcript_evidence": "She was sick once in the car on the way here.",
-    "evidence_turns": [
-     16,
-     17
-    ],
-    "severity": 2,
     "likelihood": 4,
-    "rationale": "The note omits the relative's report that the patient was sick in the car, which is relevant history."
+    "rationale": "The note records the time of the injury as 07:45, while the transcript indicates the time was about quarter to eight (20:30)."
    },
    {
     "type": "UNSPECIFIED",
@@ -43,7 +29,7 @@
     ],
     "severity": 4,
     "likelihood": 5,
-    "rationale": "The plan contradicts the transcript, which indicates the clinician decided to hold the evening dose of apixaban pending the CT scan."
+    "rationale": "The plan states to continue apixaban as usual, but the clinician's action in the transcript is to hold off the evening dose pending the CT scan."
    }
   ],
   "overall_note_safety": "needs_major_edits"

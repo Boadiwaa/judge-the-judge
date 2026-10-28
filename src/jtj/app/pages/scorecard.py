@@ -26,6 +26,11 @@ INFO = {
         "beside the row. Darker means more caught. With small n, read rows as patterns, not precise rates. Tap a "
         "cell to open the cases where that judge missed that error type."),
     "tier": "Detection broken down by the answer key's risk tier. A good judge should be best at the highest tiers.",
+    "subtle": (
+        "Subtle errors leave the note reading as plausible and consistent, so a busy clinician could miss them on a "
+        "quick read; only the transcript gives them away (for example \"3 days\" recorded as \"3 weeks\"). Obvious "
+        "errors make the note look wrong on its own, such as an implausible dose. A judge that only catches obvious "
+        "errors adds little to a quick human read."),
     "mcnemar": (
         "Both judges saw exactly the same planted errors, so we compare them pairwise: on how many errors did one "
         "judge succeed where the other failed? McNemar's exact test asks whether that imbalance could be chance. "
@@ -135,21 +140,44 @@ def _heatmap(ctx: C.Ctx) -> ft.Control:
 def _by_tier(ctx: C.Ctx) -> ft.Control:
     d = ctx.data
     pj = (d.metrics or {}).get("per_judge", {}) if d.has_any_results else {}
-    rows = [ft.Row([ft.Container(C.body("Tier", ctx, size=13, muted=True), width=110),
-                    ft.Container(C.body("n", ctx, size=13, muted=True), width=34)] +
-                   [ft.Container(C.body(j, ctx, size=13, muted=True), width=74) for j in JUDGES])]
+    rows = [ft.Row([ft.Container(C.body("Tier", ctx, size=13, muted=True), width=88),
+                    ft.Container(C.body("n", ctx, size=13, muted=True), width=30)] +
+                   [ft.Container(C.body(j, ctx, size=13, muted=True), expand=True) for j in JUDGES])]
     for t in TIERS:
         cells = []
         for j in JUDGES:
             c = pj.get(j, {}).get("by_tier", {}).get(t)
-            cells.append(ft.Container(C.mono(f"{C.fmt_p(c['p'])}" if c else "–", ctx, 13), width=74,
+            cells.append(ft.Container(C.mono(f"{C.fmt_p(c['p'])}" if c else "–", ctx, 13), expand=True,
                                       on_click=(lambda e, j=j, t=t: ctx.go(f"/explorer?tier={t}&missed={j}"))
                                       if c else None))
-        rows.append(ft.Row([ft.Container(C.tier_badge(t, ctx), width=110),
-                            ft.Container(C.mono(str(d.summary["by_tier"][t]), ctx, 13, color=ctx.p.text_muted), width=34),
+        rows.append(ft.Row([ft.Container(C.tier_badge(t, ctx), width=88),
+                            ft.Container(C.mono(str(d.summary["by_tier"][t]), ctx, 13, color=ctx.p.text_muted), width=30),
                             *cells]))
     return C.card(ft.Column([C.h3("Sensitivity by risk tier", ctx), C.info_panel("What does this mean?", INFO["tier"],
                                                                                  ctx), *rows], spacing=8), ctx)
+
+
+def _by_subtlety(ctx: C.Ctx) -> ft.Control:
+    d = ctx.data
+    pj = (d.metrics or {}).get("per_judge", {}) if d.has_any_results else {}
+    n_subtle = d.summary["n_subtle"]
+    counts = {"subtle": n_subtle, "obvious": d.summary["n_errors"] - n_subtle}
+    rows = [ft.Row([ft.Container(C.body("Errors", ctx, size=13, muted=True), width=70),
+                    ft.Container(C.body("n", ctx, size=13, muted=True), width=30)] +
+                   [ft.Container(C.body(j, ctx, size=13, muted=True), expand=True) for j in JUDGES])]
+    for k in ("subtle", "obvious"):
+        cells = []
+        for j in JUDGES:
+            c = pj.get(j, {}).get("by_subtlety", {}).get(k)
+            cells.append(ft.Container(C.mono(C.fmt_p(c["p"]) if c else "–", ctx, 13), expand=True,
+                                      tooltip=f"{j}: {c['k']}/{c['n']} {k} errors found. Tap to see the misses."
+                                      if c else "Not yet run",
+                                      on_click=(lambda e, j=j, k=k: ctx.go(f"/explorer?subtle={k}&missed={j}"))
+                                      if c else None))
+        rows.append(ft.Row([ft.Container(C.body(k.capitalize(), ctx, size=14), width=70),
+                            ft.Container(C.mono(str(counts[k]), ctx, 13, color=ctx.p.text_muted), width=30), *cells]))
+    return C.card(ft.Column([C.h3("Subtle vs obvious errors", ctx),
+                             C.info_panel("What does this mean?", INFO["subtle"], ctx), *rows], spacing=8), ctx)
 
 
 def _comparisons(ctx: C.Ctx) -> ft.Control:
@@ -294,7 +322,8 @@ def build(ctx: C.Ctx) -> ft.Control:
         head, _primary(ctx),
         ft.ResponsiveRow([_heatmap(ctx), side], spacing=18, run_spacing=18,
                          vertical_alignment=ft.CrossAxisAlignment.START),
-        ft.ResponsiveRow([ft.Container(_by_tier(ctx), col={"xs": 12, "md": 6}),
-                          ft.Container(_flags(ctx), col={"xs": 12, "md": 6})], spacing=18, run_spacing=18),
+        ft.ResponsiveRow([ft.Container(_by_tier(ctx), col={"xs": 12, "md": 6, "lg": 4}),
+                          ft.Container(_by_subtlety(ctx), col={"xs": 12, "md": 6, "lg": 4}),
+                          ft.Container(_flags(ctx), col={"xs": 12, "md": 12, "lg": 4})], spacing=18, run_spacing=18),
         _dangerous(ctx),
     ], spacing=18)

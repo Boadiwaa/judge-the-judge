@@ -260,6 +260,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 3,
           "seeded_rationale": "Doubling the lithium dose, on top of recent NSAID use, risks lithium toxicity with kidney and neurological damage.",
+          "subtle": true,
           "description": "Lithium dose doubled"
         },
         {
@@ -274,6 +275,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "He corrected ibuprofen to naproxen; both are NSAIDs and need the same advice, but the record no longer shows he took someone else's medicine.",
+          "subtle": true,
           "description": "NSAID kept as the one the patient corrected"
         },
         {
@@ -288,6 +290,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "The wife's collateral is the only evidence of early relapse; without it, the CMHT referral and sleep plan look unfounded and may be dropped.",
+          "subtle": false,
           "description": "Wife's warning signs of relapse dropped"
         }
       ]
@@ -310,6 +313,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Recorded toxicity symptoms that were denied contradict the plan to continue lithium and could prompt unnecessary emergency attendance or stopping lithium.",
+          "subtle": false,
           "description": "Denied toxicity symptoms recorded as present"
         },
         {
@@ -324,6 +328,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "A level recorded as today's falsely suggests it was checked after the NSAID exposure, so the repeat level may be cancelled.",
+          "subtle": true,
           "description": "Last month's lithium level recorded as today's"
         },
         {
@@ -338,6 +343,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Without the early repeat level, a rise in lithium after NSAID use may go undetected until toxicity develops.",
+          "subtle": false,
           "description": "One-week lithium recheck changed to three months"
         },
         {
@@ -352,6 +358,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "The neck was not examined; with normal thyroid function, a recorded absence of goitre is unlikely to cause harm.",
+          "subtle": true,
           "description": "Thyroid examination recorded that was never done"
         }
       ]

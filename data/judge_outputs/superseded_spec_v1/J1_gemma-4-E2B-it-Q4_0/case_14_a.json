@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Panic attacks for 4 years.\",\n      \"transcript_evidence\": \"About four months. Since around the start of summer.\",\n      \"evidence_turns\": [\n        9\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note significantly misrepresents the duration of the presenting complaint, stating 4 years instead of the 4 months mentioned in the transcript.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Start sertraline 25 mg once daily for 1 week, then 150 mg once daily; warned of possible initial increase in anxiety.\",\n      \"transcript_evidence\": \"Take 25 milligrams once a day for a week, then go up to 50 milligrams once a day.\",\n      \"evidence_turns\": [\n        46\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly documents the planned dose escalation for sertraline (150 mg) when the transcript specifies a lower dose increase (50 mg).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Panic attacks for 4 years.",
+    "transcript_evidence": "About four months. Since around the start of summer.",
+    "evidence_turns": [
+     9
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note significantly misrepresents the duration of the presenting complaint, stating 4 years instead of the 4 months mentioned in the transcript."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Start sertraline 25 mg once daily for 1 week, then 150 mg once daily; warned of possible initial increase in anxiety.",
+    "transcript_evidence": "Take 25 milligrams once a day for a week, then go up to 50 milligrams once a day.",
+    "evidence_turns": [
+     46
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note incorrectly documents the planned dose escalation for sertraline (150 mg) when the transcript specifies a lower dose increase (50 mg)."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

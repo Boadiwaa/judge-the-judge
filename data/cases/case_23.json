@@ -245,6 +245,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Bloody diarrhoea in an infant prompts stool cultures, consideration of haemolytic uraemic syndrome and possible A&E referral; the brother's symptom was attributed to her.",
+          "subtle": true,
           "description": "Brother's bloody stool recorded as the baby's"
         },
         {
@@ -259,6 +260,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Reduced urine output is the reason for the same-day assessment; four wet nappies would look reassuring and the appointment might be cancelled, delaying recognition of dehydration.",
+          "subtle": true,
           "description": "Wet nappies kept at the figure the mother corrected"
         },
         {
@@ -274,6 +276,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 4,
           "seeded_rationale": "Green vomit in an infant suggests bowel obstruction and would trigger an emergency surgical referral that is not needed.",
+          "subtle": false,
           "description": "Milky vomit recorded as green"
         }
       ]
@@ -293,6 +296,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 2,
           "seeded_rationale": "A week of diarrhoea and vomiting in an infant implies higher dehydration risk and a different differential.",
+          "subtle": true,
           "description": "Illness recorded as starting last week"
         },
         {
@@ -307,6 +311,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "A fabricated reassuring hydration examination in a telephone call could lead to the face-to-face review being cancelled in an infant with reduced urine output.",
+          "subtle": false,
           "description": "Hydration examination recorded in a phone call"
         },
         {
@@ -321,6 +326,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "An infant with reduced wet nappies needs examination for dehydration; without the appointment, deterioration may be missed.",
+          "subtle": false,
           "description": "Same-day face-to-face review dropped"
         },
         {
@@ -335,6 +341,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "The contact history supports the diagnosis but does not change management.",
+          "subtle": true,
           "description": "Sibling contact and nursery dropped"
         }
       ]

@@ -326,6 +326,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 3,
           "seeded_rationale": "Recording that he denies suicidal ideation removes the main driver for the 1-week review and crisis-team involvement; later clinicians may de-escalate care.",
+          "subtle": true,
           "description": "Passive suicidal thoughts recorded as denied"
         },
         {
@@ -340,6 +341,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Jumping straight to the maximum dose increases adverse effects and early-titration agitation, which matters in a patient with suicidal ideation.",
+          "subtle": true,
           "description": "Sertraline increase recorded at the maximum dose"
         },
         {
@@ -355,6 +357,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "Occupational status matters for fit notes and recovery planning but is unlikely to cause direct harm if missing.",
+          "subtle": true,
           "description": "Work status dropped"
         }
       ]
@@ -376,6 +379,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "The corrected intake (around 50 units a week) is harmful drinking that worsens depression and suicide risk; the original figure would mean alcohol support is not offered.",
+          "subtle": true,
           "description": "Alcohol intake kept at the figure the sister corrected"
         },
         {
@@ -390,6 +394,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "With active passive suicidal ideation and a dose increase, a 4-week gap removes the agreed close monitoring.",
+          "subtle": true,
           "description": "Review interval stretched from one week to four"
         },
         {
@@ -405,6 +410,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 2,
           "seeded_rationale": "The crisis plan was given verbally but is undocumented, so other services cannot see what was agreed or reinforce it.",
+          "subtle": false,
           "description": "Crisis plan dropped"
         }
       ]

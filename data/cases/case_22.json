@@ -261,6 +261,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The wrong side could cause confusion at the 48-hour review or if he presents elsewhere, though the redness is obvious.",
+          "subtle": true,
           "description": "Cellulitis recorded on the wrong leg"
         },
         {
@@ -276,6 +277,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "The daughter's allergy recorded as his would deny him first-line flucloxacillin, now and in future, and mislabel his record.",
+          "subtle": true,
           "description": "Daughter's penicillin allergy recorded as the patient's"
         },
         {
@@ -290,7 +292,23 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "A palpation finding in a video consultation is fabricated; a recorded absence of crepitus falsely implies necrotising infection was excluded by examination.",
+          "subtle": false,
           "description": "Hands-on examination recorded in a video call"
+        },
+        {
+          "error_id": "case_22_a_e4",
+          "type": "DRUG_NAME",
+          "section": "medications_allergies",
+          "original_text": "Metformin 500 mg twice daily.",
+          "mutated_text": "Metronidazole 500 mg twice daily.",
+          "evidence_turns": [
+            25
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Metformin recorded as metronidazole, a recognised sound-alike pair; his diabetes treatment drops off the record and he appears to be on a second antibiotic, which could confuse the cellulitis plan.",
+          "subtle": true,
+          "description": "Metformin recorded as metronidazole"
         }
       ]
     },
@@ -309,6 +327,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 1,
           "seeded_rationale": "A one-day difference in onset does not change management.",
+          "subtle": true,
           "description": "Onset kept at the day the patient corrected"
         },
         {
@@ -323,6 +342,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Once-daily flucloxacillin is a quarter of the intended dose and would likely fail to treat the infection in a diabetic patient.",
+          "subtle": false,
           "description": "Flucloxacillin frequency cut to once daily"
         },
         {
@@ -337,6 +357,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Without the agreed 48-hour review, a spreading infection in a diabetic man who lives alone may be missed.",
+          "subtle": false,
           "description": "48-hour review dropped"
         },
         {
@@ -351,6 +372,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "Living alone matters for deciding whether he can be safely managed at home if he deteriorates.",
+          "subtle": true,
           "description": "Social situation dropped"
         }
       ]

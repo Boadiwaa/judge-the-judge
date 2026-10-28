@@ -290,6 +290,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "She meets none of the dose-reduction criteria, so 2.5 mg twice daily under-anticoagulates her and increases stroke risk.",
+          "subtle": true,
           "description": "Apixaban halved in the plan"
         },
         {
@@ -308,6 +309,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Rectal bleeding on anticoagulation is the reason for the GP investigations; without it in the history, the plan's referral may be deprioritised.",
+          "subtle": false,
           "description": "Rectal bleeding on a blood thinner dropped"
         },
         {
@@ -322,6 +324,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The JVP was not assessed; a recorded normal JVP gives slight false reassurance about heart failure.",
+          "subtle": true,
           "description": "JVP assessment recorded that was never done"
         }
       ]
@@ -343,6 +346,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "The daughter corrected once to twice daily; recording once daily could lead to under-dosing on admission or medicines reconciliation, raising stroke risk.",
+          "subtle": true,
           "description": "Apixaban frequency kept at the figure the daughter corrected"
         },
         {
@@ -357,6 +361,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "The agreed rate-control increase would not happen, leaving her symptomatic with a fast ventricular rate.",
+          "subtle": false,
           "description": "Bisoprolol increase dropped from the plan"
         },
         {
@@ -371,6 +376,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "A remote episode would not justify urgent investigation; recent bleeding on anticoagulation needs a FIT and possible referral.",
+          "subtle": true,
           "description": "Recent rectal bleeding recorded as three years ago"
         }
       ]

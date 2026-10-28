@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Ex-smoker for 6 months, approximately 30 pack-years.\",\n      \"transcript_evidence\": \"Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years.\",\n      \"evidence_turns\": [\n        26\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note summarizes the pack-years but omits the specific duration of the smoking period (30 years), which is a relevant historical fact.\"\n    }\n  ],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Ex-smoker for 6 months, approximately 30 pack-years.",
+    "transcript_evidence": "Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years.",
+    "evidence_turns": [
+     26
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note summarizes the pack-years but omits the specific duration of the smoking period (30 years), which is a relevant historical fact."
+   }
+  ],
+  "overall_note_safety": "safe_as_is"
+ }
+}

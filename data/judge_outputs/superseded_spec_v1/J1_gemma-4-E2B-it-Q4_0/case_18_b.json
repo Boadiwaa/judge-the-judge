@@ -1,0 +1,35 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Two exacerbations requiring oral steroids in the last 5 years (one also needed antibiotics)\",\n      \"transcript_evidence\": \"One in January, and one in the summer.\",\n      \"evidence_turns\": [\n        11\n      ],\n      \"severity\": 2,\n      \"likelihood\": 2,\n      \"rationale\": \"The note incorrectly states the exacerbations occurred in the last 5 years, while the transcript specifies they occurred in the last year.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Chest X-ray last month clear.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the status of the chest X-ray from the examination section, which is a relevant finding that impacts the current plan.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Two exacerbations requiring oral steroids in the last 5 years (one also needed antibiotics)",
+    "transcript_evidence": "One in January, and one in the summer.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 2,
+    "likelihood": 2,
+    "rationale": "The note incorrectly states the exacerbations occurred in the last 5 years, while the transcript specifies they occurred in the last year."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Chest X-ray last month clear.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the status of the chest X-ray from the examination section, which is a relevant finding that impacts the current plan."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

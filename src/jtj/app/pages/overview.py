@@ -133,7 +133,7 @@ def build(ctx: C.Ctx) -> ft.Control:
                "At scale, safety numbers come from LLM judges. If a judge misses a swapped side or a dropped "
                "allergy, every number built on it is wrong.", ctx),
         _story("02 · What I did", "Planted known errors, then tested three judges",
-               f"{s['n_cases']} synthetic UK consultations, {s['n_notes']} notes, 10 error types graded by "
+               f"{s['n_cases']} synthetic UK consultations, {s['n_notes']} notes, {len(ERROR_TYPES)} error types graded by "
                "severity × likelihood. Because I planted them, there is an exact answer key.", ctx),
         _found_card(ctx),
     ], spacing=20, run_spacing=20)
@@ -143,5 +143,13 @@ def build(ctx: C.Ctx) -> ft.Control:
         _step(3, "Run three judges", "Naive, rubric and claim-by-claim checking.", ctx),
         _step(4, "Score against the key", "Then clinicians rate blind to validate.", ctx),
     ], spacing=16, run_spacing=16)
-    return ft.Column([top, C.section_gap(12), C.limitations_strip(ctx), C.section_gap(12), stories,
+    why = ft.Text(spans=[
+        ft.TextSpan("Why planted errors? ", style=ft.TextStyle(weight=ft.FontWeight.W_600, color=ctx.p.text)),
+        ft.TextSpan("They give an exact miss rate for known error types; they don't replace real-note validation. ",
+                    style=ft.TextStyle(color=ctx.p.text_muted)),
+        ft.TextSpan("Read why", style=ft.TextStyle(color=ctx.p.accent, decoration=ft.TextDecoration.UNDERLINE),
+                    on_click=lambda e: ctx.go("/protocol?section=external-validity")),
+    ], size=14)
+    return ft.Column([top, C.section_gap(12), ft.Column([C.limitations_strip(ctx), why], spacing=10),
+                      C.section_gap(12), stories,
                       C.section_gap(16), C.h2("How the study works", ctx), steps], spacing=16)

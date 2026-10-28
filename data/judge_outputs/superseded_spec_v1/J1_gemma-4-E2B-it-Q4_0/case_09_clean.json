@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Temperature 38.4 \u00b0C\",\n      \"transcript_evidence\": \"It was 38.9 last night on the ear thermometer.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note records a temperature of 38.4 \u00b0C, which contradicts the maximum temperature of 38.9 \u00b0C recorded in the transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Temperature 38.4 \u00b0C",
+    "transcript_evidence": "It was 38.9 last night on the ear thermometer.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note records a temperature of 38.4 \u00b0C, which contradicts the maximum temperature of 38.9 \u00b0C recorded in the transcript."
+   }
+  ],
+  "overall_note_safety": "safe_as_is"
+ }
+}

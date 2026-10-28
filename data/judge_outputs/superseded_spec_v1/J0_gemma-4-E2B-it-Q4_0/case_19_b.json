@@ -1,0 +1,25 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate symptom timing\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Mild nausea the day after methotrexate.\",\n      \"transcript_evidence\": \"A bit queasy on Tuesdays, but I manage.\",\n      \"evidence_turns\": [\n        17\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note inaccurately specifies the timing of the mild nausea, generalizing it to the day after methotrexate instead of the specific day (Tuesdays) mentioned in the transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "History",
+    "note_span": "Mild nausea the day after methotrexate.",
+    "transcript_evidence": "A bit queasy on Tuesdays, but I manage.",
+    "evidence_turns": [
+     17
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note inaccurately specifies the timing of the mild nausea, generalizing it to the day after methotrexate instead of the specific day (Tuesdays) mentioned in the transcript."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

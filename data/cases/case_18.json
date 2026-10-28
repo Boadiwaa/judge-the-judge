@@ -275,6 +275,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "The new focal finding is the reason for the chest X-ray; the wrong side could misdirect the request and comparison with the film.",
+          "subtle": true,
           "description": "New crackles recorded on the wrong side"
         },
         {
@@ -290,6 +291,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "The wife's ankle swelling recorded as the patient's suggests cor pulmonale or heart failure and may trigger unnecessary investigations.",
+          "subtle": true,
           "description": "Wife's ankle swelling recorded as the patient's"
         },
         {
@@ -304,7 +306,23 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "The corrected smoking history changes little in management for an established COPD patient.",
+          "subtle": true,
           "description": "Smoking history kept at the figure the patient corrected"
+        },
+        {
+          "error_id": "case_18_a_e4",
+          "type": "DRUG_NAME",
+          "section": "medications_allergies",
+          "original_text": "Salbutamol as needed (about twice daily).",
+          "mutated_text": "Salmeterol as needed (about twice daily).",
+          "evidence_turns": [
+            28
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Salbutamol (reliever) recorded as salmeterol; he already takes a long-acting bronchodilator in Anoro, so a prescription copied from this note would duplicate it (risk of tachycardia and arrhythmia) and leave him without a fast-acting reliever during flare-ups.",
+          "subtle": true,
+          "description": "Reliever recorded as salmeterol"
         }
       ]
     },
@@ -323,6 +341,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "No recent X-ray exists; a recorded clear film could lead to the requested X-ray for new crackles being cancelled, missing pneumonia or cancer.",
+          "subtle": true,
           "description": "Recent chest X-ray recorded that was never done"
         },
         {
@@ -337,6 +356,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "Recording a refusal he never made means the rehabilitation referral is not sent, losing the intervention with the best evidence for breathlessness.",
+          "subtle": true,
           "description": "Rehab referral recorded as declined"
         },
         {
@@ -351,6 +371,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "Vaccination status is useful but is recorded elsewhere in primary care.",
+          "subtle": true,
           "description": "Vaccination status dropped"
         },
         {
@@ -365,6 +386,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Two exacerbations in a year is the indication for stepping up to triple therapy; spread over five years, the step-up looks unjustified and may be reversed.",
+          "subtle": true,
           "description": "Exacerbations recorded as over five years"
         }
       ]

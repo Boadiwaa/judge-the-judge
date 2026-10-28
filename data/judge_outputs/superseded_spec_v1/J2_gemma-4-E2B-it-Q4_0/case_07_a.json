@@ -1,0 +1,427 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient presented with an inversion injury to the left ankle while descending stairs at work approximately two hours prior."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient missed the last step and the foot rolled inwards during the injury."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient had no history of head injury or loss of consciousness."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient was unable to weight-bear immediately after the injury, hopping to a car."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient managed only two steps in the department."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient reported no numbness or tingling in the foot."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient has no previous injury to this ankle."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has no significant past medical history."
+   },
+   {
+    "id": "c9",
+    "section": "Medications and allergies",
+    "claim": "The patient takes a combined oral contraceptive (Microgynon)."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "The patient has no history of peptic ulcer disease, asthma, or renal disease."
+   },
+   {
+    "id": "c11",
+    "section": "Examination",
+    "claim": "There is swelling over the lateral aspect of the ankle."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "There is bony tenderness at the posterior edge of the right lateral malleolus."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The medial malleolus is non-tender."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The base of the fifth metatarsal and navicular are non-tender."
+   },
+   {
+    "id": "c15",
+    "section": "Impression",
+    "claim": "The Ottawa ankle rules are positive due to posterior lateral malleolar tenderness and inability to take four steps."
+   },
+   {
+    "id": "c16",
+    "section": "Plan",
+    "claim": "The plan is to request X-rays of the left ankle (AP and mortise views)."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "Analgesia plan includes paracetamol 1g four times a day (max 4g in 24 hours) and ibuprofen 400mg three times a day with food."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "Initial management involves a cold pack and elevation."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The patient will be discharged with crutches."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "If the injury is a sprain, the patient will receive an advice leaflet and start gentle movement as pain allows."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "If the injury is a fracture, management will depend on the fracture type, likely involving a boot and a fracture clinic referral."
+   },
+   {
+    "id": "c22",
+    "section": "Safety-netting",
+    "claim": "The patient must return immediately if the foot becomes cold, pale, or numb, or if pain is not controlled with analgesia."
+   },
+   {
+    "id": "c23",
+    "section": "Safety-netting",
+    "claim": "The patient is advised to seek urgent help if they experience calf pain or swelling, chest pain, or breathlessness due to being on the pill and reduced mobility."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "Clinician is Dr Okonjo, one of the emergency doctors.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "Patient's name is Harriet Fenwick-Doyle, DOB is March 14, 1991.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     4
+    ],
+    "fact": "Patient sustained the injury by going over the ankle coming down the stairs at work.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     6
+    ],
+    "fact": "The injury occurred about two hours ago, specifically just after the ten o'clock meeting, so two hours, maybe a bit more.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     8
+    ],
+    "fact": "The injured ankle is the left one.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     10
+    ],
+    "fact": "The mechanism of injury was that the foot turned in under the patient, causing them to miss the last step.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     12
+    ],
+    "fact": "The patient did not hit their head or black out; they just sat down hard.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     14
+    ],
+    "fact": "The patient was unable to walk on the ankle immediately and hopped to the car, driven by a colleague.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     16
+    ],
+    "fact": "The patient managed only two steps in the waiting room and had to sit down.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     18
+    ],
+    "fact": "The patient reports that the ankle just throbs, with no numbness or tingling.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     20
+    ],
+    "fact": "The patient has never injured this ankle before.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     22
+    ],
+    "fact": "The patient reports being pretty healthy.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     24
+    ],
+    "fact": "The patient takes the medication Microgynon.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     26
+    ],
+    "fact": "The patient has an allergy to Penicillin, which causes a rash.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     28
+    ],
+    "fact": "The patient has no stomach ulcers, asthma, or kidney problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     30
+    ],
+    "fact": "The patient is an office manager, mostly desk-based, but walks between two sites.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     32
+    ],
+    "fact": "The patient does not smoke and drinks a few glasses of wine at the weekend.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     33
+    ],
+    "fact": "Clinician observes swelling over the outside of the ankle and notes tenderness when pressing on the bony bit at the back of the left ankle on the outside.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     34
+    ],
+    "fact": "Patient confirms tenderness at the location noted by the clinician.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     35
+    ],
+    "fact": "Clinician checks the bone on the inside of the ankle and the patient reports it is fine (non-tender).",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     37
+    ],
+    "fact": "Clinician checks the base of the fifth metatarsal and the navicular, and the patient reports no tenderness.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     41
+    ],
+    "fact": "Clinician checks that the patient can wiggle their toes, the foot is warm, and the dorsalis pedis pulse is palpable.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     42
+    ],
+    "fact": "Patient confirms they can feel the clinician touching the foot.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     43
+    ],
+    "fact": "Clinician uses the Ottawa ankle rules to state that the patient is tender at the back of the outer ankle bone and couldn't take four steps, suggesting an X-ray is needed to check for a fracture.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     45
+    ],
+    "fact": "Clinician suggests it is possible to be a bad sprain or a fracture, and plans to request X-rays of the ankle (AP and mortise views).",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     45
+    ],
+    "fact": "Clinician plans to prescribe paracetamol 1 gram four times a day (no more than 4 grams in 24 hours) and ibuprofen 400 milligrams three times a day with food.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     47
+    ],
+    "fact": "Clinician instructs the nurse to bring the first doses of medication and to apply a cold pack and keep the ankle raised.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     49
+    ],
+    "fact": "The plan is to go home with crutches and keep the ankle elevated as much as possible.",
+    "about": "patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     51
+    ],
+    "fact": "If it is a sprain, the patient will be discharged with an advice leaflet and encouraged to start gently moving it as pain allows.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     51
+    ],
+    "fact": "If it is a fracture, management depends on the type of fracture, likely involving a boot and a fracture clinic referral.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     53
+    ],
+    "fact": "Safety netting advises the patient to return immediately if the foot becomes cold, pale, or numb, or if pain is not controlled with painkillers.",
+    "about": "patient"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     55
+    ],
+    "fact": "Safety netting advises the patient to seek urgent help if they get pain or swelling in their calf, or any chest pain or breathlessness due to being on the pill and less mobile.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Bony tenderness at the posterior edge of the right lateral malleolus.\",\n      \"transcript_evidence\": \"I'm pressing on the bony bit at the back of your left ankle on the outside.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly attributes the tenderness to the right ankle instead of the left ankle, which is a critical error in physical examination findings.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Analgesia: paracetamol 1 g six times daily (maximum 4 g in 24 hours) and ibuprofen 400 mg three times daily with food.\",\n      \"transcript_evidence\": \"paracetamol 1 gram, which you can take four times a day, no more than four grams in twenty-four hours. And ibuprofen four hundred milligrams three times a day with food.\",\n      \"evidence_turns\": [\n        45\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note contains an incorrect frequency for paracetamol (6 times daily) compared to the agreed plan and transcript (4 times daily), which could lead to incorrect dosing.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Foot warm, dorsalis pedis pulse palpable, sensation intact.\",\n      \"transcript_evidence\": \"Can you wiggle your toes for me? Good. Your foot's warm and I can feel the pulse on top of the foot. Can you feel me touching here, and here?\",\n      \"evidence_turns\": [\n        41,\n        42\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"Relevant examination findings regarding toe movement and sensation were omitted from the note.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Bony tenderness at the posterior edge of the right lateral malleolus.",
+    "transcript_evidence": "I'm pressing on the bony bit at the back of your left ankle on the outside.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly attributes the tenderness to the right ankle instead of the left ankle, which is a critical error in physical examination findings."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Analgesia: paracetamol 1 g six times daily (maximum 4 g in 24 hours) and ibuprofen 400 mg three times daily with food.",
+    "transcript_evidence": "paracetamol 1 gram, which you can take four times a day, no more than four grams in twenty-four hours. And ibuprofen four hundred milligrams three times a day with food.",
+    "evidence_turns": [
+     45
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note contains an incorrect frequency for paracetamol (6 times daily) compared to the agreed plan and transcript (4 times daily), which could lead to incorrect dosing."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Foot warm, dorsalis pedis pulse palpable, sensation intact.",
+    "transcript_evidence": "Can you wiggle your toes for me? Good. Your foot's warm and I can feel the pulse on top of the foot. Can you feel me touching here, and here?",
+    "evidence_turns": [
+     41,
+     42
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "Relevant examination findings regarding toe movement and sensation were omitted from the note."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Apixaban 5 mg once daily.\",\n      \"transcript_evidence\": \"Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday.\",\n      \"evidence_turns\": [\n        20,\n        21,\n        22,\n        23\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the apixaban dosing frequency as once daily, contradicting the transcript which confirms twice daily dosing.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue bisoprolol 2.5 mg once daily.\",\n      \"transcript_evidence\": \"Clinician: I'd like to increase the bisoprolol from two and a half to five milligrams once a day.\",\n      \"evidence_turns\": [\n        40\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note fails to document the proposed plan change discussed in the consultation to increase the bisoprolol dose.\"\n    },\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Single episode of fresh red rectal bleeding three years ago, not previously reported; no recurrence, no melaena, no change in bowel habit or weight loss.\",\n      \"transcript_evidence\": \"Patient: Well, there was some blood when I went to the toilet, three weeks ago. Fresh red blood. Just the once.\",\n      \"evidence_turns\": [\n        25\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly records the timing of the rectal bleeding episode, misstating it as three years ago instead of three weeks ago.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Attended with daughter, who manages her dosette box.\",\n      \"transcript_evidence\": \"Relative: I fill your dosette box every Sunday.\",\n      \"evidence_turns\": [\n        20\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note omits the specific management detail regarding the frequency and management of the dosette box.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Apixaban 5 mg once daily.",
+    "transcript_evidence": "Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday.",
+    "evidence_turns": [
+     20,
+     21,
+     22,
+     23
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the apixaban dosing frequency as once daily, contradicting the transcript which confirms twice daily dosing."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Continue bisoprolol 2.5 mg once daily.",
+    "transcript_evidence": "Clinician: I'd like to increase the bisoprolol from two and a half to five milligrams once a day.",
+    "evidence_turns": [
+     40
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note fails to document the proposed plan change discussed in the consultation to increase the bisoprolol dose."
+   },
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Single episode of fresh red rectal bleeding three years ago, not previously reported; no recurrence, no melaena, no change in bowel habit or weight loss.",
+    "transcript_evidence": "Patient: Well, there was some blood when I went to the toilet, three weeks ago. Fresh red blood. Just the once.",
+    "evidence_turns": [
+     25
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly records the timing of the rectal bleeding episode, misstating it as three years ago instead of three weeks ago."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Attended with daughter, who manages her dosette box.",
+    "transcript_evidence": "Relative: I fill your dosette box every Sunday.",
+    "evidence_turns": [
+     20
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note omits the specific management detail regarding the frequency and management of the dosette box."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

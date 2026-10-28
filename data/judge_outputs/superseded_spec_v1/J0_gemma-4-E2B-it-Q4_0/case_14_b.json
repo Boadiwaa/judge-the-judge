@@ -1,0 +1,25 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate follow-up interval\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Review in 3 months.\",\n      \"transcript_evidence\": \"I'd like to see you in two weeks to see how you're getting on with it.\",\n      \"evidence_turns\": [\n        48\n      ],\n      \"severity\": 3,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly states a 3-month review period when the transcript indicates a review in two weeks.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "plan",
+    "note_span": "Review in 3 months.",
+    "transcript_evidence": "I'd like to see you in two weeks to see how you're getting on with it.",
+    "evidence_turns": [
+     48
+    ],
+    "severity": 3,
+    "likelihood": 5,
+    "rationale": "The note incorrectly states a 3-month review period when the transcript indicates a review in two weeks."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

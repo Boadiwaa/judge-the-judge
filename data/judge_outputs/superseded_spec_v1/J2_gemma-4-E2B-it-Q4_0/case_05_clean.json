@@ -1,0 +1,283 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient presented with central chest pain starting at about 11:00 while gardening."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient experienced heavy central chest pain radiating to the left arm, lasting about 30 minutes, and is currently experiencing pain at a severity of 3/10."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient has associated sweating and mild breathlessness, but no nausea."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient has no previous similar episodes or known cardiac disease."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient has a history of hypertension."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient is a smoker, consuming about 20 cigarettes per day."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient's father had a myocardial infarction at age 52."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient received 300 mg of aspirin and a GTN spray from the ambulance crew."
+   },
+   {
+    "id": "c9",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking amlodipine 5 mg once daily."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "The patient has no known drug allergies."
+   },
+   {
+    "id": "c11",
+    "section": "Examination",
+    "claim": "The patient's heart rate is 88 and regular."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "The patient's blood pressure is 152/90."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The patient's oxygen level is 97% on air."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The patient's heart sounds are normal."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient's chest is clear."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "There is no peripheral oedema."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "The ECG shows sinus rhythm with 1 mm ST depression in leads V4 to V6."
+   },
+   {
+    "id": "c18",
+    "section": "Impression",
+    "claim": "The impression is suspected acute coronary syndrome (possible NSTEMI)."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The plan includes serial high-sensitivity troponin testing, fondaparinux 2.5 mg subcutaneously once daily, and GTN spray as required."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "The patient is to be admitted under the cardiology team for a likely coronary angiography."
+   },
+   {
+    "id": "c21",
+    "section": "Safety-netting",
+    "claim": "The patient was instructed to report recurrent or worsening pain to nursing staff immediately."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     5
+    ],
+    "fact": "Patient reported getting pain in chest while digging in the garden.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     7
+    ],
+    "fact": "Patient reported the pain started about eleven o'clock, after lunch, or just before eleven, after putting the kettle on.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     10
+    ],
+    "fact": "Patient described the pain location as the middle of the chest, like a heavy weight.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     12
+    ],
+    "fact": "Patient reported the pain went down their left arm.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     14
+    ],
+    "fact": "The pain lasted about half an hour and is currently at a severity of three out of ten.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     16
+    ],
+    "fact": "Patient reported feeling very sweaty but not sick.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     18
+    ],
+    "fact": "Patient reported feeling a bit short of breath.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     20
+    ],
+    "fact": "Patient stated they have never had this before.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     22
+    ],
+    "fact": "Patient stated they have no heart problems in the past but is on amlodipine.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     24
+    ],
+    "fact": "Patient's amlodipine dose is five milligrams.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     30
+    ],
+    "fact": "Patient stated they smoke about twenty cigarettes a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     32
+    ],
+    "fact": "Patient's father had a heart attack at age 52.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     33
+    ],
+    "fact": "Relative stated their father had a heart attack at age 60.",
+    "about": "relative"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     34
+    ],
+    "fact": "Paramedics gave the patient aspirin 300 milligrams and a GTN spray.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     36
+    ],
+    "fact": "Examination findings: Heart rate is 88 and regular, blood pressure is 152 over 90, heart sounds are normal, chest is clear, and oxygen level is 97 percent.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     38
+    ],
+    "fact": "ECG shows about a millimetre of ST depression in the leads on the left side of the chest, V4 to V6.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     40
+    ],
+    "fact": "Clinician stated it is possible the condition is an acute coronary syndrome and a blood test for troponin was taken.",
+    "about": "clinician"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     42
+    ],
+    "fact": "Clinician stated the plan is to start an injection called fondaparinux, 2.5 milligrams under the skin once a day, and to have a GTN spray if pain returns.",
+    "about": "clinician"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     44
+    ],
+    "fact": "Clinician stated the plan is to admit the patient under the cardiology team for a likely coronary angiography.",
+    "about": "clinician"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     46
+    ],
+    "fact": "Clinician stated they will repeat the ECG every time the patient gets pain and instructed the patient to tell nurses immediately if pain returns or gets worse.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

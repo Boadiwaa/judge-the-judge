@@ -7,6 +7,13 @@ from .. import components as C
 from ... import protocol
 
 JUDGE_NAMES = {"J0": "J0 Naive", "J1": "J1 Rubric", "J2": "J2 Claim-check"}
+# ?section=<key> shows that section first, highlighted. (Flet's page.scroll_to(scroll_key=...) runs but does not
+# move the web client to a control nested this deep, so a deep link reorders instead of scrolling.)
+SECTION_KEYS = {protocol.EXTERNAL_VALIDITY_TITLE: "external-validity"}
+
+
+def section_key(title: str) -> str:
+    return SECTION_KEYS.get(title) or title.lower().split(" (")[0].replace(" ", "-").replace(":", "")
 
 
 def _md(text: str, ctx: C.Ctx) -> ft.Markdown:
@@ -32,6 +39,10 @@ def build(ctx: C.Ctx) -> ft.Control:
                                   col={"xs": 12, "md": 4})],
                          vertical_alignment=ft.CrossAxisAlignment.END),
     ]
+    target = ctx.query.get("section")
+    linked = [t for t, _ in secs if section_key(t) == target]
+    if linked:
+        secs = sorted(secs, key=lambda tb: tb[0] != linked[0])  # stable: linked section first, rest in order
     for title, body in secs:
         block = [C.h2(title, ctx, size=20), _md(body, ctx)]
         if title == "Judges":
@@ -46,5 +57,11 @@ def build(ctx: C.Ctx) -> ft.Control:
                     collapsed_shape=ft.RoundedRectangleBorder(radius=10), shape=ft.RoundedRectangleBorder(radius=10),
                     bgcolor=ctx.p.surface, collapsed_bgcolor=ctx.p.surface,
                 ))
+        if linked and title == linked[0]:
+            card = C.card(ft.Column(block, spacing=10), ctx)
+            card.border = ft.Border.all(2, ctx.p.accent)
+            items.append(card)
+            items.append(C.body("Full protocol", ctx, size=13, muted=True, weight=ft.FontWeight.W_600))
+            continue
         items.append(C.card(ft.Column(block, spacing=10), ctx))
     return ft.Column(items, spacing=16)

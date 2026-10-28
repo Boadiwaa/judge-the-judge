@@ -1,0 +1,35 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Factual error (Examination)\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"3 cm laceration with haematoma over the right temple\",\n      \"transcript_evidence\": \"There's a cut here, about 3 centimetres long, on your left temple, with a bump around it.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the injury was on the right temple, while the transcript explicitly states it was on the left temple.\"\n    },\n    {\n      \"type\": \"Incomplete data (Impression)\",\n      \"note_section\": \"impression\",\n      \"note_span\": \"Head injury in an anticoagulated 81-year-old with brief post-traumatic confusion and amnesia, and one episode of vomiting.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The impression includes the patient's age and anticoagulation status, which are not mentioned in the provided transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "examination",
+    "note_span": "3 cm laceration with haematoma over the right temple",
+    "transcript_evidence": "There's a cut here, about 3 centimetres long, on your left temple, with a bump around it.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the injury was on the right temple, while the transcript explicitly states it was on the left temple."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "impression",
+    "note_span": "Head injury in an anticoagulated 81-year-old with brief post-traumatic confusion and amnesia, and one episode of vomiting.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The impression includes the patient's age and anticoagulation status, which are not mentioned in the provided transcript."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

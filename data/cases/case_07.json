@@ -326,6 +326,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 4,
           "seeded_rationale": "A wrong-side record can lead to the wrong ankle being imaged or reviewed at follow-up, and the patient may not notice.",
+          "subtle": false,
           "description": "Examination recorded on the wrong ankle"
         },
         {
@@ -341,6 +342,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 4,
           "seeded_rationale": "If the fracture needs surgery, perioperative prophylaxis may include a penicillin (e.g. flucloxacillin); an allergy missing from the ED record propagates to the discharge summary and theatre.",
+          "subtle": false,
           "description": "Penicillin allergy dropped from an ED note"
         },
         {
@@ -355,6 +357,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Six grams a day exceeds the 4 g daily maximum and risks hepatotoxicity; the stated maximum elsewhere may catch it, but it may be copied into discharge advice.",
+          "subtle": false,
           "description": "Paracetamol frequency increased to six times daily"
         }
       ]
@@ -375,6 +378,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "The patient corrected four hours to two; the timing has little bearing on ankle management, so harm is unlikely.",
+          "subtle": true,
           "description": "Injury time kept at the figure the patient corrected"
         },
         {
@@ -390,6 +394,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Recorded paraesthesia suggests neurovascular compromise that was not present, which may trigger unnecessary investigation or obscure a later genuine change.",
+          "subtle": false,
           "description": "Absent numbness recorded as present"
         },
         {
@@ -405,6 +410,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 2,
           "seeded_rationale": "VTE advice was given verbally, but its absence from the record means follow-up clinicians will not reinforce it or consider thromboprophylaxis if she is immobilised in a boot.",
+          "subtle": false,
           "description": "VTE safety-netting on the combined pill dropped"
         },
         {
@@ -420,6 +426,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "No ligament stress test was performed; a recorded negative anterior drawer gives false reassurance about ligament stability at follow-up.",
+          "subtle": true,
           "description": "Ligament test recorded that was never done"
         }
       ]

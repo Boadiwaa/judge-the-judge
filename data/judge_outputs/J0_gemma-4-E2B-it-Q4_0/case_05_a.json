@@ -4,32 +4,44 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Omission of ECG findings\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"ECG: sinus rhythm, no ST segment changes.\",\n      \"transcript_evidence\": \"Your ECG, the heart tracing, shows some changes. There's about a millimetre of ST depression in the leads on the left side of the chest, V4 to V6.\",\n      \"evidence_turns\": [\n        38\n      ],\n      \"severity\": 3,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly states that the ECG showed no ST segment changes, omitting the critical finding of ST depression mentioned in the transcript.\"\n    },\n    {\n      \"type\": \"Dosage discrepancy\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Fondaparinux 25 mg subcutaneously once daily.\",\n      \"transcript_evidence\": \"I'm going to start an injection called fondaparinux, 2.5 milligrams under the skin once a day, to thin the blood.\",\n      \"evidence_turns\": [\n        42\n      ],\n      \"severity\": 2,\n      \"likelihood\": 5,\n      \"rationale\": \"The note lists the dosage as 25 mg, while the transcript specifies 2.5 mg.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Medication identification error\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Amiloride 5 mg once daily.\",\n      \"transcript_evidence\": \"I'm on amlodipine.\",\n      \"evidence_turns\": [\n        22\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly identifies the patient's medication as Amiloride when the transcript clearly states the patient is on amlodipine.\"\n    },\n    {\n      \"type\": \"Omission of critical finding\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"ECG: sinus rhythm, no ST segment changes.\",\n      \"transcript_evidence\": \"Your ECG, the heart tracing, shows some changes. There's about a millimetre of ST depression in the leads on the left side of the chest, V4 to V6.\",\n      \"evidence_turns\": [\n        38\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note omits the critical finding of ST depression, which is a key indicator of myocardial ischemia and is explicitly mentioned in the transcript.\"\n    },\n    {\n      \"type\": \"Dosage error\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Fondaparinux 25 mg subcutaneously once daily.\",\n      \"transcript_evidence\": \"I'm going to start an injection called fondaparinux, 2.5 milligrams under the skin once a day.\",\n      \"evidence_turns\": [\n        42\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan specifies a dosage of 25 mg, but the transcript indicates the prescribed dose is 2.5 mg, representing a significant discrepancy.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
   "findings": [
    {
     "type": "UNSPECIFIED",
-    "note_section": "examination",
+    "note_section": "Medications and allergies",
+    "note_span": "Amiloride 5 mg once daily.",
+    "transcript_evidence": "I'm on amlodipine.",
+    "evidence_turns": [
+     22
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly identifies the patient's medication as Amiloride when the transcript clearly states the patient is on amlodipine."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Examination",
     "note_span": "ECG: sinus rhythm, no ST segment changes.",
     "transcript_evidence": "Your ECG, the heart tracing, shows some changes. There's about a millimetre of ST depression in the leads on the left side of the chest, V4 to V6.",
     "evidence_turns": [
      38
     ],
-    "severity": 3,
+    "severity": 4,
     "likelihood": 5,
-    "rationale": "The note incorrectly states that the ECG showed no ST segment changes, omitting the critical finding of ST depression mentioned in the transcript."
+    "rationale": "The note omits the critical finding of ST depression, which is a key indicator of myocardial ischemia and is explicitly mentioned in the transcript."
    },
    {
     "type": "UNSPECIFIED",
-    "note_section": "plan",
+    "note_section": "Plan",
     "note_span": "Fondaparinux 25 mg subcutaneously once daily.",
-    "transcript_evidence": "I'm going to start an injection called fondaparinux, 2.5 milligrams under the skin once a day, to thin the blood.",
+    "transcript_evidence": "I'm going to start an injection called fondaparinux, 2.5 milligrams under the skin once a day.",
     "evidence_turns": [
      42
     ],
-    "severity": 2,
-    "likelihood": 5,
-    "rationale": "The note lists the dosage as 25 mg, while the transcript specifies 2.5 mg."
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The plan specifies a dosage of 25 mg, but the transcript indicates the prescribed dose is 2.5 mg, representing a significant discrepancy."
    }
   ],
   "overall_note_safety": "needs_major_edits"

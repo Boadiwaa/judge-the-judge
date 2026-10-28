@@ -5,7 +5,7 @@ from jtj.schema import Finding, Mutation
 
 def mut(**kw) -> Mutation:
     base = dict(error_id="e1", type="LATERALITY", section="examination", evidence_turns=[1],
-                seeded_severity=3, seeded_likelihood=3, seeded_rationale="r")
+                seeded_severity=3, seeded_likelihood=3, seeded_rationale="r", subtle=False)
     base.update(kw)
     return Mutation(**base)
 

@@ -1,0 +1,25 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Medication dosage discrepancy\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Prednisolone 4 mg once daily for 5 days.\",\n      \"transcript_evidence\": \"I'm going to start you on steroid tablets, prednisolone, 40 milligrams once a day for five days.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the prednisolone dosage as 4 mg, while the transcript clearly states 40 mg.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Plan",
+    "note_span": "Prednisolone 4 mg once daily for 5 days.",
+    "transcript_evidence": "I'm going to start you on steroid tablets, prednisolone, 40 milligrams once a day for five days.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the prednisolone dosage as 4 mg, while the transcript clearly states 40 mg."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

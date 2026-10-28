@@ -296,6 +296,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 2,
           "seeded_rationale": "A wrong-side neurological finding could misdirect later imaging review or surgical referral if symptoms persist.",
+          "subtle": false,
           "description": "Positive nerve-stretch test recorded on the wrong leg"
         },
         {
@@ -311,6 +312,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 2,
           "seeded_rationale": "Cauda equina advice was given verbally, but without documentation it will not be reinforced, and delay in this emergency causes permanent harm.",
+          "subtle": false,
           "description": "Cauda equina safety-netting dropped"
         },
         {
@@ -325,7 +327,23 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "Occupation explains the mechanism and the fit note, but its absence is unlikely to cause harm.",
+          "subtle": true,
           "description": "Occupation dropped"
+        },
+        {
+          "error_id": "case_02_a_e4",
+          "type": "DRUG_NAME",
+          "section": "plan",
+          "original_text": "omeprazole 20 mg once daily",
+          "mutated_text": "esomeprazole 20 mg once daily",
+          "evidence_turns": [
+            43
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Omeprazole recorded as esomeprazole, a near-identical sound-alike from the same class at an equivalent dose; the intended stomach protection is still given, so harm is negligible.",
+          "subtle": true,
+          "description": "Omeprazole recorded as esomeprazole"
         }
       ]
     },
@@ -345,6 +363,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 4,
           "seeded_rationale": "A recorded cauda equina red flag that was denied would trigger an unnecessary emergency MRI and alarm, and conflicts with the documented plan.",
+          "subtle": false,
           "description": "Denied saddle numbness recorded as present"
         },
         {
@@ -359,6 +378,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Doubling the naproxen dose increases the risk of gastrointestinal bleeding and kidney injury, and may be dispensed as written.",
+          "subtle": false,
           "description": "Naproxen frequency doubled"
         },
         {
@@ -373,6 +393,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "The patient said left, then corrected herself to right; the wrong side in the presenting complaint contradicts the examination and could misdirect follow-up.",
+          "subtle": true,
           "description": "Leg kept as the side the patient corrected"
         },
         {
@@ -387,6 +408,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "The agreed physiotherapy referral would not be made, delaying recovery and return to work.",
+          "subtle": false,
           "description": "Physiotherapy referral dropped"
         }
       ]

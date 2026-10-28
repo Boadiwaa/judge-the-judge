@@ -1,0 +1,25 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inconsistent plan timing\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"GP review in 4 weeks for inhaler review and asthma action plan.\",\n      \"transcript_evidence\": \"I want you to see your GP or asthma nurse within two working days, to review your inhalers and make an asthma action plan.\",\n      \"evidence_turns\": [\n        41\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note specifies a 4-week follow-up, but the transcript indicates a much shorter follow-up period of two working days.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Plan",
+    "note_span": "GP review in 4 weeks for inhaler review and asthma action plan.",
+    "transcript_evidence": "I want you to see your GP or asthma nurse within two working days, to review your inhalers and make an asthma action plan.",
+    "evidence_turns": [
+     41
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note specifies a 4-week follow-up, but the transcript indicates a much shorter follow-up period of two working days."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

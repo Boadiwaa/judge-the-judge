@@ -6,7 +6,7 @@ Ambient AI scribes turn consultations into notes, and at scale their safety clai
 judges that find documentation errors. If the judge is wrong, every safety number built on it is wrong.
 This project asks *who checks the checker?*
 
-I planted 163 known errors (omissions, negation flips, wrong side, dose slips and more) in 72 AI-style
+I planted 174 known errors (omissions, negation flips, wrong side, dose slips and more) in 72 AI-style
 notes written from 24 synthetic UK consultations. Three LLM judge designs (naive, rubric, and
 claim-by-claim checking) were run over every note and scored against the exact answer key, with
 confidence intervals. Clinicians can then rate the notes blind to validate both the answer key and the

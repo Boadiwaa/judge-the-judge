@@ -44,7 +44,8 @@ Definitions:
 - ATTRIBUTION: a statement or symptom attributed to the wrong person.
 - TEMPORAL: wrong duration, onset or timing.
 - CORRECTION_LOST: the note records something the speaker later corrected.
-- PLAN_CHANGE: the management plan or follow-up differs from what was agreed."""
+- PLAN_CHANGE: the management plan or follow-up differs from what was agreed.
+- DRUG_NAME: a medicine is recorded under a different drug name, often a similar-sounding or similar-looking one (e.g. hydralazine recorded as hydroxyzine)."""
 
 RISK_SCALES = """Severity (worst credible harm if the error is acted on):
 1 Negligible: no harm, cosmetic inaccuracy.

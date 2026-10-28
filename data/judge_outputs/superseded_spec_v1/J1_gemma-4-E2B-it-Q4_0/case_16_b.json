@@ -1,0 +1,49 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"8 weeks postpartum.\",\n      \"transcript_evidence\": \"He's ten weeks on Saturday. I've lost track of time.\",\n      \"evidence_turns\": [\n        6\n      ],\n      \"severity\": 2,\n      \"likelihood\": 1,\n      \"rationale\": \"The note incorrectly states the patient is 8 weeks postpartum when the transcript indicates she is 10 weeks postpartum.\"\n    },\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Low mood for 6 days, starting a few weeks after delivery:\",\n      \"transcript_evidence\": \"About six weeks. It started a few weeks after he was born and it hasn't lifted.\",\n      \"evidence_turns\": [\n        10\n      ],\n      \"severity\": 2,\n      \"likelihood\": 1,\n      \"rationale\": \"The note incorrectly states the duration of the low mood as 6 days instead of six weeks.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"No specialist referral needed.\",\n      \"transcript_evidence\": \"Because of how you're feeling, and your mum's history, I'm going to refer you to the perinatal mental health team.\",\n      \"evidence_turns\": [\n        36\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the decision to refer the patient to the perinatal mental health team, which is a significant clinical management step.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "8 weeks postpartum.",
+    "transcript_evidence": "He's ten weeks on Saturday. I've lost track of time.",
+    "evidence_turns": [
+     6
+    ],
+    "severity": 2,
+    "likelihood": 1,
+    "rationale": "The note incorrectly states the patient is 8 weeks postpartum when the transcript indicates she is 10 weeks postpartum."
+   },
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Low mood for 6 days, starting a few weeks after delivery:",
+    "transcript_evidence": "About six weeks. It started a few weeks after he was born and it hasn't lifted.",
+    "evidence_turns": [
+     10
+    ],
+    "severity": 2,
+    "likelihood": 1,
+    "rationale": "The note incorrectly states the duration of the low mood as 6 days instead of six weeks."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "No specialist referral needed.",
+    "transcript_evidence": "Because of how you're feeling, and your mum's history, I'm going to refer you to the perinatal mental health team.",
+    "evidence_turns": [
+     36
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the decision to refer the patient to the perinatal mental health team, which is a significant clinical management step."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

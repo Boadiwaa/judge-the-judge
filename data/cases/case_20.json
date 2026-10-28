@@ -275,6 +275,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "The side of focal onset points to the hemisphere of origin; recording the wrong arm could misdirect MRI and EEG interpretation.",
+          "subtle": true,
           "description": "Focal onset recorded in the wrong arm"
         },
         {
@@ -289,6 +290,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 3,
           "seeded_rationale": "Without documented driving advice, a patient who drives to work may continue, risking a fatal crash, and the clinician has no record that the legal advice was given.",
+          "subtle": false,
           "description": "Driving and DVLA advice dropped after a seizure"
         },
         {
@@ -303,6 +305,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "Timing affects the driving restriction period and the urgency of investigations, but the clinic would likely confirm the date.",
+          "subtle": true,
           "description": "Seizure recorded as three months ago"
         }
       ]
@@ -322,6 +325,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Five minutes is the threshold for status epilepticus treatment; the wife corrected it to two by the clock. The wrong duration may prompt unneeded rescue medication or alter risk counselling.",
+          "subtle": true,
           "description": "Seizure duration kept at the figure the wife corrected"
         },
         {
@@ -337,6 +341,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 2,
           "seeded_rationale": "Recording the event as recalled implies retained awareness, changing seizure classification; the account actually came from the wife.",
+          "subtle": true,
           "description": "Wife's eyewitness account recorded as the patient's memory"
         },
         {
@@ -351,6 +356,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "No EEG has been done; a recorded normal EEG could lead to the planned EEG being cancelled.",
+          "subtle": false,
           "description": "EEG recorded that was never done"
         },
         {
@@ -365,6 +371,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Possible focal onset needs MRI to exclude a structural cause such as a tumour; dropping the investigations could miss serious pathology.",
+          "subtle": false,
           "description": "MRI and EEG dropped from the plan"
         }
       ]

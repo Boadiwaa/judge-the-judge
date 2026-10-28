@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Face-to-face assessment at the surgery today at 16:00.\",\n      \"transcript_evidence\": \"But I'm a bit concerned that she's only had two wet nappies today, so I'd like to see her this afternoon. Can you bring her in at four o'clock?\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The planned assessment time in the note (16:00) contradicts the agreed time in the transcript (four o'clock), creating a scheduling error.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Plan",
+    "note_span": "Face-to-face assessment at the surgery today at 16:00.",
+    "transcript_evidence": "But I'm a bit concerned that she's only had two wet nappies today, so I'd like to see her this afternoon. Can you bring her in at four o'clock?",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The planned assessment time in the note (16:00) contradicts the agreed time in the transcript (four o'clock), creating a scheduling error."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"HALLUC\",\n      \"note_section\": \"History\",\n      \"note_span\": \"About five bile-stained, green vomits since last night, fewer today.\",\n      \"transcript_evidence\": \"No, it's milky. Just her milk coming back.\",\n      \"evidence_turns\": [\n        12\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The note claims the vomit was green/bile-stained, which directly contradicts the transcript stating it was milky.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Blood in stool.\",\n      \"transcript_evidence\": \"No. Her brother had blood in his last week when he had the same thing, but there's none in hers.\",\n      \"evidence_turns\": [\n        15,\n        16\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records the presence of blood in the stool, which is explicitly denied by the relative in the transcript.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Four wet nappies since this morning.\",\n      \"transcript_evidence\": \"Oh, wait, no. I've only changed two wet ones since this morning. The others were dirty.\",\n      \"evidence_turns\": [\n        20\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note uses an inaccurate count of wet nappies (four) instead of the corrected count (two wet ones) provided by the relative.\"\n    }\n  ],\n  \"overall_note_safety\": \"unsafe\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "HALLUC",
+    "note_section": "History",
+    "note_span": "About five bile-stained, green vomits since last night, fewer today.",
+    "transcript_evidence": "No, it's milky. Just her milk coming back.",
+    "evidence_turns": [
+     12
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The note claims the vomit was green/bile-stained, which directly contradicts the transcript stating it was milky."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Blood in stool.",
+    "transcript_evidence": "No. Her brother had blood in his last week when he had the same thing, but there's none in hers.",
+    "evidence_turns": [
+     15,
+     16
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The note records the presence of blood in the stool, which is explicitly denied by the relative in the transcript."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "History",
+    "note_span": "Four wet nappies since this morning.",
+    "transcript_evidence": "Oh, wait, no. I've only changed two wet ones since this morning. The others were dirty.",
+    "evidence_turns": [
+     20
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note uses an inaccurate count of wet nappies (four) instead of the corrected count (two wet ones) provided by the relative."
+   }
+  ],
+  "overall_note_safety": "unsafe"
+ }
+}

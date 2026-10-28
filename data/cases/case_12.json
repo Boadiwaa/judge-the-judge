@@ -286,6 +286,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "A wrong-side examination finding could misdirect any later imaging, though the patient would point to the correct knee.",
+          "subtle": true,
           "description": "Tender spot recorded on the wrong knee"
         },
         {
@@ -301,6 +302,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 4,
           "seeded_rationale": "Night pain is a red flag for bone tumour or infection in adolescents; recording it would trigger urgent imaging and referral that are not needed.",
+          "subtle": false,
           "description": "Absent night pain recorded as present"
         },
         {
@@ -315,6 +317,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The brother's history recorded as Ethan's gives him a false prior diagnosis and bilateral disease.",
+          "subtle": true,
           "description": "Brother's knee condition recorded as the patient's"
         }
       ]
@@ -334,6 +337,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "An acute two-day history suggests injury and may prompt unnecessary X-ray or orthopaedic referral.",
+          "subtle": true,
           "description": "Pain duration shortened from two months to two days"
         },
         {
@@ -348,6 +352,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "No X-ray was taken; a recorded normal X-ray falsely reassures that bone pathology has been excluded if red flags develop.",
+          "subtle": true,
           "description": "Knee X-ray recorded that was never done"
         },
         {
@@ -362,6 +367,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 2,
           "seeded_rationale": "Red-flag advice for bone tumour, infection and slipped upper femoral epiphysis was given but is undocumented.",
+          "subtle": false,
           "description": "Red-flag safety-netting dropped"
         },
         {
@@ -376,6 +382,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Double the intended ibuprofen dose in a teenager increases gastrointestinal and renal risk and exceeds usual over-the-counter dosing.",
+          "subtle": false,
           "description": "Ibuprofen dose doubled"
         }
       ]

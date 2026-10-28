@@ -1,0 +1,448 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "History/Complaint",
+    "claim": "The patient presents with a flare of atopic eczema lasting about a month."
+   },
+   {
+    "id": "c2",
+    "section": "History/Complaint",
+    "claim": "The patient experiences nocturnal itch that disturbs sleep."
+   },
+   {
+    "id": "c3",
+    "section": "History/Complaint",
+    "claim": "The flare duration was corrected from a month to two weeks."
+   },
+   {
+    "id": "c4",
+    "section": "History/Complaint",
+    "claim": "The patient's eczema is worst in the flexures, specifically the right elbow."
+   },
+   {
+    "id": "c5",
+    "section": "History/Complaint",
+    "claim": "The patient denies weeping, crusting, blisters, or punched-out lesions."
+   },
+   {
+    "id": "c6",
+    "section": "History/Complaint",
+    "claim": "The patient is systemically well and has no fevers or other unwell symptoms."
+   },
+   {
+    "id": "c7",
+    "section": "History/Complaint",
+    "claim": "The patient recently started using bubble baths."
+   },
+   {
+    "id": "c8",
+    "section": "History/Complaint",
+    "claim": "The patient uses Epaderm once daily and hydrocortisone 1% cream."
+   },
+   {
+    "id": "c9",
+    "section": "History/Complaint",
+    "claim": "The patient has a history of asthma."
+   },
+   {
+    "id": "c10",
+    "section": "History/Complaint",
+    "claim": "The father has hay fever and the sister has asthma."
+   },
+   {
+    "id": "c11",
+    "section": "Medications/Allergies",
+    "claim": "The patient uses Epaderm emollient and hydrocortisone 1% cream (over the counter)."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "The examination reveals dry, erythematous, excoriated patches in both antecubital and both popliteal fossae."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The right elbow crease is the most severe area of the rash."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "There is no evidence of weeping, crusting, or vesicles."
+   },
+   {
+    "id": "c15",
+    "section": "Impression",
+    "claim": "The condition is a moderate flare of atopic eczema with no signs of infection."
+   },
+   {
+    "id": "c16",
+    "section": "Impression",
+    "claim": "A possible trigger for the flare is bubble baths."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "The plan involves using clobetasone butyrate 0.05% once daily for seven days, followed by hydrocortisone 1% if needed."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The patient should use Epaderm three or four times daily, applying at least a 500 gram tub every two weeks."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The patient should use Epaderm as a soap substitute and stop using bubble baths."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "The patient is scheduled for a review in two weeks."
+   },
+   {
+    "id": "c21",
+    "section": "Safety-netting",
+    "claim": "If the patient develops painful sores, blisters, or punched-out spots, especially with a fever or feeling unwell, she should be seen the same day for possible herpes infection."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "The clinician is Dr Lindqvist and the patient is Mia's father.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The relative is Raj.",
+    "about": "relative"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "The clinician asks what has been going on.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     4
+    ],
+    "fact": "The patient's eczema is flared up badly, causing her to scratch all night and preventing sleep.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     5
+    ],
+    "fact": "The clinician asks how long the flare has been going on.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     6
+    ],
+    "fact": "The patient initially stated the flare was about a month, but corrected it to two weeks, starting after half-term.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     7
+    ],
+    "fact": "The clinician asks where it is worst.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     8
+    ],
+    "fact": "The worst areas are the backs of her knees and the insides of her elbows, with the right elbow being the worst.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     9
+    ],
+    "fact": "The patient reports that it is very itchy.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     10
+    ],
+    "fact": "The clinician asks if the rash ever weeps, gets crusty, or yellow.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     11
+    ],
+    "fact": "The patient reports the rash is just red, dry, and scratched.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     12
+    ],
+    "fact": "The clinician asks about blisters or painful sores that look like little punched-out holes.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     13
+    ],
+    "fact": "The patient denies having blisters or painful sores.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     14
+    ],
+    "fact": "The clinician asks if the patient has had any fevers or been unwell.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     15
+    ],
+    "fact": "The patient reports she is fine otherwise and has no fevers.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     16
+    ],
+    "fact": "The clinician asks what the patient is currently using on the rash.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     17
+    ],
+    "fact": "The patient is using Epaderm once a day and some hydrocortisone cream from the chemist.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     18
+    ],
+    "fact": "The clinician asks how strong the hydrocortisone is.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     19
+    ],
+    "fact": "The hydrocortisone cream is one percent.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     20
+    ],
+    "fact": "The clinician asks if the patient is on any other medicines or has any allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     21
+    ],
+    "fact": "The patient reports no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     22
+    ],
+    "fact": "The clinician asks if anyone in the family has eczema, asthma, or hay fever.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     23
+    ],
+    "fact": "The patient has hay fever and her big sister has asthma.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     24
+    ],
+    "fact": "The clinician asks if the patient has ever had asthma or wheezing.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     25
+    ],
+    "fact": "The patient reports she has never had asthma or wheezing.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     26
+    ],
+    "fact": "The clinician asks about pets at home.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     27
+    ],
+    "fact": "The patient has had a cat all her life.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     28
+    ],
+    "fact": "The clinician asks if anything has changed, such as new soaps, bubble bath, or washing powder.",
+    "about": "patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     29
+    ],
+    "fact": "The patient has started having bubble baths at her mum's.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     30
+    ],
+    "fact": "The clinician examines the patient and notes dry, red, scratched patches in both elbow creases and behind both knees, with the right elbow crease being the worst. There is no weeping, crusting, or blisters, indicating no sign of infection.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     31
+    ],
+    "fact": "The patient acknowledges the examination findings as good.",
+    "about": "patient"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     32
+    ],
+    "fact": "The clinician diagnoses a moderate flare of atopic eczema and plans to use clobetasone butyrate 0.05% once daily for seven days, then switch back to hydrocortisone 1% if needed.",
+    "about": "patient"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     33
+    ],
+    "fact": "The patient asks if the new cream is safe.",
+    "about": "patient"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     34
+    ],
+    "fact": "The clinician confirms the cream is safe for a short course and explains how to use a fingertip unit for an area the size of two adult hands.",
+    "about": "patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     35
+    ],
+    "fact": "The patient acknowledges the instructions.",
+    "about": "patient"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     36
+    ],
+    "fact": "The clinician advises the patient to use Epaderm three or four times a day, apply lots of it (at least a 500 gram tub every two weeks), use it as a soap substitute, and stop bubble baths.",
+    "about": "patient"
+   },
+   {
+    "id": "f37",
+    "turns": [
+     37
+    ],
+    "fact": "The patient acknowledges the advice and states she will talk to her mum.",
+    "about": "patient"
+   },
+   {
+    "id": "f38",
+    "turns": [
+     38
+    ],
+    "fact": "The clinician schedules a follow-up appointment in two weeks.",
+    "about": "patient"
+   },
+   {
+    "id": "f40",
+    "turns": [
+     40
+    ],
+    "fact": "The clinician provides safety-netting advice that if the patient gets painful sores, blisters, or punched-out spots, especially with a fever or feeling unwell, she should be seen the same day for possible herpes infection.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History/Complaint\",\n      \"note_span\": \"Flare of atopic eczema for about a month.\",\n      \"transcript_evidence\": \"About a month. No, actually, she started scratching after half-term, so two weeks.\",\n      \"evidence_turns\": [\n        6\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records an outdated duration of the flare (one month) instead of the corrected duration (two weeks) provided in the transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History/Complaint",
+    "note_span": "Flare of atopic eczema for about a month.",
+    "transcript_evidence": "About a month. No, actually, she started scratching after half-term, so two weeks.",
+    "evidence_turns": [
+     6
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note records an outdated duration of the flare (one month) instead of the corrected duration (two weeks) provided in the transcript."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

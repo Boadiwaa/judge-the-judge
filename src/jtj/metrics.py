@@ -39,7 +39,7 @@ def compute_all(cases: list[Case], outputs_dir: Path, judges=("J0", "J1", "J2"),
                 errors.append({"error_id": m.error_id, "case_id": c.case_id, "variant_id": v.variant_id,
                                "type": m.type, "tier": m.tier, "score": m.risk_score,
                                "severity": m.seeded_severity, "likelihood": m.seeded_likelihood,
-                               "description": m.description or ERROR_TYPES[m.type]})
+                               "subtle": m.subtle, "description": m.description or ERROR_TYPES[m.type]})
     n_notes = sum(len(c.variants) for c in cases)
 
     matches: dict[str, dict] = {}
@@ -86,6 +86,8 @@ def compute_all(cases: list[Case], outputs_dir: Path, judges=("J0", "J1", "J2"),
         high = [e for e in judged if e["tier"] in HIGH_TIERS]
         by_type = {t: _prop(hit(s), ids(s)) for t in ERROR_TYPES if (s := [e for e in judged if e["type"] == t])}
         by_tier = {t: _prop(hit(s), ids(s)) for t in TIERS if (s := [e for e in judged if e["tier"] == t])}
+        by_subtlety = {k: _prop(hit(s), ids(s)) for k, flag in (("subtle", True), ("obvious", False))
+                       if (s := [e for e in judged if e["subtle"] is flag])}
 
         # severity agreement on detected errors that carry a judge severity
         pairs = [(e["case_id"], e["severity"], det[e["error_id"]]["finding"]["severity"])
@@ -104,6 +106,7 @@ def compute_all(cases: list[Case], outputs_dir: Path, judges=("J0", "J1", "J2"),
             "overall": _prop(hit(judged), ids(judged)),
             "by_type": by_type,
             "by_tier": by_tier,
+            "by_subtlety": by_subtlety,
             "severity_agreement": sev,
             "clean_flags_per_note": {"mean": round(sum(clean_flags) / len(clean_flags), 3) if clean_flags else None,
                                      "n_notes": len(clean_flags), "counts": clean_flags},
@@ -161,5 +164,6 @@ def answer_key_summary(cases: list[Case]) -> dict:
         "n_cases": len(cases), "n_notes": sum(len(c.variants) for c in cases), "n_errors": len(errs),
         "by_type": {t: sum(m.type == t for m in errs) for t in ERROR_TYPES},
         "by_tier": {t: sum(risk_tier(m.risk_score) == t for m in errs) for t in TIERS},
+        "n_subtle": sum(m.subtle for m in errs),
         "all_reviewed": bool(cases) and all(c.clinician_reviewed for c in cases),
     }

@@ -1,0 +1,432 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "Head injury after a mechanical fall at home at about 07:45."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "Tripped on a rug and struck the left side of her head on a door frame."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Patient reports feeling muddled for about 10 minutes afterwards."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Loss of consciousness uncertain (unwitnessed)."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "No vomiting."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "Mild headache at the impact site."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "No visual disturbance, limb weakness or neck pain."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "No preceding dizziness or presyncope."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "Last apixaban dose this morning, after the fall."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "Tetanus up to date."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "Apixaban 2.5 mg twice daily (atrial fibrillation)."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "Bisoprolol 2.5 mg once daily."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "Amlodipine 5 mg once daily."
+   },
+   {
+    "id": "c14",
+    "section": "Medications and allergies",
+    "claim": "Allergic to penicillin (swelling)."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "Glasgow Coma Score is 15."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "3 cm laceration with haematoma over the left temple."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "Pupils are equal and reactive."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "Normal power in all limbs."
+   },
+   {
+    "id": "c19",
+    "section": "Examination",
+    "claim": "No cervical spine midline tenderness."
+   },
+   {
+    "id": "c20",
+    "section": "Examination",
+    "claim": "Heart rate is irregular at about 80."
+   },
+   {
+    "id": "c21",
+    "section": "Examination",
+    "claim": "Blood pressure is 146 over 82."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "CT head (anticoagulated) is required to check for internal bleeding."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "Wound cleaned and closed with steri-strips."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "Discharge with daughter, who will stay with her for 24 hours if CT is normal."
+   },
+   {
+    "id": "c25",
+    "section": "Safety-netting",
+    "claim": "Call 999 or return immediately if patient becomes drowsy, confused, vomits again, has a worsening headache, a fit, or any weakness."
+   },
+   {
+    "id": "c26",
+    "section": "Safety-netting",
+    "claim": "Written head injury advice given to daughter."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "Clinician is Dr Pemberton.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "Relative is the patient's daughter, Sue.",
+    "about": "relative"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "Clinician asks the patient what happened.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     4
+    ],
+    "fact": "Patient tripped on the rug in the hall and banged her head on the door frame.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     6
+    ],
+    "fact": "Patient reports the time of the fall was about half past nine.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     7
+    ],
+    "fact": "Relative corrects the time, stating it was about quarter to eight, noting the post hadn't come and the patient hadn't had breakfast.",
+    "about": "relative"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     8
+    ],
+    "fact": "Patient acknowledges the relative's correction.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     10
+    ],
+    "fact": "Patient states the injury was on the left side, by their eye.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     12
+    ],
+    "fact": "Patient states they do not think they blacked out.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     13
+    ],
+    "fact": "Relative states that when she arrived about ten minutes later, the patient was muddled and kept asking what day it was, lasting maybe ten minutes.",
+    "about": "relative"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     15
+    ],
+    "fact": "Patient does not remember Sue arriving.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     17
+    ],
+    "fact": "Relative states the patient was sick once in the car on the way to the hospital.",
+    "about": "relative"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     18
+    ],
+    "fact": "Patient does not remember being sick in the car.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     20
+    ],
+    "fact": "Patient reports a bit of a headache where they hit the head.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     22
+    ],
+    "fact": "Patient denies problems with vision, weakness in arms or legs.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     24
+    ],
+    "fact": "Patient denies neck pain.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     26
+    ],
+    "fact": "Patient states they caught their foot on the rug and were not dizzy.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     28
+    ],
+    "fact": "Relative states the patient is on Apixaban 2.5 mg twice a day for heart rhythm, Bisoprolol 2.5 mg once a day, and Amlodipine 5 mg once daily.",
+    "about": "relative"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     30
+    ],
+    "fact": "Patient states they last took Apixaban this morning with breakfast, after the fall.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     32
+    ],
+    "fact": "Patient reports an allergy to penicillin, which causes swelling.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     33
+    ],
+    "fact": "Clinician notes the patient's Glasgow Coma Score is 15.",
+    "about": "clinician"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     33
+    ],
+    "fact": "Clinician notes there is a cut about 3 centimetres long on the left temple with a bump around it.",
+    "about": "clinician"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     33
+    ],
+    "fact": "Clinician notes the patient's pupils are equal and reactive to light.",
+    "about": "clinician"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     33
+    ],
+    "fact": "Clinician notes strength is normal everywhere.",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     37
+    ],
+    "fact": "Clinician notes the patient's heart rate is irregular at about 80 and blood pressure is 146 over 82.",
+    "about": "clinician"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     39
+    ],
+    "fact": "Clinician plans a CT scan of the head to check for internal bleeding because the patient is on a blood thinner.",
+    "about": "clinician"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     41
+    ],
+    "fact": "Clinician plans to hold off the evening dose of Apixaban until the scan is seen.",
+    "about": "clinician"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     43
+    ],
+    "fact": "Clinician plans to clean and close the cut with steri-strips.",
+    "about": "clinician"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     44
+    ],
+    "fact": "Patient confirms they are up to date with tetanus.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     45
+    ],
+    "fact": "Clinician states that if the scan is normal, the patient can go home with Sue, who will stay with her for 24 hours.",
+    "about": "clinician"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     47
+    ],
+    "fact": "Clinician provides safety-netting instructions: call 999 or return immediately if the patient becomes drowsy, confused, vomits again, has a worsening headache, a fit, or any weakness.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"No vomiting.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the fact that the patient experienced one episode of vomiting, which is a relevant symptom for the clinical picture and safety netting.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue apixaban as usual.\",\n      \"transcript_evidence\": \"Clinician plans to hold off the evening dose of apixaban until we've seen the scan.\",\n      \"evidence_turns\": [\n        41\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note fails to record the specific plan change regarding the apixaban dose hold, which is a critical medication management decision.\"\n    },\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"at about 07:45.\",\n      \"transcript_evidence\": \"It was about quarter to eight.\",\n      \"evidence_turns\": [\n        6,\n        7\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note records the patient's stated time, ignoring the relative's correction, leading to a minor temporal inaccuracy.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "No vomiting.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the fact that the patient experienced one episode of vomiting, which is a relevant symptom for the clinical picture and safety netting."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Continue apixaban as usual.",
+    "transcript_evidence": "Clinician plans to hold off the evening dose of apixaban until we've seen the scan.",
+    "evidence_turns": [
+     41
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note fails to record the specific plan change regarding the apixaban dose hold, which is a critical medication management decision."
+   },
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "at about 07:45.",
+    "transcript_evidence": "It was about quarter to eight.",
+    "evidence_turns": [
+     6,
+     7
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note records the patient's stated time, ignoring the relative's correction, leading to a minor temporal inaccuracy."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

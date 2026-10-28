@@ -1,0 +1,435 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "Patient has had a cough and coryza for 4 days."
+   },
+   {
+    "id": "c2",
+    "section": "Presenting complaint",
+    "claim": "Patient has had increased work of breathing since yesterday."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Patient has had a temperature of 37.9 \u00b0C."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Patient has been feeding about half his usual amount since yesterday."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "Patient has had four wet nappies in 24 hours."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "Patient has no history of apnoea (older sister had an apnoea with bronchiolitis two years ago)."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "Patient has no history of cyanosis."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "Patient has had a small posset after coughing."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "Patient was born at 39 weeks with no neonatal problems."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "Patient has no cardiac or respiratory history."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "Patient's immunisations are up to date."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "Patient has taken Calpol once yesterday."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "Patient has no known drug allergies."
+   },
+   {
+    "id": "c14",
+    "section": "Medications and allergies",
+    "claim": "Father smokes, but only outside."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "Patient's temperature is 37.8 \u00b0C."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "Patient's respiratory rate is 54 breaths per minute."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "Patient's heart rate is 150 beats per minute."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "Patient's oxygen level is 95 percent in air."
+   },
+   {
+    "id": "c19",
+    "section": "Examination",
+    "claim": "Patient has mild subcostal recession."
+   },
+   {
+    "id": "c20",
+    "section": "Examination",
+    "claim": "Patient's capillary refill is under two seconds."
+   },
+   {
+    "id": "c21",
+    "section": "Examination",
+    "claim": "Patient is alert."
+   },
+   {
+    "id": "c22",
+    "section": "Examination",
+    "claim": "Patient has bilateral fine crackles and wheeze."
+   },
+   {
+    "id": "c23",
+    "section": "Impression",
+    "claim": "Impression is Bronchiolitis."
+   },
+   {
+    "id": "c24",
+    "section": "Impression",
+    "claim": "Feeding is moderately reduced (about 50%)."
+   },
+   {
+    "id": "c25",
+    "section": "Impression",
+    "claim": "Patient is borderline for referral."
+   },
+   {
+    "id": "c26",
+    "section": "Impression",
+    "claim": "Patient is managed at home with an early review."
+   },
+   {
+    "id": "c27",
+    "section": "Plan",
+    "claim": "Plan is to give small, frequent feeds."
+   },
+   {
+    "id": "c28",
+    "section": "Plan",
+    "claim": "Plan is to use saline nose drops before feeds."
+   },
+   {
+    "id": "c29",
+    "section": "Plan",
+    "claim": "Illness may worsen over days 3\u20135."
+   },
+   {
+    "id": "c30",
+    "section": "Plan",
+    "claim": "Clinical review is scheduled for tomorrow morning."
+   },
+   {
+    "id": "c31",
+    "section": "Safety-netting",
+    "claim": "Safety-netting advises calling 999 if there are pauses in breathing, blue colour, or severe difficulty breathing."
+   },
+   {
+    "id": "c32",
+    "section": "Safety-netting",
+    "claim": "Safety-netting advises calling GP or 111 urgently if feeds fall below half, no wet nappy for 12 hours, or if the patient seems more tired and floppy."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     4
+    ],
+    "fact": "Patient has had a runny nose and a cough for four days.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     4
+    ],
+    "fact": "Patient's breathing has been going really fast since yesterday.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     6
+    ],
+    "fact": "Patient is seven months old.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     8
+    ],
+    "fact": "Patient had a temperature of 37.9 this morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     10,
+     11
+    ],
+    "fact": "Patient is taking most of his bottles, but only managed about half of each bottle since yesterday.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     12
+    ],
+    "fact": "Patient keeps pulling off to breathe.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     14
+    ],
+    "fact": "Patient has had four wet nappies in the last 24 hours, which is usually six or seven.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     16
+    ],
+    "fact": "Patient's sister had an apnoea with bronchiolitis two years ago.",
+    "about": "other"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     18
+    ],
+    "fact": "Patient has no history of severe symptoms like apnoea.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     20
+    ],
+    "fact": "Patient has no gone blue or very pale.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     22
+    ],
+    "fact": "Patient brought up a bit of milk after coughing.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     24
+    ],
+    "fact": "Patient was born at 39 weeks with no problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     26
+    ],
+    "fact": "Patient has no cardiac or respiratory history.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     28
+    ],
+    "fact": "Patient's immunisations are up to date.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     30
+    ],
+    "fact": "Patient has taken Calpol once yesterday.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     32
+    ],
+    "fact": "Father smokes, but only outside.",
+    "about": "other"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     33
+    ],
+    "fact": "Patient's temperature is 37.8 \u00b0C.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     33
+    ],
+    "fact": "Patient's respiratory rate is 54 times a minute.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     33
+    ],
+    "fact": "Patient's heart rate is 150.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     33
+    ],
+    "fact": "Patient's oxygen level is 95 percent.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     33
+    ],
+    "fact": "Patient has mild subcostal recession.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     33
+    ],
+    "fact": "Patient's capillary refill is under two seconds.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     33
+    ],
+    "fact": "Patient is alert.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     35
+    ],
+    "fact": "Patient has bilateral fine crackles and wheeze on both sides of his chest.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     37
+    ],
+    "fact": "Patient is working a bit harder to breathe.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     37
+    ],
+    "fact": "Patient's feeding is down to about half, which is right on the line.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     37
+    ],
+    "fact": "Patient's oxygen is okay and he is alert.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     39
+    ],
+    "fact": "Advice given: Give him smaller feeds more often.",
+    "about": "patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     39
+    ],
+    "fact": "Advice given: Use saline drops in his nose before feeds to help clear it.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     39
+    ],
+    "fact": "Advice given: Bronchiolitis often gets worse over the first three to five days before it gets better.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     41
+    ],
+    "fact": "Safety-netting: Call 999 if he has any pauses in his breathing, goes blue, or is really struggling to breathe.",
+    "about": "patient"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     43
+    ],
+    "fact": "Safety-netting: Call us or 111 straight away if he's taking less than half his usual feeds, has no wet nappy for 12 hours, or seems more tired and floppy.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

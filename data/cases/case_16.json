@@ -251,6 +251,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 4,
           "seeded_rationale": "Recording intent to harm the baby, when she described unwanted intrusive thoughts with no intent, could trigger inappropriate safeguarding action and separation, and deter her from disclosing again.",
+          "subtle": false,
           "description": "No intent to harm the baby recorded as an urge to harm"
         },
         {
@@ -265,6 +266,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Three times daily triples the starting dose, increasing side effects for her and exposure for the breastfed baby.",
+          "subtle": false,
           "description": "Sertraline frequency tripled"
         },
         {
@@ -279,6 +281,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "A family history of postpartum psychosis raises her risk substantially and supports the specialist referral; without it, the referral may be deprioritised.",
+          "subtle": false,
           "description": "Family history of postpartum psychosis dropped"
         }
       ]
@@ -298,6 +301,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 1,
           "seeded_rationale": "A two-week difference in the baby's age does not change management.",
+          "subtle": true,
           "description": "Baby's age kept at the figure the mother corrected"
         },
         {
@@ -312,6 +316,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Six days of low mood in the postnatal period could be read as baby blues, undermining the diagnosis, the medication and the referral.",
+          "subtle": true,
           "description": "Low mood duration recorded as six days"
         },
         {
@@ -326,6 +331,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "With moderately severe depression and a family history of postpartum psychosis, specialist perinatal input was agreed; omitting it removes a key safety net.",
+          "subtle": false,
           "description": "Perinatal mental health referral dropped"
         },
         {
@@ -340,6 +346,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The partner's panic attacks recorded as hers add an inaccurate symptom to her record.",
+          "subtle": true,
           "description": "Partner's panic attacks recorded as the mother's"
         }
       ]

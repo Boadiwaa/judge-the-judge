@@ -250,6 +250,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 4,
           "seeded_rationale": "Daily instead of weekly methotrexate is a recognised never-type error that causes fatal bone marrow suppression; a medication list is often copied into new prescriptions.",
+          "subtle": true,
           "description": "Weekly methotrexate recorded as daily"
         },
         {
@@ -264,6 +265,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The wrong side affects joint injection planning and comparison at review, though the patient would correct it.",
+          "subtle": false,
           "description": "Inflamed joints recorded on the wrong hand"
         },
         {
@@ -278,7 +280,23 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "Alcohol intake matters with methotrexate, but hers is within limits, so its absence is unlikely to cause harm.",
+          "subtle": true,
           "description": "Alcohol intake dropped"
+        },
+        {
+          "error_id": "case_19_a_e4",
+          "type": "DRUG_NAME",
+          "section": "medications_allergies",
+          "original_text": "Sulfasalazine: rash.",
+          "mutated_text": "Sulfadiazine: rash.",
+          "evidence_turns": [
+            23
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Sulfasalazine recorded as sulfadiazine, a look-alike pair; her arthritis is active and sulfasalazine is a standard add-on DMARD, so it could be re-prescribed despite her previous reaction, risking a worse hypersensitivity reaction.",
+          "subtle": true,
+          "description": "Sulfasalazine intolerance recorded as sulfadiazine"
         }
       ]
     },
@@ -297,6 +315,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "The corrected 90 minutes indicates active inflammatory disease; 30 minutes understates activity and weakens the case for treatment escalation.",
+          "subtle": true,
           "description": "Morning stiffness kept at the figure the patient corrected"
         },
         {
@@ -311,6 +330,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The husband's shingles recorded as hers adds a false recent infection on immunosuppression, which could delay treatment or prompt unnecessary antivirals.",
+          "subtle": true,
           "description": "Husband's shingles recorded as the patient's"
         },
         {
@@ -325,6 +345,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 2,
           "seeded_rationale": "Methotrexate toxicity advice was given verbally, but without documentation it may not be reinforced after the dose increase; marrow suppression and pneumonitis can be fatal.",
+          "subtle": false,
           "description": "Methotrexate toxicity safety-netting dropped"
         },
         {
@@ -339,6 +360,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The chest was not examined; a recorded normal chest could be used as a baseline when assessing possible methotrexate pneumonitis later.",
+          "subtle": true,
           "description": "Chest examination recorded that was never done"
         }
       ]

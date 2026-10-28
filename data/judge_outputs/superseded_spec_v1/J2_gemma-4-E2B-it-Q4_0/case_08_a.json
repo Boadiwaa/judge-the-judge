@@ -1,0 +1,339 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting Complaint",
+    "claim": "The patient is presenting with worsening wheeze and breathlessness since yesterday, associated with a viral upper respiratory infection."
+   },
+   {
+    "id": "c2",
+    "section": "History/Symptoms",
+    "claim": "The patient has a history of using salbutamol twice a day."
+   },
+   {
+    "id": "c3",
+    "section": "History/Medications",
+    "claim": "The patient is prescribed Clenil (beclometasone) 100 micrograms, two puffs twice daily, but adherence is poor."
+   },
+   {
+    "id": "c4",
+    "section": "History/Symptoms",
+    "claim": "The patient reports a tight chest and a small amount of clear sputum."
+   },
+   {
+    "id": "c5",
+    "section": "History/Symptoms",
+    "claim": "The patient had a feverish episode two days ago."
+   },
+   {
+    "id": "c6",
+    "section": "History/Hospitalisation",
+    "claim": "The patient has one previous hospital admission three years ago for two nights."
+   },
+   {
+    "id": "c7",
+    "section": "History/Hospitalisation",
+    "claim": "The patient has never required intensive care or a breathing tube."
+   },
+   {
+    "id": "c8",
+    "section": "History/Medications",
+    "claim": "The patient uses an e-cigarette daily."
+   },
+   {
+    "id": "c9",
+    "section": "Examination",
+    "claim": "The patient's vital signs include a breathing rate of 24, heart rate of 108, and oxygen saturation of 95% on air."
+   },
+   {
+    "id": "c10",
+    "section": "Examination",
+    "claim": "The examination reveals widespread bilateral wheeze with good air entry."
+   },
+   {
+    "id": "c11",
+    "section": "Examination",
+    "claim": "The patient's peak expiratory flow (PEF) is 250 L/min, which is 55% of their best."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "Following a 5 mg nebulised salbutamol dose, the patient's PEF improved to 380 L/min (84% of best), breathing rate decreased to 18, and oxygen saturation increased to 98%."
+   },
+   {
+    "id": "c13",
+    "section": "Impression",
+    "claim": "The patient has a moderate acute asthma exacerbation triggered by a viral infection."
+   },
+   {
+    "id": "c14",
+    "section": "Impression",
+    "claim": "The patient showed a good response to the bronchodilator."
+   },
+   {
+    "id": "c15",
+    "section": "Impression",
+    "claim": "The patient has poor preventer adherence."
+   },
+   {
+    "id": "c16",
+    "section": "Plan",
+    "claim": "The plan includes prescribing prednisolone 40 mg once daily for five days."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "The plan includes an inhaler technique check before discharge."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "Discharge is planned if the patient remains stable after one hour of observation."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The patient is scheduled for a GP or asthma nurse review within two working days for inhaler review and asthma action plan."
+   },
+   {
+    "id": "c20",
+    "section": "Safety-netting",
+    "claim": "Safety netting advice includes calling 999 if the patient needs their blue inhaler more often than every four hours, is too breathless to speak, or has blue lips."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     3
+    ],
+    "fact": "Clinician observed the patient is 'a bit wheezy'.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     4
+    ],
+    "fact": "Patient reports having a cold for a few days and asthma worsening since yesterday.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     6
+    ],
+    "fact": "Patient has a history of using salbutamol twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     8
+    ],
+    "fact": "Patient corrected their salbutamol usage: it has been every two hours, maybe more, since last night.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     12
+    ],
+    "fact": "Patient is on Clenil (brown preventer) 100 micrograms, meant to be taken twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     14
+    ],
+    "fact": "The dose of Clenil is 100 micrograms, two puffs.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     16
+    ],
+    "fact": "Patient was previously hospitalized once about three years ago for two nights.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     18
+    ],
+    "fact": "Patient has never required intensive care or a breathing tube.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     20
+    ],
+    "fact": "Patient reports symptoms include a tight chest and a bit of clear phlegm.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     22
+    ],
+    "fact": "Patient reports feeling 'a bit hot' a couple of days ago with the cold.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     24
+    ],
+    "fact": "Patient does not smoke but vapes every day.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     28
+    ],
+    "fact": "Patient has an allergy to Aspirin, which causes chest tightness, leading to a previous hospital visit.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     29
+    ],
+    "fact": "Examination findings: Breathing rate is 24, heart rate is 108, oxygen levels are 95 percent on air.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     29
+    ],
+    "fact": "Examination findings: Clinician can hear wheeze all over the chest, on both sides, but air is getting in everywhere.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     31
+    ],
+    "fact": "Peak flow meter reading is 250 L/min.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     32
+    ],
+    "fact": "Patient's best peak flow reading is about 450 L/min.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     33
+    ],
+    "fact": "The patient has a moderate asthma attack.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     33
+    ],
+    "fact": "Treatment plan: Give a nebuliser with salbutamol (5 mg) and start prednisolone (40 mg once daily for five days).",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     37
+    ],
+    "fact": "Post-treatment findings: Peak flow is now 380 L/min (84% of best), breathing rate is 18, and oxygen is 98 percent.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     39
+    ],
+    "fact": "Discharge condition: Patient can go home if stable for the next hour.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     39
+    ],
+    "fact": "Instruction: Patient must use the brown inhaler every day, even when feeling well.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     41
+    ],
+    "fact": "Follow-up plan: Patient needs to see a GP or asthma nurse within two working days for inhaler review and asthma action plan.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     43
+    ],
+    "fact": "Safety netting instruction: Call 999 if the patient needs their blue inhaler more than every four hours, is too breathless to speak, or has blue lips.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History/Medications\",\n      \"note_span\": \"Using salbutamol twice a day.\",\n      \"transcript_evidence\": \"Since last night it's been every two hours, maybe more.\",\n      \"evidence_turns\": [\n        4\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the salbutamol usage frequency, which is contradicted by the transcript indicating usage every two hours or more.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Prednisolone 4 mg once daily for 5 days.\",\n      \"transcript_evidence\": \"start prednisolone (40 mg once daily for five days).\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The prescribed dose of prednisolone is incorrect (4 mg vs 40 mg), which is a significant error in the treatment plan.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Inhaler technique check before discharge.\",\n      \"transcript_evidence\": \"Before you go, the nurse will check how you use your inhalers.\",\n      \"evidence_turns\": [\n        39\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note omits the specific instruction given by the clinician regarding the mandatory daily use of the brown preventer inhaler.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History/Medications",
+    "note_span": "Using salbutamol twice a day.",
+    "transcript_evidence": "Since last night it's been every two hours, maybe more.",
+    "evidence_turns": [
+     4
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the salbutamol usage frequency, which is contradicted by the transcript indicating usage every two hours or more."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Prednisolone 4 mg once daily for 5 days.",
+    "transcript_evidence": "start prednisolone (40 mg once daily for five days).",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The prescribed dose of prednisolone is incorrect (4 mg vs 40 mg), which is a significant error in the treatment plan."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Plan",
+    "note_span": "Inhaler technique check before discharge.",
+    "transcript_evidence": "Before you go, the nurse will check how you use your inhalers.",
+    "evidence_turns": [
+     39
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note omits the specific instruction given by the clinician regarding the mandatory daily use of the brown preventer inhaler."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

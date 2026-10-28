@@ -1,0 +1,25 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Medication error (dosage/frequency)\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Nitrofurantoin 100 mg modified-release four times daily for 3 days.\",\n      \"transcript_evidence\": \"It's 100 milligrams, the modified-release capsules, twice a day for three days.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The prescribed frequency of the antibiotic in the note (four times daily) contradicts the frequency stated in the transcript (twice a day).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "plan",
+    "note_span": "Nitrofurantoin 100 mg modified-release four times daily for 3 days.",
+    "transcript_evidence": "It's 100 milligrams, the modified-release capsules, twice a day for three days.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The prescribed frequency of the antibiotic in the note (four times daily) contradicts the frequency stated in the transcript (twice a day)."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

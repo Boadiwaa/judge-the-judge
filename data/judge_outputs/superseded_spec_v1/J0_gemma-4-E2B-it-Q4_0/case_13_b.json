@@ -1,0 +1,25 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Plan contradiction (Follow-up frequency)\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Review in 4 weeks.\",\n      \"transcript_evidence\": \"I'd also like to see you again in one week, not four.\",\n      \"evidence_turns\": [\n        51\n      ],\n      \"severity\": 3,\n      \"likelihood\": 5,\n      \"rationale\": \"The plan incorrectly states a follow-up in four weeks when the clinician explicitly states the review will be in one week.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "plan",
+    "note_span": "Review in 4 weeks.",
+    "transcript_evidence": "I'd also like to see you again in one week, not four.",
+    "evidence_turns": [
+     51
+    ],
+    "severity": 3,
+    "likelihood": 5,
+    "rationale": "The plan incorrectly states a follow-up in four weeks when the clinician explicitly states the review will be in one week."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

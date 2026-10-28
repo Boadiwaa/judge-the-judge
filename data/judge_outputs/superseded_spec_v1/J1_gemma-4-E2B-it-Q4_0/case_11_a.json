@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"most severe in the left antecubital fossa.\",\n      \"transcript_evidence\": \"Her right elbow's the worst.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note contradicts the transcript regarding the location of the most severe eczema flare, potentially leading to incorrect treatment focus.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Clobetasol propionate 0.05% once daily\",\n      \"transcript_evidence\": \"It's called clobetasone butyrate, 0.05 percent.\",\n      \"evidence_turns\": [\n        32\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note uses an incorrect chemical name for the steroid cream, although the strength (0.05%) is correct.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "most severe in the left antecubital fossa.",
+    "transcript_evidence": "Her right elbow's the worst.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note contradicts the transcript regarding the location of the most severe eczema flare, potentially leading to incorrect treatment focus."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Clobetasol propionate 0.05% once daily",
+    "transcript_evidence": "It's called clobetasone butyrate, 0.05 percent.",
+    "evidence_turns": [
+     32
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note uses an incorrect chemical name for the steroid cream, although the strength (0.05%) is correct."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

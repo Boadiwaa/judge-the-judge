@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Review in 3 months.\",\n      \"transcript_evidence\": \"We start low because it can make anxiety a bit worse for the first week or two. Take 25 milligrams once a day for a week, then go up to 50 milligrams once a day.\",\n      \"evidence_turns\": [\n        48\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note specifies a 3-month review period, which contradicts the transcript where the clinician stated they would see the patient in two weeks.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Review in 3 months.",
+    "transcript_evidence": "We start low because it can make anxiety a bit worse for the first week or two. Take 25 milligrams once a day for a week, then go up to 50 milligrams once a day.",
+    "evidence_turns": [
+     48
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note specifies a 3-month review period, which contradicts the transcript where the clinician stated they would see the patient in two weeks."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

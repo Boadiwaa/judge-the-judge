@@ -1,0 +1,409 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient presents with left-sided sciatica-type leg pain for 3 weeks."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The onset of pain occurred 3 weeks ago while lifting a resident at work."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Pain radiates from the buttock down the posterior thigh and lateral calf into the foot."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The leg pain is worse than the back pain."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "Pain severity is up to 7/10."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "Pain is worse after sitting for a while."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient experiences occasional tingling over the lateral foot."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient reports saddle numbness."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "There is no change in bladder or bowel function."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient reports no fevers."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "The patient has no history of cancer or unintentional weight loss."
+   },
+   {
+    "id": "c12",
+    "section": "History",
+    "claim": "The patient works as a care assistant."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "The patient takes over-the-counter ibuprofen 400 mg three times daily with little benefit."
+   },
+   {
+    "id": "c14",
+    "section": "Medications and allergies",
+    "claim": "The patient has no known drug allergies."
+   },
+   {
+    "id": "c15",
+    "section": "Medications and allergies",
+    "claim": "The patient has no history of peptic ulcer, asthma, or renal disease."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "Lumbar flexion is limited by pain."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "Straight leg raise is positive on the right at 40 degrees."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "Straight leg raise is negative on the left."
+   },
+   {
+    "id": "c19",
+    "section": "Examination",
+    "claim": "Power, reflexes, and sensation are normal and symmetrical in both lower limbs."
+   },
+   {
+    "id": "c20",
+    "section": "Impression",
+    "claim": "The impression is right-sided sciatica, likely lumbar disc-related radiculopathy."
+   },
+   {
+    "id": "c21",
+    "section": "Impression",
+    "claim": "There are no red flags."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "The plan is to stop ibuprofen."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "The plan is to start naproxen 500 mg four times daily with food and omeprazole 20 mg once daily for 2 weeks."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "The plan is to refer the patient to physiotherapy."
+   },
+   {
+    "id": "c25",
+    "section": "Plan",
+    "claim": "The patient is advised to keep active and avoid bed rest."
+   },
+   {
+    "id": "c26",
+    "section": "Plan",
+    "claim": "A fit note for 2 weeks is issued, allowing the patient to be fit for work with amended duties (no lifting or handling)."
+   },
+   {
+    "id": "c27",
+    "section": "Plan",
+    "claim": "The patient is scheduled for a review in 4 weeks."
+   },
+   {
+    "id": "c28",
+    "section": "Safety-netting",
+    "claim": "The patient is advised to attend A&E immediately if they experience saddle numbness, difficulty passing urine, loss of bladder or bowel control, or bilateral leg weakness (cauda equina symptoms)."
+   },
+   {
+    "id": "c29",
+    "section": "Safety-netting",
+    "claim": "A symptom card is given to the patient."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     2
+    ],
+    "fact": "The patient reports having shooting pain going all the way down their leg.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     4
+    ],
+    "fact": "The pain started about three weeks ago while lifting a resident at work.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     6
+    ],
+    "fact": "The patient works as a care assistant at a nursing home.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     8
+    ],
+    "fact": "The patient initially stated the pain was in the left leg, but corrected themselves to the right leg.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     10
+    ],
+    "fact": "The pain radiates from the patient's bum, down the back of the thigh, round the outside of the calf, and into the foot.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     12
+    ],
+    "fact": "The pain is rated seven out of ten on a bad day.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     12
+    ],
+    "fact": "The pain is worse when the patient has been sitting for a while.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     16
+    ],
+    "fact": "The patient experiences a bit of tingling on the outside of their foot sometimes.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     18
+    ],
+    "fact": "The patient reports no weakness.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     20
+    ],
+    "fact": "The patient reports no numbness around their bottom or between their legs when sitting on the toilet.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     22
+    ],
+    "fact": "The patient reports no change in their waterworks (trouble passing urine or leaking).",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     24
+    ],
+    "fact": "The patient reports no problems with their bowels or accidents.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     26
+    ],
+    "fact": "The patient reports no fevers or feeling unwell.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     28
+    ],
+    "fact": "The patient reports no history of cancer or unintentional weight loss.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     30
+    ],
+    "fact": "The patient has been taking Ibuprofen 400 mg three times a day, which they state 'barely touches it'.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     34
+    ],
+    "fact": "The patient reports no other medicines and no allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     35
+    ],
+    "fact": "The patient reports shooting pain when asked to bend forward, stating 'Ow, there. That shoots right down.'",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician notes the pain is at about 40 degrees when the patient lifts the right leg.",
+    "about": "clinician"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician notes the patient's power and knee and ankle reflexes are normal in both legs.",
+    "about": "clinician"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     40
+    ],
+    "fact": "The patient confirms they can feel the clinician touching both sides of their body.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician suggests the symptoms sound like sciatica, where a disc in the lower back is irritating a nerve going down the right leg.",
+    "about": "clinician"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician plans to switch the patient from ibuprofen to naproxen 500 milligrams twice a day with food and add omeprazole 20 milligrams once a day for a couple of weeks.",
+    "about": "clinician"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician plans to refer the patient to physiotherapy.",
+    "about": "clinician"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     47
+    ],
+    "fact": "The clinician plans to give a fit note for two weeks, stating the patient may be fit for work with amended duties (no lifting or handling).",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     49
+    ],
+    "fact": "The clinician plans to review the patient in four weeks.",
+    "about": "clinician"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     51
+    ],
+    "fact": "The clinician advises the patient to attend A&E immediately if they get numbness around their bottom or genitals, difficulty passing urine, loss of control of bladder or bowels, or weakness in both legs (cauda equina symptoms).",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Left-sided sciatica-type leg pain for 3 weeks.\",\n      \"transcript_evidence\": \"Patient: It's my back. Well, it's my leg, really. I've got this shooting pain going all the way down.\",\n      \"evidence_turns\": [\n        2\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the side of the pain (left) when the patient corrected themselves to the right leg in the transcript.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"The patient reports saddle numbness.\",\n      \"transcript_evidence\": \"Clinician: Any numbness around your bottom or between your legs, like when you sit on the toilet?\",\n      \"evidence_turns\": [\n        19,\n        20\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note claims the patient reports saddle numbness, but the transcript shows the patient explicitly denied this symptom, which is a critical red flag.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Start naproxen 500 mg four times daily with food and omeprazole 20 mg once daily for 2 weeks.\",\n      \"transcript_evidence\": \"Clinician: I'll switch you to naproxen, 500 milligrams twice a day with food and add omeprazole, 20 milligrams once a day, to protect your stomach. Just for a couple of weeks.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the frequency of naproxen (four times daily) when the transcript specifies twice a day.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Presenting complaint",
+    "note_span": "Left-sided sciatica-type leg pain for 3 weeks.",
+    "transcript_evidence": "Patient: It's my back. Well, it's my leg, really. I've got this shooting pain going all the way down.",
+    "evidence_turns": [
+     2
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the side of the pain (left) when the patient corrected themselves to the right leg in the transcript."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "The patient reports saddle numbness.",
+    "transcript_evidence": "Clinician: Any numbness around your bottom or between your legs, like when you sit on the toilet?",
+    "evidence_turns": [
+     19,
+     20
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note claims the patient reports saddle numbness, but the transcript shows the patient explicitly denied this symptom, which is a critical red flag."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Start naproxen 500 mg four times daily with food and omeprazole 20 mg once daily for 2 weeks.",
+    "transcript_evidence": "Clinician: I'll switch you to naproxen, 500 milligrams twice a day with food and add omeprazole, 20 milligrams once a day, to protect your stomach. Just for a couple of weeks.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the frequency of naproxen (four times daily) when the transcript specifies twice a day."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Feeding most of his usual amount.\",\n      \"transcript_evidence\": \"He's only managed about half of each bottle since yesterday.\",\n      \"evidence_turns\": [\n        11\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the feeding amount was 'most of his usual amount' when the transcript clearly indicates it was reduced to about half.\"\n    },\n    {\n      \"type\": \"HALLUC\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Has had an apnoea.\",\n      \"transcript_evidence\": \"No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.\",\n      \"evidence_turns\": [\n        15,\n        16\n      ],\n      \"severity\": 4,\n      \"likelihood\": 3,\n      \"rationale\": \"The note claims the patient had an apnoea, but the transcript explicitly states 'No' when asked about pauses in breathing.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Feeding most of his usual amount.",
+    "transcript_evidence": "He's only managed about half of each bottle since yesterday.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the feeding amount was 'most of his usual amount' when the transcript clearly indicates it was reduced to about half."
+   },
+   {
+    "type": "HALLUC",
+    "note_section": "History",
+    "note_span": "Has had an apnoea.",
+    "transcript_evidence": "No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.",
+    "evidence_turns": [
+     15,
+     16
+    ],
+    "severity": 4,
+    "likelihood": 3,
+    "rationale": "The note claims the patient had an apnoea, but the transcript explicitly states 'No' when asked about pauses in breathing."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

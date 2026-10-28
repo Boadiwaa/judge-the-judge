@@ -275,6 +275,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 4,
           "seeded_rationale": "Anticoagulation is the main reason for an urgent CT head; if it is missing from the record, a reviewer may cancel the scan or restart dosing, risking a missed intracranial bleed.",
+          "subtle": false,
           "description": "Blood thinner dropped from a head injury note"
         },
         {
@@ -289,6 +290,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The wound is visible, so the wrong side is likely to be noticed, but it could confuse CT correlation and wound review.",
+          "subtle": true,
           "description": "Laceration recorded on the wrong side"
         },
         {
@@ -304,7 +306,23 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The daughter corrected the time; the injury time affects CT timing decisions and the observation period.",
+          "subtle": true,
           "description": "Fall time kept at the figure the daughter corrected"
+        },
+        {
+          "error_id": "case_06_a_e4",
+          "type": "DRUG_NAME",
+          "section": "medications_allergies",
+          "original_text": "Amlodipine 5 mg once daily.",
+          "mutated_text": "Amiloride 5 mg once daily.",
+          "evidence_turns": [
+            28
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Amlodipine recorded as amiloride, a look-alike/sound-alike pair; if she is admitted, medicines reconciliation from this note would give an 81-year-old a potassium-sparing diuretic instead of her antihypertensive, risking hyperkalaemia and acute kidney injury.",
+          "subtle": true,
+          "description": "Amlodipine recorded as amiloride"
         }
       ]
     },
@@ -323,6 +341,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Vomiting after a head injury is a risk factor for intracranial injury; recording it as absent may lower the urgency of CT and observation.",
+          "subtle": true,
           "description": "Vomiting after head injury recorded as absent"
         },
         {
@@ -338,6 +357,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 2,
           "seeded_rationale": "Attributing the report to the patient hides that she has amnesia for the episode, which is itself a marker of significant head injury.",
+          "subtle": true,
           "description": "Daughter's account recorded as the patient's"
         },
         {
@@ -352,7 +372,23 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Continuing anticoagulation before an intracranial bleed is excluded could worsen any haemorrhage.",
+          "subtle": false,
           "description": "Apixaban hold dropped from the plan"
+        },
+        {
+          "error_id": "case_06_b_e4",
+          "type": "DRUG_NAME",
+          "section": "medications_allergies",
+          "original_text": "Allergic to penicillin (swelling).",
+          "mutated_text": "Allergic to penicillamine (swelling).",
+          "evidence_turns": [
+            32
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Penicillin recorded as penicillamine, a recognised sound-alike pair; the true allergy (swelling, suggesting angioedema) is lost, so a penicillin could be given if she develops an infection in hospital.",
+          "subtle": true,
+          "description": "Penicillin allergy recorded as penicillamine"
         }
       ]
     }

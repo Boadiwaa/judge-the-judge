@@ -1,12 +1,38 @@
 """Case validation rules (BUILD_SPEC §5.2). Returns a list of problems; empty = valid."""
 from __future__ import annotations
 
+import re
 from collections import Counter
 
 from .mutate import apply_mutations
 from .schema import ERROR_TYPES, SETTINGS, Case
 
 MIN_PER_TYPE = 8
+MIN_WEIGHTED = {"DRUG_NAME": 12, "NEGATION": 12}  # the commonest serious real-world scribe errors (§2.3)
+MIN_SUBTLE_FRACTION = 1 / 3
+
+# Look-alike/sound-alike pairs allowed for DRUG_NAME errors (BUILD_SPEC §2.3 starting set, then pairs added
+# during authoring; every pair is on the clinical review list)
+DRUG_NAME_PAIRS = [
+    ("hydralazine", "hydroxyzine"), ("amlodipine", "amiloride"), ("chlorpromazine", "chlorphenamine"),
+    ("carbamazepine", "oxcarbazepine"), ("prednisolone", "propranolol"), ("sulfasalazine", "sulfadiazine"),
+    ("salbutamol", "salmeterol"), ("metformin", "metronidazole"), ("penicillin", "penicillamine"),
+    ("clobetasone", "clobetasol"), ("omeprazole", "esomeprazole"), ("atorvastatin", "rosuvastatin"),
+    ("sertraline", "seroquel"),
+]
+
+
+def _has(word: str, text: str) -> bool:
+    return re.search(rf"\b{word}\b", text, re.IGNORECASE) is not None
+
+
+def drug_swap(original: str, mutated: str) -> tuple[str, str] | None:
+    """The (from, to) pair if mutated swaps a drug in original for its listed look-alike, else None."""
+    for a, b in DRUG_NAME_PAIRS:
+        for x, y in ((a, b), (b, a)):
+            if _has(x, original) and _has(y, mutated) and not _has(x, mutated):
+                return x, y
+    return None
 
 
 def validate_case(c: Case) -> list[str]:
@@ -37,6 +63,8 @@ def validate_case(c: Case) -> list[str]:
                 p.append(f"{m.error_id}: omission type but mutated_text not empty")
             if m.mutated_text == "" and m.type not in ("OMIT_SAFETY", "OMIT_OTHER", "CORRECTION_LOST", "PLAN_CHANGE"):
                 p.append(f"{m.error_id}: empty mutated_text for type {m.type}")
+            if m.type == "DRUG_NAME" and drug_swap(m.original_text, m.mutated_text) is None:
+                p.append(f"{m.error_id}: DRUG_NAME must swap a drug in the reference note for a listed look-alike")
             missing = [t for t in m.evidence_turns if t not in turns]
             if missing:
                 p.append(f"{m.error_id}: evidence_turns {missing} not in transcript")
@@ -72,8 +100,12 @@ def dataset_targets(cases: list[Case], counts: Counter) -> list[str]:
     """Full-dataset targets; only enforced once all 24 cases exist."""
     p = []
     for t in ERROR_TYPES:
-        if counts[t] < MIN_PER_TYPE:
-            p.append(f"type {t}: {counts[t]} < {MIN_PER_TYPE}")
+        want = MIN_WEIGHTED.get(t, MIN_PER_TYPE)
+        if counts[t] < want:
+            p.append(f"type {t}: {counts[t]} < {want}")
+    errs = [m for c in cases for v in c.variants for m in v.mutations]
+    if errs and sum(m.subtle for m in errs) < MIN_SUBTLE_FRACTION * len(errs):
+        p.append(f"only {sum(m.subtle for m in errs)}/{len(errs)} errors tagged subtle (want at least a third)")
     by_setting = Counter(c.setting for c in cases)
     for s in SETTINGS:
         if by_setting[s] != 4:

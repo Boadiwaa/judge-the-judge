@@ -275,6 +275,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 3,
           "seeded_rationale": "A normal ECG in the record removes a key high-risk feature and could lead to under-triage or early discharge of a probable NSTEMI.",
+          "subtle": false,
           "description": "Ischaemic ECG changes recorded as normal"
         },
         {
@@ -290,6 +291,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The wife's father's age was recorded as the patient's father's, removing a premature family history that informs cardiovascular risk.",
+          "subtle": true,
           "description": "Wife's father's heart attack age recorded as the patient's father's"
         },
         {
@@ -304,7 +306,23 @@
           "seeded_severity": 4,
           "seeded_likelihood": 2,
           "seeded_rationale": "A tenfold anticoagulant dose would cause major bleeding if given, though it would likely be questioned at prescribing or administration.",
+          "subtle": false,
           "description": "Fondaparinux dose ten times too high"
+        },
+        {
+          "error_id": "case_05_a_e4",
+          "type": "DRUG_NAME",
+          "section": "medications_allergies",
+          "original_text": "Amlodipine 5 mg once daily.",
+          "mutated_text": "Amiloride 5 mg once daily.",
+          "evidence_turns": [
+            22
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Amlodipine (a calcium-channel blocker) recorded as amiloride (a potassium-sparing diuretic), a look-alike/sound-alike pair; after a likely NSTEMI he will probably start an ACE inhibitor, and continuing 'amiloride' alongside it risks serious hyperkalaemia, while his real antihypertensive drops off the record.",
+          "subtle": true,
+          "description": "Amlodipine recorded as amiloride"
         }
       ]
     },
@@ -323,6 +341,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 2,
           "seeded_rationale": "Onset time anchors troponin interpretation; recording it two hours later could make an early troponin look falsely reassuring.",
+          "subtle": true,
           "description": "Pain onset kept at the time the patient corrected"
         },
         {
@@ -337,6 +356,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Reproducible chest wall tenderness was never elicited; it suggests musculoskeletal pain and could bias a reviewer toward discharge.",
+          "subtle": true,
           "description": "Chest wall tenderness recorded that was never found"
         },
         {
@@ -351,6 +371,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 3,
           "seeded_rationale": "Discharging a patient with ischaemic ECG changes after one troponin risks missed myocardial infarction and death.",
+          "subtle": false,
           "description": "Cardiology admission changed to possible discharge"
         }
       ]

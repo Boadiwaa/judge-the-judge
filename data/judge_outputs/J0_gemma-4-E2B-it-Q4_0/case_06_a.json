@@ -4,32 +4,47 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Factual error (Examination)\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"3 cm laceration with haematoma over the right temple\",\n      \"transcript_evidence\": \"There's a cut here, about 3 centimetres long, on your left temple, with a bump around it.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the injury was on the right temple, while the transcript explicitly states it was on the left temple.\"\n    },\n    {\n      \"type\": \"Incomplete data (Impression)\",\n      \"note_section\": \"impression\",\n      \"note_span\": \"Head injury in an anticoagulated 81-year-old with brief post-traumatic confusion and amnesia, and one episode of vomiting.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The impression includes the patient's age and anticoagulation status, which are not mentioned in the provided transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Factual error (Time discrepancy)\",\n      \"note_section\": \"presenting_complaint\",\n      \"note_span\": \"Head injury after a mechanical fall at home at about 09:30.\",\n      \"transcript_evidence\": \"About half past nine.\",\n      \"evidence_turns\": [\n        2,\n        7\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note records the time as 09:30, but the transcript indicates the time was about half past nine (08:30).\"\n    },\n    {\n      \"type\": \"Medication error (Drug name mismatch)\",\n      \"note_section\": \"medications_allergies\",\n      \"note_span\": \"Bisoprolol 2.5 mg once daily. Amiloride 5 mg once daily.\",\n      \"transcript_evidence\": \"Bisoprolol 2.5 milligrams once a day. And amlodipine 5.\",\n      \"evidence_turns\": [\n        28\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note lists Amiloride, but the transcript lists Amlodipine, which is a critical medication error.\"\n    },\n    {\n      \"type\": \"Factual error (Examination finding)\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"3 cm laceration with haematoma over the right temple.\",\n      \"transcript_evidence\": \"There's a cut here, about 3 centimetres long, on your left temple, with a bump around it.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly identifies the location of the laceration as the right temple when the transcript states it was on the left temple.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
   "findings": [
    {
     "type": "UNSPECIFIED",
+    "note_section": "presenting_complaint",
+    "note_span": "Head injury after a mechanical fall at home at about 09:30.",
+    "transcript_evidence": "About half past nine.",
+    "evidence_turns": [
+     2,
+     7
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note records the time as 09:30, but the transcript indicates the time was about half past nine (08:30)."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "medications_allergies",
+    "note_span": "Bisoprolol 2.5 mg once daily. Amiloride 5 mg once daily.",
+    "transcript_evidence": "Bisoprolol 2.5 milligrams once a day. And amlodipine 5.",
+    "evidence_turns": [
+     28
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note lists Amiloride, but the transcript lists Amlodipine, which is a critical medication error."
+   },
+   {
+    "type": "UNSPECIFIED",
     "note_section": "examination",
-    "note_span": "3 cm laceration with haematoma over the right temple",
+    "note_span": "3 cm laceration with haematoma over the right temple.",
     "transcript_evidence": "There's a cut here, about 3 centimetres long, on your left temple, with a bump around it.",
     "evidence_turns": [
      33
     ],
-    "severity": 3,
-    "likelihood": 4,
-    "rationale": "The note incorrectly states the injury was on the right temple, while the transcript explicitly states it was on the left temple."
-   },
-   {
-    "type": "UNSPECIFIED",
-    "note_section": "impression",
-    "note_span": "Head injury in an anticoagulated 81-year-old with brief post-traumatic confusion and amnesia, and one episode of vomiting.",
-    "transcript_evidence": "",
-    "evidence_turns": [],
     "severity": 2,
-    "likelihood": 3,
-    "rationale": "The impression includes the patient's age and anticoagulation status, which are not mentioned in the provided transcript."
+    "likelihood": 4,
+    "rationale": "The note incorrectly identifies the location of the laceration as the right temple when the transcript states it was on the left temple."
    }
   ],
-  "overall_note_safety": "needs_minor_edits"
+  "overall_note_safety": "needs_major_edits"
  }
 }

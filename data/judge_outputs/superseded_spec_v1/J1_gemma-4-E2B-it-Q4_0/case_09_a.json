@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Left tympanic membrane normal. Left tympanic membrane red and bulging.\",\n      \"transcript_evidence\": \"The left eardrum looks normal. The right eardrum is red and bulging.\",\n      \"evidence_turns\": [\n        36\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly attributes the findings of the right eardrum to the left eardrum, which is a critical finding for diagnosis.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Regular analgesia: paracetamol 180 mg (7.5 mL of 250 mg/5 mL) up to four times daily and ibuprofen 100 mg (5 mL of 100 mg/5 mL) three times daily with food.\",\n      \"transcript_evidence\": \"paracetamol 180 milligrams, which is 7.5 millilitres of the 120 milligrams in 5 millilitres infant suspension, up to four times a day. And ibuprofen 100 milligrams, that's 5 millilitres of the 100 milligrams in 5 millilitres suspension, three times a day with food.\",\n      \"evidence_turns\": [\n        40\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note uses an ambiguous notation for the medication dose and concentration, failing to clearly state the active ingredient dose and the specific suspension details as provided in the transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Left tympanic membrane normal. Left tympanic membrane red and bulging.",
+    "transcript_evidence": "The left eardrum looks normal. The right eardrum is red and bulging.",
+    "evidence_turns": [
+     36
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly attributes the findings of the right eardrum to the left eardrum, which is a critical finding for diagnosis."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Regular analgesia: paracetamol 180 mg (7.5 mL of 250 mg/5 mL) up to four times daily and ibuprofen 100 mg (5 mL of 100 mg/5 mL) three times daily with food.",
+    "transcript_evidence": "paracetamol 180 milligrams, which is 7.5 millilitres of the 120 milligrams in 5 millilitres infant suspension, up to four times a day. And ibuprofen 100 milligrams, that's 5 millilitres of the 100 milligrams in 5 millilitres suspension, three times a day with food.",
+    "evidence_turns": [
+     40
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note uses an ambiguous notation for the medication dose and concentration, failing to clearly state the active ingredient dose and the specific suspension details as provided in the transcript."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

@@ -4,7 +4,7 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Factual inaccuracy (Duration)\",\n      \"note_section\": \"presenting_complaint\",\n      \"note_span\": \"Panic attacks for 4 years.\",\n      \"transcript_evidence\": \"About four months. Since around the start of summer.\",\n      \"evidence_turns\": [\n        9\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the duration of the panic attacks as four years when the transcript indicates they have been occurring for about four months.\"\n    },\n    {\n      \"type\": \"Clinical instruction error (Medication dosage)\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Start sertraline 25 mg once daily for 1 week, then 150 mg once daily; warned of possible initial increase in anxiety.\",\n      \"transcript_evidence\": \"Take 25 milligrams once a day for a week, then go up to 50 milligrams once a day.\",\n      \"evidence_turns\": [\n        46\n      ],\n      \"severity\": 3,\n      \"likelihood\": 5,\n      \"rationale\": \"The prescribed dosage for sertraline in the plan is incorrect; the transcript indicates a titration from 25 mg to 50 mg, not 150 mg.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate history duration\",\n      \"note_section\": \"presenting_complaint\",\n      \"note_span\": \"Panic attacks for 4 years.\",\n      \"transcript_evidence\": \"About four months. Since around the start of summer.\",\n      \"evidence_turns\": [\n        9\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the duration of the panic attacks as four years, while the transcript indicates they have been occurring for about four months.\"\n    },\n    {\n      \"type\": \"Incorrect medication and dosage plan\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Start Seroquel 25 mg once daily for 1 week, then 150 mg once daily; warned of possible initial increase in anxiety.\",\n      \"transcript_evidence\": \"Take 25 milligrams once a day for a week, then go up to 50 milligrams once a day.\",\n      \"evidence_turns\": [\n        46\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The plan incorrectly specifies Seroquel and a 150 mg dose, whereas the transcript details a plan for Sertraline starting at 25 mg and increasing to 50 mg.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
   "findings": [
    {
@@ -15,21 +15,21 @@
     "evidence_turns": [
      9
     ],
-    "severity": 2,
+    "severity": 3,
     "likelihood": 4,
-    "rationale": "The note incorrectly states the duration of the panic attacks as four years when the transcript indicates they have been occurring for about four months."
+    "rationale": "The note incorrectly states the duration of the panic attacks as four years, while the transcript indicates they have been occurring for about four months."
    },
    {
     "type": "UNSPECIFIED",
     "note_section": "plan",
-    "note_span": "Start sertraline 25 mg once daily for 1 week, then 150 mg once daily; warned of possible initial increase in anxiety.",
+    "note_span": "Start Seroquel 25 mg once daily for 1 week, then 150 mg once daily; warned of possible initial increase in anxiety.",
     "transcript_evidence": "Take 25 milligrams once a day for a week, then go up to 50 milligrams once a day.",
     "evidence_turns": [
      46
     ],
-    "severity": 3,
+    "severity": 4,
     "likelihood": 5,
-    "rationale": "The prescribed dosage for sertraline in the plan is incorrect; the transcript indicates a titration from 25 mg to 50 mg, not 150 mg."
+    "rationale": "The plan incorrectly specifies Seroquel and a 150 mg dose, whereas the transcript details a plan for Sertraline starting at 25 mg and increasing to 50 mg."
    }
   ],
   "overall_note_safety": "needs_major_edits"

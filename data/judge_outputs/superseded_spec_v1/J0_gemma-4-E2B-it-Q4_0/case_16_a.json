@@ -1,0 +1,25 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Medication dosage error\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Start sertraline 50 mg three times daily\",\n      \"transcript_evidence\": \"I'd like to start a medicine called sertraline, 50 milligrams once a day.\",\n      \"evidence_turns\": [\n        34\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the dosage frequency as three times daily when the transcript specifies once a day.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "plan",
+    "note_span": "Start sertraline 50 mg three times daily",
+    "transcript_evidence": "I'd like to start a medicine called sertraline, 50 milligrams once a day.",
+    "evidence_turns": [
+     34
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the dosage frequency as three times daily when the transcript specifies once a day."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

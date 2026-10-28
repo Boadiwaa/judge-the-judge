@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Tender bony prominence over the left tibial tuberosity.\",\n      \"transcript_evidence\": \"There's a tender bony lump just below the kneecap, on the right shin bone. That's called the tibial tuberosity.\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the location of the tender bony prominence as the left tibial tuberosity when the transcript explicitly states it was on the right shin bone.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Tender bony prominence over the left tibial tuberosity.",
+    "transcript_evidence": "There's a tender bony lump just below the kneecap, on the right shin bone. That's called the tibial tuberosity.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the location of the tender bony prominence as the left tibial tuberosity when the transcript explicitly states it was on the right shin bone."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

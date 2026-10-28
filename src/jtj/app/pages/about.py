@@ -15,7 +15,7 @@ ABOUT = [
     "has time to check. I've seen this pattern before: in earlier work with colleagues on large language models "
     "for emergency medical help, models rated their own first-aid answers 10–19% higher than clinicians did. "
     "So before trusting a judge's safety numbers, I wanted to measure the judge itself.",
-    "This project is small on purpose: 24 synthetic consultations, 163 planted errors, three judge designs, "
+    "This project is small on purpose: 24 synthetic consultations, 174 planted errors, three judge designs, "
     "honest confidence intervals, and a way for clinicians to check the answer key. It is independent, and it "
     "doesn't test any company's product.",
 ]

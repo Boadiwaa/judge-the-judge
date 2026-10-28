@@ -1,0 +1,548 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient has had recurrent headaches for six months."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient experiences two to three episodes of headaches per month."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Headaches are preceded by visual aura (shimmering zigzag lines to one side) lasting about 20 minutes."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The headache is unilateral, usually left-sided, and throbbing."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The headache is accompanied by nausea and photophobia."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The headache lasts most of the day."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient has no focal weakness, numbness, or speech disturbance."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has no thunderclap headache."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient has no symptoms of migraine without aura in the family (mother has migraine without aura)."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient is a non-smoker."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient has been taking a combined oral contraceptive (Rigevidon) for four years."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient takes paracetamol as needed."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The patient's blood pressure is 118/76."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The patient's fundi are normal."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient's neurological examination is normal."
+   },
+   {
+    "id": "c16",
+    "section": "Impression",
+    "claim": "The diagnosis is Migraine with aura."
+   },
+   {
+    "id": "c17",
+    "section": "Impression",
+    "claim": "Combined hormonal contraception is contraindicated (UKMEC 4)."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The plan is to stop the combined pill and start desogestrel 75 micrograms once daily continuously."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The patient must use condoms for the first two days after starting desogestrel."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "Sumatriptan 50 mg should be taken at headache onset (not during aura)."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "Sumatriptan can be repeated after two hours, with a maximum dose of 300 mg in 24 hours."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "Sumatriptan may be taken with paracetamol."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "Acute treatment should be limited to two to three days per week to avoid medication-overuse headache."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "The patient is advised to keep a headache diary."
+   },
+   {
+    "id": "c25",
+    "section": "Plan",
+    "claim": "The follow-up appointment is scheduled in six weeks."
+   },
+   {
+    "id": "c26",
+    "section": "Safety-netting",
+    "claim": "The patient should call 999 or attend A&E if they experience a sudden severe headache, one-sided weakness or numbness, speech difficulty, or a headache with fever and neck stiffness."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "The clinician initiates the consultation by asking the patient what brought them in.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The patient reports getting headaches that are getting more frequent.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "The clinician asks how long the patient has been getting the headaches.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     4
+    ],
+    "fact": "The patient reports having headaches for about six months.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     4
+    ],
+    "fact": "The patient reports having two or three episodes a month.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     5
+    ],
+    "fact": "The clinician asks the patient to describe one headache from the beginning.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     6
+    ],
+    "fact": "The patient describes the headache starting with vision, specifically zigzag lines, shimmering, off to one side.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     7
+    ],
+    "fact": "The clinician asks how long the zigzags last.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     8
+    ],
+    "fact": "The patient initially states the zigzags last about an hour, but corrects themselves, stating they timed it last time and it was twenty minutes.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     9
+    ],
+    "fact": "The clinician notes the duration of the aura as twenty minutes.",
+    "about": "clinician"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     10
+    ],
+    "fact": "The patient states that after the vision thing, the headache comes on one side (usually the left) and throbs.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     11
+    ],
+    "fact": "The clinician asks if anything else accompanies the headache.",
+    "about": "clinician"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     12
+    ],
+    "fact": "The patient reports feeling sick and being unable to stand bright lights, requiring them to lie down in a dark room.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     13
+    ],
+    "fact": "The clinician asks how long the headache lasts.",
+    "about": "clinician"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     14
+    ],
+    "fact": "The patient reports the headache lasts most of the day and they are wiped out the next day.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     15
+    ],
+    "fact": "The clinician asks about weakness, numbness, or trouble speaking with the headache.",
+    "about": "clinician"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     16
+    ],
+    "fact": "The patient reports no weakness, numbness, or trouble speaking, only the vision thing.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     17
+    ],
+    "fact": "The clinician asks if the patient has ever had a sudden, severe headache, like being hit on the head, the worst ever.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     18
+    ],
+    "fact": "The patient reports never having had a sudden, severe headache.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     19
+    ],
+    "fact": "The clinician asks if the headaches are worse when the patient lies down, coughs, or strains.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     20
+    ],
+    "fact": "The patient reports no worsening with lying down, coughing, or straining.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     21
+    ],
+    "fact": "The clinician asks about fevers or stiff neck.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     22
+    ],
+    "fact": "The patient reports no fevers or stiff neck.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     23
+    ],
+    "fact": "The clinician asks if anyone in the family gets migraines.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     24
+    ],
+    "fact": "The patient states their mother has migraines but she never gets the lights (aura).",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     25
+    ],
+    "fact": "The clinician asks what the patient is taking for the headaches.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     26
+    ],
+    "fact": "The patient states they take paracetamol, but it doesn't do much.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     28
+    ],
+    "fact": "The patient states they are on the pill (Rigevidon) for about four years.",
+    "about": "patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     29
+    ],
+    "fact": "The clinician asks if the patient smokes.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     30
+    ],
+    "fact": "The patient reports never smoking.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     31
+    ],
+    "fact": "The clinician asks about allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     32
+    ],
+    "fact": "The patient reports no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     33
+    ],
+    "fact": "The clinician records the patient's blood pressure as 118 over 76.",
+    "about": "patient"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     33
+    ],
+    "fact": "The clinician notes the back of the eyes look normal.",
+    "about": "patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     33
+    ],
+    "fact": "The clinician notes the nervous system examination is completely normal.",
+    "about": "patient"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician provides the impression that the condition is Migraine with aura, stating the zigzags are the aura.",
+    "about": "clinician"
+   },
+   {
+    "id": "f37",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician advises that while migraine itself isn't dangerous, the combined pill increases the risk of stroke, making it unsafe to keep taking.",
+    "about": "patient"
+   },
+   {
+    "id": "f38",
+    "turns": [
+     38
+    ],
+    "fact": "The patient expresses surprise that they were not aware of the stroke risk.",
+    "about": "patient"
+   },
+   {
+    "id": "f39",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician prescribes stopping the Rigevidon and switching to a progestogen-only pill called desogestrel, 75 micrograms, one every day without a break, stating it doesn't carry that risk.",
+    "about": "patient"
+   },
+   {
+    "id": "f40",
+    "turns": [
+     40
+    ],
+    "fact": "The clinician asks the patient if they need extra protection.",
+    "about": "patient"
+   },
+   {
+    "id": "f41",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician advises the patient to use condoms for the first two days after starting desogestrel.",
+    "about": "patient"
+   },
+   {
+    "id": "f42",
+    "turns": [
+     42
+    ],
+    "fact": "The patient acknowledges the advice.",
+    "about": "patient"
+   },
+   {
+    "id": "f43",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician prescribes sumatriptan, 50 milligrams, to be taken as soon as the headache starts, not during the zigzags.",
+    "about": "patient"
+   },
+   {
+    "id": "f44",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician advises that if the headache comes back, the patient can take another after two hours, but no more than 300 milligrams in 24 hours.",
+    "about": "patient"
+   },
+   {
+    "id": "f45",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician advises that sumatriptan can be taken with paracetamol.",
+    "about": "patient"
+   },
+   {
+    "id": "f46",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician advises the patient to try not to use painkillers or sumatriptan on more than two or three days a week, because using them too often can cause more headaches.",
+    "about": "patient"
+   },
+   {
+    "id": "f47",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician advises the patient to keep a headache diary.",
+    "about": "patient"
+   },
+   {
+    "id": "f48",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician states they will see the patient in six weeks.",
+    "about": "patient"
+   },
+   {
+    "id": "f49",
+    "turns": [
+     47
+    ],
+    "fact": "The clinician provides safety-netting advice: call 999 or go to A&E if the patient gets a sudden severe headache, weakness or numbness on one side, difficulty speaking, or a headache with fever and a stiff neck.",
+    "about": "patient"
+   },
+   {
+    "id": "f50",
+    "turns": [
+     48
+    ],
+    "fact": "The patient acknowledges the safety-netting advice and says thank you.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

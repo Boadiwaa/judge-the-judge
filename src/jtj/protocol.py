@@ -25,7 +25,38 @@ TYPE_EXAMPLES = {
     "TEMPORAL": "\"3 days\" becomes \"3 weeks\"",
     "CORRECTION_LOST": "Note keeps the figure the patient later corrected",
     "PLAN_CHANGE": "Follow-up \"1 week\" becomes \"if needed\"",
+    "DRUG_NAME": "\"hydralazine\" becomes \"hydroxyzine\"",
 }
+
+EXTERNAL_VALIDITY_TITLE = "External validity: why seeded errors"
+EXTERNAL_VALIDITY = """Planted errors cannot tell us how often a judge misses errors in real notes. They measure something \
+studies of real notes cannot: **an exact miss rate for known error types**, because the answer key is complete. \
+A study of real notes can only count errors that someone flagged, and expert reviewers miss errors too, so the true \
+number of errors is unknown and the miss rate has to be estimated statistically.
+
+**What planted errors give:**
+
+1. **A floor test.** Like spike-and-recovery in a laboratory assay, or a phantom in radiology quality assurance: \
+if a judge misses a planted tenfold dose error, it will miss subtler real ones. Passing is necessary, not sufficient.
+2. **The miss rate, exactly,** by error type and risk tier.
+3. **Fair comparisons.** Identical notes that differ by one change isolate the effect of judge design, model or prompt.
+4. **Cheap, repeatable regression testing.** Re-run in minutes when a model or prompt changes, with no clinician \
+time. In production this becomes a standing check that a judge update has not started missing, for example, \
+drug-name errors: post-market surveillance for the judge itself.
+5. **No patient data,** so it can run from day one.
+
+**What they don't give:**
+
+- Planted errors may be easier than, or simply different from, the errors a real scribe makes, so sensitivity \
+here is likely an *upper bound* on real-world sensitivity for the same error types.
+- Error types that were not planted are not measured at all.
+- Modelling planted errors on reported real-world failure modes (drug-name confusions, negation flips) reduces \
+this problem but does not solve it.
+
+**Recommended design:** use seeded errors *alongside* real-note validation (blinded clinician review, adjudicated \
+reference standards, and latent-class or capture–recapture estimates of the errors everyone missed), not instead \
+of it. In production, real failures found in surveillance become new seeded cases, so the test set keeps up with \
+the errors that actually occur."""
 
 
 # Each reference was checked against its publisher or arXiv record on 2026-10-28.
@@ -142,7 +173,18 @@ def sections(cases: list[Case]) -> list[tuple[str, str]]:
         "synthetic, uses fictional names, follows UK practice (NICE, BNF) and is drafted for clinician review.\n\n"
         "| Setting | Cases |\n| --- | --- |\n" + setting_rows)))
     type_rows = "\n".join(f"| `{t}` | {ERROR_TYPES[t]} | {TYPE_EXAMPLES[t]} | {by_type[t]} |" for t in ERROR_TYPES)
-    out.append(("Error taxonomy", "| Code | Type | Example | n |\n| --- | --- | --- | --- |\n" + type_rows))
+    n_subtle = sum(m.subtle for m in errs)
+    out.append(("Error taxonomy", "| Code | Type | Example | n |\n| --- | --- | --- | --- |\n" + type_rows + (
+        "\n\nThe dataset is weighted towards drug-name confusions and negation flips, reported as the commonest "
+        "serious errors made by production ambient scribes: at least 12 of each. Drug-name errors swap a drug the "
+        "reference note mentions for a look-alike or sound-alike (for example amlodipine recorded as amiloride), "
+        "and the rationale records why the swap is dangerous.\n\n"
+        f"Each seeded error is also tagged **subtle** or **obvious**. {n_subtle} of {len(errs)} "
+        f"({n_subtle / len(errs):.0%}) are subtle: the note still reads as plausible and internally consistent, so "
+        "a busy clinician could miss it on a quick read and it can only be caught by checking the transcript (for "
+        "example \"3 days\" recorded as \"3 weeks\", or a figure the patient corrected). Obvious errors make the "
+        "note look wrong on its own: an implausible dose, or a statement that contradicts another part of the "
+        "note. Sensitivity is reported separately for each.")))
     tier_rows = "\n".join(f"| {r} | {t} | {by_tier[t]} |" for r, t in zip(("1–4", "5–9", "10–15", "16–25"), TIERS))
     out.append(("Risk grading (answer key)", (
         "Every seeded error has a severity (1–5) and likelihood of harm (1–5) with a one-sentence clinical rationale, "
@@ -175,7 +217,7 @@ def sections(cases: list[Case]) -> list[tuple[str, str]]:
     out.append(("Endpoints", (
         "**Primary:** sensitivity of each judge for seeded errors in the High and Very high tiers, with Wilson 95% "
         "confidence intervals.\n\n**Secondary:**\n"
-        "- Sensitivity by error type and by tier, per judge.\n"
+        "- Sensitivity by error type, by tier, and for subtle vs obvious errors, per judge.\n"
         "- Paired comparisons J2 vs J0 and J1 vs J0 on the same seeded errors: McNemar's exact test, Holm "
         "correction across the two comparisons (high-risk errors; all errors reported too).\n"
         "- Severity agreement between judge and answer key on detected errors: quadratic-weighted Cohen's kappa "
@@ -190,10 +232,12 @@ def sections(cases: list[Case]) -> list[tuple[str, str]]:
         f"is about ±{half:.2f}. This is a **pilot that estimates precision, not a confirmatory study**. A "
         f"confirmatory study would need about **{n_conf} high-risk errors** for a half-width of ±0.05 "
         "(normal approximation, p = 0.80).")))
+    out.append((EXTERNAL_VALIDITY_TITLE, EXTERNAL_VALIDITY))
     out.append(("Reporting checklist (GRRAS / DECIDE-AI spirit)", "\n".join([
         "- [x] Raters/judges and subjects described (models, prompts, settings; synthetic cases)",
         "- [x] Rating scales defined with anchors (severity, likelihood, tiers)",
-        "- [x] Answer key construction described (seeded mutations, rationale per error)",
+        "- [x] Answer key construction described (seeded mutations, rationale per error, subtle/obvious tag)",
+        "- [x] External validity of the reference standard discussed (seeded vs real-note errors)",
         "- [x] Sample size justified, and its limits stated",
         "- [x] Statistical methods named, with uncertainty (Wilson, McNemar exact + Holm, κ, AC1/AC2, bootstrap)",
         "- [x] AI system described: model, version, decoding, prompts and hashes, failure handling",
@@ -203,7 +247,9 @@ def sections(cases: list[Case]) -> list[tuple[str, str]]:
         "- [ ] Human factors: how judge output would be used in practice (out of scope for this pilot)",
     ])))
     out.append(("Limitations", "\n".join([
-        "- Synthetic consultations and programmatically seeded errors may be easier or harder than real scribe errors.",
+        "- Synthetic consultations and programmatically seeded errors may be easier than, or different from, real "
+        "scribe errors, so sensitivity here is likely an upper bound; error types not planted are not measured "
+        "(see External validity).",
         "- Pilot sample: confidence intervals are wide; differences between judges may not be detectable.",
         "- The answer-key risk grades were drafted by one author and await clinician review.",
         "- One small open-weight judge model (about 2B effective parameters) run on a laptop; results may not "

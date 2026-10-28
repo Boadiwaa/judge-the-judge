@@ -1,0 +1,37 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate duration of presenting complaint\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Low mood, 8 weeks postpartum.\",\n      \"transcript_evidence\": \"About six weeks. It started a few weeks after he was born and it hasn't lifted.\",\n      \"evidence_turns\": [\n        10\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the duration of the low mood as 6 days, while the transcript indicates it has been present for six weeks.\"\n    },\n    {\n      \"type\": \"Inaccurate age of presenting complaint\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"8 weeks postpartum.\",\n      \"transcript_evidence\": \"Eight weeks. No, ten. He's ten weeks on Saturday.\",\n      \"evidence_turns\": [\n        6\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the patient is 8 weeks postpartum, while the transcript indicates the baby is 10 weeks old.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Presenting complaint",
+    "note_span": "Low mood, 8 weeks postpartum.",
+    "transcript_evidence": "About six weeks. It started a few weeks after he was born and it hasn't lifted.",
+    "evidence_turns": [
+     10
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the duration of the low mood as 6 days, while the transcript indicates it has been present for six weeks."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Presenting complaint",
+    "note_span": "8 weeks postpartum.",
+    "transcript_evidence": "Eight weeks. No, ten. He's ten weeks on Saturday.",
+    "evidence_turns": [
+     6
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the patient is 8 weeks postpartum, while the transcript indicates the baby is 10 weeks old."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

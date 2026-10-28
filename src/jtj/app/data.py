@@ -29,6 +29,7 @@ PLAIN_TYPE = {  # plain-English titles for the Explorer side panel
     "TEMPORAL": "Wrong timing",
     "CORRECTION_LOST": "Kept the figure the speaker corrected",
     "PLAN_CHANGE": "Plan changed from what was agreed",
+    "DRUG_NAME": "A different, similar-sounding drug recorded",
 }
 
 

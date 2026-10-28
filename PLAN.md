@@ -10,8 +10,8 @@ are in [`DECISIONS.md`](DECISIONS.md).
 | --- | --- | --- |
 | Python | 3.12.2 (miniconda) | venv in `.venv/` |
 | Flet | 1.0.5 pinned (latest) | 1.x API checked before UI code |
-| Judge models | Local open-weight models via llama.cpp (D-14): Gemma 4 E2B Q4_0 works; MedGemma 1.5 4B Q3_K_M looped | 6-note J1 pilot done ([PILOT_NOTES.md](PILOT_NOTES.md)); full run waits for 24 cases and your model choice |
-| Docker | **not installed** | Dockerfile written but image build not verified |
+| Judge models | Local open-weight models via llama.cpp (D-14): Gemma 4 E2B Q4_0 works; MedGemma 1.5 4B Q3_K_M looped | 6-note J1 pilot done ([PILOT_NOTES.md](PILOT_NOTES.md)); Gemma 4 E2B only (D-18); full run restarted after the spec update (D-25) |
+| Docker | Docker Desktop installed | Image built and tested locally (not deployed) |
 | flyctl | installed | Not used: spec forbids deploying |
 | git | available, folder was not a repo | `git init` in `judge-the-judge/`, commit per phase |
 
@@ -22,10 +22,10 @@ are in [`DECISIONS.md`](DECISIONS.md).
 | 1 | Scaffold | repo layout (spec §4), pinned `requirements.txt`, `schema.py`, theme, page stubs, pytest running | `pytest` green, app boots |
 | 2 | Cases | 24 case JSONs (6 settings × 4), 3 variants each, 2–4 mutations per seeded variant, ≥8 per error type, ≥6 said-then-corrected | `validate_cases.py` passes, distribution table printed |
 | 3 | Pipeline | `mutate.py`, `llm.py` (cache, cap 1,500, backoff, dry-run), `judges.py` (J0/J1/J2), `match.py`, `stats.py`, `compute_metrics.py` | unit tests incl. matcher ≥10 cases, stats vs worked values, irrCAC cross-check, tiny end-to-end fixture |
-| 4 | Judge run | pilot J1 on 6 notes → inspect → freeze → full run | Pilot done on Gemma 4 E2B. Full run after all 24 cases exist (about 5 h per model) |
+| 4 | Judge run | pilot J1 on 6 notes → inspect → freeze → full run | Pilot done. Full run restarted 2026-10-28 on the re-frozen prompts after the spec update (D-25) |
 | 5 | UI | Overview, Case Explorer (challenge + explain), Scorecard, Protocol, About | **Done** (2026-10-28): all pages built and smoke-tested with and without results; checked in a browser at 1280px and 390px, light and dark |
-| 6 | Rater mode | rater gate (`RATER_CODE`), blinded randomised rating, adjudication queue, SQLite, CSV export, `compute_agreement.py` | rater flow works end to end locally |
-| 7 | Polish + deploy prep | mobile 390px, dark mode toggle, empty states, ⓘ panels, WCAG AA tier colours, Dockerfile, `fly.toml`, `DEPLOY.md`, README | manual check in browser at 390px and desktop |
+| 6 | Rater mode | rater gate (`RATER_CODE`), blinded randomised rating, adjudication queue, SQLite, CSV export, `compute_agreement.py` | **Done**: rater flow works end to end locally |
+| 7 | Polish + deploy prep | mobile 390px, dark mode toggle, empty states, ⓘ panels, WCAG AA tier colours, Dockerfile, `fly.toml`, `DEPLOY.md`, README | **Done**: checked in browser; Docker image built and tested locally |
 | 8 | Morning report | `MORNING_REPORT.md` per spec §10 | written last |
 
 Protection order if time runs out (spec §9): cases → pipeline/stats → Overview + Explorer → Scorecard → Protocol → rater mode → polish.

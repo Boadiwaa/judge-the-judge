@@ -1,0 +1,61 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Diarrhoea and vomiting for 2 weeks.\",\n      \"transcript_evidence\": \"[11] Patient: Two days now. Since Monday.\",\n      \"evidence_turns\": [\n        11\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the duration of the complaint as two weeks when the transcript clearly indicates the patient has been unwell for two days.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Blood in stools.\",\n      \"transcript_evidence\": \"[17] Patient: No.\",\n      \"evidence_turns\": [\n        17\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note records the presence of blood in stools, which is directly contradicted by the patient's explicit denial in the transcript.\"\n    },\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"History\",\n      \"note_span\": \"District nurses dressing a sore on the right heel twice weekly.\",\n      \"transcript_evidence\": \"[44] Patient: The district nurse dresses a sore on my left heel twice a week.\",\n      \"evidence_turns\": [\n        44\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly records the location of the sore as the right heel when the patient stated it was on the left heel.\"\n    },\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"U&E at next routine review.\",\n      \"transcript_evidence\": \"[51] Clinician: I'd like a blood test tomorrow to check your kidneys.\",\n      \"evidence_turns\": [\n        51\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan incorrectly states the U&E will be at the next routine review, whereas the clinician explicitly stated the test would be done the following day.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Diarrhoea and vomiting for 2 weeks.",
+    "transcript_evidence": "[11] Patient: Two days now. Since Monday.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the duration of the complaint as two weeks when the transcript clearly indicates the patient has been unwell for two days."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Blood in stools.",
+    "transcript_evidence": "[17] Patient: No.",
+    "evidence_turns": [
+     17
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note records the presence of blood in stools, which is directly contradicted by the patient's explicit denial in the transcript."
+   },
+   {
+    "type": "LATERALITY",
+    "note_section": "History",
+    "note_span": "District nurses dressing a sore on the right heel twice weekly.",
+    "transcript_evidence": "[44] Patient: The district nurse dresses a sore on my left heel twice a week.",
+    "evidence_turns": [
+     44
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly records the location of the sore as the right heel when the patient stated it was on the left heel."
+   },
+   {
+    "type": "TEMPORAL",
+    "note_section": "Plan",
+    "note_span": "U&E at next routine review.",
+    "transcript_evidence": "[51] Clinician: I'd like a blood test tomorrow to check your kidneys.",
+    "evidence_turns": [
+     51
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The plan incorrectly states the U&E will be at the next routine review, whereas the clinician explicitly stated the test would be done the following day."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

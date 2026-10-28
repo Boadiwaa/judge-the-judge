@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Erythema over the anterior right shin, approximately 10 cm across, with a small central scratch.\",\n      \"transcript_evidence\": \"I can see a red area on the front of the left shin, about ten centimetres across, with a small scratch in the middle.\",\n      \"evidence_turns\": [\n        12\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly documents the location of the erythema as the right shin, contradicting the transcript which clearly states the left shin.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Flucloxacillin 500 mg four times daily for 7 days, on an empty stomach.\",\n      \"transcript_evidence\": \"I'll prescribe flucloxacillin, 500 milligrams four times a day for seven days. Take it on an empty stomach, an hour before food or two hours after.\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the specific timing instructions for taking the medication (an hour before food or two hours after), which is a relevant detail for patient adherence.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Erythema over the anterior right shin, approximately 10 cm across, with a small central scratch.",
+    "transcript_evidence": "I can see a red area on the front of the left shin, about ten centimetres across, with a small scratch in the middle.",
+    "evidence_turns": [
+     12
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note incorrectly documents the location of the erythema as the right shin, contradicting the transcript which clearly states the left shin."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Plan",
+    "note_span": "Flucloxacillin 500 mg four times daily for 7 days, on an empty stomach.",
+    "transcript_evidence": "I'll prescribe flucloxacillin, 500 milligrams four times a day for seven days. Take it on an empty stomach, an hour before food or two hours after.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note omits the specific timing instructions for taking the medication (an hour before food or two hours after), which is a relevant detail for patient adherence."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

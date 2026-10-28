@@ -19,7 +19,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 
 ## Environment / verification gaps
 
-- [ ] Docker not installed on this machine: Dockerfile is unverified. Run `docker build -t jtj .` once.
+- [x] ~~Docker not installed~~ Docker Desktop installed and the image built and tested locally (2026-10-28).
 - [ ] Set `RATER_CODE` secret before sharing rater mode.
 
 ## Items added during the build
@@ -51,3 +51,19 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 - [ ] **First-load speed on phones:** Flet's web client is about 3.5 MB even gzipped, and takes several seconds to start on a cold visit. If that's too slow for recruiters, the alternative is a small static HTML landing page in front of the app (a design change from the spec; your call).
 - [ ] **About page wording** (`src/jtj/app/pages/about.py`): drafted in your voice and marked DRAFT on the page.
 - [ ] **Protocol "Related work" and "References"** (`src/jtj/protocol.py`): 13 references, each checked against its publisher or arXiv record on 2026-10-28. Check you're happy with how the study is positioned ("well-established designs, not the frontier").
+
+### Spec update 2026-10-28 (§2.3 drug names, subtle errors; DECISIONS D-25 to D-28)
+
+- [ ] **Drug-name pairs (spec: "Paulina reviews every pair").** 12 `DRUG_NAME` errors; `python scripts/validate_cases.py --table` lists them. Please check each pair is a realistic confusion and the grade is right:
+  - amlodipine → amiloride (case_05_a, case_06_a), 4×3 = 12 High: hyperkalaemia once an ACE inhibitor is added.
+  - penicillin → penicillamine allergy (case_06_b), 5×3 = 15 High.
+  - salbutamol → salmeterol "as required" (case_08_a asthma 5×3 = 15; case_18_a COPD 4×3 = 12).
+  - sulfasalazine → sulfadiazine intolerance (case_19_a), 4×3 = 12.
+  - metformin → metronidazole (case_22_a 3×3 = 9; case_24_a 3×2 = 6, as the plan still says stop metformin).
+  - clobetasone → clobetasol (case_11_a, retyped from DOSE_UNIT, 3×3 = 9).
+  - **Weakest, please check:** sertraline → Seroquel (case_14_a, 3×3), atorvastatin → rosuvastatin (case_01_a, 2×2), omeprazole → esomeprazole (case_02_a, 1×2). I don't know of a UK look-alike/sound-alike list that includes these three; I added them because the spec's other pairs don't appear in any note. Replace any you don't like.
+- [ ] **"Most DRUG_NAME and NEGATION errors High or Very high."** DRUG_NAME: 6 of 12 are High. NEGATION: 5 of 14. I graded on clinical merit rather than raising grades to hit "most". Options: accept as is; add a few genuinely high-risk negation flips (more errors to review); or regrade.
+- [ ] **Subtle/obvious tags** on all 174 errors (rule in D-27; 109 subtle). Tags were applied by rule plus overrides, not one by one, so please skim them while you review each case.
+- [ ] **Source for "most serious errors are drug-name confusions and negation flips".** The protocol says this without a citation, because I haven't verified which publication the spec means. Give me the reference, or ask me to find and check one.
+- [ ] **Total errors is 174**, slightly above the spec's "roughly 130–170".
+- [ ] **Reload any case file you have open.** I added errors to 11 case files and a `"subtle"` field to every error in all 24, while you were reviewing. If your editor has unsaved changes to a case file, saving it may overwrite mine, so tell me and I'll merge.

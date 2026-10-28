@@ -1,0 +1,327 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient presented with worsening wheeze and breathlessness since the previous day, associated with a viral upper respiratory infection."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient has a history of poor adherence to prescribed Clenil (beclometasone) 100 micrograms, two puffs twice daily."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient has a history of a previous hospital admission for asthma three years ago, requiring two nights of stay, but never required intensive care."
+   },
+   {
+    "id": "c4",
+    "section": "Medications and allergies",
+    "claim": "The patient has an aspirin allergy due to bronchospasm and previously required hospital treatment."
+   },
+   {
+    "id": "c5",
+    "section": "Examination",
+    "claim": "The patient exhibited signs of moderate acute asthma exacerbation, including widespread bilateral wheeze and poor air entry."
+   },
+   {
+    "id": "c6",
+    "section": "Examination",
+    "claim": "The patient's initial vital signs were a respiratory rate of 24, heart rate of 108, and oxygen saturation of 95% on air."
+   },
+   {
+    "id": "c7",
+    "section": "Examination",
+    "claim": "The patient's peak expiratory flow (PEF) was 250 L/min, which is approximately 55% of their best."
+   },
+   {
+    "id": "c8",
+    "section": "Examination",
+    "claim": "Following nebulized salbutamol (5 mg), the patient's PEF improved to 380 L/min, representing 84% of their best."
+   },
+   {
+    "id": "c9",
+    "section": "Impression",
+    "claim": "The clinical impression is a moderate acute asthma exacerbation triggered by a viral infection, with a good response to the bronchodilator."
+   },
+   {
+    "id": "c10",
+    "section": "Plan",
+    "claim": "The immediate treatment plan involves starting prednisolone 40 mg once daily for five days."
+   },
+   {
+    "id": "c11",
+    "section": "Plan",
+    "claim": "The patient is scheduled for a follow-up review with a GP or asthma nurse within two working days to review inhaler technique and create an asthma action plan."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     3
+    ],
+    "fact": "The clinician noted the patient sounded 'a bit wheezy'.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     4
+    ],
+    "fact": "The patient has had a cold for a few days.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     4
+    ],
+    "fact": "The patient's asthma has worsened since the previous day.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     6
+    ],
+    "fact": "The patient has been using their blue inhaler about twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     8
+    ],
+    "fact": "The patient corrected the frequency of salbutamol use: it has been every two hours, maybe more, since last night.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     10
+    ],
+    "fact": "The patient reports that the relief from the inhaler lasts for about an hour before it returns.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     12
+    ],
+    "fact": "The patient is on Clenil (brown preventer) and is meant to take it twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     14
+    ],
+    "fact": "The prescribed dose of Clenil is 100 micrograms, taken as two puffs.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     16
+    ],
+    "fact": "The patient was previously hospitalized for asthma about three years ago for two nights.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     18
+    ],
+    "fact": "The patient has never required intensive care or a breathing tube.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     20
+    ],
+    "fact": "The patient reports having a tight chest and a bit of clear phlegm.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     22
+    ],
+    "fact": "The patient was 'a bit hot' a couple of days ago with the cold.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     24
+    ],
+    "fact": "The patient does not smoke but vapes every day.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     28
+    ],
+    "fact": "The patient has an aspirin allergy because it causes chest tightness and required a hospital visit.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     29
+    ],
+    "fact": "Examination findings: Speaking in full sentences, breathing rate 24, heart rate 108, oxygen levels 95% on air, and wheeze all over the chest on both sides with air getting in everywhere.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     31
+    ],
+    "fact": "The patient's peak flow meter reading was 250.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     32
+    ],
+    "fact": "The patient's best peak flow reading was about 450.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     33
+    ],
+    "fact": "The clinician prescribed a nebuliser with salbutamol (5 mg) and started the patient on prednisolone (40 mg once a day for five days).",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     36
+    ],
+    "fact": "After the nebuliser, the patient reported feeling much better.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     37
+    ],
+    "fact": "Post-treatment findings: Peak flow is now 380 (about 84% of best), breathing rate is 18, and oxygen is 98%.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     39
+    ],
+    "fact": "Discharge condition: The patient can go home if they stay well for the next hour.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     39
+    ],
+    "fact": "Discharge condition: The nurse will check inhaler use before discharge, emphasizing the need to use the brown inhaler every day.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     41
+    ],
+    "fact": "Follow-up plan: The patient is advised to see their GP or asthma nurse within two working days for inhaler review and an asthma action plan.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     43
+    ],
+    "fact": "Safety netting: The patient should call 999 straight away if they need their blue inhaler more than every four hours, are too breathless to speak, or have blue lips.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Initially reported using salbutamol twice a day; on questioning, using salbutamol every 2 hours since last night, with only brief relief.\",\n      \"transcript_evidence\": \"Since last night it's been every two hours, maybe more.\",\n      \"evidence_turns\": [\n        5,\n        8\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note fails to document the patient's subjective experience regarding the duration of relief from the salbutamol, which is relevant to assessing treatment efficacy.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Widespread bilateral wheeze with good air entry.\",\n      \"transcript_evidence\": \"I can hear wheeze all over your chest, on both sides, but air is getting in everywhere.\",\n      \"evidence_turns\": [\n        29\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note inaccurately describes the air entry as 'good' when the transcript indicates 'air getting in everywhere', which is a minor descriptive inaccuracy.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"After salbutamol 5 mg nebulised: PEF 380 (about 84%), RR 18, SpO2 98%.\",\n      \"transcript_evidence\": \"Your peak flow is now 380, about 84 percent of best, and your breathing rate is 18. Oxygen 98 percent.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note omits the clinician's positive feedback regarding the patient's response to the treatment, which is a relevant clinical observation.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Uses an e-cigarette daily.\",\n      \"transcript_evidence\": \"No, but I vape every day.\",\n      \"evidence_turns\": [\n        24\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note omits the patient's smoking/vaping habits, which is a relevant history detail.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Discharge if stable after one hour of observation.\",\n      \"transcript_evidence\": \"If you stay this well for the next hour, yes.\",\n      \"evidence_turns\": [\n        39\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note omits the specific instruction given by the nurse regarding the importance of using the brown inhaler every day before discharge.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Initially reported using salbutamol twice a day; on questioning, using salbutamol every 2 hours since last night, with only brief relief.",
+    "transcript_evidence": "Since last night it's been every two hours, maybe more.",
+    "evidence_turns": [
+     5,
+     8
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note fails to document the patient's subjective experience regarding the duration of relief from the salbutamol, which is relevant to assessing treatment efficacy."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Widespread bilateral wheeze with good air entry.",
+    "transcript_evidence": "I can hear wheeze all over your chest, on both sides, but air is getting in everywhere.",
+    "evidence_turns": [
+     29
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note inaccurately describes the air entry as 'good' when the transcript indicates 'air getting in everywhere', which is a minor descriptive inaccuracy."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "After salbutamol 5 mg nebulised: PEF 380 (about 84%), RR 18, SpO2 98%.",
+    "transcript_evidence": "Your peak flow is now 380, about 84 percent of best, and your breathing rate is 18. Oxygen 98 percent.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note omits the clinician's positive feedback regarding the patient's response to the treatment, which is a relevant clinical observation."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Uses an e-cigarette daily.",
+    "transcript_evidence": "No, but I vape every day.",
+    "evidence_turns": [
+     24
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note omits the patient's smoking/vaping habits, which is a relevant history detail."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Discharge if stable after one hour of observation.",
+    "transcript_evidence": "If you stay this well for the next hour, yes.",
+    "evidence_turns": [
+     39
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note omits the specific instruction given by the nurse regarding the importance of using the brown inhaler every day before discharge."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

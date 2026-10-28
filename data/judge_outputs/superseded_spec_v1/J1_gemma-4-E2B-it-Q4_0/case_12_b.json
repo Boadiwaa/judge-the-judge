@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Pain below the right kneecap for 2 days.\",\n      \"transcript_evidence\": \"About two months.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The note significantly misrepresents the duration of the patient's complaint, potentially leading to incorrect clinical assessment of the injury timeline.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Paracetamol or ibuprofen 800 mg up to three times daily with food as needed.\",\n      \"transcript_evidence\": \"ibuprofen 400 milligrams up to three times a day with food.\",\n      \"evidence_turns\": [\n        45\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note documents an incorrect dose for ibuprofen, which could lead to inappropriate prescribing.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Pain below the right kneecap for 2 days.",
+    "transcript_evidence": "About two months.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The note significantly misrepresents the duration of the patient's complaint, potentially leading to incorrect clinical assessment of the injury timeline."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Paracetamol or ibuprofen 800 mg up to three times daily with food as needed.",
+    "transcript_evidence": "ibuprofen 400 milligrams up to three times a day with food.",
+    "evidence_turns": [
+     45
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note documents an incorrect dose for ibuprofen, which could lead to inappropriate prescribing."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

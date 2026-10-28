@@ -4,9 +4,19 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Medication dosage discrepancy\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Prednisolone 4 mg once daily for 5 days.\",\n      \"transcript_evidence\": \"I'm going to start you on steroid tablets, prednisolone, 40 milligrams once a day for five days.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the prednisolone dosage as 4 mg, while the transcript clearly states 40 mg.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Medication discrepancy (unmentioned)\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Salmeterol inhaler as required.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note mentions a Salmeterol inhaler, which is not mentioned in the transcript.\"\n    },\n    {\n      \"type\": \"Medication dose error\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Prednisolone 4 mg once daily for 5 days.\",\n      \"transcript_evidence\": \"I'm going to start you on steroid tablets, prednisolone, 40 milligrams once a day for five days.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly states the prednisolone dose is 4 mg, while the transcript indicates 40 mg was prescribed.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
   "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Medications and allergies",
+    "note_span": "Salmeterol inhaler as required.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note mentions a Salmeterol inhaler, which is not mentioned in the transcript."
+   },
    {
     "type": "UNSPECIFIED",
     "note_section": "Plan",
@@ -15,11 +25,11 @@
     "evidence_turns": [
      33
     ],
-    "severity": 3,
-    "likelihood": 4,
-    "rationale": "The note incorrectly states the prednisolone dosage as 4 mg, while the transcript clearly states 40 mg."
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note incorrectly states the prednisolone dose is 4 mg, while the transcript indicates 40 mg was prescribed."
    }
   ],
-  "overall_note_safety": "needs_minor_edits"
+  "overall_note_safety": "needs_major_edits"
  }
 }

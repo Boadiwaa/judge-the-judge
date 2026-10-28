@@ -1,0 +1,35 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Discrepancy in examination findings (location of worst lesion)\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"most severe in the left antecubital fossa.\",\n      \"transcript_evidence\": \"The right elbow crease is the worst.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly identifies the location of the most severe lesion, contradicting the transcript which specifies the right elbow crease.\"\n    },\n    {\n      \"type\": \"Omission of examination finding\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"Mild cervical lymphadenopathy.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 1,\n      \"likelihood\": 4,\n      \"rationale\": \"The note includes a finding (mild cervical lymphadenopathy) that is not documented in the consultation transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "examination",
+    "note_span": "most severe in the left antecubital fossa.",
+    "transcript_evidence": "The right elbow crease is the worst.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly identifies the location of the most severe lesion, contradicting the transcript which specifies the right elbow crease."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "examination",
+    "note_span": "Mild cervical lymphadenopathy.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 1,
+    "likelihood": 4,
+    "rationale": "The note includes a finding (mild cervical lymphadenopathy) that is not documented in the consultation transcript."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

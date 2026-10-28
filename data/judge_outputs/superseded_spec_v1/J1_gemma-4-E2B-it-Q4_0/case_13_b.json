@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Review in 4 weeks.\",\n      \"transcript_evidence\": \"I'd also like to see you again in one week, not four.\",\n      \"evidence_turns\": [\n        51\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the follow-up review period is four weeks, when the transcript indicates the clinician agreed to see the patient again in one week.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Review in 4 weeks.",
+    "transcript_evidence": "I'd also like to see you again in one week, not four.",
+    "evidence_turns": [
+     51
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the follow-up review period is four weeks, when the transcript indicates the clinician agreed to see the patient again in one week."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

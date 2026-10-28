@@ -1,0 +1,49 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Factual error (Duration)\",\n      \"note_section\": \"presenting_complaint\",\n      \"note_span\": \"Recurrent headaches for 6 days.\",\n      \"transcript_evidence\": \"[4] Patient: About six months now. Maybe two or three a month.\",\n      \"evidence_turns\": [\n        4\n      ],\n      \"severity\": 3,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly states the duration of the headaches is 6 days, whereas the transcript indicates the patient has had them for six months.\"\n    },\n    {\n      \"type\": \"Factual error (Aura duration)\",\n      \"note_section\": \"history\",\n      \"note_span\": \"Preceded by visual aura (shimmering zigzag lines to one side) lasting about an hour.\",\n      \"transcript_evidence\": \"[8] Patient: About an hour. Actually, no. I timed it last time, and it was twenty minutes, then it went.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note states the aura lasts about an hour, but the transcript indicates the patient corrected this to 20 minutes.\"\n    },\n    {\n      \"type\": \"Clinical error (Plan)\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Continue combined pill.\",\n      \"transcript_evidence\": \"[39] Clinician: I'd like you to stop the Rigevidon and switch to a progestogen-only pill called desogestrel, 75 micrograms, one every day without a break.\",\n      \"evidence_turns\": [\n        39\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The plan contradicts the clinical decision made in the transcript, which was to stop the combined pill and switch to a progestogen-only pill.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "presenting_complaint",
+    "note_span": "Recurrent headaches for 6 days.",
+    "transcript_evidence": "[4] Patient: About six months now. Maybe two or three a month.",
+    "evidence_turns": [
+     4
+    ],
+    "severity": 3,
+    "likelihood": 5,
+    "rationale": "The note incorrectly states the duration of the headaches is 6 days, whereas the transcript indicates the patient has had them for six months."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "history",
+    "note_span": "Preceded by visual aura (shimmering zigzag lines to one side) lasting about an hour.",
+    "transcript_evidence": "[8] Patient: About an hour. Actually, no. I timed it last time, and it was twenty minutes, then it went.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note states the aura lasts about an hour, but the transcript indicates the patient corrected this to 20 minutes."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "plan",
+    "note_span": "Continue combined pill.",
+    "transcript_evidence": "[39] Clinician: I'd like you to stop the Rigevidon and switch to a progestogen-only pill called desogestrel, 75 micrograms, one every day without a break.",
+    "evidence_turns": [
+     39
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The plan contradicts the clinical decision made in the transcript, which was to stop the combined pill and switch to a progestogen-only pill."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

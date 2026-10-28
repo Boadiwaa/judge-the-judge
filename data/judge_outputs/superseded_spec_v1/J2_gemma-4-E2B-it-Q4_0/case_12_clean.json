@@ -1,0 +1,354 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient has had pain below the right kneecap for two months."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient's pain has a gradual onset without a specific injury."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient plays football (training three times a week plus matches) and school PE."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient experiences pain during and after sport and when kneeling on the knee."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient does not experience night pain or rest pain."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has no swelling, locking, or giving way of the knee."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient has no pain in the hip or thigh."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has no fever or weight loss."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient's older brother had Osgood-Schlatter disease at a similar age."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient has no previous joint problems."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient has no regular medications and no known drug allergies."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient has no asthma or stomach problems."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "There is a tender bony prominence over the right tibial tuberosity."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "There is no knee effusion."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient has a full range of knee movement and stable ligaments."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "Both hips have a full, pain-free range of movement."
+   },
+   {
+    "id": "c17",
+    "section": "Impression",
+    "claim": "The impression is Osgood-Schlatter disease of the right knee."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The plan includes activity modification guided by pain."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The plan includes icing the knee for 15 minutes after sport."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "The plan includes taking paracetamol or ibuprofen 400 mg up to three times a day with food as needed."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "The plan includes referring the patient to physiotherapy for stretching exercises for thigh muscles."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "The plan includes a review if the condition has not settled in six to eight weeks."
+   },
+   {
+    "id": "c23",
+    "section": "Safety-netting",
+    "claim": "The safety-netting includes returning sooner if there is night pain, knee swelling, fever, persistent limp, or hip pain."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     4
+    ],
+    "fact": "Patient reports knee pain just below the kneecap.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     6
+    ],
+    "fact": "The patient specifies the pain is in the right knee.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     8
+    ],
+    "fact": "The duration of the pain is about two months.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     10
+    ],
+    "fact": "The pain started after football.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     12
+    ],
+    "fact": "The patient trains three times a week and has a match on Saturdays.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     13
+    ],
+    "fact": "The relative mentions the patient attends PE at school.",
+    "about": "relative"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     15
+    ],
+    "fact": "The patient experiences pain during and after football and when kneeling on the knee.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     17
+    ],
+    "fact": "The patient reports no night pain.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     19
+    ],
+    "fact": "The patient reports pain only after sport, not when resting.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     21
+    ],
+    "fact": "The patient reports no swelling, locking, or giving way of the knee.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     27
+    ],
+    "fact": "The patient only limps after a match.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     28
+    ],
+    "fact": "The relative mentions the patient's brother had a similar condition (Osgood-something) at age fourteen.",
+    "about": "relative"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     30
+    ],
+    "fact": "The relative confirms the patient has no previous joint problems.",
+    "about": "relative"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     32
+    ],
+    "fact": "The patient reports no regular medications.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     34
+    ],
+    "fact": "The patient reports no asthma or stomach problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     35
+    ],
+    "fact": "Clinician examines the right knee and identifies a tender bony lump just below the kneecap, which is the tibial tuberosity.",
+    "about": "clinician"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     36
+    ],
+    "fact": "The patient confirms the location of the lump.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     37
+    ],
+    "fact": "Clinician examines the knee, noting no fluid, full range of movement, and stable ligaments.",
+    "about": "clinician"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     38
+    ],
+    "fact": "The patient reports no pain when the clinician moves the right hip.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     39
+    ],
+    "fact": "Clinician examines both hips and notes full range of movement with no pain.",
+    "about": "clinician"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     41
+    ],
+    "fact": "Clinician provides an impression of Osgood-Schlatter disease, explaining it is an irritation where the tendon from the kneecap attaches to the shin bone.",
+    "about": "clinician"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     43
+    ],
+    "fact": "Clinician advises the patient to cut down on activity for a few weeks and let the pain guide them.",
+    "about": "clinician"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     45
+    ],
+    "fact": "Clinician recommends icing the knee for 15 minutes after sport.",
+    "about": "clinician"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     45
+    ],
+    "fact": "Clinician recommends paracetamol or ibuprofen 400 milligrams up to three times a day with food for pain.",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     47
+    ],
+    "fact": "Clinician plans to refer the patient to physiotherapy for stretching exercises for thigh muscles.",
+    "about": "clinician"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     49
+    ],
+    "fact": "Clinician outlines follow-up criteria: return sooner if there is night pain, knee swelling, fever, persistent limp, or hip pain.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Gradual onset without specific injury.\",\n      \"transcript_evidence\": \"It just started hurting after football.\",\n      \"evidence_turns\": [\n        10\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly describes the onset as gradual without injury, whereas the transcript specifies the pain started after football.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Gradual onset without specific injury.",
+    "transcript_evidence": "It just started hurting after football.",
+    "evidence_turns": [
+     10
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly describes the onset as gradual without injury, whereas the transcript specifies the pain started after football."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

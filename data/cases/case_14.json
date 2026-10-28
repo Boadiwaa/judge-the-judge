@@ -301,6 +301,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "Recorded self-harm thoughts that were denied would mislabel her risk and may trigger unnecessary crisis referral.",
+          "subtle": false,
           "description": "Denied self-harm thoughts recorded as present"
         },
         {
@@ -315,6 +316,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "A four-year history changes the picture to a chronic disorder, but management would be similar.",
+          "subtle": true,
           "description": "Panic history recorded as four years"
         },
         {
@@ -329,7 +331,24 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Tripling the intended step-up dose increases side effects and early jitteriness, which can worsen panic and adherence.",
+          "subtle": true,
           "description": "Sertraline step-up dose tripled"
+        },
+        {
+          "error_id": "case_14_a_e4",
+          "type": "DRUG_NAME",
+          "section": "plan",
+          "original_text": "Start sertraline 25 mg",
+          "mutated_text": "Start Seroquel 25 mg",
+          "evidence_turns": [
+            44,
+            46
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Sertraline (an SSRI) recorded as Seroquel (quetiapine, an antipsychotic), a sound-alike; a prescriber copying the plan would start an antipsychotic with sedating and metabolic effects in a young adult with anxiety, and the intended SSRI would not be started.",
+          "subtle": false,
+          "description": "Sertraline recorded as Seroquel"
         }
       ]
     },
@@ -348,6 +367,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "The corrected caffeine intake is relevant to symptom triggers, but the difference is unlikely to cause harm.",
+          "subtle": true,
           "description": "Caffeine intake kept at the figure the patient corrected"
         },
         {
@@ -363,6 +383,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "The partner's sick leave recorded as the patient's misrepresents her functioning and could affect fit-note decisions.",
+          "subtle": true,
           "description": "Partner's sick leave recorded as the patient's"
         },
         {
@@ -377,6 +398,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Early review after starting an SSRI checks for worsening anxiety and suicidal thoughts; a three-month gap removes that safety check.",
+          "subtle": false,
           "description": "Two-week review after starting sertraline changed to three months"
         },
         {
@@ -391,6 +413,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "Agoraphobic avoidance shapes CBT goals and the diagnosis, but its absence is unlikely to cause direct harm.",
+          "subtle": true,
           "description": "Avoidance behaviour dropped"
         }
       ]

@@ -305,6 +305,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 2,
           "seeded_rationale": "A tenfold furosemide dose would cause severe dehydration and kidney injury if given, though it would likely be questioned.",
+          "subtle": false,
           "description": "Furosemide dose ten times too high"
         },
         {
@@ -319,6 +320,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 4,
           "seeded_rationale": "If the sick day rules are undocumented, her family and the district nurse may keep giving a diuretic, ACE inhibitor and metformin to a dehydrated 85-year-old, a common cause of acute kidney injury and lactic acidosis.",
+          "subtle": false,
           "description": "Sick day rules dropped"
         },
         {
@@ -334,7 +336,24 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "The neighbour's fall recorded as hers adds a false falls history, triggering unnecessary falls assessment and possibly affecting medication decisions.",
+          "subtle": true,
           "description": "Neighbour's fall recorded as the patient's"
+        },
+        {
+          "error_id": "case_24_a_e4",
+          "type": "DRUG_NAME",
+          "section": "medications_allergies",
+          "original_text": "Metformin 500 mg twice daily.",
+          "mutated_text": "Metronidazole 500 mg twice daily.",
+          "evidence_turns": [
+            33,
+            34
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Metformin recorded as metronidazole; the plan still says to stop metformin, which limits the harm, but anyone reading the medication list would not know she takes metformin while dehydrated.",
+          "subtle": false,
+          "description": "Metformin recorded as metronidazole"
         }
       ]
     },
@@ -354,6 +373,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "Bloody diarrhoea would prompt stool tests and possibly admission that are not needed.",
+          "subtle": false,
           "description": "Absent blood in stools recorded as present"
         },
         {
@@ -368,6 +388,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "Two weeks of diarrhoea suggests a different cause and prompts different investigations, though the immediate plan would be similar.",
+          "subtle": true,
           "description": "Illness duration recorded as two weeks"
         },
         {
@@ -382,6 +403,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The wrong side for a pressure sore could confuse wound records, though the district nurse would find it.",
+          "subtle": true,
           "description": "Heel sore recorded on the wrong foot"
         },
         {
@@ -396,6 +418,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "Without the next-day kidney test, acute kidney injury in a dehydrated older woman on these drugs may go undetected.",
+          "subtle": false,
           "description": "Next-day kidney test deferred to routine review"
         }
       ]

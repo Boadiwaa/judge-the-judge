@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Witnessed by wife: went quiet, then right arm jerking for a few seconds, followed by generalised stiffening and shaking lasting about 2 minutes\",\n      \"transcript_evidence\": \"He went quiet, and then his left arm started jerking. Just the left arm, for a few seconds. Then he went stiff all over and started shaking all over.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly attributes the jerking movement to the right arm instead of the left arm, which is a factual error regarding the patient's history.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Clinic review with results in about 6 weeks.\",\n      \"transcript_evidence\": \"By law, you mustn't drive, and you need to tell the DVLA you've had a seizure. Usually you can't drive for six months after a first seizure, sometimes longer depending on the tests.\",\n      \"evidence_turns\": [\n        39\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omitted the crucial safety advice regarding the legal driving restrictions following a first seizure.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "History",
+    "note_span": "Witnessed by wife: went quiet, then right arm jerking for a few seconds, followed by generalised stiffening and shaking lasting about 2 minutes",
+    "transcript_evidence": "He went quiet, and then his left arm started jerking. Just the left arm, for a few seconds. Then he went stiff all over and started shaking all over.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly attributes the jerking movement to the right arm instead of the left arm, which is a factual error regarding the patient's history."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Plan",
+    "note_span": "Clinic review with results in about 6 weeks.",
+    "transcript_evidence": "By law, you mustn't drive, and you need to tell the DVLA you've had a seizure. Usually you can't drive for six months after a first seizure, sometimes longer depending on the tests.",
+    "evidence_turns": [
+     39
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omitted the crucial safety advice regarding the legal driving restrictions following a first seizure."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

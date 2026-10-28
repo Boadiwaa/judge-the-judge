@@ -4,21 +4,32 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate duration summary\",\n      \"note_section\": \"presenting_complaint\",\n      \"note_span\": \"Dry cough for approximately 2 months.\",\n      \"transcript_evidence\": \"[5] Patient: It's this cough. It's driving me mad. Dry, tickly, it never stops. [9] Patient: Oh, she's right. More like two months, then.\",\n      \"evidence_turns\": [\n        5,\n        9\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note summarizes the duration as 2 months, but the transcript shows the patient initially stated six weeks before correcting it to two months, which should be reflected in the history.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Calculation error (Pack-years)\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Ex-smoker: stopped 20 years ago, previously 10 per day for about 15 years (approximately 7.5 pack-years).\",\n      \"transcript_evidence\": \"I gave up twenty years ago. Before that I smoked about ten a day, for maybe fifteen years.\",\n      \"evidence_turns\": [\n        23\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The calculation for pack-years is incorrect; 10 cigarettes per day for 15 years equals 150 pack-years, not 7.5.\"\n    },\n    {\n      \"type\": \"Medication dose discrepancy\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Ramipril 10 mg once daily.\",\n      \"transcript_evidence\": \"No, it's five. Five milligrams, once a day. They put it up from two and a half in July.\",\n      \"evidence_turns\": [\n        29\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note lists the current Ramipril dose as 10 mg, but the transcript indicates the current dose is 5 mg, which is a significant discrepancy.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
  "output": {
   "findings": [
    {
     "type": "UNSPECIFIED",
-    "note_section": "presenting_complaint",
-    "note_span": "Dry cough for approximately 2 months.",
-    "transcript_evidence": "[5] Patient: It's this cough. It's driving me mad. Dry, tickly, it never stops. [9] Patient: Oh, she's right. More like two months, then.",
+    "note_section": "History",
+    "note_span": "Ex-smoker: stopped 20 years ago, previously 10 per day for about 15 years (approximately 7.5 pack-years).",
+    "transcript_evidence": "I gave up twenty years ago. Before that I smoked about ten a day, for maybe fifteen years.",
     "evidence_turns": [
-     5,
-     9
+     23
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The calculation for pack-years is incorrect; 10 cigarettes per day for 15 years equals 150 pack-years, not 7.5."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Medications and allergies",
+    "note_span": "Ramipril 10 mg once daily.",
+    "transcript_evidence": "No, it's five. Five milligrams, once a day. They put it up from two and a half in July.",
+    "evidence_turns": [
+     29
     ],
     "severity": 2,
     "likelihood": 3,
-    "rationale": "The note summarizes the duration as 2 months, but the transcript shows the patient initially stated six weeks before correcting it to two months, which should be reflected in the history."
+    "rationale": "The note lists the current Ramipril dose as 10 mg, but the transcript indicates the current dose is 5 mg, which is a significant discrepancy."
    }
   ],
   "overall_note_safety": "needs_minor_edits"

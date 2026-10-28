@@ -1,0 +1,37 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Omission of ECG findings\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"ECG: sinus rhythm, no ST segment changes.\",\n      \"transcript_evidence\": \"Your ECG, the heart tracing, shows some changes. There's about a millimetre of ST depression in the leads on the left side of the chest, V4 to V6.\",\n      \"evidence_turns\": [\n        38\n      ],\n      \"severity\": 3,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly states that the ECG showed no ST segment changes, omitting the critical finding of ST depression mentioned in the transcript.\"\n    },\n    {\n      \"type\": \"Dosage discrepancy\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Fondaparinux 25 mg subcutaneously once daily.\",\n      \"transcript_evidence\": \"I'm going to start an injection called fondaparinux, 2.5 milligrams under the skin once a day, to thin the blood.\",\n      \"evidence_turns\": [\n        42\n      ],\n      \"severity\": 2,\n      \"likelihood\": 5,\n      \"rationale\": \"The note lists the dosage as 25 mg, while the transcript specifies 2.5 mg.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "examination",
+    "note_span": "ECG: sinus rhythm, no ST segment changes.",
+    "transcript_evidence": "Your ECG, the heart tracing, shows some changes. There's about a millimetre of ST depression in the leads on the left side of the chest, V4 to V6.",
+    "evidence_turns": [
+     38
+    ],
+    "severity": 3,
+    "likelihood": 5,
+    "rationale": "The note incorrectly states that the ECG showed no ST segment changes, omitting the critical finding of ST depression mentioned in the transcript."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "plan",
+    "note_span": "Fondaparinux 25 mg subcutaneously once daily.",
+    "transcript_evidence": "I'm going to start an injection called fondaparinux, 2.5 milligrams under the skin once a day, to thin the blood.",
+    "evidence_turns": [
+     42
+    ],
+    "severity": 2,
+    "likelihood": 5,
+    "rationale": "The note lists the dosage as 25 mg, while the transcript specifies 2.5 mg."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

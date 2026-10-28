@@ -1,0 +1,50 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inconsistent feeding amount\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Feeding most of his usual amount.\",\n      \"transcript_evidence\": \"He's only managed about half of each bottle since yesterday. I did the night feeds.\",\n      \"evidence_turns\": [\n        11\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note contradicts the transcript regarding the feeding amount, stating he is taking 'most of his usual amount' when the transcript indicates he has only managed 'about half' since yesterday.\"\n    },\n    {\n      \"type\": \"Contradictory history of apnoea\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Has had an apnoea.\",\n      \"transcript_evidence\": \"No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.\",\n      \"evidence_turns\": [\n        15,\n        16\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note makes a definitive statement about the child having had an apnoea, which is directly contradicted by the relative's denial and the lack of pauses noted during the examination.\"\n    },\n    {\n      \"type\": \"Minor discrepancy in feeding description\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"Bronchiolitis with moderately reduced feeding; borderline for referral (feeds about 50%).\",\n      \"transcript_evidence\": \"his feeding is down to about half, which is right on the line.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note uses the term 'moderately reduced feeding' while the transcript specifies the feeding is 'down to about half,' which is a minor descriptive inconsistency.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "History",
+    "note_span": "Feeding most of his usual amount.",
+    "transcript_evidence": "He's only managed about half of each bottle since yesterday. I did the night feeds.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note contradicts the transcript regarding the feeding amount, stating he is taking 'most of his usual amount' when the transcript indicates he has only managed 'about half' since yesterday."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "History",
+    "note_span": "Has had an apnoea.",
+    "transcript_evidence": "No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.",
+    "evidence_turns": [
+     15,
+     16
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note makes a definitive statement about the child having had an apnoea, which is directly contradicted by the relative's denial and the lack of pauses noted during the examination."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Impression",
+    "note_span": "Bronchiolitis with moderately reduced feeding; borderline for referral (feeds about 50%).",
+    "transcript_evidence": "his feeding is down to about half, which is right on the line.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note uses the term 'moderately reduced feeding' while the transcript specifies the feeding is 'down to about half,' which is a minor descriptive inconsistency."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

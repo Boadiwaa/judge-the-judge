@@ -286,6 +286,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The wrong ear recorded could confuse a follow-up examination, but management of acute otitis media is the same on either side.",
+          "subtle": true,
           "description": "Infected ear recorded on the wrong side"
         },
         {
@@ -303,6 +304,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Recording that she has had chickenpox implies immunity, when she is an exposed contact in the incubation period; a new rash may be misread and exposure of vulnerable contacts not considered.",
+          "subtle": true,
           "description": "Brother's chickenpox recorded as the child's"
         },
         {
@@ -317,6 +319,7 @@
           "seeded_severity": 4,
           "seeded_likelihood": 3,
           "seeded_rationale": "7.5 mL of the 250 mg/5 mL strength is 375 mg, about 27 mg/kg per dose for a 3-year-old, roughly double the recommended single dose and a hepatotoxicity risk if given four times daily.",
+          "subtle": true,
           "description": "Paracetamol suspension strength changed, doubling the dose"
         }
       ]
@@ -337,6 +340,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 2,
           "seeded_rationale": "The mother corrected Tuesday to Monday; fever duration feeds into the 3-day back-up antibiotic threshold and the 5-day fever safety-net.",
+          "subtle": true,
           "description": "Fever onset kept at the day the mother corrected"
         },
         {
@@ -352,6 +356,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 2,
           "seeded_rationale": "Emergency red-flag advice for a febrile under-5 (NICE NG143) is undocumented; if the child deteriorates, there is no record that the family knew when to call 999.",
+          "subtle": false,
           "description": "Emergency red-flag advice for a febrile child dropped"
         },
         {
@@ -366,6 +371,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 2,
           "seeded_rationale": "The neck was not examined; a recorded absence of meningism in a febrile child gives false reassurance if she later deteriorates.",
+          "subtle": true,
           "description": "Neck examination recorded that was never done"
         },
         {
@@ -381,6 +387,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "Turning a back-up into an immediate prescription exposes the child to unnecessary antibiotics, side effects and resistance, against the agreed plan.",
+          "subtle": false,
           "description": "Back-up antibiotic changed to start today"
         }
       ]

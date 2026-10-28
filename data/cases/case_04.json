@@ -276,6 +276,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 3,
           "seeded_rationale": "Without aura documented, the contraindication to the combined pill disappears from the record, and she or a future prescriber may restart it, raising stroke risk.",
+          "subtle": true,
           "description": "Migraine aura recorded as absent"
         },
         {
@@ -290,6 +291,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 2,
           "seeded_rationale": "Double the maximum daily sumatriptan raises the risk of vasoconstrictive adverse effects; most patients take far less.",
+          "subtle": true,
           "description": "Sumatriptan daily maximum doubled"
         },
         {
@@ -305,6 +307,7 @@
           "seeded_severity": 1,
           "seeded_likelihood": 2,
           "seeded_rationale": "Smoking status is relevant to contraceptive risk but she does not smoke, so its absence is unlikely to cause harm.",
+          "subtle": true,
           "description": "Smoking status dropped"
         }
       ]
@@ -324,6 +327,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 2,
           "seeded_rationale": "She corrected an hour to twenty minutes; aura lasting over 60 minutes is atypical and may prompt unnecessary investigation.",
+          "subtle": true,
           "description": "Aura duration kept at the figure the patient corrected"
         },
         {
@@ -338,6 +342,7 @@
           "seeded_severity": 5,
           "seeded_likelihood": 3,
           "seeded_rationale": "Continuing a combined pill in migraine with aura carries an unacceptable stroke risk (UKMEC 4).",
+          "subtle": false,
           "description": "Combined pill continued despite aura"
         },
         {
@@ -352,6 +357,7 @@
           "seeded_severity": 3,
           "seeded_likelihood": 3,
           "seeded_rationale": "Without the documented need for extra contraception during the switch, there is a real risk of unplanned pregnancy.",
+          "subtle": false,
           "description": "Extra contraception advice dropped"
         },
         {
@@ -366,6 +372,7 @@
           "seeded_severity": 2,
           "seeded_likelihood": 3,
           "seeded_rationale": "A six-day history of new headache with neurological symptoms reads as a new-onset pattern and may prompt unnecessary urgent investigation.",
+          "subtle": true,
           "description": "Headache history shortened from six months to six days"
         }
       ]

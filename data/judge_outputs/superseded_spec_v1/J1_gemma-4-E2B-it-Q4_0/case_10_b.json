@@ -1,0 +1,47 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"No apnoeas (older sister had an apnoea with bronchiolitis two years ago).\",\n      \"transcript_evidence\": \"No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.\",\n      \"evidence_turns\": [\n        16\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly denies the presence of apnoea, contradicting the transcript which confirms the sister experienced an apnoea.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Weight 8.2 kg (50th centile).\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 2,\n      \"rationale\": \"The weight of the child is a relevant clinical fact that was documented in the note but is entirely absent from the consultation transcript.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Review if not improving in one week.\",\n      \"transcript_evidence\": \"I want to see him again tomorrow morning.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan to review in one week contradicts the clinician's stated intention to review the patient the following morning.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "No apnoeas (older sister had an apnoea with bronchiolitis two years ago).",
+    "transcript_evidence": "No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.",
+    "evidence_turns": [
+     16
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly denies the presence of apnoea, contradicting the transcript which confirms the sister experienced an apnoea."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Weight 8.2 kg (50th centile).",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 2,
+    "rationale": "The weight of the child is a relevant clinical fact that was documented in the note but is entirely absent from the consultation transcript."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Review if not improving in one week.",
+    "transcript_evidence": "I want to see him again tomorrow morning.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The plan to review in one week contradicts the clinician's stated intention to review the patient the following morning."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

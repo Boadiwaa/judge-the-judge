@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"No face-to-face review needed.\",\n      \"transcript_evidence\": \"But I'm a bit concerned that she's only had two wet nappies today, so I'd like to see her this afternoon. Can you bring her in at four o'clock?\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note contradicts the agreed-upon plan to see the patient face-to-face at 4:00 PM.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Alert and playing.\",\n      \"transcript_evidence\": \"She's grumpy, but she's watching the telly and playing with her blocks.\",\n      \"evidence_turns\": [\n        26\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note omits relevant contextual details about the patient's behaviour (grumpy, watching telly) from the examination summary.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "No face-to-face review needed.",
+    "transcript_evidence": "But I'm a bit concerned that she's only had two wet nappies today, so I'd like to see her this afternoon. Can you bring her in at four o'clock?",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note contradicts the agreed-upon plan to see the patient face-to-face at 4:00 PM."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Alert and playing.",
+    "transcript_evidence": "She's grumpy, but she's watching the telly and playing with her blocks.",
+    "evidence_turns": [
+     26
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note omits relevant contextual details about the patient's behaviour (grumpy, watching telly) from the examination summary."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

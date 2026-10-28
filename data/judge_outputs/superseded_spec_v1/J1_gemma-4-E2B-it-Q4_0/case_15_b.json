@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "fba0470e135b",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports diarrhoea and unsteadiness; no vomiting or confusion.\",\n      \"transcript_evidence\": \"Any diarrhoea or vomiting? No.\",\n      \"evidence_turns\": [\n        22\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note incorrectly documents the patient reporting diarrhoea and unsteadiness when the transcript shows the patient denied these symptoms.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Repeat lithium level in 3 months.\",\n      \"transcript_evidence\": \"Because you've taken naproxen, I'd like to recheck your lithium level in one week, 12 hours after your evening dose. After that we'll go back to every three months.\",\n      \"evidence_turns\": [\n        36\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the immediate recheck plan (one week) and incorrectly states the follow-up interval as three months, missing the interim step.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Reports diarrhoea and unsteadiness; no vomiting or confusion.",
+    "transcript_evidence": "Any diarrhoea or vomiting? No.",
+    "evidence_turns": [
+     22
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note incorrectly documents the patient reporting diarrhoea and unsteadiness when the transcript shows the patient denied these symptoms."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Repeat lithium level in 3 months.",
+    "transcript_evidence": "Because you've taken naproxen, I'd like to recheck your lithium level in one week, 12 hours after your evening dose. After that we'll go back to every three months.",
+    "evidence_turns": [
+     36
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the immediate recheck plan (one week) and incorrectly states the follow-up interval as three months, missing the interim step."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

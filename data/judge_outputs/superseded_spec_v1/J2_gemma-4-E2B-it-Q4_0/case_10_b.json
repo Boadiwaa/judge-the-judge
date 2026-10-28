@@ -1,0 +1,491 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "68d8632f2cef",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient has had a cough and coryza for 4 days and increased work of breathing since yesterday."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient has had a coryza and cough for 4 weeks."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient's temperature has been up to 37.9 \u00b0C."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient has been breathing fast since yesterday."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient has been feeding about half his usual amount since yesterday."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has had four wet nappies in 24 hours, which is usually 6\u20137."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient has no history of apnoea (the older sister had an apnoea with bronchiolitis two years ago)."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has no history of cyanosis."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient was born at 39 weeks with no neonatal problems."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient has no cardiac or respiratory history."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "The patient's immunisations are up to date."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient has taken Calpol once yesterday."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "The patient has no known drug allergies."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The patient's temperature is 37.8 \u00b0C."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient's respiratory rate is 54 times a minute."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "The patient's heart rate is 150."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "The patient's oxygen level is 95 percent in air."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "The patient has mild subcostal recession."
+   },
+   {
+    "id": "c19",
+    "section": "Examination",
+    "claim": "The patient's capillary refill is under two seconds."
+   },
+   {
+    "id": "c20",
+    "section": "Examination",
+    "claim": "The patient is alert and looking around."
+   },
+   {
+    "id": "c21",
+    "section": "Examination",
+    "claim": "The patient's weight is 8.2 kg (50th centile)."
+   },
+   {
+    "id": "c22",
+    "section": "Examination",
+    "claim": "The patient has bilateral fine crackles and wheeze."
+   },
+   {
+    "id": "c23",
+    "section": "Impression",
+    "claim": "The impression is Bronchiolitis with moderately reduced feeding."
+   },
+   {
+    "id": "c24",
+    "section": "Impression",
+    "claim": "The patient is borderline for referral (feeds about 50%)."
+   },
+   {
+    "id": "c25",
+    "section": "Plan",
+    "claim": "The plan is to give small, frequent feeds and use saline nose drops before feeds."
+   },
+   {
+    "id": "c26",
+    "section": "Plan",
+    "claim": "The patient is advised that the illness may worsen over the first three to five days."
+   },
+   {
+    "id": "c27",
+    "section": "Plan",
+    "claim": "The patient should be reviewed if not improving in one week."
+   },
+   {
+    "id": "c28",
+    "section": "Safety-netting",
+    "claim": "Safety-netting advises calling GP or 111 urgently if feeds fall below half, no wet nappy for 12 hours, or if the patient seems more tired and floppy."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     4
+    ],
+    "fact": "Arlo has had a runny nose and a cough for four days.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     4
+    ],
+    "fact": "Arlo's breathing has been going really fast since yesterday.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     6
+    ],
+    "fact": "Arlo is seven months old.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     8
+    ],
+    "fact": "Arlo had a temperature of 37.9 this morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     10
+    ],
+    "fact": "Arlo is taking most of his bottles.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     11
+    ],
+    "fact": "Arlo is only managing about half of each bottle since yesterday.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     11
+    ],
+    "fact": "The father did the night feeds.",
+    "about": "father"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     12
+    ],
+    "fact": "Arlo keeps pulling off to breathe.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     14
+    ],
+    "fact": "Arlo had four wet nappies in the last 24 hours.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     14
+    ],
+    "fact": "Arlo usually has six or seven wet nappies.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     16
+    ],
+    "fact": "Arlo's sister had an apnoea with bronchiolitis two years ago.",
+    "about": "sister"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     18
+    ],
+    "fact": "There was no apnoea with Arlo.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     20
+    ],
+    "fact": "Arlo did not go blue or very pale.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     22
+    ],
+    "fact": "Arlo brought up a bit of milk after coughing.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     24
+    ],
+    "fact": "Arlo was born at 39 weeks with no problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     26
+    ],
+    "fact": "Arlo has no heart or lung problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     28
+    ],
+    "fact": "Arlo's immunisations are up to date.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     30
+    ],
+    "fact": "Arlo has taken Calpol once yesterday.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     32
+    ],
+    "fact": "The father smokes, but only outside, never in the house.",
+    "about": "father"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     33
+    ],
+    "fact": "Arlo's temperature is 37.8.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     33
+    ],
+    "fact": "Arlo's respiratory rate is about 54 times a minute.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     33
+    ],
+    "fact": "Arlo's heart rate is 150.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     33
+    ],
+    "fact": "Arlo's oxygen level is 95 percent.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     33
+    ],
+    "fact": "Arlo is pulling in a little under his ribs when he breathes, indicating extra effort.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     33
+    ],
+    "fact": "Arlo's capillary refill is under two seconds.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     33
+    ],
+    "fact": "Arlo is alert and looking around.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician can hear crackles and some wheeze on both sides of Arlo's chest.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     35
+    ],
+    "fact": "The findings fit with bronchiolitis, a common virus in babies.",
+    "about": "patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     37
+    ],
+    "fact": "Arlo is working a bit harder to breathe.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     37
+    ],
+    "fact": "Arlo's feeding is down to about half, which is right on the line.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     37
+    ],
+    "fact": "Arlo's oxygen is okay and he is alert.",
+    "about": "patient"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician thinks it is reasonable to look after him at home for now.",
+    "about": "patient"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician advised giving Arlo smaller feeds more often.",
+    "about": "patient"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician advised using saline drops in his nose before feeds to help clear it.",
+    "about": "patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     39
+    ],
+    "fact": "Bronchiolitis often gets worse over the first three to five days before it gets better.",
+    "about": "patient"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     41
+    ],
+    "fact": "If Arlo has any pauses in his breathing, goes blue, or is really struggling to breathe, he should call 999.",
+    "about": "patient"
+   },
+   {
+    "id": "f37",
+    "turns": [
+     43
+    ],
+    "fact": "If Arlo is taking less than half his usual feeds, has no wet nappy for 12 hours, or seems more tired and floppy, he should call 111 straight away, even overnight.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"The patient has had a coryza and cough for 4 weeks.\",\n      \"transcript_evidence\": \"He's had a runny nose and a cough for four days.\",\n      \"evidence_turns\": [\n        4\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note incorrectly states the duration of the cough/coryza as four weeks when the transcript confirms it was four days.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"The patient's weight is 8.2 kg (50th centile).\",\n      \"transcript_evidence\": \"Born at 39 weeks, no problems.\",\n      \"evidence_turns\": [\n        24\n      ],\n      \"severity\": 2,\n      \"likelihood\": 2,\n      \"rationale\": \"The patient's weight and centile status are relevant clinical data points that were omitted from the examination section.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Review if not improving in one week.\",\n      \"transcript_evidence\": \"I want to see him again tomorrow morning.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The plan specifies a review for tomorrow morning, which contradicts the note's generalized advice to review if not improving in one week.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "The patient has had a coryza and cough for 4 weeks.",
+    "transcript_evidence": "He's had a runny nose and a cough for four days.",
+    "evidence_turns": [
+     4
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note incorrectly states the duration of the cough/coryza as four weeks when the transcript confirms it was four days."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "The patient's weight is 8.2 kg (50th centile).",
+    "transcript_evidence": "Born at 39 weeks, no problems.",
+    "evidence_turns": [
+     24
+    ],
+    "severity": 2,
+    "likelihood": 2,
+    "rationale": "The patient's weight and centile status are relevant clinical data points that were omitted from the examination section."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Review if not improving in one week.",
+    "transcript_evidence": "I want to see him again tomorrow morning.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The plan specifies a review for tomorrow morning, which contradicts the note's generalized advice to review if not improving in one week."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

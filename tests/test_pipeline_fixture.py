@@ -22,7 +22,7 @@ TRANSCRIPT = [{"turn": i, "speaker": "Patient" if i % 2 else "Clinician", "text"
 
 def mut(eid, typ, sec, orig, new, sev, lik, turns=(1,)):
     return {"error_id": eid, "type": typ, "section": sec, "original_text": orig, "mutated_text": new,
-            "evidence_turns": list(turns), "seeded_severity": sev, "seeded_likelihood": lik, "seeded_rationale": "r"}
+            "evidence_turns": list(turns), "seeded_severity": sev, "seeded_likelihood": lik, "seeded_rationale": "r", "subtle": False}
 
 
 def make_case(cid):
