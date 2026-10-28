@@ -1,0 +1,379 @@
+{
+  "case_id": "case_17",
+  "setting": "OUTPATIENT",
+  "title": "Atrial fibrillation clinic review",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Good afternoon, Mrs Achterberg. I'm Dr Sandhu, one of the cardiology registrars. And you've come with...?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "My daughter, Rosalind."
+    },
+    {
+      "turn": 3,
+      "speaker": "Relative",
+      "text": "Hello."
+    },
+    {
+      "turn": 4,
+      "speaker": "Clinician",
+      "text": "Lovely. I've got the letter from your GP. You were diagnosed with atrial fibrillation about eighteen months ago, is that right?"
+    },
+    {
+      "turn": 5,
+      "speaker": "Patient",
+      "text": "Yes, about then."
+    },
+    {
+      "turn": 6,
+      "speaker": "Clinician",
+      "text": "How have you been getting on?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Patient",
+      "text": "I've been more puffed out lately, going up the stairs. And I can feel my heart fluttering."
+    },
+    {
+      "turn": 8,
+      "speaker": "Clinician",
+      "text": "How long has that been going on?"
+    },
+    {
+      "turn": 9,
+      "speaker": "Patient",
+      "text": "Three weeks, perhaps a little more."
+    },
+    {
+      "turn": 10,
+      "speaker": "Clinician",
+      "text": "Any chest pain?"
+    },
+    {
+      "turn": 11,
+      "speaker": "Patient",
+      "text": "No, no pain."
+    },
+    {
+      "turn": 12,
+      "speaker": "Clinician",
+      "text": "Any dizziness or blackouts?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Patient",
+      "text": "A bit light-headed once or twice when I stood up quickly, but I haven't fainted."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "Do your ankles swell?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Patient",
+      "text": "A little, by the evening."
+    },
+    {
+      "turn": 16,
+      "speaker": "Clinician",
+      "text": "Can you lie flat at night?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Patient",
+      "text": "Yes, one pillow, same as always."
+    },
+    {
+      "turn": 18,
+      "speaker": "Clinician",
+      "text": "Now, you're on a blood thinner, apixaban. How are you taking that?"
+    },
+    {
+      "turn": 19,
+      "speaker": "Patient",
+      "text": "Once a day, in the morning."
+    },
+    {
+      "turn": 20,
+      "speaker": "Relative",
+      "text": "No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday."
+    },
+    {
+      "turn": 21,
+      "speaker": "Patient",
+      "text": "Oh, is it? Yes, she does the box. Twice then."
+    },
+    {
+      "turn": 22,
+      "speaker": "Clinician",
+      "text": "Thank you, that's important. Five milligrams each time?"
+    },
+    {
+      "turn": 23,
+      "speaker": "Relative",
+      "text": "Yes, five milligrams."
+    },
+    {
+      "turn": 24,
+      "speaker": "Clinician",
+      "text": "Any bleeding problems? Nosebleeds, bruising, blood in your water or your stools?"
+    },
+    {
+      "turn": 25,
+      "speaker": "Patient",
+      "text": "Well, there was some blood when I went to the toilet, three weeks ago. Fresh red blood. Just the once."
+    },
+    {
+      "turn": 26,
+      "speaker": "Relative",
+      "text": "Mum, you never told me that."
+    },
+    {
+      "turn": 27,
+      "speaker": "Patient",
+      "text": "I didn't want to make a fuss."
+    },
+    {
+      "turn": 28,
+      "speaker": "Clinician",
+      "text": "I'm glad you told me. Has it happened again since, or any black stools?"
+    },
+    {
+      "turn": 29,
+      "speaker": "Patient",
+      "text": "No, just the once."
+    },
+    {
+      "turn": 30,
+      "speaker": "Clinician",
+      "text": "Any change in your bowel habit, or weight loss?"
+    },
+    {
+      "turn": 31,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 32,
+      "speaker": "Clinician",
+      "text": "And what else do you take?"
+    },
+    {
+      "turn": 33,
+      "speaker": "Patient",
+      "text": "The bisoprolol, two and a half milligrams. And my thyroid tablet, levothyroxine, 75 micrograms."
+    },
+    {
+      "turn": 34,
+      "speaker": "Clinician",
+      "text": "Any allergies?"
+    },
+    {
+      "turn": 35,
+      "speaker": "Patient",
+      "text": "Codeine makes me sick."
+    },
+    {
+      "turn": 36,
+      "speaker": "Clinician",
+      "text": "Okay, intolerance to codeine. Let me examine you. Your pulse is irregularly irregular at about 104 a minute. Blood pressure is 128 over 76. Let me listen to your heart. Irregular, and no murmur that I can hear. Your chest has a few crackles right at the bases on both sides. Mild swelling around both ankles. Your weight today is 58 kilos."
+    },
+    {
+      "turn": 37,
+      "speaker": "Patient",
+      "text": "I've lost a bit."
+    },
+    {
+      "turn": 38,
+      "speaker": "Clinician",
+      "text": "Your bloods from last week: kidney function is normal, creatinine 98, and your thyroid level is normal too. The ECG today shows atrial fibrillation with a rate of about 105."
+    },
+    {
+      "turn": 39,
+      "speaker": "Relative",
+      "text": "So what does that mean?"
+    },
+    {
+      "turn": 40,
+      "speaker": "Clinician",
+      "text": "It means your heart rate is still a bit fast, which is likely why you're more breathless. I'd like to increase the bisoprolol from two and a half to five milligrams once a day."
+    },
+    {
+      "turn": 41,
+      "speaker": "Patient",
+      "text": "All right."
+    },
+    {
+      "turn": 42,
+      "speaker": "Clinician",
+      "text": "I'd also like an echocardiogram, a scan of the heart, within the next six weeks, to check how well it's pumping, given the crackles and the swelling."
+    },
+    {
+      "turn": 43,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 44,
+      "speaker": "Clinician",
+      "text": "Your apixaban dose of five milligrams twice a day is correct for you, based on your age, weight and kidney function, so we'll keep that the same. But the bleeding you mentioned needs looking into. I'll ask your GP to do a blood count and arrange a FIT test, the stool test, and consider a referral to the bowel team."
+    },
+    {
+      "turn": 45,
+      "speaker": "Relative",
+      "text": "Should she stop the blood thinner?"
+    },
+    {
+      "turn": 46,
+      "speaker": "Clinician",
+      "text": "No. Please don't stop it. Stopping it would put her at risk of a stroke. One episode isn't a reason to stop, but we do need to find the cause."
+    },
+    {
+      "turn": 47,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 48,
+      "speaker": "Clinician",
+      "text": "If you have any more bleeding, especially a lot of blood, black stools, or you feel faint, go to A&E. And if your breathing gets much worse, especially lying flat, or you get chest pain, call 999."
+    },
+    {
+      "turn": 49,
+      "speaker": "Relative",
+      "text": "Got it."
+    },
+    {
+      "turn": 50,
+      "speaker": "Clinician",
+      "text": "I'll see you back in clinic in three months, after the echo."
+    },
+    {
+      "turn": 51,
+      "speaker": "Patient",
+      "text": "Thank you, doctor."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Increased exertional breathlessness and palpitations for 3 weeks, on a background of atrial fibrillation diagnosed 18 months ago.",
+    "history": "Breathless on stairs, palpitations. No chest pain. Occasional postural light-headedness; no syncope. Mild evening ankle swelling. No orthopnoea. Single episode of fresh red rectal bleeding three weeks ago, not previously reported; no recurrence, no melaena, no change in bowel habit or weight loss. Attended with daughter, who manages her dosette box.",
+    "medications_allergies": "Apixaban 5 mg twice daily (initially reported as once daily; daughter confirmed twice daily). Bisoprolol 2.5 mg once daily. Levothyroxine 75 micrograms once daily. Codeine intolerance (nausea).",
+    "examination": "Pulse irregularly irregular, rate 104. BP 128/76. Heart sounds irregular, no murmur. Fine bibasal crackles. Mild bilateral ankle oedema. Weight 58 kg. ECG: atrial fibrillation, ventricular rate approximately 105. Bloods: creatinine 98, thyroid function normal.",
+    "impression": "Atrial fibrillation with suboptimal rate control, likely contributing to breathlessness; possible early heart failure. Apixaban dose appropriate (age 72, weight 58 kg, creatinine 98). Single episode of rectal bleeding on anticoagulation requiring investigation.",
+    "plan": "Increase bisoprolol to 5 mg once daily. Echocardiogram within 6 weeks. Continue apixaban 5 mg twice daily; do not stop. Letter to GP: FBC, FIT, and consider lower GI referral. Clinic review in 3 months after echocardiogram.",
+    "safety_netting": "Attend A&E if further significant bleeding, black stools or feeling faint. Call 999 if breathing worsens significantly, especially lying flat, or chest pain."
+  },
+  "variants": [
+    {
+      "variant_id": "case_17_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_17_a",
+      "mutations": [
+        {
+          "error_id": "case_17_a_e1",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "Continue apixaban 5 mg twice daily",
+          "mutated_text": "Continue apixaban 2.5 mg twice daily",
+          "evidence_turns": [
+            44
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "She meets none of the dose-reduction criteria, so 2.5 mg twice daily under-anticoagulates her and increases stroke risk.",
+          "description": "Apixaban halved in the plan"
+        },
+        {
+          "error_id": "case_17_a_e2",
+          "type": "OMIT_SAFETY",
+          "section": "history",
+          "original_text": " Single episode of fresh red rectal bleeding three weeks ago, not previously reported; no recurrence, no melaena, no change in bowel habit or weight loss.",
+          "mutated_text": "",
+          "evidence_turns": [
+            24,
+            25,
+            28,
+            29,
+            30
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Rectal bleeding on anticoagulation is the reason for the GP investigations; without it in the history, the plan's referral may be deprioritised.",
+          "description": "Rectal bleeding on a blood thinner dropped"
+        },
+        {
+          "error_id": "case_17_a_e3",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "Mild bilateral ankle oedema.",
+          "mutated_text": "Mild bilateral ankle oedema. JVP not raised.",
+          "evidence_turns": [
+            36
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The JVP was not assessed; a recorded normal JVP gives slight false reassurance about heart failure.",
+          "description": "JVP assessment recorded that was never done"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_17_b",
+      "mutations": [
+        {
+          "error_id": "case_17_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "medications_allergies",
+          "original_text": "Apixaban 5 mg twice daily (initially reported as once daily; daughter confirmed twice daily).",
+          "mutated_text": "Apixaban 5 mg once daily.",
+          "evidence_turns": [
+            19,
+            20,
+            21
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The daughter corrected once to twice daily; recording once daily could lead to under-dosing on admission or medicines reconciliation, raising stroke risk.",
+          "description": "Apixaban frequency kept at the figure the daughter corrected"
+        },
+        {
+          "error_id": "case_17_b_e2",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Increase bisoprolol to 5 mg once daily.",
+          "mutated_text": "Continue bisoprolol 2.5 mg once daily.",
+          "evidence_turns": [
+            40
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The agreed rate-control increase would not happen, leaving her symptomatic with a fast ventricular rate.",
+          "description": "Bisoprolol increase dropped from the plan"
+        },
+        {
+          "error_id": "case_17_b_e3",
+          "type": "TEMPORAL",
+          "section": "history",
+          "original_text": "rectal bleeding three weeks ago",
+          "mutated_text": "rectal bleeding three years ago",
+          "evidence_turns": [
+            25
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "A remote episode would not justify urgent investigation; recent bleeding on anticoagulation needs a FIT and possible referral.",
+          "description": "Recent rectal bleeding recorded as three years ago"
+        }
+      ]
+    }
+  ]
+}

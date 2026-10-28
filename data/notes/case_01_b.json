@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_01_b",
+  "case_id": "case_01",
+  "sections": {
+    "presenting_complaint": "Dry cough for approximately 2 weeks.",
+    "history": "Persistent dry, tickly, non-productive cough. No haemoptysis. No fevers, night sweats or weight loss. No breathlessness or chest pain. No heartburn. No voice change or dysphagia. Ramipril started end of May for hypertension, increased from 2.5 mg to 5 mg in July; cough began after starting ramipril. Ex-smoker: stopped 20 years ago, previously 10 per day for about 15 years (approximately 7.5 pack-years). No history of asthma.",
+    "medications_allergies": "Ramipril 5 mg once daily. Atorvastatin 20 mg at night. No known drug allergies.",
+    "examination": "Chest clear bilaterally. Throat normal. BP 134/82.",
+    "impression": "Persistent dry cough, most likely ACE inhibitor induced. Hypertension well controlled on ramipril.",
+    "plan": "Stop ramipril. Start losartan 50 mg twice daily. U&Es 1\u20132 weeks after starting losartan. Chest X-ray (ex-smoker, cough for 2 months). Review in 4 weeks with blood pressure check. Advised the cough may take up to 3 months to resolve after stopping ramipril. If no improvement at review, consider other causes.",
+    "safety_netting": ""
+  }
+}

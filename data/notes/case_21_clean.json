@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_21_clean",
+  "case_id": "case_21",
+  "sections": {
+    "presenting_complaint": "Dysuria and urinary frequency for 3 days.",
+    "history": "Dysuria and frequency (about every 30 minutes) since Saturday. Possible pink-tinged urine this morning. No loin pain, fever, rigors, nausea or vomiting. No vaginal discharge or itch. One previous UTI two years ago, treated with antibiotics (agent unknown). Period approximately one week late; no pregnancy test yet. No known renal disease.",
+    "medications_allergies": "Vitamin D (winter). No known drug allergies.",
+    "examination": "Telephone consultation; not examined. Speaking in full sentences and sounds well.",
+    "impression": "Lower urinary tract infection (cystitis). Possible early pregnancy, to be excluded.",
+    "plan": "Nitrofurantoin 100 mg modified-release twice daily for 3 days. Pregnancy test today. Urine sample for culture before starting antibiotics. Call back tomorrow with pregnancy test result; if positive, face-to-face review and plan revised. Fluids and paracetamol; avoid ibuprofen until pregnancy excluded.",
+    "safety_netting": "Call the practice (or 111 out of hours) immediately if loin pain, fever, rigors or vomiting. Call back if not improving within 48 hours of starting antibiotics or worsening."
+  }
+}

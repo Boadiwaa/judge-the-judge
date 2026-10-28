@@ -1,0 +1,428 @@
+{
+  "case_id": "case_07",
+  "setting": "ED",
+  "title": "Ankle injury after a fall",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, I'm Dr Okonjo, one of the emergency doctors. Can you confirm your name and date of birth for me?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "Harriet Fenwick-Doyle, fourteenth of March, ninety-one."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "Thanks, Harriet. What's happened today?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Patient",
+      "text": "I've done my ankle in. I went over on it coming down the stairs at work."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "Ouch. When was that?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Patient",
+      "text": "About... it'd be about four hours ago? No, sorry, less than that. It was just after my ten o'clock meeting, so two hours, maybe a bit more."
+    },
+    {
+      "turn": 7,
+      "speaker": "Clinician",
+      "text": "Okay, so around two hours ago. Which ankle is it?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Patient",
+      "text": "This one, the left."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "And how did it happen exactly? Did your foot roll inwards?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Patient",
+      "text": "Yeah, it turned in under me. I missed the last step."
+    },
+    {
+      "turn": 11,
+      "speaker": "Clinician",
+      "text": "Did you hit your head or black out at all?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Patient",
+      "text": "No, nothing like that. I just sort of sat down hard."
+    },
+    {
+      "turn": 13,
+      "speaker": "Clinician",
+      "text": "And could you walk on it afterwards?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Patient",
+      "text": "Not really, I hopped to the car. My colleague drove me in."
+    },
+    {
+      "turn": 15,
+      "speaker": "Clinician",
+      "text": "Have you managed any steps since you got here?"
+    },
+    {
+      "turn": 16,
+      "speaker": "Patient",
+      "text": "I tried in the waiting room. I got maybe two steps and had to sit down."
+    },
+    {
+      "turn": 17,
+      "speaker": "Clinician",
+      "text": "Any numbness or tingling in the foot?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Patient",
+      "text": "No, it just throbs."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "Have you ever injured this ankle before?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Patient",
+      "text": "No, never."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Any medical problems I should know about?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "No, I'm pretty healthy."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "Do you take any regular medicines?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "Just the pill. Microgynon."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "Okay. Any allergies to medicines?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Patient",
+      "text": "Penicillin. I come out in a rash."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Any stomach ulcers, asthma or kidney problems?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Patient",
+      "text": "No, none of those."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "What do you do for work?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "I'm an office manager, so mostly desk based, but I do walk between two sites."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "Do you smoke or drink?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "I don't smoke. A few glasses of wine at the weekend."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "Right, let me have a look. I can see some swelling over the outside of the ankle. I'm going to press on a few places. I'm pressing on the bony bit at the back of your left ankle, on the outside. Is that tender?"
+    },
+    {
+      "turn": 34,
+      "speaker": "Patient",
+      "text": "Ow, yes, right there."
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "And the bone on the inside, here?"
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "No, that's fine."
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "What about this bone on the outside edge of your foot, the base of the fifth metatarsal?"
+    },
+    {
+      "turn": 38,
+      "speaker": "Patient",
+      "text": "No, not there."
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "And the top of the foot here, the navicular?"
+    },
+    {
+      "turn": 40,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "Can you wiggle your toes for me? Good. Your foot's warm and I can feel the pulse on top of the foot. Can you feel me touching here, and here?"
+    },
+    {
+      "turn": 42,
+      "speaker": "Patient",
+      "text": "Yes, I can feel that."
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "Okay. So, using what we call the Ottawa ankle rules: you're tender at the back of the outer ankle bone and you couldn't take four steps, which means we need an X-ray to check for a fracture."
+    },
+    {
+      "turn": 44,
+      "speaker": "Patient",
+      "text": "Do you think it's broken?"
+    },
+    {
+      "turn": 45,
+      "speaker": "Clinician",
+      "text": "It's possible. It may well be a bad sprain, but the X-ray will tell us. I'll request X-rays of the ankle, the AP and mortise views. For pain, I'm going to give you paracetamol, one gram, which you can take four times a day, no more than four grams in twenty-four hours. And ibuprofen four hundred milligrams three times a day with food, as you've no asthma or stomach problems."
+    },
+    {
+      "turn": 46,
+      "speaker": "Patient",
+      "text": "Okay. Can I have something now? It's really sore."
+    },
+    {
+      "turn": 47,
+      "speaker": "Clinician",
+      "text": "Yes, the nurse will bring the first doses now. We'll pop a cold pack on it and keep it raised."
+    },
+    {
+      "turn": 48,
+      "speaker": "Patient",
+      "text": "Thanks."
+    },
+    {
+      "turn": 49,
+      "speaker": "Clinician",
+      "text": "Whatever the X-ray shows, you'll go home with crutches, and I want you to keep it elevated as much as you can. If it's a sprain, we'll give you an advice leaflet and you can start gently moving it as the pain allows."
+    },
+    {
+      "turn": 50,
+      "speaker": "Patient",
+      "text": "And if it's broken?"
+    },
+    {
+      "turn": 51,
+      "speaker": "Clinician",
+      "text": "Then it depends on the type of fracture. Many of these are managed in a boot, with an appointment at the fracture clinic. Let's see the pictures first."
+    },
+    {
+      "turn": 52,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 53,
+      "speaker": "Clinician",
+      "text": "One important thing. If your foot goes cold, pale or numb, or the pain gets much worse and isn't controlled with the painkillers, come straight back."
+    },
+    {
+      "turn": 54,
+      "speaker": "Patient",
+      "text": "Cold, pale or numb. Got it."
+    },
+    {
+      "turn": 55,
+      "speaker": "Clinician",
+      "text": "Also, because you're on the pill and you'll be less mobile for a while, if you get pain or swelling in your calf, or any chest pain or breathlessness, seek help urgently."
+    },
+    {
+      "turn": 56,
+      "speaker": "Patient",
+      "text": "Oh, I didn't know that. Okay."
+    },
+    {
+      "turn": 57,
+      "speaker": "Clinician",
+      "text": "Any questions for now?"
+    },
+    {
+      "turn": 58,
+      "speaker": "Patient",
+      "text": "No, thank you."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Inversion injury to the left ankle descending stairs at work, approximately 2 hours ago.",
+    "history": "Missed the last step and foot rolled inwards. No head injury or loss of consciousness. Unable to weight-bear immediately after injury (hopped to car); managed only two steps in the department. No numbness or tingling. No previous injury to this ankle. No significant past medical history. Office manager, mostly desk-based, walks between two sites. Non-smoker; drinks a few glasses of wine at weekends.",
+    "medications_allergies": "Combined oral contraceptive (Microgynon). Allergic to penicillin (rash). No history of peptic ulcer disease, asthma or renal disease.",
+    "examination": "Swelling over the lateral aspect of the ankle. Bony tenderness at the posterior edge of the left lateral malleolus. Medial malleolus non-tender. Base of fifth metatarsal and navicular non-tender. Foot warm, dorsalis pedis pulse palpable, sensation intact.",
+    "impression": "Ottawa ankle rules positive (posterior lateral malleolar tenderness; unable to weight-bear four steps). Possible lateral malleolar fracture; differential diagnosis ankle sprain.",
+    "plan": "X-ray left ankle (AP and mortise views). Analgesia: paracetamol 1 g four times daily (maximum 4 g in 24 hours) and ibuprofen 400 mg three times daily with food; first doses given in the department. Cold pack and elevation. Crutches. If sprain: discharge with advice leaflet and early mobilisation as pain allows. If fracture: management according to fracture type, likely boot and fracture clinic referral.",
+    "safety_netting": "Return immediately if the foot becomes cold, pale or numb, or if pain is not controlled with analgesia. Advised of increased VTE risk with reduced mobility while taking the combined pill: seek urgent help for calf pain or swelling, chest pain or breathlessness."
+  },
+  "variants": [
+    {
+      "variant_id": "case_07_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_07_a",
+      "mutations": [
+        {
+          "error_id": "case_07_a_e1",
+          "type": "LATERALITY",
+          "section": "examination",
+          "original_text": "left lateral malleolus",
+          "mutated_text": "right lateral malleolus",
+          "evidence_turns": [
+            8,
+            33
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 4,
+          "seeded_rationale": "A wrong-side record can lead to the wrong ankle being imaged or reviewed at follow-up, and the patient may not notice.",
+          "description": "Examination recorded on the wrong ankle"
+        },
+        {
+          "error_id": "case_07_a_e2",
+          "type": "OMIT_SAFETY",
+          "section": "medications_allergies",
+          "original_text": " Allergic to penicillin (rash).",
+          "mutated_text": "",
+          "evidence_turns": [
+            25,
+            26
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 4,
+          "seeded_rationale": "If the fracture needs surgery, perioperative prophylaxis may include a penicillin (e.g. flucloxacillin); an allergy missing from the ED record propagates to the discharge summary and theatre.",
+          "description": "Penicillin allergy dropped from an ED note"
+        },
+        {
+          "error_id": "case_07_a_e3",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "paracetamol 1 g four times daily",
+          "mutated_text": "paracetamol 1 g six times daily",
+          "evidence_turns": [
+            45
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Six grams a day exceeds the 4 g daily maximum and risks hepatotoxicity; the stated maximum elsewhere may catch it, but it may be copied into discharge advice.",
+          "description": "Paracetamol frequency increased to six times daily"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_07_b",
+      "mutations": [
+        {
+          "error_id": "case_07_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "presenting_complaint",
+          "original_text": "approximately 2 hours ago",
+          "mutated_text": "approximately 4 hours ago",
+          "evidence_turns": [
+            6,
+            7
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The patient corrected four hours to two; the timing has little bearing on ankle management, so harm is unlikely.",
+          "description": "Injury time kept at the figure the patient corrected"
+        },
+        {
+          "error_id": "case_07_b_e2",
+          "type": "NEGATION",
+          "section": "history",
+          "original_text": "No numbness or tingling.",
+          "mutated_text": "Reports numbness and tingling.",
+          "evidence_turns": [
+            17,
+            18
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Recorded paraesthesia suggests neurovascular compromise that was not present, which may trigger unnecessary investigation or obscure a later genuine change.",
+          "description": "Absent numbness recorded as present"
+        },
+        {
+          "error_id": "case_07_b_e3",
+          "type": "OMIT_SAFETY",
+          "section": "safety_netting",
+          "original_text": " Advised of increased VTE risk with reduced mobility while taking the combined pill: seek urgent help for calf pain or swelling, chest pain or breathlessness.",
+          "mutated_text": "",
+          "evidence_turns": [
+            55,
+            56
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "VTE advice was given verbally, but its absence from the record means follow-up clinicians will not reinforce it or consider thromboprophylaxis if she is immobilised in a boot.",
+          "description": "VTE safety-netting on the combined pill dropped"
+        },
+        {
+          "error_id": "case_07_b_e4",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "Medial malleolus non-tender.",
+          "mutated_text": "Medial malleolus non-tender. Anterior drawer test negative.",
+          "evidence_turns": [
+            33,
+            35
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "No ligament stress test was performed; a recorded negative anterior drawer gives false reassurance about ligament stability at follow-up.",
+          "description": "Ligament test recorded that was never done"
+        }
+      ]
+    }
+  ]
+}

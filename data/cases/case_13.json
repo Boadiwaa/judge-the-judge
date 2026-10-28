@@ -1,0 +1,413 @@
+{
+  "case_id": "case_13",
+  "setting": "MENTAL_HEALTH",
+  "title": "Low mood review with suicidal thoughts",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hi Daniel, come in. Thanks for coming back. And who's this with you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "This is my sister, Laura. I asked her to come."
+    },
+    {
+      "turn": 3,
+      "speaker": "Relative",
+      "text": "Hi."
+    },
+    {
+      "turn": 4,
+      "speaker": "Clinician",
+      "text": "Hi Laura, thanks for coming. Daniel, is it okay for Laura to stay for the whole appointment?"
+    },
+    {
+      "turn": 5,
+      "speaker": "Patient",
+      "text": "Yeah, that's fine. I want her here."
+    },
+    {
+      "turn": 6,
+      "speaker": "Clinician",
+      "text": "Okay. So last time we met, about four weeks ago, we started sertraline. How have things been since then?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Patient",
+      "text": "Honestly, not great. Maybe a tiny bit better in the mornings, but mostly the same."
+    },
+    {
+      "turn": 8,
+      "speaker": "Clinician",
+      "text": "How long would you say you've been feeling low now, in total?"
+    },
+    {
+      "turn": 9,
+      "speaker": "Patient",
+      "text": "Since the summer. About three months."
+    },
+    {
+      "turn": 10,
+      "speaker": "Clinician",
+      "text": "And how is your mood on a scale of nought to ten, if ten is the best you've felt?"
+    },
+    {
+      "turn": 11,
+      "speaker": "Patient",
+      "text": "Three, maybe. Some days two."
+    },
+    {
+      "turn": 12,
+      "speaker": "Clinician",
+      "text": "How are you sleeping?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Patient",
+      "text": "Badly. I wake at four and just lie there."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "And your appetite?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Patient",
+      "text": "Not really eating. I've lost about half a stone, I think."
+    },
+    {
+      "turn": 16,
+      "speaker": "Clinician",
+      "text": "Are you still off work?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Patient",
+      "text": "Yeah. I'm a warehouse supervisor, and I'm signed off for another two weeks."
+    },
+    {
+      "turn": 18,
+      "speaker": "Clinician",
+      "text": "I'd like to ask about some difficult thoughts, if that's okay. When people feel this low, sometimes they have thoughts that life isn't worth living. Have you had thoughts like that?"
+    },
+    {
+      "turn": 19,
+      "speaker": "Patient",
+      "text": "Yeah. Most days, the last couple of weeks. I think it'd be easier if I just didn't wake up."
+    },
+    {
+      "turn": 20,
+      "speaker": "Clinician",
+      "text": "Thank you for telling me that. Have you had any thoughts of ending your life, or of harming yourself?"
+    },
+    {
+      "turn": 21,
+      "speaker": "Patient",
+      "text": "Not like actually doing anything. I wouldn't."
+    },
+    {
+      "turn": 22,
+      "speaker": "Clinician",
+      "text": "Have you made any plans, or done anything to prepare, like getting hold of tablets?"
+    },
+    {
+      "turn": 23,
+      "speaker": "Patient",
+      "text": "No. Nothing like that."
+    },
+    {
+      "turn": 24,
+      "speaker": "Clinician",
+      "text": "What stops you, would you say?"
+    },
+    {
+      "turn": 25,
+      "speaker": "Patient",
+      "text": "My nephew, Laura's boy. And my mum. I couldn't do that to them."
+    },
+    {
+      "turn": 26,
+      "speaker": "Relative",
+      "text": "He's really close to Alfie."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "That's really important. Have you ever harmed yourself or tried to end your life in the past?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Patient",
+      "text": "No, never."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "Can I ask about alcohol? How much are you drinking at the moment?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "Not much. Maybe four pints a week."
+    },
+    {
+      "turn": 31,
+      "speaker": "Relative",
+      "text": "Dan. It's four a night. I've seen the cans."
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "Yeah. All right. Most nights, four cans. Sometimes more at the weekend."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "Thank you for being honest, both of you. Alcohol can really pull mood down and make thoughts like these feel stronger, so it's something I'd like us to work on."
+    },
+    {
+      "turn": 34,
+      "speaker": "Patient",
+      "text": "I know."
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "Any drugs, cannabis or anything else?"
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "Have you had any side effects from the sertraline?"
+    },
+    {
+      "turn": 38,
+      "speaker": "Patient",
+      "text": "A bit of nausea the first week, that's gone now."
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "Any feeling more agitated or restless since starting it?"
+    },
+    {
+      "turn": 40,
+      "speaker": "Patient",
+      "text": "No, not really."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "And you're taking it every day? Fifty milligrams in the morning?"
+    },
+    {
+      "turn": 42,
+      "speaker": "Patient",
+      "text": "Every morning, yeah."
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "Any other medicines, and any allergies?"
+    },
+    {
+      "turn": 44,
+      "speaker": "Patient",
+      "text": "No, and no allergies."
+    },
+    {
+      "turn": 45,
+      "speaker": "Clinician",
+      "text": "Okay. Looking at you today, Daniel, you look tired, your eye contact is reduced and your speech is a bit slow, but you're talking clearly and making sense. There's no sign of anything like hearing voices. Your PHQ-9 score today is 19."
+    },
+    {
+      "turn": 46,
+      "speaker": "Patient",
+      "text": "Is that bad?"
+    },
+    {
+      "turn": 47,
+      "speaker": "Clinician",
+      "text": "It tells me the depression is still moderately severe. After four weeks with only a small improvement, I think we should increase the sertraline to 100 milligrams once a day."
+    },
+    {
+      "turn": 48,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 49,
+      "speaker": "Clinician",
+      "text": "I'd also like to refer you to the talking therapies service, and I'll give you the details to self-refer today as well. And I'd like to get the community mental health crisis team to know about you."
+    },
+    {
+      "turn": 50,
+      "speaker": "Patient",
+      "text": "Do I have to?"
+    },
+    {
+      "turn": 51,
+      "speaker": "Clinician",
+      "text": "I think it's the safest thing for now, given the thoughts you've been having. I'd also like to see you again in one week, not four."
+    },
+    {
+      "turn": 52,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 53,
+      "speaker": "Clinician",
+      "text": "Let's agree a plan for if things get worse. If the thoughts get stronger, or you start thinking about acting on them, call NHS 111 and choose the mental health option, or the Samaritans on 116 123, any time of day. If you feel you can't keep yourself safe, call 999 or go to A&E."
+    },
+    {
+      "turn": 54,
+      "speaker": "Relative",
+      "text": "I'll put those in my phone too."
+    },
+    {
+      "turn": 55,
+      "speaker": "Clinician",
+      "text": "That's great, Laura. Would you be willing to keep any stockpiled medicines out of the house, or have Laura look after them?"
+    },
+    {
+      "turn": 56,
+      "speaker": "Patient",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "turn": 57,
+      "speaker": "Clinician",
+      "text": "And let's try to cut down the alcohol gradually. I'll give you the details for the local alcohol support service."
+    },
+    {
+      "turn": 58,
+      "speaker": "Patient",
+      "text": "Okay. Thanks."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Review of low mood, 4 weeks after starting sertraline.",
+    "history": "Low mood for about 3 months. Slight improvement in mornings only; mood 2–3/10. Early morning waking at 4 am. Reduced appetite with approximately half a stone weight loss. Works as a warehouse supervisor; currently signed off for a further two weeks. Reports passive suicidal ideation (would be easier not to wake up) most days for the last two weeks. No active suicidal thoughts, plans or preparations. No previous self-harm or suicide attempts. Protective factors: nephew and mother. Alcohol: initially said four pints a week; on sister's challenge, confirmed four cans most nights, more at weekends. No drug use. Mild nausea in first week of sertraline, now resolved; no agitation. Attended with sister, with consent.",
+    "medications_allergies": "Sertraline 50 mg once daily (4 weeks). No known drug allergies.",
+    "examination": "Appears tired, reduced eye contact, slowed speech. Speech coherent. No psychotic features. PHQ-9: 19.",
+    "impression": "Moderately severe depression with partial response to sertraline. Passive suicidal ideation without plan or intent; protective factors present. Harmful alcohol use.",
+    "plan": "Increase sertraline to 100 mg once daily. Refer to NHS Talking Therapies and self-referral details given. Inform the community crisis team. Review in 1 week. Agreed to hand stockpiled medicines to sister. Alcohol support service details given; aim to reduce gradually.",
+    "safety_netting": "Crisis plan agreed: if thoughts worsen or he considers acting on them, call NHS 111 (mental health option) or Samaritans 116 123; if unable to keep himself safe, call 999 or attend A&E. Sister has the numbers."
+  },
+  "variants": [
+    {
+      "variant_id": "case_13_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_13_a",
+      "mutations": [
+        {
+          "error_id": "case_13_a_e1",
+          "type": "NEGATION",
+          "section": "history",
+          "original_text": "Reports passive suicidal ideation",
+          "mutated_text": "Denies passive suicidal ideation",
+          "evidence_turns": [
+            18,
+            19
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Recording that he denies suicidal ideation removes the main driver for the 1-week review and crisis-team involvement; later clinicians may de-escalate care.",
+          "description": "Passive suicidal thoughts recorded as denied"
+        },
+        {
+          "error_id": "case_13_a_e2",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "Increase sertraline to 100 mg once daily.",
+          "mutated_text": "Increase sertraline to 200 mg once daily.",
+          "evidence_turns": [
+            47
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Jumping straight to the maximum dose increases adverse effects and early-titration agitation, which matters in a patient with suicidal ideation.",
+          "description": "Sertraline increase recorded at the maximum dose"
+        },
+        {
+          "error_id": "case_13_a_e3",
+          "type": "OMIT_OTHER",
+          "section": "history",
+          "original_text": " Works as a warehouse supervisor; currently signed off for a further two weeks.",
+          "mutated_text": "",
+          "evidence_turns": [
+            16,
+            17
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Occupational status matters for fit notes and recovery planning but is unlikely to cause direct harm if missing.",
+          "description": "Work status dropped"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_13_b",
+      "mutations": [
+        {
+          "error_id": "case_13_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "history",
+          "original_text": "Alcohol: initially said four pints a week; on sister's challenge, confirmed four cans most nights, more at weekends.",
+          "mutated_text": "Alcohol: about four pints a week.",
+          "evidence_turns": [
+            30,
+            31,
+            32
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The corrected intake (around 50 units a week) is harmful drinking that worsens depression and suicide risk; the original figure would mean alcohol support is not offered.",
+          "description": "Alcohol intake kept at the figure the sister corrected"
+        },
+        {
+          "error_id": "case_13_b_e2",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Review in 1 week.",
+          "mutated_text": "Review in 4 weeks.",
+          "evidence_turns": [
+            51
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "With active passive suicidal ideation and a dose increase, a 4-week gap removes the agreed close monitoring.",
+          "description": "Review interval stretched from one week to four"
+        },
+        {
+          "error_id": "case_13_b_e3",
+          "type": "OMIT_SAFETY",
+          "section": "safety_netting",
+          "original_text": "Crisis plan agreed: if thoughts worsen or he considers acting on them, call NHS 111 (mental health option) or Samaritans 116 123; if unable to keep himself safe, call 999 or attend A&E. ",
+          "mutated_text": "",
+          "evidence_turns": [
+            53,
+            54
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The crisis plan was given verbally but is undocumented, so other services cannot see what was agreed or reinforce it.",
+          "description": "Crisis plan dropped"
+        }
+      ]
+    }
+  ]
+}

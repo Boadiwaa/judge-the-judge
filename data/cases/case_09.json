@@ -1,0 +1,389 @@
+{
+  "case_id": "case_09",
+  "setting": "GP_PAEDS",
+  "title": "Fever and earache in a three-year-old",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, come on in. And this must be Poppy?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Relative",
+      "text": "Yes, this is Poppy. I'm her mum, Gemma."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "Hello Poppy. That's a lovely rabbit. What's been happening?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Relative",
+      "text": "She's had a temperature and she keeps pulling at her ear. She was up most of last night crying."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "How long has she had the temperature?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Relative",
+      "text": "Since Tuesday night, so two days. No, hang on, it was Monday. It was the night of her swimming lesson, so Monday evening. Three days."
+    },
+    {
+      "turn": 7,
+      "speaker": "Clinician",
+      "text": "Okay, since Monday evening. Have you measured it?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Relative",
+      "text": "It was 38.9 last night on the ear thermometer."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "Which ear has she been pulling at?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Relative",
+      "text": "The right one, mostly."
+    },
+    {
+      "turn": 11,
+      "speaker": "Patient",
+      "text": "My ear hurts."
+    },
+    {
+      "turn": 12,
+      "speaker": "Clinician",
+      "text": "Poor you, Poppy. Is she eating and drinking?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Relative",
+      "text": "Not eating much, but she's drinking okay. Juice and milk."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "Wet nappies, or is she out of nappies now?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Relative",
+      "text": "She's in pants in the day. She's still weeing normally, a few times today already."
+    },
+    {
+      "turn": 16,
+      "speaker": "Clinician",
+      "text": "Any vomiting or diarrhoea?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Relative",
+      "text": "She was sick once on Tuesday, but not since. No diarrhoea."
+    },
+    {
+      "turn": 18,
+      "speaker": "Clinician",
+      "text": "Any cough or runny nose?"
+    },
+    {
+      "turn": 19,
+      "speaker": "Relative",
+      "text": "A runny nose for about a week, before all this started."
+    },
+    {
+      "turn": 20,
+      "speaker": "Clinician",
+      "text": "Any rash at all?"
+    },
+    {
+      "turn": 21,
+      "speaker": "Relative",
+      "text": "No, I've checked. Her brother had chickenpox two weeks ago, so I've been watching her like a hawk, but nothing."
+    },
+    {
+      "turn": 22,
+      "speaker": "Clinician",
+      "text": "Good thinking. Has she had chickenpox herself?"
+    },
+    {
+      "turn": 23,
+      "speaker": "Relative",
+      "text": "No, never. We're expecting it any day."
+    },
+    {
+      "turn": 24,
+      "speaker": "Clinician",
+      "text": "Has she been more sleepy than usual, or hard to wake?"
+    },
+    {
+      "turn": 25,
+      "speaker": "Relative",
+      "text": "No, she's grumpy but she's herself. She was playing with her brother this morning."
+    },
+    {
+      "turn": 26,
+      "speaker": "Clinician",
+      "text": "Any problems breathing?"
+    },
+    {
+      "turn": 27,
+      "speaker": "Relative",
+      "text": "No."
+    },
+    {
+      "turn": 28,
+      "speaker": "Clinician",
+      "text": "Any medical problems, and is she up to date with her jabs?"
+    },
+    {
+      "turn": 29,
+      "speaker": "Relative",
+      "text": "She's healthy, and yes, all her vaccinations are done."
+    },
+    {
+      "turn": 30,
+      "speaker": "Clinician",
+      "text": "Does she take any medicines regularly, and any allergies?"
+    },
+    {
+      "turn": 31,
+      "speaker": "Relative",
+      "text": "No regular medicines, and no allergies."
+    },
+    {
+      "turn": 32,
+      "speaker": "Clinician",
+      "text": "What have you been giving her for the temperature?"
+    },
+    {
+      "turn": 33,
+      "speaker": "Relative",
+      "text": "Calpol, but only when she seems really bad."
+    },
+    {
+      "turn": 34,
+      "speaker": "Clinician",
+      "text": "Okay. Let me examine her. Poppy, can I look at your rabbit's ears first? Good. Her temperature is 38.4, heart rate 130, breathing rate 26. Her hands and feet are warm and the capillary refill is under two seconds. She's alert and chatting to me."
+    },
+    {
+      "turn": 35,
+      "speaker": "Patient",
+      "text": "Rabbit's ears are fine."
+    },
+    {
+      "turn": 36,
+      "speaker": "Clinician",
+      "text": "They are! Now your ears. The left eardrum looks normal. The right eardrum is red and bulging. Can you say ahh? Her throat is a little red. Let me listen to your chest. That's clear. No rash on her skin."
+    },
+    {
+      "turn": 37,
+      "speaker": "Relative",
+      "text": "Is it an ear infection?"
+    },
+    {
+      "turn": 38,
+      "speaker": "Clinician",
+      "text": "Yes, it looks like a middle ear infection on the right side. Most of these get better on their own within three days or so, even without antibiotics, and antibiotics don't make much difference to the pain."
+    },
+    {
+      "turn": 39,
+      "speaker": "Relative",
+      "text": "Oh. I thought she'd need antibiotics."
+    },
+    {
+      "turn": 40,
+      "speaker": "Clinician",
+      "text": "What I'd suggest is giving her paracetamol and ibuprofen regularly for the pain, rather than only when she seems bad. For Poppy that's paracetamol 180 milligrams, which is 7.5 millilitres of the 120 milligrams in 5 millilitres infant suspension, up to four times a day. And ibuprofen 100 milligrams, that's 5 millilitres of the 100 milligrams in 5 millilitres suspension, three times a day with food."
+    },
+    {
+      "turn": 41,
+      "speaker": "Relative",
+      "text": "Okay. Can I give both?"
+    },
+    {
+      "turn": 42,
+      "speaker": "Clinician",
+      "text": "Yes, you can give both. I'll also do a back-up prescription for amoxicillin, 250 milligrams three times a day for 5 days. Only collect it if she's not improving after three days, or sooner if she's getting worse."
+    },
+    {
+      "turn": 43,
+      "speaker": "Relative",
+      "text": "Okay, that makes sense."
+    },
+    {
+      "turn": 44,
+      "speaker": "Clinician",
+      "text": "Now, it's important to know when to get help urgently. If she gets a rash that doesn't fade when you press a glass on it, if she becomes very drowsy or hard to wake, if she's struggling to breathe, or if she stops drinking and isn't weeing, call 999 or go straight to A&E."
+    },
+    {
+      "turn": 45,
+      "speaker": "Relative",
+      "text": "Right."
+    },
+    {
+      "turn": 46,
+      "speaker": "Clinician",
+      "text": "And if the fever lasts more than five days in total, if you notice any discharge from her ear, or she's not improving after three days, contact us or 111."
+    },
+    {
+      "turn": 47,
+      "speaker": "Relative",
+      "text": "Thank you. And with the chickenpox, should I do anything?"
+    },
+    {
+      "turn": 48,
+      "speaker": "Clinician",
+      "text": "She may well get it in the next week or so, since she's been exposed. If she does, and she seems very unwell with it, let us know. There's information in the leaflet I'll give you."
+    },
+    {
+      "turn": 49,
+      "speaker": "Relative",
+      "text": "Thank you, doctor."
+    },
+    {
+      "turn": 50,
+      "speaker": "Patient",
+      "text": "Bye bye."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Fever and right earache.",
+    "history": "Fever since Monday evening (3 days), maximum 38.9 °C at home. Pulling at the right ear, unsettled overnight. Eating less but drinking well; passing urine normally. Vomited once on Tuesday, none since. No diarrhoea. Coryza for about a week preceding. No rash. Her brother had chickenpox two weeks ago; she has not had chickenpox. Alert and playing this morning. No breathing difficulty. Previously well; immunisations up to date. Paracetamol given intermittently.",
+    "medications_allergies": "No regular medications. No known drug allergies.",
+    "examination": "Temperature 38.4 °C, HR 130, RR 26. Warm peripheries, CRT under 2 seconds. Alert and interactive. Left tympanic membrane normal. Right tympanic membrane red and bulging. Throat mildly erythematous. Chest clear. No rash.",
+    "impression": "Right acute otitis media. No features of serious bacterial illness. Recent chickenpox contact.",
+    "plan": "Regular analgesia: paracetamol 180 mg (7.5 mL of 120 mg/5 mL) up to four times daily and ibuprofen 100 mg (5 mL of 100 mg/5 mL) three times daily with food. Back-up prescription: amoxicillin 250 mg three times daily for 5 days, to collect only if not improving after 3 days or if worsening. Leaflet on chickenpox given.",
+    "safety_netting": "Call 999 or attend A&E if a non-blanching rash, very drowsy or difficult to rouse, breathing difficulty, or not drinking and not passing urine. Contact GP or 111 if fever lasts more than 5 days in total, ear discharge, or not improving after 3 days. Report if develops chickenpox and seems very unwell."
+  },
+  "variants": [
+    {
+      "variant_id": "case_09_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_09_a",
+      "mutations": [
+        {
+          "error_id": "case_09_a_e1",
+          "type": "LATERALITY",
+          "section": "examination",
+          "original_text": "Right tympanic membrane red and bulging.",
+          "mutated_text": "Left tympanic membrane red and bulging.",
+          "evidence_turns": [
+            10,
+            36
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The wrong ear recorded could confuse a follow-up examination, but management of acute otitis media is the same on either side.",
+          "description": "Infected ear recorded on the wrong side"
+        },
+        {
+          "error_id": "case_09_a_e2",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "Her brother had chickenpox two weeks ago; she has not had chickenpox.",
+          "mutated_text": "She had chickenpox two weeks ago.",
+          "evidence_turns": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Recording that she has had chickenpox implies immunity, when she is an exposed contact in the incubation period; a new rash may be misread and exposure of vulnerable contacts not considered.",
+          "description": "Brother's chickenpox recorded as the child's"
+        },
+        {
+          "error_id": "case_09_a_e3",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "7.5 mL of 120 mg/5 mL",
+          "mutated_text": "7.5 mL of 250 mg/5 mL",
+          "evidence_turns": [
+            40
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "7.5 mL of the 250 mg/5 mL strength is 375 mg, about 27 mg/kg per dose for a 3-year-old, roughly double the recommended single dose and a hepatotoxicity risk if given four times daily.",
+          "description": "Paracetamol suspension strength changed, doubling the dose"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_09_b",
+      "mutations": [
+        {
+          "error_id": "case_09_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "history",
+          "original_text": "Fever since Monday evening (3 days)",
+          "mutated_text": "Fever since Tuesday evening (2 days)",
+          "evidence_turns": [
+            6,
+            7
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The mother corrected Tuesday to Monday; fever duration feeds into the 3-day back-up antibiotic threshold and the 5-day fever safety-net.",
+          "description": "Fever onset kept at the day the mother corrected"
+        },
+        {
+          "error_id": "case_09_b_e2",
+          "type": "OMIT_SAFETY",
+          "section": "safety_netting",
+          "original_text": "Call 999 or attend A&E if a non-blanching rash, very drowsy or difficult to rouse, breathing difficulty, or not drinking and not passing urine. ",
+          "mutated_text": "",
+          "evidence_turns": [
+            44,
+            45
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Emergency red-flag advice for a febrile under-5 (NICE NG143) is undocumented; if the child deteriorates, there is no record that the family knew when to call 999.",
+          "description": "Emergency red-flag advice for a febrile child dropped"
+        },
+        {
+          "error_id": "case_09_b_e3",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "Throat mildly erythematous.",
+          "mutated_text": "Throat mildly erythematous. Neck supple, no meningism.",
+          "evidence_turns": [
+            36
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The neck was not examined; a recorded absence of meningism in a febrile child gives false reassurance if she later deteriorates.",
+          "description": "Neck examination recorded that was never done"
+        },
+        {
+          "error_id": "case_09_b_e4",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "to collect only if not improving after 3 days or if worsening",
+          "mutated_text": "to start today",
+          "evidence_turns": [
+            42,
+            43
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Turning a back-up into an immediate prescription exposes the child to unnecessary antibiotics, side effects and resistance, against the agreed plan.",
+          "description": "Back-up antibiotic changed to start today"
+        }
+      ]
+    }
+  ]
+}

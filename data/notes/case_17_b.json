@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_17_b",
+  "case_id": "case_17",
+  "sections": {
+    "presenting_complaint": "Increased exertional breathlessness and palpitations for 3 weeks, on a background of atrial fibrillation diagnosed 18 months ago.",
+    "history": "Breathless on stairs, palpitations. No chest pain. Occasional postural light-headedness; no syncope. Mild evening ankle swelling. No orthopnoea. Single episode of fresh red rectal bleeding three years ago, not previously reported; no recurrence, no melaena, no change in bowel habit or weight loss. Attended with daughter, who manages her dosette box.",
+    "medications_allergies": "Apixaban 5 mg once daily. Bisoprolol 2.5 mg once daily. Levothyroxine 75 micrograms once daily. Codeine intolerance (nausea).",
+    "examination": "Pulse irregularly irregular, rate 104. BP 128/76. Heart sounds irregular, no murmur. Fine bibasal crackles. Mild bilateral ankle oedema. Weight 58 kg. ECG: atrial fibrillation, ventricular rate approximately 105. Bloods: creatinine 98, thyroid function normal.",
+    "impression": "Atrial fibrillation with suboptimal rate control, likely contributing to breathlessness; possible early heart failure. Apixaban dose appropriate (age 72, weight 58 kg, creatinine 98). Single episode of rectal bleeding on anticoagulation requiring investigation.",
+    "plan": "Continue bisoprolol 2.5 mg once daily. Echocardiogram within 6 weeks. Continue apixaban 5 mg twice daily; do not stop. Letter to GP: FBC, FIT, and consider lower GI referral. Clinic review in 3 months after echocardiogram.",
+    "safety_netting": "Attend A&E if further significant bleeding, black stools or feeling faint. Call 999 if breathing worsens significantly, especially lying flat, or chest pain."
+  }
+}

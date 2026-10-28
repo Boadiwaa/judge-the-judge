@@ -1,0 +1,403 @@
+{
+  "case_id": "case_01",
+  "setting": "GP_ADULT",
+  "title": "Persistent dry cough on blood pressure tablets",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, Mr Penhaligon, come in and have a seat. And you've brought someone with you?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "My wife, Margaret. She does the remembering."
+    },
+    {
+      "turn": 3,
+      "speaker": "Relative",
+      "text": "Someone has to."
+    },
+    {
+      "turn": 4,
+      "speaker": "Clinician",
+      "text": "Lovely to meet you both. So what can I do for you today?"
+    },
+    {
+      "turn": 5,
+      "speaker": "Patient",
+      "text": "It's this cough. It's driving me mad. Dry, tickly, it never stops."
+    },
+    {
+      "turn": 6,
+      "speaker": "Clinician",
+      "text": "How long has it been going on?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Patient",
+      "text": "About six weeks now."
+    },
+    {
+      "turn": 8,
+      "speaker": "Relative",
+      "text": "It's longer than that, Geoff. It started before your sister's birthday, and that was early August."
+    },
+    {
+      "turn": 9,
+      "speaker": "Patient",
+      "text": "Oh, she's right. More like two months, then."
+    },
+    {
+      "turn": 10,
+      "speaker": "Clinician",
+      "text": "Okay, so about two months. Are you bringing anything up when you cough?"
+    },
+    {
+      "turn": 11,
+      "speaker": "Patient",
+      "text": "No, nothing. It's completely dry."
+    },
+    {
+      "turn": 12,
+      "speaker": "Clinician",
+      "text": "Any blood at all?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "Any fevers, night sweats, or losing weight?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Patient",
+      "text": "No. If anything I've put a bit on."
+    },
+    {
+      "turn": 16,
+      "speaker": "Clinician",
+      "text": "Any breathlessness or chest pain?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Patient",
+      "text": "No, I'm fine walking the dog. No chest pain."
+    },
+    {
+      "turn": 18,
+      "speaker": "Clinician",
+      "text": "Any heartburn, or acid coming up into your throat?"
+    },
+    {
+      "turn": 19,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 20,
+      "speaker": "Clinician",
+      "text": "Any change in your voice, or trouble swallowing?"
+    },
+    {
+      "turn": 21,
+      "speaker": "Patient",
+      "text": "No, nothing like that."
+    },
+    {
+      "turn": 22,
+      "speaker": "Clinician",
+      "text": "Do you smoke, or have you ever smoked?"
+    },
+    {
+      "turn": 23,
+      "speaker": "Patient",
+      "text": "I gave up twenty years ago. Before that I smoked about ten a day, for maybe fifteen years."
+    },
+    {
+      "turn": 24,
+      "speaker": "Clinician",
+      "text": "Thank you. And I can see from your record we started you on ramipril for your blood pressure. When was that?"
+    },
+    {
+      "turn": 25,
+      "speaker": "Patient",
+      "text": "Back in the summer. June?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Relative",
+      "text": "It was the end of May. I remember because we'd just come back from Whitby."
+    },
+    {
+      "turn": 27,
+      "speaker": "Patient",
+      "text": "End of May, then."
+    },
+    {
+      "turn": 28,
+      "speaker": "Clinician",
+      "text": "And what dose are you taking now?"
+    },
+    {
+      "turn": 29,
+      "speaker": "Patient",
+      "text": "Ten milligrams. Hang on, let me look at the box. No, it's five. Five milligrams, once a day. They put it up from two and a half in July."
+    },
+    {
+      "turn": 30,
+      "speaker": "Clinician",
+      "text": "That's really helpful, thank you. Any other medicines?"
+    },
+    {
+      "turn": 31,
+      "speaker": "Patient",
+      "text": "Just atorvastatin, twenty milligrams at night."
+    },
+    {
+      "turn": 32,
+      "speaker": "Clinician",
+      "text": "Any allergies to medicines?"
+    },
+    {
+      "turn": 33,
+      "speaker": "Patient",
+      "text": "None that I know of."
+    },
+    {
+      "turn": 34,
+      "speaker": "Relative",
+      "text": "I'm the one who coughs at night as well, but mine's my asthma. Don't go putting that in his notes!"
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "I'll make sure only Geoff's chest goes in Geoff's notes. Geoff, have you ever had asthma yourself?"
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "No, never."
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "Let me have a listen to your chest. Deep breaths in and out through your mouth. That sounds clear on both sides. Open wide for me. Your throat looks normal. And let me check your blood pressure. It's 134 over 82."
+    },
+    {
+      "turn": 38,
+      "speaker": "Patient",
+      "text": "That's better than it was."
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "It is. The ramipril is doing its job for your blood pressure. But I think the ramipril is also what's causing the cough. It's a well-known side effect of that group of medicines, and the timing fits: the cough started after you began it."
+    },
+    {
+      "turn": 40,
+      "speaker": "Patient",
+      "text": "Really? I thought I'd picked something up."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "Nothing you've told me points to an infection, and your chest sounds clear. What I'd suggest is we stop the ramipril and switch you to a different tablet called losartan, which works in a similar way but doesn't usually cause a cough."
+    },
+    {
+      "turn": 42,
+      "speaker": "Patient",
+      "text": "Okay. What dose would that be?"
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "We'll start at fifty milligrams once a day. I'd like a blood test to check your kidneys and salt levels one to two weeks after you start it, and I'll see you again in four weeks to check your blood pressure."
+    },
+    {
+      "turn": 44,
+      "speaker": "Relative",
+      "text": "Will the cough go straight away?"
+    },
+    {
+      "turn": 45,
+      "speaker": "Clinician",
+      "text": "Not always. It can take a few weeks, sometimes up to three months, to settle after stopping ramipril."
+    },
+    {
+      "turn": 46,
+      "speaker": "Patient",
+      "text": "Right."
+    },
+    {
+      "turn": 47,
+      "speaker": "Clinician",
+      "text": "Because you used to smoke and the cough has gone on for a couple of months, I'd also like to arrange a chest X-ray, just to be thorough. It's very likely to be normal."
+    },
+    {
+      "turn": 48,
+      "speaker": "Patient",
+      "text": "Fine by me."
+    },
+    {
+      "turn": 49,
+      "speaker": "Clinician",
+      "text": "If you cough up any blood, become short of breath, lose weight without trying, or get any chest pain, I want you to contact us sooner and not wait for the appointment."
+    },
+    {
+      "turn": 50,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 51,
+      "speaker": "Relative",
+      "text": "I'll keep an eye on him."
+    },
+    {
+      "turn": 52,
+      "speaker": "Clinician",
+      "text": "And if the cough hasn't improved at all by the four-week review, we'll think again about other causes."
+    },
+    {
+      "turn": 53,
+      "speaker": "Patient",
+      "text": "Thanks, doctor."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Dry cough for approximately 2 months.",
+    "history": "Persistent dry, tickly, non-productive cough. No haemoptysis. No fevers, night sweats or weight loss. No breathlessness or chest pain. No heartburn. No voice change or dysphagia. Ramipril started end of May for hypertension, increased from 2.5 mg to 5 mg in July; cough began after starting ramipril. Ex-smoker: stopped 20 years ago, previously 10 per day for about 15 years (approximately 7.5 pack-years). No history of asthma. Attended with wife.",
+    "medications_allergies": "Ramipril 5 mg once daily. Atorvastatin 20 mg at night. No known drug allergies.",
+    "examination": "Chest clear bilaterally. Throat normal. BP 134/82.",
+    "impression": "Persistent dry cough, most likely ACE inhibitor induced. Hypertension well controlled on ramipril.",
+    "plan": "Stop ramipril. Start losartan 50 mg once daily. U&Es 1–2 weeks after starting losartan. Chest X-ray (ex-smoker, cough for 2 months). Review in 4 weeks with blood pressure check. Advised the cough may take up to 3 months to resolve after stopping ramipril. If no improvement at review, consider other causes.",
+    "safety_netting": "Contact the practice sooner if haemoptysis, breathlessness, unintentional weight loss or chest pain."
+  },
+  "variants": [
+    {
+      "variant_id": "case_01_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_01_a",
+      "mutations": [
+        {
+          "error_id": "case_01_a_e1",
+          "type": "CORRECTION_LOST",
+          "section": "medications_allergies",
+          "original_text": "Ramipril 5 mg once daily.",
+          "mutated_text": "Ramipril 10 mg once daily.",
+          "evidence_turns": [
+            29
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The patient corrected 10 mg to 5 mg after checking the box; ramipril is being stopped, so harm is limited to a misleading medication history.",
+          "description": "Ramipril dose kept at the figure the patient corrected"
+        },
+        {
+          "error_id": "case_01_a_e2",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "No history of asthma.",
+          "mutated_text": "Known asthma.",
+          "evidence_turns": [
+            34,
+            35,
+            36
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The wife's asthma recorded as the patient's may lead to the cough being attributed to asthma and to inappropriate inhaler or beta-blocker decisions in future.",
+          "description": "Wife's asthma recorded as the patient's"
+        },
+        {
+          "error_id": "case_01_a_e3",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "U&Es 1–2 weeks after starting losartan.",
+          "mutated_text": "U&Es at next annual review.",
+          "evidence_turns": [
+            43
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Renal function and potassium monitoring after starting an angiotensin receptor blocker would be missed, risking undetected hyperkalaemia or kidney injury.",
+          "description": "Kidney blood test after the switch deferred to annual review"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_01_b",
+      "mutations": [
+        {
+          "error_id": "case_01_b_e1",
+          "type": "TEMPORAL",
+          "section": "presenting_complaint",
+          "original_text": "approximately 2 months",
+          "mutated_text": "approximately 2 weeks",
+          "evidence_turns": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "A 2-week cough falls below the 3-week threshold for chest X-ray in an ex-smoker over 40 (NICE NG12), so the X-ray may be cancelled or deprioritised.",
+          "description": "Cough duration shortened from two months to two weeks"
+        },
+        {
+          "error_id": "case_01_b_e2",
+          "type": "OMIT_SAFETY",
+          "section": "safety_netting",
+          "original_text": "Contact the practice sooner if haemoptysis, breathlessness, unintentional weight loss or chest pain.",
+          "mutated_text": "",
+          "evidence_turns": [
+            49
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Red-flag advice about haemoptysis and weight loss was given verbally but is undocumented, so it will not be reinforced and its absence is medicolegally significant.",
+          "description": "Red-flag safety-netting dropped"
+        },
+        {
+          "error_id": "case_01_b_e3",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "losartan 50 mg once daily",
+          "mutated_text": "losartan 50 mg twice daily",
+          "evidence_turns": [
+            43
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Twice-daily dosing doubles the intended starting dose, increasing the risk of hypotension, falls and hyperkalaemia.",
+          "description": "Losartan frequency doubled"
+        },
+        {
+          "error_id": "case_01_b_e4",
+          "type": "OMIT_OTHER",
+          "section": "history",
+          "original_text": " Attended with wife.",
+          "mutated_text": "",
+          "evidence_turns": [
+            1,
+            2
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 1,
+          "seeded_rationale": "Who attended is useful context but does not change management.",
+          "description": "Wife's attendance not recorded"
+        }
+      ]
+    }
+  ]
+}

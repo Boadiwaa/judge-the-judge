@@ -1,0 +1,11 @@
+# Runtime (app server)
+flet[all]==1.0.5
+pydantic==2.14.1
+rapidfuzz==3.14.6
+numpy==1.26.4
+scipy==1.12.0
+# Offline pipeline / tests
+anthropic==2.3.0
+irrCAC==0.4.4
+pandas==2.3.3
+pytest==9.2.0

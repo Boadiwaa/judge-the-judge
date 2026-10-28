@@ -1,0 +1,379 @@
+{
+  "case_id": "case_21",
+  "setting": "REMOTE",
+  "title": "Telephone call: urinary symptoms",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, is that Priya Ramaswamy-Holt?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "Yes, speaking."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "Hi Priya, it's Dr Whitlock, calling back from the surgery. Is now a good time to talk, and are you somewhere private?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Patient",
+      "text": "Yes, I'm at home. That's fine."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "Can you confirm your date of birth for me?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Patient",
+      "text": "Second of November, ninety-seven."
+    },
+    {
+      "turn": 7,
+      "speaker": "Clinician",
+      "text": "Thank you. The receptionist said you're having some waterworks problems?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Patient",
+      "text": "Yes. It's burning when I wee, and I keep needing to go, like every half an hour."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "How long has this been going on?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Patient",
+      "text": "Since yesterday. Sorry, no, since Saturday. So three days now."
+    },
+    {
+      "turn": 11,
+      "speaker": "Clinician",
+      "text": "Okay, three days. Have you noticed any blood in your urine?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Patient",
+      "text": "Maybe a little pinkish this morning."
+    },
+    {
+      "turn": 13,
+      "speaker": "Clinician",
+      "text": "Any pain in your back or sides, just under your ribs?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 15,
+      "speaker": "Clinician",
+      "text": "Any fever, shivers or shakes?"
+    },
+    {
+      "turn": 16,
+      "speaker": "Patient",
+      "text": "No, I don't think so. I feel okay in myself."
+    },
+    {
+      "turn": 17,
+      "speaker": "Clinician",
+      "text": "Any feeling sick, or vomiting?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "Any unusual vaginal discharge, or itching?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Have you had anything like this before?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "Once, about two years ago. I had antibiotics and it cleared up."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "Do you remember which antibiotic?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "No, sorry."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "That's fine. Is there any chance you could be pregnant?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Patient",
+      "text": "I don't think so. Well... actually my period is about a week late. But that happens sometimes."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Okay. Have you done a pregnancy test?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Patient",
+      "text": "No, not yet."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "That's useful to know, because it affects which antibiotics are safe. Do you take any regular medicines?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "Just vitamin D in the winter."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "Any allergies to medicines?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "No, none."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "Any problems with your kidneys?"
+    },
+    {
+      "turn": 34,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "Okay. I can't examine you over the phone, but you're speaking comfortably in full sentences and you sound well. From what you've told me, this sounds like a urine infection in the bladder, a cystitis."
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "I thought so."
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for three days. That's a good choice for bladder infections and it's suitable even if you do turn out to be pregnant, early on."
+    },
+    {
+      "turn": 38,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "Because your period's late, I'd like you to do a pregnancy test today, and please drop a urine sample into the surgery before you start the antibiotics, so we can send it to the lab."
+    },
+    {
+      "turn": 40,
+      "speaker": "Patient",
+      "text": "I can do that this afternoon."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "Great. And please ring us back tomorrow with the pregnancy test result. If it's positive, we'll need to see you, and the treatment plan changes a bit."
+    },
+    {
+      "turn": 42,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "Drink plenty of fluids, and you can take paracetamol for the discomfort."
+    },
+    {
+      "turn": 44,
+      "speaker": "Patient",
+      "text": "Can I take ibuprofen?"
+    },
+    {
+      "turn": 45,
+      "speaker": "Clinician",
+      "text": "I'd stick to paracetamol for now, until you know whether you're pregnant."
+    },
+    {
+      "turn": 46,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 47,
+      "speaker": "Clinician",
+      "text": "If you develop pain in your back or side, a fever, shivering, or vomiting, that could mean the infection has spread to the kidneys. In that case call us straight away, or 111 if we're closed."
+    },
+    {
+      "turn": 48,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 49,
+      "speaker": "Clinician",
+      "text": "And if you're not starting to feel better within 48 hours of starting the antibiotics, or you're getting worse, call us back."
+    },
+    {
+      "turn": 50,
+      "speaker": "Patient",
+      "text": "I will. Thank you."
+    },
+    {
+      "turn": 51,
+      "speaker": "Clinician",
+      "text": "You're welcome. Take care, Priya."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Dysuria and urinary frequency for 3 days.",
+    "history": "Dysuria and frequency (about every 30 minutes) since Saturday. Possible pink-tinged urine this morning. No loin pain, fever, rigors, nausea or vomiting. No vaginal discharge or itch. One previous UTI two years ago, treated with antibiotics (agent unknown). Period approximately one week late; no pregnancy test yet. No known renal disease.",
+    "medications_allergies": "Vitamin D (winter). No known drug allergies.",
+    "examination": "Telephone consultation; not examined. Speaking in full sentences and sounds well.",
+    "impression": "Lower urinary tract infection (cystitis). Possible early pregnancy, to be excluded.",
+    "plan": "Nitrofurantoin 100 mg modified-release twice daily for 3 days. Pregnancy test today. Urine sample for culture before starting antibiotics. Call back tomorrow with pregnancy test result; if positive, face-to-face review and plan revised. Fluids and paracetamol; avoid ibuprofen until pregnancy excluded.",
+    "safety_netting": "Call the practice (or 111 out of hours) immediately if loin pain, fever, rigors or vomiting. Call back if not improving within 48 hours of starting antibiotics or worsening."
+  },
+  "variants": [
+    {
+      "variant_id": "case_21_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_21_a",
+      "mutations": [
+        {
+          "error_id": "case_21_a_e1",
+          "type": "OMIT_SAFETY",
+          "section": "history",
+          "original_text": " Period approximately one week late; no pregnancy test yet.",
+          "mutated_text": "",
+          "evidence_turns": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Possible pregnancy changes antibiotic choice, urine culture and follow-up; without it in the history, the pregnancy test and call-back look unexplained and may be dropped.",
+          "description": "Late period dropped from the history"
+        },
+        {
+          "error_id": "case_21_a_e2",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "Nitrofurantoin 100 mg modified-release twice daily",
+          "mutated_text": "Nitrofurantoin 100 mg modified-release four times daily",
+          "evidence_turns": [
+            37
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Four times daily doubles the dose of the modified-release preparation, increasing nausea and adverse effects without benefit.",
+          "description": "Nitrofurantoin frequency doubled"
+        },
+        {
+          "error_id": "case_21_a_e3",
+          "type": "NEGATION",
+          "section": "history",
+          "original_text": "No loin pain, fever, rigors, nausea or vomiting.",
+          "mutated_text": "Reports loin pain and fever; no rigors, nausea or vomiting.",
+          "evidence_turns": [
+            13,
+            15,
+            16
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Recorded loin pain and fever imply pyelonephritis, for which a 3-day nitrofurantoin course is inappropriate; the record contradicts the plan and may prompt unnecessary escalation.",
+          "description": "Absent loin pain and fever recorded as present"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_21_b",
+      "mutations": [
+        {
+          "error_id": "case_21_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "presenting_complaint",
+          "original_text": "for 3 days",
+          "mutated_text": "for 1 day",
+          "evidence_turns": [
+            10,
+            11
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The patient corrected yesterday to Saturday; duration has little effect on management of uncomplicated cystitis.",
+          "description": "Symptom duration kept at the figure the patient corrected"
+        },
+        {
+          "error_id": "case_21_b_e2",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "Telephone consultation; not examined.",
+          "mutated_text": "Abdomen soft, mild suprapubic tenderness, no renal angle tenderness.",
+          "evidence_turns": [
+            35
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "An examination recorded in a telephone consultation is fabricated; it falsely documents that pyelonephritis was excluded clinically.",
+          "description": "Examination recorded in a phone call"
+        },
+        {
+          "error_id": "case_21_b_e3",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Call back tomorrow with pregnancy test result; if positive, face-to-face review and plan revised.",
+          "mutated_text": "No routine follow-up needed.",
+          "evidence_turns": [
+            41
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Without the call-back, a positive pregnancy test may not reach the practice, and antibiotics, analgesia and urine culture would not be reviewed for pregnancy.",
+          "description": "Pregnancy-test call-back dropped from the plan"
+        }
+      ]
+    }
+  ]
+}

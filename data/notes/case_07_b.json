@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_07_b",
+  "case_id": "case_07",
+  "sections": {
+    "presenting_complaint": "Inversion injury to the left ankle descending stairs at work, approximately 4 hours ago.",
+    "history": "Missed the last step and foot rolled inwards. No head injury or loss of consciousness. Unable to weight-bear immediately after injury (hopped to car); managed only two steps in the department. Reports numbness and tingling. No previous injury to this ankle. No significant past medical history. Office manager, mostly desk-based, walks between two sites. Non-smoker; drinks a few glasses of wine at weekends.",
+    "medications_allergies": "Combined oral contraceptive (Microgynon). Allergic to penicillin (rash). No history of peptic ulcer disease, asthma or renal disease.",
+    "examination": "Swelling over the lateral aspect of the ankle. Bony tenderness at the posterior edge of the left lateral malleolus. Medial malleolus non-tender. Anterior drawer test negative. Base of fifth metatarsal and navicular non-tender. Foot warm, dorsalis pedis pulse palpable, sensation intact.",
+    "impression": "Ottawa ankle rules positive (posterior lateral malleolar tenderness; unable to weight-bear four steps). Possible lateral malleolar fracture; differential diagnosis ankle sprain.",
+    "plan": "X-ray left ankle (AP and mortise views). Analgesia: paracetamol 1 g four times daily (maximum 4 g in 24 hours) and ibuprofen 400 mg three times daily with food; first doses given in the department. Cold pack and elevation. Crutches. If sprain: discharge with advice leaflet and early mobilisation as pain allows. If fracture: management according to fracture type, likely boot and fracture clinic referral.",
+    "safety_netting": "Return immediately if the foot becomes cold, pale or numb, or if pain is not controlled with analgesia."
+  }
+}
