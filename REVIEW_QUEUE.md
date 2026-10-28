@@ -44,3 +44,9 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 - [ ] **case_10 (bronchiolitis):** managed at home with next-day review at about 50% of usual feeds, RR 54 and SpO2 95%. Is this borderline call one you'd make?
 - [ ] **Very high grades in new cases:** methotrexate weekly recorded as daily (case_19, S5×L4 = 20), sick-day rules dropped for an 85-year-old (case_24, 16), "no intent to harm the baby" recorded as an urge to harm (case_16, 16), anticoagulant dropped from a head-injury note (case_06, 20).
 - [ ] **Speaker labels:** the spec allows only Clinician, Patient and Relative. Partners, a wife who witnessed a seizure, and a son on speakerphone are all labelled "Relative". In cases 10 and 23 the patient is a baby, so every non-clinician turn is a "Relative" (two parents in case_10).
+
+### UI (added 2026-10-28)
+
+- [ ] **Heading font:** the mockups use a serif for display headings. Flutter web can't use system fonts, so headings are currently sans-serif. Pick a font (for example Source Serif 4, SIL Open Font License) and I'll bundle it (DECISIONS D-22).
+- [ ] **First-load speed on phones:** Flet's web client is about 3.5 MB even gzipped, and takes several seconds to start on a cold visit. If that's too slow for recruiters, the alternative is a small static HTML landing page in front of the app (a design change from the spec; your call).
+- [ ] **About page wording** (`src/jtj/app/pages/about.py`): drafted in your voice and marked DRAFT on the page.
