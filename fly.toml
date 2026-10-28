@@ -1,0 +1,42 @@
+# fly.io config for Judge the Judge. Do not deploy before clinical review (BUILD_SPEC §0.8).
+# Change `app` to a name you own; `fly launch --no-deploy` will offer to update it.
+app = "judge-the-judge"
+primary_region = "lhr"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PORT = "8080"
+  RATINGS_DB = "/data/ratings.sqlite"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+  # Flet keeps each visitor's session in memory over a WebSocket, so run exactly ONE machine
+  # (see DEPLOY.md: `fly scale count 1`).
+  [http_service.concurrency]
+    type = "connections"
+    soft_limit = 150
+    hard_limit = 200
+
+  [[http_service.checks]]
+    grace_period = "30s"
+    interval = "30s"
+    timeout = "5s"
+    method = "GET"
+    path = "/"
+
+[[vm]]
+  memory = "512mb"
+  cpu_kind = "shared"
+  cpus = 1
+
+# Uncomment after `fly volumes create jtj_data --size 1 --region lhr` so clinician ratings persist
+# across deploys and machine restarts.
+# [mounts]
+#   source = "jtj_data"
+#   destination = "/data"

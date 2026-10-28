@@ -48,6 +48,7 @@ class AppData:
     metrics: dict | None = None
     matches: dict = field(default_factory=dict)
     flags: list = field(default_factory=list)
+    agreement: dict | None = None
 
     @property
     def status(self) -> str:
@@ -121,8 +122,9 @@ def load() -> AppData:
         d.metrics = _load_json("metrics.json")
         d.matches = _load_json("matches.json") or {}
         d.flags = _load_json("flags.json") or []
+        d.agreement = _load_json("agreement.json")
     except (json.JSONDecodeError, OSError):
-        d.metrics, d.matches, d.flags = None, {}, []  # never show a stack trace; fall back to pending
+        d.metrics, d.matches, d.flags, d.agreement = None, {}, [], None  # never show a stack trace; fall back to pending
     return d
 
 

@@ -1,0 +1,26 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate duration summary\",\n      \"note_section\": \"presenting_complaint\",\n      \"note_span\": \"Dry cough for approximately 2 months.\",\n      \"transcript_evidence\": \"[5] Patient: It's this cough. It's driving me mad. Dry, tickly, it never stops. [9] Patient: Oh, she's right. More like two months, then.\",\n      \"evidence_turns\": [\n        5,\n        9\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note summarizes the duration as 2 months, but the transcript shows the patient initially stated six weeks before correcting it to two months, which should be reflected in the history.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "presenting_complaint",
+    "note_span": "Dry cough for approximately 2 months.",
+    "transcript_evidence": "[5] Patient: It's this cough. It's driving me mad. Dry, tickly, it never stops. [9] Patient: Oh, she's right. More like two months, then.",
+    "evidence_turns": [
+     5,
+     9
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note summarizes the duration as 2 months, but the transcript shows the patient initially stated six weeks before correcting it to two months, which should be reflected in the history."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

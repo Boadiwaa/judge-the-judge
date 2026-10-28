@@ -197,7 +197,33 @@ def _agreement(ctx: C.Ctx) -> ft.Control:
     return C.card(ft.Column(items, spacing=10), ctx)
 
 
+def _clinician_unlocked(ctx: C.Ctx, ag: dict) -> ft.Control:
+    f2 = lambda x: "–" if x is None else f"{x:.2f}"
+    cs = ag.get("clinician_sensitivity", {})
+    rows: list[ft.Control] = [
+        C.body(f"Clinicians found {cs.get('k')} of {cs.get('n')} planted errors they saw "
+               f"({C.fmt_p(cs.get('p'), True)}, 95% CI {C.fmt_p(cs.get('lo'), True)}–{C.fmt_p(cs.get('hi'), True)}): "
+               "a human baseline for the judges.", ctx, size=14),
+        C.body(f"Clinicians agree with each other: presence AC1 {f2(ag.get('inter_clinician_presence_ac1'))}, "
+               f"tier AC2 {f2(ag.get('inter_clinician_tier_ac2'))}.", ctx, size=14),
+    ]
+    for j, r in ag.get("per_judge", {}).items():
+        t = r.get("tier_ac2") or {}
+        share = r.get("flags_real_share")
+        rows.append(C.body(
+            f"{JUDGES.get(j, j)}: presence AC1 {f2(r.get('presence_ac1'))} (n={r.get('presence_n')}); tier AC2 "
+            f"{f2(t.get('est'))} (n={r.get('tier_n')}); flags judged real "
+            f"{'–' if share is None else f'{share * 100:.0f}%'} of {r.get('flags_adjudicated')} adjudicated.",
+            ctx, size=13, muted=True))
+    rows.append(C.info_panel("What does this mean?", INFO["clinician"], ctx))
+    return C.card(ft.Column([ft.Row([ft.Icon(ft.Icons.LOCK_OPEN, color=ctx.p.ok, size=20),
+                                     C.h3("Clinician agreement", ctx)]), *rows], spacing=10), ctx)
+
+
 def _clinician(ctx: C.Ctx) -> ft.Control:
+    ag = ctx.data.agreement
+    if ag and ag.get("unlocked"):
+        return _clinician_unlocked(ctx, ag)
     prog = rater_progress()
     need_raters, need_notes = 2, 20
     rows = [C.body(f"Unlocks when {need_raters} clinicians have each rated {need_notes} notes blind.", ctx, size=14,

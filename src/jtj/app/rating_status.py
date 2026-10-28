@@ -32,6 +32,8 @@ CREATE TABLE IF NOT EXISTS span_ratings (
     rater_id INTEGER NOT NULL REFERENCES raters(rater_id),
     variant_id TEXT NOT NULL,
     section TEXT NOT NULL,
+    start_pos INTEGER NOT NULL,  -- character offsets in the section; -1/-1 = "something missing here"
+    end_pos INTEGER NOT NULL,
     span_text TEXT NOT NULL,
     error_type TEXT NOT NULL,
     severity INTEGER NOT NULL CHECK (severity BETWEEN 1 AND 5),
@@ -77,3 +79,70 @@ def rater_progress() -> list[tuple[str, int]]:
         return [(who, n) for who, n in rows]
     except sqlite3.Error:
         return []
+
+
+# ---------------- writes (rater mode) ----------------
+
+
+def get_or_create_rater(initials: str, role: str) -> int:
+    con = connect(create=True)
+    with con:
+        con.execute("INSERT OR IGNORE INTO raters (initials, role) VALUES (?, ?)", (initials, role))
+        return con.execute("SELECT rater_id FROM raters WHERE initials = ? AND role = ?",
+                           (initials, role)).fetchone()[0]
+
+
+def rated_variants(rater_id: int) -> set[str]:
+    con = connect()
+    if con is None:
+        return set()
+    with con:
+        return {r[0] for r in con.execute("SELECT variant_id FROM note_ratings WHERE rater_id = ?", (rater_id,))}
+
+
+def save_note(rater_id: int, variant_id: str, overall: str, comment: str, spans: list[dict]) -> None:
+    """Replace this rater's rating of one note (note-level rating plus marked spans) atomically."""
+    con = connect(create=True)
+    with con:
+        con.execute("DELETE FROM span_ratings WHERE rater_id = ? AND variant_id = ?", (rater_id, variant_id))
+        con.execute("INSERT OR REPLACE INTO note_ratings (rater_id, variant_id, overall, comment) VALUES (?, ?, ?, ?)",
+                    (rater_id, variant_id, overall, comment or None))
+        con.executemany(
+            "INSERT INTO span_ratings (rater_id, variant_id, section, start_pos, end_pos, span_text, error_type, "
+            "severity, likelihood, comment) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            [(rater_id, variant_id, s["section"], s["start"], s["end"], s["text"], s["type"], s["severity"],
+              s["likelihood"], s.get("comment") or None) for s in spans])
+
+
+def adjudicated_flags(rater_id: int) -> set[str]:
+    con = connect()
+    if con is None:
+        return set()
+    with con:
+        return {r[0] for r in con.execute("SELECT flag_id FROM adjudications WHERE rater_id = ?", (rater_id,))}
+
+
+def save_adjudication(rater_id: int, flag_id: str, verdict: str, comment: str = "") -> None:
+    con = connect(create=True)
+    with con:
+        con.execute("INSERT OR REPLACE INTO adjudications (rater_id, flag_id, verdict, comment) VALUES (?, ?, ?, ?)",
+                    (rater_id, flag_id, verdict, comment or None))
+
+
+def export_zip() -> bytes:
+    """All tables as CSV files in one zip (for the owner)."""
+    import csv
+    import io
+    import zipfile
+
+    buf = io.BytesIO()
+    con = connect(create=True)
+    with con, zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
+        for table in ("raters", "note_ratings", "span_ratings", "adjudications"):
+            cur = con.execute(f"SELECT * FROM {table}")  # noqa: S608 (fixed table names)
+            out = io.StringIO()
+            w = csv.writer(out)
+            w.writerow([d[0] for d in cur.description])
+            w.writerows(cur.fetchall())
+            z.writestr(f"{table}.csv", out.getvalue())
+    return buf.getvalue()

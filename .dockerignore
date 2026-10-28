@@ -1,0 +1,12 @@
+.venv/
+.git/
+**/__pycache__/
+.pytest_cache/
+.env
+data/cache/
+data/judge_outputs/
+data/notes/
+data/ratings.sqlite
+src/jtj/app/assets/protocol.md
+*.md
+!src/**/*.md

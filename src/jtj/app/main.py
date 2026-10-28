@@ -10,6 +10,7 @@ import traceback
 from urllib.parse import parse_qsl
 
 import flet as ft
+from starlette.requests import Request
 
 from . import components as C
 from . import theme
@@ -117,7 +118,11 @@ def asgi_app():
     The Flet web client is about 11 MB uncompressed (an 8.5 MB WebAssembly bundle plus fonts) and Flet
     serves it without compression, which makes the first visit on a phone slow (DECISIONS D-19).
     """
+    import base64
+    import hmac
+
     from starlette.middleware.gzip import GZipMiddleware
+    from starlette.responses import PlainTextResponse, Response
 
     write_protocol(ASSETS)
     app = ft.run(main, export_asgi_app=True, assets_dir=ASSETS)
@@ -129,6 +134,35 @@ def asgi_app():
             response.headers.setdefault("Cache-Control", "public, max-age=86400")
         return response
 
+    @app.get("/export/ratings.zip")
+    async def export_ratings(request: Request):
+        """Owner-only CSV export. HTTP Basic auth (any username, password = OWNER_CODE), so the secret
+        never appears in a URL. Disabled when OWNER_CODE is unset."""
+        expected = os.environ.get("OWNER_CODE", "")
+        if not expected:
+            return PlainTextResponse("Export is disabled (OWNER_CODE not set).", status_code=404)
+        auth = request.headers.get("authorization", "")
+        ok = False
+        if auth.startswith("Basic "):
+            try:
+                _, _, pw = base64.b64decode(auth[6:]).decode().partition(":")
+                ok = hmac.compare_digest(pw, expected)
+            except (ValueError, UnicodeDecodeError):
+                ok = False
+        if not ok:
+            return PlainTextResponse("Authentication required.", status_code=401,
+                                     headers={"WWW-Authenticate": 'Basic realm="ratings export"'})
+        from .rating_status import export_zip
+
+        return Response(export_zip(), media_type="application/zip",
+                        headers={"Content-Disposition": "attachment; filename=jtj_ratings.zip",
+                                 "Cache-Control": "no-store"})
+
+    # Flet mounts a catch-all static handler first; move our route ahead of it so it is reachable,
+    # and drop FastAPI's auto-generated API docs, which this app doesn't need to expose
+    app.router.routes.insert(0, app.router.routes.pop())
+    app.router.routes[:] = [r for r in app.router.routes
+                            if getattr(r, "path", None) not in ("/openapi.json", "/docs", "/docs/oauth2-redirect", "/redoc")]
     app.add_middleware(GZipMiddleware, minimum_size=1024, compresslevel=6)
     return app
 
