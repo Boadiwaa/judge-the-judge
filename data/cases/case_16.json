@@ -1,0 +1,348 @@
+{
+  "case_id": "case_16",
+  "setting": "MENTAL_HEALTH",
+  "title": "Low mood after having a baby",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hi Chloe, come in. And this must be Oscar? And you're...?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Relative",
+      "text": "Jamie. Chloe's partner."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "Lovely to meet you. Chloe, is it okay for Jamie to be here?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Patient",
+      "text": "Yes, I want him here."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "How old is Oscar now?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Patient",
+      "text": "Eight weeks. No, ten. He's ten weeks on Saturday. I've lost track of time."
+    },
+    {
+      "turn": 7,
+      "speaker": "Clinician",
+      "text": "That's very normal. What's been happening?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Patient",
+      "text": "I just don't feel like myself. I cry all the time. I don't enjoy anything, not even him. And I feel so guilty saying that."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "Thank you for telling me. How long have you felt like this?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Patient",
+      "text": "About six weeks. It started a few weeks after he was born and it hasn't lifted."
+    },
+    {
+      "turn": 11,
+      "speaker": "Clinician",
+      "text": "How are you sleeping, when Oscar lets you?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Patient",
+      "text": "Even when he's asleep, I can't sleep. I just lie there worrying."
+    },
+    {
+      "turn": 13,
+      "speaker": "Clinician",
+      "text": "What do you worry about?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Patient",
+      "text": "Everything. That something will happen to him. I get these horrible pictures in my head, like what if I drop him down the stairs. I'd never do anything to him. I hate the thoughts. I won't carry him on the stairs now."
+    },
+    {
+      "turn": 15,
+      "speaker": "Clinician",
+      "text": "Thank you for telling me. Thoughts like that are really common in new mums, especially when you're anxious, and they're upsetting precisely because you don't want them. Have you ever had any urge or intention to harm Oscar?"
+    },
+    {
+      "turn": 16,
+      "speaker": "Patient",
+      "text": "No. Never. I love him."
+    },
+    {
+      "turn": 17,
+      "speaker": "Clinician",
+      "text": "And have you had any thoughts about harming yourself, or that you'd be better off not here?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Patient",
+      "text": "Sometimes I think they'd be better off without me. But I wouldn't do anything. I've got Oscar."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "Have you made any plans?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Have you had depression before?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "When I was 19. I was on fluoxetine for a year and it helped."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "Does anyone in your family have mental health problems?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "My mum had to go into hospital after she had my brother. She was really unwell, hearing things. They never really talked about it."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "That's important, thank you. Are you breastfeeding?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Patient",
+      "text": "Yes."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Any medicines or allergies?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 29,
+      "speaker": "Relative",
+      "text": "Can I just say, I've been struggling too. I've had a couple of panic attacks at work."
+    },
+    {
+      "turn": 30,
+      "speaker": "Clinician",
+      "text": "Thank you, Jamie. It's important you get support too. Please book to see your own GP."
+    },
+    {
+      "turn": 31,
+      "speaker": "Relative",
+      "text": "I will."
+    },
+    {
+      "turn": 32,
+      "speaker": "Clinician",
+      "text": "Chloe, your PHQ-9 score today is 17, which fits with moderately severe depression. This is postnatal depression, and it's treatable."
+    },
+    {
+      "turn": 33,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 34,
+      "speaker": "Clinician",
+      "text": "I'd like to start a medicine called sertraline, 50 milligrams once a day. It's one of the safest antidepressants when breastfeeding."
+    },
+    {
+      "turn": 35,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 36,
+      "speaker": "Clinician",
+      "text": "Because of how you're feeling, and your mum's history, I'm going to refer you to the perinatal mental health team. I'll also let your health visitor know."
+    },
+    {
+      "turn": 37,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 38,
+      "speaker": "Clinician",
+      "text": "And I'll give you the details for Talking Therapies. They prioritise new parents."
+    },
+    {
+      "turn": 39,
+      "speaker": "Patient",
+      "text": "Thank you."
+    },
+    {
+      "turn": 40,
+      "speaker": "Clinician",
+      "text": "I'd like to see you again in one week."
+    },
+    {
+      "turn": 41,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 42,
+      "speaker": "Clinician",
+      "text": "If the thoughts about not being here get stronger, or you feel you can't keep yourself safe, call 111 and choose the mental health option, or call 999. And if you ever feel confused or start seeing or hearing things that aren't there, get help urgently."
+    },
+    {
+      "turn": 43,
+      "speaker": "Relative",
+      "text": "I'll make sure she does."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Low mood, 10 weeks postpartum.",
+    "history": "Low mood for 6 weeks, starting a few weeks after delivery: tearful, anhedonia, guilt. Poor sleep even when the baby sleeps; persistent worry. Intrusive, unwanted thoughts of accidentally dropping the baby, which distress her; no urge or intent to harm the baby; avoids carrying him on the stairs. Passive thoughts that her family would be better off without her; no plans or intent; protective factor: baby. Previous depression at 19, treated with fluoxetine for a year. Her mother was admitted to hospital with a severe mental illness after a birth (possible postpartum psychosis). Breastfeeding. Partner has had panic attacks recently; advised to see his own GP.",
+    "medications_allergies": "No regular medications. No known drug allergies.",
+    "examination": "PHQ-9: 17.",
+    "impression": "Moderately severe postnatal depression with intrusive harm-related thoughts (ego-dystonic) and passive suicidal ideation without plan. Family history of possible postpartum psychosis.",
+    "plan": "Start sertraline 50 mg once daily (compatible with breastfeeding). Refer to the perinatal mental health team. Inform health visitor. Talking Therapies details given (priority for new parents). Review in 1 week.",
+    "safety_netting": "If suicidal thoughts worsen or unable to keep herself safe, call NHS 111 (mental health option) or 999. Seek urgent help if confusion or hallucinations."
+  },
+  "variants": [
+    {
+      "variant_id": "case_16_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_16_a",
+      "mutations": [
+        {
+          "error_id": "case_16_a_e1",
+          "type": "NEGATION",
+          "section": "history",
+          "original_text": "no urge or intent to harm the baby",
+          "mutated_text": "urge to harm the baby",
+          "evidence_turns": [
+            15,
+            16
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 4,
+          "seeded_rationale": "Recording intent to harm the baby, when she described unwanted intrusive thoughts with no intent, could trigger inappropriate safeguarding action and separation, and deter her from disclosing again.",
+          "description": "No intent to harm the baby recorded as an urge to harm"
+        },
+        {
+          "error_id": "case_16_a_e2",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "Start sertraline 50 mg once daily",
+          "mutated_text": "Start sertraline 50 mg three times daily",
+          "evidence_turns": [
+            34
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Three times daily triples the starting dose, increasing side effects for her and exposure for the breastfed baby.",
+          "description": "Sertraline frequency tripled"
+        },
+        {
+          "error_id": "case_16_a_e3",
+          "type": "OMIT_SAFETY",
+          "section": "history",
+          "original_text": " Her mother was admitted to hospital with a severe mental illness after a birth (possible postpartum psychosis).",
+          "mutated_text": "",
+          "evidence_turns": [
+            24
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "A family history of postpartum psychosis raises her risk substantially and supports the specialist referral; without it, the referral may be deprioritised.",
+          "description": "Family history of postpartum psychosis dropped"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_16_b",
+      "mutations": [
+        {
+          "error_id": "case_16_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "presenting_complaint",
+          "original_text": "10 weeks postpartum",
+          "mutated_text": "8 weeks postpartum",
+          "evidence_turns": [
+            6
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 1,
+          "seeded_rationale": "A two-week difference in the baby's age does not change management.",
+          "description": "Baby's age kept at the figure the mother corrected"
+        },
+        {
+          "error_id": "case_16_b_e2",
+          "type": "TEMPORAL",
+          "section": "history",
+          "original_text": "Low mood for 6 weeks",
+          "mutated_text": "Low mood for 6 days",
+          "evidence_turns": [
+            10
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Six days of low mood in the postnatal period could be read as baby blues, undermining the diagnosis, the medication and the referral.",
+          "description": "Low mood duration recorded as six days"
+        },
+        {
+          "error_id": "case_16_b_e3",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Refer to the perinatal mental health team.",
+          "mutated_text": "No specialist referral needed.",
+          "evidence_turns": [
+            36
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "With moderately severe depression and a family history of postpartum psychosis, specialist perinatal input was agreed; omitting it removes a key safety net.",
+          "description": "Perinatal mental health referral dropped"
+        },
+        {
+          "error_id": "case_16_b_e4",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "Partner has had panic attacks recently; advised to see his own GP.",
+          "mutated_text": "Has had panic attacks recently.",
+          "evidence_turns": [
+            29
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The partner's panic attacks recorded as hers add an inaccurate symptom to her record.",
+          "description": "Partner's panic attacks recorded as the mother's"
+        }
+      ]
+    }
+  ]
+}

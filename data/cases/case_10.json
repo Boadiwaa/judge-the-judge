@@ -1,0 +1,354 @@
+{
+  "case_id": "case_10",
+  "setting": "GP_PAEDS",
+  "title": "Seven-month-old with a cough and fast breathing",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, come on in. So this is Arlo? And you're mum and dad?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Relative",
+      "text": "Yes, I'm Hannah and this is Callum."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "Hello both. What's been happening with Arlo?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Relative",
+      "text": "He's had a runny nose and a cough for four days, and since yesterday his breathing's gone really fast."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "How old is he now?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Relative",
+      "text": "Seven months."
+    },
+    {
+      "turn": 7,
+      "speaker": "Clinician",
+      "text": "Has he had a temperature?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Relative",
+      "text": "A little bit. 37.9 this morning."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "How's he feeding? Is he on bottles?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Relative",
+      "text": "Bottles, yes. He's taking most of his bottles, I'd say."
+    },
+    {
+      "turn": 11,
+      "speaker": "Relative",
+      "text": "Hannah, he isn't. He's only managed about half of each bottle since yesterday. I did the night feeds."
+    },
+    {
+      "turn": 12,
+      "speaker": "Relative",
+      "text": "Oh. Yes, that's true, he keeps pulling off to breathe."
+    },
+    {
+      "turn": 13,
+      "speaker": "Clinician",
+      "text": "Okay, so about half his usual amount since yesterday. How many wet nappies has he had in the last 24 hours?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Relative",
+      "text": "Four, I think. He'd usually have six or seven."
+    },
+    {
+      "turn": 15,
+      "speaker": "Clinician",
+      "text": "Has he had any pauses in his breathing, where he stops breathing for a few seconds?"
+    },
+    {
+      "turn": 16,
+      "speaker": "Relative",
+      "text": "No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance. That's why we're so scared."
+    },
+    {
+      "turn": 17,
+      "speaker": "Clinician",
+      "text": "That must have been frightening. So none of that with Arlo?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Relative",
+      "text": "No, nothing like that with him."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "Has he gone blue or very pale at all?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Relative",
+      "text": "No."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Any vomiting or diarrhoea?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Relative",
+      "text": "He brought up a bit of milk after coughing, that's all."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "Was he born on time, and any problems since birth?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Relative",
+      "text": "Born at 39 weeks, no problems."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "Any heart or lung problems?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Relative",
+      "text": "No."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Is he up to date with his vaccinations?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Relative",
+      "text": "Yes, all of them."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "Any medicines or allergies?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Relative",
+      "text": "Just Calpol once yesterday. No allergies."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "Does anyone at home smoke?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Relative",
+      "text": "I do, but only outside, never in the house."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "Thanks, Callum. Let me examine Arlo. His temperature is 37.8. He's breathing about 54 times a minute. His heart rate is 150. His oxygen level is 95 percent. I can see he's pulling in a little under his ribs when he breathes, so a bit of extra effort. His capillary refill is under two seconds. He's alert and looking around."
+    },
+    {
+      "turn": 34,
+      "speaker": "Relative",
+      "text": "Is that bad?"
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "Let me listen. I can hear crackles and some wheeze on both sides of his chest. This all fits with bronchiolitis, a common virus in babies."
+    },
+    {
+      "turn": 36,
+      "speaker": "Relative",
+      "text": "Does he need to go to hospital?"
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "He's working a bit harder to breathe, and his feeding is down to about half, which is right on the line. His oxygen is okay and he's alert. I think it's reasonable to look after him at home for now, but I want to see him again tomorrow morning."
+    },
+    {
+      "turn": 38,
+      "speaker": "Relative",
+      "text": "Okay."
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "Give him smaller feeds more often. You can use saline drops in his nose before feeds to help clear it. Bronchiolitis often gets worse over the first three to five days before it gets better."
+    },
+    {
+      "turn": 40,
+      "speaker": "Relative",
+      "text": "Okay."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "If he has any pauses in his breathing, goes blue, or is really struggling to breathe, call 999."
+    },
+    {
+      "turn": 42,
+      "speaker": "Relative",
+      "text": "Okay."
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "If he's taking less than half his usual feeds, has no wet nappy for 12 hours, or seems more tired and floppy, call us or 111 straight away, even overnight."
+    },
+    {
+      "turn": 44,
+      "speaker": "Relative",
+      "text": "We will. Thank you."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Cough and coryza for 4 days, increased work of breathing since yesterday.",
+    "history": "Coryza and cough for 4 days; fast breathing since yesterday. Temperature up to 37.9 °C. Feeding about half his usual amount since yesterday (initially reported by mother as most feeds; father, who did night feeds, confirmed about half). Four wet nappies in 24 hours (usually 6–7). No apnoeas (older sister had an apnoea with bronchiolitis two years ago). No cyanosis. Small posset after coughing. Born at 39 weeks, no neonatal problems. No cardiac or respiratory history. Immunisations up to date. Father smokes (outdoors only).",
+    "medications_allergies": "Paracetamol once yesterday. No known drug allergies.",
+    "examination": "Temperature 37.8 °C. RR 54, HR 150, SpO2 95% in air. Mild subcostal recession. CRT under 2 seconds. Alert. Bilateral fine crackles and wheeze.",
+    "impression": "Bronchiolitis with moderately reduced feeding; borderline for referral (feeds about 50%). Managed at home with early review.",
+    "plan": "Small, frequent feeds; saline nose drops before feeds. Advised illness may worsen over days 3–5. Clinical review tomorrow morning.",
+    "safety_netting": "Call 999 if pauses in breathing, blue colour, or severe difficulty breathing. Call GP or 111 urgently if feeds fall below half, no wet nappy for 12 hours, or more tired or floppy."
+  },
+  "variants": [
+    {
+      "variant_id": "case_10_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_10_a",
+      "mutations": [
+        {
+          "error_id": "case_10_a_e1",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "No apnoeas (older sister had an apnoea with bronchiolitis two years ago).",
+          "mutated_text": "Has had an apnoea.",
+          "evidence_turns": [
+            16,
+            18
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The sister's apnoea recorded as Arlo's would mandate emergency admission and misrepresent his illness on his record.",
+          "description": "Sister's apnoea recorded as the baby's"
+        },
+        {
+          "error_id": "case_10_a_e2",
+          "type": "CORRECTION_LOST",
+          "section": "history",
+          "original_text": "Feeding about half his usual amount since yesterday (initially reported by mother as most feeds; father, who did night feeds, confirmed about half).",
+          "mutated_text": "Feeding most of his usual amount.",
+          "evidence_turns": [
+            10,
+            11
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The father corrected the feeding history to about half; recording 'most feeds' removes the main reason for early review and could delay admission for dehydration.",
+          "description": "Feeding kept at the amount the father corrected"
+        },
+        {
+          "error_id": "case_10_a_e3",
+          "type": "OMIT_OTHER",
+          "section": "history",
+          "original_text": " Father smokes (outdoors only).",
+          "mutated_text": "",
+          "evidence_turns": [
+            32
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Household smoking is relevant for counselling and risk, but its absence will not change immediate management.",
+          "description": "Household smoking dropped"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_10_b",
+      "mutations": [
+        {
+          "error_id": "case_10_b_e1",
+          "type": "TEMPORAL",
+          "section": "history",
+          "original_text": "Coryza and cough for 4 days",
+          "mutated_text": "Coryza and cough for 4 weeks",
+          "evidence_turns": [
+            4
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "A four-week cough in an infant suggests a different illness such as pertussis, which could prompt unnecessary tests or misdirect care.",
+          "description": "Illness duration recorded as four weeks"
+        },
+        {
+          "error_id": "case_10_b_e2",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "Alert.",
+          "mutated_text": "Alert. Weight 8.2 kg (50th centile).",
+          "evidence_turns": [
+            33
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The baby was not weighed; an invented weight could be used for drug dosing or growth monitoring.",
+          "description": "Weight recorded that was never measured"
+        },
+        {
+          "error_id": "case_10_b_e3",
+          "type": "OMIT_SAFETY",
+          "section": "safety_netting",
+          "original_text": "Call 999 if pauses in breathing, blue colour, or severe difficulty breathing. ",
+          "mutated_text": "",
+          "evidence_turns": [
+            41
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Emergency advice for an infant with bronchiolitis, whose sibling had an apnoea, is undocumented; if he deteriorates there is no record the parents knew when to call 999.",
+          "description": "Emergency breathing advice dropped"
+        },
+        {
+          "error_id": "case_10_b_e4",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Clinical review tomorrow morning.",
+          "mutated_text": "Review if not improving in one week.",
+          "evidence_turns": [
+            37
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Home management was only reasonable with next-day review; without it, a borderline infant may deteriorate unseen.",
+          "description": "Next-day review changed to one week"
+        }
+      ]
+    }
+  ]
+}

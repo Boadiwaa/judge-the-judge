@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_02_clean",
+  "case_id": "case_02",
+  "sections": {
+    "presenting_complaint": "Right-sided sciatica-type leg pain for 3 weeks.",
+    "history": "Onset 3 weeks ago while lifting a resident at work. Pain radiates from the buttock down the posterior thigh and lateral calf into the foot; leg pain worse than back pain; up to 7/10, worse after sitting. Occasional tingling over the lateral foot. No weakness. No saddle anaesthesia or change in bladder or bowel function. No fevers. No history of cancer or unintentional weight loss. Works as a care assistant.",
+    "medications_allergies": "Over-the-counter ibuprofen 400 mg three times daily with little benefit. No other medications. No known drug allergies. No history of peptic ulcer, asthma or renal disease.",
+    "examination": "Lumbar flexion limited by pain. Straight leg raise positive on the right at 40 degrees; negative on the left. Power, reflexes and sensation normal and symmetrical in both lower limbs.",
+    "impression": "Right-sided sciatica, likely lumbar disc-related radiculopathy. No red flags.",
+    "plan": "Stop ibuprofen. Start naproxen 500 mg twice daily with food and omeprazole 20 mg once daily, for 2 weeks. Refer to physiotherapy. Advised to keep active and avoid bed rest. Fit note for 2 weeks: may be fit for work with amended duties (no lifting or handling). Review in 4 weeks.",
+    "safety_netting": "Attend A&E immediately if saddle numbness, difficulty passing urine, loss of bladder or bowel control, or bilateral leg weakness (cauda equina symptoms). Symptom card given."
+  }
+}

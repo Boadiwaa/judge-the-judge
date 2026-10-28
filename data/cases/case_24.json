@@ -1,0 +1,404 @@
+{
+  "case_id": "case_24",
+  "setting": "REMOTE",
+  "title": "Phone call: older woman unwell with diarrhoea",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, is that Mrs Brackenbury?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "Yes, dear, speaking."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "It's Dr Osei from the surgery, returning your son's call. Is it all right to talk?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Patient",
+      "text": "Yes. Martin's here too, he's on the speakerphone."
+    },
+    {
+      "turn": 5,
+      "speaker": "Relative",
+      "text": "Hello, doctor."
+    },
+    {
+      "turn": 6,
+      "speaker": "Clinician",
+      "text": "Hello, Martin. Mrs Brackenbury, can you confirm your date of birth?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Patient",
+      "text": "Third of March, 1941."
+    },
+    {
+      "turn": 8,
+      "speaker": "Clinician",
+      "text": "Thank you. What's been happening?"
+    },
+    {
+      "turn": 9,
+      "speaker": "Patient",
+      "text": "I've had the runs and I've been sick. I feel washed out."
+    },
+    {
+      "turn": 10,
+      "speaker": "Clinician",
+      "text": "How long has this been going on?"
+    },
+    {
+      "turn": 11,
+      "speaker": "Patient",
+      "text": "Two days now. Since Monday."
+    },
+    {
+      "turn": 12,
+      "speaker": "Clinician",
+      "text": "How many times have you been sick today?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Patient",
+      "text": "Twice this morning. Nothing since lunch."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "And the diarrhoea, how many times?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Patient",
+      "text": "Four or five times today."
+    },
+    {
+      "turn": 16,
+      "speaker": "Clinician",
+      "text": "Any blood in it?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 18,
+      "speaker": "Clinician",
+      "text": "Are you managing to drink?"
+    },
+    {
+      "turn": 19,
+      "speaker": "Patient",
+      "text": "Sips of water. I don't fancy much."
+    },
+    {
+      "turn": 20,
+      "speaker": "Relative",
+      "text": "She's barely touched her tea all day."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "When did you last pass urine, and what colour was it?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "This morning. It was dark."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "Do you feel dizzy when you stand up?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "A bit, yes. I hold onto the furniture."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "Have you had any falls?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Relative",
+      "text": "She had a fall last month, didn't you, Mum?"
+    },
+    {
+      "turn": 27,
+      "speaker": "Patient",
+      "text": "No, Martin, that was Mrs Jenkins next door. I haven't fallen."
+    },
+    {
+      "turn": 28,
+      "speaker": "Relative",
+      "text": "Oh, sorry, yes. That was Mrs Jenkins."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "Okay, no falls. Any tummy pain?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "Just crampy before I go."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "Are you feeling confused at all? Martin, does she seem her usual self?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Relative",
+      "text": "She's tired but she's making sense."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "Let me go through your tablets. You take metformin?"
+    },
+    {
+      "turn": 34,
+      "speaker": "Patient",
+      "text": "Yes, 500 twice a day."
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "Ramipril 5 milligrams?"
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "Yes."
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "And your water tablet, furosemide. How much do you take?"
+    },
+    {
+      "turn": 38,
+      "speaker": "Patient",
+      "text": "Two in the morning. No, one. The 40 milligram one, just one."
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "One 40 milligram tablet each morning. And atorvastatin at night?"
+    },
+    {
+      "turn": 40,
+      "speaker": "Patient",
+      "text": "That's right."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "Any allergies?"
+    },
+    {
+      "turn": 42,
+      "speaker": "Patient",
+      "text": "Codeine. It makes me very sick."
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "Thank you. Is anything else going on? Any wounds or sores?"
+    },
+    {
+      "turn": 44,
+      "speaker": "Patient",
+      "text": "The district nurse dresses a sore on my left heel twice a week."
+    },
+    {
+      "turn": 45,
+      "speaker": "Clinician",
+      "text": "Okay. I can't examine you over the phone, but this sounds like a tummy bug. My main worry is that you're getting dry, and some of your tablets can affect your kidneys when you're dehydrated."
+    },
+    {
+      "turn": 46,
+      "speaker": "Patient",
+      "text": "Oh dear."
+    },
+    {
+      "turn": 47,
+      "speaker": "Clinician",
+      "text": "While you're unwell, I'd like you to stop the metformin, the ramipril and the furosemide. Restart them once you've been eating and drinking normally for 24 to 48 hours. Keep taking the atorvastatin."
+    },
+    {
+      "turn": 48,
+      "speaker": "Relative",
+      "text": "I'll write that down."
+    },
+    {
+      "turn": 49,
+      "speaker": "Clinician",
+      "text": "Try to drink small amounts often, a few mouthfuls every 10 to 15 minutes. Rehydration sachets would help."
+    },
+    {
+      "turn": 50,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 51,
+      "speaker": "Clinician",
+      "text": "I'd like a blood test tomorrow to check your kidneys. I'll ask the district nurse to take it when she comes to do your heel."
+    },
+    {
+      "turn": 52,
+      "speaker": "Relative",
+      "text": "That's good."
+    },
+    {
+      "turn": 53,
+      "speaker": "Clinician",
+      "text": "If you can't keep any fluids down, become confused or very drowsy, pass no urine for 12 hours, or you see blood in the diarrhoea, call 111, or 999 if she's very unwell."
+    },
+    {
+      "turn": 54,
+      "speaker": "Relative",
+      "text": "Okay. Thank you, doctor."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Diarrhoea and vomiting for 2 days.",
+    "history": "Vomited twice this morning, none since lunch; four to five loose stools today. No blood in stools. Crampy abdominal pain before defecation. Poor oral intake. Last passed dark urine this morning. Postural dizziness. No falls (the fall mentioned by her son was a neighbour's). Tired but not confused, per son. District nurses dressing a sore on the left heel twice weekly.",
+    "medications_allergies": "Metformin 500 mg twice daily. Ramipril 5 mg once daily. Furosemide 40 mg each morning (initially said two tablets, corrected to one). Atorvastatin at night. Codeine intolerance (vomiting).",
+    "examination": "Telephone consultation; not examined. Son reports she is making sense.",
+    "impression": "Probable infective gastroenteritis with dehydration in an 85-year-old on metformin, an ACE inhibitor and a loop diuretic; risk of acute kidney injury.",
+    "plan": "Sick day rules: temporarily stop metformin, ramipril and furosemide until eating and drinking normally for 24–48 hours; continue atorvastatin. Small, frequent fluids; oral rehydration sachets. U&E blood test tomorrow (district nurse to take at heel dressing visit).",
+    "safety_netting": "Call 111 (or 999 if very unwell) if unable to keep fluids down, confused or very drowsy, no urine for 12 hours, or blood in stool."
+  },
+  "variants": [
+    {
+      "variant_id": "case_24_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_24_a",
+      "mutations": [
+        {
+          "error_id": "case_24_a_e1",
+          "type": "DOSE_UNIT",
+          "section": "medications_allergies",
+          "original_text": "Furosemide 40 mg each morning",
+          "mutated_text": "Furosemide 400 mg each morning",
+          "evidence_turns": [
+            38
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "A tenfold furosemide dose would cause severe dehydration and kidney injury if given, though it would likely be questioned.",
+          "description": "Furosemide dose ten times too high"
+        },
+        {
+          "error_id": "case_24_a_e2",
+          "type": "OMIT_SAFETY",
+          "section": "plan",
+          "original_text": "Sick day rules: temporarily stop metformin, ramipril and furosemide until eating and drinking normally for 24–48 hours; continue atorvastatin. ",
+          "mutated_text": "",
+          "evidence_turns": [
+            47
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 4,
+          "seeded_rationale": "If the sick day rules are undocumented, her family and the district nurse may keep giving a diuretic, ACE inhibitor and metformin to a dehydrated 85-year-old, a common cause of acute kidney injury and lactic acidosis.",
+          "description": "Sick day rules dropped"
+        },
+        {
+          "error_id": "case_24_a_e3",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "No falls (the fall mentioned by her son was a neighbour's).",
+          "mutated_text": "Fall last month.",
+          "evidence_turns": [
+            26,
+            27
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The neighbour's fall recorded as hers adds a false falls history, triggering unnecessary falls assessment and possibly affecting medication decisions.",
+          "description": "Neighbour's fall recorded as the patient's"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_24_b",
+      "mutations": [
+        {
+          "error_id": "case_24_b_e1",
+          "type": "NEGATION",
+          "section": "history",
+          "original_text": "No blood in stools.",
+          "mutated_text": "Blood in stools.",
+          "evidence_turns": [
+            16,
+            17
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Bloody diarrhoea would prompt stool tests and possibly admission that are not needed.",
+          "description": "Absent blood in stools recorded as present"
+        },
+        {
+          "error_id": "case_24_b_e2",
+          "type": "TEMPORAL",
+          "section": "presenting_complaint",
+          "original_text": "for 2 days",
+          "mutated_text": "for 2 weeks",
+          "evidence_turns": [
+            11
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Two weeks of diarrhoea suggests a different cause and prompts different investigations, though the immediate plan would be similar.",
+          "description": "Illness duration recorded as two weeks"
+        },
+        {
+          "error_id": "case_24_b_e3",
+          "type": "LATERALITY",
+          "section": "history",
+          "original_text": "a sore on the left heel",
+          "mutated_text": "a sore on the right heel",
+          "evidence_turns": [
+            44
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The wrong side for a pressure sore could confuse wound records, though the district nurse would find it.",
+          "description": "Heel sore recorded on the wrong foot"
+        },
+        {
+          "error_id": "case_24_b_e4",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "U&E blood test tomorrow (district nurse to take at heel dressing visit).",
+          "mutated_text": "U&E at next routine review.",
+          "evidence_turns": [
+            51
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Without the next-day kidney test, acute kidney injury in a dehydrated older woman on these drugs may go undetected.",
+          "description": "Next-day kidney test deferred to routine review"
+        }
+      ]
+    }
+  ]
+}

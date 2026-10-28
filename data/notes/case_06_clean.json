@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_06_clean",
+  "case_id": "case_06",
+  "sections": {
+    "presenting_complaint": "Head injury after a mechanical fall at home at about 07:45.",
+    "history": "Tripped on a rug and struck the left side of her head on a door frame. Daughter reports she seemed muddled for about 10 minutes afterwards; patient has no memory of this. Loss of consciousness uncertain (unwitnessed). One episode of vomiting in the car. Mild headache at the impact site. No visual disturbance, limb weakness or neck pain. No preceding dizziness or presyncope. Last apixaban dose this morning, after the fall. Tetanus up to date.",
+    "medications_allergies": "Apixaban 2.5 mg twice daily (atrial fibrillation). Bisoprolol 2.5 mg once daily. Amlodipine 5 mg once daily. Allergic to penicillin (swelling).",
+    "examination": "GCS 15. 3 cm laceration with haematoma over the left temple. Pupils equal and reactive. Normal power in all limbs. No cervical spine midline tenderness. HR 80 irregular, BP 146/82.",
+    "impression": "Head injury in an anticoagulated 81-year-old with brief post-traumatic confusion and amnesia, and one episode of vomiting.",
+    "plan": "CT head (anticoagulated). Withhold this evening's apixaban dose until CT head reviewed. Wound cleaned and closed with steri-strips. If CT normal, discharge with daughter, who will stay with her for 24 hours.",
+    "safety_netting": "Call 999 or return immediately if drowsy, confused, further vomiting, worsening headache, seizure or limb weakness. Written head injury advice given to daughter."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_08_clean",
+  "case_id": "case_08",
+  "sections": {
+    "presenting_complaint": "Worsening wheeze and breathlessness since yesterday, with a viral upper respiratory infection.",
+    "history": "Initially reported using salbutamol twice a day; on questioning, using salbutamol every 2 hours since last night, with only brief relief. Prescribed Clenil 100 micrograms two puffs twice daily but adherence poor. Tight chest, small amount of clear sputum; feverish two days ago. One previous hospital admission 3 years ago (two nights); never required intensive care. Uses an e-cigarette daily.",
+    "medications_allergies": "Salbutamol inhaler as required. Clenil (beclometasone) 100 micrograms, two puffs twice daily. Aspirin allergy (bronchospasm, previously needed hospital treatment); avoid NSAIDs.",
+    "examination": "Speaking in full sentences. RR 24, HR 108, SpO2 95% on air. Widespread bilateral wheeze with good air entry. PEF 250 L/min (best 450, about 55%). After salbutamol 5 mg nebulised: PEF 380 (about 84%), RR 18, SpO2 98%.",
+    "impression": "Moderate acute asthma exacerbation triggered by a viral infection; good response to bronchodilator. Poor preventer adherence.",
+    "plan": "Prednisolone 40 mg once daily for 5 days. Inhaler technique check before discharge. Discharge if stable after one hour of observation. GP or asthma nurse review within 2 working days for inhaler review and asthma action plan.",
+    "safety_netting": "Call 999 if salbutamol needed more often than every 4 hours, too breathless to speak, or blue lips."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_22_b",
+  "case_id": "case_22",
+  "sections": {
+    "presenting_complaint": "Red, swollen left shin since Tuesday.",
+    "history": "Scratched by a rose bush while gardening on Tuesday; redness from Wednesday morning (patient initially said Tuesday). Warm and sore. No blistering or dark patches. Temperature 37.6 \u00b0C this morning (self-measured). Systemically well; no rigors, vomiting or confusion. No swelling of the other leg. Type 2 diabetes.",
+    "medications_allergies": "Metformin 500 mg twice daily. No known drug allergies; has had penicillins without problems (daughter, present, is penicillin-allergic).",
+    "examination": "Assessed by video; not palpated. Erythema over the anterior left shin, approximately 10 cm across, with a small central scratch. No blistering or necrosis visible.",
+    "impression": "Cellulitis of the left lower leg (Eron class I) following a scratch.",
+    "plan": "Flucloxacillin 500 mg once daily for 7 days, on an empty stomach. Margin of erythema marked with pen. Elevation and paracetamol. No routine review needed.",
+    "safety_netting": "Same-day contact (or 111) if spreading beyond the marked line, high fever, rigors, feeling very unwell or confused, or rapidly worsening pain. Call 999 if very unwell."
+  }
+}

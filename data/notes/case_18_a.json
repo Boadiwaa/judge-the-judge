@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_18_a",
+  "case_id": "case_18",
+  "sections": {
+    "presenting_complaint": "Worsening exertional breathlessness, COPD.",
+    "history": "MRC dyspnoea grade 3. Morning cough with white sputum. Two exacerbations requiring oral steroids in the last 12 months (one also needed antibiotics); no hospital admissions. Reports ankle swelling. No chest pain, haemoptysis or weight loss. Ex-smoker for 6 months, approximately 40 pack-years. Good inhaler technique with Anoro. Had flu and pneumococcal vaccines.",
+    "medications_allergies": "Anoro Ellipta (umeclidinium/vilanterol) one inhalation once daily. Salbutamol as needed (about twice daily). No known drug allergies.",
+    "examination": "SpO2 93% on air, RR 20. Bilateral wheeze. Coarse crackles at the right base (new). Spirometry: FEV1 52% predicted (lower than last year). Blood eosinophils 0.35 \u00d7 10\u2079/L.",
+    "impression": "COPD with frequent exacerbations despite LAMA/LABA; eosinophils \u22650.3, suitable for triple therapy. New focal crackles at the left base.",
+    "plan": "Switch Anoro to Trelegy Ellipta one inhalation once daily. Refer to pulmonary rehabilitation. Chest X-ray today. Clinic review in 3 months.",
+    "safety_netting": "Contact GP the same day if increased breathlessness, sputum volume or change in sputum colour. Call 999 if severely breathless."
+  }
+}

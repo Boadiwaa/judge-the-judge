@@ -1,0 +1,395 @@
+{
+  "case_id": "case_02",
+  "setting": "GP_ADULT",
+  "title": "Low back pain going down one leg",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hi, Joanne, come on in. What can I do for you today?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "It's my back. Well, it's my leg, really. I've got this shooting pain going all the way down."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "When did it start?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Patient",
+      "text": "About three weeks ago. I was lifting a resident at work and I felt something go."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "What do you do for work?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Patient",
+      "text": "I'm a care assistant at a nursing home."
+    },
+    {
+      "turn": 7,
+      "speaker": "Clinician",
+      "text": "Which leg is the pain going down?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Patient",
+      "text": "My left. No, sorry, the right. I always mix them up when I'm talking. It's definitely the right leg."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "Okay, the right. Where exactly does it go?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Patient",
+      "text": "From my bum, down the back of the thigh, round the outside of my calf and into my foot."
+    },
+    {
+      "turn": 11,
+      "speaker": "Clinician",
+      "text": "How bad is it, out of ten?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Patient",
+      "text": "Seven on a bad day. Worse when I've been sitting for a while."
+    },
+    {
+      "turn": 13,
+      "speaker": "Clinician",
+      "text": "Is it worse in your back or your leg?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Patient",
+      "text": "The leg, definitely."
+    },
+    {
+      "turn": 15,
+      "speaker": "Clinician",
+      "text": "Any pins and needles or numbness in the leg?"
+    },
+    {
+      "turn": 16,
+      "speaker": "Patient",
+      "text": "A bit of tingling on the outside of my foot sometimes."
+    },
+    {
+      "turn": 17,
+      "speaker": "Clinician",
+      "text": "Any weakness? Tripping over your foot, anything like that?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Patient",
+      "text": "No, it's just painful."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "I need to ask some important questions. Any numbness around your bottom or between your legs, like when you sit on the toilet?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Any change in your waterworks? Trouble passing urine, or leaking?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "No, that's all normal."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "Any problems with your bowels, or accidents?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "Any fevers or feeling unwell in yourself?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Have you ever had cancer, or lost any weight without trying?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Patient",
+      "text": "No, neither."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "What have you been taking for it?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "Ibuprofen from the supermarket, 400 three times a day. It barely touches it."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "Any problems with your stomach, asthma or kidneys?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "Any other medicines, or allergies?"
+    },
+    {
+      "turn": 34,
+      "speaker": "Patient",
+      "text": "No other medicines. No allergies."
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "Okay, let me examine you. Can you bend forward for me? That's limited by the pain. I'm going to lift your right leg up straight. Tell me when it hurts."
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "Ow, there. That shoots right down."
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "That's at about 40 degrees. And the left leg?"
+    },
+    {
+      "turn": 38,
+      "speaker": "Patient",
+      "text": "That's fine."
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "Push against my hands. Pull up. Your power is normal in both legs. Your knee and ankle reflexes are normal. Can you feel me touching here? And here?"
+    },
+    {
+      "turn": 40,
+      "speaker": "Patient",
+      "text": "Yes, the same on both sides."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "Good. So this sounds like sciatica, where a disc in your lower back is irritating a nerve going down the right leg. The good news is that most of these settle over a few weeks to a couple of months."
+    },
+    {
+      "turn": 42,
+      "speaker": "Patient",
+      "text": "It's really getting me down."
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "I understand. The ibuprofen isn't doing enough, so I'll switch you to naproxen, 500 milligrams twice a day with food, and add omeprazole, 20 milligrams once a day, to protect your stomach. Just for a couple of weeks."
+    },
+    {
+      "turn": 44,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 45,
+      "speaker": "Clinician",
+      "text": "I'll refer you to physiotherapy. The most important thing is to keep moving as much as you can, rather than resting in bed."
+    },
+    {
+      "turn": 46,
+      "speaker": "Patient",
+      "text": "What about work? I can't lift people like this."
+    },
+    {
+      "turn": 47,
+      "speaker": "Clinician",
+      "text": "I'll give you a fit note for two weeks, saying you may be fit for work with amended duties, so no lifting or handling."
+    },
+    {
+      "turn": 48,
+      "speaker": "Patient",
+      "text": "Thank you."
+    },
+    {
+      "turn": 49,
+      "speaker": "Clinician",
+      "text": "I'd like to see you again in four weeks to see how you're getting on."
+    },
+    {
+      "turn": 50,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 51,
+      "speaker": "Clinician",
+      "text": "Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome. I'll give you a card with these symptoms on."
+    },
+    {
+      "turn": 52,
+      "speaker": "Patient",
+      "text": "Okay. I'll keep it in my purse."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Right-sided sciatica-type leg pain for 3 weeks.",
+    "history": "Onset 3 weeks ago while lifting a resident at work. Pain radiates from the buttock down the posterior thigh and lateral calf into the foot; leg pain worse than back pain; up to 7/10, worse after sitting. Occasional tingling over the lateral foot. No weakness. No saddle anaesthesia or change in bladder or bowel function. No fevers. No history of cancer or unintentional weight loss. Works as a care assistant.",
+    "medications_allergies": "Over-the-counter ibuprofen 400 mg three times daily with little benefit. No other medications. No known drug allergies. No history of peptic ulcer, asthma or renal disease.",
+    "examination": "Lumbar flexion limited by pain. Straight leg raise positive on the right at 40 degrees; negative on the left. Power, reflexes and sensation normal and symmetrical in both lower limbs.",
+    "impression": "Right-sided sciatica, likely lumbar disc-related radiculopathy. No red flags.",
+    "plan": "Stop ibuprofen. Start naproxen 500 mg twice daily with food and omeprazole 20 mg once daily, for 2 weeks. Refer to physiotherapy. Advised to keep active and avoid bed rest. Fit note for 2 weeks: may be fit for work with amended duties (no lifting or handling). Review in 4 weeks.",
+    "safety_netting": "Attend A&E immediately if saddle numbness, difficulty passing urine, loss of bladder or bowel control, or bilateral leg weakness (cauda equina symptoms). Symptom card given."
+  },
+  "variants": [
+    {
+      "variant_id": "case_02_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_02_a",
+      "mutations": [
+        {
+          "error_id": "case_02_a_e1",
+          "type": "LATERALITY",
+          "section": "examination",
+          "original_text": "Straight leg raise positive on the right at 40 degrees; negative on the left.",
+          "mutated_text": "Straight leg raise positive on the left at 40 degrees; negative on the right.",
+          "evidence_turns": [
+            35,
+            37
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "A wrong-side neurological finding could misdirect later imaging review or surgical referral if symptoms persist.",
+          "description": "Positive nerve-stretch test recorded on the wrong leg"
+        },
+        {
+          "error_id": "case_02_a_e2",
+          "type": "OMIT_SAFETY",
+          "section": "safety_netting",
+          "original_text": "Attend A&E immediately if saddle numbness, difficulty passing urine, loss of bladder or bowel control, or bilateral leg weakness (cauda equina symptoms). ",
+          "mutated_text": "",
+          "evidence_turns": [
+            51,
+            52
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Cauda equina advice was given verbally, but without documentation it will not be reinforced, and delay in this emergency causes permanent harm.",
+          "description": "Cauda equina safety-netting dropped"
+        },
+        {
+          "error_id": "case_02_a_e3",
+          "type": "OMIT_OTHER",
+          "section": "history",
+          "original_text": " Works as a care assistant.",
+          "mutated_text": "",
+          "evidence_turns": [
+            6
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Occupation explains the mechanism and the fit note, but its absence is unlikely to cause harm.",
+          "description": "Occupation dropped"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_02_b",
+      "mutations": [
+        {
+          "error_id": "case_02_b_e1",
+          "type": "NEGATION",
+          "section": "history",
+          "original_text": "No saddle anaesthesia or change in bladder or bowel function.",
+          "mutated_text": "Reports saddle numbness; no change in bladder or bowel function.",
+          "evidence_turns": [
+            19,
+            20
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 4,
+          "seeded_rationale": "A recorded cauda equina red flag that was denied would trigger an unnecessary emergency MRI and alarm, and conflicts with the documented plan.",
+          "description": "Denied saddle numbness recorded as present"
+        },
+        {
+          "error_id": "case_02_b_e2",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "naproxen 500 mg twice daily",
+          "mutated_text": "naproxen 500 mg four times daily",
+          "evidence_turns": [
+            43
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Doubling the naproxen dose increases the risk of gastrointestinal bleeding and kidney injury, and may be dispensed as written.",
+          "description": "Naproxen frequency doubled"
+        },
+        {
+          "error_id": "case_02_b_e3",
+          "type": "CORRECTION_LOST",
+          "section": "presenting_complaint",
+          "original_text": "Right-sided",
+          "mutated_text": "Left-sided",
+          "evidence_turns": [
+            8
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The patient said left, then corrected herself to right; the wrong side in the presenting complaint contradicts the examination and could misdirect follow-up.",
+          "description": "Leg kept as the side the patient corrected"
+        },
+        {
+          "error_id": "case_02_b_e4",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Refer to physiotherapy.",
+          "mutated_text": "Physiotherapy not required at this stage.",
+          "evidence_turns": [
+            45
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The agreed physiotherapy referral would not be made, delaying recovery and return to work.",
+          "description": "Physiotherapy referral dropped"
+        }
+      ]
+    }
+  ]
+}

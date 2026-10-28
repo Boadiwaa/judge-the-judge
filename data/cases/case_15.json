@@ -1,0 +1,360 @@
+{
+  "case_id": "case_15",
+  "setting": "MENTAL_HEALTH",
+  "title": "Lithium monitoring review",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Good morning, Mr Fairweather-Okoro. Come in. And this is your wife?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "Yes, this is Adaeze."
+    },
+    {
+      "turn": 3,
+      "speaker": "Relative",
+      "text": "Morning."
+    },
+    {
+      "turn": 4,
+      "speaker": "Clinician",
+      "text": "Is it okay for Adaeze to stay?"
+    },
+    {
+      "turn": 5,
+      "speaker": "Patient",
+      "text": "Of course."
+    },
+    {
+      "turn": 6,
+      "speaker": "Clinician",
+      "text": "This is your routine lithium review. How have you been?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Patient",
+      "text": "Good, really. Mood's been steady. Work's going well."
+    },
+    {
+      "turn": 8,
+      "speaker": "Clinician",
+      "text": "How's your sleep?"
+    },
+    {
+      "turn": 9,
+      "speaker": "Patient",
+      "text": "Fine."
+    },
+    {
+      "turn": 10,
+      "speaker": "Relative",
+      "text": "Can I say something? He's been sleeping less this last week. Five hours, maybe. And he's been talking a lot more, starting lots of projects. That's how it started last time."
+    },
+    {
+      "turn": 11,
+      "speaker": "Patient",
+      "text": "I just feel well. I've got loads of energy."
+    },
+    {
+      "turn": 12,
+      "speaker": "Clinician",
+      "text": "Thank you both. That's really important to know. Gideon, are you having any racing thoughts, or spending more money than usual?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Patient",
+      "text": "No, nothing like that."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "Okay. You're on Priadel, 800 milligrams at night?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Patient",
+      "text": "That's right."
+    },
+    {
+      "turn": 16,
+      "speaker": "Clinician",
+      "text": "Any missed doses?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Patient",
+      "text": "No, never."
+    },
+    {
+      "turn": 18,
+      "speaker": "Clinician",
+      "text": "Have you taken any other medicines recently, including anything from the chemist?"
+    },
+    {
+      "turn": 19,
+      "speaker": "Patient",
+      "text": "I took some ibuprofen last week for my back. Wait, no, it was naproxen. My brother gave me some of his."
+    },
+    {
+      "turn": 20,
+      "speaker": "Clinician",
+      "text": "How many days did you take it for?"
+    },
+    {
+      "turn": 21,
+      "speaker": "Patient",
+      "text": "Three or four days."
+    },
+    {
+      "turn": 22,
+      "speaker": "Clinician",
+      "text": "Okay. Those anti-inflammatory painkillers can raise lithium levels. Any diarrhoea or vomiting?"
+    },
+    {
+      "turn": 23,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 24,
+      "speaker": "Clinician",
+      "text": "Any feeling unsteady on your feet, or muddled?"
+    },
+    {
+      "turn": 25,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 26,
+      "speaker": "Clinician",
+      "text": "Any change in your tremor?"
+    },
+    {
+      "turn": 27,
+      "speaker": "Patient",
+      "text": "No, the same little shake I've always had."
+    },
+    {
+      "turn": 28,
+      "speaker": "Clinician",
+      "text": "Are you drinking plenty of fluids?"
+    },
+    {
+      "turn": 29,
+      "speaker": "Patient",
+      "text": "Yes, I've got a big water bottle at work."
+    },
+    {
+      "turn": 30,
+      "speaker": "Clinician",
+      "text": "Any other medicines? Allergies?"
+    },
+    {
+      "turn": 31,
+      "speaker": "Patient",
+      "text": "No other medicines. No allergies."
+    },
+    {
+      "turn": 32,
+      "speaker": "Clinician",
+      "text": "Your blood tests: your lithium level last month was 0.7, taken 12 hours after your dose, which is in range. Your kidney function, eGFR, is 74, the same as before. Thyroid and calcium are normal."
+    },
+    {
+      "turn": 33,
+      "speaker": "Patient",
+      "text": "Good."
+    },
+    {
+      "turn": 34,
+      "speaker": "Clinician",
+      "text": "Let me look at your hands. There's a fine tremor in both hands, the same as before. You're walking steadily."
+    },
+    {
+      "turn": 35,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 36,
+      "speaker": "Clinician",
+      "text": "Because you've taken naproxen, I'd like to recheck your lithium level in one week, 12 hours after your evening dose. After that we'll go back to every three months."
+    },
+    {
+      "turn": 37,
+      "speaker": "Patient",
+      "text": "Fine."
+    },
+    {
+      "turn": 38,
+      "speaker": "Clinician",
+      "text": "Please don't take ibuprofen or naproxen. Paracetamol is fine for your back."
+    },
+    {
+      "turn": 39,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 40,
+      "speaker": "Clinician",
+      "text": "About the sleep and energy. I'm going to let the community mental health team know, and I'd like you to keep a sleep diary. If you're sleeping less than five hours for two nights running, contact your care coordinator or us straight away."
+    },
+    {
+      "turn": 41,
+      "speaker": "Relative",
+      "text": "I'll keep an eye on him."
+    },
+    {
+      "turn": 42,
+      "speaker": "Clinician",
+      "text": "Thank you. Continue the Priadel at the same dose. Very important: if you get vomiting, diarrhoea, a coarse shaking, unsteadiness or confusion, stop the lithium and get an urgent lithium level, or go to A&E."
+    },
+    {
+      "turn": 43,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 44,
+      "speaker": "Clinician",
+      "text": "And try not to get dehydrated, especially in hot weather."
+    },
+    {
+      "turn": 45,
+      "speaker": "Patient",
+      "text": "Okay. Thanks, doctor."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Routine lithium monitoring review, bipolar affective disorder.",
+    "history": "Reports stable mood and good energy. Wife reports reduced sleep (about 5 hours) and increased talkativeness and new projects over the last week, which preceded his previous relapse. Patient denies racing thoughts or overspending. No missed lithium doses. Took naproxen (his brother's) for back pain for 3–4 days last week, initially recalled as ibuprofen. No diarrhoea, vomiting, unsteadiness or confusion. Long-standing fine tremor, unchanged. Good fluid intake.",
+    "medications_allergies": "Priadel (lithium carbonate) 800 mg at night. No known drug allergies.",
+    "examination": "Fine tremor of both hands, unchanged. Gait steady. Bloods: lithium level last month 0.7 mmol/L (12-hour post-dose), eGFR 74 (stable), thyroid function and calcium normal.",
+    "impression": "Bipolar affective disorder on lithium; level in range last month. Recent NSAID use, risk of raised lithium level. Possible early signs of hypomanic relapse reported by wife.",
+    "plan": "Continue Priadel 800 mg at night. Repeat lithium level in 1 week (12 hours post-dose) because of NSAID exposure, then 3-monthly. Avoid NSAIDs; paracetamol for back pain. Inform community mental health team. Sleep diary; contact care coordinator if under 5 hours' sleep for two consecutive nights.",
+    "safety_netting": "If vomiting, diarrhoea, coarse tremor, unsteadiness or confusion: stop lithium and seek an urgent lithium level or attend A&E. Avoid dehydration, especially in hot weather."
+  },
+  "variants": [
+    {
+      "variant_id": "case_15_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_15_a",
+      "mutations": [
+        {
+          "error_id": "case_15_a_e1",
+          "type": "DOSE_UNIT",
+          "section": "medications_allergies",
+          "original_text": "Priadel (lithium carbonate) 800 mg at night.",
+          "mutated_text": "Priadel (lithium carbonate) 800 mg twice daily.",
+          "evidence_turns": [
+            14
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Doubling the lithium dose, on top of recent NSAID use, risks lithium toxicity with kidney and neurological damage.",
+          "description": "Lithium dose doubled"
+        },
+        {
+          "error_id": "case_15_a_e2",
+          "type": "CORRECTION_LOST",
+          "section": "history",
+          "original_text": "Took naproxen (his brother's) for back pain for 3–4 days last week, initially recalled as ibuprofen.",
+          "mutated_text": "Took ibuprofen for back pain for 3–4 days last week.",
+          "evidence_turns": [
+            19
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "He corrected ibuprofen to naproxen; both are NSAIDs and need the same advice, but the record no longer shows he took someone else's medicine.",
+          "description": "NSAID kept as the one the patient corrected"
+        },
+        {
+          "error_id": "case_15_a_e3",
+          "type": "OMIT_SAFETY",
+          "section": "history",
+          "original_text": " Wife reports reduced sleep (about 5 hours) and increased talkativeness and new projects over the last week, which preceded his previous relapse.",
+          "mutated_text": "",
+          "evidence_turns": [
+            10
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The wife's collateral is the only evidence of early relapse; without it, the CMHT referral and sleep plan look unfounded and may be dropped.",
+          "description": "Wife's warning signs of relapse dropped"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_15_b",
+      "mutations": [
+        {
+          "error_id": "case_15_b_e1",
+          "type": "NEGATION",
+          "section": "history",
+          "original_text": "No diarrhoea, vomiting, unsteadiness or confusion.",
+          "mutated_text": "Reports diarrhoea and unsteadiness; no vomiting or confusion.",
+          "evidence_turns": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Recorded toxicity symptoms that were denied contradict the plan to continue lithium and could prompt unnecessary emergency attendance or stopping lithium.",
+          "description": "Denied toxicity symptoms recorded as present"
+        },
+        {
+          "error_id": "case_15_b_e2",
+          "type": "TEMPORAL",
+          "section": "examination",
+          "original_text": "lithium level last month 0.7 mmol/L",
+          "mutated_text": "lithium level today 0.7 mmol/L",
+          "evidence_turns": [
+            32
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "A level recorded as today's falsely suggests it was checked after the NSAID exposure, so the repeat level may be cancelled.",
+          "description": "Last month's lithium level recorded as today's"
+        },
+        {
+          "error_id": "case_15_b_e3",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Repeat lithium level in 1 week (12 hours post-dose) because of NSAID exposure, then 3-monthly.",
+          "mutated_text": "Repeat lithium level in 3 months.",
+          "evidence_turns": [
+            36
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Without the early repeat level, a rise in lithium after NSAID use may go undetected until toxicity develops.",
+          "description": "One-week lithium recheck changed to three months"
+        },
+        {
+          "error_id": "case_15_b_e4",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "Fine tremor of both hands, unchanged.",
+          "mutated_text": "Fine tremor of both hands, unchanged. No goitre.",
+          "evidence_turns": [
+            34
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The neck was not examined; with normal thyroid function, a recorded absence of goitre is unlikely to cause harm.",
+          "description": "Thyroid examination recorded that was never done"
+        }
+      ]
+    }
+  ]
+}

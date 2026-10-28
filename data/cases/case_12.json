@@ -1,0 +1,384 @@
+{
+  "case_id": "case_12",
+  "setting": "GP_PAEDS",
+  "title": "Teenager with knee pain after football",
+  "clinician_reviewed": false,
+  "has_correction": false,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hi, Ethan. Hi, come in. And you're Mum?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Relative",
+      "text": "Yes, Nicola."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "What can I do for you, Ethan?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Patient",
+      "text": "My knee's been hurting. Just below the kneecap."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "Which knee?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Patient",
+      "text": "The right one."
+    },
+    {
+      "turn": 7,
+      "speaker": "Clinician",
+      "text": "How long has it been sore?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Patient",
+      "text": "About two months."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "Did you injure it?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Patient",
+      "text": "Not really. It just started hurting after football."
+    },
+    {
+      "turn": 11,
+      "speaker": "Clinician",
+      "text": "How much football do you play?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Patient",
+      "text": "Training three times a week, and a match on Saturdays."
+    },
+    {
+      "turn": 13,
+      "speaker": "Relative",
+      "text": "And PE at school."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "When is it worst?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Patient",
+      "text": "During and after football. And kneeling on it really hurts."
+    },
+    {
+      "turn": 16,
+      "speaker": "Clinician",
+      "text": "Does it ever wake you up at night?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 18,
+      "speaker": "Clinician",
+      "text": "Is it sore when you're resting?"
+    },
+    {
+      "turn": 19,
+      "speaker": "Patient",
+      "text": "Not really, only after sport."
+    },
+    {
+      "turn": 20,
+      "speaker": "Clinician",
+      "text": "Any swelling of the knee, or does it lock or give way?"
+    },
+    {
+      "turn": 21,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 22,
+      "speaker": "Clinician",
+      "text": "Any pain in your hip or your thigh?"
+    },
+    {
+      "turn": 23,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 24,
+      "speaker": "Clinician",
+      "text": "Any fevers, or losing weight, or feeling unwell?"
+    },
+    {
+      "turn": 25,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 26,
+      "speaker": "Clinician",
+      "text": "Are you limping at all?"
+    },
+    {
+      "turn": 27,
+      "speaker": "Patient",
+      "text": "Only after a match."
+    },
+    {
+      "turn": 28,
+      "speaker": "Relative",
+      "text": "His brother had exactly this when he was fourteen. It was Osgood-something."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "That's useful to know. Has Ethan had any problems with his joints before?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Relative",
+      "text": "No, nothing."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "Any medicines or allergies?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "Any asthma, or stomach problems?"
+    },
+    {
+      "turn": 34,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "Okay, can you lie on the couch for me? I'm going to feel around your knee. There's a tender bony lump just below the kneecap, on the right shin bone. That's called the tibial tuberosity."
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "Ow, yeah, that's the spot."
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "There's no fluid in the knee. You can bend and straighten it fully. The ligaments feel stable. Let me check your hips. I'm moving your right hip around, and the left. Any pain?"
+    },
+    {
+      "turn": 38,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "Both hips have a full range of movement with no pain. Can you walk to the door and back? That's a normal walk."
+    },
+    {
+      "turn": 40,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "This is Osgood-Schlatter disease, like your brother had. It's an irritation where the tendon from your kneecap attaches to your shin bone. It's very common in active teenagers having a growth spurt, and it settles as you finish growing."
+    },
+    {
+      "turn": 42,
+      "speaker": "Patient",
+      "text": "Do I have to stop football?"
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "Not completely. Cut down for a few weeks. Let the pain guide you. If it hurts a lot during or after, do less."
+    },
+    {
+      "turn": 44,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 45,
+      "speaker": "Clinician",
+      "text": "Ice it for 15 minutes after sport. For pain you can take paracetamol, or ibuprofen 400 milligrams up to three times a day with food."
+    },
+    {
+      "turn": 46,
+      "speaker": "Relative",
+      "text": "Okay."
+    },
+    {
+      "turn": 47,
+      "speaker": "Clinician",
+      "text": "I'll refer you to physiotherapy for some stretching exercises for your thigh muscles."
+    },
+    {
+      "turn": 48,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 49,
+      "speaker": "Clinician",
+      "text": "If it hasn't settled in six to eight weeks, come back. But come back sooner if the pain wakes you at night, the knee swells up, you get a fever, start limping all the time, or get pain in your hip."
+    },
+    {
+      "turn": 50,
+      "speaker": "Relative",
+      "text": "Okay, thank you."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Pain below the right kneecap for 2 months.",
+    "history": "Gradual onset without specific injury; plays football (training three times a week plus matches) and school PE. Pain during and after sport and on kneeling. No night pain. No rest pain. No swelling, locking or giving way. No hip or thigh pain. No fever or weight loss. Limps only after matches. Older brother had Osgood-Schlatter disease at a similar age. No previous joint problems.",
+    "medications_allergies": "No regular medications. No known drug allergies. No asthma or peptic ulcer disease.",
+    "examination": "Tender bony prominence over the right tibial tuberosity. No knee effusion. Full range of knee movement; ligaments stable. Both hips: full, pain-free range of movement. Normal gait.",
+    "impression": "Osgood-Schlatter disease of the right knee. No red flags.",
+    "plan": "Activity modification guided by pain. Ice for 15 minutes after sport. Paracetamol or ibuprofen 400 mg up to three times daily with food as needed. Refer to physiotherapy for quadriceps and hamstring stretching. Review if not settling in 6–8 weeks.",
+    "safety_netting": "Return sooner if night pain, knee swelling, fever, persistent limp or hip pain."
+  },
+  "variants": [
+    {
+      "variant_id": "case_12_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_12_a",
+      "mutations": [
+        {
+          "error_id": "case_12_a_e1",
+          "type": "LATERALITY",
+          "section": "examination",
+          "original_text": "Tender bony prominence over the right tibial tuberosity.",
+          "mutated_text": "Tender bony prominence over the left tibial tuberosity.",
+          "evidence_turns": [
+            6,
+            35
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "A wrong-side examination finding could misdirect any later imaging, though the patient would point to the correct knee.",
+          "description": "Tender spot recorded on the wrong knee"
+        },
+        {
+          "error_id": "case_12_a_e2",
+          "type": "NEGATION",
+          "section": "history",
+          "original_text": "No night pain.",
+          "mutated_text": "Pain wakes him at night.",
+          "evidence_turns": [
+            16,
+            17
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 4,
+          "seeded_rationale": "Night pain is a red flag for bone tumour or infection in adolescents; recording it would trigger urgent imaging and referral that are not needed.",
+          "description": "Absent night pain recorded as present"
+        },
+        {
+          "error_id": "case_12_a_e3",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "Older brother had Osgood-Schlatter disease at a similar age.",
+          "mutated_text": "Had Osgood-Schlatter disease in the other knee last year.",
+          "evidence_turns": [
+            28
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The brother's history recorded as Ethan's gives him a false prior diagnosis and bilateral disease.",
+          "description": "Brother's knee condition recorded as the patient's"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_12_b",
+      "mutations": [
+        {
+          "error_id": "case_12_b_e1",
+          "type": "TEMPORAL",
+          "section": "presenting_complaint",
+          "original_text": "for 2 months",
+          "mutated_text": "for 2 days",
+          "evidence_turns": [
+            8
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "An acute two-day history suggests injury and may prompt unnecessary X-ray or orthopaedic referral.",
+          "description": "Pain duration shortened from two months to two days"
+        },
+        {
+          "error_id": "case_12_b_e2",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "No knee effusion.",
+          "mutated_text": "No knee effusion. X-ray of the knee normal.",
+          "evidence_turns": [
+            37
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "No X-ray was taken; a recorded normal X-ray falsely reassures that bone pathology has been excluded if red flags develop.",
+          "description": "Knee X-ray recorded that was never done"
+        },
+        {
+          "error_id": "case_12_b_e3",
+          "type": "OMIT_SAFETY",
+          "section": "safety_netting",
+          "original_text": "Return sooner if night pain, knee swelling, fever, persistent limp or hip pain.",
+          "mutated_text": "",
+          "evidence_turns": [
+            49
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Red-flag advice for bone tumour, infection and slipped upper femoral epiphysis was given but is undocumented.",
+          "description": "Red-flag safety-netting dropped"
+        },
+        {
+          "error_id": "case_12_b_e4",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "ibuprofen 400 mg up to three times daily",
+          "mutated_text": "ibuprofen 800 mg up to three times daily",
+          "evidence_turns": [
+            45
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Double the intended ibuprofen dose in a teenager increases gastrointestinal and renal risk and exceeds usual over-the-counter dosing.",
+          "description": "Ibuprofen dose doubled"
+        }
+      ]
+    }
+  ]
+}

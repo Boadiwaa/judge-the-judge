@@ -1,0 +1,373 @@
+{
+  "case_id": "case_18",
+  "setting": "OUTPATIENT",
+  "title": "COPD clinic: more breathless",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Good morning, Mr Ashdown-Pryce. I'm Dr Nwosu from the respiratory team. And you've brought...?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "My wife, Valerie."
+    },
+    {
+      "turn": 3,
+      "speaker": "Relative",
+      "text": "Hello."
+    },
+    {
+      "turn": 4,
+      "speaker": "Clinician",
+      "text": "Lovely. How have things been since we last saw you?"
+    },
+    {
+      "turn": 5,
+      "speaker": "Patient",
+      "text": "Not great. I'm more breathless. I have to stop halfway up the hill to the shops now."
+    },
+    {
+      "turn": 6,
+      "speaker": "Clinician",
+      "text": "How about on the flat?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Patient",
+      "text": "I can walk on the flat at my own pace, but I'm slower than Valerie."
+    },
+    {
+      "turn": 8,
+      "speaker": "Clinician",
+      "text": "Any cough or phlegm?"
+    },
+    {
+      "turn": 9,
+      "speaker": "Patient",
+      "text": "A cough most mornings, with white phlegm."
+    },
+    {
+      "turn": 10,
+      "speaker": "Clinician",
+      "text": "How many flare-ups have you had in the last year, where you needed steroid tablets or antibiotics?"
+    },
+    {
+      "turn": 11,
+      "speaker": "Patient",
+      "text": "Two. One in January, and one in the summer."
+    },
+    {
+      "turn": 12,
+      "speaker": "Clinician",
+      "text": "Both needed prednisolone?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Patient",
+      "text": "Yes, both times. The summer one needed antibiotics as well."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "Any hospital admissions?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 16,
+      "speaker": "Clinician",
+      "text": "Any swelling in your ankles?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 18,
+      "speaker": "Relative",
+      "text": "That's me. I'm the one with the swollen ankles. His are fine."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "Thanks, Valerie. Any chest pain, or coughing up blood?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Any weight loss?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "No, I've been steady."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "And you stopped smoking, is that right?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "Six months ago. I haven't had one since."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "Well done, that's the single best thing you can do. How much did you smoke, and for how long?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Patient",
+      "text": "Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Thirty, then. What inhalers are you using?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Patient",
+      "text": "The Anoro one, once a day. And the blue one, maybe twice a day."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "Can you show me how you use the Anoro?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "(demonstrates)"
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "That's good technique. Have you had your flu jab and the pneumonia jab?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "Both, at the surgery."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "Any other medicines? Allergies?"
+    },
+    {
+      "turn": 34,
+      "speaker": "Patient",
+      "text": "Just the inhalers. No allergies."
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "Let me examine you. Your oxygen level is 93 percent on air. Your breathing rate is 20. Let me listen. There's some wheeze on both sides, and some coarse crackles at the bottom of your left lung, at the left base."
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "Is that new?"
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "It wasn't noted last time. Your breathing test today shows an FEV1 of 52 percent of predicted, a bit lower than last year. And your blood eosinophil count last month was 0.35."
+    },
+    {
+      "turn": 38,
+      "speaker": "Patient",
+      "text": "What does that mean?"
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "It means you might benefit from adding a steroid to your inhalers, because you're still having flare-ups. I'd like to switch the Anoro to Trelegy, one puff once a day. It has the same two medicines plus an inhaled steroid."
+    },
+    {
+      "turn": 40,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "I'd also like to refer you to pulmonary rehabilitation. It's an exercise and education programme, and it really helps with breathlessness."
+    },
+    {
+      "turn": 42,
+      "speaker": "Patient",
+      "text": "I've heard of it. I'll give it a go."
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "Because of the crackles at the left base, I'd like a chest X-ray today, before you go."
+    },
+    {
+      "turn": 44,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 45,
+      "speaker": "Clinician",
+      "text": "I'll see you back in clinic in three months."
+    },
+    {
+      "turn": 46,
+      "speaker": "Patient",
+      "text": "Thank you."
+    },
+    {
+      "turn": 47,
+      "speaker": "Clinician",
+      "text": "If you have a flare-up, with more breathlessness, more phlegm or a change in its colour, contact your GP the same day. If you're very breathless, call 999."
+    },
+    {
+      "turn": 48,
+      "speaker": "Patient",
+      "text": "Okay."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Worsening exertional breathlessness, COPD.",
+    "history": "MRC dyspnoea grade 3. Morning cough with white sputum. Two exacerbations requiring oral steroids in the last 12 months (one also needed antibiotics); no hospital admissions. No ankle swelling. No chest pain, haemoptysis or weight loss. Ex-smoker for 6 months, approximately 30 pack-years. Good inhaler technique with Anoro. Had flu and pneumococcal vaccines.",
+    "medications_allergies": "Anoro Ellipta (umeclidinium/vilanterol) one inhalation once daily. Salbutamol as needed (about twice daily). No known drug allergies.",
+    "examination": "SpO2 93% on air, RR 20. Bilateral wheeze. Coarse crackles at the left base (new). Spirometry: FEV1 52% predicted (lower than last year). Blood eosinophils 0.35 × 10⁹/L.",
+    "impression": "COPD with frequent exacerbations despite LAMA/LABA; eosinophils ≥0.3, suitable for triple therapy. New focal crackles at the left base.",
+    "plan": "Switch Anoro to Trelegy Ellipta one inhalation once daily. Refer to pulmonary rehabilitation. Chest X-ray today. Clinic review in 3 months.",
+    "safety_netting": "Contact GP the same day if increased breathlessness, sputum volume or change in sputum colour. Call 999 if severely breathless."
+  },
+  "variants": [
+    {
+      "variant_id": "case_18_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_18_a",
+      "mutations": [
+        {
+          "error_id": "case_18_a_e1",
+          "type": "LATERALITY",
+          "section": "examination",
+          "original_text": "Coarse crackles at the left base (new).",
+          "mutated_text": "Coarse crackles at the right base (new).",
+          "evidence_turns": [
+            35
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The new focal finding is the reason for the chest X-ray; the wrong side could misdirect the request and comparison with the film.",
+          "description": "New crackles recorded on the wrong side"
+        },
+        {
+          "error_id": "case_18_a_e2",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "No ankle swelling.",
+          "mutated_text": "Reports ankle swelling.",
+          "evidence_turns": [
+            16,
+            18
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The wife's ankle swelling recorded as the patient's suggests cor pulmonale or heart failure and may trigger unnecessary investigations.",
+          "description": "Wife's ankle swelling recorded as the patient's"
+        },
+        {
+          "error_id": "case_18_a_e3",
+          "type": "CORRECTION_LOST",
+          "section": "history",
+          "original_text": "approximately 30 pack-years",
+          "mutated_text": "approximately 40 pack-years",
+          "evidence_turns": [
+            26
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The corrected smoking history changes little in management for an established COPD patient.",
+          "description": "Smoking history kept at the figure the patient corrected"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_18_b",
+      "mutations": [
+        {
+          "error_id": "case_18_b_e1",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "Coarse crackles at the left base (new).",
+          "mutated_text": "Coarse crackles at the left base (new). Chest X-ray last month clear.",
+          "evidence_turns": [
+            37
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "No recent X-ray exists; a recorded clear film could lead to the requested X-ray for new crackles being cancelled, missing pneumonia or cancer.",
+          "description": "Recent chest X-ray recorded that was never done"
+        },
+        {
+          "error_id": "case_18_b_e2",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Refer to pulmonary rehabilitation.",
+          "mutated_text": "Pulmonary rehabilitation offered but declined.",
+          "evidence_turns": [
+            42
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Recording a refusal he never made means the rehabilitation referral is not sent, losing the intervention with the best evidence for breathlessness.",
+          "description": "Rehab referral recorded as declined"
+        },
+        {
+          "error_id": "case_18_b_e3",
+          "type": "OMIT_OTHER",
+          "section": "history",
+          "original_text": " Had flu and pneumococcal vaccines.",
+          "mutated_text": "",
+          "evidence_turns": [
+            32
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Vaccination status is useful but is recorded elsewhere in primary care.",
+          "description": "Vaccination status dropped"
+        },
+        {
+          "error_id": "case_18_b_e4",
+          "type": "TEMPORAL",
+          "section": "history",
+          "original_text": "in the last 12 months",
+          "mutated_text": "in the last 5 years",
+          "evidence_turns": [
+            11
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Two exacerbations in a year is the indication for stepping up to triple therapy; spread over five years, the step-up looks unjustified and may be reversed.",
+          "description": "Exacerbations recorded as over five years"
+        }
+      ]
+    }
+  ]
+}

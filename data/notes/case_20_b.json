@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_20_b",
+  "case_id": "case_20",
+  "sections": {
+    "presenting_complaint": "First seizure 3 weeks ago.",
+    "history": "Recalls the arm jerking and the whole event. Witnessed by wife: went quiet, then left arm jerking for a few seconds, followed by generalised stiffening and shaking lasting about 5 minutes. Perioral cyanosis, lateral tongue bite, urinary incontinence. Post-ictal confusion for about 20 minutes. Preceded by sleep deprivation after four consecutive night shifts. No alcohol that day; a few pints at weekends. No drug use. No previous seizures, myoclonic jerks or absences. No head injury or CNS infection. No family history of epilepsy. Works as a warehouse supervisor. Drives.",
+    "medications_allergies": "No regular medications. No known drug allergies.",
+    "examination": "Neurological examination normal. CT head and EEG in ED normal. Bloods normal.",
+    "impression": "First generalised tonic-clonic seizure, possibly of focal onset (left arm, suggesting right hemisphere), provoked in part by sleep deprivation.",
+    "plan": "No further investigations needed. No antiseizure medication at present. Must not drive; patient to inform the DVLA (usually 6 months off driving after a first seizure). Safety advice: showers not baths, no swimming alone, avoid heights, regular sleep. Seizure first aid explained to wife. Clinic review with results in about 6 weeks.",
+    "safety_netting": "If a further seizure: recovery position, time it, call 999 if longer than 5 minutes or injured."
+  }
+}

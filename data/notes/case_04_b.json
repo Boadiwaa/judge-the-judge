@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_04_b",
+  "case_id": "case_04",
+  "sections": {
+    "presenting_complaint": "Recurrent headaches for 6 days.",
+    "history": "Two to three episodes per month. Preceded by visual aura (shimmering zigzag lines to one side) lasting about an hour. Followed by unilateral, usually left-sided, throbbing headache with nausea and photophobia, lasting most of the day. No focal weakness, numbness or speech disturbance. No thunderclap headache. Not worse on lying down, coughing or straining. No fever or neck stiffness. Mother has migraine without aura. Non-smoker.",
+    "medications_allergies": "Combined oral contraceptive (Rigevidon) for 4 years. Paracetamol as needed. No known drug allergies.",
+    "examination": "BP 118/76. Fundi normal. Neurological examination normal.",
+    "impression": "Migraine with aura. Combined hormonal contraception contraindicated (UKMEC 4).",
+    "plan": "Continue combined pill. Sumatriptan 50 mg at headache onset (not during aura); may repeat after 2 hours, maximum 300 mg in 24 hours; may take with paracetamol. Limit acute treatment to 2\u20133 days per week to avoid medication-overuse headache. Headache diary. Review in 6 weeks.",
+    "safety_netting": "Call 999 or attend A&E if sudden severe headache, one-sided weakness or numbness, speech difficulty, or headache with fever and neck stiffness."
+  }
+}

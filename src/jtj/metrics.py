@@ -58,10 +58,11 @@ def compute_all(cases: list[Case], outputs_dir: Path, judges=("J0", "J1", "J2"),
             turn_text = None if strict_spec_matching else {t.turn: t.text for t in c.transcript}
             for v in c.variants:
                 rec = outs.get(v.variant_id)
-                if rec is None or rec.get("output") is None:
-                    if rec is not None:
-                        parse_failures.append(v.variant_id)
-                    # no output => every seeded error counts as missed (conservative; DECISIONS D-04)
+                if rec is None:
+                    continue  # note not yet judged: excluded from this judge's denominators
+                if rec.get("output") is None:
+                    parse_failures.append(v.variant_id)
+                    # parse failure => every seeded error counts as missed (conservative; DECISIONS D-04)
                     for m in v.mutations:
                         det[m.error_id] = {"detected": False, "finding": None, "no_output": True}
                     continue
@@ -79,15 +80,16 @@ def compute_all(cases: list[Case], outputs_dir: Path, judges=("J0", "J1", "J2"),
                     clean_flags.append(len(nm.unmatched))
         matches[j] = det
 
+        judged = [e for e in errors if e["error_id"] in det]  # errors in notes this judge has seen
         hit = lambda subset: [e["error_id"] for e in subset if det[e["error_id"]]["detected"]]
         ids = lambda subset: [e["error_id"] for e in subset]
-        high = [e for e in errors if e["tier"] in HIGH_TIERS]
-        by_type = {t: _prop(hit(s), ids(s)) for t in ERROR_TYPES if (s := [e for e in errors if e["type"] == t])}
-        by_tier = {t: _prop(hit(s), ids(s)) for t in TIERS if (s := [e for e in errors if e["tier"] == t])}
+        high = [e for e in judged if e["tier"] in HIGH_TIERS]
+        by_type = {t: _prop(hit(s), ids(s)) for t in ERROR_TYPES if (s := [e for e in judged if e["type"] == t])}
+        by_tier = {t: _prop(hit(s), ids(s)) for t in TIERS if (s := [e for e in judged if e["tier"] == t])}
 
         # severity agreement on detected errors that carry a judge severity
         pairs = [(e["case_id"], e["severity"], det[e["error_id"]]["finding"]["severity"])
-                 for e in errors if det[e["error_id"]]["detected"] and det[e["error_id"]]["finding"]["severity"]]
+                 for e in judged if det[e["error_id"]]["detected"] and det[e["error_id"]]["finding"]["severity"]]
         sev = {"n": len(pairs)}
         if len(pairs) >= 5:
             cats = [1, 2, 3, 4, 5]
@@ -99,7 +101,7 @@ def compute_all(cases: list[Case], outputs_dir: Path, judges=("J0", "J1", "J2"),
 
         per_judge[j] = {
             "primary": _prop(hit(high), ids(high)),
-            "overall": _prop(hit(errors), ids(errors)),
+            "overall": _prop(hit(judged), ids(judged)),
             "by_type": by_type,
             "by_tier": by_tier,
             "severity_agreement": sev,
@@ -113,7 +115,8 @@ def compute_all(cases: list[Case], outputs_dir: Path, judges=("J0", "J1", "J2"),
     comparisons = []
     for a in ("J2", "J1"):
         if a in matches and "J0" in matches:
-            for scope, subset in (("high", [e for e in errors if e["tier"] in HIGH_TIERS]), ("all", errors)):
+            both = [e for e in errors if e["error_id"] in matches[a] and e["error_id"] in matches["J0"]]
+            for scope, subset in (("high", [e for e in both if e["tier"] in HIGH_TIERS]), ("all", both)):
                 r = stats.mcnemar_from_pairs([matches[a][e["error_id"]]["detected"] for e in subset],
                                              [matches["J0"][e["error_id"]]["detected"] for e in subset])
                 comparisons.append({"a": a, "b": "J0", "scope": scope, **r})
@@ -126,7 +129,7 @@ def compute_all(cases: list[Case], outputs_dir: Path, judges=("J0", "J1", "J2"),
     for e in sorted(errors, key=lambda e: -e["score"]):
         if e["tier"] != "Very high":
             continue
-        missed_by = [j for j in available if not matches[j][e["error_id"]]["detected"]]
+        missed_by = [j for j in available if e["error_id"] in matches[j] and not matches[j][e["error_id"]]["detected"]]
         if missed_by:
             dangerous.append({**e, "missed_by": missed_by})
 

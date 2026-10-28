@@ -1,0 +1,353 @@
+{
+  "case_id": "case_08",
+  "setting": "ED",
+  "title": "Wheeze and breathlessness",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hi, I'm Dr Farrant. You're Keturah?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "Yes."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "I can hear you're a bit wheezy. Take your time. What's been happening?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Patient",
+      "text": "I've had a cold for a few days, and since yesterday my asthma's gone really bad."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "How often have you been using your blue inhaler?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Patient",
+      "text": "About twice a day."
+    },
+    {
+      "turn": 7,
+      "speaker": "Clinician",
+      "text": "Is that right?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Patient",
+      "text": "Honestly, no. Since last night it's been every two hours, maybe more."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "Thank you for being honest, that's important. Does it help?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Patient",
+      "text": "For about an hour, then it comes back."
+    },
+    {
+      "turn": 11,
+      "speaker": "Clinician",
+      "text": "Are you on a brown or purple preventer inhaler as well?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Patient",
+      "text": "The brown one, Clenil. I'm meant to take it twice a day, but I forget a lot."
+    },
+    {
+      "turn": 13,
+      "speaker": "Clinician",
+      "text": "What dose is it?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Patient",
+      "text": "100. Two puffs."
+    },
+    {
+      "turn": 15,
+      "speaker": "Clinician",
+      "text": "Have you ever been in hospital with your asthma?"
+    },
+    {
+      "turn": 16,
+      "speaker": "Patient",
+      "text": "Once, about three years ago. I was in for two nights."
+    },
+    {
+      "turn": 17,
+      "speaker": "Clinician",
+      "text": "Did you ever need intensive care, or a breathing tube?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Patient",
+      "text": "No, never."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "Any chest pain, or coughing up anything?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Patient",
+      "text": "Just a tight chest. A bit of clear phlegm."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Any fevers?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "I was a bit hot a couple of days ago, with the cold."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "Do you smoke?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "No, but I vape every day."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "Any other medicines?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Any allergies?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Patient",
+      "text": "Aspirin. It makes my chest go tight. I had to go to hospital once after taking it."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "That's really important, thank you. So no aspirin or anti-inflammatories like ibuprofen for you. Let me examine you. You're speaking in full sentences, which is good. Your breathing rate is 24, heart rate 108, oxygen levels 95 percent on air. I can hear wheeze all over your chest, on both sides, but air is getting in everywhere. Can you blow into this peak flow meter for me?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "(blows)"
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "That's 250. What's your best?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "About 450."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "So that's about 55 percent of your best. This is a moderate asthma attack. We'll give you a nebuliser now with salbutamol, five milligrams, and I'm going to start you on steroid tablets, prednisolone, 40 milligrams once a day for five days."
+    },
+    {
+      "turn": 34,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "Let's see how you are after the nebuliser."
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "(later) That's much better."
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "Your peak flow is now 380, about 84 percent of your best, and your breathing rate is 18. Oxygen 98 percent. That's a good response."
+    },
+    {
+      "turn": 38,
+      "speaker": "Patient",
+      "text": "Can I go home?"
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "If you stay this well for the next hour, yes. Before you go, the nurse will check how you use your inhalers. It's really important to use the brown one every day, even when you feel well."
+    },
+    {
+      "turn": 40,
+      "speaker": "Patient",
+      "text": "I know. I'll try."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "I want you to see your GP or asthma nurse within two working days, to review your inhalers and make an asthma action plan."
+    },
+    {
+      "turn": 42,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "If you need your blue inhaler more than every four hours, if you're too breathless to speak, or your lips go blue, call 999 straight away."
+    },
+    {
+      "turn": 44,
+      "speaker": "Patient",
+      "text": "Okay, thank you."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Worsening wheeze and breathlessness since yesterday, with a viral upper respiratory infection.",
+    "history": "Initially reported using salbutamol twice a day; on questioning, using salbutamol every 2 hours since last night, with only brief relief. Prescribed Clenil 100 micrograms two puffs twice daily but adherence poor. Tight chest, small amount of clear sputum; feverish two days ago. One previous hospital admission 3 years ago (two nights); never required intensive care. Uses an e-cigarette daily.",
+    "medications_allergies": "Salbutamol inhaler as required. Clenil (beclometasone) 100 micrograms, two puffs twice daily. Aspirin allergy (bronchospasm, previously needed hospital treatment); avoid NSAIDs.",
+    "examination": "Speaking in full sentences. RR 24, HR 108, SpO2 95% on air. Widespread bilateral wheeze with good air entry. PEF 250 L/min (best 450, about 55%). After salbutamol 5 mg nebulised: PEF 380 (about 84%), RR 18, SpO2 98%.",
+    "impression": "Moderate acute asthma exacerbation triggered by a viral infection; good response to bronchodilator. Poor preventer adherence.",
+    "plan": "Prednisolone 40 mg once daily for 5 days. Inhaler technique check before discharge. Discharge if stable after one hour of observation. GP or asthma nurse review within 2 working days for inhaler review and asthma action plan.",
+    "safety_netting": "Call 999 if salbutamol needed more often than every 4 hours, too breathless to speak, or blue lips."
+  },
+  "variants": [
+    {
+      "variant_id": "case_08_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_08_a",
+      "mutations": [
+        {
+          "error_id": "case_08_a_e1",
+          "type": "CORRECTION_LOST",
+          "section": "history",
+          "original_text": "Initially reported using salbutamol twice a day; on questioning, using salbutamol every 2 hours since last night, with only brief relief.",
+          "mutated_text": "Using salbutamol twice a day.",
+          "evidence_turns": [
+            6,
+            8
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Two-hourly reliever use marks a severe exacerbation; the original figure understates severity and could lead to premature discharge or inadequate follow-up.",
+          "description": "Reliever use kept at the figure the patient corrected"
+        },
+        {
+          "error_id": "case_08_a_e2",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "Prednisolone 40 mg once daily for 5 days.",
+          "mutated_text": "Prednisolone 4 mg once daily for 5 days.",
+          "evidence_turns": [
+            33
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "A tenth of the intended steroid dose is inadequate to treat the exacerbation, increasing the risk of relapse and re-attendance.",
+          "description": "Prednisolone dose a tenth of intended"
+        },
+        {
+          "error_id": "case_08_a_e3",
+          "type": "OMIT_SAFETY",
+          "section": "medications_allergies",
+          "original_text": " Aspirin allergy (bronchospasm, previously needed hospital treatment); avoid NSAIDs.",
+          "mutated_text": "",
+          "evidence_turns": [
+            28
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Aspirin-sensitive asthma means NSAIDs can trigger a severe attack; without the allergy recorded she may be given ibuprofen.",
+          "description": "Aspirin allergy dropped from an asthma note"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_08_b",
+      "mutations": [
+        {
+          "error_id": "case_08_b_e1",
+          "type": "NEGATION",
+          "section": "examination",
+          "original_text": "Speaking in full sentences.",
+          "mutated_text": "Unable to complete sentences.",
+          "evidence_turns": [
+            29
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Inability to complete sentences is a feature of acute severe asthma; the record overstates severity and contradicts the decision to discharge.",
+          "description": "Speaking in full sentences recorded as unable"
+        },
+        {
+          "error_id": "case_08_b_e2",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "GP or asthma nurse review within 2 working days",
+          "mutated_text": "GP review in 4 weeks",
+          "evidence_turns": [
+            41
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Guidelines recommend review within two working days after an exacerbation; a four-week gap misses the window to fix adherence and prevent relapse.",
+          "description": "Early asthma review pushed back to four weeks"
+        },
+        {
+          "error_id": "case_08_b_e3",
+          "type": "OMIT_OTHER",
+          "section": "history",
+          "original_text": " Uses an e-cigarette daily.",
+          "mutated_text": "",
+          "evidence_turns": [
+            24
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Vaping is relevant for counselling but unlikely to cause harm if missing.",
+          "description": "Vaping dropped"
+        },
+        {
+          "error_id": "case_08_b_e4",
+          "type": "TEMPORAL",
+          "section": "history",
+          "original_text": "One previous hospital admission 3 years ago",
+          "mutated_text": "One previous hospital admission 3 months ago",
+          "evidence_turns": [
+            16
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "A recent admission is a risk factor for severe attacks and may change disposition, but the error overstates rather than hides risk.",
+          "description": "Previous admission recorded as three months ago"
+        }
+      ]
+    }
+  ]
+}

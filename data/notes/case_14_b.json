@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_14_b",
+  "case_id": "case_14",
+  "sections": {
+    "presenting_complaint": "Panic attacks for 4 months.",
+    "history": "Recurrent panic attacks with palpitations, breathlessness, hand tingling and fear of dying, lasting about 10 minutes, now two to three times weekly and increasing. Anticipatory anxiety and generalised worry. Sleep satisfactory. Mood 'fed up' but not depressed. No thoughts of self-harm or suicide. Caffeine: about four coffees a day. Alcohol: a couple of glasses of wine at weekends. No drug use. Currently off work with stress. Thyroid function normal last month.",
+    "medications_allergies": "No regular medications. No known drug allergies.",
+    "examination": "GAD-7: 15. PHQ-9: 8.",
+    "impression": "Panic disorder with agoraphobic avoidance and generalised anxiety symptoms. No risk to self identified.",
+    "plan": "Self-referral details for NHS Talking Therapies (CBT). Start sertraline 25 mg once daily for 1 week, then 50 mg once daily; warned of possible initial increase in anxiety. Review in 3 months. Reduce caffeine gradually.",
+    "safety_netting": "If thoughts of self-harm, call NHS 111 (mental health option) or Samaritans 116 123."
+  }
+}

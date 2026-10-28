@@ -90,3 +90,13 @@ def test_strict_matching_misses_verbatim_omission(fixture):
 def test_no_outputs_is_pending(tmp_path):
     m = compute_all([make_case("fx_01")], tmp_path)["metrics"]
     assert m["status"] == "pending" and m["per_judge"] == {}
+
+
+def test_unjudged_notes_excluded_but_parse_failures_count_as_missed(fixture):
+    cases, d = fixture
+    (d / "J2" / "fx_02_a.json").unlink()  # never judged
+    (d / "J2" / "fx_02_b.json").write_text(json.dumps({"output": None, "error": "parse_failure"}))
+    m = compute_all(cases, d, judges=("J2",), n_boot=10)["metrics"]["per_judge"]["J2"]
+    assert m["primary"]["n"] == 2 and m["primary"]["k"] == 2  # only fx_01_a's high-risk errors
+    assert m["overall"]["n"] == 4 and m["overall"]["k"] == 3  # fx_02_b's error counted as missed
+    assert m["parse_failures"] == ["fx_02_b"]

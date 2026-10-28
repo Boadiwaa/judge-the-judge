@@ -1,0 +1,399 @@
+{
+  "case_id": "case_14",
+  "setting": "MENTAL_HEALTH",
+  "title": "Panic attacks and avoidance",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hi Siân, come in. And who's this?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "This is my partner, Tom. He's just here for support."
+    },
+    {
+      "turn": 3,
+      "speaker": "Relative",
+      "text": "Hi."
+    },
+    {
+      "turn": 4,
+      "speaker": "Clinician",
+      "text": "Hi, Tom. Siân, is it all right for Tom to be here while we talk?"
+    },
+    {
+      "turn": 5,
+      "speaker": "Patient",
+      "text": "Yes, that's fine."
+    },
+    {
+      "turn": 6,
+      "speaker": "Clinician",
+      "text": "What's been happening?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Patient",
+      "text": "I keep having these panic attacks. Out of nowhere. My heart races, I can't breathe, my hands tingle, and I honestly think I'm going to die."
+    },
+    {
+      "turn": 8,
+      "speaker": "Clinician",
+      "text": "That sounds really frightening. How long have they been happening?"
+    },
+    {
+      "turn": 9,
+      "speaker": "Patient",
+      "text": "About four months. Since around the start of summer."
+    },
+    {
+      "turn": 10,
+      "speaker": "Clinician",
+      "text": "How often?"
+    },
+    {
+      "turn": 11,
+      "speaker": "Patient",
+      "text": "Two or three times a week now. It's getting worse."
+    },
+    {
+      "turn": 12,
+      "speaker": "Clinician",
+      "text": "How long does each one last?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Patient",
+      "text": "Ten minutes or so, but I feel wiped out after."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "Have you changed what you do because of them?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Patient",
+      "text": "I avoid supermarkets now. And I won't get on the Underground. Tom does all the shopping."
+    },
+    {
+      "turn": 16,
+      "speaker": "Relative",
+      "text": "I don't mind. But she used to love going into town."
+    },
+    {
+      "turn": 17,
+      "speaker": "Clinician",
+      "text": "In between attacks, do you worry about having another one?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Patient",
+      "text": "All the time. And I worry about everything else too. Work, money, everything."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "How's your sleep?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Patient",
+      "text": "It's okay, actually. I get off to sleep fine."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "And your mood? Have you been feeling down or hopeless?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "A bit fed up, but not depressed, I don't think."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "I have to ask everyone this. Have you had any thoughts of harming yourself or ending your life?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "No. Never."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "Thank you. How much caffeine do you have? Coffee, tea, energy drinks?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Patient",
+      "text": "About four coffees a day. Well, six if I count the ones at work."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Six, then. Any alcohol?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Patient",
+      "text": "A couple of glasses of wine at the weekend."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "Any drugs?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "How are things at work?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "I'm managing. I work in marketing. I haven't had any time off."
+    },
+    {
+      "turn": 33,
+      "speaker": "Relative",
+      "text": "I'm actually off at the moment with stress myself. Work's been awful. It's not been an easy few months for either of us."
+    },
+    {
+      "turn": 34,
+      "speaker": "Clinician",
+      "text": "I'm sorry to hear that, Tom. It might be worth you speaking to your own GP too."
+    },
+    {
+      "turn": 35,
+      "speaker": "Relative",
+      "text": "Yeah, I've got an appointment."
+    },
+    {
+      "turn": 36,
+      "speaker": "Clinician",
+      "text": "Siân, have you had any problems with your heart or thyroid?"
+    },
+    {
+      "turn": 37,
+      "speaker": "Patient",
+      "text": "No. You checked my thyroid last month and it was normal."
+    },
+    {
+      "turn": 38,
+      "speaker": "Clinician",
+      "text": "Yes, I've got that here, it was normal. Any medicines? Any allergies?"
+    },
+    {
+      "turn": 39,
+      "speaker": "Patient",
+      "text": "No, nothing. No allergies."
+    },
+    {
+      "turn": 40,
+      "speaker": "Clinician",
+      "text": "Your questionnaire scores today: GAD-7 is 15 and PHQ-9 is 8. That fits with significant anxiety, with panic disorder, rather than depression."
+    },
+    {
+      "turn": 41,
+      "speaker": "Patient",
+      "text": "Okay. So what can I do?"
+    },
+    {
+      "turn": 42,
+      "speaker": "Clinician",
+      "text": "The treatment with the best evidence for panic disorder is a talking therapy called CBT. I'll give you the details to refer yourself to NHS Talking Therapies."
+    },
+    {
+      "turn": 43,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 44,
+      "speaker": "Clinician",
+      "text": "We could also try a medicine, an SSRI called sertraline, alongside the therapy. Would you like to?"
+    },
+    {
+      "turn": 45,
+      "speaker": "Patient",
+      "text": "I think so. I need something."
+    },
+    {
+      "turn": 46,
+      "speaker": "Clinician",
+      "text": "We start low because it can make anxiety a bit worse for the first week or two. Take 25 milligrams once a day for a week, then go up to 50 milligrams once a day."
+    },
+    {
+      "turn": 47,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 48,
+      "speaker": "Clinician",
+      "text": "I'd like to see you in two weeks to see how you're getting on with it."
+    },
+    {
+      "turn": 49,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 50,
+      "speaker": "Clinician",
+      "text": "It would also help to cut down the coffee gradually."
+    },
+    {
+      "turn": 51,
+      "speaker": "Patient",
+      "text": "That'll be hard."
+    },
+    {
+      "turn": 52,
+      "speaker": "Clinician",
+      "text": "Gradually is fine. And if you ever do have thoughts of harming yourself, call 111 and choose the mental health option, or the Samaritans on 116 123."
+    },
+    {
+      "turn": 53,
+      "speaker": "Patient",
+      "text": "Thank you."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Panic attacks for 4 months.",
+    "history": "Recurrent panic attacks with palpitations, breathlessness, hand tingling and fear of dying, lasting about 10 minutes, now two to three times weekly and increasing. Anticipatory anxiety and generalised worry. Avoids supermarkets and the Underground. Sleep satisfactory. Mood 'fed up' but not depressed. No thoughts of self-harm or suicide. Caffeine: about six coffees a day (initially said four). Alcohol: a couple of glasses of wine at weekends. No drug use. Works in marketing; no time off. Partner is off work with stress and has his own GP appointment. Thyroid function normal last month.",
+    "medications_allergies": "No regular medications. No known drug allergies.",
+    "examination": "GAD-7: 15. PHQ-9: 8.",
+    "impression": "Panic disorder with agoraphobic avoidance and generalised anxiety symptoms. No risk to self identified.",
+    "plan": "Self-referral details for NHS Talking Therapies (CBT). Start sertraline 25 mg once daily for 1 week, then 50 mg once daily; warned of possible initial increase in anxiety. Review in 2 weeks after starting sertraline. Reduce caffeine gradually.",
+    "safety_netting": "If thoughts of self-harm, call NHS 111 (mental health option) or Samaritans 116 123."
+  },
+  "variants": [
+    {
+      "variant_id": "case_14_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_14_a",
+      "mutations": [
+        {
+          "error_id": "case_14_a_e1",
+          "type": "NEGATION",
+          "section": "history",
+          "original_text": "No thoughts of self-harm or suicide.",
+          "mutated_text": "Reports thoughts of self-harm.",
+          "evidence_turns": [
+            23,
+            24
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Recorded self-harm thoughts that were denied would mislabel her risk and may trigger unnecessary crisis referral.",
+          "description": "Denied self-harm thoughts recorded as present"
+        },
+        {
+          "error_id": "case_14_a_e2",
+          "type": "TEMPORAL",
+          "section": "presenting_complaint",
+          "original_text": "for 4 months",
+          "mutated_text": "for 4 years",
+          "evidence_turns": [
+            9
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "A four-year history changes the picture to a chronic disorder, but management would be similar.",
+          "description": "Panic history recorded as four years"
+        },
+        {
+          "error_id": "case_14_a_e3",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "then 50 mg once daily",
+          "mutated_text": "then 150 mg once daily",
+          "evidence_turns": [
+            46
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Tripling the intended step-up dose increases side effects and early jitteriness, which can worsen panic and adherence.",
+          "description": "Sertraline step-up dose tripled"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_14_b",
+      "mutations": [
+        {
+          "error_id": "case_14_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "history",
+          "original_text": "Caffeine: about six coffees a day (initially said four).",
+          "mutated_text": "Caffeine: about four coffees a day.",
+          "evidence_turns": [
+            26
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The corrected caffeine intake is relevant to symptom triggers, but the difference is unlikely to cause harm.",
+          "description": "Caffeine intake kept at the figure the patient corrected"
+        },
+        {
+          "error_id": "case_14_b_e2",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "Works in marketing; no time off. Partner is off work with stress and has his own GP appointment.",
+          "mutated_text": "Currently off work with stress.",
+          "evidence_turns": [
+            32,
+            33
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The partner's sick leave recorded as the patient's misrepresents her functioning and could affect fit-note decisions.",
+          "description": "Partner's sick leave recorded as the patient's"
+        },
+        {
+          "error_id": "case_14_b_e3",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Review in 2 weeks after starting sertraline.",
+          "mutated_text": "Review in 3 months.",
+          "evidence_turns": [
+            48
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Early review after starting an SSRI checks for worsening anxiety and suicidal thoughts; a three-month gap removes that safety check.",
+          "description": "Two-week review after starting sertraline changed to three months"
+        },
+        {
+          "error_id": "case_14_b_e4",
+          "type": "OMIT_OTHER",
+          "section": "history",
+          "original_text": " Avoids supermarkets and the Underground.",
+          "mutated_text": "",
+          "evidence_turns": [
+            15
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Agoraphobic avoidance shapes CBT goals and the diagnosis, but its absence is unlikely to cause direct harm.",
+          "description": "Avoidance behaviour dropped"
+        }
+      ]
+    }
+  ]
+}

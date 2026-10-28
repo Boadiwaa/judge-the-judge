@@ -1,0 +1,374 @@
+{
+  "case_id": "case_04",
+  "setting": "GP_ADULT",
+  "title": "Headaches with flashing lights",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hi Delphine, come in. What's brought you in today?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "I've been getting these headaches, and they're getting more frequent. I wanted to get them checked."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "Of course. How long have you been getting them?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Patient",
+      "text": "About six months now. Maybe two or three a month."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "Can you describe one for me, from the beginning?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Patient",
+      "text": "It starts with my vision. I get these zigzag lines, shimmering, off to one side."
+    },
+    {
+      "turn": 7,
+      "speaker": "Clinician",
+      "text": "How long do the zigzags last?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Patient",
+      "text": "About an hour. Actually, no. I timed it last time, and it was twenty minutes, then it went."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "That's really helpful, twenty minutes. Then what happens?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Patient",
+      "text": "Then the headache comes. It's on one side, usually the left, and it throbs."
+    },
+    {
+      "turn": 11,
+      "speaker": "Clinician",
+      "text": "Anything else with it?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Patient",
+      "text": "I feel sick and I can't stand bright lights. I have to lie down in a dark room."
+    },
+    {
+      "turn": 13,
+      "speaker": "Clinician",
+      "text": "How long does the headache last?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Patient",
+      "text": "Most of the day. I'm wiped out the next day too."
+    },
+    {
+      "turn": 15,
+      "speaker": "Clinician",
+      "text": "Any weakness, numbness, or trouble speaking with them?"
+    },
+    {
+      "turn": 16,
+      "speaker": "Patient",
+      "text": "No, just the vision thing."
+    },
+    {
+      "turn": 17,
+      "speaker": "Clinician",
+      "text": "Have you ever had a sudden, severe headache, like being hit on the head, the worst ever?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Patient",
+      "text": "No, never."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "Are they worse when you lie down, cough or strain?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Any fevers or stiff neck?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "Does anyone in the family get migraines?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "My mum, but she never gets the lights."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "What are you taking for them?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Patient",
+      "text": "Paracetamol, but it doesn't do much."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Any other medicines? Are you on any contraception?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Patient",
+      "text": "The pill. Rigevidon. I've been on it about four years."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "Do you smoke?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "No, never."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "Any allergies?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "Okay. Let me check a few things. Your blood pressure is 118 over 76. I'll look at the back of your eyes. Those look normal. Follow my finger. Squeeze my hands. Your nervous system examination is completely normal."
+    },
+    {
+      "turn": 34,
+      "speaker": "Patient",
+      "text": "That's good."
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "It is. From what you've described, these are migraines with aura. The zigzags are the aura."
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "Okay. So is it something serious?"
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "Migraine itself isn't dangerous, but there's one important thing. With migraine with aura, the combined pill increases the risk of stroke, so it isn't safe for you to keep taking it."
+    },
+    {
+      "turn": 38,
+      "speaker": "Patient",
+      "text": "Oh. I didn't know that."
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "I'd like you to stop the Rigevidon and switch to a progestogen-only pill called desogestrel, 75 micrograms, one every day without a break. It doesn't carry that risk."
+    },
+    {
+      "turn": 40,
+      "speaker": "Patient",
+      "text": "Okay. Do I need extra protection?"
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "Yes. Use condoms for the first two days after starting desogestrel."
+    },
+    {
+      "turn": 42,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "For the headaches themselves, I'll prescribe sumatriptan, 50 milligrams. Take it as soon as the headache starts, not during the zigzags. If the headache comes back, you can take another after two hours, but no more than 300 milligrams in 24 hours. You can take it with paracetamol."
+    },
+    {
+      "turn": 44,
+      "speaker": "Patient",
+      "text": "All right."
+    },
+    {
+      "turn": 45,
+      "speaker": "Clinician",
+      "text": "Try not to use painkillers or sumatriptan on more than two or three days a week, because using them too often can actually cause more headaches. Keep a headache diary, and I'll see you in six weeks."
+    },
+    {
+      "turn": 46,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 47,
+      "speaker": "Clinician",
+      "text": "If you get a sudden severe headache, weakness or numbness on one side, difficulty speaking, or a headache with fever and a stiff neck, call 999 or go to A&E."
+    },
+    {
+      "turn": 48,
+      "speaker": "Patient",
+      "text": "Okay, thank you."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Recurrent headaches for 6 months.",
+    "history": "Two to three episodes per month. Preceded by visual aura (shimmering zigzag lines to one side) lasting about 20 minutes. Followed by unilateral, usually left-sided, throbbing headache with nausea and photophobia, lasting most of the day. No focal weakness, numbness or speech disturbance. No thunderclap headache. Not worse on lying down, coughing or straining. No fever or neck stiffness. Mother has migraine without aura. Non-smoker.",
+    "medications_allergies": "Combined oral contraceptive (Rigevidon) for 4 years. Paracetamol as needed. No known drug allergies.",
+    "examination": "BP 118/76. Fundi normal. Neurological examination normal.",
+    "impression": "Migraine with aura. Combined hormonal contraception contraindicated (UKMEC 4).",
+    "plan": "Stop combined pill; start desogestrel 75 micrograms once daily continuously. Use condoms for the first 2 days of desogestrel. Sumatriptan 50 mg at headache onset (not during aura); may repeat after 2 hours, maximum 300 mg in 24 hours; may take with paracetamol. Limit acute treatment to 2–3 days per week to avoid medication-overuse headache. Headache diary. Review in 6 weeks.",
+    "safety_netting": "Call 999 or attend A&E if sudden severe headache, one-sided weakness or numbness, speech difficulty, or headache with fever and neck stiffness."
+  },
+  "variants": [
+    {
+      "variant_id": "case_04_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_04_a",
+      "mutations": [
+        {
+          "error_id": "case_04_a_e1",
+          "type": "NEGATION",
+          "section": "history",
+          "original_text": "Preceded by visual aura (shimmering zigzag lines to one side) lasting about 20 minutes.",
+          "mutated_text": "Not preceded by aura.",
+          "evidence_turns": [
+            6,
+            8
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Without aura documented, the contraindication to the combined pill disappears from the record, and she or a future prescriber may restart it, raising stroke risk.",
+          "description": "Migraine aura recorded as absent"
+        },
+        {
+          "error_id": "case_04_a_e2",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "maximum 300 mg in 24 hours",
+          "mutated_text": "maximum 600 mg in 24 hours",
+          "evidence_turns": [
+            43
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Double the maximum daily sumatriptan raises the risk of vasoconstrictive adverse effects; most patients take far less.",
+          "description": "Sumatriptan daily maximum doubled"
+        },
+        {
+          "error_id": "case_04_a_e3",
+          "type": "OMIT_OTHER",
+          "section": "history",
+          "original_text": " Non-smoker.",
+          "mutated_text": "",
+          "evidence_turns": [
+            29,
+            30
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Smoking status is relevant to contraceptive risk but she does not smoke, so its absence is unlikely to cause harm.",
+          "description": "Smoking status dropped"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_04_b",
+      "mutations": [
+        {
+          "error_id": "case_04_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "history",
+          "original_text": "lasting about 20 minutes",
+          "mutated_text": "lasting about an hour",
+          "evidence_turns": [
+            8
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "She corrected an hour to twenty minutes; aura lasting over 60 minutes is atypical and may prompt unnecessary investigation.",
+          "description": "Aura duration kept at the figure the patient corrected"
+        },
+        {
+          "error_id": "case_04_b_e2",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Stop combined pill; start desogestrel 75 micrograms once daily continuously.",
+          "mutated_text": "Continue combined pill.",
+          "evidence_turns": [
+            39
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Continuing a combined pill in migraine with aura carries an unacceptable stroke risk (UKMEC 4).",
+          "description": "Combined pill continued despite aura"
+        },
+        {
+          "error_id": "case_04_b_e3",
+          "type": "OMIT_SAFETY",
+          "section": "plan",
+          "original_text": " Use condoms for the first 2 days of desogestrel.",
+          "mutated_text": "",
+          "evidence_turns": [
+            41
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Without the documented need for extra contraception during the switch, there is a real risk of unplanned pregnancy.",
+          "description": "Extra contraception advice dropped"
+        },
+        {
+          "error_id": "case_04_b_e4",
+          "type": "TEMPORAL",
+          "section": "presenting_complaint",
+          "original_text": "for 6 months",
+          "mutated_text": "for 6 days",
+          "evidence_turns": [
+            4
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "A six-day history of new headache with neurological symptoms reads as a new-onset pattern and may prompt unnecessary urgent investigation.",
+          "description": "Headache history shortened from six months to six days"
+        }
+      ]
+    }
+  ]
+}

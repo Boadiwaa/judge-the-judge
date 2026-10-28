@@ -1,0 +1,343 @@
+{
+  "case_id": "case_23",
+  "setting": "REMOTE",
+  "title": "Phone call: baby with diarrhoea and vomiting",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, is that Freya's mum?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Relative",
+      "text": "Yes, it's Leanne."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "Hi Leanne, it's Dr Mistry calling back from the surgery. Are you able to talk?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Relative",
+      "text": "Yes, she's on my lap."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "Can you confirm Freya's date of birth?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Relative",
+      "text": "Fourteenth of December. She's ten months."
+    },
+    {
+      "turn": 7,
+      "speaker": "Clinician",
+      "text": "Thank you. What's been happening?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Relative",
+      "text": "She started being sick last night, and then diarrhoea this morning."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "How many times has she been sick?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Relative",
+      "text": "About five times since last night. Less today."
+    },
+    {
+      "turn": 11,
+      "speaker": "Clinician",
+      "text": "What colour is the sick? Is it ever green?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Relative",
+      "text": "No, it's milky. Just her milk coming back."
+    },
+    {
+      "turn": 13,
+      "speaker": "Clinician",
+      "text": "How many dirty nappies?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Relative",
+      "text": "Six or seven runny ones today."
+    },
+    {
+      "turn": 15,
+      "speaker": "Clinician",
+      "text": "Any blood in them?"
+    },
+    {
+      "turn": 16,
+      "speaker": "Relative",
+      "text": "No. Her brother had blood in his last week when he had the same thing, but there's none in hers."
+    },
+    {
+      "turn": 17,
+      "speaker": "Clinician",
+      "text": "Her brother's had a similar illness?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Relative",
+      "text": "Yes, he got it at nursery. Freya goes to the same nursery."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "Okay. How about wet nappies today?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Relative",
+      "text": "About four, I think. Oh, wait, no. I've only changed two wet ones since this morning. The others were dirty."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Two wet nappies since this morning. And it's now about two o'clock. Is she drinking?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Relative",
+      "text": "She's having little bits of milk. She's breastfed and she has a bit of formula."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "Has she had a temperature?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Relative",
+      "text": "37.4 this morning."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "How is she in herself? Is she alert, playing?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Relative",
+      "text": "She's grumpy, but she's watching the telly and playing with her blocks."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Is she very sleepy or floppy, or hard to wake?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Relative",
+      "text": "No."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "Any rash?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Relative",
+      "text": "No."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "Any medical problems? Medicines? Allergies?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Relative",
+      "text": "No, she's well normally. No medicines, no allergies."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "I can't examine her over the phone. It sounds like gastroenteritis, a tummy bug, probably the same one her brother had. Most babies get better within a few days."
+    },
+    {
+      "turn": 34,
+      "speaker": "Relative",
+      "text": "Okay."
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "But I'm a bit concerned that she's only had two wet nappies today, so I'd like to see her this afternoon. Can you bring her in at four o'clock?"
+    },
+    {
+      "turn": 36,
+      "speaker": "Relative",
+      "text": "Yes, I can do that."
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "In the meantime, keep breastfeeding her, and give small amounts of oral rehydration solution, like Dioralyte, a teaspoon every few minutes."
+    },
+    {
+      "turn": 38,
+      "speaker": "Relative",
+      "text": "Okay."
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "If she becomes floppy, very sleepy or hard to wake, or gets a rash that doesn't fade when you press a glass on it, call 999."
+    },
+    {
+      "turn": 40,
+      "speaker": "Relative",
+      "text": "Okay."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "If her sick goes green, or you see blood in her nappy, take her to A&E."
+    },
+    {
+      "turn": 42,
+      "speaker": "Relative",
+      "text": "Okay. Thank you, I'll see you at four."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Vomiting and diarrhoea in a 10-month-old since last night.",
+    "history": "About five non-bilious, milky vomits since last night, fewer today. Six to seven loose stools today. No blood in Freya's stools (her brother had blood in his stool with a similar illness last week). Brother had similar illness from nursery; Freya attends the same nursery. Two wet nappies since this morning (initially said four). Taking small amounts of breast milk and formula. Temperature 37.4 °C. Alert and playing. Not drowsy or floppy. No rash. Previously well.",
+    "medications_allergies": "No regular medications. No known drug allergies.",
+    "examination": "Telephone assessment; not examined.",
+    "impression": "Probable viral gastroenteritis with reduced urine output.",
+    "plan": "Face-to-face assessment at the surgery today at 16:00. Continue breastfeeding; oral rehydration solution in small, frequent amounts.",
+    "safety_netting": "Call 999 if floppy, very sleepy, hard to wake, or non-blanching rash. Attend A&E if green vomit or blood in stool."
+  },
+  "variants": [
+    {
+      "variant_id": "case_23_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_23_a",
+      "mutations": [
+        {
+          "error_id": "case_23_a_e1",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "No blood in Freya's stools (her brother had blood in his stool with a similar illness last week).",
+          "mutated_text": "Blood in stool.",
+          "evidence_turns": [
+            16
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Bloody diarrhoea in an infant prompts stool cultures, consideration of haemolytic uraemic syndrome and possible A&E referral; the brother's symptom was attributed to her.",
+          "description": "Brother's bloody stool recorded as the baby's"
+        },
+        {
+          "error_id": "case_23_a_e2",
+          "type": "CORRECTION_LOST",
+          "section": "history",
+          "original_text": "Two wet nappies since this morning (initially said four).",
+          "mutated_text": "Four wet nappies since this morning.",
+          "evidence_turns": [
+            20
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Reduced urine output is the reason for the same-day assessment; four wet nappies would look reassuring and the appointment might be cancelled, delaying recognition of dehydration.",
+          "description": "Wet nappies kept at the figure the mother corrected"
+        },
+        {
+          "error_id": "case_23_a_e3",
+          "type": "NEGATION",
+          "section": "history",
+          "original_text": "About five non-bilious, milky vomits",
+          "mutated_text": "About five bile-stained, green vomits",
+          "evidence_turns": [
+            11,
+            12
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 4,
+          "seeded_rationale": "Green vomit in an infant suggests bowel obstruction and would trigger an emergency surgical referral that is not needed.",
+          "description": "Milky vomit recorded as green"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_23_b",
+      "mutations": [
+        {
+          "error_id": "case_23_b_e1",
+          "type": "TEMPORAL",
+          "section": "presenting_complaint",
+          "original_text": "since last night",
+          "mutated_text": "since last week",
+          "evidence_turns": [
+            8
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "A week of diarrhoea and vomiting in an infant implies higher dehydration risk and a different differential.",
+          "description": "Illness recorded as starting last week"
+        },
+        {
+          "error_id": "case_23_b_e2",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "Telephone assessment; not examined.",
+          "mutated_text": "Mucous membranes moist; anterior fontanelle not sunken.",
+          "evidence_turns": [
+            33
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "A fabricated reassuring hydration examination in a telephone call could lead to the face-to-face review being cancelled in an infant with reduced urine output.",
+          "description": "Hydration examination recorded in a phone call"
+        },
+        {
+          "error_id": "case_23_b_e3",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Face-to-face assessment at the surgery today at 16:00.",
+          "mutated_text": "No face-to-face review needed.",
+          "evidence_turns": [
+            35
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "An infant with reduced wet nappies needs examination for dehydration; without the appointment, deterioration may be missed.",
+          "description": "Same-day face-to-face review dropped"
+        },
+        {
+          "error_id": "case_23_b_e4",
+          "type": "OMIT_OTHER",
+          "section": "history",
+          "original_text": " Brother had similar illness from nursery; Freya attends the same nursery.",
+          "mutated_text": "",
+          "evidence_turns": [
+            18
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The contact history supports the diagnosis but does not change management.",
+          "description": "Sibling contact and nursery dropped"
+        }
+      ]
+    }
+  ]
+}

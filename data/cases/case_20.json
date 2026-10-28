@@ -1,0 +1,373 @@
+{
+  "case_id": "case_20",
+  "setting": "OUTPATIENT",
+  "title": "First seizure clinic",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, Mr Ferreira-Holt. I'm Dr Iyer from the first seizure clinic. And you're...?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Relative",
+      "text": "Bethany, his wife. I was there when it happened."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "That's really helpful. Dominic, what do you remember?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Patient",
+      "text": "Nothing, honestly. I was watching telly, and the next thing I knew there were paramedics in the living room."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "When was this?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Patient",
+      "text": "Three weeks ago, on the Sunday night."
+    },
+    {
+      "turn": 7,
+      "speaker": "Clinician",
+      "text": "Bethany, can you tell me exactly what you saw?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Relative",
+      "text": "He went quiet, and then his left arm started jerking. Just the left arm, for a few seconds. Then he went stiff all over and started shaking all over."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "How long did the shaking last?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Relative",
+      "text": "It felt like five minutes. But I looked at the clock when it started and when it stopped, and it was two minutes."
+    },
+    {
+      "turn": 11,
+      "speaker": "Clinician",
+      "text": "Two minutes. What did he look like?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Relative",
+      "text": "His lips went a bit blue. He bit his tongue, at the side, and he'd wet himself."
+    },
+    {
+      "turn": 13,
+      "speaker": "Clinician",
+      "text": "And afterwards?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Relative",
+      "text": "He was really confused for about twenty minutes. He didn't know where he was."
+    },
+    {
+      "turn": 15,
+      "speaker": "Clinician",
+      "text": "Dominic, had you been short of sleep, or drinking?"
+    },
+    {
+      "turn": 16,
+      "speaker": "Patient",
+      "text": "I'd done four night shifts in a row. I'm a warehouse supervisor. I'd had maybe four hours' sleep."
+    },
+    {
+      "turn": 17,
+      "speaker": "Clinician",
+      "text": "Any alcohol that day?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Patient",
+      "text": "No. I have a few pints at the weekend, that's all."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "Any recreational drugs?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Have you ever had anything like this before? Any funny turns, jerks in the morning, or blank spells?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "No, never."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "Any head injuries, or meningitis as a child?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "Anyone in the family with epilepsy?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Patient",
+      "text": "Not that I know of."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Any medicines? Allergies?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Patient",
+      "text": "No and no."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "Do you drive?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "Yes, I drive to work."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "I'll come back to that. Let me examine you. Your neurological examination is completely normal today. Your CT scan in A&E was normal, and your blood tests were normal."
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "So what was it?"
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "This sounds like a seizure. Because it started with your left arm jerking, it may have started in one part of the brain, on the right side, before spreading. Lack of sleep can trigger seizures in people who are prone to them."
+    },
+    {
+      "turn": 34,
+      "speaker": "Patient",
+      "text": "Is it epilepsy?"
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "Not necessarily. A single seizure isn't epilepsy. I'd like an MRI scan of your brain, using an epilepsy protocol, and an EEG, a recording of the brain's electrical activity."
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "Okay. Do I need tablets?"
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "Not usually after a first seizure. We'll decide once we have the results."
+    },
+    {
+      "turn": 38,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "Now, about driving. By law, you mustn't drive, and you need to tell the DVLA you've had a seizure. Usually you can't drive for six months after a first seizure, sometimes longer depending on the tests."
+    },
+    {
+      "turn": 40,
+      "speaker": "Patient",
+      "text": "Six months? How will I get to work?"
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "I know it's hard. Your employer may be able to help with shifts. Please don't drive in the meantime."
+    },
+    {
+      "turn": 42,
+      "speaker": "Relative",
+      "text": "I'll drive him."
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "Some safety tips: have showers, not baths. Don't swim alone, and avoid heights. Try to keep a regular sleep pattern."
+    },
+    {
+      "turn": 44,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 45,
+      "speaker": "Clinician",
+      "text": "Bethany, if it happens again, put him on his side, time it, and call 999 if it lasts more than five minutes or he's injured."
+    },
+    {
+      "turn": 46,
+      "speaker": "Relative",
+      "text": "Okay."
+    },
+    {
+      "turn": 47,
+      "speaker": "Clinician",
+      "text": "I'll see you in clinic with the results in about six weeks."
+    },
+    {
+      "turn": 48,
+      "speaker": "Patient",
+      "text": "Thank you."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "First seizure 3 weeks ago.",
+    "history": "No recollection of the event. Witnessed by wife: went quiet, then left arm jerking for a few seconds, followed by generalised stiffening and shaking lasting about 2 minutes (wife initially estimated 5 minutes, then confirmed 2 by the clock). Perioral cyanosis, lateral tongue bite, urinary incontinence. Post-ictal confusion for about 20 minutes. Preceded by sleep deprivation after four consecutive night shifts. No alcohol that day; a few pints at weekends. No drug use. No previous seizures, myoclonic jerks or absences. No head injury or CNS infection. No family history of epilepsy. Works as a warehouse supervisor. Drives.",
+    "medications_allergies": "No regular medications. No known drug allergies.",
+    "examination": "Neurological examination normal. CT head in ED normal. Bloods normal.",
+    "impression": "First generalised tonic-clonic seizure, possibly of focal onset (left arm, suggesting right hemisphere), provoked in part by sleep deprivation.",
+    "plan": "MRI brain (epilepsy protocol) and EEG. No antiseizure medication at present. Must not drive; patient to inform the DVLA (usually 6 months off driving after a first seizure). Safety advice: showers not baths, no swimming alone, avoid heights, regular sleep. Seizure first aid explained to wife. Clinic review with results in about 6 weeks.",
+    "safety_netting": "If a further seizure: recovery position, time it, call 999 if longer than 5 minutes or injured."
+  },
+  "variants": [
+    {
+      "variant_id": "case_20_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_20_a",
+      "mutations": [
+        {
+          "error_id": "case_20_a_e1",
+          "type": "LATERALITY",
+          "section": "history",
+          "original_text": "then left arm jerking for a few seconds",
+          "mutated_text": "then right arm jerking for a few seconds",
+          "evidence_turns": [
+            8
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The side of focal onset points to the hemisphere of origin; recording the wrong arm could misdirect MRI and EEG interpretation.",
+          "description": "Focal onset recorded in the wrong arm"
+        },
+        {
+          "error_id": "case_20_a_e2",
+          "type": "OMIT_SAFETY",
+          "section": "plan",
+          "original_text": " Must not drive; patient to inform the DVLA (usually 6 months off driving after a first seizure).",
+          "mutated_text": "",
+          "evidence_turns": [
+            39
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Without documented driving advice, a patient who drives to work may continue, risking a fatal crash, and the clinician has no record that the legal advice was given.",
+          "description": "Driving and DVLA advice dropped after a seizure"
+        },
+        {
+          "error_id": "case_20_a_e3",
+          "type": "TEMPORAL",
+          "section": "presenting_complaint",
+          "original_text": "3 weeks ago",
+          "mutated_text": "3 months ago",
+          "evidence_turns": [
+            6
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Timing affects the driving restriction period and the urgency of investigations, but the clinic would likely confirm the date.",
+          "description": "Seizure recorded as three months ago"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_20_b",
+      "mutations": [
+        {
+          "error_id": "case_20_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "history",
+          "original_text": "lasting about 2 minutes (wife initially estimated 5 minutes, then confirmed 2 by the clock)",
+          "mutated_text": "lasting about 5 minutes",
+          "evidence_turns": [
+            10
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Five minutes is the threshold for status epilepticus treatment; the wife corrected it to two by the clock. The wrong duration may prompt unneeded rescue medication or alter risk counselling.",
+          "description": "Seizure duration kept at the figure the wife corrected"
+        },
+        {
+          "error_id": "case_20_b_e2",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "No recollection of the event.",
+          "mutated_text": "Recalls the arm jerking and the whole event.",
+          "evidence_turns": [
+            3,
+            4
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Recording the event as recalled implies retained awareness, changing seizure classification; the account actually came from the wife.",
+          "description": "Wife's eyewitness account recorded as the patient's memory"
+        },
+        {
+          "error_id": "case_20_b_e3",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "CT head in ED normal.",
+          "mutated_text": "CT head and EEG in ED normal.",
+          "evidence_turns": [
+            31
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "No EEG has been done; a recorded normal EEG could lead to the planned EEG being cancelled.",
+          "description": "EEG recorded that was never done"
+        },
+        {
+          "error_id": "case_20_b_e4",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "MRI brain (epilepsy protocol) and EEG.",
+          "mutated_text": "No further investigations needed.",
+          "evidence_turns": [
+            35
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Possible focal onset needs MRI to exclude a structural cause such as a tumour; dropping the investigations could miss serious pathology.",
+          "description": "MRI and EEG dropped from the plan"
+        }
+      ]
+    }
+  ]
+}

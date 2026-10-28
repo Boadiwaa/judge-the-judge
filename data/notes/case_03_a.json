@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_03_a",
+  "case_id": "case_03",
+  "sections": {
+    "presenting_complaint": "Diabetes review following a hypoglycaemic episode.",
+    "history": "Episode last Tuesday after skipping lunch while gardening: sweaty, shaky, confused. Daughter (who has type 1 diabetes) found him confused, measured capillary glucose 2.8 mmol/L and treated with juice and biscuits; recovered within 15 minutes. Not driving at the time. Occasional pre-meal wobbliness. Drives locally. Reports pins and needles in the hands at night. No visual problems; retinal screening due. Attended with daughter.",
+    "medications_allergies": "Metformin 1 g twice daily. Gliclazide 80 mg twice daily. Atorvastatin 20 mg. Ramipril 5 mg. No known drug allergies.",
+    "examination": "Pedal pulses palpable. Monofilament sensation normal in both feet. Callus under the left first metatarsal head. BP 138/84. Weight 91 kg. Bloods: HbA1c 62 mmol/mol (previously 58), eGFR 52 (stable).",
+    "impression": "Type 2 diabetes with recent hypoglycaemia on gliclazide; HbA1c above target. Stable CKD stage 3a. Low-risk foot with callus.",
+    "plan": "Reduce gliclazide to 80 mg in the morning only. Start empagliflozin 100 mg once daily; sick day rules explained and leaflet given. Podiatry referral for callus. Book retinal screening. Review in 3 months with HbA1c and renal function.",
+    "safety_netting": "Stop empagliflozin if vomiting, diarrhoea or unable to eat and drink."
+  }
+}

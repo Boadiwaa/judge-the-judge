@@ -1,0 +1,378 @@
+{
+  "case_id": "case_03",
+  "setting": "GP_ADULT",
+  "title": "Diabetes review after a hypo",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, Mr Elsworth-Mahmood. Come in. And this is...?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "My daughter, Yasmin. She wanted to come because of what happened last week."
+    },
+    {
+      "turn": 3,
+      "speaker": "Relative",
+      "text": "Hi."
+    },
+    {
+      "turn": 4,
+      "speaker": "Clinician",
+      "text": "Hello. Shall we start with that? What happened?"
+    },
+    {
+      "turn": 5,
+      "speaker": "Patient",
+      "text": "I had a funny turn. I went all sweaty and shaky and I couldn't think straight."
+    },
+    {
+      "turn": 6,
+      "speaker": "Clinician",
+      "text": "When was that?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Patient",
+      "text": "Wednesday. No, it was Tuesday, because it was bin day and I'd just put them out."
+    },
+    {
+      "turn": 8,
+      "speaker": "Clinician",
+      "text": "Last Tuesday, then. What were you doing?"
+    },
+    {
+      "turn": 9,
+      "speaker": "Patient",
+      "text": "I'd been in the garden all morning and I'd skipped my lunch."
+    },
+    {
+      "turn": 10,
+      "speaker": "Relative",
+      "text": "I came round and found him confused. I've got type 1 diabetes myself, so I knew it was a hypo straight away. I gave him some orange juice and biscuits."
+    },
+    {
+      "turn": 11,
+      "speaker": "Clinician",
+      "text": "Well done. How long did it take him to come round?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Relative",
+      "text": "About fifteen minutes and he was back to normal."
+    },
+    {
+      "turn": 13,
+      "speaker": "Clinician",
+      "text": "Did you check his sugar?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Relative",
+      "text": "I used my meter. It was 2.8."
+    },
+    {
+      "turn": 15,
+      "speaker": "Clinician",
+      "text": "Has anything like that happened before?"
+    },
+    {
+      "turn": 16,
+      "speaker": "Patient",
+      "text": "Not that bad. Sometimes I feel a bit wobbly before tea."
+    },
+    {
+      "turn": 17,
+      "speaker": "Clinician",
+      "text": "Do you drive?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Patient",
+      "text": "Yes, I drive to the shops and to my allotment."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "Were you driving that day?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Patient",
+      "text": "No, thank goodness."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Let me check your medicines. You're on metformin, one gram twice a day?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "That's right."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "And gliclazide, 80 milligrams twice a day?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "Yes, morning and teatime."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "Atorvastatin 20 milligrams and ramipril 5 milligrams?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Patient",
+      "text": "Yes, all those."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Any allergies?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Patient",
+      "text": "None."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "Any problems with your feet, any tingling or numbness?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "My feet have been fine."
+    },
+    {
+      "turn": 31,
+      "speaker": "Relative",
+      "text": "I'm the one with pins and needles. I get it in my hands at night. Carpal tunnel, they reckon."
+    },
+    {
+      "turn": 32,
+      "speaker": "Clinician",
+      "text": "Sorry to hear that, Yasmin. Let's stick with your dad today. Any problems with your eyesight?"
+    },
+    {
+      "turn": 33,
+      "speaker": "Patient",
+      "text": "No. My eye screening is due, I've had the letter."
+    },
+    {
+      "turn": 34,
+      "speaker": "Clinician",
+      "text": "Good. Your blood tests from last week: your HbA1c is 62, up from 58 last time. Your kidney function, the eGFR, is 52, which is about the same as before."
+    },
+    {
+      "turn": 35,
+      "speaker": "Patient",
+      "text": "Is that bad?"
+    },
+    {
+      "turn": 36,
+      "speaker": "Clinician",
+      "text": "The sugar control has drifted up a little, but the hypo worries me more. Let me check your feet. Pulses are fine in both feet. I'm going to touch this filament on different spots. Can you feel that?"
+    },
+    {
+      "turn": 37,
+      "speaker": "Patient",
+      "text": "Yes."
+    },
+    {
+      "turn": 38,
+      "speaker": "Clinician",
+      "text": "Sensation is normal in both feet. There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe."
+    },
+    {
+      "turn": 39,
+      "speaker": "Patient",
+      "text": "I've had that for ages."
+    },
+    {
+      "turn": 40,
+      "speaker": "Clinician",
+      "text": "Okay, the podiatrist can help with that. Your blood pressure is 138 over 84, and your weight is 91 kilos."
+    },
+    {
+      "turn": 41,
+      "speaker": "Patient",
+      "text": "Hmm."
+    },
+    {
+      "turn": 42,
+      "speaker": "Clinician",
+      "text": "So, here's what I suggest. The gliclazide is the tablet that can cause hypos. I'd like to reduce it to 80 milligrams in the morning only, and stop the teatime dose."
+    },
+    {
+      "turn": 43,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 44,
+      "speaker": "Clinician",
+      "text": "To help your sugars and protect your heart and kidneys, I'd like to add a tablet called empagliflozin, 10 milligrams once a day. When you're unwell and not eating or drinking, for example with vomiting or diarrhoea, you should stop it until you're better. I'll give you a leaflet on these sick day rules."
+    },
+    {
+      "turn": 45,
+      "speaker": "Patient",
+      "text": "Right."
+    },
+    {
+      "turn": 46,
+      "speaker": "Clinician",
+      "text": "Because you're on gliclazide and you drive, please check your blood sugar before you drive and every two hours on long journeys. Don't drive if it's below five. Always keep some sugary snacks in the car."
+    },
+    {
+      "turn": 47,
+      "speaker": "Relative",
+      "text": "I'll get him some glucose tablets."
+    },
+    {
+      "turn": 48,
+      "speaker": "Clinician",
+      "text": "Perfect. I'll refer you to the podiatrist for the callus, and please book your eye screening. I'll see you in three months with a repeat HbA1c and kidney test."
+    },
+    {
+      "turn": 49,
+      "speaker": "Patient",
+      "text": "Thank you, doctor."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Diabetes review following a hypoglycaemic episode.",
+    "history": "Episode last Tuesday after skipping lunch while gardening: sweaty, shaky, confused. Daughter (who has type 1 diabetes) found him confused, measured capillary glucose 2.8 mmol/L and treated with juice and biscuits; recovered within 15 minutes. Not driving at the time. Occasional pre-meal wobbliness. Drives locally. No neuropathic symptoms. No visual problems; retinal screening due. Attended with daughter.",
+    "medications_allergies": "Metformin 1 g twice daily. Gliclazide 80 mg twice daily. Atorvastatin 20 mg. Ramipril 5 mg. No known drug allergies.",
+    "examination": "Pedal pulses palpable. Monofilament sensation normal in both feet. Callus under the left first metatarsal head. BP 138/84. Weight 91 kg. Bloods: HbA1c 62 mmol/mol (previously 58), eGFR 52 (stable).",
+    "impression": "Type 2 diabetes with recent hypoglycaemia on gliclazide; HbA1c above target. Stable CKD stage 3a. Low-risk foot with callus.",
+    "plan": "Reduce gliclazide to 80 mg in the morning only. Start empagliflozin 10 mg once daily; sick day rules explained and leaflet given. Podiatry referral for callus. Book retinal screening. Review in 3 months with HbA1c and renal function.",
+    "safety_netting": "Check blood glucose before driving and every 2 hours on long journeys; do not drive if below 5 mmol/L; keep fast-acting glucose in the car. Stop empagliflozin if vomiting, diarrhoea or unable to eat and drink."
+  },
+  "variants": [
+    {
+      "variant_id": "case_03_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_03_a",
+      "mutations": [
+        {
+          "error_id": "case_03_a_e1",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "No neuropathic symptoms.",
+          "mutated_text": "Reports pins and needles in the hands at night.",
+          "evidence_turns": [
+            30,
+            31
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The daughter's carpal tunnel symptoms recorded as the patient's may prompt unnecessary neuropathy work-up or a wrong diagnosis on his record.",
+          "description": "Daughter's pins and needles recorded as the patient's"
+        },
+        {
+          "error_id": "case_03_a_e2",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "Start empagliflozin 10 mg once daily",
+          "mutated_text": "Start empagliflozin 100 mg once daily",
+          "evidence_turns": [
+            44
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "A tenfold dose would likely be caught at dispensing, but if given it increases the risk of volume depletion and ketoacidosis.",
+          "description": "Empagliflozin dose ten times too high"
+        },
+        {
+          "error_id": "case_03_a_e3",
+          "type": "OMIT_SAFETY",
+          "section": "safety_netting",
+          "original_text": "Check blood glucose before driving and every 2 hours on long journeys; do not drive if below 5 mmol/L; keep fast-acting glucose in the car. ",
+          "mutated_text": "",
+          "evidence_turns": [
+            46
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "A driver on a sulfonylurea with a recent severe hypo has no documented driving advice; a hypo at the wheel could be fatal to him or others.",
+          "description": "Driving and hypo advice dropped"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_03_b",
+      "mutations": [
+        {
+          "error_id": "case_03_b_e1",
+          "type": "LATERALITY",
+          "section": "examination",
+          "original_text": "Callus under the left first metatarsal head.",
+          "mutated_text": "Callus under the right first metatarsal head.",
+          "evidence_turns": [
+            38
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The podiatrist may look at the wrong foot first, but the callus would be found on examination.",
+          "description": "Callus recorded on the wrong foot"
+        },
+        {
+          "error_id": "case_03_b_e2",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Reduce gliclazide to 80 mg in the morning only.",
+          "mutated_text": "Continue gliclazide 80 mg twice daily.",
+          "evidence_turns": [
+            42
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The dose reduction agreed to prevent further hypos would not happen, leaving him at risk of another severe hypoglycaemic episode.",
+          "description": "Gliclazide reduction dropped from the plan"
+        },
+        {
+          "error_id": "case_03_b_e3",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "Pedal pulses palpable.",
+          "mutated_text": "Pedal pulses palpable. Ankle brachial pressure index 1.0 bilaterally.",
+          "evidence_turns": [
+            36
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "No ABPI was measured; a recorded normal result gives false reassurance about peripheral arterial disease in future foot assessments.",
+          "description": "Vascular test recorded that was never done"
+        },
+        {
+          "error_id": "case_03_b_e4",
+          "type": "TEMPORAL",
+          "section": "history",
+          "original_text": "Episode last Tuesday",
+          "mutated_text": "Episode about three months ago",
+          "evidence_turns": [
+            7
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "A recent severe hypo drives the gliclazide reduction and driving advice; recording it as months ago lowers the urgency of both.",
+          "description": "Recent hypo recorded as three months ago"
+        }
+      ]
+    }
+  ]
+}

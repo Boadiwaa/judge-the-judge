@@ -1,0 +1,344 @@
+{
+  "case_id": "case_11",
+  "setting": "GP_PAEDS",
+  "title": "Six-year-old with an itchy rash",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, come in. Hi Mia, I'm Dr Lindqvist. And you're Dad?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Relative",
+      "text": "Yes, I'm Raj."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "What's been going on?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Relative",
+      "text": "Her eczema's flared up really badly. She's scratching all night and none of us are sleeping."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "How long has this flare been going on?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Relative",
+      "text": "About a month. No, actually, she started scratching after half-term, so two weeks."
+    },
+    {
+      "turn": 7,
+      "speaker": "Clinician",
+      "text": "Two weeks, then. Where is it worst?"
+    },
+    {
+      "turn": 8,
+      "speaker": "Relative",
+      "text": "The backs of her knees and the insides of her elbows. Her right elbow's the worst."
+    },
+    {
+      "turn": 9,
+      "speaker": "Patient",
+      "text": "It's so itchy."
+    },
+    {
+      "turn": 10,
+      "speaker": "Clinician",
+      "text": "I bet it is, Mia. Does it ever weep, or get crusty or yellow?"
+    },
+    {
+      "turn": 11,
+      "speaker": "Relative",
+      "text": "No, just red and dry and scratched."
+    },
+    {
+      "turn": 12,
+      "speaker": "Clinician",
+      "text": "Any blisters, or painful sores that look like little punched-out holes?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Relative",
+      "text": "No."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "Has she had any fevers or been unwell?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Relative",
+      "text": "No, she's fine otherwise."
+    },
+    {
+      "turn": 16,
+      "speaker": "Clinician",
+      "text": "What are you using on it?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Relative",
+      "text": "Epaderm, but honestly only once a day. And some hydrocortisone cream from the chemist."
+    },
+    {
+      "turn": 18,
+      "speaker": "Clinician",
+      "text": "How strong is the hydrocortisone?"
+    },
+    {
+      "turn": 19,
+      "speaker": "Relative",
+      "text": "One percent."
+    },
+    {
+      "turn": 20,
+      "speaker": "Clinician",
+      "text": "Is she on any other medicines? Any allergies?"
+    },
+    {
+      "turn": 21,
+      "speaker": "Relative",
+      "text": "No and no."
+    },
+    {
+      "turn": 22,
+      "speaker": "Clinician",
+      "text": "Does anyone in the family have eczema, asthma or hay fever?"
+    },
+    {
+      "turn": 23,
+      "speaker": "Relative",
+      "text": "I've got hay fever. Her big sister has asthma."
+    },
+    {
+      "turn": 24,
+      "speaker": "Clinician",
+      "text": "And has Mia ever had asthma or wheezing?"
+    },
+    {
+      "turn": 25,
+      "speaker": "Relative",
+      "text": "No, never."
+    },
+    {
+      "turn": 26,
+      "speaker": "Clinician",
+      "text": "Any pets at home?"
+    },
+    {
+      "turn": 27,
+      "speaker": "Relative",
+      "text": "A cat. She's had the cat all her life, though."
+    },
+    {
+      "turn": 28,
+      "speaker": "Clinician",
+      "text": "Has anything changed? New soaps, bubble bath, washing powder?"
+    },
+    {
+      "turn": 29,
+      "speaker": "Relative",
+      "text": "She's started having bubble baths at her mum's."
+    },
+    {
+      "turn": 30,
+      "speaker": "Clinician",
+      "text": "That could be a trigger. Mia, can I look at your arms and legs? Thank you. There are dry, red, scratched patches in both elbow creases and behind both knees. The right elbow crease is the worst. There's no weeping, crusting or blisters, so no sign of infection."
+    },
+    {
+      "turn": 31,
+      "speaker": "Relative",
+      "text": "That's good."
+    },
+    {
+      "turn": 32,
+      "speaker": "Clinician",
+      "text": "This is a moderate flare. I'd like to use a stronger steroid cream for a short time. It's called clobetasone butyrate, 0.05 percent. Put it on the red patches on her body once a day for seven days, then go back to the hydrocortisone for a few days if needed."
+    },
+    {
+      "turn": 33,
+      "speaker": "Relative",
+      "text": "Is it safe?"
+    },
+    {
+      "turn": 34,
+      "speaker": "Clinician",
+      "text": "Yes, for a short course it's safe. Use a fingertip unit, that's a line of cream from the tip of your finger to the first crease, for an area the size of two adult hands."
+    },
+    {
+      "turn": 35,
+      "speaker": "Relative",
+      "text": "Okay."
+    },
+    {
+      "turn": 36,
+      "speaker": "Clinician",
+      "text": "The most important thing is the moisturiser. Use the Epaderm three or four times a day, lots of it, at least a 500 gram tub every two weeks. Use it instead of soap, and stop the bubble baths."
+    },
+    {
+      "turn": 37,
+      "speaker": "Relative",
+      "text": "Okay. I'll talk to her mum."
+    },
+    {
+      "turn": 38,
+      "speaker": "Clinician",
+      "text": "I'd like to see her again in two weeks."
+    },
+    {
+      "turn": 39,
+      "speaker": "Relative",
+      "text": "Okay."
+    },
+    {
+      "turn": 40,
+      "speaker": "Clinician",
+      "text": "If she gets painful sores, blisters or punched-out spots, especially with a fever or feeling unwell, that can be a herpes infection in eczema. Get her seen the same day."
+    },
+    {
+      "turn": 41,
+      "speaker": "Relative",
+      "text": "Okay, thank you."
+    },
+    {
+      "turn": 42,
+      "speaker": "Patient",
+      "text": "Bye!"
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Flare of atopic eczema for 2 weeks.",
+    "history": "Flare for 2 weeks (father initially said a month, then corrected), worst in the flexures, particularly the right elbow. Nocturnal itch disturbing sleep. No weeping, crusting, blisters or punched-out lesions. Systemically well. Recently started bubble baths. Using Epaderm once daily and hydrocortisone 1%. No personal history of asthma or wheeze. Father has hay fever; sister has asthma. Pet cat at home.",
+    "medications_allergies": "Epaderm emollient. Hydrocortisone 1% cream (over the counter). No known drug allergies.",
+    "examination": "Dry, erythematous, excoriated patches in both antecubital and both popliteal fossae, most severe in the right antecubital fossa. No weeping, crusting or vesicles.",
+    "impression": "Moderate flare of atopic eczema; no signs of infection. Possible trigger: bubble baths.",
+    "plan": "Clobetasone butyrate 0.05% once daily to inflamed areas on the body for 7 days, then hydrocortisone 1% if needed. Fingertip units explained. Epaderm 3–4 times daily and as a soap substitute (at least 500 g every 2 weeks). Stop bubble baths. Review in 2 weeks.",
+    "safety_netting": "Seek same-day review if painful sores, blisters or punched-out lesions, especially with fever or feeling unwell (possible eczema herpeticum)."
+  },
+  "variants": [
+    {
+      "variant_id": "case_11_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_11_a",
+      "mutations": [
+        {
+          "error_id": "case_11_a_e1",
+          "type": "LATERALITY",
+          "section": "examination",
+          "original_text": "most severe in the right antecubital fossa",
+          "mutated_text": "most severe in the left antecubital fossa",
+          "evidence_turns": [
+            8,
+            30
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The side of the worst patch matters little in symmetrical flexural eczema.",
+          "description": "Worst patch recorded on the wrong arm"
+        },
+        {
+          "error_id": "case_11_a_e2",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "Clobetasone butyrate 0.05%",
+          "mutated_text": "Clobetasol propionate 0.05%",
+          "evidence_turns": [
+            32
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Clobetasol is a very potent steroid, not moderate; in a child it increases the risk of skin thinning and adrenal suppression, and the names are easily confused at dispensing.",
+          "description": "Moderate steroid swapped for a very potent one"
+        },
+        {
+          "error_id": "case_11_a_e3",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "No weeping, crusting or vesicles.",
+          "mutated_text": "No weeping, crusting or vesicles. Mild cervical lymphadenopathy.",
+          "evidence_turns": [
+            30
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Lymph nodes were not examined; recorded lymphadenopathy could prompt unnecessary antibiotics or investigation.",
+          "description": "Lymph node finding recorded that was never examined"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_11_b",
+      "mutations": [
+        {
+          "error_id": "case_11_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "presenting_complaint",
+          "original_text": "for 2 weeks",
+          "mutated_text": "for about a month",
+          "evidence_turns": [
+            6
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Flare duration has little effect on management here.",
+          "description": "Flare duration kept at the figure the father corrected"
+        },
+        {
+          "error_id": "case_11_b_e2",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "No personal history of asthma or wheeze.",
+          "mutated_text": "Has asthma.",
+          "evidence_turns": [
+            23,
+            25
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The sister's asthma recorded as Mia's gives her an incorrect diagnosis that may lead to inappropriate inhaler prescribing.",
+          "description": "Sister's asthma recorded as the child's"
+        },
+        {
+          "error_id": "case_11_b_e3",
+          "type": "OMIT_SAFETY",
+          "section": "safety_netting",
+          "original_text": "Seek same-day review if painful sores, blisters or punched-out lesions, especially with fever or feeling unwell (possible eczema herpeticum).",
+          "mutated_text": "",
+          "evidence_turns": [
+            40
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Eczema herpeticum needs urgent antiviral treatment; the advice was given but is undocumented.",
+          "description": "Eczema herpeticum safety-netting dropped"
+        },
+        {
+          "error_id": "case_11_b_e4",
+          "type": "OMIT_OTHER",
+          "section": "history",
+          "original_text": " Pet cat at home.",
+          "mutated_text": "",
+          "evidence_turns": [
+            27
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 1,
+          "seeded_rationale": "A long-standing pet is unlikely to be the flare trigger, and its absence will not change management.",
+          "description": "Pet cat dropped"
+        }
+      ]
+    }
+  ]
+}

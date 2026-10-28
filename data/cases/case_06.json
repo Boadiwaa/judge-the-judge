@@ -1,0 +1,360 @@
+{
+  "case_id": "case_06",
+  "setting": "ED",
+  "title": "Fall and head injury in an older woman",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, Mrs Castellan, I'm Dr Pemberton. And you are?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Relative",
+      "text": "I'm her daughter, Sue."
+    },
+    {
+      "turn": 3,
+      "speaker": "Clinician",
+      "text": "Thanks for coming in with her. Mrs Castellan, can you tell me what happened?"
+    },
+    {
+      "turn": 4,
+      "speaker": "Patient",
+      "text": "I tripped on the rug in the hall and banged my head on the door frame."
+    },
+    {
+      "turn": 5,
+      "speaker": "Clinician",
+      "text": "What time was that?"
+    },
+    {
+      "turn": 6,
+      "speaker": "Patient",
+      "text": "About half past nine."
+    },
+    {
+      "turn": 7,
+      "speaker": "Relative",
+      "text": "Mum, it was before that. The post hadn't come and you hadn't had your breakfast. It was about quarter to eight."
+    },
+    {
+      "turn": 8,
+      "speaker": "Patient",
+      "text": "Was it? Oh, she's probably right."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "So about quarter to eight. Which side did you hit?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Patient",
+      "text": "This side. The left, by my eye."
+    },
+    {
+      "turn": 11,
+      "speaker": "Clinician",
+      "text": "Did you black out at all?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Patient",
+      "text": "I don't think so."
+    },
+    {
+      "turn": 13,
+      "speaker": "Relative",
+      "text": "I wasn't there when she fell, but when I got there about ten minutes later she was a bit muddled. She kept asking what day it was. That lasted maybe ten minutes."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "Do you remember that, Mrs Castellan?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Patient",
+      "text": "No, I don't remember Sue arriving."
+    },
+    {
+      "turn": 16,
+      "speaker": "Clinician",
+      "text": "Have you been sick at all?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Relative",
+      "text": "She was sick once in the car on the way here."
+    },
+    {
+      "turn": 18,
+      "speaker": "Patient",
+      "text": "Was I? I don't remember that either."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "Any headache now?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Patient",
+      "text": "A bit of a headache where I hit it."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Any problems with your vision, or weakness in your arms or legs?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "Any neck pain?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "No, my neck's fine."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "Did you trip, or did you feel dizzy or faint before you fell?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Patient",
+      "text": "No, I caught my foot on the rug. I wasn't dizzy."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "What medicines are you on?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Relative",
+      "text": "I've got the list. Apixaban, 2.5 milligrams twice a day, for her heart rhythm. Bisoprolol 2.5 milligrams once a day. And amlodipine 5."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "So you're on a blood thinner. When did you last take the apixaban?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "This morning, with my breakfast. After I fell."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "Any allergies?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "Penicillin. It makes me swell up."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "Thank you. Let me examine you. Your eyes are open, you're talking to me normally and you can follow instructions, so your Glasgow Coma Score is 15. There's a cut here, about 3 centimetres long, on your left temple, with a bump around it. Your pupils are equal and react to light. Squeeze my hands, push your feet down. Strength is normal everywhere."
+    },
+    {
+      "turn": 34,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "I'm pressing on the back of your neck. Any pain?"
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "Your heart rate is irregular at about 80, and your blood pressure is 146 over 82."
+    },
+    {
+      "turn": 38,
+      "speaker": "Relative",
+      "text": "What happens now?"
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "Because your mum is on a blood thinner, she needs a CT scan of her head, to make sure there's no bleeding inside. We'll do that within the next few hours."
+    },
+    {
+      "turn": 40,
+      "speaker": "Relative",
+      "text": "Okay."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "I'm going to hold off this evening's dose of apixaban until we've seen the scan."
+    },
+    {
+      "turn": 42,
+      "speaker": "Patient",
+      "text": "All right."
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "The nurse will clean the cut and close it with steri-strips. Are you up to date with your tetanus?"
+    },
+    {
+      "turn": 44,
+      "speaker": "Patient",
+      "text": "Yes, I had all of them."
+    },
+    {
+      "turn": 45,
+      "speaker": "Clinician",
+      "text": "If the scan is normal, you can go home with Sue. Someone needs to stay with you for the next 24 hours."
+    },
+    {
+      "turn": 46,
+      "speaker": "Relative",
+      "text": "I'll stay with her."
+    },
+    {
+      "turn": 47,
+      "speaker": "Clinician",
+      "text": "Great. If she becomes drowsy, confused, vomits again, has a worsening headache, a fit, or any weakness, call 999 or bring her straight back."
+    },
+    {
+      "turn": 48,
+      "speaker": "Relative",
+      "text": "Okay, I will."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Head injury after a mechanical fall at home at about 07:45.",
+    "history": "Tripped on a rug and struck the left side of her head on a door frame. Daughter reports she seemed muddled for about 10 minutes afterwards; patient has no memory of this. Loss of consciousness uncertain (unwitnessed). One episode of vomiting in the car. Mild headache at the impact site. No visual disturbance, limb weakness or neck pain. No preceding dizziness or presyncope. Last apixaban dose this morning, after the fall. Tetanus up to date.",
+    "medications_allergies": "Apixaban 2.5 mg twice daily (atrial fibrillation). Bisoprolol 2.5 mg once daily. Amlodipine 5 mg once daily. Allergic to penicillin (swelling).",
+    "examination": "GCS 15. 3 cm laceration with haematoma over the left temple. Pupils equal and reactive. Normal power in all limbs. No cervical spine midline tenderness. HR 80 irregular, BP 146/82.",
+    "impression": "Head injury in an anticoagulated 81-year-old with brief post-traumatic confusion and amnesia, and one episode of vomiting.",
+    "plan": "CT head (anticoagulated). Withhold this evening's apixaban dose until CT head reviewed. Wound cleaned and closed with steri-strips. If CT normal, discharge with daughter, who will stay with her for 24 hours.",
+    "safety_netting": "Call 999 or return immediately if drowsy, confused, further vomiting, worsening headache, seizure or limb weakness. Written head injury advice given to daughter."
+  },
+  "variants": [
+    {
+      "variant_id": "case_06_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_06_a",
+      "mutations": [
+        {
+          "error_id": "case_06_a_e1",
+          "type": "OMIT_SAFETY",
+          "section": "medications_allergies",
+          "original_text": "Apixaban 2.5 mg twice daily (atrial fibrillation). ",
+          "mutated_text": "",
+          "evidence_turns": [
+            28
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 4,
+          "seeded_rationale": "Anticoagulation is the main reason for an urgent CT head; if it is missing from the record, a reviewer may cancel the scan or restart dosing, risking a missed intracranial bleed.",
+          "description": "Blood thinner dropped from a head injury note"
+        },
+        {
+          "error_id": "case_06_a_e2",
+          "type": "LATERALITY",
+          "section": "examination",
+          "original_text": "over the left temple",
+          "mutated_text": "over the right temple",
+          "evidence_turns": [
+            33
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The wound is visible, so the wrong side is likely to be noticed, but it could confuse CT correlation and wound review.",
+          "description": "Laceration recorded on the wrong side"
+        },
+        {
+          "error_id": "case_06_a_e3",
+          "type": "CORRECTION_LOST",
+          "section": "presenting_complaint",
+          "original_text": "at about 07:45",
+          "mutated_text": "at about 09:30",
+          "evidence_turns": [
+            6,
+            7
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The daughter corrected the time; the injury time affects CT timing decisions and the observation period.",
+          "description": "Fall time kept at the figure the daughter corrected"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_06_b",
+      "mutations": [
+        {
+          "error_id": "case_06_b_e1",
+          "type": "NEGATION",
+          "section": "history",
+          "original_text": "One episode of vomiting in the car.",
+          "mutated_text": "No vomiting.",
+          "evidence_turns": [
+            17
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Vomiting after a head injury is a risk factor for intracranial injury; recording it as absent may lower the urgency of CT and observation.",
+          "description": "Vomiting after head injury recorded as absent"
+        },
+        {
+          "error_id": "case_06_b_e2",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "Daughter reports she seemed muddled for about 10 minutes afterwards; patient has no memory of this.",
+          "mutated_text": "Patient reports feeling muddled for about 10 minutes afterwards.",
+          "evidence_turns": [
+            13,
+            15
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Attributing the report to the patient hides that she has amnesia for the episode, which is itself a marker of significant head injury.",
+          "description": "Daughter's account recorded as the patient's"
+        },
+        {
+          "error_id": "case_06_b_e3",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Withhold this evening's apixaban dose until CT head reviewed.",
+          "mutated_text": "Continue apixaban as usual.",
+          "evidence_turns": [
+            41
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Continuing anticoagulation before an intracranial bleed is excluded could worsen any haemorrhage.",
+          "description": "Apixaban hold dropped from the plan"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "case_id": "case_19",
+  "setting": "OUTPATIENT",
+  "title": "Rheumatoid arthritis flare on methotrexate",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, Mrs Mbeki-Hollis. I'm Dr Rourke, the rheumatology registrar. And this is...?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "My husband, Pieter."
+    },
+    {
+      "turn": 3,
+      "speaker": "Relative",
+      "text": "Hello."
+    },
+    {
+      "turn": 4,
+      "speaker": "Clinician",
+      "text": "How have your joints been?"
+    },
+    {
+      "turn": 5,
+      "speaker": "Patient",
+      "text": "Bad, the last three weeks. My right wrist and my knuckles on that hand are swollen and really painful."
+    },
+    {
+      "turn": 6,
+      "speaker": "Clinician",
+      "text": "How long are you stiff for in the mornings?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Patient",
+      "text": "About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half."
+    },
+    {
+      "turn": 8,
+      "speaker": "Clinician",
+      "text": "That's useful. Any other joints?"
+    },
+    {
+      "turn": 9,
+      "speaker": "Patient",
+      "text": "My feet ache a bit, but mostly it's the right hand."
+    },
+    {
+      "turn": 10,
+      "speaker": "Clinician",
+      "text": "You're on methotrexate. What dose, and which day?"
+    },
+    {
+      "turn": 11,
+      "speaker": "Patient",
+      "text": "15 milligrams, once a week, on Mondays."
+    },
+    {
+      "turn": 12,
+      "speaker": "Clinician",
+      "text": "And folic acid?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Patient",
+      "text": "5 milligrams once a week, on Thursdays."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "Any missed doses?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 16,
+      "speaker": "Clinician",
+      "text": "Any side effects? Nausea, mouth ulcers?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Patient",
+      "text": "A bit queasy on Tuesdays, but I manage."
+    },
+    {
+      "turn": 18,
+      "speaker": "Clinician",
+      "text": "Any sore throats, fevers, bruising, or breathlessness or cough?"
+    },
+    {
+      "turn": 19,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 20,
+      "speaker": "Clinician",
+      "text": "How much alcohol do you drink?"
+    },
+    {
+      "turn": 21,
+      "speaker": "Patient",
+      "text": "A glass of wine on Friday and Saturday. About six units a week."
+    },
+    {
+      "turn": 22,
+      "speaker": "Clinician",
+      "text": "That's fine. Any other medicines? Allergies?"
+    },
+    {
+      "turn": 23,
+      "speaker": "Patient",
+      "text": "No other medicines. Sulfasalazine gave me a rash years ago."
+    },
+    {
+      "turn": 24,
+      "speaker": "Clinician",
+      "text": "Any infections recently?"
+    },
+    {
+      "turn": 25,
+      "speaker": "Relative",
+      "text": "I had shingles last month. Is that a problem for her?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Clinician",
+      "text": "Did you have chickenpox as a child, Mrs Mbeki-Hollis?"
+    },
+    {
+      "turn": 27,
+      "speaker": "Patient",
+      "text": "Yes, I did."
+    },
+    {
+      "turn": 28,
+      "speaker": "Clinician",
+      "text": "Then the risk is low, but if you get a painful blistering rash, let us know straight away. Have you ever had shingles yourself?"
+    },
+    {
+      "turn": 29,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 30,
+      "speaker": "Clinician",
+      "text": "Let me examine your hands. Your right wrist is swollen and tender, and your second and third knuckles on the right hand are swollen and tender too. That's synovitis, inflammation of the joint lining. Your left hand looks fine."
+    },
+    {
+      "turn": 31,
+      "speaker": "Patient",
+      "text": "Yes, the right is the bad one."
+    },
+    {
+      "turn": 32,
+      "speaker": "Clinician",
+      "text": "Your blood tests: your CRP, an inflammation marker, is 28. Your blood count and liver tests are normal. Your disease activity score is 4.8, which means moderate activity."
+    },
+    {
+      "turn": 33,
+      "speaker": "Patient",
+      "text": "So what now?"
+    },
+    {
+      "turn": 34,
+      "speaker": "Clinician",
+      "text": "I'd like to increase the methotrexate to 20 milligrams once a week, still on Mondays. Keep the folic acid on Thursdays."
+    },
+    {
+      "turn": 35,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 36,
+      "speaker": "Clinician",
+      "text": "To settle this flare quickly, I'll give you a steroid injection into the muscle today, methylprednisolone 120 milligrams."
+    },
+    {
+      "turn": 37,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 38,
+      "speaker": "Clinician",
+      "text": "Because we're increasing the methotrexate, I'd like blood tests every two weeks for the next six weeks, then back to every three months."
+    },
+    {
+      "turn": 39,
+      "speaker": "Patient",
+      "text": "Fine."
+    },
+    {
+      "turn": 40,
+      "speaker": "Clinician",
+      "text": "I'll see you back in clinic in three months."
+    },
+    {
+      "turn": 41,
+      "speaker": "Patient",
+      "text": "Thank you."
+    },
+    {
+      "turn": 42,
+      "speaker": "Clinician",
+      "text": "Remember: if you get a sore throat, fever, mouth ulcers, unusual bruising or bleeding, or a new cough or breathlessness, stop the methotrexate and get an urgent blood test, and call the rheumatology helpline."
+    },
+    {
+      "turn": 43,
+      "speaker": "Patient",
+      "text": "Okay. I've got the number."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Flare of rheumatoid arthritis for 3 weeks.",
+    "history": "Painful swelling of the right wrist and right hand knuckles for 3 weeks. Early morning stiffness lasting about 90 minutes (initially said 30 minutes). Mild foot ache. Mild nausea the day after methotrexate. No sore throat, fever, bruising, cough or breathlessness. Drinks about 6 units of alcohol a week. Husband had shingles last month; patient had chickenpox as a child and has not had shingles.",
+    "medications_allergies": "Methotrexate 15 mg once weekly (Mondays). Folic acid 5 mg once weekly (Thursdays). Sulfasalazine: rash.",
+    "examination": "Synovitis of the right wrist and right 2nd and 3rd MCP joints. Left hand normal. Bloods: CRP 28, FBC and LFTs normal. DAS28 4.8.",
+    "impression": "Rheumatoid arthritis flare, moderate disease activity on methotrexate.",
+    "plan": "Increase methotrexate to 20 mg once weekly (Mondays); continue folic acid 5 mg once weekly (Thursdays). Intramuscular methylprednisolone 120 mg today. Bloods every 2 weeks for 6 weeks, then 3-monthly. Clinic review in 3 months.",
+    "safety_netting": "If sore throat, fever, mouth ulcers, unusual bruising or bleeding, or new cough or breathlessness: stop methotrexate, get an urgent blood test and call the rheumatology helpline. Report a painful blistering rash promptly."
+  },
+  "variants": [
+    {
+      "variant_id": "case_19_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_19_a",
+      "mutations": [
+        {
+          "error_id": "case_19_a_e1",
+          "type": "DOSE_UNIT",
+          "section": "medications_allergies",
+          "original_text": "Methotrexate 15 mg once weekly (Mondays).",
+          "mutated_text": "Methotrexate 15 mg once daily.",
+          "evidence_turns": [
+            11
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 4,
+          "seeded_rationale": "Daily instead of weekly methotrexate is a recognised never-type error that causes fatal bone marrow suppression; a medication list is often copied into new prescriptions.",
+          "description": "Weekly methotrexate recorded as daily"
+        },
+        {
+          "error_id": "case_19_a_e2",
+          "type": "LATERALITY",
+          "section": "examination",
+          "original_text": "Synovitis of the right wrist and right 2nd and 3rd MCP joints. Left hand normal.",
+          "mutated_text": "Synovitis of the left wrist and left 2nd and 3rd MCP joints. Right hand normal.",
+          "evidence_turns": [
+            30
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The wrong side affects joint injection planning and comparison at review, though the patient would correct it.",
+          "description": "Inflamed joints recorded on the wrong hand"
+        },
+        {
+          "error_id": "case_19_a_e3",
+          "type": "OMIT_OTHER",
+          "section": "history",
+          "original_text": " Drinks about 6 units of alcohol a week.",
+          "mutated_text": "",
+          "evidence_turns": [
+            21
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Alcohol intake matters with methotrexate, but hers is within limits, so its absence is unlikely to cause harm.",
+          "description": "Alcohol intake dropped"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_19_b",
+      "mutations": [
+        {
+          "error_id": "case_19_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "history",
+          "original_text": "Early morning stiffness lasting about 90 minutes (initially said 30 minutes).",
+          "mutated_text": "Early morning stiffness lasting about 30 minutes.",
+          "evidence_turns": [
+            7
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The corrected 90 minutes indicates active inflammatory disease; 30 minutes understates activity and weakens the case for treatment escalation.",
+          "description": "Morning stiffness kept at the figure the patient corrected"
+        },
+        {
+          "error_id": "case_19_b_e2",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "Husband had shingles last month; patient had chickenpox as a child and has not had shingles.",
+          "mutated_text": "Had shingles last month.",
+          "evidence_turns": [
+            25
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The husband's shingles recorded as hers adds a false recent infection on immunosuppression, which could delay treatment or prompt unnecessary antivirals.",
+          "description": "Husband's shingles recorded as the patient's"
+        },
+        {
+          "error_id": "case_19_b_e3",
+          "type": "OMIT_SAFETY",
+          "section": "safety_netting",
+          "original_text": "If sore throat, fever, mouth ulcers, unusual bruising or bleeding, or new cough or breathlessness: stop methotrexate, get an urgent blood test and call the rheumatology helpline. ",
+          "mutated_text": "",
+          "evidence_turns": [
+            42
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Methotrexate toxicity advice was given verbally, but without documentation it may not be reinforced after the dose increase; marrow suppression and pneumonitis can be fatal.",
+          "description": "Methotrexate toxicity safety-netting dropped"
+        },
+        {
+          "error_id": "case_19_b_e4",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "Left hand normal.",
+          "mutated_text": "Left hand normal. Chest clear on auscultation.",
+          "evidence_turns": [
+            30
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The chest was not examined; a recorded normal chest could be used as a baseline when assessing possible methotrexate pneumonitis later.",
+          "description": "Chest examination recorded that was never done"
+        }
+      ]
+    }
+  ]
+}

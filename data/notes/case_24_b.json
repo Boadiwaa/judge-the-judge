@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_24_b",
+  "case_id": "case_24",
+  "sections": {
+    "presenting_complaint": "Diarrhoea and vomiting for 2 weeks.",
+    "history": "Vomited twice this morning, none since lunch; four to five loose stools today. Blood in stools. Crampy abdominal pain before defecation. Poor oral intake. Last passed dark urine this morning. Postural dizziness. No falls (the fall mentioned by her son was a neighbour's). Tired but not confused, per son. District nurses dressing a sore on the right heel twice weekly.",
+    "medications_allergies": "Metformin 500 mg twice daily. Ramipril 5 mg once daily. Furosemide 40 mg each morning (initially said two tablets, corrected to one). Atorvastatin at night. Codeine intolerance (vomiting).",
+    "examination": "Telephone consultation; not examined. Son reports she is making sense.",
+    "impression": "Probable infective gastroenteritis with dehydration in an 85-year-old on metformin, an ACE inhibitor and a loop diuretic; risk of acute kidney injury.",
+    "plan": "Sick day rules: temporarily stop metformin, ramipril and furosemide until eating and drinking normally for 24\u201348 hours; continue atorvastatin. Small, frequent fluids; oral rehydration sachets. U&E at next routine review.",
+    "safety_netting": "Call 111 (or 999 if very unwell) if unable to keep fluids down, confused or very drowsy, no urine for 12 hours, or blood in stool."
+  }
+}

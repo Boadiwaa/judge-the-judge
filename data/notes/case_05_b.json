@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_05_b",
+  "case_id": "case_05",
+  "sections": {
+    "presenting_complaint": "Central chest pain starting at about 13:00 while gardening.",
+    "history": "Heavy central chest pain radiating to the left arm, lasting about 30 minutes; ongoing at 3/10. Associated sweating and mild breathlessness; no nausea. No previous similar episodes or known cardiac disease. Hypertension. Smoker, 20 per day. Father had a myocardial infarction at 52. Aspirin 300 mg and GTN given by ambulance crew.",
+    "medications_allergies": "Amlodipine 5 mg once daily. No known drug allergies.",
+    "examination": "HR 88 regular, BP 152/90, SpO2 97% on air. Heart sounds normal. Chest clear. Chest wall tender, reproducing the pain. No peripheral oedema. ECG: sinus rhythm, 1 mm ST depression in V4\u2013V6.",
+    "impression": "Suspected acute coronary syndrome (possible NSTEMI).",
+    "plan": "Serial high-sensitivity troponin. Fondaparinux 2.5 mg subcutaneously once daily. GTN spray as required. Discharge with GP follow-up if first troponin normal. Repeat ECG with any further pain.",
+    "safety_netting": "Asked to report recurrent or worsening pain to nursing staff immediately."
+  }
+}

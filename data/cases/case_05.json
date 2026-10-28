@@ -1,0 +1,359 @@
+{
+  "case_id": "case_05",
+  "setting": "ED",
+  "title": "Chest pain while gardening",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, Mr Quist. I'm Dr Abara, one of the emergency doctors. Is it all right if your wife stays?"
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "Yes, please. This is Imelda."
+    },
+    {
+      "turn": 3,
+      "speaker": "Relative",
+      "text": "Hello, doctor."
+    },
+    {
+      "turn": 4,
+      "speaker": "Clinician",
+      "text": "Can you tell me what happened today?"
+    },
+    {
+      "turn": 5,
+      "speaker": "Patient",
+      "text": "I was in the garden, digging, and I got this pain in my chest."
+    },
+    {
+      "turn": 6,
+      "speaker": "Clinician",
+      "text": "When did it start?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Patient",
+      "text": "After lunch. No, before. I hadn't eaten yet. About eleven o'clock."
+    },
+    {
+      "turn": 8,
+      "speaker": "Relative",
+      "text": "It was just before eleven. I'd just put the kettle on."
+    },
+    {
+      "turn": 9,
+      "speaker": "Clinician",
+      "text": "Okay, about eleven. Can you show me where the pain was?"
+    },
+    {
+      "turn": 10,
+      "speaker": "Patient",
+      "text": "Here, in the middle. Like a heavy weight sitting on me."
+    },
+    {
+      "turn": 11,
+      "speaker": "Clinician",
+      "text": "Did it go anywhere else?"
+    },
+    {
+      "turn": 12,
+      "speaker": "Patient",
+      "text": "Down my left arm."
+    },
+    {
+      "turn": 13,
+      "speaker": "Clinician",
+      "text": "How long did it last?"
+    },
+    {
+      "turn": 14,
+      "speaker": "Patient",
+      "text": "About half an hour. It's eased off now, but it's still there a bit. Maybe three out of ten."
+    },
+    {
+      "turn": 15,
+      "speaker": "Clinician",
+      "text": "Did you feel sweaty or sick with it?"
+    },
+    {
+      "turn": 16,
+      "speaker": "Patient",
+      "text": "Very sweaty. Not sick."
+    },
+    {
+      "turn": 17,
+      "speaker": "Clinician",
+      "text": "Short of breath?"
+    },
+    {
+      "turn": 18,
+      "speaker": "Patient",
+      "text": "A bit."
+    },
+    {
+      "turn": 19,
+      "speaker": "Clinician",
+      "text": "Have you had anything like this before?"
+    },
+    {
+      "turn": 20,
+      "speaker": "Patient",
+      "text": "No, never."
+    },
+    {
+      "turn": 21,
+      "speaker": "Clinician",
+      "text": "Any heart problems in the past?"
+    },
+    {
+      "turn": 22,
+      "speaker": "Patient",
+      "text": "No. Just blood pressure. I'm on amlodipine."
+    },
+    {
+      "turn": 23,
+      "speaker": "Clinician",
+      "text": "What dose?"
+    },
+    {
+      "turn": 24,
+      "speaker": "Patient",
+      "text": "Five milligrams."
+    },
+    {
+      "turn": 25,
+      "speaker": "Clinician",
+      "text": "Any other medicines?"
+    },
+    {
+      "turn": 26,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 27,
+      "speaker": "Clinician",
+      "text": "Any allergies?"
+    },
+    {
+      "turn": 28,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "Do you smoke?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "Yes, about twenty a day. I know."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "Anyone in the family with heart problems?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "My father had a heart attack at 52."
+    },
+    {
+      "turn": 33,
+      "speaker": "Relative",
+      "text": "And my dad had his at 60, but that's my side."
+    },
+    {
+      "turn": 34,
+      "speaker": "Clinician",
+      "text": "Thank you. The paramedics gave you aspirin, 300 milligrams, I can see that on their sheet."
+    },
+    {
+      "turn": 35,
+      "speaker": "Patient",
+      "text": "Yes, they did. And a spray under my tongue."
+    },
+    {
+      "turn": 36,
+      "speaker": "Clinician",
+      "text": "Let me examine you. Your heart rate is 88 and regular, blood pressure 152 over 90. Your heart sounds are normal. Your chest is clear. Oxygen level is 97 percent. No swelling in your ankles."
+    },
+    {
+      "turn": 37,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 38,
+      "speaker": "Clinician",
+      "text": "Your ECG, the heart tracing, shows some changes. There's about a millimetre of ST depression in the leads on the left side of the chest, V4 to V6. That can be a sign the heart muscle isn't getting enough blood."
+    },
+    {
+      "turn": 39,
+      "speaker": "Relative",
+      "text": "Is he having a heart attack?"
+    },
+    {
+      "turn": 40,
+      "speaker": "Clinician",
+      "text": "It's possible. It could be what we call an acute coronary syndrome. We've taken a blood test for troponin, which shows heart muscle damage, and we'll repeat it in a few hours."
+    },
+    {
+      "turn": 41,
+      "speaker": "Patient",
+      "text": "What happens now?"
+    },
+    {
+      "turn": 42,
+      "speaker": "Clinician",
+      "text": "I'm going to start an injection called fondaparinux, 2.5 milligrams under the skin once a day, to thin the blood. You can have GTN spray if the pain comes back."
+    },
+    {
+      "turn": 43,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 44,
+      "speaker": "Clinician",
+      "text": "I'm going to admit you under the cardiology team. They'll likely want to do an angiogram, a test to look at the heart arteries."
+    },
+    {
+      "turn": 45,
+      "speaker": "Patient",
+      "text": "Right."
+    },
+    {
+      "turn": 46,
+      "speaker": "Clinician",
+      "text": "We'll repeat your ECG every time you get pain, and in the meantime please tell the nurses straight away if the pain comes back or gets worse."
+    },
+    {
+      "turn": 47,
+      "speaker": "Patient",
+      "text": "I will."
+    },
+    {
+      "turn": 48,
+      "speaker": "Relative",
+      "text": "Thank you, doctor."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Central chest pain starting at about 11:00 while gardening.",
+    "history": "Heavy central chest pain radiating to the left arm, lasting about 30 minutes; ongoing at 3/10. Associated sweating and mild breathlessness; no nausea. No previous similar episodes or known cardiac disease. Hypertension. Smoker, 20 per day. Father had a myocardial infarction at 52. Aspirin 300 mg and GTN given by ambulance crew.",
+    "medications_allergies": "Amlodipine 5 mg once daily. No known drug allergies.",
+    "examination": "HR 88 regular, BP 152/90, SpO2 97% on air. Heart sounds normal. Chest clear. No peripheral oedema. ECG: sinus rhythm, 1 mm ST depression in V4–V6.",
+    "impression": "Suspected acute coronary syndrome (possible NSTEMI).",
+    "plan": "Serial high-sensitivity troponin. Fondaparinux 2.5 mg subcutaneously once daily. GTN spray as required. Admit under cardiology; likely coronary angiography. Repeat ECG with any further pain.",
+    "safety_netting": "Asked to report recurrent or worsening pain to nursing staff immediately."
+  },
+  "variants": [
+    {
+      "variant_id": "case_05_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_05_a",
+      "mutations": [
+        {
+          "error_id": "case_05_a_e1",
+          "type": "NEGATION",
+          "section": "examination",
+          "original_text": "1 mm ST depression in V4–V6",
+          "mutated_text": "no ST segment changes",
+          "evidence_turns": [
+            38
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "A normal ECG in the record removes a key high-risk feature and could lead to under-triage or early discharge of a probable NSTEMI.",
+          "description": "Ischaemic ECG changes recorded as normal"
+        },
+        {
+          "error_id": "case_05_a_e2",
+          "type": "ATTRIBUTION",
+          "section": "history",
+          "original_text": "Father had a myocardial infarction at 52.",
+          "mutated_text": "Father had a myocardial infarction at 60.",
+          "evidence_turns": [
+            32,
+            33
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The wife's father's age was recorded as the patient's father's, removing a premature family history that informs cardiovascular risk.",
+          "description": "Wife's father's heart attack age recorded as the patient's father's"
+        },
+        {
+          "error_id": "case_05_a_e3",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "Fondaparinux 2.5 mg subcutaneously once daily",
+          "mutated_text": "Fondaparinux 25 mg subcutaneously once daily",
+          "evidence_turns": [
+            42
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "A tenfold anticoagulant dose would cause major bleeding if given, though it would likely be questioned at prescribing or administration.",
+          "description": "Fondaparinux dose ten times too high"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_05_b",
+      "mutations": [
+        {
+          "error_id": "case_05_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "presenting_complaint",
+          "original_text": "at about 11:00",
+          "mutated_text": "at about 13:00",
+          "evidence_turns": [
+            7
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Onset time anchors troponin interpretation; recording it two hours later could make an early troponin look falsely reassuring.",
+          "description": "Pain onset kept at the time the patient corrected"
+        },
+        {
+          "error_id": "case_05_b_e2",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "Chest clear.",
+          "mutated_text": "Chest clear. Chest wall tender, reproducing the pain.",
+          "evidence_turns": [
+            36
+          ],
+          "seeded_severity": 4,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Reproducible chest wall tenderness was never elicited; it suggests musculoskeletal pain and could bias a reviewer toward discharge.",
+          "description": "Chest wall tenderness recorded that was never found"
+        },
+        {
+          "error_id": "case_05_b_e3",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Admit under cardiology; likely coronary angiography.",
+          "mutated_text": "Discharge with GP follow-up if first troponin normal.",
+          "evidence_turns": [
+            44
+          ],
+          "seeded_severity": 5,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Discharging a patient with ischaemic ECG changes after one troponin risks missed myocardial infarction and death.",
+          "description": "Cardiology admission changed to possible discharge"
+        }
+      ]
+    }
+  ]
+}

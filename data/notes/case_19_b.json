@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_19_b",
+  "case_id": "case_19",
+  "sections": {
+    "presenting_complaint": "Flare of rheumatoid arthritis for 3 weeks.",
+    "history": "Painful swelling of the right wrist and right hand knuckles for 3 weeks. Early morning stiffness lasting about 30 minutes. Mild foot ache. Mild nausea the day after methotrexate. No sore throat, fever, bruising, cough or breathlessness. Drinks about 6 units of alcohol a week. Had shingles last month.",
+    "medications_allergies": "Methotrexate 15 mg once weekly (Mondays). Folic acid 5 mg once weekly (Thursdays). Sulfasalazine: rash.",
+    "examination": "Synovitis of the right wrist and right 2nd and 3rd MCP joints. Left hand normal. Chest clear on auscultation. Bloods: CRP 28, FBC and LFTs normal. DAS28 4.8.",
+    "impression": "Rheumatoid arthritis flare, moderate disease activity on methotrexate.",
+    "plan": "Increase methotrexate to 20 mg once weekly (Mondays); continue folic acid 5 mg once weekly (Thursdays). Intramuscular methylprednisolone 120 mg today. Bloods every 2 weeks for 6 weeks, then 3-monthly. Clinic review in 3 months.",
+    "safety_netting": "Report a painful blistering rash promptly."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variant_id": "case_15_clean",
+  "case_id": "case_15",
+  "sections": {
+    "presenting_complaint": "Routine lithium monitoring review, bipolar affective disorder.",
+    "history": "Reports stable mood and good energy. Wife reports reduced sleep (about 5 hours) and increased talkativeness and new projects over the last week, which preceded his previous relapse. Patient denies racing thoughts or overspending. No missed lithium doses. Took naproxen (his brother's) for back pain for 3\u20134 days last week, initially recalled as ibuprofen. No diarrhoea, vomiting, unsteadiness or confusion. Long-standing fine tremor, unchanged. Good fluid intake.",
+    "medications_allergies": "Priadel (lithium carbonate) 800 mg at night. No known drug allergies.",
+    "examination": "Fine tremor of both hands, unchanged. Gait steady. Bloods: lithium level last month 0.7 mmol/L (12-hour post-dose), eGFR 74 (stable), thyroid function and calcium normal.",
+    "impression": "Bipolar affective disorder on lithium; level in range last month. Recent NSAID use, risk of raised lithium level. Possible early signs of hypomanic relapse reported by wife.",
+    "plan": "Continue Priadel 800 mg at night. Repeat lithium level in 1 week (12 hours post-dose) because of NSAID exposure, then 3-monthly. Avoid NSAIDs; paracetamol for back pain. Inform community mental health team. Sleep diary; contact care coordinator if under 5 hours' sleep for two consecutive nights.",
+    "safety_netting": "If vomiting, diarrhoea, coarse tremor, unsteadiness or confusion: stop lithium and seek an urgent lithium level or attend A&E. Avoid dehydration, especially in hot weather."
+  }
+}

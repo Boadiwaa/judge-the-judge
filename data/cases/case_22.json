@@ -1,0 +1,359 @@
+{
+  "case_id": "case_22",
+  "setting": "REMOTE",
+  "title": "Video call: red, swollen shin",
+  "clinician_reviewed": false,
+  "has_correction": true,
+  "transcript": [
+    {
+      "turn": 1,
+      "speaker": "Clinician",
+      "text": "Hello, can you hear me okay? It's Dr Hartigan from the surgery."
+    },
+    {
+      "turn": 2,
+      "speaker": "Patient",
+      "text": "Yes, I can hear you. My daughter's holding the phone."
+    },
+    {
+      "turn": 3,
+      "speaker": "Relative",
+      "text": "Hi, I'm Grace."
+    },
+    {
+      "turn": 4,
+      "speaker": "Clinician",
+      "text": "Hi, Grace. Mr Kettering, can you confirm your date of birth?"
+    },
+    {
+      "turn": 5,
+      "speaker": "Patient",
+      "text": "Ninth of June, 1957."
+    },
+    {
+      "turn": 6,
+      "speaker": "Clinician",
+      "text": "Thank you. What's the problem?"
+    },
+    {
+      "turn": 7,
+      "speaker": "Patient",
+      "text": "My leg's gone red and swollen. The left one."
+    },
+    {
+      "turn": 8,
+      "speaker": "Clinician",
+      "text": "When did it start?"
+    },
+    {
+      "turn": 9,
+      "speaker": "Patient",
+      "text": "Tuesday. No, wait, I was gardening on Tuesday and I scratched it on the roses. It went red on Wednesday morning."
+    },
+    {
+      "turn": 10,
+      "speaker": "Clinician",
+      "text": "So since Wednesday morning. Can you show me on the camera?"
+    },
+    {
+      "turn": 11,
+      "speaker": "Relative",
+      "text": "Here, I'll point it at his shin."
+    },
+    {
+      "turn": 12,
+      "speaker": "Clinician",
+      "text": "Thank you. I can see a red area on the front of the left shin, about ten centimetres across, with a small scratch in the middle. Is it hot to touch?"
+    },
+    {
+      "turn": 13,
+      "speaker": "Patient",
+      "text": "Yes, it's warm."
+    },
+    {
+      "turn": 14,
+      "speaker": "Clinician",
+      "text": "Any blisters, or black or dark patches?"
+    },
+    {
+      "turn": 15,
+      "speaker": "Relative",
+      "text": "No, just red."
+    },
+    {
+      "turn": 16,
+      "speaker": "Clinician",
+      "text": "I can't see any blisters on the video either. Is it painful?"
+    },
+    {
+      "turn": 17,
+      "speaker": "Patient",
+      "text": "Sore, but not terrible."
+    },
+    {
+      "turn": 18,
+      "speaker": "Clinician",
+      "text": "Have you had a temperature?"
+    },
+    {
+      "turn": 19,
+      "speaker": "Patient",
+      "text": "I checked this morning. 37.6."
+    },
+    {
+      "turn": 20,
+      "speaker": "Clinician",
+      "text": "Do you feel unwell in yourself? Shivery, sick, confused?"
+    },
+    {
+      "turn": 21,
+      "speaker": "Patient",
+      "text": "No, I feel all right."
+    },
+    {
+      "turn": 22,
+      "speaker": "Clinician",
+      "text": "Any swelling in the other leg?"
+    },
+    {
+      "turn": 23,
+      "speaker": "Patient",
+      "text": "No."
+    },
+    {
+      "turn": 24,
+      "speaker": "Clinician",
+      "text": "Any medical problems?"
+    },
+    {
+      "turn": 25,
+      "speaker": "Patient",
+      "text": "Type 2 diabetes. I'm on metformin, 500 milligrams twice a day."
+    },
+    {
+      "turn": 26,
+      "speaker": "Clinician",
+      "text": "Any allergies to medicines?"
+    },
+    {
+      "turn": 27,
+      "speaker": "Patient",
+      "text": "No, none."
+    },
+    {
+      "turn": 28,
+      "speaker": "Relative",
+      "text": "I'm allergic to penicillin. Is that the kind of thing you'd give him? Should we be careful?"
+    },
+    {
+      "turn": 29,
+      "speaker": "Clinician",
+      "text": "Good question, but it's your allergy, not your dad's, so he can have it. Mr Kettering, have you ever had penicillin or amoxicillin?"
+    },
+    {
+      "turn": 30,
+      "speaker": "Patient",
+      "text": "Yes, plenty of times. No problems."
+    },
+    {
+      "turn": 31,
+      "speaker": "Clinician",
+      "text": "Do you live with anyone?"
+    },
+    {
+      "turn": 32,
+      "speaker": "Patient",
+      "text": "On my own. Grace pops in every day."
+    },
+    {
+      "turn": 33,
+      "speaker": "Clinician",
+      "text": "Okay. I can't feel the leg over video, but from what I can see this looks like cellulitis, a skin infection, probably from the scratch."
+    },
+    {
+      "turn": 34,
+      "speaker": "Patient",
+      "text": "I thought so."
+    },
+    {
+      "turn": 35,
+      "speaker": "Clinician",
+      "text": "I'll prescribe flucloxacillin, 500 milligrams four times a day for seven days. Take it on an empty stomach, an hour before food or two hours after."
+    },
+    {
+      "turn": 36,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 37,
+      "speaker": "Clinician",
+      "text": "Grace, could you draw around the edge of the redness with a pen? Then we can see if it's spreading."
+    },
+    {
+      "turn": 38,
+      "speaker": "Relative",
+      "text": "Yes, I'll do that now."
+    },
+    {
+      "turn": 39,
+      "speaker": "Clinician",
+      "text": "Keep the leg raised when you're sitting. Take paracetamol for the pain."
+    },
+    {
+      "turn": 40,
+      "speaker": "Patient",
+      "text": "Okay."
+    },
+    {
+      "turn": 41,
+      "speaker": "Clinician",
+      "text": "I'd like you to send me a photo, or have another video call, in 48 hours."
+    },
+    {
+      "turn": 42,
+      "speaker": "Relative",
+      "text": "We can do that."
+    },
+    {
+      "turn": 43,
+      "speaker": "Clinician",
+      "text": "If the redness spreads beyond the line, he gets a high temperature, shivers, feels very unwell or confused, or the pain gets much worse, call us straight away for a same-day appointment, or 111 if we're closed. If he's very unwell, call 999."
+    },
+    {
+      "turn": 44,
+      "speaker": "Relative",
+      "text": "Okay."
+    },
+    {
+      "turn": 45,
+      "speaker": "Patient",
+      "text": "Thank you, doctor."
+    }
+  ],
+  "reference_note": {
+    "presenting_complaint": "Red, swollen left shin since Wednesday morning.",
+    "history": "Scratched by a rose bush while gardening on Tuesday; redness from Wednesday morning (patient initially said Tuesday). Warm and sore. No blistering or dark patches. Temperature 37.6 °C this morning (self-measured). Systemically well; no rigors, vomiting or confusion. No swelling of the other leg. Type 2 diabetes. Lives alone; daughter visits daily.",
+    "medications_allergies": "Metformin 500 mg twice daily. No known drug allergies; has had penicillins without problems (daughter, present, is penicillin-allergic).",
+    "examination": "Assessed by video; not palpated. Erythema over the anterior left shin, approximately 10 cm across, with a small central scratch. No blistering or necrosis visible.",
+    "impression": "Cellulitis of the left lower leg (Eron class I) following a scratch.",
+    "plan": "Flucloxacillin 500 mg four times daily for 7 days, on an empty stomach. Margin of erythema marked with pen. Elevation and paracetamol. Photo or video review in 48 hours.",
+    "safety_netting": "Same-day contact (or 111) if spreading beyond the marked line, high fever, rigors, feeling very unwell or confused, or rapidly worsening pain. Call 999 if very unwell."
+  },
+  "variants": [
+    {
+      "variant_id": "case_22_clean",
+      "mutations": []
+    },
+    {
+      "variant_id": "case_22_a",
+      "mutations": [
+        {
+          "error_id": "case_22_a_e1",
+          "type": "LATERALITY",
+          "section": "examination",
+          "original_text": "anterior left shin",
+          "mutated_text": "anterior right shin",
+          "evidence_turns": [
+            7,
+            12
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "The wrong side could cause confusion at the 48-hour review or if he presents elsewhere, though the redness is obvious.",
+          "description": "Cellulitis recorded on the wrong leg"
+        },
+        {
+          "error_id": "case_22_a_e2",
+          "type": "ATTRIBUTION",
+          "section": "medications_allergies",
+          "original_text": "No known drug allergies; has had penicillins without problems (daughter, present, is penicillin-allergic).",
+          "mutated_text": "Allergic to penicillin.",
+          "evidence_turns": [
+            28,
+            30
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "The daughter's allergy recorded as his would deny him first-line flucloxacillin, now and in future, and mislabel his record.",
+          "description": "Daughter's penicillin allergy recorded as the patient's"
+        },
+        {
+          "error_id": "case_22_a_e3",
+          "type": "HALLUC",
+          "section": "examination",
+          "original_text": "Assessed by video; not palpated.",
+          "mutated_text": "Warm and tender on palpation; no crepitus.",
+          "evidence_turns": [
+            33
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "A palpation finding in a video consultation is fabricated; a recorded absence of crepitus falsely implies necrotising infection was excluded by examination.",
+          "description": "Hands-on examination recorded in a video call"
+        }
+      ]
+    },
+    {
+      "variant_id": "case_22_b",
+      "mutations": [
+        {
+          "error_id": "case_22_b_e1",
+          "type": "CORRECTION_LOST",
+          "section": "presenting_complaint",
+          "original_text": "since Wednesday morning",
+          "mutated_text": "since Tuesday",
+          "evidence_turns": [
+            9
+          ],
+          "seeded_severity": 1,
+          "seeded_likelihood": 1,
+          "seeded_rationale": "A one-day difference in onset does not change management.",
+          "description": "Onset kept at the day the patient corrected"
+        },
+        {
+          "error_id": "case_22_b_e2",
+          "type": "DOSE_UNIT",
+          "section": "plan",
+          "original_text": "Flucloxacillin 500 mg four times daily",
+          "mutated_text": "Flucloxacillin 500 mg once daily",
+          "evidence_turns": [
+            35
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Once-daily flucloxacillin is a quarter of the intended dose and would likely fail to treat the infection in a diabetic patient.",
+          "description": "Flucloxacillin frequency cut to once daily"
+        },
+        {
+          "error_id": "case_22_b_e3",
+          "type": "PLAN_CHANGE",
+          "section": "plan",
+          "original_text": "Photo or video review in 48 hours.",
+          "mutated_text": "No routine review needed.",
+          "evidence_turns": [
+            41
+          ],
+          "seeded_severity": 3,
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Without the agreed 48-hour review, a spreading infection in a diabetic man who lives alone may be missed.",
+          "description": "48-hour review dropped"
+        },
+        {
+          "error_id": "case_22_b_e4",
+          "type": "OMIT_OTHER",
+          "section": "history",
+          "original_text": " Lives alone; daughter visits daily.",
+          "mutated_text": "",
+          "evidence_turns": [
+            32
+          ],
+          "seeded_severity": 2,
+          "seeded_likelihood": 2,
+          "seeded_rationale": "Living alone matters for deciding whether he can be safely managed at home if he deteriorates.",
+          "description": "Social situation dropped"
+        }
+      ]
+    }
+  ]
+}
