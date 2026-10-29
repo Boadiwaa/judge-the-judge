@@ -9,3 +9,7 @@ data/ratings.sqlite
 src/jtj/app/assets/protocol.md
 .Rhistory
 data/usage.sqlite
+# owner exports of study data: never commit
+jtj_ratings.zip
+jtj_usage.zip
+data/ratings*.sqlite
