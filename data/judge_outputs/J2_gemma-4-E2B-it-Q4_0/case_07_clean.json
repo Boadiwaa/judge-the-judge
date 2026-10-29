@@ -1,0 +1,396 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "Inversion injury to the left ankle descending stairs at work, approximately 2 hours ago."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "Missed the last step and foot rolled inwards."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "No head injury or loss of consciousness."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Unable to weight-bear immediately after injury (hopped to car); managed only two steps in the department."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "No numbness or tingling."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "No previous injury to this ankle."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "No significant past medical history."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "Occupation: Office manager, mostly desk-based, walks between two sites."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "Habits: Non-smoker; drinks a few glasses of wine at weekends."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "Medication: Combined oral contraceptive (Microgynon)."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "Allergy: Penicillin (rash)."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "Medical history: No history of peptic ulcer disease, asthma or renal disease."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "Swelling over the lateral aspect of the ankle."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "Bony tenderness at the posterior edge of the left lateral malleolus."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "Medial malleolus non-tender."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "Base of fifth metatarsal and navicular non-tender."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "Foot warm, dorsalis pedis pulse palpable, sensation intact."
+   },
+   {
+    "id": "c18",
+    "section": "Impression",
+    "claim": "Ottawa ankle rules positive (posterior lateral malleolar tenderness; unable to weight-bear four steps)."
+   },
+   {
+    "id": "c19",
+    "section": "Impression",
+    "claim": "Possible lateral malleolar fracture; differential diagnosis ankle sprain."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "Imaging: X-ray left ankle (AP and mortise views)."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "Analgesia: paracetamol 1 g four times daily (maximum 4 g in 24 hours) and ibuprofen 400 mg three times daily with food."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "Initial management: Cold pack and elevation."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "Follow-up (Sprain): Discharge with advice leaflet and early mobilisation as pain allows."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "Follow-up (Fracture): Management according to fracture type, likely boot and fracture clinic referral."
+   },
+   {
+    "id": "c25",
+    "section": "Safety-netting",
+    "claim": "Return immediately if the foot becomes cold, pale or numb, or if pain is not controlled with analgesia."
+   },
+   {
+    "id": "c26",
+    "section": "Safety-netting",
+    "claim": "Risk warning: Seek urgent help for calf pain or swelling, chest pain or breathlessness due to reduced mobility/pill use."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "Clinician is Dr Okonjo, one of the emergency doctors.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "Patient's name is Harriet Fenwick-Doyle, date of birth is March 14, ninety-one.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     4
+    ],
+    "fact": "Presenting complaint: 'I've done my ankle in. I went over on it coming down the stairs at work.'",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     6
+    ],
+    "fact": "Timing of injury: 'About... it'd be about four hours ago? No, sorry, less than that. It was just after my ten o'clock meeting, so two hours, maybe a bit more.'",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     8
+    ],
+    "fact": "Affected ankle: The left ankle.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     10
+    ],
+    "fact": "Mechanism detail: 'Yeah, it turned in under me. I missed the last step.'",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     12
+    ],
+    "fact": "Associated event: 'No, nothing like that. I just sort of sat down hard.'",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     14
+    ],
+    "fact": "Immediate post-injury activity: 'I hopped to the car. My colleague drove me in.'",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     16
+    ],
+    "fact": "Mobility attempt: 'I tried in the waiting room. I got maybe two steps and had to sit down.'",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     18
+    ],
+    "fact": "Symptom: 'No, it just throbs.'",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     20
+    ],
+    "fact": "History of injury: 'No, never.'",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     22
+    ],
+    "fact": "General health status: 'No, I'm pretty healthy.'",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     24
+    ],
+    "fact": "Medication: 'Just the pill. Microgynon.'",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     26
+    ],
+    "fact": "Allergy: 'Penicillin. I come out in a rash.'",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     30
+    ],
+    "fact": "Occupation/Activity: 'I'm an office manager, so mostly desk based, but I do walk between two sites.'",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     32
+    ],
+    "fact": "Habits: 'I don't smoke. A few glasses of wine at the weekend.'",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     33
+    ],
+    "fact": "Examination finding/action: Clinician observes swelling over the outside of the ankle and presses on the bony bit at the back of the left ankle, on the outside. Patient reports pain ('Ow, yes, right there.').",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     34
+    ],
+    "fact": "Pain response: Patient reports pain when pressed on the bony bit at the back of the left ankle, on the outside.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     36
+    ],
+    "fact": "Examination finding/negative: Clinician asks about the bone on the inside, and patient reports it is 'fine.'",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     37
+    ],
+    "fact": "Examination action: Clinician asks about the bone on the outside edge of the foot, the base of the fifth metatarsal.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     38
+    ],
+    "fact": "Examination finding/negative: Patient reports 'No, not there.'",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     41
+    ],
+    "fact": "Examination finding: Clinician asks if patient can wiggle toes, and notes the foot is warm and pulse is palpable on top of the foot.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     42
+    ],
+    "fact": "Examination finding/positive: Patient confirms they can feel the touch and notes the foot is warm and pulse is palpable.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     43
+    ],
+    "fact": "Clinical assessment: Using Ottawa ankle rules, the clinician states the patient is tender at the back of the outer ankle bone and couldn't take four steps, necessitating an X-ray.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     44
+    ],
+    "fact": "Patient query: 'Do you think it's broken?'",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     45
+    ],
+    "fact": "Impression/Plan: Clinician states it's possible it may be a bad sprain, but the X-ray will determine the diagnosis. Plan includes requesting X-rays of the ankle, the AP and mortise views.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     45
+    ],
+    "fact": "Plan/Medication: Plan for pain includes paracetamol 1 gram four times a day (maximum 4 grams in 24 hours) and ibuprofen 400 milligrams three times a day with food.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     47
+    ],
+    "fact": "Plan/Action: Clinician states the nurse will bring the first doses and they will apply a cold pack and keep it raised.",
+    "about": "patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     49
+    ],
+    "fact": "Plan/Follow-up: If it's a sprain, the plan is discharge with an advice leaflet and early mobilisation as pain allows. If it's broken, management depends on the fracture type, likely a boot and fracture clinic referral.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     53
+    ],
+    "fact": "Safety-netting: Clinician advises returning immediately if the foot becomes cold, pale or numb, or if pain is not controlled with painkillers.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     55
+    ],
+    "fact": "Safety-netting/Risk warning: Clinician advises seeking urgent help for calf pain or swelling, chest pain or breathlessness because the patient is on the pill and will be less mobile.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

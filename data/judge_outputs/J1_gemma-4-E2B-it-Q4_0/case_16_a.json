@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Start sertraline 50 mg three times daily (compatible with breastfeeding).\",\n      \"transcript_evidence\": \"I'd like to start a medicine called sertraline, 50 milligrams once a day. It's one of the safest antidepressants when breastfeeding.\",\n      \"evidence_turns\": [\n        34\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the frequency of the prescribed medication, which could lead to incorrect dosing.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Start sertraline 50 mg three times daily (compatible with breastfeeding).",
+    "transcript_evidence": "I'd like to start a medicine called sertraline, 50 milligrams once a day. It's one of the safest antidepressants when breastfeeding.",
+    "evidence_turns": [
+     34
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the frequency of the prescribed medication, which could lead to incorrect dosing."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

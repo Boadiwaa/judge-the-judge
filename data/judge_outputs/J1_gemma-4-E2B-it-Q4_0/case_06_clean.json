@@ -1,0 +1,36 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Head injury after a mechanical fall at home at about 07:45.\",\n      \"transcript_evidence\": \"[6] Patient: About half past nine. [7] Relative: Mum, it was before that. The post hadn't come and you hadn't had your breakfast. It was about quarter to eight.\",\n      \"evidence_turns\": [\n        6,\n        7\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note records a significant discrepancy in the time of the incident (07:45 vs. quarter to eight), which impacts the timeline of events.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"Head injury in an anticoagulated 81-year-old with brief post-traumatic confusion and amnesia, and one episode of vomiting.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The patient's age (81-year-old) is a critical demographic fact missing from the documentation.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Head injury after a mechanical fall at home at about 07:45.",
+    "transcript_evidence": "[6] Patient: About half past nine. [7] Relative: Mum, it was before that. The post hadn't come and you hadn't had your breakfast. It was about quarter to eight.",
+    "evidence_turns": [
+     6,
+     7
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note records a significant discrepancy in the time of the incident (07:45 vs. quarter to eight), which impacts the timeline of events."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Impression",
+    "note_span": "Head injury in an anticoagulated 81-year-old with brief post-traumatic confusion and amnesia, and one episode of vomiting.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The patient's age (81-year-old) is a critical demographic fact missing from the documentation."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

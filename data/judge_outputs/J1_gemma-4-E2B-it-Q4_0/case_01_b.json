@@ -1,0 +1,38 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Dry cough for approximately 2 weeks.\",\n      \"transcript_evidence\": \"About six weeks now. ... More like two months, then.\",\n      \"evidence_turns\": [\n        7,\n        9\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The documented duration of the cough (2 weeks) is significantly shorter than the duration reported by the patient and relative (6 weeks/two months).\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Start losartan 50 mg twice daily.\",\n      \"transcript_evidence\": \"We'll start at fifty milligrams once a day.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan incorrectly states the losartan dose is taken twice daily, whereas the clinician explicitly stated it would be started once daily.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Dry cough for approximately 2 weeks.",
+    "transcript_evidence": "About six weeks now. ... More like two months, then.",
+    "evidence_turns": [
+     7,
+     9
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The documented duration of the cough (2 weeks) is significantly shorter than the duration reported by the patient and relative (6 weeks/two months)."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Start losartan 50 mg twice daily.",
+    "transcript_evidence": "We'll start at fifty milligrams once a day.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The plan incorrectly states the losartan dose is taken twice daily, whereas the clinician explicitly stated it would be started once daily."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

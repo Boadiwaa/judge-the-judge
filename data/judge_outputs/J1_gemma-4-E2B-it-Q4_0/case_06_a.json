@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"3 cm laceration with haematoma over the right temple.\",\n      \"transcript_evidence\": \"There's a cut here, about 3 centimetres long, on your left temple, with a bump around it.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the location of the head injury (right vs left temple).\"\n    },\n    {\n      \"type\": \"DRUG_NAME\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Bisoprolol 2.5 mg once daily. Amiloride 5 mg once daily.\",\n      \"transcript_evidence\": \"Apixaban, 2.5 milligrams twice a day, for her heart rhythm. Bisoprolol 2.5 milligrams once a day. And amlodipine 5.\",\n      \"evidence_turns\": [\n        28\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note lists Amiloride 5 mg, but the transcript lists Amlodipine 5 mg, which is a different medication.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "3 cm laceration with haematoma over the right temple.",
+    "transcript_evidence": "There's a cut here, about 3 centimetres long, on your left temple, with a bump around it.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the location of the head injury (right vs left temple)."
+   },
+   {
+    "type": "DRUG_NAME",
+    "note_section": "Medications and allergies",
+    "note_span": "Bisoprolol 2.5 mg once daily. Amiloride 5 mg once daily.",
+    "transcript_evidence": "Apixaban, 2.5 milligrams twice a day, for her heart rhythm. Bisoprolol 2.5 milligrams once a day. And amlodipine 5.",
+    "evidence_turns": [
+     28
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note lists Amiloride 5 mg, but the transcript lists Amlodipine 5 mg, which is a different medication."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

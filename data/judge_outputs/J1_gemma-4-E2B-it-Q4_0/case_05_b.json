@@ -1,0 +1,50 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"starting at about 13:00 while gardening.\",\n      \"transcript_evidence\": \"After lunch. No, before. I hadn't eaten yet. About eleven o'clock.\",\n      \"evidence_turns\": [\n        7,\n        8\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The time of onset is significantly different, which impacts the clinical picture and potential differential diagnosis.\"\n    },\n    {\n      \"type\": \"HALLUC\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Chest wall tender, reproducing the pain.\",\n      \"transcript_evidence\": \"Your chest is clear.\",\n      \"evidence_turns\": [\n        36\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records a physical finding (tender chest wall) that is directly contradicted by the examination findings in the transcript (chest clear).\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Discharge with GP follow-up if first troponin normal.\",\n      \"transcript_evidence\": \"I'm going to admit you under the cardiology team. They'll likely want to do an angiogram, a test to look at the heart arteries.\",\n      \"evidence_turns\": [\n        44\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The plan to admit the patient to the cardiology team is omitted from the note, which is a major change to the management pathway.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "starting at about 13:00 while gardening.",
+    "transcript_evidence": "After lunch. No, before. I hadn't eaten yet. About eleven o'clock.",
+    "evidence_turns": [
+     7,
+     8
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The time of onset is significantly different, which impacts the clinical picture and potential differential diagnosis."
+   },
+   {
+    "type": "HALLUC",
+    "note_section": "Examination",
+    "note_span": "Chest wall tender, reproducing the pain.",
+    "transcript_evidence": "Your chest is clear.",
+    "evidence_turns": [
+     36
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records a physical finding (tender chest wall) that is directly contradicted by the examination findings in the transcript (chest clear)."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Discharge with GP follow-up if first troponin normal.",
+    "transcript_evidence": "I'm going to admit you under the cardiology team. They'll likely want to do an angiogram, a test to look at the heart arteries.",
+    "evidence_turns": [
+     44
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The plan to admit the patient to the cardiology team is omitted from the note, which is a major change to the management pathway."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

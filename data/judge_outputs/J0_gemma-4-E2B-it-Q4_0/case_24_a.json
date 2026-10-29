@@ -1,0 +1,27 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Medication omission/substitution\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Metronidazole 500 mg twice daily.\",\n      \"transcript_evidence\": \"Patient: Yes, 500 twice a day.\",\n      \"evidence_turns\": [\n        1,\n        33,\n        34\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly lists Metronidazole as a medication the patient is taking, when the transcript indicates the patient is taking Metformin.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Medications and allergies",
+    "note_span": "Metronidazole 500 mg twice daily.",
+    "transcript_evidence": "Patient: Yes, 500 twice a day.",
+    "evidence_turns": [
+     1,
+     33,
+     34
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly lists Metronidazole as a medication the patient is taking, when the transcript indicates the patient is taking Metformin."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

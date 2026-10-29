@@ -1,0 +1,12 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

@@ -1,0 +1,372 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "History",
+    "claim": "Recurrent headaches for 6 months."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "Two to three episodes per month."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Followed by unilateral, usually left-sided, throbbing headache with nausea and photophobia."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "No focal weakness, numbness or speech disturbance."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "No thunderclap headache."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "Not worse on lying down, coughing or straining."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "Mother has migraine without aura."
+   },
+   {
+    "id": "c8",
+    "section": "Medications and allergies",
+    "claim": "Combined hormonal contraception is contraindicated (UKMEC 4)."
+   },
+   {
+    "id": "c9",
+    "section": "Plan",
+    "claim": "Stop combined pill; start desogestrel 75 micrograms once daily continuously."
+   },
+   {
+    "id": "c10",
+    "section": "Plan",
+    "claim": "Use condoms for the first 2 days of desogestrel."
+   },
+   {
+    "id": "c11",
+    "section": "Plan",
+    "claim": "Sumatriptan 50 mg at headache onset (not during aura)."
+   },
+   {
+    "id": "c12",
+    "section": "Plan",
+    "claim": "Sumatriptan may repeat after 2 hours, maximum 600 mg in 24 hours."
+   },
+   {
+    "id": "c13",
+    "section": "Plan",
+    "claim": "Sumatriptan may take with paracetamol."
+   },
+   {
+    "id": "c14",
+    "section": "Plan",
+    "claim": "Limit acute treatment to 2\u20133 days per week to avoid medication-overuse headache."
+   },
+   {
+    "id": "c15",
+    "section": "Plan",
+    "claim": "Keep a headache diary."
+   },
+   {
+    "id": "c16",
+    "section": "Plan",
+    "claim": "Review in 6 weeks."
+   },
+   {
+    "id": "c17",
+    "section": "Safety-netting",
+    "claim": "Call 999 or attend A&E if sudden severe headache, one-sided weakness or numbness, speech difficulty, or headache with fever and neck stiffness."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     2
+    ],
+    "fact": "Patient reports getting headaches and they are getting more frequent.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     4
+    ],
+    "fact": "Headaches have been occurring for about six months.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     4
+    ],
+    "fact": "Headaches occur maybe two or three times a month.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     6
+    ],
+    "fact": "Headaches start with vision symptoms, specifically zigzag lines, shimmering, off to one side.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     8
+    ],
+    "fact": "The duration of the zigzag vision symptoms was about an hour.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     8
+    ],
+    "fact": "Correction: The duration of the zigzag vision symptoms was actually twenty minutes, not an hour.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     10
+    ],
+    "fact": "The headache comes on one side, usually the left, and it throbs.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     12
+    ],
+    "fact": "Patient feels sick and cannot stand bright lights, requiring them to lie down in a dark room.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     14
+    ],
+    "fact": "The headache lasts most of the day, and the patient is wiped out the next day.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     16
+    ],
+    "fact": "The patient reports no weakness, numbness, or trouble speaking with the headaches.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     18
+    ],
+    "fact": "Patient has never had a sudden, severe headache (like being hit on the head) the worst ever.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     20
+    ],
+    "fact": "Headaches are not worse when the patient lies down, coughs, or strains.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     22
+    ],
+    "fact": "Patient reports no fevers or stiff neck.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     24
+    ],
+    "fact": "The patient's mother has migraines without aura.",
+    "about": "relative"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     26
+    ],
+    "fact": "Patient is currently taking paracetamol, but it does not do much.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     28
+    ],
+    "fact": "Patient is taking Rigevidon (combined oral contraceptive) and has been on it for about four years.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     30
+    ],
+    "fact": "Patient does not smoke.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     32
+    ],
+    "fact": "Patient reports no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     33
+    ],
+    "fact": "Blood pressure is 118 over 76.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     33
+    ],
+    "fact": "The back of the eyes look normal.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     33
+    ],
+    "fact": "The nervous system examination is completely normal.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician diagnoses the condition as migraines with aura, with the zigzags being the aura.",
+    "about": "clinician"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     37
+    ],
+    "fact": "Migraine itself is not dangerous, but combined pill use increases the risk of stroke.",
+    "about": "clinician"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician plans to stop Rigevidon and switch to desogestrel 75 micrograms, one every day without a break.",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician advises using condoms for the first two days after starting desogestrel.",
+    "about": "clinician"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician prescribes sumatriptan 50 milligrams for headaches, to be taken as soon as the headache starts (not during zigzags).",
+    "about": "clinician"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     43
+    ],
+    "fact": "If the headache returns, the patient can take another dose after two hours, but no more than 300 milligrams in 24 hours.",
+    "about": "clinician"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     43
+    ],
+    "fact": "Sumatriptan can be taken with paracetamol.",
+    "about": "clinician"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician advises limiting the use of painkillers or sumatriptan to more than two or three days a week to avoid medication-overuse headache.",
+    "about": "clinician"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician advises keeping a headache diary.",
+    "about": "clinician"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     45
+    ],
+    "fact": "The follow-up appointment is scheduled in six weeks.",
+    "about": "clinician"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     47
+    ],
+    "fact": "Safety-netting advice: Call 999 or go to A&E if there is a sudden severe headache, one-sided weakness or numbness, speech difficulty, or a headache with fever and a stiff neck.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Sumatriptan may repeat after 2 hours, maximum 600 mg in 24 hours.\",\n      \"transcript_evidence\": \"If the headache comes back, you can take another after two hours, but no more than 300 milligrams in 24 hours.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the maximum repeat dose of sumatriptan as 600 mg, whereas the transcript correctly states the maximum is 300 mg in 24 hours, which is a significant dosing error.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Sumatriptan may repeat after 2 hours, maximum 600 mg in 24 hours.",
+    "transcript_evidence": "If the headache comes back, you can take another after two hours, but no more than 300 milligrams in 24 hours.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the maximum repeat dose of sumatriptan as 600 mg, whereas the transcript correctly states the maximum is 300 mg in 24 hours, which is a significant dosing error."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

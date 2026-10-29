@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Using salbutamol twice a day.\",\n      \"transcript_evidence\": \"Since last night it's been every two hours, maybe more.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note fails to capture the critical change in salbutamol usage frequency reported by the patient, which is essential for assessing adherence and risk.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Prednisolone 4 mg once daily for 5 days.\",\n      \"transcript_evidence\": \"prednisolone, 40 milligrams once a day for five days.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note records a significant under-dosing of the prescribed steroid (4mg instead of 40mg), which is a major clinical error.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Using salbutamol twice a day.",
+    "transcript_evidence": "Since last night it's been every two hours, maybe more.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note fails to capture the critical change in salbutamol usage frequency reported by the patient, which is essential for assessing adherence and risk."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Prednisolone 4 mg once daily for 5 days.",
+    "transcript_evidence": "prednisolone, 40 milligrams once a day for five days.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note records a significant under-dosing of the prescribed steroid (4mg instead of 40mg), which is a major clinical error."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

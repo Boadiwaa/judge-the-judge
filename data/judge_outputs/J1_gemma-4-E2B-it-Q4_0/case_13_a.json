@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Increase sertraline to 200 mg once daily.\",\n      \"transcript_evidence\": \"After four weeks with only a small improvement, I think we should increase the sertraline to 100 milligrams once a day.\",\n      \"evidence_turns\": [\n        47\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The documented plan for increasing the sertraline dose (200mg) contradicts the agreed plan recorded in the transcript (100mg).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Increase sertraline to 200 mg once daily.",
+    "transcript_evidence": "After four weeks with only a small improvement, I think we should increase the sertraline to 100 milligrams once a day.",
+    "evidence_turns": [
+     47
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The documented plan for increasing the sertraline dose (200mg) contradicts the agreed plan recorded in the transcript (100mg)."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

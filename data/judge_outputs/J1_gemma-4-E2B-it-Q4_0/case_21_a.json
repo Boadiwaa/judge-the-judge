@@ -1,0 +1,55 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Nitrofurantoin 100 mg modified-release four times daily for 3 days.\",\n      \"transcript_evidence\": \"I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for three days.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The prescribed frequency (four times daily) is incorrect; the transcript indicates twice daily, which is a critical dosing error.\"\n    },\n    {\n      \"type\": \"HALLUC\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports loin pain and fever; no rigors, nausea or vomiting.\",\n      \"transcript_evidence\": \"[13] Clinician: Any pain in your back or sides, just under your ribs?\\n[14] Patient: No.\\n[15] Clinician: Any fever, shivers or shakes?\\n[16] Patient: No, I don't think so. I feel okay in myself.\",\n      \"evidence_turns\": [\n        13,\n        14,\n        15,\n        16\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note falsely documents the patient reporting loin pain and fever, which were denied by the patient during the consultation.\"\n    },\n    {\n      \"type\": \"ATTRIBUTION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports loin pain and fever\",\n      \"transcript_evidence\": \"[13] Clinician: Any pain in your back or sides, just under your ribs?\\n[14] Patient: No.\\n[15] Clinician: Any fever, shivers or shakes?\\n[16] Patient: No, I don't think so. I feel okay in myself.\",\n      \"evidence_turns\": [\n        13,\n        14,\n        15,\n        16\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note attributes symptoms (loin pain and fever) to the patient when the transcript shows the clinician asked about them and the patient denied them.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Nitrofurantoin 100 mg modified-release four times daily for 3 days.",
+    "transcript_evidence": "I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for three days.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The prescribed frequency (four times daily) is incorrect; the transcript indicates twice daily, which is a critical dosing error."
+   },
+   {
+    "type": "HALLUC",
+    "note_section": "History",
+    "note_span": "Reports loin pain and fever; no rigors, nausea or vomiting.",
+    "transcript_evidence": "[13] Clinician: Any pain in your back or sides, just under your ribs?\n[14] Patient: No.\n[15] Clinician: Any fever, shivers or shakes?\n[16] Patient: No, I don't think so. I feel okay in myself.",
+    "evidence_turns": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note falsely documents the patient reporting loin pain and fever, which were denied by the patient during the consultation."
+   },
+   {
+    "type": "ATTRIBUTION",
+    "note_section": "History",
+    "note_span": "Reports loin pain and fever",
+    "transcript_evidence": "[13] Clinician: Any pain in your back or sides, just under your ribs?\n[14] Patient: No.\n[15] Clinician: Any fever, shivers or shakes?\n[16] Patient: No, I don't think so. I feel okay in myself.",
+    "evidence_turns": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note attributes symptoms (loin pain and fever) to the patient when the transcript shows the clinician asked about them and the patient denied them."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

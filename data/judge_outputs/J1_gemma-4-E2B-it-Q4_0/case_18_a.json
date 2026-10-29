@@ -1,0 +1,61 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"MRC dyspnoea grade 3.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [\n        1\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"A relevant clinical measure (MRC grade) used to assess severity of breathlessness was omitted from the note.\"\n    },\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Ex-smoker for 6 months, approximately 40 pack-years.\",\n      \"transcript_evidence\": \"Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years.\",\n      \"evidence_turns\": [\n        2\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The duration and pack-years of smoking are significantly misdocumented, impacting the assessment of COPD severity.\"\n    },\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Coarse crackles at the right base (new).\",\n      \"transcript_evidence\": \"some coarse crackles at the bottom of your left lung, at the left base.\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The location of the new crackles was documented on the wrong side of the lung.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Salmeterol as needed (about twice daily).\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [\n        28\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"A relevant medication (Salmeterol) mentioned in the transcript was omitted from the note.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "MRC dyspnoea grade 3.",
+    "transcript_evidence": "",
+    "evidence_turns": [
+     1
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "A relevant clinical measure (MRC grade) used to assess severity of breathlessness was omitted from the note."
+   },
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Ex-smoker for 6 months, approximately 40 pack-years.",
+    "transcript_evidence": "Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years.",
+    "evidence_turns": [
+     2
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The duration and pack-years of smoking are significantly misdocumented, impacting the assessment of COPD severity."
+   },
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Coarse crackles at the right base (new).",
+    "transcript_evidence": "some coarse crackles at the bottom of your left lung, at the left base.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The location of the new crackles was documented on the wrong side of the lung."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Medications and allergies",
+    "note_span": "Salmeterol as needed (about twice daily).",
+    "transcript_evidence": "",
+    "evidence_turns": [
+     28
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "A relevant medication (Salmeterol) mentioned in the transcript was omitted from the note."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

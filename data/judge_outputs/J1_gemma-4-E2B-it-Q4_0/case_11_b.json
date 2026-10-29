@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_SAFETY\",\n      \"note_section\": \"Safety-netting\",\n      \"note_span\": \"\",\n      \"transcript_evidence\": \"If she gets painful sores, blisters or punched-out spots, especially with a fever or feeling unwell, that can be a herpes infection in eczema. Get her seen the same day.\",\n      \"evidence_turns\": [\n        40\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"A critical safety warning regarding herpes infection in eczema was omitted, which is a serious omission.\"\n    },\n    {\n      \"type\": \"ATTRIBUTION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Has asthma.\",\n      \"transcript_evidence\": \"Her big sister has asthma.\",\n      \"evidence_turns\": [\n        23\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note incorrectly attributes the history of asthma to the patient instead of the sister mentioned in the transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"unsafe\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_SAFETY",
+    "note_section": "Safety-netting",
+    "note_span": "",
+    "transcript_evidence": "If she gets painful sores, blisters or punched-out spots, especially with a fever or feeling unwell, that can be a herpes infection in eczema. Get her seen the same day.",
+    "evidence_turns": [
+     40
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "A critical safety warning regarding herpes infection in eczema was omitted, which is a serious omission."
+   },
+   {
+    "type": "ATTRIBUTION",
+    "note_section": "History",
+    "note_span": "Has asthma.",
+    "transcript_evidence": "Her big sister has asthma.",
+    "evidence_turns": [
+     23
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note incorrectly attributes the history of asthma to the patient instead of the sister mentioned in the transcript."
+   }
+  ],
+  "overall_note_safety": "unsafe"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DRUG_NAME\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Amiloride 5 mg once daily.\",\n      \"transcript_evidence\": \"Patient: I'm on amlodipine.\",\n      \"evidence_turns\": [\n        22\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note lists Amiloride, but the transcript confirms the patient is on Amlodipine, which is a critical medication error.\"\n    },\n    {\n      \"type\": \"HALLUC\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"ECG: sinus rhythm, no ST segment changes.\",\n      \"transcript_evidence\": \"Clinician: Your ECG, the heart tracing, shows some changes. There's about a millimetre of ST depression in the leads on the left side of the chest, V4 to V6. That can be a sign the heart muscle isn't getting enough blood.\",\n      \"evidence_turns\": [\n        38\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note omits the critical finding of ST depression, which is a key diagnostic feature for suspected ACS.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Fondaparinux 25 mg subcutaneously once daily.\",\n      \"transcript_evidence\": \"Clinician: I'm going to start an injection called fondaparinux, 2.5 milligrams under the skin once a day, to thin the blood.\",\n      \"evidence_turns\": [\n        42\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The planned dose of Fondaparinux is incorrect (25 mg instead of 2.5 mg), which could lead to under-treatment.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DRUG_NAME",
+    "note_section": "Medications and allergies",
+    "note_span": "Amiloride 5 mg once daily.",
+    "transcript_evidence": "Patient: I'm on amlodipine.",
+    "evidence_turns": [
+     22
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note lists Amiloride, but the transcript confirms the patient is on Amlodipine, which is a critical medication error."
+   },
+   {
+    "type": "HALLUC",
+    "note_section": "Examination",
+    "note_span": "ECG: sinus rhythm, no ST segment changes.",
+    "transcript_evidence": "Clinician: Your ECG, the heart tracing, shows some changes. There's about a millimetre of ST depression in the leads on the left side of the chest, V4 to V6. That can be a sign the heart muscle isn't getting enough blood.",
+    "evidence_turns": [
+     38
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note omits the critical finding of ST depression, which is a key diagnostic feature for suspected ACS."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Fondaparinux 25 mg subcutaneously once daily.",
+    "transcript_evidence": "Clinician: I'm going to start an injection called fondaparinux, 2.5 milligrams under the skin once a day, to thin the blood.",
+    "evidence_turns": [
+     42
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The planned dose of Fondaparinux is incorrect (25 mg instead of 2.5 mg), which could lead to under-treatment."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

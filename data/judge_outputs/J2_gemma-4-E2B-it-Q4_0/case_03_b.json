@@ -1,0 +1,530 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient is reviewing diabetes care following a hypoglycaemic episode."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient experienced a hypoglycaemic episode about three months ago after skipping lunch while gardening."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient's daughter (who has type 1 diabetes) found him confused during the episode."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient's daughter measured the capillary glucose at 2.8 mmol/L during the episode."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient recovered from the episode within 15 minutes."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient experiences occasional pre-meal wobbliness."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient drives locally."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has no neuropathic symptoms."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient has no visual problems."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed Metformin 1g twice daily."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed Gliclazide 80 mg twice daily."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed Atorvastatin 20 mg."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed Ramipril 5 mg."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The patient's pedal pulses are palpable."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient's ankle brachial pressure index is 1.0 bilaterally."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "Monofilament sensation is normal in both feet."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "The patient has a callus under the right first metatarsal head."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "The patient's blood pressure is 138/84."
+   },
+   {
+    "id": "c19",
+    "section": "Examination",
+    "claim": "The patient's weight is 91 kg."
+   },
+   {
+    "id": "c20",
+    "section": "Examination",
+    "claim": "The patient's HbA1c is 62 mmol/mol, which is up from 58."
+   },
+   {
+    "id": "c21",
+    "section": "Examination",
+    "claim": "The patient's eGFR is 52, which is stable."
+   },
+   {
+    "id": "c22",
+    "section": "Impression",
+    "claim": "The patient has Type 2 diabetes with recent hypoglycaemia on gliclazide."
+   },
+   {
+    "id": "c23",
+    "section": "Impression",
+    "claim": "The patient has stable CKD stage 3a."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "The plan is to continue gliclazide 80 mg twice daily."
+   },
+   {
+    "id": "c25",
+    "section": "Plan",
+    "claim": "The plan is to start empagliflozin 10 mg once daily."
+   },
+   {
+    "id": "c26",
+    "section": "Plan",
+    "claim": "The plan is to refer the patient to a podiatrist for the callus."
+   },
+   {
+    "id": "c27",
+    "section": "Plan",
+    "claim": "The plan is to book a retinal screening."
+   },
+   {
+    "id": "c28",
+    "section": "Plan",
+    "claim": "The plan is to review the patient in three months with repeat HbA1c and kidney tests."
+   },
+   {
+    "id": "c29",
+    "section": "Safety-netting",
+    "claim": "Safety netting includes checking blood glucose before driving and every two hours on long journeys."
+   },
+   {
+    "id": "c30",
+    "section": "Safety-netting",
+    "claim": "Safety netting includes not driving if blood sugar is below 5 mmol/L."
+   },
+   {
+    "id": "c31",
+    "section": "Safety-netting",
+    "claim": "Safety netting includes keeping fast-acting glucose in the car."
+   },
+   {
+    "id": "c32",
+    "section": "Safety-netting",
+    "claim": "Safety netting includes stopping empagliflozin if the patient is vomiting, has diarrhoea, or is unable to eat and drink."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "Clinician greeted Mr Elsworth-Mahmood.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "Patient's daughter, Yasmin, requested the visit due to an incident last week.",
+    "about": "other"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "Relative greeted the clinician.",
+    "about": "relative"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     5
+    ],
+    "fact": "Patient experienced symptoms including being sweaty, shaky, and unable to think straight.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     7
+    ],
+    "fact": "The hypoglycaemic episode occurred on Tuesday because it was bin day and the patient had skipped lunch.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     9
+    ],
+    "fact": "The patient had been in the garden all morning and skipped lunch.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     10
+    ],
+    "fact": "Relative found the patient confused and identified it as a hypo due to her own type 1 diabetes.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     10
+    ],
+    "fact": "Relative gave the patient orange juice and biscuits.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     12
+    ],
+    "fact": "The patient recovered within about fifteen minutes.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     14
+    ],
+    "fact": "Relative used her meter and measured the capillary glucose at 2.8.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     16
+    ],
+    "fact": "Patient reports feeling a bit wobbly before tea sometimes.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     18
+    ],
+    "fact": "Patient drives to the shops and to his allotment.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     20
+    ],
+    "fact": "Patient confirmed he was not driving that day.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     21
+    ],
+    "fact": "Clinician checked medications and found the patient is on metformin 1 gram twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     22
+    ],
+    "fact": "Patient confirmed the Metformin dose.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     23
+    ],
+    "fact": "Clinician checked medications and found the patient is on gliclazide 80 milligrams twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     24
+    ],
+    "fact": "Patient confirmed the Gliclazide dosing schedule (morning and teatime).",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     25
+    ],
+    "fact": "Clinician checked medications and found the patient is on Atorvastatin 20 milligrams and ramipril 5 milligrams.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     26
+    ],
+    "fact": "Patient confirmed all listed medications.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     27
+    ],
+    "fact": "Clinician asked about allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     28
+    ],
+    "fact": "Patient reported no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     29
+    ],
+    "fact": "Clinician asked about problems with feet, tingling, or numbness.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     30
+    ],
+    "fact": "Patient reported his feet have been fine.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     31
+    ],
+    "fact": "Relative reported having pins and needles and getting it in her hands at night, suspecting carpal tunnel.",
+    "about": "relative"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     32
+    ],
+    "fact": "Clinician addressed Yasmin but decided to stick with the patient (dad) regarding foot problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     33
+    ],
+    "fact": "Patient reported no problems with his eyesight and had received his eye screening letter.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     34
+    ],
+    "fact": "Patient's HbA1c is 62 mmol/mol, up from 58 last time.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     34
+    ],
+    "fact": "Patient's kidney function (eGFR) is 52, which is about the same as before.",
+    "about": "patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     35
+    ],
+    "fact": "Patient asked if the results were bad.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     36
+    ],
+    "fact": "Clinician noted that sugar control has drifted up a little, but the hypo worries him more.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     36
+    ],
+    "fact": "Clinician checked the patient's feet and noted that pulses are fine in both feet.",
+    "about": "patient"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     38
+    ],
+    "fact": "Clinician noted there is a bit of hard skin and a callus under the ball of the patient's left foot, by the big toe.",
+    "about": "patient"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     40
+    ],
+    "fact": "Clinician noted the patient's blood pressure is 138 over 84.",
+    "about": "patient"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     40
+    ],
+    "fact": "Clinician noted the patient's weight is 91 kilos.",
+    "about": "patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     42
+    ],
+    "fact": "Clinician suggested reducing gliclazide to 80 milligrams in the morning only and stopping the teatime dose.",
+    "about": "patient"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     44
+    ],
+    "fact": "Clinician suggested adding empagliflozin 10 milligrams once a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f37",
+    "turns": [
+     44
+    ],
+    "fact": "Clinician advised stopping empagliflozin when unwell and not eating or drinking (e.g., with vomiting or diarrhoea).",
+    "about": "patient"
+   },
+   {
+    "id": "f38",
+    "turns": [
+     46
+    ],
+    "fact": "Clinician advised checking blood sugar before driving and every two hours on long journeys.",
+    "about": "patient"
+   },
+   {
+    "id": "f39",
+    "turns": [
+     46
+    ],
+    "fact": "Clinician advised not to drive if blood sugar is below five.",
+    "about": "patient"
+   },
+   {
+    "id": "f40",
+    "turns": [
+     46
+    ],
+    "fact": "Clinician advised keeping some sugary snacks in the car.",
+    "about": "patient"
+   },
+   {
+    "id": "f41",
+    "turns": [
+     47
+    ],
+    "fact": "Relative offered to get glucose tablets for the patient.",
+    "about": "patient"
+   },
+   {
+    "id": "f42",
+    "turns": [
+     48
+    ],
+    "fact": "Clinician offered to refer the patient to the podiatrist for the callus.",
+    "about": "patient"
+   },
+   {
+    "id": "f43",
+    "turns": [
+     48
+    ],
+    "fact": "Clinician advised the patient to book his eye screening.",
+    "about": "patient"
+   },
+   {
+    "id": "f44",
+    "turns": [
+     48
+    ],
+    "fact": "Clinician scheduled a follow-up appointment in three months with a repeat HbA1c and kidney test.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

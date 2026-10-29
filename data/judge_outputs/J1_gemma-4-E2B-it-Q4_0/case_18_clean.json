@@ -1,0 +1,50 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"MRC dyspnoea grade 3.\",\n      \"transcript_evidence\": \"Patient: I have to stop halfway up the hill to the shops now. I can walk on the flat at my own pace, but I'm slower than Valerie.\",\n      \"evidence_turns\": [\n        5,\n        7\n      ],\n      \"severity\": 3,\n      \"likelihood\": 3,\n      \"rationale\": \"The note omits the specific functional assessment (MRC grade 3) mentioned in the transcript, which is a relevant clinical detail.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Ex-smoker for 6 months, approximately 30 pack-years.\",\n      \"transcript_evidence\": \"Patient: Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years.\",\n      \"evidence_turns\": [\n        26\n      ],\n      \"severity\": 2,\n      \"likelihood\": 2,\n      \"rationale\": \"The note summarizes the smoking history but omits the specific details regarding the duration of smoking and the timing of cessation mentioned in the transcript.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Coarse crackles at the left base (new).\",\n      \"transcript_evidence\": \"Clinician: There's some coarse crackles at the bottom of your left lung, at the left base.\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note adds the descriptor 'new' which is not explicitly stated in the transcript, although it is implied by the clinician's comment that it 'wasn't noted last time'.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "MRC dyspnoea grade 3.",
+    "transcript_evidence": "Patient: I have to stop halfway up the hill to the shops now. I can walk on the flat at my own pace, but I'm slower than Valerie.",
+    "evidence_turns": [
+     5,
+     7
+    ],
+    "severity": 3,
+    "likelihood": 3,
+    "rationale": "The note omits the specific functional assessment (MRC grade 3) mentioned in the transcript, which is a relevant clinical detail."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Ex-smoker for 6 months, approximately 30 pack-years.",
+    "transcript_evidence": "Patient: Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years.",
+    "evidence_turns": [
+     26
+    ],
+    "severity": 2,
+    "likelihood": 2,
+    "rationale": "The note summarizes the smoking history but omits the specific details regarding the duration of smoking and the timing of cessation mentioned in the transcript."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Coarse crackles at the left base (new).",
+    "transcript_evidence": "Clinician: There's some coarse crackles at the bottom of your left lung, at the left base.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note adds the descriptor 'new' which is not explicitly stated in the transcript, although it is implied by the clinician's comment that it 'wasn't noted last time'."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Early morning stiffness lasting about 90 minutes (initially said 30 minutes).\",\n      \"transcript_evidence\": \"About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.\",\n      \"evidence_turns\": [\n        7\n      ],\n      \"severity\": 1,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly records the initial duration of morning stiffness.\"\n    },\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Synovitis of the left wrist and left 2nd and 3rd MCP joints. Right hand normal.\",\n      \"transcript_evidence\": \"Your right wrist is swollen and tender, and your second and third knuckles on the right hand are swollen and tender too. That's synovitis, inflammation of the joint lining. Your left hand looks fine.\",\n      \"evidence_turns\": [\n        30\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly attributes the synovitis to the left side instead of the right side.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Methotrexate 15 mg once daily.\",\n      \"transcript_evidence\": \"15 milligrams, once a week, on Mondays.\",\n      \"evidence_turns\": [\n        11\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly records the frequency of methotrexate as 'once daily' instead of 'once weekly'.\"\n    },\n    {\n      \"type\": \"DRUG_NAME\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Sulfadiazine: rash.\",\n      \"transcript_evidence\": \"Sulfasalazine gave me a rash years ago.\",\n      \"evidence_turns\": [\n        23\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records the wrong drug name (Sulfadiazine instead of Sulfasalazine).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Early morning stiffness lasting about 90 minutes (initially said 30 minutes).",
+    "transcript_evidence": "About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.",
+    "evidence_turns": [
+     7
+    ],
+    "severity": 1,
+    "likelihood": 4,
+    "rationale": "The note incorrectly records the initial duration of morning stiffness."
+   },
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Synovitis of the left wrist and left 2nd and 3rd MCP joints. Right hand normal.",
+    "transcript_evidence": "Your right wrist is swollen and tender, and your second and third knuckles on the right hand are swollen and tender too. That's synovitis, inflammation of the joint lining. Your left hand looks fine.",
+    "evidence_turns": [
+     30
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly attributes the synovitis to the left side instead of the right side."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Methotrexate 15 mg once daily.",
+    "transcript_evidence": "15 milligrams, once a week, on Mondays.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly records the frequency of methotrexate as 'once daily' instead of 'once weekly'."
+   },
+   {
+    "type": "DRUG_NAME",
+    "note_section": "Medications and allergies",
+    "note_span": "Sulfadiazine: rash.",
+    "transcript_evidence": "Sulfasalazine gave me a rash years ago.",
+    "evidence_turns": [
+     23
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records the wrong drug name (Sulfadiazine instead of Sulfasalazine)."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

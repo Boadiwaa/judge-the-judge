@@ -1,0 +1,62 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Left-sided sciatica-type leg pain for 3 weeks.\",\n      \"transcript_evidence\": \"My left. No, sorry, the right. I always mix them up when I'm talking. It's definitely the right leg.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the presenting complaint as left-sided pain, despite the patient correcting themselves to right-sided pain.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports saddle numbness; no change in bladder or bowel function.\",\n      \"transcript_evidence\": \"Any numbness around your bottom or between your legs, like when you sit on the toilet? No.\",\n      \"evidence_turns\": [\n        19,\n        20\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note claims the patient reported saddle numbness, but the transcript shows the patient denied it.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Start naproxen 500 mg four times daily with food and omeprazole 20 mg once daily, for 2 weeks.\",\n      \"transcript_evidence\": \"I'll switch you to naproxen, 500 milligrams twice a day with food, and add omeprazole, 20 milligrams once a day, to protect your stomach. Just for a couple of weeks.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the naproxen frequency as four times daily, when the transcript specifies twice a day.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Physiotherapy not required at this stage.\",\n      \"transcript_evidence\": \"I'll refer you to physiotherapy.\",\n      \"evidence_turns\": [\n        45\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the agreed-upon referral to physiotherapy.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Presenting complaint",
+    "note_span": "Left-sided sciatica-type leg pain for 3 weeks.",
+    "transcript_evidence": "My left. No, sorry, the right. I always mix them up when I'm talking. It's definitely the right leg.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the presenting complaint as left-sided pain, despite the patient correcting themselves to right-sided pain."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Reports saddle numbness; no change in bladder or bowel function.",
+    "transcript_evidence": "Any numbness around your bottom or between your legs, like when you sit on the toilet? No.",
+    "evidence_turns": [
+     19,
+     20
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note claims the patient reported saddle numbness, but the transcript shows the patient denied it."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Start naproxen 500 mg four times daily with food and omeprazole 20 mg once daily, for 2 weeks.",
+    "transcript_evidence": "I'll switch you to naproxen, 500 milligrams twice a day with food, and add omeprazole, 20 milligrams once a day, to protect your stomach. Just for a couple of weeks.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the naproxen frequency as four times daily, when the transcript specifies twice a day."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Physiotherapy not required at this stage.",
+    "transcript_evidence": "I'll refer you to physiotherapy.",
+    "evidence_turns": [
+     45
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the agreed-upon referral to physiotherapy."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

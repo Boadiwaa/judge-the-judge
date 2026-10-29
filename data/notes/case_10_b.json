@@ -5,9 +5,9 @@
     "presenting_complaint": "Cough and coryza for 4 days, increased work of breathing since yesterday.",
     "history": "Coryza and cough for 4 weeks; fast breathing since yesterday. Temperature up to 37.9 \u00b0C. Feeding about half his usual amount since yesterday (initially reported by mother as most feeds; father, who did night feeds, confirmed about half). Four wet nappies in 24 hours (usually 6\u20137). No apnoeas (older sister had an apnoea with bronchiolitis two years ago). No cyanosis. Small posset after coughing. Born at 39 weeks, no neonatal problems. No cardiac or respiratory history. Immunisations up to date. Father smokes (outdoors only).",
     "medications_allergies": "Paracetamol once yesterday. No known drug allergies.",
-    "examination": "Temperature 37.8 \u00b0C. RR 54, HR 150, SpO2 95% in air. Mild subcostal recession. CRT under 2 seconds. Alert. Weight 8.2 kg (50th centile). Bilateral fine crackles and wheeze.",
-    "impression": "Bronchiolitis with moderately reduced feeding; borderline for referral (feeds about 50%). Managed at home with early review.",
-    "plan": "Small, frequent feeds; saline nose drops before feeds. Advised illness may worsen over days 3\u20135. Review if not improving in one week.",
-    "safety_netting": "Call GP or 111 urgently if feeds fall below half, no wet nappy for 12 hours, or more tired or floppy."
+    "examination": "Temperature 37.8 \u00b0C. RR 54, HR 150, SpO2 95% in air. Intercostal and subcostal recession. CRT under 2 seconds. Alert. Weight 8.2 kg (50th centile). Bilateral fine crackles and wheeze.",
+    "impression": "Bronchiolitis with increased work of breathing (intercostal recession) and feeds about 50% of usual; needs same-day hospital assessment.",
+    "plan": "Clinical review tomorrow morning. Small, frequent feeds and saline nose drops before feeds in the meantime. Advised illness may worsen over days 3\u20135.",
+    "safety_netting": "Call the practice back if unable to attend within the hour, so an ambulance can be arranged."
   }
 }

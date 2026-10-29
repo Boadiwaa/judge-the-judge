@@ -1,0 +1,50 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Vomiting and diarrhoea in a 10-month-old since last week.\",\n      \"transcript_evidence\": \"She started being sick last night, and then diarrhoea this morning.\",\n      \"evidence_turns\": [\n        1,\n        8\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly states the onset of symptoms was 'since last week' when the transcript indicates the onset was 'last night'.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"No face-to-face review needed.\",\n      \"transcript_evidence\": \"But I'm a bit concerned that she's only had two wet nappies today, so I'd like to see her this afternoon. Can you bring her in at four o'clock?\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the planned face-to-face review appointment scheduled for the afternoon.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue breastfeeding; oral rehydration solution in small, frequent amounts.\",\n      \"transcript_evidence\": \"In the meantime, keep breastfeeding her, and give small amounts of oral rehydration solution, like Dioralyte, a teaspoon every few minutes.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note omits the specific instruction regarding the dose unit and frequency (a teaspoon every few minutes).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Vomiting and diarrhoea in a 10-month-old since last week.",
+    "transcript_evidence": "She started being sick last night, and then diarrhoea this morning.",
+    "evidence_turns": [
+     1,
+     8
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly states the onset of symptoms was 'since last week' when the transcript indicates the onset was 'last night'."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "No face-to-face review needed.",
+    "transcript_evidence": "But I'm a bit concerned that she's only had two wet nappies today, so I'd like to see her this afternoon. Can you bring her in at four o'clock?",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the planned face-to-face review appointment scheduled for the afternoon."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Continue breastfeeding; oral rehydration solution in small, frequent amounts.",
+    "transcript_evidence": "In the meantime, keep breastfeeding her, and give small amounts of oral rehydration solution, like Dioralyte, a teaspoon every few minutes.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note omits the specific instruction regarding the dose unit and frequency (a teaspoon every few minutes)."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

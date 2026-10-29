@@ -1,0 +1,61 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Diarrhoea and vomiting for 2 weeks.\",\n      \"transcript_evidence\": \"I've had the runs and I've been sick. I feel washed out. How long has this been going on? Two days now. Since Monday.\",\n      \"evidence_turns\": [\n        11\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note significantly misrepresents the duration of the patient's symptoms (2 weeks vs 2 days).\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Blood in stools.\",\n      \"transcript_evidence\": \"Any blood in it? No.\",\n      \"evidence_turns\": [\n        17\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records blood in stools, which contradicts the patient's explicit denial in the transcript.\"\n    },\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"History\",\n      \"note_span\": \"District nurses dressing a sore on the right heel twice weekly.\",\n      \"transcript_evidence\": \"The district nurse dresses a sore on my left heel twice a week.\",\n      \"evidence_turns\": [\n        44\n      ],\n      \"severity\": 1,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly records the location of the sore (right vs left heel).\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"U&E at next routine review.\",\n      \"transcript_evidence\": \"I'd like a blood test tomorrow to check your kidneys. I'll ask the district nurse to take it when she comes to do your heel.\",\n      \"evidence_turns\": [\n        51\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan documented in the note contradicts the specific action agreed upon in the transcript (U&E tomorrow).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Diarrhoea and vomiting for 2 weeks.",
+    "transcript_evidence": "I've had the runs and I've been sick. I feel washed out. How long has this been going on? Two days now. Since Monday.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note significantly misrepresents the duration of the patient's symptoms (2 weeks vs 2 days)."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Blood in stools.",
+    "transcript_evidence": "Any blood in it? No.",
+    "evidence_turns": [
+     17
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note records blood in stools, which contradicts the patient's explicit denial in the transcript."
+   },
+   {
+    "type": "LATERALITY",
+    "note_section": "History",
+    "note_span": "District nurses dressing a sore on the right heel twice weekly.",
+    "transcript_evidence": "The district nurse dresses a sore on my left heel twice a week.",
+    "evidence_turns": [
+     44
+    ],
+    "severity": 1,
+    "likelihood": 4,
+    "rationale": "The note incorrectly records the location of the sore (right vs left heel)."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "U&E at next routine review.",
+    "transcript_evidence": "I'd like a blood test tomorrow to check your kidneys. I'll ask the district nurse to take it when she comes to do your heel.",
+    "evidence_turns": [
+     51
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The plan documented in the note contradicts the specific action agreed upon in the transcript (U&E tomorrow)."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

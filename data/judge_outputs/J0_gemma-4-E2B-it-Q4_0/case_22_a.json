@@ -1,0 +1,37 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Medication discrepancy\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Metronidazole 500 mg twice daily.\",\n      \"transcript_evidence\": \"Patient: Type 2 diabetes. I'm on metformin, 500 milligrams twice a day.\",\n      \"evidence_turns\": [\n        25\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note lists Metronidazole, but the transcript indicates the patient is taking Metformin.\"\n    },\n    {\n      \"type\": \"Examination location error\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Erythema over the anterior right shin, approximately 10 cm across, with a small central scratch.\",\n      \"transcript_evidence\": \"Clinician: I can see a red area on the front of the left shin, about ten centimetres across, with a small scratch in the middle.\",\n      \"evidence_turns\": [\n        12\n      ],\n      \"severity\": 3,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly identifies the affected area as the right shin when the transcript clearly states the area is the left shin.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Medications and allergies",
+    "note_span": "Metronidazole 500 mg twice daily.",
+    "transcript_evidence": "Patient: Type 2 diabetes. I'm on metformin, 500 milligrams twice a day.",
+    "evidence_turns": [
+     25
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note lists Metronidazole, but the transcript indicates the patient is taking Metformin."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Examination",
+    "note_span": "Erythema over the anterior right shin, approximately 10 cm across, with a small central scratch.",
+    "transcript_evidence": "Clinician: I can see a red area on the front of the left shin, about ten centimetres across, with a small scratch in the middle.",
+    "evidence_turns": [
+     12
+    ],
+    "severity": 3,
+    "likelihood": 5,
+    "rationale": "The note incorrectly identifies the affected area as the right shin when the transcript clearly states the area is the left shin."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Left tympanic membrane red and bulging.\",\n      \"transcript_evidence\": \"The left eardrum looks normal. The right eardrum is red and bulging.\",\n      \"evidence_turns\": [\n        36\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly attributes the finding of a red and bulging tympanic membrane to the left ear instead of the right ear.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"paracetamol 180 mg (7.5 mL of 250 mg/5 mL)\",\n      \"transcript_evidence\": \"paracetamol 180 milligrams, which is 7.5 millilitres of the 120 milligrams in 5 millilitres infant suspension\",\n      \"evidence_turns\": [\n        40\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note documents the wrong concentration/strength for the paracetamol suspension (7.5 mL of 250 mg/5 mL vs 7.5 mL of 120 mg/5 mL).\"\n    },\n    {\n      \"type\": \"OMIT_SAFETY\",\n      \"note_section\": \"Safety-netting\",\n      \"note_span\": \"Call 999 or attend A&E if a non-blanching rash, very drowsy or difficult to rouse, breathing difficulty, or not drinking and not passing urine.\",\n      \"transcript_evidence\": \"If she gets a rash that doesn't fade when you press a glass on it, if she becomes very drowsy or hard to wake, if she's struggling to breathe, or if she stops drinking and isn't weeing, call 999 or go straight to A&E.\",\n      \"evidence_turns\": [\n        44\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note omits the critical safety detail that the rash must be 'non-blanching' (or 'doesn't fade when you press a glass on it') for urgent referral.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Left tympanic membrane red and bulging.",
+    "transcript_evidence": "The left eardrum looks normal. The right eardrum is red and bulging.",
+    "evidence_turns": [
+     36
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly attributes the finding of a red and bulging tympanic membrane to the left ear instead of the right ear."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "paracetamol 180 mg (7.5 mL of 250 mg/5 mL)",
+    "transcript_evidence": "paracetamol 180 milligrams, which is 7.5 millilitres of the 120 milligrams in 5 millilitres infant suspension",
+    "evidence_turns": [
+     40
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note documents the wrong concentration/strength for the paracetamol suspension (7.5 mL of 250 mg/5 mL vs 7.5 mL of 120 mg/5 mL)."
+   },
+   {
+    "type": "OMIT_SAFETY",
+    "note_section": "Safety-netting",
+    "note_span": "Call 999 or attend A&E if a non-blanching rash, very drowsy or difficult to rouse, breathing difficulty, or not drinking and not passing urine.",
+    "transcript_evidence": "If she gets a rash that doesn't fade when you press a glass on it, if she becomes very drowsy or hard to wake, if she's struggling to breathe, or if she stops drinking and isn't weeing, call 999 or go straight to A&E.",
+    "evidence_turns": [
+     44
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note omits the critical safety detail that the rash must be 'non-blanching' (or 'doesn't fade when you press a glass on it') for urgent referral."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

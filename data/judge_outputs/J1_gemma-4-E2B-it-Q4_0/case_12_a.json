@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Tender bony prominence over the left tibial tuberosity.\",\n      \"transcript_evidence\": \"There's a tender bony lump just below the kneecap, on the right shin bone. That's called the tibial tuberosity.\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the location of the tender bony prominence as the left side, contradicting the transcript which specifies the right shin bone.\"\n    },\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"Osgood-Schlatter disease of the right knee.\",\n      \"transcript_evidence\": \"This is Osgood-Schlatter disease, like your brother had.\",\n      \"evidence_turns\": [\n        41\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The impression states the diagnosis is for the right knee, which contradicts the examination finding documented in the note (left tibial tuberosity).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Tender bony prominence over the left tibial tuberosity.",
+    "transcript_evidence": "There's a tender bony lump just below the kneecap, on the right shin bone. That's called the tibial tuberosity.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the location of the tender bony prominence as the left side, contradicting the transcript which specifies the right shin bone."
+   },
+   {
+    "type": "LATERALITY",
+    "note_section": "Impression",
+    "note_span": "Osgood-Schlatter disease of the right knee.",
+    "transcript_evidence": "This is Osgood-Schlatter disease, like your brother had.",
+    "evidence_turns": [
+     41
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The impression states the diagnosis is for the right knee, which contradicts the examination finding documented in the note (left tibial tuberosity)."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

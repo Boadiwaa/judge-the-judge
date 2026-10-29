@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"GP review in 4 weeks for inhaler review and asthma action plan.\",\n      \"transcript_evidence\": \"I want you to see your GP or asthma nurse within two working days, to review your inhalers and make an asthma action plan.\",\n      \"evidence_turns\": [\n        41\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly states the follow-up timing as 4 weeks instead of the 2 working days agreed upon in the transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Plan",
+    "note_span": "GP review in 4 weeks for inhaler review and asthma action plan.",
+    "transcript_evidence": "I want you to see your GP or asthma nurse within two working days, to review your inhalers and make an asthma action plan.",
+    "evidence_turns": [
+     41
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly states the follow-up timing as 4 weeks instead of the 2 working days agreed upon in the transcript."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

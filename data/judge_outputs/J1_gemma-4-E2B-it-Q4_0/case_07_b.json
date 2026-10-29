@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports numbness and tingling.\",\n      \"transcript_evidence\": \"No, it just throbs.\",\n      \"evidence_turns\": [\n        18\n      ],\n      \"severity\": 3,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly records numbness and tingling, whereas the patient reported only throbbing pain.\"\n    },\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"approximately 4 hours ago.\",\n      \"transcript_evidence\": \"About... it'd be about four hours ago? No, sorry, less than that. It was just after my ten o'clock meeting, so two hours, maybe a bit more.\",\n      \"evidence_turns\": [\n        6\n      ],\n      \"severity\": 2,\n      \"likelihood\": 2,\n      \"rationale\": \"The note uses an approximate time of 4 hours, but the patient corrected this to less than 2 hours.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Reports numbness and tingling.",
+    "transcript_evidence": "No, it just throbs.",
+    "evidence_turns": [
+     18
+    ],
+    "severity": 3,
+    "likelihood": 3,
+    "rationale": "The note incorrectly records numbness and tingling, whereas the patient reported only throbbing pain."
+   },
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "approximately 4 hours ago.",
+    "transcript_evidence": "About... it'd be about four hours ago? No, sorry, less than that. It was just after my ten o'clock meeting, so two hours, maybe a bit more.",
+    "evidence_turns": [
+     6
+    ],
+    "severity": 2,
+    "likelihood": 2,
+    "rationale": "The note uses an approximate time of 4 hours, but the patient corrected this to less than 2 hours."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

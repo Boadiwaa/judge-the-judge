@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Bloods: lithium level today 0.7 mmol/L (12-hour post-dose)\",\n      \"transcript_evidence\": \"Your blood tests: your lithium level last month was 0.7, taken 12 hours after your dose, which is in range.\",\n      \"evidence_turns\": [\n        32\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the lithium level is 'today' when the transcript confirms the reported level (0.7 mmol/L) was from 'last month', which is a critical temporal error.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Repeat lithium level in 3 months.\",\n      \"transcript_evidence\": \"I'd like to recheck your lithium level in one week, 12 hours after your evening dose. After that we'll go back to every three months.\",\n      \"evidence_turns\": [\n        36\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the immediate plan to recheck the lithium level in one week, which was explicitly agreed upon in the transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Examination",
+    "note_span": "Bloods: lithium level today 0.7 mmol/L (12-hour post-dose)",
+    "transcript_evidence": "Your blood tests: your lithium level last month was 0.7, taken 12 hours after your dose, which is in range.",
+    "evidence_turns": [
+     32
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the lithium level is 'today' when the transcript confirms the reported level (0.7 mmol/L) was from 'last month', which is a critical temporal error."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Repeat lithium level in 3 months.",
+    "transcript_evidence": "I'd like to recheck your lithium level in one week, 12 hours after your evening dose. After that we'll go back to every three months.",
+    "evidence_turns": [
+     36
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the immediate plan to recheck the lithium level in one week, which was explicitly agreed upon in the transcript."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

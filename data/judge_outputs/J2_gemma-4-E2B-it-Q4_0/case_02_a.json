@@ -1,0 +1,341 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient presents with right-sided sciatica-type leg pain for 3 weeks."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The onset of pain occurred 3 weeks ago while lifting a resident at work."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Pain radiates from the buttock down the posterior thigh and lateral calf into the foot."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient reports leg pain is worse than back pain."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "Pain is rated up to 7/10 and is worse after sitting."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient reports occasional tingling over the lateral foot."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "There is no reported weakness."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "There is no saddle anaesthesia or change in bladder or bowel function."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "There are no reported fevers."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "There is no history of cancer or unintentional weight loss."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking over-the-counter ibuprofen 400 mg three times daily with little benefit."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient has no other medications and no known drug allergies."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "The patient has no history of peptic ulcer, asthma, or renal disease."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "Lumbar flexion is limited by pain."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "Straight leg raise is positive on the left at 40 degrees and negative on the right."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "Power, reflexes, and sensation are normal and symmetrical in both lower limbs."
+   },
+   {
+    "id": "c17",
+    "section": "Impression",
+    "claim": "The impression is right-sided sciatica, likely lumbar disc-related radiculopathy, with no red flags."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The plan is to stop ibuprofen and start naproxen 500 mg twice daily with food and omeprazole 20 mg once daily for 2 weeks."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The patient is referred to physiotherapy."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "The patient is advised to keep active and avoid bed rest."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "A fit note for two weeks is issued, allowing the patient to be fit for work with amended duties (no lifting or handling)."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "A follow-up appointment is scheduled in four weeks."
+   },
+   {
+    "id": "c23",
+    "section": "Safety-netting",
+    "claim": "A symptom card is given to the patient."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     2
+    ],
+    "fact": "Patient reports experiencing shooting pain going all the way down their leg.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     4
+    ],
+    "fact": "The pain started about three weeks ago while lifting a resident at work.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     6
+    ],
+    "fact": "Patient is a care assistant at a nursing home.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     8
+    ],
+    "fact": "The patient initially stated the pain was in the left leg, but corrected themselves to the right leg.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     10
+    ],
+    "fact": "The pain radiates from the bum, down the back of the thigh, round the outside of the calf, and into the foot.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     12
+    ],
+    "fact": "The pain is rated seven on a bad day and is worse when sitting for a while.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     14
+    ],
+    "fact": "The patient confirms the pain is definitely in the leg, not the back.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     16
+    ],
+    "fact": "The patient reports a bit of tingling on the outside of their foot sometimes.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     18
+    ],
+    "fact": "The patient reports no weakness, only pain.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     20
+    ],
+    "fact": "Patient denies numbness around the bottom or between legs when sitting on the toilet.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     22
+    ],
+    "fact": "Patient reports no change in waterworks (trouble passing urine or leaking).",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     24
+    ],
+    "fact": "Patient reports no problems with bowels or accidents.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     26
+    ],
+    "fact": "Patient reports no fevers or feeling unwell.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     28
+    ],
+    "fact": "Patient denies having ever had cancer or lost weight without trying.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     30
+    ],
+    "fact": "Patient is taking Ibuprofen 400 mg three times a day, stating it barely touches the pain.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     34
+    ],
+    "fact": "Patient reports no other medicines and no allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     35
+    ],
+    "fact": "Clinician asks the patient to bend forward and lift the right leg up straight to check for pain.",
+    "about": "clinician"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     36
+    ],
+    "fact": "Patient reports pain shooting right down when the leg is lifted.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     37
+    ],
+    "fact": "Clinician notes the pain is at about 40 degrees when the leg is lifted.",
+    "about": "clinician"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     39
+    ],
+    "fact": "Clinician notes that the left leg is fine and power, reflexes, and sensation are normal and symmetrical in both lower limbs.",
+    "about": "clinician"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     41
+    ],
+    "fact": "Clinician suggests the symptoms sound like sciatica, where a disc in the lower back is irritating a nerve going down the right leg.",
+    "about": "clinician"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     43
+    ],
+    "fact": "Clinician plans to switch the patient from ibuprofen to naproxen 500 mg twice a day with food and add omeprazole 20 mg once a day for a couple of weeks.",
+    "about": "clinician"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     45
+    ],
+    "fact": "Clinician plans to refer the patient to physiotherapy.",
+    "about": "clinician"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     47
+    ],
+    "fact": "Clinician plans to give a fit note for two weeks, stating the patient may be fit for work with amended duties (no lifting or handling).",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     49
+    ],
+    "fact": "Clinician plans to review the patient in four weeks.",
+    "about": "clinician"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     51
+    ],
+    "fact": "Clinician provides safety netting advice regarding cauda equina syndrome symptoms (numbness around bottom/genitals, difficulty passing urine, loss of control of bladder/bowels, or weakness in both legs).",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

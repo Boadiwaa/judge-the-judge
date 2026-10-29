@@ -1,0 +1,403 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient is presenting with worsening wheeze and breathlessness since yesterday."
+   },
+   {
+    "id": "c2",
+    "section": "Presenting complaint",
+    "claim": "The worsening of symptoms is associated with a viral upper respiratory infection."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient initially reported using salbutamol twice a day."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient is currently using salbutamol every two hours since last night."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient has experienced only brief relief from salbutamol use."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient is prescribed Clenil (beclometasone) 100 micrograms, two puffs twice daily."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient has poor adherence to the prescribed Clenil regimen."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has experienced a tight chest and a small amount of clear sputum."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient had a fever two days ago."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient had one previous hospital admission three months ago for two nights."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "The patient has never required intensive care or a breathing tube."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed salbutamol inhaler as required."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "The patient has an aspirin allergy due to bronchospasm and previously required hospital treatment."
+   },
+   {
+    "id": "c14",
+    "section": "Medications and allergies",
+    "claim": "The patient should avoid NSAIDs (like ibuprofen)."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient's resting respiratory rate is 24."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "The patient's heart rate is 108."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "The patient's oxygen saturation on air is 95%."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "The patient has widespread bilateral wheeze with good air entry."
+   },
+   {
+    "id": "c19",
+    "section": "Examination",
+    "claim": "The patient's peak expiratory flow (PEF) is 250 L/min."
+   },
+   {
+    "id": "c20",
+    "section": "Examination",
+    "claim": "The patient's best PEF is 450 L/min, which is about 55% of their best."
+   },
+   {
+    "id": "c21",
+    "section": "Examination",
+    "claim": "Following salbutamol nebulisation, the patient's PEF improved to 380 L/min (about 84%)."
+   },
+   {
+    "id": "c22",
+    "section": "Examination",
+    "claim": "Following treatment, the patient's respiratory rate decreased to 18."
+   },
+   {
+    "id": "c23",
+    "section": "Examination",
+    "claim": "Following treatment, the patient's oxygen saturation increased to 98%."
+   },
+   {
+    "id": "c24",
+    "section": "Impression",
+    "claim": "The patient has a moderate acute asthma exacerbation triggered by a viral infection."
+   },
+   {
+    "id": "c25",
+    "section": "Impression",
+    "claim": "The patient showed a good response to the bronchodilator (salbutamol)."
+   },
+   {
+    "id": "c26",
+    "section": "Impression",
+    "claim": "The patient has poor preventer adherence."
+   },
+   {
+    "id": "c27",
+    "section": "Plan",
+    "claim": "The patient is prescribed prednisolone 40 mg once daily for five days."
+   },
+   {
+    "id": "c28",
+    "section": "Plan",
+    "claim": "The patient is instructed to check inhaler technique before discharge."
+   },
+   {
+    "id": "c29",
+    "section": "Plan",
+    "claim": "The patient is scheduled for a GP or asthma nurse review within two working days."
+   },
+   {
+    "id": "c30",
+    "section": "Plan",
+    "claim": "The patient is scheduled for a GP or asthma nurse review within two working days to review inhalers and create an asthma action plan."
+   },
+   {
+    "id": "c31",
+    "section": "Plan",
+    "claim": "The patient is advised to be discharged if stable after one hour of observation."
+   },
+   {
+    "id": "c32",
+    "section": "Plan",
+    "claim": "The patient is advised to call 999 straight away if they need their blue inhaler more than every four hours, are too breathless to speak, or have blue lips."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     3
+    ],
+    "fact": "Clinician observed the patient is a bit wheezy.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     4
+    ],
+    "fact": "Patient has had a cold for a few days.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     4
+    ],
+    "fact": "Patient's asthma has gone really bad since yesterday.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     6
+    ],
+    "fact": "Patient is meant to take Clenil (brown preventer) twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     8
+    ],
+    "fact": "Patient is currently using salbutamol every two hours, maybe more, since last night.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     12
+    ],
+    "fact": "Patient is on Clenil (brown preventer).",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     14
+    ],
+    "fact": "The dose of Clenil is 100 micrograms, two puffs.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     16
+    ],
+    "fact": "Patient was in hospital once, about three years ago, for two nights.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     18
+    ],
+    "fact": "Patient has never needed intensive care or a breathing tube.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     20
+    ],
+    "fact": "Patient reports a tight chest and a bit of clear phlegm.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     22
+    ],
+    "fact": "Patient was a bit hot a couple of days ago with the cold.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     24
+    ],
+    "fact": "Patient does not smoke but vapes every day.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     28
+    ],
+    "fact": "Patient has an aspirin allergy (bronchospasm, previously needed hospital treatment).",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     29
+    ],
+    "fact": "Patient's breathing rate is 24, heart rate is 108, and oxygen levels are 95 percent on air.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     29
+    ],
+    "fact": "Clinician can hear wheeze all over the patient's chest, on both sides, but air is getting in everywhere.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     31
+    ],
+    "fact": "Patient's peak flow meter reading is 250.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     32
+    ],
+    "fact": "Patient's best peak flow reading is about 450.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     33
+    ],
+    "fact": "Clinician diagnoses a moderate asthma attack.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     33
+    ],
+    "fact": "The treatment plan includes a nebuliser with salbutamol, five milligrams.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     33
+    ],
+    "fact": "The treatment plan includes starting prednisolone 40 milligrams once a day for five days.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     37
+    ],
+    "fact": "After nebuliser treatment, the patient's peak flow is now 380, about 84 percent of their best.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     37
+    ],
+    "fact": "After treatment, the patient's breathing rate is 18 and oxygen is 98 percent.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     39
+    ],
+    "fact": "The patient is instructed to use the brown inhaler every day, even when feeling well.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     41
+    ],
+    "fact": "The patient is instructed to see their GP or asthma nurse within two working days.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     43
+    ],
+    "fact": "Safety netting advice: Call 999 if salbutamol is needed more than every four hours, if too breathless to speak, or if lips go blue.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"One previous hospital admission 3 months ago (two nights)\",\n      \"transcript_evidence\": \"Once, about three years ago. I was in for two nights.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly states the previous hospital admission was three months ago, while the transcript indicates it was three years ago.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"GP review in 4 weeks for inhaler review and asthma action plan.\",\n      \"transcript_evidence\": \"I want you to see your GP or asthma nurse within two working days, to review your inhalers and make an asthma action plan.\",\n      \"evidence_turns\": [\n        41\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note states a 4-week review period, but the transcript specifies a review within two working days, which is a significant change in follow-up timing.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "One previous hospital admission 3 months ago (two nights)",
+    "transcript_evidence": "Once, about three years ago. I was in for two nights.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly states the previous hospital admission was three months ago, while the transcript indicates it was three years ago."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "GP review in 4 weeks for inhaler review and asthma action plan.",
+    "transcript_evidence": "I want you to see your GP or asthma nurse within two working days, to review your inhalers and make an asthma action plan.",
+    "evidence_turns": [
+     41
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note states a 4-week review period, but the transcript specifies a review within two working days, which is a significant change in follow-up timing."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

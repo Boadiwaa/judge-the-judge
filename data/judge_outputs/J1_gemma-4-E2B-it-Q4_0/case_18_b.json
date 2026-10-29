@@ -1,0 +1,75 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Two exacerbations requiring oral steroids in the last 5 years (one also needed antibiotics)\",\n      \"transcript_evidence\": \"One in January, and one in the summer. The summer one needed antibiotics as well.\",\n      \"evidence_turns\": [\n        11,\n        13\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note generalizes the timeframe to 'last 5 years', while the transcript specifies the events occurred in January and the summer, implying a shorter, more recent period.\"\n    },\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Ex-smoker for 6 months, approximately 30 pack-years.\",\n      \"transcript_evidence\": \"Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years.\",\n      \"evidence_turns\": [\n        26\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note states the patient has been an ex-smoker for 6 months, but the transcript indicates a total smoking history of 40 years, with a cessation period of 10 years, resulting in a 30-year smoking history, a major discrepancy.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Pulmonary rehabilitation offered but declined.\",\n      \"transcript_evidence\": \"[41] I'd also like to refer you to pulmonary rehabilitation. [42] I've heard of it. I'll give it a go.\",\n      \"evidence_turns\": [\n        41,\n        42\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records the rehabilitation as declined, but the transcript shows the patient expressed interest and willingness to try it ('I'll give it a go').\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Coarse crackles at the left base (new).\",\n      \"transcript_evidence\": \"[35] There's some wheeze on both sides, and some coarse crackles at the bottom of your left lung, at the left base.\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note documents the crackles as 'new', but the transcript does not provide information regarding the onset or whether they are new.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Chest X-ray last month clear.\",\n      \"transcript_evidence\": \"[43] Because of the crackles at the left base, I'd like a chest X-ray today, before you go.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note states the previous chest X-ray was clear, but the transcript indicates a new X-ray is being ordered today, implying the previous result is no longer relevant or has changed.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Two exacerbations requiring oral steroids in the last 5 years (one also needed antibiotics)",
+    "transcript_evidence": "One in January, and one in the summer. The summer one needed antibiotics as well.",
+    "evidence_turns": [
+     11,
+     13
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note generalizes the timeframe to 'last 5 years', while the transcript specifies the events occurred in January and the summer, implying a shorter, more recent period."
+   },
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Ex-smoker for 6 months, approximately 30 pack-years.",
+    "transcript_evidence": "Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years.",
+    "evidence_turns": [
+     26
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note states the patient has been an ex-smoker for 6 months, but the transcript indicates a total smoking history of 40 years, with a cessation period of 10 years, resulting in a 30-year smoking history, a major discrepancy."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Pulmonary rehabilitation offered but declined.",
+    "transcript_evidence": "[41] I'd also like to refer you to pulmonary rehabilitation. [42] I've heard of it. I'll give it a go.",
+    "evidence_turns": [
+     41,
+     42
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records the rehabilitation as declined, but the transcript shows the patient expressed interest and willingness to try it ('I'll give it a go')."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Coarse crackles at the left base (new).",
+    "transcript_evidence": "[35] There's some wheeze on both sides, and some coarse crackles at the bottom of your left lung, at the left base.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note documents the crackles as 'new', but the transcript does not provide information regarding the onset or whether they are new."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "Examination",
+    "note_span": "Chest X-ray last month clear.",
+    "transcript_evidence": "[43] Because of the crackles at the left base, I'd like a chest X-ray today, before you go.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note states the previous chest X-ray was clear, but the transcript indicates a new X-ray is being ordered today, implying the previous result is no longer relevant or has changed."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

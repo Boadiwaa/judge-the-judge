@@ -1,0 +1,1297 @@
+[
+ {
+  "flag_id": "J0:case_01_a:0",
+  "judge": "J0",
+  "case_id": "case_01",
+  "variant_id": "case_01_a",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "History",
+   "note_span": "Ex-smoker: stopped 20 years ago, previously 10 per day for about 15 years (approximately 7.5 pack-years).",
+   "transcript_evidence": "I gave up twenty years ago. Before that I smoked about ten a day, for maybe fifteen years.",
+   "evidence_turns": [
+    23
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The calculation for pack-years is incorrect; 10 cigarettes per day for 15 years equals 150 pack-years, not 7.5."
+  }
+ },
+ {
+  "flag_id": "J0:case_05_clean:0",
+  "judge": "J0",
+  "case_id": "case_05",
+  "variant_id": "case_05_clean",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "impression",
+   "note_span": "Suspected acute coronary syndrome (possible NSTEMI).",
+   "transcript_evidence": "It's possible. It could be what we call an acute coronary syndrome.",
+   "evidence_turns": [
+    40
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note makes a specific diagnostic assumption (NSTEMI) that is not explicitly stated in the transcript, which only mentions 'acute coronary syndrome'."
+  }
+ },
+ {
+  "flag_id": "J0:case_05_clean:1",
+  "judge": "J0",
+  "case_id": "case_05",
+  "variant_id": "case_05_clean",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "plan",
+   "note_span": "Serial high-sensitivity troponin.",
+   "transcript_evidence": "We've taken a blood test for troponin, which shows heart muscle damage, and we'll repeat it in a few hours.",
+   "evidence_turns": [
+    40
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note specifies 'high-sensitivity troponin' testing, which is not mentioned in the transcript."
+  }
+ },
+ {
+  "flag_id": "J0:case_06_b:0",
+  "judge": "J0",
+  "case_id": "case_06",
+  "variant_id": "case_06_b",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "presenting_complaint",
+   "note_span": "Head injury after a mechanical fall at home at about 07:45.",
+   "transcript_evidence": "It was about quarter to eight.",
+   "evidence_turns": [
+    7
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note records the time of the injury as 07:45, while the transcript indicates the time was about quarter to eight (20:30)."
+  }
+ },
+ {
+  "flag_id": "J0:case_07_a:0",
+  "judge": "J0",
+  "case_id": "case_07",
+  "variant_id": "case_07_a",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "presenting_complaint",
+   "note_span": "approximately 2 hours ago.",
+   "transcript_evidence": "About... it'd be about four hours ago? No, sorry, less than that. It was just after my ten o'clock meeting, so two hours, maybe a bit more.",
+   "evidence_turns": [
+    6
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note simplifies the patient's description of the time frame, but the core information is preserved."
+  }
+ },
+ {
+  "flag_id": "J0:case_10_a:2",
+  "judge": "J0",
+  "case_id": "case_10",
+  "variant_id": "case_10_a",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "Impression",
+   "note_span": "Bronchiolitis with moderately reduced feeding; borderline for referral (feeds about 50%).",
+   "transcript_evidence": "his feeding is down to about half, which is right on the line.",
+   "evidence_turns": [
+    37
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note uses the term 'moderately reduced feeding' while the transcript specifies the feeding is 'down to about half,' which is a minor descriptive inconsistency."
+  }
+ },
+ {
+  "flag_id": "J0:case_12_b:1",
+  "judge": "J0",
+  "case_id": "case_12",
+  "variant_id": "case_12_b",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "history",
+   "note_span": "Gradual onset without specific injury",
+   "transcript_evidence": "[10] Patient: Not really. It just started hurting after football.",
+   "evidence_turns": [
+    10
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note claims a gradual onset without specific injury, but the transcript indicates the pain started after football."
+  }
+ },
+ {
+  "flag_id": "J0:case_16_b:1",
+  "judge": "J0",
+  "case_id": "case_16",
+  "variant_id": "case_16_b",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "Presenting complaint",
+   "note_span": "8 weeks postpartum.",
+   "transcript_evidence": "Eight weeks. No, ten. He's ten weeks on Saturday.",
+   "evidence_turns": [
+    6
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note incorrectly states the patient is 8 weeks postpartum, while the transcript indicates the baby is 10 weeks old."
+  }
+ },
+ {
+  "flag_id": "J0:case_17_clean:0",
+  "judge": "J0",
+  "case_id": "case_17",
+  "variant_id": "case_17_clean",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "Impression",
+   "note_span": "Apixaban dose appropriate (age 72, weight 58 kg, creatinine 98).",
+   "transcript_evidence": "",
+   "evidence_turns": [],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The patient's age (72) is mentioned in the impression but is not present in the provided consultation transcript."
+  }
+ },
+ {
+  "flag_id": "J0:case_18_clean:0",
+  "judge": "J0",
+  "case_id": "case_18",
+  "variant_id": "case_18_clean",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "Impression",
+   "note_span": "eosinophils \u22650.3, suitable for triple therapy.",
+   "transcript_evidence": "And your blood eosinophil count last month was 0.35.",
+   "evidence_turns": [
+    37
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note incorrectly states the eosinophil count threshold (\u22650.3) when the transcript provides a specific count (0.35) which is below that threshold."
+  }
+ },
+ {
+  "flag_id": "J0:case_19_a:0",
+  "judge": "J0",
+  "case_id": "case_19",
+  "variant_id": "case_19_a",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "history",
+   "note_span": "Early morning stiffness lasting about 90 minutes (initially said 30 minutes).",
+   "transcript_evidence": "About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.",
+   "evidence_turns": [
+    1,
+    7
+   ],
+   "severity": 2,
+   "likelihood": 4,
+   "rationale": "The note significantly misrepresents the duration of morning stiffness reported by the patient."
+  }
+ },
+ {
+  "flag_id": "J0:case_19_a:3",
+  "judge": "J0",
+  "case_id": "case_19",
+  "variant_id": "case_19_a",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "history",
+   "note_span": "Mild nausea the day after methotrexate.",
+   "transcript_evidence": "A bit queasy on Tuesdays, but I manage.",
+   "evidence_turns": [
+    17
+   ],
+   "severity": 1,
+   "likelihood": 3,
+   "rationale": "The note misrepresents the timing of the nausea, reporting it as occurring the day after the medication instead of on Tuesdays."
+  }
+ },
+ {
+  "flag_id": "J0:case_19_b:0",
+  "judge": "J0",
+  "case_id": "case_19",
+  "variant_id": "case_19_b",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "History",
+   "note_span": "Mild nausea the day after methotrexate.",
+   "transcript_evidence": "A bit queasy on Tuesdays, but I manage.",
+   "evidence_turns": [
+    17
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note inaccurately specifies the timing of the mild nausea, generalizing it to the day after methotrexate instead of the specific day (Tuesdays) mentioned in the transcript."
+  }
+ },
+ {
+  "flag_id": "J0:case_22_clean:0",
+  "judge": "J0",
+  "case_id": "case_22",
+  "variant_id": "case_22_clean",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "plan",
+   "note_span": "Flucloxacillin 500 mg four times daily for 7 days, on an empty stomach.",
+   "transcript_evidence": "I'll prescribe flucloxacillin, 500 milligrams four times a day for seven days. Take it on an empty stomach, an hour before food or two hours after.",
+   "evidence_turns": [
+    35
+   ],
+   "severity": 2,
+   "likelihood": 4,
+   "rationale": "The plan omits the specific timing instructions for taking the antibiotic on an empty stomach, which were provided in the transcript."
+  }
+ },
+ {
+  "flag_id": "J0:case_23_b:1",
+  "judge": "J0",
+  "case_id": "case_23",
+  "variant_id": "case_23_b",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "plan",
+   "note_span": "Continue breastfeeding; oral rehydration solution in small, frequent amounts.",
+   "transcript_evidence": "Continue breastfeeding; oral rehydration solution, like Dioralyte, a teaspoon every few minutes.",
+   "evidence_turns": [
+    37
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The plan omits the specific instruction regarding the frequency and method of administering the oral rehydration solution."
+  }
+ },
+ {
+  "flag_id": "J0:case_24_b:3",
+  "judge": "J0",
+  "case_id": "case_24",
+  "variant_id": "case_24_b",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "safety_netting",
+   "note_span": "or blood in stool.",
+   "transcript_evidence": "or you see blood in the diarrhoea",
+   "evidence_turns": [
+    53
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The note uses 'blood in stool' while the transcript uses 'blood in the diarrhoea', which is a minor linguistic variation."
+  }
+ },
+ {
+  "flag_id": "J1:case_01_a:2",
+  "judge": "J1",
+  "case_id": "case_01",
+  "variant_id": "case_01_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "Ramipril started end of May for hypertension, increased from 2.5 mg to 5 mg in July; cough began after starting ramipril.",
+   "transcript_evidence": "Patient: Back in the summer. June? Relative: It was the end of May. I remember because we'd just come back from Whitby.",
+   "evidence_turns": [
+    24,
+    25,
+    26
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note omits the specific detail regarding the dose increase (from 2.5 mg to 5 mg in July) which is present in the transcript context."
+  }
+ },
+ {
+  "flag_id": "J1:case_01_a:3",
+  "judge": "J1",
+  "case_id": "case_01",
+  "variant_id": "case_01_a",
+  "finding": {
+   "type": "ATTRIBUTION",
+   "note_section": "History",
+   "note_span": "Ex-smoker: stopped 20 years ago, previously 10 per day for about 15 years (approximately 7.5 pack-years).",
+   "transcript_evidence": "Patient: I gave up twenty years ago. Before that I smoked about ten a day, for maybe fifteen years.",
+   "evidence_turns": [
+    23
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The note contains a mathematical error in calculating pack-years based on the transcript data (10 cigarettes/day for 15 years is 150 pack-years, not 7.5)."
+  }
+ },
+ {
+  "flag_id": "J1:case_02_a:0",
+  "judge": "J1",
+  "case_id": "case_02",
+  "variant_id": "case_02_a",
+  "finding": {
+   "type": "OMIT_SAFETY",
+   "note_section": "Impression",
+   "note_span": "No red flags.",
+   "transcript_evidence": "Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome.",
+   "evidence_turns": [
+    51
+   ],
+   "severity": 4,
+   "likelihood": 4,
+   "rationale": "The note fails to document the critical safety-netting advice regarding cauda equina syndrome symptoms, which is a serious safety fact."
+  }
+ },
+ {
+  "flag_id": "J1:case_04_clean:0",
+  "judge": "J1",
+  "case_id": "case_04",
+  "variant_id": "case_04_clean",
+  "finding": {
+   "type": "OMIT_SAFETY",
+   "note_section": "Impression",
+   "note_span": "Combined hormonal contraception contraindicated (UKMEC 4).",
+   "transcript_evidence": "With migraine with aura, the combined pill increases the risk of stroke, so it isn't safe for you to keep taking it.",
+   "evidence_turns": [
+    37
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note omits the specific safety rationale (increased stroke risk) provided in the transcript for contraindicating the combined pill."
+  }
+ },
+ {
+  "flag_id": "J1:case_05_clean:0",
+  "judge": "J1",
+  "case_id": "case_05",
+  "variant_id": "case_05_clean",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "History",
+   "note_span": "Father had a myocardial infarction at 52.",
+   "transcript_evidence": "And my dad had his at 60, but that's my side.",
+   "evidence_turns": [
+    33
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note contains a factual error regarding the age of the father's myocardial infarction."
+  }
+ },
+ {
+  "flag_id": "J1:case_06_clean:0",
+  "judge": "J1",
+  "case_id": "case_06",
+  "variant_id": "case_06_clean",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "Presenting complaint",
+   "note_span": "Head injury after a mechanical fall at home at about 07:45.",
+   "transcript_evidence": "[6] Patient: About half past nine. [7] Relative: Mum, it was before that. The post hadn't come and you hadn't had your breakfast. It was about quarter to eight.",
+   "evidence_turns": [
+    6,
+    7
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note records a significant discrepancy in the time of the incident (07:45 vs. quarter to eight), which impacts the timeline of events."
+  }
+ },
+ {
+  "flag_id": "J1:case_06_clean:1",
+  "judge": "J1",
+  "case_id": "case_06",
+  "variant_id": "case_06_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "Head injury in an anticoagulated 81-year-old with brief post-traumatic confusion and amnesia, and one episode of vomiting.",
+   "transcript_evidence": "",
+   "evidence_turns": [],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The patient's age (81-year-old) is a critical demographic fact missing from the documentation."
+  }
+ },
+ {
+  "flag_id": "J1:case_06_b:0",
+  "judge": "J1",
+  "case_id": "case_06",
+  "variant_id": "case_06_b",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "Presenting complaint",
+   "note_span": "Head injury after a mechanical fall at home at about 07:45.",
+   "transcript_evidence": "Relative: Mum, it was before that. The post hadn't come and you hadn't had your breakfast. It was about quarter to eight.",
+   "evidence_turns": [
+    7
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note records a specific time (07:45) which is contradicted by the relative's correction to 'quarter to eight' (approx 19:45), leading to a significant temporal error in the record."
+  }
+ },
+ {
+  "flag_id": "J1:case_08_clean:0",
+  "judge": "J1",
+  "case_id": "case_08",
+  "variant_id": "case_08_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "Uses an e-cigarette daily.",
+   "transcript_evidence": "[24] Patient: No, but I vape every day.",
+   "evidence_turns": [
+    24
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note mentions the patient uses an e-cigarette daily, but the transcript only mentions vaping, omitting a relevant fact."
+  }
+ },
+ {
+  "flag_id": "J1:case_09_a:2",
+  "judge": "J1",
+  "case_id": "case_09",
+  "variant_id": "case_09_a",
+  "finding": {
+   "type": "OMIT_SAFETY",
+   "note_section": "Safety-netting",
+   "note_span": "Call 999 or attend A&E if a non-blanching rash, very drowsy or difficult to rouse, breathing difficulty, or not drinking and not passing urine.",
+   "transcript_evidence": "If she gets a rash that doesn't fade when you press a glass on it, if she becomes very drowsy or hard to wake, if she's struggling to breathe, or if she stops drinking and isn't weeing, call 999 or go straight to A&E.",
+   "evidence_turns": [
+    44
+   ],
+   "severity": 4,
+   "likelihood": 5,
+   "rationale": "The note omits the critical safety detail that the rash must be 'non-blanching' (or 'doesn't fade when you press a glass on it') for urgent referral."
+  }
+ },
+ {
+  "flag_id": "J1:case_09_b:1",
+  "judge": "J1",
+  "case_id": "case_09",
+  "variant_id": "case_09_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "Coryza for about a week preceding.",
+   "transcript_evidence": "A runny nose for about a week, before all this started.",
+   "evidence_turns": [
+    19
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The note omits the specific symptom (runny nose/coryza) mentioned in the transcript."
+  }
+ },
+ {
+  "flag_id": "J1:case_10_a:1",
+  "judge": "J1",
+  "case_id": "case_10",
+  "variant_id": "case_10_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Examination",
+   "note_span": "Mild subcostal recession.",
+   "transcript_evidence": "I can see he's pulling in a little under his ribs when he breathes, so a bit of extra effort.",
+   "evidence_turns": [
+    33
+   ],
+   "severity": 2,
+   "likelihood": 2,
+   "rationale": "The note omits a specific observation regarding the child's respiratory effort noted during examination."
+  }
+ },
+ {
+  "flag_id": "J1:case_10_a:2",
+  "judge": "J1",
+  "case_id": "case_10",
+  "variant_id": "case_10_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "borderline for referral (feeds about 50%).",
+   "transcript_evidence": "his feeding is down to about half, which is right on the line.",
+   "evidence_turns": [
+    37
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note uses slightly less precise language regarding the feeding status compared to the transcript."
+  }
+ },
+ {
+  "flag_id": "J1:case_10_a:3",
+  "judge": "J1",
+  "case_id": "case_10",
+  "variant_id": "case_10_a",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "Plan",
+   "note_span": "Advised illness may worsen over days 3\u20135.",
+   "transcript_evidence": "Bronchiolitis often gets worse over the first three to five days before it gets better.",
+   "evidence_turns": [
+    39
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note uses a slightly different temporal phrasing for the duration of the worsening symptoms."
+  }
+ },
+ {
+  "flag_id": "J1:case_10_b:2",
+  "judge": "J1",
+  "case_id": "case_10",
+  "variant_id": "case_10_b",
+  "finding": {
+   "type": "PLAN_CHANGE",
+   "note_section": "Plan",
+   "note_span": "Review if not improving in one week.",
+   "transcript_evidence": "I want to see him again tomorrow morning.",
+   "evidence_turns": [
+    37
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The plan suggests a one-week review, but the clinician explicitly stated a review for the following morning, which is a significant change in management timing."
+  }
+ },
+ {
+  "flag_id": "J1:case_11_clean:0",
+  "judge": "J1",
+  "case_id": "case_11",
+  "variant_id": "case_11_clean",
+  "finding": {
+   "type": "PLAN_CHANGE",
+   "note_section": "Plan",
+   "note_span": "Clobetasone butyrate 0.05% once daily to inflamed areas on the body for 7 days, then hydrocortisone 1% if needed.",
+   "transcript_evidence": "Clobetasone butyrate, 0.05 percent. Put it on the red patches on her body once a day for seven days, then go back to the hydrocortisone for a few days if needed.",
+   "evidence_turns": [
+    32
+   ],
+   "severity": 2,
+   "likelihood": 4,
+   "rationale": "The plan omits the instruction to return to hydrocortisone for a few days if needed, which is a key part of the prescribed management."
+  }
+ },
+ {
+  "flag_id": "J1:case_11_clean:1",
+  "judge": "J1",
+  "case_id": "case_11",
+  "variant_id": "case_11_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Plan",
+   "note_span": "Epaderm 3\u20134 times daily and as a soap substitute (at least 500 g every 2 weeks). Stop bubble baths.",
+   "transcript_evidence": "Use the Epaderm three or four times a day, lots of it, at least a 500 gram tub every two weeks. Use it instead of soap, and stop the bubble baths.",
+   "evidence_turns": [
+    36
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The note omits the instruction to use 'lots of it' when applying the moisturiser, which is a relevant detail for adherence."
+  }
+ },
+ {
+  "flag_id": "J1:case_11_b:0",
+  "judge": "J1",
+  "case_id": "case_11",
+  "variant_id": "case_11_b",
+  "finding": {
+   "type": "OMIT_SAFETY",
+   "note_section": "Safety-netting",
+   "note_span": "",
+   "transcript_evidence": "If she gets painful sores, blisters or punched-out spots, especially with a fever or feeling unwell, that can be a herpes infection in eczema. Get her seen the same day.",
+   "evidence_turns": [
+    40
+   ],
+   "severity": 4,
+   "likelihood": 5,
+   "rationale": "A critical safety warning regarding herpes infection in eczema was omitted, which is a serious omission."
+  }
+ },
+ {
+  "flag_id": "J1:case_12_b:2",
+  "judge": "J1",
+  "case_id": "case_12",
+  "variant_id": "case_12_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Plan",
+   "note_span": "Refer to physiotherapy for quadriceps and hamstring stretching.",
+   "transcript_evidence": "I'll refer you to physiotherapy for some stretching exercises for your thigh muscles.",
+   "evidence_turns": [
+    47
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The note specifies 'quadriceps and hamstring' while the transcript mentions 'thigh muscles', which is a minor omission of specific muscle groups."
+  }
+ },
+ {
+  "flag_id": "J1:case_16_b:2",
+  "judge": "J1",
+  "case_id": "case_16",
+  "variant_id": "case_16_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "Her mother was admitted to hospital with a severe mental illness after a birth (possible postpartum psychosis).",
+   "transcript_evidence": "My mum had to go into hospital after she had my brother. She was really unwell, hearing things. They never really talked about it.",
+   "evidence_turns": [
+    24
+   ],
+   "severity": 3,
+   "likelihood": 3,
+   "rationale": "The note makes a clinical interpretation ('possible postpartum psychosis') and a specific timing ('after a birth') that is not explicitly stated in the transcript, which only mentions the mother being unwell and 'hearing things'."
+  }
+ },
+ {
+  "flag_id": "J1:case_17_clean:0",
+  "judge": "J1",
+  "case_id": "case_17",
+  "variant_id": "case_17_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "Apixaban dose appropriate (age 72, weight 58 kg, creatinine 98).",
+   "transcript_evidence": "",
+   "evidence_turns": [
+    44
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The patient's age (72) is mentioned in the impression but is not present in the consultation transcript, which is a relevant clinical fact."
+  }
+ },
+ {
+  "flag_id": "J1:case_17_a:1",
+  "judge": "J1",
+  "case_id": "case_17",
+  "variant_id": "case_17_a",
+  "finding": {
+   "type": "DOSE_UNIT",
+   "note_section": "Medications and allergies",
+   "note_span": "Bisoprolol 2.5 mg once daily.",
+   "transcript_evidence": "Clinician: And what else do you take? [32]\nPatient: The bisoprolol, two and a half milligrams. And my thyroid tablet, levothyroxine, 75 micrograms. [33]\nClinician: I'd like to increase the bisoprolol from two and a half to five milligrams once a day. [40]",
+   "evidence_turns": [
+    33,
+    40
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note lists the current bisoprolol dose as 2.5 mg once daily, failing to reflect the agreed plan to increase the dose to 5 mg once daily."
+  }
+ },
+ {
+  "flag_id": "J1:case_17_a:2",
+  "judge": "J1",
+  "case_id": "case_17",
+  "variant_id": "case_17_a",
+  "finding": {
+   "type": "PLAN_CHANGE",
+   "note_section": "Plan",
+   "note_span": "Continue apixaban 2.5 mg twice daily; do not stop.",
+   "transcript_evidence": "Clinician: Your apixaban dose of five milligrams twice a day is correct for you, based on your age, weight and kidney function, so we'll keep that the same. [44]",
+   "evidence_turns": [
+    44
+   ],
+   "severity": 4,
+   "likelihood": 4,
+   "rationale": "The plan section contradicts the agreed management plan in the transcript, failing to record the instruction to continue the increased dose of apixaban (5 mg twice daily)."
+  }
+ },
+ {
+  "flag_id": "J1:case_17_b:3",
+  "judge": "J1",
+  "case_id": "case_17",
+  "variant_id": "case_17_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "Apixaban dose appropriate (age 72, weight 58 kg, creatinine 98).",
+   "transcript_evidence": "Clinician: Your apixaban dose of five milligrams twice a day is correct for you, based on your age, weight and kidney function, so we'll keep that the same.",
+   "evidence_turns": [
+    44
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The impression omits the critical detail that the appropriate dose is twice daily, which is a key safety fact derived from the transcript."
+  }
+ },
+ {
+  "flag_id": "J1:case_18_clean:0",
+  "judge": "J1",
+  "case_id": "case_18",
+  "variant_id": "case_18_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "MRC dyspnoea grade 3.",
+   "transcript_evidence": "Patient: I have to stop halfway up the hill to the shops now. I can walk on the flat at my own pace, but I'm slower than Valerie.",
+   "evidence_turns": [
+    5,
+    7
+   ],
+   "severity": 3,
+   "likelihood": 3,
+   "rationale": "The note omits the specific functional assessment (MRC grade 3) mentioned in the transcript, which is a relevant clinical detail."
+  }
+ },
+ {
+  "flag_id": "J1:case_18_clean:1",
+  "judge": "J1",
+  "case_id": "case_18",
+  "variant_id": "case_18_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "Ex-smoker for 6 months, approximately 30 pack-years.",
+   "transcript_evidence": "Patient: Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years.",
+   "evidence_turns": [
+    26
+   ],
+   "severity": 2,
+   "likelihood": 2,
+   "rationale": "The note summarizes the smoking history but omits the specific details regarding the duration of smoking and the timing of cessation mentioned in the transcript."
+  }
+ },
+ {
+  "flag_id": "J1:case_18_clean:2",
+  "judge": "J1",
+  "case_id": "case_18",
+  "variant_id": "case_18_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Examination",
+   "note_span": "Coarse crackles at the left base (new).",
+   "transcript_evidence": "Clinician: There's some coarse crackles at the bottom of your left lung, at the left base.",
+   "evidence_turns": [
+    35
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note adds the descriptor 'new' which is not explicitly stated in the transcript, although it is implied by the clinician's comment that it 'wasn't noted last time'."
+  }
+ },
+ {
+  "flag_id": "J1:case_18_a:0",
+  "judge": "J1",
+  "case_id": "case_18",
+  "variant_id": "case_18_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "MRC dyspnoea grade 3.",
+   "transcript_evidence": "",
+   "evidence_turns": [
+    1
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "A relevant clinical measure (MRC grade) used to assess severity of breathlessness was omitted from the note."
+  }
+ },
+ {
+  "flag_id": "J1:case_18_b:1",
+  "judge": "J1",
+  "case_id": "case_18",
+  "variant_id": "case_18_b",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "History",
+   "note_span": "Ex-smoker for 6 months, approximately 30 pack-years.",
+   "transcript_evidence": "Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years.",
+   "evidence_turns": [
+    26
+   ],
+   "severity": 4,
+   "likelihood": 5,
+   "rationale": "The note states the patient has been an ex-smoker for 6 months, but the transcript indicates a total smoking history of 40 years, with a cessation period of 10 years, resulting in a 30-year smoking history, a major discrepancy."
+  }
+ },
+ {
+  "flag_id": "J1:case_18_b:4",
+  "judge": "J1",
+  "case_id": "case_18",
+  "variant_id": "case_18_b",
+  "finding": {
+   "type": "NEGATION",
+   "note_section": "Examination",
+   "note_span": "Chest X-ray last month clear.",
+   "transcript_evidence": "[43] Because of the crackles at the left base, I'd like a chest X-ray today, before you go.",
+   "evidence_turns": [
+    43
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note states the previous chest X-ray was clear, but the transcript indicates a new X-ray is being ordered today, implying the previous result is no longer relevant or has changed."
+  }
+ },
+ {
+  "flag_id": "J1:case_19_clean:0",
+  "judge": "J1",
+  "case_id": "case_19",
+  "variant_id": "case_19_clean",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "History",
+   "note_span": "Early morning stiffness lasting about 90 minutes (initially said 30 minutes).",
+   "transcript_evidence": "About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.",
+   "evidence_turns": [
+    7
+   ],
+   "severity": 2,
+   "likelihood": 4,
+   "rationale": "The note misrepresents the duration of morning stiffness, omitting the self-correction detail and providing an inaccurate duration."
+  }
+ },
+ {
+  "flag_id": "J1:case_19_clean:1",
+  "judge": "J1",
+  "case_id": "case_19",
+  "variant_id": "case_19_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "Mild nausea the day after methotrexate.",
+   "transcript_evidence": "A bit queasy on Tuesdays, but I manage.",
+   "evidence_turns": [
+    17
+   ],
+   "severity": 1,
+   "likelihood": 3,
+   "rationale": "The note omits the specific timing (Tuesdays) and context (queasy) of the nausea mentioned in the transcript."
+  }
+ },
+ {
+  "flag_id": "J1:case_19_a:0",
+  "judge": "J1",
+  "case_id": "case_19",
+  "variant_id": "case_19_a",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "History",
+   "note_span": "Early morning stiffness lasting about 90 minutes (initially said 30 minutes).",
+   "transcript_evidence": "About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.",
+   "evidence_turns": [
+    7
+   ],
+   "severity": 1,
+   "likelihood": 4,
+   "rationale": "The note incorrectly records the initial duration of morning stiffness."
+  }
+ },
+ {
+  "flag_id": "J1:case_19_b:2",
+  "judge": "J1",
+  "case_id": "case_19",
+  "variant_id": "case_19_b",
+  "finding": {
+   "type": "ATTRIBUTION",
+   "note_section": "History",
+   "note_span": "Mild nausea the day after methotrexate.",
+   "transcript_evidence": "A bit queasy on Tuesdays, but I manage.",
+   "evidence_turns": [
+    17
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The note attributes the nausea to the day after methotrexate, whereas the transcript attributes the symptom to Tuesdays."
+  }
+ },
+ {
+  "flag_id": "J1:case_21_a:2",
+  "judge": "J1",
+  "case_id": "case_21",
+  "variant_id": "case_21_a",
+  "finding": {
+   "type": "ATTRIBUTION",
+   "note_section": "History",
+   "note_span": "Reports loin pain and fever",
+   "transcript_evidence": "[13] Clinician: Any pain in your back or sides, just under your ribs?\n[14] Patient: No.\n[15] Clinician: Any fever, shivers or shakes?\n[16] Patient: No, I don't think so. I feel okay in myself.",
+   "evidence_turns": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note attributes symptoms (loin pain and fever) to the patient when the transcript shows the clinician asked about them and the patient denied them."
+  }
+ },
+ {
+  "flag_id": "J1:case_21_b:1",
+  "judge": "J1",
+  "case_id": "case_21",
+  "variant_id": "case_21_b",
+  "finding": {
+   "type": "PLAN_CHANGE",
+   "note_section": "Plan",
+   "note_span": "Urine sample for culture before starting antibiotics.",
+   "transcript_evidence": "please drop a urine sample into the surgery before you start the antibiotics, so we can send it to the lab.",
+   "evidence_turns": [
+    39
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note omits the specific instruction regarding the purpose of the urine sample (sending it to the lab), which is a key part of the plan."
+  }
+ },
+ {
+  "flag_id": "J1:case_22_b:2",
+  "judge": "J1",
+  "case_id": "case_22",
+  "variant_id": "case_22_b",
+  "finding": {
+   "type": "ATTRIBUTION",
+   "note_section": "Medications and allergies",
+   "note_span": "No known drug allergies; has had penicillins without problems (daughter, present, is penicillin-allergic).",
+   "transcript_evidence": "I'm allergic to penicillin. Is that the kind of thing you'd give him? Should we be careful?",
+   "evidence_turns": [
+    28
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note incorrectly attributes the source of the penicillin allergy information to the daughter rather than the relative who raised the concern."
+  }
+ },
+ {
+  "flag_id": "J1:case_23_clean:0",
+  "judge": "J1",
+  "case_id": "case_23",
+  "variant_id": "case_23_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "Probable viral gastroenteritis with reduced urine output.",
+   "transcript_evidence": "",
+   "evidence_turns": [],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note includes 'reduced urine output' in the impression, which is an inference not explicitly stated or confirmed in the transcript."
+  }
+ },
+ {
+  "flag_id": "J1:case_23_a:0",
+  "judge": "J1",
+  "case_id": "case_23",
+  "variant_id": "case_23_a",
+  "finding": {
+   "type": "HALLUC",
+   "note_section": "Impression",
+   "note_span": "Probable viral gastroenteritis with reduced urine output.",
+   "transcript_evidence": "",
+   "evidence_turns": [],
+   "severity": 3,
+   "likelihood": 3,
+   "rationale": "The note includes a clinical finding (reduced urine output) that is not mentioned or supported by the consultation transcript."
+  }
+ },
+ {
+  "flag_id": "J1:case_23_a:3",
+  "judge": "J1",
+  "case_id": "case_23",
+  "variant_id": "case_23_a",
+  "finding": {
+   "type": "DOSE_UNIT",
+   "note_section": "Plan",
+   "note_span": "oral rehydration solution in small, frequent amounts.",
+   "transcript_evidence": "give small amounts of oral rehydration solution, like Dioralyte, a teaspoon every few minutes.",
+   "evidence_turns": [
+    37
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note is slightly vague regarding the specific frequency/unit (teaspoon every few minutes) mentioned in the transcript, though the intent is clear."
+  }
+ },
+ {
+  "flag_id": "J1:case_23_b:2",
+  "judge": "J1",
+  "case_id": "case_23",
+  "variant_id": "case_23_b",
+  "finding": {
+   "type": "DOSE_UNIT",
+   "note_section": "Plan",
+   "note_span": "Continue breastfeeding; oral rehydration solution in small, frequent amounts.",
+   "transcript_evidence": "In the meantime, keep breastfeeding her, and give small amounts of oral rehydration solution, like Dioralyte, a teaspoon every few minutes.",
+   "evidence_turns": [
+    37
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The note omits the specific instruction regarding the dose unit and frequency (a teaspoon every few minutes)."
+  }
+ },
+ {
+  "flag_id": "J1:case_24_a:0",
+  "judge": "J1",
+  "case_id": "case_24",
+  "variant_id": "case_24_a",
+  "finding": {
+   "type": "PLAN_CHANGE",
+   "note_section": "Plan",
+   "note_span": "Small, frequent fluids; oral rehydration sachets. U&E blood test tomorrow (district nurse to take at heel dressing visit).",
+   "transcript_evidence": "While you're unwell, I'd like you to stop the metformin, the ramipril and the furosemide. Restart them once you've been eating and drinking normally for 24 to 48 hours. Keep taking the atorvastatin.",
+   "evidence_turns": [
+    47
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note fails to document the critical instruction to stop the three prescribed medications (metformin, ramipril, and furosemide) and restart them later, which is a key safety instruction."
+  }
+ },
+ {
+  "flag_id": "J2:case_01_a:0",
+  "judge": "J2",
+  "case_id": "case_01",
+  "variant_id": "case_01_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History (Social/Past Medical History)",
+   "note_span": "previously smoked about 10 cigarettes a day for approximately 15 years (7.5 pack-years).",
+   "transcript_evidence": "Before that I smoked about ten a day, for maybe fifteen years.",
+   "evidence_turns": [
+    23
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The note incorrectly calculates the pack-years; the transcript indicates 150 pack-years (10/day x 15 years), making the note factually inaccurate."
+  }
+ },
+ {
+  "flag_id": "J2:case_01_a:1",
+  "judge": "J2",
+  "case_id": "case_01",
+  "variant_id": "case_01_a",
+  "finding": {
+   "type": "HALLUC",
+   "note_section": "History (Past Medical History)",
+   "note_span": "Known history of asthma.",
+   "transcript_evidence": "Patient: No, never.",
+   "evidence_turns": [
+    36
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note claims a known history of asthma, which is directly contradicted by the patient's denial in the transcript."
+  }
+ },
+ {
+  "flag_id": "J2:case_01_a:3",
+  "judge": "J2",
+  "case_id": "case_01",
+  "variant_id": "case_01_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History (Symptoms)",
+   "note_span": "No fevers, night sweats or weight loss.",
+   "transcript_evidence": "Patient: No. If anything I've put a bit on.",
+   "evidence_turns": [
+    13
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The note omits the patient's mention of putting on a bit of weight, which is a relevant detail regarding systemic symptoms."
+  }
+ },
+ {
+  "flag_id": "J2:case_01_b:3",
+  "judge": "J2",
+  "case_id": "case_01",
+  "variant_id": "case_01_b",
+  "finding": {
+   "type": "DRUG_NAME",
+   "note_section": "History (Smoking)",
+   "note_span": "previously 10 per day for about 15 years (approximately 7.5 pack-years).",
+   "transcript_evidence": "Before that I smoked about ten a day, for maybe fifteen years.",
+   "evidence_turns": [
+    23
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The note provides a specific calculation (7.5 pack-years) which is factually incorrect based on the transcript's description (10 per day for 15 years is 150 pack-years), though the core history is present."
+  }
+ },
+ {
+  "flag_id": "J2:case_02_b:1",
+  "judge": "J2",
+  "case_id": "case_02",
+  "variant_id": "case_02_b",
+  "finding": {
+   "type": "NEGATION",
+   "note_section": "History",
+   "note_span": "The patient reports saddle numbness.",
+   "transcript_evidence": "Patient: No. (Clinician asks: Any numbness around your bottom or between your legs, like when you sit on the toilet?)",
+   "evidence_turns": [
+    19
+   ],
+   "severity": 5,
+   "likelihood": 5,
+   "rationale": "The note claims the patient reports saddle numbness, but the transcript explicitly shows the patient denies this symptom, which is a critical safety-netting omission."
+  }
+ },
+ {
+  "flag_id": "J2:case_03_clean:0",
+  "judge": "J2",
+  "case_id": "case_03",
+  "variant_id": "case_03_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "The HbA1c is above target.",
+   "transcript_evidence": "Your HbA1c is 62, up from 58 last time.",
+   "evidence_turns": [
+    34
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note claims the HbA1c is above target, but the transcript only provides the current and previous values, omitting the comparison to the target."
+  }
+ },
+ {
+  "flag_id": "J2:case_03_clean:1",
+  "judge": "J2",
+  "case_id": "case_03",
+  "variant_id": "case_03_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "Stable CKD stage 3a.",
+   "transcript_evidence": "Your kidney function, the eGFR, is 52, which is about the same as before.",
+   "evidence_turns": [
+    34
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note states the patient has stable CKD stage 3a, but the transcript only confirms the eGFR is stable, omitting the specific stage classification."
+  }
+ },
+ {
+  "flag_id": "J2:case_05_a:0",
+  "judge": "J2",
+  "case_id": "case_05",
+  "variant_id": "case_05_a",
+  "finding": {
+   "type": "NEGATION",
+   "note_section": "History",
+   "note_span": "Hypertension.",
+   "transcript_evidence": "No. Just blood pressure.",
+   "evidence_turns": [
+    22
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note claims the patient has hypertension, but the transcript indicates only blood pressure was mentioned, contradicting the diagnosis."
+  }
+ },
+ {
+  "flag_id": "J2:case_05_a:2",
+  "judge": "J2",
+  "case_id": "case_05",
+  "variant_id": "case_05_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "no nausea.",
+   "transcript_evidence": "",
+   "evidence_turns": [],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note claims 'no nausea', but the transcript does not mention nausea, meaning the note is an unsupported claim regarding this symptom."
+  }
+ },
+ {
+  "flag_id": "J2:case_06_clean:0",
+  "judge": "J2",
+  "case_id": "case_06",
+  "variant_id": "case_06_clean",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "Presenting complaint",
+   "note_span": "Head injury after a mechanical fall at home at about 07:45.",
+   "transcript_evidence": "The patient reported the time of the fall was about half past nine.",
+   "evidence_turns": [
+    2,
+    7
+   ],
+   "severity": 2,
+   "likelihood": 2,
+   "rationale": "The time of the incident is recorded incorrectly in the note (07:45) compared to the transcript (half past nine)."
+  }
+ },
+ {
+  "flag_id": "J2:case_06_clean:1",
+  "judge": "J2",
+  "case_id": "case_06",
+  "variant_id": "case_06_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Safety-netting",
+   "note_span": "Written head injury advice was given to the daughter.",
+   "transcript_evidence": "If the scan is normal, you can go home with the daughter, who will stay with her for 24 hours.",
+   "evidence_turns": [
+    45
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The specific action of providing written head injury advice to the daughter is omitted from the documentation."
+  }
+ },
+ {
+  "flag_id": "J2:case_06_a:1",
+  "judge": "J2",
+  "case_id": "case_06",
+  "variant_id": "case_06_a",
+  "finding": {
+   "type": "NEGATION",
+   "note_section": "History",
+   "note_span": "One episode of vomiting in the car.",
+   "transcript_evidence": "Relative: She was sick once in the car on the way here. / Patient: Was I? I don't remember that either.",
+   "evidence_turns": [
+    11,
+    18
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note claims one episode of vomiting occurred, but the patient denied being sick in the car, creating a contradiction regarding the symptom."
+  }
+ },
+ {
+  "flag_id": "J2:case_06_b:0",
+  "judge": "J2",
+  "case_id": "case_06",
+  "variant_id": "case_06_b",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "Presenting complaint",
+   "note_span": "Head injury after a mechanical fall at home at about 07:45.",
+   "transcript_evidence": "Relative: Mum, it was before that. The post hadn't come and you hadn't had your breakfast. It was about quarter to eight.",
+   "evidence_turns": [
+    7
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The note records an inaccurate time for the fall, which is a minor temporal error."
+  }
+ },
+ {
+  "flag_id": "J2:case_06_b:2",
+  "judge": "J2",
+  "case_id": "case_06",
+  "variant_id": "case_06_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "",
+   "transcript_evidence": "",
+   "evidence_turns": [],
+   "severity": 2,
+   "likelihood": 2,
+   "rationale": "The note impression mentions 'one episode of vomiting', but this fact is not explicitly mentioned in the transcript."
+  }
+ }
+]

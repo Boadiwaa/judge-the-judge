@@ -1,0 +1,63 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Ramipril 10 mg once daily.\",\n      \"transcript_evidence\": \"Patient: Ten milligrams. Hang on, let me look at the box. No, it's five. Five milligrams, once a day.\",\n      \"evidence_turns\": [\n        29\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records the patient's current Ramipril dose as 10 mg, but the transcript shows the patient is currently taking 5 mg.\"\n    },\n    {\n      \"type\": \"DRUG_NAME\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Rosuvastatin 20 mg at night.\",\n      \"transcript_evidence\": \"Patient: Just atorvastatin, twenty milligrams at night.\",\n      \"evidence_turns\": [\n        31\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly lists the medication as Rosuvastatin when the transcript clearly states Atorvastatin.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Ramipril started end of May for hypertension, increased from 2.5 mg to 5 mg in July; cough began after starting ramipril.\",\n      \"transcript_evidence\": \"Patient: Back in the summer. June? Relative: It was the end of May. I remember because we'd just come back from Whitby.\",\n      \"evidence_turns\": [\n        24,\n        25,\n        26\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note omits the specific detail regarding the dose increase (from 2.5 mg to 5 mg in July) which is present in the transcript context.\"\n    },\n    {\n      \"type\": \"ATTRIBUTION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Ex-smoker: stopped 20 years ago, previously 10 per day for about 15 years (approximately 7.5 pack-years).\",\n      \"transcript_evidence\": \"Patient: I gave up twenty years ago. Before that I smoked about ten a day, for maybe fifteen years.\",\n      \"evidence_turns\": [\n        23\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note contains a mathematical error in calculating pack-years based on the transcript data (10 cigarettes/day for 15 years is 150 pack-years, not 7.5).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Ramipril 10 mg once daily.",
+    "transcript_evidence": "Patient: Ten milligrams. Hang on, let me look at the box. No, it's five. Five milligrams, once a day.",
+    "evidence_turns": [
+     29
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records the patient's current Ramipril dose as 10 mg, but the transcript shows the patient is currently taking 5 mg."
+   },
+   {
+    "type": "DRUG_NAME",
+    "note_section": "Medications and allergies",
+    "note_span": "Rosuvastatin 20 mg at night.",
+    "transcript_evidence": "Patient: Just atorvastatin, twenty milligrams at night.",
+    "evidence_turns": [
+     31
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly lists the medication as Rosuvastatin when the transcript clearly states Atorvastatin."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Ramipril started end of May for hypertension, increased from 2.5 mg to 5 mg in July; cough began after starting ramipril.",
+    "transcript_evidence": "Patient: Back in the summer. June? Relative: It was the end of May. I remember because we'd just come back from Whitby.",
+    "evidence_turns": [
+     24,
+     25,
+     26
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note omits the specific detail regarding the dose increase (from 2.5 mg to 5 mg in July) which is present in the transcript context."
+   },
+   {
+    "type": "ATTRIBUTION",
+    "note_section": "History",
+    "note_span": "Ex-smoker: stopped 20 years ago, previously 10 per day for about 15 years (approximately 7.5 pack-years).",
+    "transcript_evidence": "Patient: I gave up twenty years ago. Before that I smoked about ten a day, for maybe fifteen years.",
+    "evidence_turns": [
+     23
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note contains a mathematical error in calculating pack-years based on the transcript data (10 cigarettes/day for 15 years is 150 pack-years, not 7.5)."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

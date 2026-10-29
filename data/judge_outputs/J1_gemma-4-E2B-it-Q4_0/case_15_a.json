@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DRUG_NAME\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Took ibuprofen for back pain for 3\u20134 days last week.\",\n      \"transcript_evidence\": \"I took some ibuprofen last week for my back. Wait, no, it was naproxen. My brother gave me some of his.\",\n      \"evidence_turns\": [\n        19\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly records the drug name as ibuprofen when the patient corrected it to naproxen, which is relevant for the risk assessment of lithium levels.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Priadel (lithium carbonate) 800 mg twice daily.\",\n      \"transcript_evidence\": \"You're on Priadel, 800 milligrams at night?\",\n      \"evidence_turns\": [\n        14\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records the frequency as 'twice daily', but the transcript indicates the dose is taken 'at night', which is a critical difference in dosing schedule.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DRUG_NAME",
+    "note_section": "History",
+    "note_span": "Took ibuprofen for back pain for 3\u20134 days last week.",
+    "transcript_evidence": "I took some ibuprofen last week for my back. Wait, no, it was naproxen. My brother gave me some of his.",
+    "evidence_turns": [
+     19
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly records the drug name as ibuprofen when the patient corrected it to naproxen, which is relevant for the risk assessment of lithium levels."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Priadel (lithium carbonate) 800 mg twice daily.",
+    "transcript_evidence": "You're on Priadel, 800 milligrams at night?",
+    "evidence_turns": [
+     14
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records the frequency as 'twice daily', but the transcript indicates the dose is taken 'at night', which is a critical difference in dosing schedule."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

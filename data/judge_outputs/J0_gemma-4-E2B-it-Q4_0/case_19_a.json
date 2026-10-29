@@ -1,0 +1,62 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate history detail (stiffness duration)\",\n      \"note_section\": \"history\",\n      \"note_span\": \"Early morning stiffness lasting about 90 minutes (initially said 30 minutes).\",\n      \"transcript_evidence\": \"About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.\",\n      \"evidence_turns\": [\n        1,\n        7\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note significantly misrepresents the duration of morning stiffness reported by the patient.\"\n    },\n    {\n      \"type\": \"Inaccurate medication frequency\",\n      \"note_section\": \"medications_allergies\",\n      \"note_span\": \"Methotrexate 15 mg once daily.\",\n      \"transcript_evidence\": \"15 milligrams, once a week, on Mondays.\",\n      \"evidence_turns\": [\n        11\n      ],\n      \"severity\": 3,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly states the methotrexate is taken daily when the transcript confirms it is taken once a week.\"\n    },\n    {\n      \"type\": \"Inaccurate examination findings (location and status)\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"Synovitis of the left wrist and left 2nd and 3rd MCP joints. Right hand normal.\",\n      \"transcript_evidence\": \"Your right wrist is swollen and tender, and your second and third knuckles on the right hand are swollen and tender too. That's synovitis, inflammation of the joint lining. Your left hand looks fine.\",\n      \"evidence_turns\": [\n        30\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly identifies the location of synovitis and the status of the right hand, contradicting the physical examination findings.\"\n    },\n    {\n      \"type\": \"Inaccurate history detail (symptom timing)\",\n      \"note_section\": \"history\",\n      \"note_span\": \"Mild nausea the day after methotrexate.\",\n      \"transcript_evidence\": \"A bit queasy on Tuesdays, but I manage.\",\n      \"evidence_turns\": [\n        17\n      ],\n      \"severity\": 1,\n      \"likelihood\": 3,\n      \"rationale\": \"The note misrepresents the timing of the nausea, reporting it as occurring the day after the medication instead of on Tuesdays.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "history",
+    "note_span": "Early morning stiffness lasting about 90 minutes (initially said 30 minutes).",
+    "transcript_evidence": "About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.",
+    "evidence_turns": [
+     1,
+     7
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note significantly misrepresents the duration of morning stiffness reported by the patient."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "medications_allergies",
+    "note_span": "Methotrexate 15 mg once daily.",
+    "transcript_evidence": "15 milligrams, once a week, on Mondays.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 3,
+    "likelihood": 5,
+    "rationale": "The note incorrectly states the methotrexate is taken daily when the transcript confirms it is taken once a week."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "examination",
+    "note_span": "Synovitis of the left wrist and left 2nd and 3rd MCP joints. Right hand normal.",
+    "transcript_evidence": "Your right wrist is swollen and tender, and your second and third knuckles on the right hand are swollen and tender too. That's synovitis, inflammation of the joint lining. Your left hand looks fine.",
+    "evidence_turns": [
+     30
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note incorrectly identifies the location of synovitis and the status of the right hand, contradicting the physical examination findings."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "history",
+    "note_span": "Mild nausea the day after methotrexate.",
+    "transcript_evidence": "A bit queasy on Tuesdays, but I manage.",
+    "evidence_turns": [
+     17
+    ],
+    "severity": 1,
+    "likelihood": 3,
+    "rationale": "The note misrepresents the timing of the nausea, reporting it as occurring the day after the medication instead of on Tuesdays."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

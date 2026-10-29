@@ -1,0 +1,61 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Head injury after a mechanical fall at home at about 07:45.\",\n      \"transcript_evidence\": \"Relative: Mum, it was before that. The post hadn't come and you hadn't had your breakfast. It was about quarter to eight.\",\n      \"evidence_turns\": [\n        7\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records a specific time (07:45) which is contradicted by the relative's correction to 'quarter to eight' (approx 19:45), leading to a significant temporal error in the record.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"No vomiting.\",\n      \"transcript_evidence\": \"Relative: She was sick once in the car on the way here.\",\n      \"evidence_turns\": [\n        17\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The relative explicitly states the patient was sick once in the car, which is a relevant symptom omitted from the history.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue apixaban as usual.\",\n      \"transcript_evidence\": \"Clinician: I'm going to hold off this evening's dose of apixaban until we've seen the scan.\",\n      \"evidence_turns\": [\n        41\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The plan to continue the anticoagulant dose is explicitly changed to holding off the evening dose pending the CT scan, which is a major clinical management alteration.\"\n    },\n    {\n      \"type\": \"DRUG_NAME\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Allergic to penicillamine (swelling).\",\n      \"transcript_evidence\": \"Patient: Penicillin. It makes me swell up.\",\n      \"evidence_turns\": [\n        32\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note uses the generic term 'penicillamine' while the transcript uses the specific drug name 'Penicillin'.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Head injury after a mechanical fall at home at about 07:45.",
+    "transcript_evidence": "Relative: Mum, it was before that. The post hadn't come and you hadn't had your breakfast. It was about quarter to eight.",
+    "evidence_turns": [
+     7
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records a specific time (07:45) which is contradicted by the relative's correction to 'quarter to eight' (approx 19:45), leading to a significant temporal error in the record."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "No vomiting.",
+    "transcript_evidence": "Relative: She was sick once in the car on the way here.",
+    "evidence_turns": [
+     17
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The relative explicitly states the patient was sick once in the car, which is a relevant symptom omitted from the history."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Continue apixaban as usual.",
+    "transcript_evidence": "Clinician: I'm going to hold off this evening's dose of apixaban until we've seen the scan.",
+    "evidence_turns": [
+     41
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The plan to continue the anticoagulant dose is explicitly changed to holding off the evening dose pending the CT scan, which is a major clinical management alteration."
+   },
+   {
+    "type": "DRUG_NAME",
+    "note_section": "Medications and allergies",
+    "note_span": "Allergic to penicillamine (swelling).",
+    "transcript_evidence": "Patient: Penicillin. It makes me swell up.",
+    "evidence_turns": [
+     32
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note uses the generic term 'penicillamine' while the transcript uses the specific drug name 'Penicillin'."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

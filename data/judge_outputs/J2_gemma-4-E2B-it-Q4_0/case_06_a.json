@@ -1,0 +1,458 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "Head injury after a mechanical fall at home at about 09:30."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "Patient tripped on a rug and struck the left side of her head on a door frame."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Daughter reports the patient seemed muddled for about 10 minutes afterwards."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Patient has no memory of the muddled period."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "Loss of consciousness is uncertain (unwitnessed)."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "Patient had one episode of vomiting in the car."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "Patient experienced a mild headache at the impact site."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "Patient had no visual disturbance, limb weakness, or neck pain."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "Patient had no preceding dizziness or presyncope."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "Last apixaban dose was taken this morning, after the fall."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "Patient had tetanus up to date."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "Patient is prescribed Bisoprolol 2.5 mg once daily."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "Patient is prescribed Amiloride 5 mg once daily."
+   },
+   {
+    "id": "c14",
+    "section": "Medications and allergies",
+    "claim": "Patient is allergic to penicillin (swelling)."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "Glasgow Coma Score (GCS) is 15."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "There is a 3 cm laceration with a haematoma over the right temple."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "Pupils are equal and reactive to light."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "Strength is normal everywhere (normal power in all limbs)."
+   },
+   {
+    "id": "c19",
+    "section": "Examination",
+    "claim": "No cervical spine midline tenderness."
+   },
+   {
+    "id": "c20",
+    "section": "Examination",
+    "claim": "Heart rate is irregular at about 80."
+   },
+   {
+    "id": "c21",
+    "section": "Examination",
+    "claim": "Blood pressure is 146/82."
+   },
+   {
+    "id": "c22",
+    "section": "Impression",
+    "claim": "Head injury in an anticoagulated 81-year-old with brief post-traumatic confusion and amnesia, and one episode of vomiting."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "CT head scan is required (anticoagulated)."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "This evening's dose of apixaban will be withheld until the CT head scan is reviewed."
+   },
+   {
+    "id": "c25",
+    "section": "Plan",
+    "claim": "The wound will be cleaned and closed with steri-strips."
+   },
+   {
+    "id": "c26",
+    "section": "Plan",
+    "claim": "Discharge with the daughter is contingent on a normal CT scan."
+   },
+   {
+    "id": "c27",
+    "section": "Safety-netting",
+    "claim": "Call 999 or return immediately if the patient becomes drowsy, confused, vomits again, has a worsening headache, a fit, or any weakness."
+   },
+   {
+    "id": "c28",
+    "section": "Safety-netting",
+    "claim": "Written head injury advice was given to the daughter."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     3
+    ],
+    "fact": "Clinician introduced herself as Dr Pemberton.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The relative is the patient's daughter, Sue.",
+    "about": "other"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     4
+    ],
+    "fact": "The patient tripped on the rug in the hall and banged her head on the door frame.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     6
+    ],
+    "fact": "The patient initially stated the time of the fall was about half past nine.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     7
+    ],
+    "fact": "The relative corrected the time, stating it was about quarter to eight, noting the post hadn't come and the patient hadn't had breakfast.",
+    "about": "relative"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     8
+    ],
+    "fact": "The patient acknowledged the relative's correction.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     10
+    ],
+    "fact": "The patient stated the injury was on the left side, by their eye.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     12
+    ],
+    "fact": "The patient stated they did not think they had blacked out.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     13
+    ],
+    "fact": "The relative reported that the patient was muddled for about ten minutes after the fall, kept asking what day it was.",
+    "about": "relative"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     15
+    ],
+    "fact": "The patient stated they did not remember the daughter arriving.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     17
+    ],
+    "fact": "The relative reported that the patient was sick once in the car on the way to the clinic.",
+    "about": "relative"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     18
+    ],
+    "fact": "The patient denied being sick in the car.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     20
+    ],
+    "fact": "The patient reported a bit of a headache where they hit it.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     22
+    ],
+    "fact": "The patient denied problems with vision, weakness in arms or legs.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     24
+    ],
+    "fact": "The patient denied neck pain.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     26
+    ],
+    "fact": "The patient stated they caught their foot on the rug and were not dizzy.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     28
+    ],
+    "fact": "The relative stated the patient is on Apixaban 2.5 milligrams twice a day for heart rhythm, Bisoprolol 2.5 milligrams once a day, and Amlodipine 5 mg.",
+    "about": "relative"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     30
+    ],
+    "fact": "The patient stated they last took the Apixaban this morning with their breakfast, after the fall.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     32
+    ],
+    "fact": "The patient stated they are allergic to penicillin, which causes swelling.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     33
+    ],
+    "fact": "Examination findings include a Glasgow Coma Score (GCS) of 15.",
+    "about": "clinician"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     33
+    ],
+    "fact": "Examination findings include a 3 cm laceration with a bump around it on the left temple.",
+    "about": "clinician"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     33
+    ],
+    "fact": "Examination findings include equal and reactive pupils.",
+    "about": "clinician"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     33
+    ],
+    "fact": "Examination findings include normal power in all limbs.",
+    "about": "clinician"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     33
+    ],
+    "fact": "Examination findings include no cervical spine midline tenderness.",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     37
+    ],
+    "fact": "The patient's heart rate is irregular at about 80.",
+    "about": "clinician"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     37
+    ],
+    "fact": "The patient's blood pressure is 146 over 82.",
+    "about": "clinician"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician advised a CT scan of the head because the patient is on a blood thinner and needs to rule out internal bleeding.",
+    "about": "clinician"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician decided to hold off the evening's dose of Apixaban until the CT scan is reviewed.",
+    "about": "clinician"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     43
+    ],
+    "fact": "The plan is to clean the cut and close it with steri-strips.",
+    "about": "clinician"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     45
+    ],
+    "fact": "If the CT scan is normal, the patient can go home with the daughter, who will stay with her for 24 hours.",
+    "about": "clinician"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     47
+    ],
+    "fact": "Safety netting advice includes calling 999 or returning immediately if the patient becomes drowsy, confused, vomits again, has a worsening headache, a fit, or any weakness.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Head injury after a mechanical fall at home at about 09:30.\",\n      \"transcript_evidence\": \"Patient: I tripped on the rug in the hall and banged my head on the door frame. / Patient: About half past nine. / Relative: Mum, it was before that. The post hadn't come and you hadn't had your breakfast. It was about quarter to eight.\",\n      \"evidence_turns\": [\n        4,\n        5,\n        7\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note records the time as 09:30, but the transcript indicates the relative corrected the time to quarter to eight.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"One episode of vomiting in the car.\",\n      \"transcript_evidence\": \"Relative: She was sick once in the car on the way here. / Patient: Was I? I don't remember that either.\",\n      \"evidence_turns\": [\n        11,\n        18\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note claims one episode of vomiting occurred, but the patient denied being sick in the car, creating a contradiction regarding the symptom.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Patient is prescribed Bisoprolol 2.5 mg once daily. Amiloride 5 mg once daily.\",\n      \"transcript_evidence\": \"Relative: I've got the list. Apixaban, 2.5 milligrams twice a day, for her heart rhythm, Bisoprolol 2.5 milligrams once a day. And amlodipine 5 mg.\",\n      \"evidence_turns\": [\n        17\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note omits the prescription for Amiloride 5 mg once daily, which was mentioned in the transcript.\"\n    },\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"3 cm laceration with a haematoma over the right temple.\",\n      \"transcript_evidence\": \"Clinician: There's a cut here, about 3 centimetres long, on your left temple, with a bump around it.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note incorrectly records the location of the laceration as the right temple when the transcript states it was on the left temple.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Head injury after a mechanical fall at home at about 09:30.",
+    "transcript_evidence": "Patient: I tripped on the rug in the hall and banged my head on the door frame. / Patient: About half past nine. / Relative: Mum, it was before that. The post hadn't come and you hadn't had your breakfast. It was about quarter to eight.",
+    "evidence_turns": [
+     4,
+     5,
+     7
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note records the time as 09:30, but the transcript indicates the relative corrected the time to quarter to eight."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "One episode of vomiting in the car.",
+    "transcript_evidence": "Relative: She was sick once in the car on the way here. / Patient: Was I? I don't remember that either.",
+    "evidence_turns": [
+     11,
+     18
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note claims one episode of vomiting occurred, but the patient denied being sick in the car, creating a contradiction regarding the symptom."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Medications and allergies",
+    "note_span": "Patient is prescribed Bisoprolol 2.5 mg once daily. Amiloride 5 mg once daily.",
+    "transcript_evidence": "Relative: I've got the list. Apixaban, 2.5 milligrams twice a day, for her heart rhythm, Bisoprolol 2.5 milligrams once a day. And amlodipine 5 mg.",
+    "evidence_turns": [
+     17
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note omits the prescription for Amiloride 5 mg once daily, which was mentioned in the transcript."
+   },
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "3 cm laceration with a haematoma over the right temple.",
+    "transcript_evidence": "Clinician: There's a cut here, about 3 centimetres long, on your left temple, with a bump around it.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note incorrectly records the location of the laceration as the right temple when the transcript states it was on the left temple."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Erythema over the anterior right shin, approximately 10 cm across, with a small central scratch.\",\n      \"transcript_evidence\": \"I can see a red area on the front of the left shin, about ten centimetres across, with a small scratch in the middle.\",\n      \"evidence_turns\": [\n        12\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the location of the erythema as the right shin instead of the left shin, which is a critical anatomical error.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Metronidazole 500 mg twice daily.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note omits the patient's current medication (Metronidazole), which is relevant for a complete medication history.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Erythema over the anterior right shin, approximately 10 cm across, with a small central scratch.",
+    "transcript_evidence": "I can see a red area on the front of the left shin, about ten centimetres across, with a small scratch in the middle.",
+    "evidence_turns": [
+     12
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the location of the erythema as the right shin instead of the left shin, which is a critical anatomical error."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Medications and allergies",
+    "note_span": "Metronidazole 500 mg twice daily.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note omits the patient's current medication (Metronidazole), which is relevant for a complete medication history."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

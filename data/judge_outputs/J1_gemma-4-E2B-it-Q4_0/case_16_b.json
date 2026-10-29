@@ -1,0 +1,49 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"8 weeks postpartum.\",\n      \"transcript_evidence\": \"Eight weeks. No, ten. He's ten weeks on Saturday.\",\n      \"evidence_turns\": [\n        6\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the patient's age as 8 weeks postpartum when the transcript clearly states 10 weeks.\"\n    },\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Low mood for 6 days\",\n      \"transcript_evidence\": \"About six weeks. It started a few weeks after he was born and it hasn't lifted.\",\n      \"evidence_turns\": [\n        10\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the duration of the low mood as 6 days when the transcript states 6 weeks.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Her mother was admitted to hospital with a severe mental illness after a birth (possible postpartum psychosis).\",\n      \"transcript_evidence\": \"My mum had to go into hospital after she had my brother. She was really unwell, hearing things. They never really talked about it.\",\n      \"evidence_turns\": [\n        24\n      ],\n      \"severity\": 3,\n      \"likelihood\": 3,\n      \"rationale\": \"The note makes a clinical interpretation ('possible postpartum psychosis') and a specific timing ('after a birth') that is not explicitly stated in the transcript, which only mentions the mother being unwell and 'hearing things'.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "8 weeks postpartum.",
+    "transcript_evidence": "Eight weeks. No, ten. He's ten weeks on Saturday.",
+    "evidence_turns": [
+     6
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the patient's age as 8 weeks postpartum when the transcript clearly states 10 weeks."
+   },
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Low mood for 6 days",
+    "transcript_evidence": "About six weeks. It started a few weeks after he was born and it hasn't lifted.",
+    "evidence_turns": [
+     10
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the duration of the low mood as 6 days when the transcript states 6 weeks."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Her mother was admitted to hospital with a severe mental illness after a birth (possible postpartum psychosis).",
+    "transcript_evidence": "My mum had to go into hospital after she had my brother. She was really unwell, hearing things. They never really talked about it.",
+    "evidence_turns": [
+     24
+    ],
+    "severity": 3,
+    "likelihood": 3,
+    "rationale": "The note makes a clinical interpretation ('possible postpartum psychosis') and a specific timing ('after a birth') that is not explicitly stated in the transcript, which only mentions the mother being unwell and 'hearing things'."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

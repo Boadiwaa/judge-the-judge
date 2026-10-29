@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Small, frequent fluids; oral rehydration sachets. U&E blood test tomorrow (district nurse to take at heel dressing visit).\",\n      \"transcript_evidence\": \"While you're unwell, I'd like you to stop the metformin, the ramipril and the furosemide. Restart them once you've been eating and drinking normally for 24 to 48 hours. Keep taking the atorvastatin.\",\n      \"evidence_turns\": [\n        47\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note fails to document the critical instruction to stop the three prescribed medications (metformin, ramipril, and furosemide) and restart them later, which is a key safety instruction.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Small, frequent fluids; oral rehydration sachets. U&E blood test tomorrow (district nurse to take at heel dressing visit).",
+    "transcript_evidence": "While you're unwell, I'd like you to stop the metformin, the ramipril and the furosemide. Restart them once you've been eating and drinking normally for 24 to 48 hours. Keep taking the atorvastatin.",
+    "evidence_turns": [
+     47
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note fails to document the critical instruction to stop the three prescribed medications (metformin, ramipril, and furosemide) and restart them later, which is a key safety instruction."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

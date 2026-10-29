@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Uses an e-cigarette daily.\",\n      \"transcript_evidence\": \"[24] Patient: No, but I vape every day.\",\n      \"evidence_turns\": [\n        24\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note mentions the patient uses an e-cigarette daily, but the transcript only mentions vaping, omitting a relevant fact.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Uses an e-cigarette daily.",
+    "transcript_evidence": "[24] Patient: No, but I vape every day.",
+    "evidence_turns": [
+     24
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note mentions the patient uses an e-cigarette daily, but the transcript only mentions vaping, omitting a relevant fact."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

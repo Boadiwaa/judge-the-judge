@@ -1,0 +1,597 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient has had a cough and coryza for 4 days."
+   },
+   {
+    "id": "c2",
+    "section": "Presenting complaint",
+    "claim": "The patient has had increased work of breathing since yesterday."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient has had a cough and coryza for 4 days."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient has had fast breathing since yesterday."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient's temperature has been up to 37.9 \u00b0C."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has been feeding most of his usual amount."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient has had four wet nappies in 24 hours."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient usually has six to seven wet nappies in 24 hours."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient has had an apnoea."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient has no cyanosis."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "The patient has had a small posset after coughing."
+   },
+   {
+    "id": "c12",
+    "section": "History",
+    "claim": "The patient was born at 39 weeks."
+   },
+   {
+    "id": "c13",
+    "section": "History",
+    "claim": "The patient has no neonatal problems."
+   },
+   {
+    "id": "c14",
+    "section": "History",
+    "claim": "The patient has no cardiac or respiratory history."
+   },
+   {
+    "id": "c15",
+    "section": "History",
+    "claim": "The patient's immunisations are up to date."
+   },
+   {
+    "id": "c16",
+    "section": "Medications and allergies",
+    "claim": "The patient has taken Calpol once yesterday."
+   },
+   {
+    "id": "c17",
+    "section": "Medications and allergies",
+    "claim": "The patient has no known drug allergies."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "The patient's temperature is 37.8 \u00b0C."
+   },
+   {
+    "id": "c19",
+    "section": "Examination",
+    "claim": "The patient's respiratory rate is 54 breaths per minute."
+   },
+   {
+    "id": "c20",
+    "section": "Examination",
+    "claim": "The patient's heart rate is 150 beats per minute."
+   },
+   {
+    "id": "c21",
+    "section": "Examination",
+    "claim": "The patient's oxygen level is 95 percent in air."
+   },
+   {
+    "id": "c22",
+    "section": "Examination",
+    "claim": "The patient has mild subcostal recession."
+   },
+   {
+    "id": "c23",
+    "section": "Examination",
+    "claim": "The patient's capillary refill is under two seconds."
+   },
+   {
+    "id": "c24",
+    "section": "Examination",
+    "claim": "The patient is alert."
+   },
+   {
+    "id": "c25",
+    "section": "Examination",
+    "claim": "The patient has bilateral fine crackles and wheeze."
+   },
+   {
+    "id": "c26",
+    "section": "Impression",
+    "claim": "The impression is Bronchiolitis with moderately reduced feeding."
+   },
+   {
+    "id": "c27",
+    "section": "Impression",
+    "claim": "The patient is borderline for referral (feeds about 50%)."
+   },
+   {
+    "id": "c28",
+    "section": "Plan",
+    "claim": "The plan is to manage the patient at home with an early review."
+   },
+   {
+    "id": "c29",
+    "section": "Plan",
+    "claim": "The plan is to give small, frequent feeds and saline nose drops before feeds."
+   },
+   {
+    "id": "c30",
+    "section": "Plan",
+    "claim": "The patient is advised that the illness may worsen over days 3\u20135."
+   },
+   {
+    "id": "c31",
+    "section": "Plan",
+    "claim": "The clinical review is scheduled for tomorrow morning."
+   },
+   {
+    "id": "c32",
+    "section": "Safety-netting",
+    "claim": "Call 999 if there are pauses in breathing, blue colour, or severe difficulty breathing."
+   },
+   {
+    "id": "c33",
+    "section": "Safety-netting",
+    "claim": "Call GP or 111 urgently if feeds fall below half, no wet nappy for 12 hours, or the patient seems more tired and floppy."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "The clinician greeted the patient and their parents.",
+    "about": "patient|relative"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The relative identified herself as Hannah and the other as Callum.",
+    "about": "relative"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "The clinician asked what had been happening with Arlo.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     4
+    ],
+    "fact": "Arlo has had a runny nose and a cough for four days.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     4
+    ],
+    "fact": "Arlo's breathing has been going really fast since yesterday.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     5
+    ],
+    "fact": "Arlo is seven months old.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     7
+    ],
+    "fact": "Arlo has had a temperature of 37.9 this morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     9
+    ],
+    "fact": "Arlo is on bottles.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     10
+    ],
+    "fact": "Arlo is taking most of his bottles.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     11
+    ],
+    "fact": "Hannah corrected the relative, stating Arlo is only managing about half of each bottle since yesterday.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     12
+    ],
+    "fact": "Arlo keeps pulling off to breathe.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     13
+    ],
+    "fact": "The clinician asked how many wet nappies Arlo has had in the last 24 hours.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     14
+    ],
+    "fact": "The relative thinks Arlo has had four wet nappies in the last 24 hours.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     14
+    ],
+    "fact": "Arlo usually has six or seven wet nappies in the last 24 hours.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     15
+    ],
+    "fact": "The clinician asked if Arlo has had any pauses in his breathing, where he stops breathing for a few seconds.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     16
+    ],
+    "fact": "The relative stated that Arlo's sister had stopped breathing in the night when she had bronchiolitis two years ago.",
+    "about": "relative"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     17
+    ],
+    "fact": "The clinician asked if the sister's experience was similar to Arlo's.",
+    "about": "relative"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     18
+    ],
+    "fact": "The relative stated there was nothing like that with Arlo.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     19
+    ],
+    "fact": "The clinician asked if Arlo had gone blue or very pale at all.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     20
+    ],
+    "fact": "The relative stated Arlo had gone blue or very pale.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     21
+    ],
+    "fact": "The clinician asked about vomiting or diarrhoea.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     22
+    ],
+    "fact": "Arlo brought up a bit of milk after coughing.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     23
+    ],
+    "fact": "The clinician asked if Arlo was born on time and had any problems since birth.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     24
+    ],
+    "fact": "Arlo was born at 39 weeks and had no problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     25
+    ],
+    "fact": "The clinician asked about heart or lung problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     26
+    ],
+    "fact": "The relative stated Arlo had no heart or lung problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     27
+    ],
+    "fact": "The clinician asked if Arlo was up to date with his vaccinations.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     28
+    ],
+    "fact": "The relative stated Arlo is up to date with all of his vaccinations.",
+    "about": "patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     29
+    ],
+    "fact": "The clinician asked about medicines or allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     30
+    ],
+    "fact": "The relative stated Arlo just took Calpol once yesterday.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     31
+    ],
+    "fact": "The clinician asked if anyone at home smokes.",
+    "about": "relative"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     32
+    ],
+    "fact": "The relative stated she smokes outside but never in the house.",
+    "about": "relative"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     33
+    ],
+    "fact": "The clinician examined Arlo and noted his temperature is 37.8 \u00b0C.",
+    "about": "patient"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     33
+    ],
+    "fact": "Arlo's respiratory rate is 54 times a minute.",
+    "about": "patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     33
+    ],
+    "fact": "Arlo's heart rate is 150 beats per minute.",
+    "about": "patient"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     33
+    ],
+    "fact": "Arlo's oxygen level is 95 percent.",
+    "about": "patient"
+   },
+   {
+    "id": "f37",
+    "turns": [
+     33
+    ],
+    "fact": "The clinician observed Arlo pulling in a little under his ribs when he breathes, indicating extra effort.",
+    "about": "patient"
+   },
+   {
+    "id": "f38",
+    "turns": [
+     33
+    ],
+    "fact": "Arlo's capillary refill is under two seconds.",
+    "about": "patient"
+   },
+   {
+    "id": "f39",
+    "turns": [
+     33
+    ],
+    "fact": "The clinician noted Arlo is alert and looking around.",
+    "about": "patient"
+   },
+   {
+    "id": "f40",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician listened and heard crackles and some wheeze on both sides of Arlo's chest.",
+    "about": "patient"
+   },
+   {
+    "id": "f41",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician suggested the findings fit with bronchiolitis, a common virus in babies.",
+    "about": "patient"
+   },
+   {
+    "id": "f42",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician stated that Arlo is working a bit harder to breathe.",
+    "about": "patient"
+   },
+   {
+    "id": "f43",
+    "turns": [
+     37
+    ],
+    "fact": "Arlo's feeding is down to about half, which is right on the line.",
+    "about": "patient"
+   },
+   {
+    "id": "f44",
+    "turns": [
+     37
+    ],
+    "fact": "Arlo's oxygen level is okay and he is alert.",
+    "about": "patient"
+   },
+   {
+    "id": "f45",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician decided it was reasonable to look after him at home for now, but wanted to see him again tomorrow morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f46",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician advised giving Arlo smaller feeds more often.",
+    "about": "patient"
+   },
+   {
+    "id": "f47",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician advised using saline drops in his nose before feeds to help clear it.",
+    "about": "patient"
+   },
+   {
+    "id": "f48",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician advised that bronchiolitis often gets worse over the first three to five days before it gets better.",
+    "about": "patient"
+   },
+   {
+    "id": "f49",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician advised calling 999 if Arlo has any pauses in his breathing, goes blue, or is really struggling to breathe.",
+    "about": "patient"
+   },
+   {
+    "id": "f50",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician advised calling us or 111 straight away if Arlo is taking less than half his usual feeds, has no wet nappy for 12 hours, or seems more tired and floppy.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"The patient has had an apnoea.\",\n      \"transcript_evidence\": \"Clinician: Has he had any pauses in his breathing, where he stops breathing for a few seconds? Relative: No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.\",\n      \"evidence_turns\": [\n        15,\n        16\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note claims the patient had an apnoea, but the transcript shows the clinician asked about it and the relative denied it, making the note an unsupported claim.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "The patient has had an apnoea.",
+    "transcript_evidence": "Clinician: Has he had any pauses in his breathing, where he stops breathing for a few seconds? Relative: No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.",
+    "evidence_turns": [
+     15,
+     16
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note claims the patient had an apnoea, but the transcript shows the clinician asked about it and the relative denied it, making the note an unsupported claim."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

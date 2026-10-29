@@ -1,0 +1,427 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient presented with central chest pain starting at about 13:00 while gardening."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient experienced heavy central chest pain radiating to the left arm, lasting about 30 minutes, and is currently experiencing ongoing pain at a severity of 3/10."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient has associated sweating and mild breathlessness, but no nausea."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient has no previous similar episodes or known cardiac disease."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient has a history of hypertension."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient is a smoker, smoking about twenty cigarettes per day."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient's father had a myocardial infarction at age 52."
+   },
+   {
+    "id": "c8",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking amlodipine 5 mg once daily."
+   },
+   {
+    "id": "c9",
+    "section": "Medications and allergies",
+    "claim": "The patient has no known drug allergies."
+   },
+   {
+    "id": "c10",
+    "section": "Examination",
+    "claim": "The patient's heart rate is 88 and regular."
+   },
+   {
+    "id": "c11",
+    "section": "Examination",
+    "claim": "The patient's blood pressure is 152/90."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "The patient's heart sounds are normal."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The patient's chest is clear."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The patient has no peripheral oedema (swelling in ankles)."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The ECG shows about a millimetre of ST depression in the leads on the left side of the chest, V4 to V6."
+   },
+   {
+    "id": "c16",
+    "section": "Impression",
+    "claim": "The impression is suspected acute coronary syndrome (possible NSTEMI)."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "The plan includes serial high-sensitivity troponin testing, fondaparinux 2.5 mg subcutaneously once daily, and GTN spray as required."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The patient will be admitted to the cardiology team for a likely angiogram."
+   },
+   {
+    "id": "c19",
+    "section": "Safety-netting",
+    "claim": "The patient is instructed to report recurrent or worsening pain to nursing staff immediately."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "The clinician is Dr Abara, one of the emergency doctors.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The patient's wife is present.",
+    "about": "other"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "The relative greets the doctor.",
+    "about": "other"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     4
+    ],
+    "fact": "The clinician asks the patient what happened today.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     5
+    ],
+    "fact": "The patient got pain in their chest while digging in the garden.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     7
+    ],
+    "fact": "The pain started after lunch, but the patient corrected this to 'before' lunch, specifically about eleven o'clock.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     8
+    ],
+    "fact": "The relative states the pain started just before eleven, when they put the kettle on.",
+    "about": "relative"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     10
+    ],
+    "fact": "The patient describes the pain as being in the middle of the chest, like a heavy weight.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     12
+    ],
+    "fact": "The pain radiated down the patient's left arm.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     14
+    ],
+    "fact": "The pain lasted about half an hour and is currently at a severity of three out of ten.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     16
+    ],
+    "fact": "The patient felt very sweaty but not sick.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     18
+    ],
+    "fact": "The patient reported feeling a bit short of breath.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     20
+    ],
+    "fact": "The patient states they have never had this before.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     22
+    ],
+    "fact": "The patient has no heart problems in the past, only blood pressure.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     22
+    ],
+    "fact": "The patient is on amlodipine.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     24
+    ],
+    "fact": "The dose of amlodipine is five milligrams.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     26
+    ],
+    "fact": "The patient has no other medicines.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     28
+    ],
+    "fact": "The patient has no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     30
+    ],
+    "fact": "The patient smokes about twenty cigarettes a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     32
+    ],
+    "fact": "The patient's father had a heart attack at age 52.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     33
+    ],
+    "fact": "The relative states that the patient's dad had his heart attack at 60.",
+    "about": "relative"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     34
+    ],
+    "fact": "The paramedics gave the patient aspirin 300 milligrams and a spray under the tongue.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     36
+    ],
+    "fact": "The patient's heart rate is 88 and regular.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     36
+    ],
+    "fact": "The patient's blood pressure is 152 over 90.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     36
+    ],
+    "fact": "The patient's heart sounds are normal.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     36
+    ],
+    "fact": "The patient's chest is clear.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     36
+    ],
+    "fact": "The patient's oxygen level is 97 percent.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     36
+    ],
+    "fact": "There is no swelling in the patient's ankles.",
+    "about": "patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     38
+    ],
+    "fact": "The ECG shows about a millimetre of ST depression in the leads on the left side of the chest, V4 to V6.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     40
+    ],
+    "fact": "The clinician suggests it is possible the patient is having an acute coronary syndrome.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     40
+    ],
+    "fact": "A blood test for troponin has been taken to check for heart muscle damage.",
+    "about": "patient"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     42
+    ],
+    "fact": "The clinician plans to start an injection called fondaparinux, 2.5 milligrams under the skin once a day, to thin the blood.",
+    "about": "patient"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     42
+    ],
+    "fact": "The patient can have a GTN spray if the pain comes back.",
+    "about": "patient"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     44
+    ],
+    "fact": "The clinician plans to admit the patient under the cardiology team, who will likely want to do an angiogram.",
+    "about": "patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     46
+    ],
+    "fact": "The clinician plans to repeat the ECG every time the patient gets pain.",
+    "about": "patient"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     46
+    ],
+    "fact": "The clinician instructs the patient to tell the nurses straight away if the pain comes back or gets worse.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"starting at about 13:00 while gardening.\",\n      \"transcript_evidence\": \"I was in the garden, digging, and I got this pain in my chest.\",\n      \"evidence_turns\": [\n        1,\n        5\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The specific time of onset (13:00) mentioned in the note is omitted from the transcript.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Chest wall tender, reproducing the pain.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [\n        36\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The clinical finding of chest wall tenderness, which reproduces the pain, is present in the note but omitted from the transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Presenting complaint",
+    "note_span": "starting at about 13:00 while gardening.",
+    "transcript_evidence": "I was in the garden, digging, and I got this pain in my chest.",
+    "evidence_turns": [
+     1,
+     5
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The specific time of onset (13:00) mentioned in the note is omitted from the transcript."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Chest wall tender, reproducing the pain.",
+    "transcript_evidence": "",
+    "evidence_turns": [
+     36
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The clinical finding of chest wall tenderness, which reproduces the pain, is present in the note but omitted from the transcript."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

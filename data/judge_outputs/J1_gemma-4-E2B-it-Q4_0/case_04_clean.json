@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_SAFETY\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"Combined hormonal contraception contraindicated (UKMEC 4).\",\n      \"transcript_evidence\": \"With migraine with aura, the combined pill increases the risk of stroke, so it isn't safe for you to keep taking it.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the specific safety rationale (increased stroke risk) provided in the transcript for contraindicating the combined pill.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_SAFETY",
+    "note_section": "Impression",
+    "note_span": "Combined hormonal contraception contraindicated (UKMEC 4).",
+    "transcript_evidence": "With migraine with aura, the combined pill increases the risk of stroke, so it isn't safe for you to keep taking it.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the specific safety rationale (increased stroke risk) provided in the transcript for contraindicating the combined pill."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

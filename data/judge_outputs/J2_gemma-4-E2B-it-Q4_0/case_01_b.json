@@ -1,0 +1,556 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient presents with a dry cough for approximately 2 weeks."
+   },
+   {
+    "id": "c2",
+    "section": "History (Symptoms)",
+    "claim": "The patient has a persistent dry, tickly, non-productive cough."
+   },
+   {
+    "id": "c3",
+    "section": "History (Symptoms)",
+    "claim": "The patient denies haemoptysis, fevers, night sweats, weight loss, breathlessness, chest pain, heartburn, voice change, or dysphagia."
+   },
+   {
+    "id": "c4",
+    "section": "History (Medications)",
+    "claim": "The patient was started on Ramipril for hypertension, increasing the dose from 2.5 mg to 5 mg in July."
+   },
+   {
+    "id": "c5",
+    "section": "History (Medications)",
+    "claim": "The patient is currently taking Ramipril 5 mg once daily and Atorvastatin 20 mg at night."
+   },
+   {
+    "id": "c6",
+    "section": "History (Smoking)",
+    "claim": "The patient is an ex-smoker who stopped 20 years ago, having previously smoked about 10 per day for approximately 15 years (7.5 pack-years)."
+   },
+   {
+    "id": "c7",
+    "section": "Examination",
+    "claim": "The chest examination is clear bilaterally, and the throat is normal."
+   },
+   {
+    "id": "c8",
+    "section": "Impression",
+    "claim": "The persistent dry cough is most likely induced by an ACE inhibitor."
+   },
+   {
+    "id": "c9",
+    "section": "Plan",
+    "claim": "The plan is to stop Ramipril and switch the patient to Losartan 50 mg twice daily."
+   },
+   {
+    "id": "c10",
+    "section": "Plan",
+    "claim": "A blood test for U&Es is ordered 1\u20132 weeks after starting Losartan."
+   },
+   {
+    "id": "c11",
+    "section": "Plan",
+    "claim": "A chest X-ray is ordered due to the patient's history as an ex-smoker and the duration of the cough."
+   },
+   {
+    "id": "c12",
+    "section": "Plan",
+    "claim": "The patient is advised that the cough may take up to 3 months to resolve after stopping Ramipril."
+   },
+   {
+    "id": "c13",
+    "section": "Safety-netting",
+    "claim": "The patient is advised to contact the clinic sooner if they cough up blood, become short of breath, lose weight without trying, or get chest pain."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "The clinician greets the patient, Mr Penhaligon, and asks if he has brought someone with him.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The patient states his wife, Margaret, does the remembering.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "The relative states that someone has to remember.",
+    "about": "relative"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     5
+    ],
+    "fact": "The patient reports a dry, tickly cough that never stops.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     6
+    ],
+    "fact": "The patient states the cough has been going on for about six weeks.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     8
+    ],
+    "fact": "The relative states the cough started before the patient's sister's birthday, which was early August.",
+    "about": "relative"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     9
+    ],
+    "fact": "The patient corrects the relative, stating it is more like two months.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     11
+    ],
+    "fact": "The patient states he is not bringing anything up when he coughs, and it is completely dry.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     13
+    ],
+    "fact": "The patient denies any blood.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     14
+    ],
+    "fact": "The clinician asks about fevers, night sweats, or losing weight.",
+    "about": "clinician"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     15
+    ],
+    "fact": "The patient states he has not had any of those symptoms, but has put on a bit of weight.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     16
+    ],
+    "fact": "The clinician asks about breathlessness or chest pain.",
+    "about": "clinician"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     17
+    ],
+    "fact": "The patient states he is fine walking the dog and has no chest pain.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     18
+    ],
+    "fact": "The clinician asks about heartburn or acid coming up into the throat.",
+    "about": "clinician"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     19
+    ],
+    "fact": "The patient states he has no heartburn.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     20
+    ],
+    "fact": "The clinician asks about change in voice or trouble swallowing.",
+    "about": "clinician"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     21
+    ],
+    "fact": "The patient states he has no change in voice or trouble swallowing.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     22
+    ],
+    "fact": "The clinician asks if the patient smokes or has ever smoked.",
+    "about": "clinician"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     23
+    ],
+    "fact": "The patient states he gave up smoking twenty years ago, but previously smoked about ten a day for maybe fifteen years.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     24
+    ],
+    "fact": "The clinician references the record showing the patient started on ramipril for blood pressure.",
+    "about": "clinician"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     25
+    ],
+    "fact": "The patient states ramipril started in the summer, in June.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     26
+    ],
+    "fact": "The relative states ramipril started at the end of May because they had just come back from Whitby.",
+    "about": "relative"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     27
+    ],
+    "fact": "The patient confirms the start date as the end of May.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     28
+    ],
+    "fact": "The clinician asks what dose the patient is taking now.",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     29
+    ],
+    "fact": "The patient corrects the clinician, stating the current dose is five milligrams once a day, and that they put it up from two and a half in July.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     30
+    ],
+    "fact": "The clinician thanks the patient and asks about other medicines.",
+    "about": "clinician"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     31
+    ],
+    "fact": "The patient states he takes atorvastatin 20 milligrams at night.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     32
+    ],
+    "fact": "The clinician asks about allergies to medicines.",
+    "about": "clinician"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     33
+    ],
+    "fact": "The patient states he has no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     34
+    ],
+    "fact": "The relative states that she coughs at night, but her cough is due to asthma, and advises the clinician not to put that in the patient's notes.",
+    "about": "relative"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician asks the patient if he has ever had asthma.",
+    "about": "clinician"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     36
+    ],
+    "fact": "The patient states he has never had asthma.",
+    "about": "patient"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician asks the patient to take deep breaths and checks the chest, finding it clear on both sides, and notes the throat looks normal.",
+    "about": "clinician"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician checks the blood pressure and finds it to be 134 over 82.",
+    "about": "clinician"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     38
+    ],
+    "fact": "The patient states the blood pressure is better than it was.",
+    "about": "patient"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician suggests that ramipril may be causing the cough because it is a well-known side effect, and the timing fits (cough started after starting ramipril).",
+    "about": "clinician"
+   },
+   {
+    "id": "f37",
+    "turns": [
+     40
+    ],
+    "fact": "The patient expresses surprise, saying he thought he might have picked something up.",
+    "about": "patient"
+   },
+   {
+    "id": "f38",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician states that nothing told him points to an infection, and the chest sounds clear.",
+    "about": "clinician"
+   },
+   {
+    "id": "f39",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician suggests stopping ramipril and switching to losartan, which works similarly but doesn't usually cause a cough.",
+    "about": "clinician"
+   },
+   {
+    "id": "f40",
+    "turns": [
+     42
+    ],
+    "fact": "The patient asks what the dose of losartan would be.",
+    "about": "patient"
+   },
+   {
+    "id": "f41",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician suggests starting losartan at fifty milligrams once a day.",
+    "about": "clinician"
+   },
+   {
+    "id": "f42",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician orders a blood test to check kidneys and salt levels one to two weeks after starting losartan.",
+    "about": "clinician"
+   },
+   {
+    "id": "f43",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician states they will see the patient again in four weeks to check the blood pressure.",
+    "about": "clinician"
+   },
+   {
+    "id": "f44",
+    "turns": [
+     44
+    ],
+    "fact": "The relative asks if the cough will go straight away.",
+    "about": "relative"
+   },
+   {
+    "id": "f45",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician states the cough may not go straight away and can take a few weeks, sometimes up to three months, to settle after stopping ramipril.",
+    "about": "clinician"
+   },
+   {
+    "id": "f46",
+    "turns": [
+     46
+    ],
+    "fact": "The patient acknowledges this information.",
+    "about": "patient"
+   },
+   {
+    "id": "f47",
+    "turns": [
+     47
+    ],
+    "fact": "The clinician suggests arranging a chest X-ray because the patient used to smoke and the cough has gone on for a couple of months, noting it is very likely to be normal.",
+    "about": "clinician"
+   },
+   {
+    "id": "f48",
+    "turns": [
+     48
+    ],
+    "fact": "The patient agrees to the chest X-ray.",
+    "about": "patient"
+   },
+   {
+    "id": "f49",
+    "turns": [
+     49
+    ],
+    "fact": "The clinician instructs the patient to contact them sooner if they cough up any blood, become short of breath, lose weight without trying, or get any chest pain.",
+    "about": "clinician"
+   },
+   {
+    "id": "f50",
+    "turns": [
+     50
+    ],
+    "fact": "The patient acknowledges this instruction.",
+    "about": "patient"
+   },
+   {
+    "id": "f51",
+    "turns": [
+     51
+    ],
+    "fact": "The relative states she will keep an eye on the patient.",
+    "about": "relative"
+   },
+   {
+    "id": "f52",
+    "turns": [
+     52
+    ],
+    "fact": "The clinician states that if the cough hasn't improved at all by the four-week review, they will think again about other causes.",
+    "about": "clinician"
+   },
+   {
+    "id": "f53",
+    "turns": [
+     53
+    ],
+    "fact": "The patient thanks the doctor.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Dry cough for approximately 2 weeks.\",\n      \"transcript_evidence\": \"About six weeks now.\",\n      \"evidence_turns\": [\n        5\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note inaccurately states the duration of the cough as two weeks, while the transcript indicates it has been six weeks.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History (Symptoms)\",\n      \"note_span\": \"No weight loss.\",\n      \"transcript_evidence\": \"If anything I've put a bit on.\",\n      \"evidence_turns\": [\n        15\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note claims no weight loss, but the transcript indicates the patient put on a bit of weight, contradicting the note.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Start losartan 50 mg twice daily.\",\n      \"transcript_evidence\": \"We'll start at fifty milligrams once a day.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan specifies a dose of 50 mg twice daily, but the transcript indicates a dose of 50 mg once daily.\"\n    },\n    {\n      \"type\": \"DRUG_NAME\",\n      \"note_section\": \"History (Smoking)\",\n      \"note_span\": \"previously 10 per day for about 15 years (approximately 7.5 pack-years).\",\n      \"transcript_evidence\": \"Before that I smoked about ten a day, for maybe fifteen years.\",\n      \"evidence_turns\": [\n        23\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note provides a specific calculation (7.5 pack-years) which is factually incorrect based on the transcript's description (10 per day for 15 years is 150 pack-years), though the core history is present.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Dry cough for approximately 2 weeks.",
+    "transcript_evidence": "About six weeks now.",
+    "evidence_turns": [
+     5
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note inaccurately states the duration of the cough as two weeks, while the transcript indicates it has been six weeks."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History (Symptoms)",
+    "note_span": "No weight loss.",
+    "transcript_evidence": "If anything I've put a bit on.",
+    "evidence_turns": [
+     15
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note claims no weight loss, but the transcript indicates the patient put on a bit of weight, contradicting the note."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Start losartan 50 mg twice daily.",
+    "transcript_evidence": "We'll start at fifty milligrams once a day.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The plan specifies a dose of 50 mg twice daily, but the transcript indicates a dose of 50 mg once daily."
+   },
+   {
+    "type": "DRUG_NAME",
+    "note_section": "History (Smoking)",
+    "note_span": "previously 10 per day for about 15 years (approximately 7.5 pack-years).",
+    "transcript_evidence": "Before that I smoked about ten a day, for maybe fifteen years.",
+    "evidence_turns": [
+     23
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note provides a specific calculation (7.5 pack-years) which is factually incorrect based on the transcript's description (10 per day for 15 years is 150 pack-years), though the core history is present."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

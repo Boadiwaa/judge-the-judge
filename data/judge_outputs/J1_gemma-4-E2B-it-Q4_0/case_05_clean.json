@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Father had a myocardial infarction at 52.\",\n      \"transcript_evidence\": \"And my dad had his at 60, but that's my side.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note contains a factual error regarding the age of the father's myocardial infarction.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Father had a myocardial infarction at 52.",
+    "transcript_evidence": "And my dad had his at 60, but that's my side.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note contains a factual error regarding the age of the father's myocardial infarction."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

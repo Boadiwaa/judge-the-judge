@@ -7,3 +7,4 @@ data/ratings.sqlite
 .pytest_cache/
 .DS_Store
 src/jtj/app/assets/protocol.md
+.Rhistory

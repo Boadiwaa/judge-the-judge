@@ -1,0 +1,38 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"most severe in the left antecubital fossa.\",\n      \"transcript_evidence\": \"The backs of her knees and the insides of her elbows. Her right elbow's the worst.\",\n      \"evidence_turns\": [\n        8,\n        30\n      ],\n      \"severity\": 1,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly identifies the most severe site of the flare as the left antecubital fossa when the transcript explicitly states the right elbow crease is the worst.\"\n    },\n    {\n      \"type\": \"DRUG_NAME\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Clobetasol propionate 0.05% once daily to inflamed areas on the body for 7 days, then hydrocortisone 1% if needed.\",\n      \"transcript_evidence\": \"It's called clobetasone butyrate, 0.05 percent. Put it on the red patches on her body once a day for seven days, then go back to the hydrocortisone for a few days if needed.\",\n      \"evidence_turns\": [\n        32\n      ],\n      \"severity\": 3,\n      \"likelihood\": 3,\n      \"rationale\": \"The note uses an incorrect drug name (Clobetasol propionate) instead of the name used in the transcript (clobetasone butyrate).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "most severe in the left antecubital fossa.",
+    "transcript_evidence": "The backs of her knees and the insides of her elbows. Her right elbow's the worst.",
+    "evidence_turns": [
+     8,
+     30
+    ],
+    "severity": 1,
+    "likelihood": 4,
+    "rationale": "The note incorrectly identifies the most severe site of the flare as the left antecubital fossa when the transcript explicitly states the right elbow crease is the worst."
+   },
+   {
+    "type": "DRUG_NAME",
+    "note_section": "Plan",
+    "note_span": "Clobetasol propionate 0.05% once daily to inflamed areas on the body for 7 days, then hydrocortisone 1% if needed.",
+    "transcript_evidence": "It's called clobetasone butyrate, 0.05 percent. Put it on the red patches on her body once a day for seven days, then go back to the hydrocortisone for a few days if needed.",
+    "evidence_turns": [
+     32
+    ],
+    "severity": 3,
+    "likelihood": 3,
+    "rationale": "The note uses an incorrect drug name (Clobetasol propionate) instead of the name used in the transcript (clobetasone butyrate)."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

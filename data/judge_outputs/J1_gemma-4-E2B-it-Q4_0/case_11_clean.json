@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Clobetasone butyrate 0.05% once daily to inflamed areas on the body for 7 days, then hydrocortisone 1% if needed.\",\n      \"transcript_evidence\": \"Clobetasone butyrate, 0.05 percent. Put it on the red patches on her body once a day for seven days, then go back to the hydrocortisone for a few days if needed.\",\n      \"evidence_turns\": [\n        32\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan omits the instruction to return to hydrocortisone for a few days if needed, which is a key part of the prescribed management.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Epaderm 3\u20134 times daily and as a soap substitute (at least 500 g every 2 weeks). Stop bubble baths.\",\n      \"transcript_evidence\": \"Use the Epaderm three or four times a day, lots of it, at least a 500 gram tub every two weeks. Use it instead of soap, and stop the bubble baths.\",\n      \"evidence_turns\": [\n        36\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note omits the instruction to use 'lots of it' when applying the moisturiser, which is a relevant detail for adherence.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Clobetasone butyrate 0.05% once daily to inflamed areas on the body for 7 days, then hydrocortisone 1% if needed.",
+    "transcript_evidence": "Clobetasone butyrate, 0.05 percent. Put it on the red patches on her body once a day for seven days, then go back to the hydrocortisone for a few days if needed.",
+    "evidence_turns": [
+     32
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The plan omits the instruction to return to hydrocortisone for a few days if needed, which is a key part of the prescribed management."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Plan",
+    "note_span": "Epaderm 3\u20134 times daily and as a soap substitute (at least 500 g every 2 weeks). Stop bubble baths.",
+    "transcript_evidence": "Use the Epaderm three or four times a day, lots of it, at least a 500 gram tub every two weeks. Use it instead of soap, and stop the bubble baths.",
+    "evidence_turns": [
+     36
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note omits the instruction to use 'lots of it' when applying the moisturiser, which is a relevant detail for adherence."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

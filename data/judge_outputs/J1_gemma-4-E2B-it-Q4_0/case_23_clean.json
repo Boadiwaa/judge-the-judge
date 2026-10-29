@@ -1,0 +1,23 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"Probable viral gastroenteritis with reduced urine output.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note includes 'reduced urine output' in the impression, which is an inference not explicitly stated or confirmed in the transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Impression",
+    "note_span": "Probable viral gastroenteritis with reduced urine output.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note includes 'reduced urine output' in the impression, which is an inference not explicitly stated or confirmed in the transcript."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

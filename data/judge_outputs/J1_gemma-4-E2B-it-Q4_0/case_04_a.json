@@ -1,0 +1,38 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Not preceded by aura.\",\n      \"transcript_evidence\": \"It starts with my vision. I get these zigzag lines, shimmering, off to one side.\",\n      \"evidence_turns\": [\n        6,\n        35\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omitted the crucial feature of aura, which is central to the diagnosis of migraine with aura.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"maximum 600 mg in 24 hours\",\n      \"transcript_evidence\": \"no more than 300 milligrams in 24 hours\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note documented an incorrect maximum dose for sumatriptan repeat dosing, which is a significant clinical error.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Not preceded by aura.",
+    "transcript_evidence": "It starts with my vision. I get these zigzag lines, shimmering, off to one side.",
+    "evidence_turns": [
+     6,
+     35
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omitted the crucial feature of aura, which is central to the diagnosis of migraine with aura."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "maximum 600 mg in 24 hours",
+    "transcript_evidence": "no more than 300 milligrams in 24 hours",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note documented an incorrect maximum dose for sumatriptan repeat dosing, which is a significant clinical error."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"No further investigations needed.\",\n      \"transcript_evidence\": \"I'd like an MRI scan of your brain, using an epilepsy protocol, and an EEG, a recording of the brain's electrical activity.\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the specific investigations (MRI and EEG) requested by the clinician, which are necessary for a first seizure diagnosis.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Plan",
+    "note_span": "No further investigations needed.",
+    "transcript_evidence": "I'd like an MRI scan of your brain, using an epilepsy protocol, and an EEG, a recording of the brain's electrical activity.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the specific investigations (MRI and EEG) requested by the clinician, which are necessary for a first seizure diagnosis."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

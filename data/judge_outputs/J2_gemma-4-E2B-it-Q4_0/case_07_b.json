@@ -1,0 +1,434 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "Inversion injury to the left ankle descending stairs at work, approximately 4 hours ago."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient missed the last step and the foot rolled inwards."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient had no head injury or loss of consciousness."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient was unable to weight-bear immediately after injury (hopped to car)."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient managed only two steps in the department."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient reports numbness and tingling."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient has no previous injury to this ankle."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has no significant past medical history."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient is an office manager, mostly desk-based, but walks between two sites."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient is a non-smoker and drinks a few glasses of wine at the weekend."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient takes a combined oral contraceptive (Microgynon)."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient is allergic to penicillin, which causes a rash."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "The patient has no history of peptic ulcer disease, asthma, or renal disease."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "There is swelling over the lateral aspect of the ankle."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "There is bony tenderness at the posterior edge of the left lateral malleolus."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "The medial malleolus is non-tender."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "The anterior drawer test is negative."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "The base of the fifth metatarsal and navicular are non-tender."
+   },
+   {
+    "id": "c19",
+    "section": "Examination",
+    "claim": "The foot is warm and the dorsalis pedis pulse is palpable."
+   },
+   {
+    "id": "c20",
+    "section": "Impression",
+    "claim": "The Ottawa ankle rules are positive (posterior lateral malleolar tenderness; unable to take four steps)."
+   },
+   {
+    "id": "c21",
+    "section": "Impression",
+    "claim": "The impression is a possible lateral malleolar fracture or ankle sprain."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "The plan includes X-rays of the left ankle (AP and mortise views)."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "Analgesia plan: paracetamol 1g four times daily (max 4g in 24 hours) and ibuprofen 400mg three times daily with food."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "Treatment includes a cold pack and elevation."
+   },
+   {
+    "id": "c25",
+    "section": "Plan",
+    "claim": "The patient will be prescribed crutches."
+   },
+   {
+    "id": "c26",
+    "section": "Plan",
+    "claim": "If it is a sprain, the patient will be discharged with an advice leaflet and early mobilisation as pain allows."
+   },
+   {
+    "id": "c27",
+    "section": "Plan",
+    "claim": "If it is a fracture, management depends on the type of fracture, likely managed in a boot with a fracture clinic referral."
+   },
+   {
+    "id": "c28",
+    "section": "Safety-netting",
+    "claim": "The patient should return immediately if the foot becomes cold, pale, or numb, or if pain is not controlled with analgesia."
+   },
+   {
+    "id": "c29",
+    "section": "Safety-netting",
+    "claim": "The patient should seek urgent help if they develop pain or swelling in the calf, or any chest pain or breathlessness, due to being on the pill and being less mobile."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     2
+    ],
+    "fact": "Patient's name is Harriet Fenwick-Doyle and date of birth is March 14, ninety-one.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     4
+    ],
+    "fact": "The patient sustained an ankle injury by going over it coming down the stairs at work.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     6
+    ],
+    "fact": "The injury occurred approximately two hours ago (less than four hours ago), just after the patient's ten o'clock meeting.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     8
+    ],
+    "fact": "The injury is to the left ankle.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     10
+    ],
+    "fact": "The mechanism of injury was that the foot turned in under the patient, causing them to miss the last step.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     12
+    ],
+    "fact": "The patient reported no head injury or loss of consciousness.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     14
+    ],
+    "fact": "The patient was unable to walk immediately after the injury and had to hop to the car.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     16
+    ],
+    "fact": "The patient managed only two steps in the department, having tried to walk in the waiting room.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     18
+    ],
+    "fact": "The patient reports that the ankle just throbs, with no numbness or tingling.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     20
+    ],
+    "fact": "The patient has never injured this ankle before.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     22
+    ],
+    "fact": "The patient reports being pretty healthy.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     24
+    ],
+    "fact": "The patient takes Microgynon.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     26
+    ],
+    "fact": "The patient is allergic to penicillin, which causes a rash.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     28
+    ],
+    "fact": "The patient has no history of stomach ulcers, asthma, or kidney problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     30
+    ],
+    "fact": "The patient is an office manager, mostly desk-based, but walks between two sites.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     32
+    ],
+    "fact": "The patient does not smoke and drinks a few glasses of wine at the weekend.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     33
+    ],
+    "fact": "The clinician observed swelling over the outside of the ankle and noted tenderness when pressing on the bony bit at the back of the left ankle on the outside.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     34
+    ],
+    "fact": "The patient confirmed tenderness at the location noted by the clinician.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     36
+    ],
+    "fact": "The clinician found the bone on the inside (medial malleolus) to be non-tender.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     38
+    ],
+    "fact": "The clinician found the base of the fifth metatarsal and the navicular to be non-tender.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician confirmed the patient could wiggle their toes, the foot was warm, and the dorsalis pedis pulse was palpable.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     42
+    ],
+    "fact": "The patient confirmed they could feel the clinician touching the area.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician used the Ottawa ankle rules to state that the patient is tender at the back of the outer ankle bone and couldn't take four steps.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician stated that it is possible it is a bad sprain or a fracture, and requested X-rays of the ankle (AP and mortise views).",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician prescribed paracetamol 1 gram four times a day (maximum 4 grams in 24 hours) and ibuprofen 400 milligrams three times a day with food.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     47
+    ],
+    "fact": "The clinician planned to apply a cold pack and keep the ankle raised.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     49
+    ],
+    "fact": "The plan is to go home with crutches and keep the ankle elevated as much as possible.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     49
+    ],
+    "fact": "If it is a sprain, the patient will receive an advice leaflet and can start gently moving it as pain allows.",
+    "about": "patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     51
+    ],
+    "fact": "If it is a fracture, management depends on the type of fracture, likely managed in a boot and requiring an appointment at the fracture clinic.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     53
+    ],
+    "fact": "Safety netting advises the patient to return immediately if the foot becomes cold, pale, or numb, or if pain is not controlled with painkillers.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     55
+    ],
+    "fact": "Safety netting advises the patient to seek urgent help if they get pain or swelling in their calf, or any chest pain or breathlessness, because they are on the pill and less mobile.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports numbness and tingling.\",\n      \"transcript_evidence\": \"No, it just throbs.\",\n      \"evidence_turns\": [\n        18\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note incorrectly records the patient reporting numbness and tingling, whereas the transcript states the patient reported only throbbing pain.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"The anterior drawer test is negative.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The result of the anterior drawer test, a standard examination finding, is omitted from the clinical note.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Reports numbness and tingling.",
+    "transcript_evidence": "No, it just throbs.",
+    "evidence_turns": [
+     18
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note incorrectly records the patient reporting numbness and tingling, whereas the transcript states the patient reported only throbbing pain."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "The anterior drawer test is negative.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The result of the anterior drawer test, a standard examination finding, is omitted from the clinical note."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

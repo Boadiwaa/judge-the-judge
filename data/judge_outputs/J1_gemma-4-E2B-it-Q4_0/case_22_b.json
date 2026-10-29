@@ -1,0 +1,49 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"redness from Wednesday morning (patient initially said Tuesday)\",\n      \"transcript_evidence\": \"Tuesday. No, wait, I was gardening on Tuesday and I scratched it on the roses. It went red on Wednesday morning.\",\n      \"evidence_turns\": [\n        9\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note inaccurately summarizes the timeline of the onset of the redness.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Flucloxacillin 500 mg once daily for 7 days, on an empty stomach.\",\n      \"transcript_evidence\": \"I'll prescribe flucloxacillin, 500 milligrams four times a day for seven days. Take it on an empty stomach, an hour before food or two hours after.\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The prescribed dosage frequency (once daily vs. four times daily) is incorrect, which could lead to sub-therapeutic dosing.\"\n    },\n    {\n      \"type\": \"ATTRIBUTION\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"No known drug allergies; has had penicillins without problems (daughter, present, is penicillin-allergic).\",\n      \"transcript_evidence\": \"I'm allergic to penicillin. Is that the kind of thing you'd give him? Should we be careful?\",\n      \"evidence_turns\": [\n        28\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note incorrectly attributes the source of the penicillin allergy information to the daughter rather than the relative who raised the concern.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "redness from Wednesday morning (patient initially said Tuesday)",
+    "transcript_evidence": "Tuesday. No, wait, I was gardening on Tuesday and I scratched it on the roses. It went red on Wednesday morning.",
+    "evidence_turns": [
+     9
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note inaccurately summarizes the timeline of the onset of the redness."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Flucloxacillin 500 mg once daily for 7 days, on an empty stomach.",
+    "transcript_evidence": "I'll prescribe flucloxacillin, 500 milligrams four times a day for seven days. Take it on an empty stomach, an hour before food or two hours after.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The prescribed dosage frequency (once daily vs. four times daily) is incorrect, which could lead to sub-therapeutic dosing."
+   },
+   {
+    "type": "ATTRIBUTION",
+    "note_section": "Medications and allergies",
+    "note_span": "No known drug allergies; has had penicillins without problems (daughter, present, is penicillin-allergic).",
+    "transcript_evidence": "I'm allergic to penicillin. Is that the kind of thing you'd give him? Should we be careful?",
+    "evidence_turns": [
+     28
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note incorrectly attributes the source of the penicillin allergy information to the daughter rather than the relative who raised the concern."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "judge": "J0",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "5b534af6eabd",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Calculation error\",\n      \"note_section\": \"History\",\n      \"note_span\": \"approximately 40 pack-years\",\n      \"transcript_evidence\": \"Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years.\",\n      \"evidence_turns\": [\n        26\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The calculation of pack-years based on the reported smoking history is incorrect (20 cigarettes/day for 40 years equals 800 pack-years).\"\n    },\n    {\n      \"type\": \"Discrepancy in physical examination findings\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Coarse crackles at the right base (new).\",\n      \"transcript_evidence\": \"There's some coarse crackles at the bottom of your left lung, at the left base.\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly states the crackles were at the right base, while the transcript indicates they were at the left base.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "History",
+    "note_span": "approximately 40 pack-years",
+    "transcript_evidence": "Twenty a day for forty years. Well, I stopped for ten years in the middle, so thirty years.",
+    "evidence_turns": [
+     26
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The calculation of pack-years based on the reported smoking history is incorrect (20 cigarettes/day for 40 years equals 800 pack-years)."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Examination",
+    "note_span": "Coarse crackles at the right base (new).",
+    "transcript_evidence": "There's some coarse crackles at the bottom of your left lung, at the left base.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly states the crackles were at the right base, while the transcript indicates they were at the left base."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

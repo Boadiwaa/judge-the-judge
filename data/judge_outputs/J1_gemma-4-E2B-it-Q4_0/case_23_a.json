@@ -1,0 +1,72 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"HALLUC\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"Probable viral gastroenteritis with reduced urine output.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 3,\n      \"likelihood\": 3,\n      \"rationale\": \"The note includes a clinical finding (reduced urine output) that is not mentioned or supported by the consultation transcript.\"\n    },\n    {\n      \"type\": \"HALLUC\",\n      \"note_section\": \"History\",\n      \"note_span\": \"About five bile-stained, green vomits since last night, fewer today.\",\n      \"transcript_evidence\": \"No, it's milky. Just her milk coming back.\",\n      \"evidence_turns\": [\n        12\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note describes the vomit as green/bile-stained, which directly contradicts the relative's statement that it was milky.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Blood in stool.\",\n      \"transcript_evidence\": \"No. Her brother had blood in his last week when he had the same thing, but there's none in hers.\",\n      \"evidence_turns\": [\n        15,\n        16\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note records the presence of blood in the stool, which is explicitly denied by the relative during the consultation.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"oral rehydration solution in small, frequent amounts.\",\n      \"transcript_evidence\": \"give small amounts of oral rehydration solution, like Dioralyte, a teaspoon every few minutes.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note is slightly vague regarding the specific frequency/unit (teaspoon every few minutes) mentioned in the transcript, though the intent is clear.\"\n    },\n    {\n      \"type\": \"CORRECTION_LOST\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Four wet nappies since this morning.\",\n      \"transcript_evidence\": \"Oh, wait, no. I've only changed two wet ones since this morning. The others were dirty.\",\n      \"evidence_turns\": [\n        20\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note records an inaccurate count of wet nappies (four) instead of the corrected count (two) provided by the relative.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "HALLUC",
+    "note_section": "Impression",
+    "note_span": "Probable viral gastroenteritis with reduced urine output.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 3,
+    "likelihood": 3,
+    "rationale": "The note includes a clinical finding (reduced urine output) that is not mentioned or supported by the consultation transcript."
+   },
+   {
+    "type": "HALLUC",
+    "note_section": "History",
+    "note_span": "About five bile-stained, green vomits since last night, fewer today.",
+    "transcript_evidence": "No, it's milky. Just her milk coming back.",
+    "evidence_turns": [
+     12
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note describes the vomit as green/bile-stained, which directly contradicts the relative's statement that it was milky."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Blood in stool.",
+    "transcript_evidence": "No. Her brother had blood in his last week when he had the same thing, but there's none in hers.",
+    "evidence_turns": [
+     15,
+     16
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note records the presence of blood in the stool, which is explicitly denied by the relative during the consultation."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "oral rehydration solution in small, frequent amounts.",
+    "transcript_evidence": "give small amounts of oral rehydration solution, like Dioralyte, a teaspoon every few minutes.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note is slightly vague regarding the specific frequency/unit (teaspoon every few minutes) mentioned in the transcript, though the intent is clear."
+   },
+   {
+    "type": "CORRECTION_LOST",
+    "note_section": "History",
+    "note_span": "Four wet nappies since this morning.",
+    "transcript_evidence": "Oh, wait, no. I've only changed two wet ones since this morning. The others were dirty.",
+    "evidence_turns": [
+     20
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note records an inaccurate count of wet nappies (four) instead of the corrected count (two) provided by the relative."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

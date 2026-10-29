@@ -1,0 +1,25 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_SAFETY\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"No red flags.\",\n      \"transcript_evidence\": \"Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome.\",\n      \"evidence_turns\": [\n        51\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The note fails to document the critical safety-netting advice regarding cauda equina syndrome symptoms, which is a serious safety fact.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_SAFETY",
+    "note_section": "Impression",
+    "note_span": "No red flags.",
+    "transcript_evidence": "Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome.",
+    "evidence_turns": [
+     51
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The note fails to document the critical safety-netting advice regarding cauda equina syndrome symptoms, which is a serious safety fact."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

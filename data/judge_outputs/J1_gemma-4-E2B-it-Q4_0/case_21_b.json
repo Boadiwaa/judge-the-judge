@@ -1,0 +1,37 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Presenting complaint: Dysuria and urinary frequency for 1 day.\",\n      \"transcript_evidence\": \"Since yesterday. Sorry, no, since Saturday. So three days now.\",\n      \"evidence_turns\": [\n        10\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly documents the duration of the presenting complaint, stating 1 day when the patient stated it has been 3 days.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Urine sample for culture before starting antibiotics.\",\n      \"transcript_evidence\": \"please drop a urine sample into the surgery before you start the antibiotics, so we can send it to the lab.\",\n      \"evidence_turns\": [\n        39\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note omits the specific instruction regarding the purpose of the urine sample (sending it to the lab), which is a key part of the plan.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Presenting complaint: Dysuria and urinary frequency for 1 day.",
+    "transcript_evidence": "Since yesterday. Sorry, no, since Saturday. So three days now.",
+    "evidence_turns": [
+     10
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly documents the duration of the presenting complaint, stating 1 day when the patient stated it has been 3 days."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Urine sample for culture before starting antibiotics.",
+    "transcript_evidence": "please drop a urine sample into the surgery before you start the antibiotics, so we can send it to the lab.",
+    "evidence_turns": [
+     39
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note omits the specific instruction regarding the purpose of the urine sample (sending it to the lab), which is a key part of the plan."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

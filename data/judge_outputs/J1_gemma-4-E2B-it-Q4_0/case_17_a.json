@@ -1,0 +1,53 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Apixaban 5 mg twice daily (initially reported as once daily; daughter confirmed twice daily). Bisoprolol 2.5 mg once daily.\",\n      \"transcript_evidence\": \"Clinician: Now, you're on a blood thinner, apixaban. How are you taking that? [18]\\nRelative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday. [20]\\nClinician: Thank you, that's important. Five milligrams each time? [22]\\nRelative: Yes, five milligrams. [23]\",\n      \"evidence_turns\": [\n        20,\n        21,\n        22,\n        23\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly lists the current apixaban dose as 2.5 mg twice daily, despite the transcript confirming the dose is 5 mg twice daily and the plan to continue that dose.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Bisoprolol 2.5 mg once daily.\",\n      \"transcript_evidence\": \"Clinician: And what else do you take? [32]\\nPatient: The bisoprolol, two and a half milligrams. And my thyroid tablet, levothyroxine, 75 micrograms. [33]\\nClinician: I'd like to increase the bisoprolol from two and a half to five milligrams once a day. [40]\",\n      \"evidence_turns\": [\n        33,\n        40\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note lists the current bisoprolol dose as 2.5 mg once daily, failing to reflect the agreed plan to increase the dose to 5 mg once daily.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue apixaban 2.5 mg twice daily; do not stop.\",\n      \"transcript_evidence\": \"Clinician: Your apixaban dose of five milligrams twice a day is correct for you, based on your age, weight and kidney function, so we'll keep that the same. [44]\",\n      \"evidence_turns\": [\n        44\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan section contradicts the agreed management plan in the transcript, failing to record the instruction to continue the increased dose of apixaban (5 mg twice daily).\"\n    }\n  ],\n  \"overall_note_safety\": \"unsafe\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Apixaban 5 mg twice daily (initially reported as once daily; daughter confirmed twice daily). Bisoprolol 2.5 mg once daily.",
+    "transcript_evidence": "Clinician: Now, you're on a blood thinner, apixaban. How are you taking that? [18]\nRelative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday. [20]\nClinician: Thank you, that's important. Five milligrams each time? [22]\nRelative: Yes, five milligrams. [23]",
+    "evidence_turns": [
+     20,
+     21,
+     22,
+     23
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The note incorrectly lists the current apixaban dose as 2.5 mg twice daily, despite the transcript confirming the dose is 5 mg twice daily and the plan to continue that dose."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Bisoprolol 2.5 mg once daily.",
+    "transcript_evidence": "Clinician: And what else do you take? [32]\nPatient: The bisoprolol, two and a half milligrams. And my thyroid tablet, levothyroxine, 75 micrograms. [33]\nClinician: I'd like to increase the bisoprolol from two and a half to five milligrams once a day. [40]",
+    "evidence_turns": [
+     33,
+     40
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note lists the current bisoprolol dose as 2.5 mg once daily, failing to reflect the agreed plan to increase the dose to 5 mg once daily."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Continue apixaban 2.5 mg twice daily; do not stop.",
+    "transcript_evidence": "Clinician: Your apixaban dose of five milligrams twice a day is correct for you, based on your age, weight and kidney function, so we'll keep that the same. [44]",
+    "evidence_turns": [
+     44
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The plan section contradicts the agreed management plan in the transcript, failing to record the instruction to continue the increased dose of apixaban (5 mg twice daily)."
+   }
+  ],
+  "overall_note_safety": "unsafe"
+ }
+}

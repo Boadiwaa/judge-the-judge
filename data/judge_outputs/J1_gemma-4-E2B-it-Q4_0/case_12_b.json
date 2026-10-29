@@ -1,0 +1,49 @@
+{
+ "judge": "J1",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "8fc941675800",
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Pain below the right kneecap for 2 days.\",\n      \"transcript_evidence\": \"About two months.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the duration of the pain as 2 days instead of the two months mentioned in the transcript, potentially misrepresenting the chronicity of the complaint.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Paracetamol or ibuprofen 800 mg up to three times daily with food as needed.\",\n      \"transcript_evidence\": \"ibuprofen 400 milligrams up to three times a day with food.\",\n      \"evidence_turns\": [\n        45\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note prescribes an incorrect dose of ibuprofen (800 mg) compared to the transcript (400 mg), which is a significant dosing error.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Refer to physiotherapy for quadriceps and hamstring stretching.\",\n      \"transcript_evidence\": \"I'll refer you to physiotherapy for some stretching exercises for your thigh muscles.\",\n      \"evidence_turns\": [\n        47\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note specifies 'quadriceps and hamstring' while the transcript mentions 'thigh muscles', which is a minor omission of specific muscle groups.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Pain below the right kneecap for 2 days.",
+    "transcript_evidence": "About two months.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the duration of the pain as 2 days instead of the two months mentioned in the transcript, potentially misrepresenting the chronicity of the complaint."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Paracetamol or ibuprofen 800 mg up to three times daily with food as needed.",
+    "transcript_evidence": "ibuprofen 400 milligrams up to three times a day with food.",
+    "evidence_turns": [
+     45
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note prescribes an incorrect dose of ibuprofen (800 mg) compared to the transcript (400 mg), which is a significant dosing error."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Plan",
+    "note_span": "Refer to physiotherapy for quadriceps and hamstring stretching.",
+    "transcript_evidence": "I'll refer you to physiotherapy for some stretching exercises for your thigh muscles.",
+    "evidence_turns": [
+     47
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note specifies 'quadriceps and hamstring' while the transcript mentions 'thigh muscles', which is a minor omission of specific muscle groups."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}
