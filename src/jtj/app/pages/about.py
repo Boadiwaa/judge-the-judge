@@ -1,4 +1,4 @@
-"""About page: first person, Paulina's voice. DRAFT: she will edit (BUILD_SPEC §3.3.6)."""
+"""About page: first person, Paulina's voice; reviewed by Paulina on 2026-10-29 (BUILD_SPEC §3.3.6)."""
 from __future__ import annotations
 
 import flet as ft
@@ -37,7 +37,6 @@ NEXT = [
 
 
 def build(ctx: C.Ctx) -> ft.Control:
-    draft = C.pending_block("Draft", "This page is a draft written for Paulina to edit in her own voice.", ctx)
     links = ft.Row([
         ft.OutlinedButton("GitHub · Boadiwaa", icon=ft.Icons.CODE, url=GITHUB,
                           style=ft.ButtonStyle(color=ctx.p.text, side=ft.BorderSide(1, ctx.p.border))),
@@ -50,7 +49,6 @@ def build(ctx: C.Ctx) -> ft.Control:
     ], spacing=16, run_spacing=16)
     return ft.Column([
         C.eyebrow("About", ctx), C.h1("Why I built this", ctx) if not ctx.narrow else C.h2("Why I built this", ctx),
-        draft,
         C.card(ft.Column([C.body(p, ctx, size=16) for p in ABOUT] + [links], spacing=14), ctx, padding=28),
         C.h2("What I'd do next with production data", ctx), nxt,
     ], spacing=16)

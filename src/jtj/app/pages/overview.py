@@ -126,8 +126,13 @@ def build(ctx: C.Ctx) -> ft.Control:
         ], wrap=True, spacing=12, run_spacing=12),
     ], spacing=16, col={"xs": 12, "lg": 7})
 
-    top = ft.ResponsiveRow([hero, ft.Container(_headline(ctx), col={"xs": 12, "lg": 5})], spacing=32,
-                           run_spacing=24, vertical_alignment=ft.CrossAxisAlignment.START)
+    top_row = ft.ResponsiveRow([hero, ft.Container(_headline(ctx), col={"xs": 12, "lg": 5})], spacing=32,
+                               run_spacing=24, vertical_alignment=ft.CrossAxisAlignment.START)
+    # soft accent wash behind the hero: engaging without competing with the risk-tier colours
+    top = ft.Container(top_row, padding=20 if ctx.narrow else 36, border_radius=24,
+                       border=ft.Border.all(1, ctx.p.border),
+                       gradient=ft.LinearGradient(begin=ft.Alignment.TOP_LEFT, end=ft.Alignment.BOTTOM_RIGHT,
+                                                  colors=[ctx.p.accent_soft, ctx.p.surface]))
     stories = ft.ResponsiveRow([
         _story("01 · The problem", "Nobody can read every AI-written note",
                "At scale, safety numbers come from LLM judges. If a judge misses a swapped side or a dropped "

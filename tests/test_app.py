@@ -145,3 +145,13 @@ def test_related_work_citations_resolve_to_references():
 
     cited = {int(n) for n in re.findall(r"\[(\d+)\]", protocol.RELATED_WORK)}
     assert cited == set(range(1, len(protocol.REFERENCES) + 1))  # every reference cited, none missing
+
+
+@pytest.mark.parametrize("dark", [False, True], ids=["light", "dark"])
+def test_heatmap_cells_meet_wcag_aa(empty, dark):
+    from jtj.app.pages.scorecard import _cell_color
+
+    ctx = make_ctx(empty, dark=dark)
+    for i in range(11):
+        bg, fg = _cell_color(i / 10, ctx)
+        assert contrast(fg, bg) >= 4.5, (i, bg, fg)

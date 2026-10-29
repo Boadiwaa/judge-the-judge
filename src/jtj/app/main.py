@@ -53,7 +53,7 @@ def main(page: ft.Page) -> None:
     page.padding = 0
     page.spacing = 0
     page.scroll = ft.ScrollMode.AUTO
-    theme.apply(page)
+    theme.apply(page, ASSETS)
     data = load()
     last = {"w": None}
     state: dict = {}

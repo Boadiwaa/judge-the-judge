@@ -14,7 +14,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 - [ ] Every case in `data/cases/` — transcript realism, UK practice, NICE/BNF consistency. Flip `"clinician_reviewed": true` per case when happy. (The footer drops "drafted for clinician review" automatically once all 24 are true.)
 - [ ] Every seeded error's `seeded_severity`, `seeded_likelihood`, `seeded_rationale` (answer key). A table view: `python scripts/validate_cases.py --table`.
 - [x] Judge prompts in `src/jtj/judges.py` (J0/J1/J2) — freeze before the full run.
-- [ ] About page wording (written in your voice as a draft).
+- [x] About page wording: reviewed by Paulina 2026-10-29; draft labels removed.
 - [ ] Protocol page wording and the GRRAS / DECIDE-AI checklist.
 
 ## Environment / verification gaps
@@ -49,7 +49,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 
 - [ ] **Heading font:** the mockups use a serif for display headings. Flutter web can't use system fonts, so headings are currently sans-serif. Pick a font (for example Source Serif 4, SIL Open Font License) and I'll bundle it (DECISIONS D-22).
 - [ ] **First-load speed on phones:** Flet's web client is about 3.5 MB even gzipped, and takes several seconds to start on a cold visit. If that's too slow for recruiters, the alternative is a small static HTML landing page in front of the app (a design change from the spec; your call).
-- [ ] **About page wording** (`src/jtj/app/pages/about.py`): drafted in your voice and marked DRAFT on the page.
+- [x] **About page wording**: reviewed 2026-10-29; DRAFT label removed.
 - [ ] **Protocol "Related work" and "References"** (`src/jtj/protocol.py`): 13 references, each checked against its publisher or arXiv record on 2026-10-28. Check you're happy with how the study is positioned ("well-established designs, not the frontier").
 
 ### Spec update 2026-10-28 (§2.3 drug names, subtle errors; DECISIONS D-25 to D-28)

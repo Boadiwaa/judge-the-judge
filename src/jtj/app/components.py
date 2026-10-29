@@ -55,22 +55,25 @@ def h2(s: str, ctx: Ctx, size: int | None = None) -> ft.Text:
 
 
 def h3(s: str, ctx: Ctx) -> ft.Text:
-    return ft.Text(s, size=17, weight=ft.FontWeight.W_600, color=ctx.p.text)
+    return ft.Text(s, size=17, weight=ft.FontWeight.W_600, font_family=theme.SANS_SEMI, color=ctx.p.text)
 
 
 def eyebrow(s: str, ctx: Ctx, color: str | None = None) -> ft.Text:
-    return ft.Text(s.upper(), size=12, weight=ft.FontWeight.W_600, color=color or ctx.p.accent,
+    return ft.Text(s.upper(), size=12, weight=ft.FontWeight.W_600, font_family=theme.SANS_SEMI,
+                   color=color or ctx.p.accent,
                    style=ft.TextStyle(letter_spacing=1.4))
 
 
 def body(s: str, ctx: Ctx, size: int = 15, muted: bool = False, **kw) -> ft.Text:
     kw.setdefault("color", ctx.p.text_muted if muted else ctx.p.text)
+    if kw.get("weight") in (ft.FontWeight.W_600, ft.FontWeight.W_700, ft.FontWeight.BOLD):
+        kw.setdefault("font_family", theme.SANS_SEMI)
     return ft.Text(s, size=size, **kw)
 
 
 def mono(s: str, ctx: Ctx, size: int = 13, **kw) -> ft.Text:
     kw.setdefault("color", ctx.p.text)
-    return ft.Text(s, size=size, font_family="monospace", **kw)
+    return ft.Text(s, size=size, font_family=theme.MONO, **kw)
 
 
 # ---------------- containers ----------------
@@ -82,6 +85,8 @@ def card(content: ft.Control, ctx: Ctx, padding: int = 24, dashed: bool = False,
         content=content, padding=padding, bgcolor=bg or ctx.p.surface, border_radius=14,
         border=ft.Border.all(1.5 if dashed else 1, ctx.p.flag[2] if dashed else ctx.p.border),
         col=col, expand=expand,
+        shadow=None if theme.is_dark(ctx.page) or dashed else ft.BoxShadow(
+            blur_radius=18, spread_radius=-6, offset=ft.Offset(0, 6), color=ft.Colors.with_opacity(0.10, ctx.p.brand)),
     )
 
 
@@ -167,8 +172,11 @@ def fmt_p(x: float | None, pct: bool = False) -> str:
 def header(ctx: Ctx, current: str) -> ft.Container:
     p = ctx.p
     logo = ft.Row([
-        ft.Container(ft.Icon(ft.Icons.CHECK, color="#FFFFFF", size=18), bgcolor=p.accent if not theme.is_dark(ctx.page)
-                     else "#1F5F8B", border_radius=6, width=28, height=28, alignment=ft.Alignment.CENTER),
+        ft.Container(ft.Icon(ft.Icons.CHECK, color="#FFFFFF", size=18), border_radius=8, width=30, height=30,
+                     alignment=ft.Alignment.CENTER,
+                     gradient=ft.LinearGradient(begin=ft.Alignment.TOP_LEFT, end=ft.Alignment.BOTTOM_RIGHT,
+                                                colors=[p.accent if not theme.is_dark(ctx.page) else "#1E8C8F",
+                                                        p.brand])),
         ft.Text("Judge the Judge", size=20, weight=ft.FontWeight.W_700, font_family=theme.SERIF, color=p.text),
     ], spacing=10)
     logo_btn = ft.Container(logo, on_click=lambda e: ctx.go("/"), tooltip="Overview")

@@ -52,14 +52,14 @@ INFO = {
 
 
 def _cell_color(p: float | None, ctx: C.Ctx) -> tuple[str, str]:
-    """Sequential blue scale for the heatmap; returns (bg, fg)."""
+    """Sequential teal scale for the heatmap; returns (bg, fg). Text pairs meet WCAG AA on every step."""
     if p is None:
         return ctx.p.surface_alt, ctx.p.text_muted
-    light = ["#E3ECF4", "#C3D6E7", "#8FB3D3", "#5D88B0", "#2F6A99", "#1F5F8B"]
-    dark = ["#1E2935", "#23384B", "#2D4E6B", "#3B6A90", "#5A8DB8", "#8FBBE0"]
+    light = ["#E1F0F0", "#BCDFDF", "#89C4C5", "#4E9EA3", "#1F7C84", "#0B5F67"]
+    dark = ["#13232B", "#173539", "#1D4A4E", "#286569", "#3E8F92", "#7FD0D0"]
     scale = dark if theme.is_dark(ctx.page) else light
     i = min(5, int(p * 6))
-    fg = ("#0F151C" if i >= 4 else "#E7EDF3") if theme.is_dark(ctx.page) else ("#FFFFFF" if i >= 3 else "#16212E")
+    fg = ("#0A1219" if i >= 4 else "#E6EEF3") if theme.is_dark(ctx.page) else ("#FFFFFF" if i >= 4 else "#0E1B2B")
     return scale[i], fg
 
 
