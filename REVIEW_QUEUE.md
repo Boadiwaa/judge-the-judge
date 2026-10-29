@@ -15,7 +15,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 - [x] Every seeded error's `seeded_severity`, `seeded_likelihood`, `seeded_rationale` (answer key). A table view: `python scripts/validate_cases.py --table`.
 - [x] Judge prompts in `src/jtj/judges.py` (J0/J1/J2) — freeze before the full run.
 - [x] About page wording: reviewed by Paulina 2026-10-29; draft labels removed.
-- [ ] Protocol page wording and the GRRAS / DECIDE-AI checklist.
+- [x] Protocol page wording and the GRRAS / DECIDE-AI checklist. Reviewed by Paulina 2026-10-29; version set to 1.0, draft label removed.
 
 ## Environment / verification gaps
 

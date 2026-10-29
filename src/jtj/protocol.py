@@ -11,8 +11,8 @@ from .llm import DEFAULT_MODELS, SEED
 from .match import MIN_LEN, THRESHOLD
 from .schema import ERROR_TYPES, SETTING_LABELS, TIERS, Case
 
-VERSION = "0.1 (draft for clinician review)"
-DATE = "2026-10-28"
+VERSION = "1.0 (clinician reviewed)"
+DATE = "2026-10-29"
 
 TYPE_EXAMPLES = {
     "OMIT_SAFETY": "Allergy, red flag or safety-netting advice dropped",
@@ -263,7 +263,9 @@ def sections(cases: list[Case]) -> list[tuple[str, str]]:
         "scribe errors, so sensitivity here is likely an upper bound; error types not planted are not measured "
         "(see External validity).",
         "- Pilot sample: confidence intervals are wide; differences between judges may not be detectable.",
-        "- The answer-key risk grades were drafted by one author and await clinician review.",
+        ("- The answer-key risk grades were drafted by one author and reviewed by one clinician; agreement between "
+         "clinicians on the grades is not yet measured." if all(c.clinician_reviewed for c in cases)
+         else "- The answer-key risk grades were drafted by one author and await clinician review."),
         "- One small open-weight judge model (about 2B effective parameters) run on a laptop; results may not "
         "generalise to larger or hosted models.",
         "- Unadjudicated flags are not yet classified, so judge precision is unknown.",
