@@ -27,21 +27,21 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 <!-- appended below as work proceeds -->
 
 - [x] **Matching rule for omissions (DECISIONS D-03).** Approved 2026-10-28: extension is primary, spec-literal reported alongside. I extended the spec rule so a judge quoting the transcript lines that prove an omitted fact counts as a detection. Approve, or say "spec-literal only" and I'll make `--strict-spec` the primary analysis. This changes the primary endpoint, so it should be fixed *before* the judges run (pre-registration).
-- [ ] **Answer-key grading calls I was least sure of:**
+- [x] **Answer-key grading calls I was least sure of:** 2026-10-29: case_07 kept at 16; case_13 likelihood raised to 5 (25, Very high).
   - `case_07_a_e2` penicillin allergy dropped (ED ankle): S4 × L4 = 16, Very high. I justified it via perioperative flucloxacillin if the fracture needs fixing. The mockup showed 20; is 16 right?
   - `case_13_a_e1` passive suicidal ideation recorded as denied: S5 × L3 = 15, High (just below Very high). Arguably L4.
   - ~~`case_09_b_e2` febrile-child red flags omitted: S5 × L2 = 10.~~ Decided 2026-10-29: L3 for all spoken-but-unrecorded safety-netting omissions.
 - [x] **Paediatric doses in case_09** Resolved 2026-10-29: weight (14 kg) now measured in the transcript and recorded in the examination. Original item: (3-year-old, assumed ~14 kg; weight is not stated in the transcript): paracetamol 180 mg QDS, ibuprofen 100 mg TDS, amoxicillin 250 mg TDS × 5 days (NICE NG91 back-up). Should the clinician state the weight?
-- [ ] **Apixaban dosing logic in case_17** (age 72, 58 kg, creatinine 98 → 5 mg BD, none of the dose-reduction criteria met).
-- [ ] **Nitrofurantoin in possible early pregnancy (case_21).** The clinician says it is suitable early in pregnancy, avoids trimethoprim implicitly and defers ibuprofen. Check the wording matches current UKHSA/BNF guidance.
+- [ ] **Apixaban dosing logic in case_17** (2026-10-29: you asked for 2.5 mg BD; consistency question pending) (age 72, 58 kg, creatinine 98 → 5 mg BD, none of the dose-reduction criteria met).
+- [x] **Nitrofurantoin in possible early pregnancy (case_21).** 2026-10-29: course changed to 7 days. The clinician says it is suitable early in pregnancy, avoids trimethoprim implicitly and defers ibuprofen. Check the wording matches current UKHSA/BNF guidance.
 
 ### Clinical calls in cases 02–24 I'd most like checked (added 2026-10-28)
 
-- [ ] **case_06 (head injury, 81-year-old):** Grades decided 2026-10-29: dropped anticoagulant 5×3 = 15; amlodipine → amiloride 4×4 = 16. Apixaban dose question still open: apixaban 2.5 mg BD is the reduced dose. Age ≥80 is one criterion, but her weight and creatinine aren't stated, so the record doesn't show she meets two. Add a weight, or change to 5 mg BD? I also left CT timing as "within the next few hours" rather than citing the NG232 time limit.
+- [x] **case_06 (head injury, 81-year-old):** 2026-10-29: dose kept (criteria may be in her previous records). Grades decided 2026-10-29: dropped anticoagulant 5×3 = 15; amlodipine → amiloride 4×4 = 16. Apixaban dose question still open: apixaban 2.5 mg BD is the reduced dose. Age ≥80 is one criterion, but her weight and creatinine aren't stated, so the record doesn't show she meets two. Add a weight, or change to 5 mg BD? I also left CT timing as "within the next few hours" rather than citing the NG232 time limit.
 - [x] **case_05 (chest pain, possible NSTEMI):** Kept as is (2026-10-29). the plan has aspirin (from the ambulance crew) plus fondaparinux, with no second antiplatelet loading dose. I left that to cardiology. Is that realistic for a UK ED note?
-- [ ] **case_03 (diabetes hypo):** the case gives sulfonylurea driving advice but doesn't address whether he must tell the DVLA after one severe hypo needing help from someone else. Should it?
-- [ ] **case_20 (first seizure):** the seizure was partly provoked by sleep deprivation. I used the standard "usually 6 months off driving" wording. DVLA may treat provoked seizures differently; please check.
-- [ ] **case_10 (bronchiolitis):** managed at home with next-day review at about 50% of usual feeds, RR 54 and SpO2 95%. Is this borderline call one you'd make?
+- [x] **case_03 (diabetes hypo):** 2026-10-29: DVLA advice added. the case gives sulfonylurea driving advice but doesn't address whether he must tell the DVLA after one severe hypo needing help from someone else. Should it?
+- [x] **case_20 (first seizure):** 2026-10-29: wording kept. the seizure was partly provoked by sleep deprivation. I used the standard "usually 6 months off driving" wording. DVLA may treat provoked seizures differently; please check.
+- [x] **case_10 (bronchiolitis):** 2026-10-29: changed to same-day hospital referral (intercostal recession, feeds about half). managed at home with next-day review at about 50% of usual feeds, RR 54 and SpO2 95%. Is this borderline call one you'd make?
 - [x] **Very high grades in new cases:** Superseded by the 2026-10-29 decisions (case_06 and case_19 regraded); case_16 and case_24 are listed under the remaining grade checks. methotrexate weekly recorded as daily (case_19, S5×L4 = 20), sick-day rules dropped for an 85-year-old (case_24, 16), "no intent to harm the baby" recorded as an urge to harm (case_16, 16), anticoagulant dropped from a head-injury note (case_06, 20).
 - [ ] **Speaker labels:** the spec allows only Clinician, Patient and Relative. Partners, a wife who witnessed a seizure, and a son on speakerphone are all labelled "Relative". In cases 10 and 23 the patient is a baby, so every non-clinician turn is a "Relative" (two parents in case_10).
 

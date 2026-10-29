@@ -188,7 +188,7 @@
     {
       "turn": 37,
       "speaker": "Clinician",
-      "text": "I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for three days. That's a good choice for bladder infections and it's suitable even if you do turn out to be pregnant, early on."
+      "text": "I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for seven days. That's a good choice for bladder infections and it's suitable even if you do turn out to be pregnant, early on."
     },
     {
       "turn": 38,
@@ -267,7 +267,7 @@
     "medications_allergies": "Vitamin D (winter). No known drug allergies.",
     "examination": "Telephone consultation; not examined. Speaking in full sentences and sounds well.",
     "impression": "Lower urinary tract infection (cystitis). Possible early pregnancy, to be excluded.",
-    "plan": "Nitrofurantoin 100 mg modified-release twice daily for 3 days. Pregnancy test today. Urine sample for culture before starting antibiotics. Call back tomorrow with pregnancy test result; if positive, face-to-face review and plan revised. Fluids and paracetamol; avoid ibuprofen until pregnancy excluded.",
+    "plan": "Nitrofurantoin 100 mg modified-release twice daily for 7 days. Pregnancy test today. Urine sample for culture before starting antibiotics. Call back tomorrow with pregnancy test result; if positive, face-to-face review and plan revised. Fluids and paracetamol; avoid ibuprofen until pregnancy excluded.",
     "safety_netting": "Call the practice (or 111 out of hours) immediately if loin pain, fever, rigors or vomiting. Call back if not improving within 48 hours of starting antibiotics or worsening."
   },
   "variants": [

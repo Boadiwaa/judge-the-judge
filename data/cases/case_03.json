@@ -233,7 +233,7 @@
     {
       "turn": 46,
       "speaker": "Clinician",
-      "text": "Because you're on gliclazide and you drive, please check your blood sugar before you drive and every two hours on long journeys. Don't drive if it's below five. Always keep some sugary snacks in the car."
+      "text": "Because you're on gliclazide and you drive, please check your blood sugar before you drive and every two hours on long journeys. Don't drive if it's below five. Always keep some sugary snacks in the car. And because you needed your daughter's help, that counts as a severe hypo. One on its own doesn't have to be reported for a car licence, but if you have another severe hypo within 12 months, or any hypo while you're driving, you must stop driving and tell the DVLA."
     },
     {
       "turn": 47,
@@ -258,7 +258,7 @@
     "examination": "Pedal pulses palpable. Monofilament sensation normal in both feet. Callus under the left first metatarsal head. BP 138/84. Weight 91 kg. Bloods: HbA1c 62 mmol/mol (previously 58), eGFR 52 (stable).",
     "impression": "Type 2 diabetes with recent hypoglycaemia on gliclazide; HbA1c above target. Stable CKD stage 3a. Low-risk foot with callus.",
     "plan": "Reduce gliclazide to 80 mg in the morning only. Start empagliflozin 10 mg once daily; sick day rules explained and leaflet given. Podiatry referral for callus. Book retinal screening. Review in 3 months with HbA1c and renal function.",
-    "safety_netting": "Check blood glucose before driving and every 2 hours on long journeys; do not drive if below 5 mmol/L; keep fast-acting glucose in the car. Stop empagliflozin if vomiting, diarrhoea or unable to eat and drink."
+    "safety_netting": "Check blood glucose before driving and every 2 hours on long journeys; do not drive if below 5 mmol/L; keep fast-acting glucose in the car. Severe hypo (needed help from someone else): if another within 12 months, or any hypo while driving, stop driving and inform the DVLA. Stop empagliflozin if vomiting, diarrhoea or unable to eat and drink."
   },
   "variants": [
     {
@@ -303,7 +303,7 @@
           "error_id": "case_03_a_e3",
           "type": "OMIT_SAFETY",
           "section": "safety_netting",
-          "original_text": "Check blood glucose before driving and every 2 hours on long journeys; do not drive if below 5 mmol/L; keep fast-acting glucose in the car. ",
+          "original_text": "Check blood glucose before driving and every 2 hours on long journeys; do not drive if below 5 mmol/L; keep fast-acting glucose in the car. Severe hypo (needed help from someone else): if another within 12 months, or any hypo while driving, stop driving and inform the DVLA. ",
           "mutated_text": "",
           "evidence_turns": [
             46

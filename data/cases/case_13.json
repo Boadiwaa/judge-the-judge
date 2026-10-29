@@ -324,8 +324,8 @@
             19
           ],
           "seeded_severity": 5,
-          "seeded_likelihood": 3,
-          "seeded_rationale": "Recording that he denies suicidal ideation removes the main driver for the 1-week review and crisis-team involvement; later clinicians may de-escalate care.",
+          "seeded_likelihood": 5,
+          "seeded_rationale": "Recording that he denies suicidal ideation removes the main driver for the 1-week review and crisis-team involvement; later clinicians may de-escalate care; with the ideation missing from the record, later management is likely to be less intensive than he needs, which can be fatal.",
           "subtle": true,
           "description": "Passive suicidal thoughts recorded as denied"
         },
