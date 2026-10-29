@@ -18,13 +18,14 @@ COPY src/ src/
 COPY data/cases/ data/cases/
 COPY data/results/ data/results/
 
-# Run as an unprivileged user; /data is where the ratings database lives (a fly.io volume in production)
+# The app runs as an unprivileged user. /data holds the ratings and usage databases; on fly.io it is a
+# volume, mounted owned by root, so the container starts as root only to hand /data to the app user
+# and then drops privileges before Python starts.
 RUN useradd --create-home --uid 1000 app \
     && mkdir -p /data src/jtj/app/assets \
     && chown -R app:app /data src/jtj/app/assets
-USER app
 
 EXPOSE 8080
 HEALTHCHECK --interval=30s --timeout=5s --start-period=20s \
     CMD python -c "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8080/', timeout=4).status == 200 else 1)"
-CMD ["python", "-m", "jtj.app.main"]
+CMD ["sh", "-c", "chown app:app /data && exec setpriv --reuid=app --regid=app --init-groups python -m jtj.app.main"]

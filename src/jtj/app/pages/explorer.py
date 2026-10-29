@@ -8,6 +8,7 @@ from __future__ import annotations
 import flet as ft
 
 from .. import components as C
+from .. import usage
 from ..data import PLAIN_TYPE, sentences
 from ...schema import ERROR_TYPES, SECTION_LABELS, SECTIONS, SETTING_LABELS, TIERS
 
@@ -459,7 +460,7 @@ def _challenge_panel(ctx: C.Ctx, case, variant) -> ft.Control:
         ctx.rerender()
 
     def reset(e):
-        st.update(marks=set(), missing=set(), revealed=False)
+        st.update(marks=set(), missing=set(), revealed=False, logged=False)
         ctx.rerender()
 
     if not st["revealed"]:
@@ -491,6 +492,10 @@ def _challenge_panel(ctx: C.Ctx, case, variant) -> ft.Control:
         ]), on_click=lambda e, eid=m.error_id: ctx.go(ctx.with_query("/explorer", mode="explain", error=eid)),
             padding=8, border_radius=8, border=ft.Border.all(1, ctx.p.border)))
     total = len(variant.mutations)
+    if not st.get("logged") and "visit" in ctx.state:
+        st["logged"] = True
+        usage.log_event(ctx.state["visit"], "challenge", route=variant.variant_id,
+                        detail=f"{caught}/{total} caught, {n_marked - caught} other marks", phone=ctx.narrow)
     if total:
         headline = f"You caught {caught} of {total} planted error{'s' if total != 1 else ''}."
     else:

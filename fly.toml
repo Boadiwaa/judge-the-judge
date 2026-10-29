@@ -34,8 +34,8 @@ primary_region = "lhr"
   cpu_kind = "shared"
   cpus = 1
 
-# Uncomment after `fly volumes create jtj_data --size 1 --region lhr` so clinician ratings persist
-# across deploys and machine restarts.
-# [mounts]
-#   source = "jtj_data"
-#   destination = "/data"
+# Volume created 2026-10-29 (`fly volumes create jtj_data --size 1 --region lhr`): clinician ratings and
+# anonymous usage counts persist across deploys and machine restarts.
+[mounts]
+  source = "jtj_data"
+  destination = "/data"

@@ -50,7 +50,7 @@ fly secrets set RATER_CODE='<code you give clinicians>' OWNER_CODE='<code only y
 fly volumes create jtj_data --size 1 --region lhr
 ```
 
-Then uncomment the `[mounts]` block at the end of `fly.toml`. Without a volume, ratings are lost
+Then uncomment the `[mounts]` block at the end of `fly.toml` (done for judge-the-judge on 2026-10-29). Without a volume, ratings are lost
 whenever the machine restarts.
 
 ## 4. Deploy
@@ -63,7 +63,14 @@ fly scale count 1
 Run **exactly one machine**. Flet keeps each visitor's session in memory over a WebSocket, and the
 ratings database is a single SQLite file on the volume.
 
-## 5. Get the ratings back
+## 5. Anonymous usage counts
+
+The app logs anonymous usage (visits, pages viewed, phone vs desktop, challenge scores, protocol downloads)
+to `/data/usage.sqlite` on the same volume. No cookies, IP addresses or personal data (`src/jtj/app/usage.py`).
+Download `https://<your-app>.fly.dev/export/usage.zip` (password: `OWNER_CODE`): it holds `events.csv` and a
+plain-text `summary.txt`.
+
+## 6. Get the ratings back
 
 Either download the CSVs in the browser, from `https://<your-app>.fly.dev/export/ratings.zip`
 (password: `OWNER_CODE`), or copy the raw database:

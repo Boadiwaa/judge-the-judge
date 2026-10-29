@@ -14,6 +14,7 @@ from starlette.requests import Request
 
 from . import components as C
 from . import theme
+from . import usage
 from .data import load
 from .pages import about, explorer, overview, protocol, rate, scorecard
 
@@ -68,6 +69,12 @@ def main(page: ft.Page) -> None:
         ctx = C.Ctx(page=page, data=data, p=theme.palette(page), narrow=w < C.NARROW, go=go,
                     rerender=render, query=dict(parse_qsl(qs)), state=state, after=[])
         page.bgcolor = ctx.p.bg
+        if "visit" not in state:
+            state["visit"] = usage.new_visit()
+            usage.log_event(state["visit"], "visit", phone=ctx.narrow)
+        if state.get("last_route") != page.route:  # resizes and re-renders on the same page are not new views
+            state["last_route"] = page.route
+            usage.log_event(state["visit"], "page", route=page.route or "/", phone=ctx.narrow)
         side = 16 if ctx.narrow else 40
         inner = min(MAX_W, w - 2 * side)
         content = ft.Row([ft.Container(build_page_body(ctx, route), width=inner)],
@@ -146,11 +153,12 @@ def asgi_app():
         response = await call_next(request)
         if request.url.path.endswith(STATIC_SUFFIXES) and response.status_code == 200:
             response.headers.setdefault("Cache-Control", "public, max-age=86400")
+        if request.url.path == "/protocol.md" and response.status_code == 200:
+            usage.log_event("-", "download", route="/protocol.md")
         return response
 
-    @app.get("/export/ratings.zip")
-    async def export_ratings(request: Request):
-        """Owner-only CSV export. HTTP Basic auth (any username, password = OWNER_CODE), so the secret
+    def owner_only(request: Request, filename: str, make) -> Response:
+        """Owner-only export. HTTP Basic auth (any username, password = OWNER_CODE), so the secret
         never appears in a URL. Disabled when OWNER_CODE is unset."""
         expected = os.environ.get("OWNER_CODE", "")
         if not expected:
@@ -165,16 +173,25 @@ def asgi_app():
                 ok = False
         if not ok:
             return PlainTextResponse("Authentication required.", status_code=401,
-                                     headers={"WWW-Authenticate": 'Basic realm="ratings export"'})
-        from .rating_status import export_zip
-
-        return Response(export_zip(), media_type="application/zip",
-                        headers={"Content-Disposition": "attachment; filename=jtj_ratings.zip",
+                                     headers={"WWW-Authenticate": 'Basic realm="owner export"'})
+        return Response(make(), media_type="application/zip",
+                        headers={"Content-Disposition": f"attachment; filename={filename}",
                                  "Cache-Control": "no-store"})
 
-    # Flet mounts a catch-all static handler first; move our route ahead of it so it is reachable,
+    @app.get("/export/ratings.zip")
+    async def export_ratings(request: Request):
+        from .rating_status import export_zip
+
+        return owner_only(request, "jtj_ratings.zip", export_zip)
+
+    @app.get("/export/usage.zip")
+    async def export_usage(request: Request):
+        return owner_only(request, "jtj_usage.zip", usage.export_zip)
+
+    # Flet mounts a catch-all static handler first; move our routes ahead of it so they are reachable,
     # and drop FastAPI's auto-generated API docs, which this app doesn't need to expose
-    app.router.routes.insert(0, app.router.routes.pop())
+    ours = [r for r in app.router.routes if getattr(r, "path", "").startswith("/export/")]
+    app.router.routes[:] = ours + [r for r in app.router.routes if r not in ours]
     _drop_api_docs(app)
     app.add_middleware(GZipMiddleware, minimum_size=1024, compresslevel=6)
     return app

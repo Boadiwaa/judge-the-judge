@@ -20,6 +20,11 @@ ABOUT = [
     "doesn't test any company's product.",
 ]
 
+PRIVACY = ("This site counts anonymous usage so I can see how it is used: which pages are viewed, whether the "
+           "screen is phone-sized, and challenge scores. It sets no cookies and stores no IP addresses or other "
+           "personal data; each visit gets a random id that is never linked to you. Clinician ratings in rater mode "
+           "are stored separately and only with the initials and role raters enter.")
+
 NEXT = [
     ("Post-market surveillance with judges",
      "Run judges continuously over production notes, with drift monitoring on flag rates and error-type mix, so a "
@@ -51,4 +56,6 @@ def build(ctx: C.Ctx) -> ft.Control:
         C.eyebrow("About", ctx), C.h1("Why I built this", ctx) if not ctx.narrow else C.h2("Why I built this", ctx),
         C.card(ft.Column([C.body(p, ctx, size=16) for p in ABOUT] + [links], spacing=14), ctx, padding=28),
         C.h2("What I'd do next with production data", ctx), nxt,
+        C.card(ft.Column([C.h3("Privacy", ctx), C.body(PRIVACY, ctx, size=14, muted=True)], spacing=8), ctx,
+               padding=20),
     ], spacing=16)
