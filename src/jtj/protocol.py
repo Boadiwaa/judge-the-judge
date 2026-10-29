@@ -253,7 +253,8 @@ def sections(cases: list[Case]) -> list[tuple[str, str]]:
         "- [x] Statistical methods named, with uncertainty (Wilson, McNemar exact + Holm, κ, AC1/AC2, bootstrap)",
         "- [x] AI system described: model, version, decoding, prompts and hashes, failure handling",
         "- [x] Matching rule fixed before analysis; amendments recorded and dated",
-        "- [ ] Clinician review of cases and answer key (pending)",
+        "- [x] Clinician review of cases and answer key" if all(c.clinician_reviewed for c in cases)
+        else "- [ ] Clinician review of cases and answer key (pending)",
         "- [ ] Inter-rater reliability among clinicians (pending ratings)",
         "- [ ] Human factors: how judge output would be used in practice (out of scope for this pilot)",
     ])))
