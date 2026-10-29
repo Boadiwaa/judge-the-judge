@@ -216,7 +216,7 @@ def _agreement(ctx: C.Ctx) -> ft.Control:
                                        C.body(ci, ctx, size=12, muted=True)], spacing=2),
                             bgcolor=ctx.p.surface_alt, border_radius=10, padding=12, expand=True)
 
-    items: list[ft.Control] = [C.h3("Does the judge grade risk like the answer key?", ctx)]
+    items: list[ft.Control] = [C.h3("Does the judge grade severity like the answer key?", ctx)]
     for j in (["J2"] if not pj else [j for j in JUDGES if j in pj]):
         sev = pj.get(j, {}).get("severity_agreement", {})
         items.append(C.body(f"{JUDGES[j]}" + (f" · on {sev.get('n', 0)} detected errors" if pj else ""), ctx, size=13,

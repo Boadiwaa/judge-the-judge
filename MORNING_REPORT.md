@@ -66,9 +66,9 @@ J1 vs J0 is still significant (p_holm = 0.003), so the conclusion doesn't depend
 | Hallucinated finding | 3/15 |
 | Other fact omitted | **0/12** (no judge caught more than 1) |
 
-### Risk grading vs the answer key, on detected errors
+### Severity grading (1–5) vs the answer key, on detected errors
 
-Weighted κ is 0.37 for J0, 0.38 for J1 and 0.21 for J2. Gwet's AC2 is 0.75, 0.69 and 0.59 respectively. J1 and J2 grade risk about half a point lower than the key on average.
+Weighted κ is 0.37 for J0, 0.38 for J1 and 0.21 for J2. Gwet's AC2 is 0.75, 0.69 and 0.59 respectively. J1 and J2 grade severity about half a point lower than the key on average. (Likelihood, and so the full risk score, is not compared.)
 
 The confirmatory sample size for ±0.05 precision at p = 0.80 is still **246 high-risk errors**, so this pilot of 57 can only show large differences.
 
