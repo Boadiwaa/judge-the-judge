@@ -47,7 +47,7 @@ drug-name errors: post-market surveillance for the judge itself.
 
 **What they don't give:**
 
-- Planted errors may be easier than, or simply different from, the errors a real scribe makes, so sensitivity \
+- Planted errors may be easier than, or different from, the errors a real scribe makes, so sensitivity \
 here is likely an *upper bound* on real-world sensitivity for the same error types.
 - Error types that were not planted are not measured at all.
 - Modelling planted errors on reported real-world failure modes (drug-name confusions, negation flips) reduces \
