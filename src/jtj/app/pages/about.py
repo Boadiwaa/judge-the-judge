@@ -6,7 +6,6 @@ import flet as ft
 from .. import components as C
 
 GITHUB = "https://github.com/Boadiwaa"
-PREPRINT = "https://doi.org/10.1101/2024.04.17.24305971"
 
 ABOUT = [
     "I'm Paulina Mensah, a medical doctor and an engineer. I build software for clinical settings, and I care "
@@ -45,8 +44,6 @@ def build(ctx: C.Ctx) -> ft.Control:
     links = ft.Row([
         ft.OutlinedButton("GitHub · Boadiwaa", icon=ft.Icons.CODE, url=GITHUB,
                           style=ft.ButtonStyle(color=ctx.p.text, side=ft.BorderSide(1, ctx.p.border))),
-        ft.OutlinedButton("Preprint: LLMs for emergency medical help (medRxiv)", icon=ft.Icons.ARTICLE_OUTLINED,
-                          url=PREPRINT, style=ft.ButtonStyle(color=ctx.p.text, side=ft.BorderSide(1, ctx.p.border))),
     ], wrap=True, spacing=10, run_spacing=10)
     nxt = ft.ResponsiveRow([
         C.card(ft.Column([C.h3(t, ctx), C.body(b, ctx, size=14, muted=True)], spacing=8), ctx, padding=20,

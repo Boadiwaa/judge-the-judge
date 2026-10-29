@@ -79,7 +79,6 @@ Decisions made along the way are in [DECISIONS.md](DECISIONS.md).
 ## Links
 
 - Author: Dr Paulina Mensah · [github.com/Boadiwaa](https://github.com/Boadiwaa)
-- Related preprint: LLMs for emergency medical help, [doi:10.1101/2024.04.17.24305971](https://doi.org/10.1101/2024.04.17.24305971)
 
 ## Licence and citation
 
