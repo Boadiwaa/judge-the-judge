@@ -408,7 +408,7 @@
             54
           ],
           "seeded_severity": 4,
-          "seeded_likelihood": 2,
+          "seeded_likelihood": 3,
           "seeded_rationale": "The crisis plan was given verbally but is undocumented, so other services cannot see what was agreed or reinforce it.",
           "subtle": false,
           "description": "Crisis plan dropped"

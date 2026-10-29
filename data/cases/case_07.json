@@ -408,7 +408,7 @@
             56
           ],
           "seeded_severity": 5,
-          "seeded_likelihood": 2,
+          "seeded_likelihood": 3,
           "seeded_rationale": "VTE advice was given verbally, but its absence from the record means follow-up clinicians will not reinforce it or consider thromboprophylaxis if she is immobilised in a boot.",
           "subtle": false,
           "description": "VTE safety-netting on the combined pill dropped"

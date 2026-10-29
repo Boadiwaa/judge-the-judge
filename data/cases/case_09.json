@@ -354,7 +354,7 @@
             45
           ],
           "seeded_severity": 5,
-          "seeded_likelihood": 2,
+          "seeded_likelihood": 3,
           "seeded_rationale": "Emergency red-flag advice for a febrile under-5 (NICE NG143) is undocumented; if the child deteriorates, there is no record that the family knew when to call 999.",
           "subtle": false,
           "description": "Emergency red-flag advice for a febrile child dropped"

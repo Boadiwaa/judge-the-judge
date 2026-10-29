@@ -383,7 +383,7 @@
             49
           ],
           "seeded_severity": 4,
-          "seeded_likelihood": 2,
+          "seeded_likelihood": 3,
           "seeded_rationale": "Red-flag advice about haemoptysis and weight loss was given verbally but is undocumented, so it will not be reinforced and its absence is medicolegally significant.",
           "subtle": false,
           "description": "Red-flag safety-netting dropped"

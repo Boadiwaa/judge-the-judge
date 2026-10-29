@@ -310,7 +310,7 @@
             52
           ],
           "seeded_severity": 5,
-          "seeded_likelihood": 2,
+          "seeded_likelihood": 3,
           "seeded_rationale": "Cauda equina advice was given verbally, but without documentation it will not be reinforced, and delay in this emergency causes permanent harm.",
           "subtle": false,
           "description": "Cauda equina safety-netting dropped"

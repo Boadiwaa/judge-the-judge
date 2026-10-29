@@ -365,7 +365,7 @@
             49
           ],
           "seeded_severity": 4,
-          "seeded_likelihood": 2,
+          "seeded_likelihood": 3,
           "seeded_rationale": "Red-flag advice for bone tumour, infection and slipped upper femoral epiphysis was given but is undocumented.",
           "subtle": false,
           "description": "Red-flag safety-netting dropped"

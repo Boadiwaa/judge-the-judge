@@ -309,7 +309,7 @@
             46
           ],
           "seeded_severity": 5,
-          "seeded_likelihood": 2,
+          "seeded_likelihood": 3,
           "seeded_rationale": "A driver on a sulfonylurea with a recent severe hypo has no documented driving advice; a hypo at the wheel could be fatal to him or others.",
           "subtle": false,
           "description": "Driving and hypo advice dropped"

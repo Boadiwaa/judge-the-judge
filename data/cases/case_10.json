@@ -335,7 +335,7 @@
             41
           ],
           "seeded_severity": 5,
-          "seeded_likelihood": 2,
+          "seeded_likelihood": 3,
           "seeded_rationale": "Emergency advice for an infant with bronchiolitis, whose sibling had an apnoea, is undocumented; if he deteriorates there is no record the parents knew when to call 999.",
           "subtle": false,
           "description": "Emergency breathing advice dropped"

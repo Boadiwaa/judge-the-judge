@@ -325,7 +325,7 @@
             40
           ],
           "seeded_severity": 4,
-          "seeded_likelihood": 2,
+          "seeded_likelihood": 3,
           "seeded_rationale": "Eczema herpeticum needs urgent antiviral treatment; the advice was given but is undocumented.",
           "subtle": false,
           "description": "Eczema herpeticum safety-netting dropped"

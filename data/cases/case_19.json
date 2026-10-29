@@ -343,7 +343,7 @@
             42
           ],
           "seeded_severity": 5,
-          "seeded_likelihood": 2,
+          "seeded_likelihood": 3,
           "seeded_rationale": "Methotrexate toxicity advice was given verbally, but without documentation it may not be reinforced after the dose increase; marrow suppression and pneumonitis can be fatal.",
           "subtle": false,
           "description": "Methotrexate toxicity safety-netting dropped"

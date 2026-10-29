@@ -30,7 +30,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 - [ ] **Answer-key grading calls I was least sure of:**
   - `case_07_a_e2` penicillin allergy dropped (ED ankle): S4 × L4 = 16, Very high. I justified it via perioperative flucloxacillin if the fracture needs fixing. The mockup showed 20; is 16 right?
   - `case_13_a_e1` passive suicidal ideation recorded as denied: S5 × L3 = 15, High (just below Very high). Arguably L4.
-  - `case_09_b_e2` febrile-child red flags omitted: S5 × L2 = 10. Low likelihood because the advice was given verbally; check you agree with this reasoning, which I applied to all safety-netting omissions.
+  - ~~`case_09_b_e2` febrile-child red flags omitted: S5 × L2 = 10.~~ Decided 2026-10-29: L3 for all spoken-but-unrecorded safety-netting omissions.
 - [x] **Paediatric doses in case_09** Resolved 2026-10-29: weight (14 kg) now measured in the transcript and recorded in the examination. Original item: (3-year-old, assumed ~14 kg; weight is not stated in the transcript): paracetamol 180 mg QDS, ibuprofen 100 mg TDS, amoxicillin 250 mg TDS × 5 days (NICE NG91 back-up). Should the clinician state the weight?
 - [ ] **Apixaban dosing logic in case_17** (age 72, 58 kg, creatinine 98 → 5 mg BD, none of the dose-reduction criteria met).
 - [ ] **Nitrofurantoin in possible early pregnancy (case_21).** The clinician says it is suitable early in pregnancy, avoids trimethoprim implicitly and defers ibuprofen. Check the wording matches current UKHSA/BNF guidance.
@@ -75,4 +75,4 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 - [x] case_14: sertraline → Seroquel kept as is.
 - [x] case_05: amlodipine → amiloride L3 → **L4** (16, Very high). Antiplatelet question: keep as is.
 - [x] case_09: weight added (14 kg at examination).
-- [ ] case_09: safety-netting omission likelihood (L2) — explained; awaiting your call.
+- [x] Safety-netting omissions where the advice was spoken but not recorded: L2 → **L3** for all ten (case_01_b_e2, 02_a_e2, 03_a_e3, 07_b_e3, 09_b_e2, 10_b_e3, 11_b_e3, 12_b_e3, 13_b_e3, 19_b_e3). Later readers (GP, 111, medicolegal review) only have the note, and parents forget verbal advice. Severity 4 becomes 12, severity 5 becomes 15; all High.
