@@ -1,0 +1,358 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient is presenting with diarrhoea and vomiting for two days."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient has experienced vomiting twice this morning and no vomiting since lunch."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient has had four to five loose stools today."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient has no blood in her stools."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient experiences crampy abdominal pain before defecation."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has poor oral intake."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient last passed dark urine this morning."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient experiences postural dizziness."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient has no falls (the fall mentioned by her son was a neighbour's)."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The district nurse dresses a sore on the patient's left heel twice weekly."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed Metformin 500 mg twice daily."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed Ramipril 5 mg once daily."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed Furosemide 40 mg each morning."
+   },
+   {
+    "id": "c14",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed Atorvastatin at night."
+   },
+   {
+    "id": "c15",
+    "section": "Medications and allergies",
+    "claim": "The patient has codeine intolerance (vomiting)."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "The consultation was a telephone consultation and no physical examination was performed."
+   },
+   {
+    "id": "c17",
+    "section": "Impression",
+    "claim": "The clinical impression is probable infective gastroenteritis with dehydration in an 85-year-old on metformin, an ACE inhibitor, and a loop diuretic, with a risk of acute kidney injury."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The plan is to temporarily stop metformin, ramipril, and furosemide until the patient is eating and drinking normally for 24\u201348 hours, while continuing atorvastatin."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The plan includes small, frequent fluids and oral rehydration sachets."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "A U&E blood test is scheduled for tomorrow, to be taken by the district nurse during the heel dressing visit."
+   },
+   {
+    "id": "c21",
+    "section": "Safety-netting",
+    "claim": "Safety netting advises calling 111 (or 999 if very unwell) if the patient cannot keep fluids down, becomes confused or very drowsy, passes no urine for 12 hours, or sees blood in the diarrhoea."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     3
+    ],
+    "fact": "Clinician is Dr Osei from the surgery.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     4
+    ],
+    "fact": "Martin is present and on the speakerphone.",
+    "about": "other"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     7
+    ],
+    "fact": "Patient's date of birth is Third of March, 1941.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     9
+    ],
+    "fact": "Patient reports having the runs and being sick, and feeling washed out.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     11
+    ],
+    "fact": "Symptoms have been ongoing for two days, since Monday.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     13
+    ],
+    "fact": "Patient has been sick twice this morning, and nothing since lunch.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     15
+    ],
+    "fact": "Patient reports having four or five times diarrhoea today.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     17
+    ],
+    "fact": "Patient reports no blood in the diarrhoea.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     19
+    ],
+    "fact": "Patient is only managing sips of water and does not fancy much.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     20
+    ],
+    "fact": "Relative reports the patient has barely touched her tea all day.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     22
+    ],
+    "fact": "Patient last passed urine this morning, and it was dark.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     24
+    ],
+    "fact": "Patient feels a bit dizzy when standing up and holds onto furniture.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     27
+    ],
+    "fact": "Patient denies having fallen, stating the fall mentioned by her son was Mrs Jenkins next door's.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     28
+    ],
+    "fact": "Relative corrects the patient's statement, confirming the fall was Mrs Jenkins's.",
+    "about": "relative"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     30
+    ],
+    "fact": "Patient reports just crampy before going.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     32
+    ],
+    "fact": "Relative reports the patient is tired but making sense.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     34
+    ],
+    "fact": "Patient takes Metformin 500 mg twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     36
+    ],
+    "fact": "Patient takes Ramipril.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     38
+    ],
+    "fact": "Patient takes Furosemide 40 mg, correcting the initial statement of two tablets to one.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     39
+    ],
+    "fact": "Patient takes one 40 milligram tablet of Furosemide each morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     40
+    ],
+    "fact": "Patient takes Atorvastatin at night.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     42
+    ],
+    "fact": "Patient reports codeine intolerance because it makes her very sick.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     44
+    ],
+    "fact": "The district nurse dresses a sore on the patient's left heel twice a week.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     45
+    ],
+    "fact": "Clinician suggests the symptoms sound like a tummy bug and expresses concern about dehydration and kidney effects of medications.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     47
+    ],
+    "fact": "Clinician plans to temporarily stop Metformin, Ramipril, and Furosemide, restarting them after 24 to 48 hours of normal eating and drinking, and continuing Atorvastatin.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     49
+    ],
+    "fact": "Clinician advises the patient to try to drink small amounts often, a few mouthfuls every 10 to 15 minutes, and suggests rehydration sachets.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     51
+    ],
+    "fact": "Clinician plans a blood test tomorrow to check kidneys, and will ask the district nurse to take it during the heel dressing visit.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     53
+    ],
+    "fact": "Safety netting advises calling 111 (or 999 if very unwell) if the patient cannot keep fluids down, becomes confused or very drowsy, passes no urine for 12 hours, or sees blood in the diarrhoea.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"The clinical impression is probable infective gastroenteritis with dehydration in an 85-year-old on metformin, an ACE inhibitor and a loop diuretic; risk of acute kidney injury.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The patient's age (85) is a relevant demographic detail for risk stratification and was omitted from the clinical impression.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Impression",
+    "note_span": "The clinical impression is probable infective gastroenteritis with dehydration in an 85-year-old on metformin, an ACE inhibitor and a loop diuretic; risk of acute kidney injury.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The patient's age (85) is a relevant demographic detail for risk stratification and was omitted from the clinical impression."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

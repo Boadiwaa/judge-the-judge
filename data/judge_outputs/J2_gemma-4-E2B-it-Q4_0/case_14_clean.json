@@ -1,0 +1,343 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "Panic attacks have been occurring for four months."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "Recurrent panic attacks include palpitations, breathlessness, hand tingling, and fear of dying."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Panic attacks last approximately ten minutes."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Frequency of attacks is two to three times a week and is increasing."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "Patient experiences anticipatory anxiety and generalized worry."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "Patient avoids supermarkets and the Underground."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "Sleep is satisfactory."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "Mood is 'fed up' but not depressed."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "Patient denies any thoughts of self-harm or suicide."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "Caffeine intake is about six coffees a day (initially stated as four)."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "Alcohol intake is a couple of glasses of wine at the weekend."
+   },
+   {
+    "id": "c12",
+    "section": "History",
+    "claim": "Patient reports no drug use."
+   },
+   {
+    "id": "c13",
+    "section": "History",
+    "claim": "Patient works in marketing and has no time off."
+   },
+   {
+    "id": "c14",
+    "section": "History",
+    "claim": "Partner is off work with stress and has a GP appointment."
+   },
+   {
+    "id": "c15",
+    "section": "History",
+    "claim": "Thyroid function was normal last month."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "GAD-7 score is 15."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "PHQ-9 score is 8."
+   },
+   {
+    "id": "c18",
+    "section": "Impression",
+    "claim": "Diagnosis is panic disorder with agoraphobic avoidance and generalized anxiety symptoms."
+   },
+   {
+    "id": "c19",
+    "section": "Impression",
+    "claim": "No risk to self identified."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "Treatment involves self-referral for CBT (Cognitive Behavioural Therapy)."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "Medication plan is to start sertraline 25 mg once daily for one week, then increase to 50 mg once daily."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "Patient was warned that the medication might make anxiety worse initially."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "Follow-up is scheduled in two weeks after starting sertraline."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "Patient is advised to reduce caffeine gradually."
+   },
+   {
+    "id": "c25",
+    "section": "Safety-netting",
+    "claim": "If thoughts of self-harm occur, the patient should call 111 (mental health option) or the Samaritans on 116 123."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     2
+    ],
+    "fact": "Patient is present with his partner, Tom, for support.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     5
+    ],
+    "fact": "Patient consents to the partner being present during the talk.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     7
+    ],
+    "fact": "Patient reports having panic attacks 'out of nowhere' involving heart racing, breathlessness, hand tingling, and fear of dying.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     9
+    ],
+    "fact": "Panic attacks have been occurring for about four months, since the start of summer.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     11
+    ],
+    "fact": "The frequency of attacks is two or three times a week and is getting worse.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     13
+    ],
+    "fact": "Each attack lasts about ten minutes, but the patient feels wiped out afterward.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     15
+    ],
+    "fact": "Patient avoids supermarkets and the Underground.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     15
+    ],
+    "fact": "Tom (partner) does all the shopping.",
+    "about": "other"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     18
+    ],
+    "fact": "Patient experiences constant worry about work, money, and everything else.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     20
+    ],
+    "fact": "Patient reports sleep is okay and they get off to sleep fine.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     22
+    ],
+    "fact": "Patient describes their mood as 'a bit fed up' but denies being depressed.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     24
+    ],
+    "fact": "Patient denies having any thoughts of harming themselves or ending their life.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     26
+    ],
+    "fact": "Patient consumes about four coffees a day, or six if counting those at work.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     28
+    ],
+    "fact": "Patient consumes a couple of glasses of wine at the weekend.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     30
+    ],
+    "fact": "Patient reports no drug use.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     32
+    ],
+    "fact": "Patient works in marketing and has not had any time off.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     33
+    ],
+    "fact": "Relative is off work due to stress and has a GP appointment.",
+    "about": "relative"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     37
+    ],
+    "fact": "Patient reports no problems with heart or thyroid, and the thyroid was normal last month.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     39
+    ],
+    "fact": "Patient reports no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     40
+    ],
+    "fact": "Questionnaire scores are GAD-7: 15 and PHQ-9: 8, fitting significant anxiety with panic disorder rather than depression.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     42
+    ],
+    "fact": "The treatment with the best evidence for panic disorder is a talking therapy called CBT.",
+    "about": "clinician"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     44
+    ],
+    "fact": "The clinician suggested trying an SSRI called sertraline alongside therapy.",
+    "about": "clinician"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     46
+    ],
+    "fact": "The medication plan is to start 25 milligrams once a day for a week, then increase to 50 milligrams once a day.",
+    "about": "clinician"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     48
+    ],
+    "fact": "The clinician scheduled a follow-up appointment in two weeks.",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     52
+    ],
+    "fact": "Safety-netting advice is to call 111 (mental health option) or the Samaritans on 116 123 if thoughts of self-harm occur.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

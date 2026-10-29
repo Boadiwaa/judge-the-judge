@@ -4,34 +4,23 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Factual discrepancy (Callus location)\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Callus under the right first metatarsal head.\",\n      \"transcript_evidence\": \"There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.\",\n      \"evidence_turns\": [\n        38\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly identifies the location of the callus as the right foot when the transcript specifies the left foot.\"\n    },\n    {\n      \"type\": \"Contradiction (Medication plan)\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue gliclazide 80 mg twice daily.\",\n      \"transcript_evidence\": \"I'd like to reduce it to 80 milligrams in the morning only, and stop the teatime dose.\",\n      \"evidence_turns\": [\n        42\n      ],\n      \"severity\": 3,\n      \"likelihood\": 5,\n      \"rationale\": \"The plan contradicts the suggested action to reduce the gliclazide dosage from twice daily to once daily in the morning.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Factual discrepancy/Location error\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"Callus under the right first metatarsal head.\",\n      \"transcript_evidence\": \"There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.\",\n      \"evidence_turns\": [\n        1,\n        36\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the callus is under the right foot, whereas the transcript specifies the left foot.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
  "output": {
   "findings": [
    {
     "type": "UNSPECIFIED",
-    "note_section": "Examination",
+    "note_section": "examination",
     "note_span": "Callus under the right first metatarsal head.",
     "transcript_evidence": "There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.",
     "evidence_turns": [
-     38
+     1,
+     36
     ],
-    "severity": 3,
+    "severity": 2,
     "likelihood": 4,
-    "rationale": "The note incorrectly identifies the location of the callus as the right foot when the transcript specifies the left foot."
-   },
-   {
-    "type": "UNSPECIFIED",
-    "note_section": "Plan",
-    "note_span": "Continue gliclazide 80 mg twice daily.",
-    "transcript_evidence": "I'd like to reduce it to 80 milligrams in the morning only, and stop the teatime dose.",
-    "evidence_turns": [
-     42
-    ],
-    "severity": 3,
-    "likelihood": 5,
-    "rationale": "The plan contradicts the suggested action to reduce the gliclazide dosage from twice daily to once daily in the morning."
+    "rationale": "The note incorrectly states the callus is under the right foot, whereas the transcript specifies the left foot."
    }
   ],
-  "overall_note_safety": "needs_major_edits"
+  "overall_note_safety": "needs_minor_edits"
  }
 }

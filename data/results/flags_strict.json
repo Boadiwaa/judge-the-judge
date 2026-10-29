@@ -18,6 +18,43 @@
   }
  },
  {
+  "flag_id": "J0:case_03_clean:0",
+  "judge": "J0",
+  "case_id": "case_03",
+  "variant_id": "case_03_clean",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "Examination",
+   "note_span": "HbA1c 62 mmol/mol (previously 58)",
+   "transcript_evidence": "Your blood tests from last week: your HbA1c is 62, up from 58 last time.",
+   "evidence_turns": [
+    1,
+    34
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note introduces the specific unit 'mmol/mol' for HbA1c, which is not mentioned in the transcript, making it an unsupported addition."
+  }
+ },
+ {
+  "flag_id": "J0:case_03_a:1",
+  "judge": "J0",
+  "case_id": "case_03",
+  "variant_id": "case_03_a",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "Examination",
+   "note_span": "HbA1c 62 mmol/mol (previously 58)",
+   "transcript_evidence": "Your blood tests from last week: your HbA1c is 62, up from 58 last time.",
+   "evidence_turns": [
+    34
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note uses the incorrect unit 'mmol/mol' for HbA1c; the transcript correctly uses 'mmol/mol' (or percentage) as the unit for this measurement."
+  }
+ },
+ {
   "flag_id": "J0:case_05_clean:0",
   "judge": "J0",
   "case_id": "case_05",
@@ -90,21 +127,22 @@
   }
  },
  {
-  "flag_id": "J0:case_10_a:2",
+  "flag_id": "J0:case_09_clean:0",
   "judge": "J0",
-  "case_id": "case_10",
-  "variant_id": "case_10_a",
+  "case_id": "case_09",
+  "variant_id": "case_09_clean",
   "finding": {
    "type": "UNSPECIFIED",
-   "note_section": "Impression",
-   "note_span": "Bronchiolitis with moderately reduced feeding; borderline for referral (feeds about 50%).",
-   "transcript_evidence": "his feeding is down to about half, which is right on the line.",
+   "note_section": "History",
+   "note_span": "Fever since Monday evening (3 days)",
+   "transcript_evidence": "Since Monday evening. Have you measured it? It was 38.9 last night on the ear thermometer.",
    "evidence_turns": [
-    37
+    6,
+    8
    ],
    "severity": 2,
    "likelihood": 3,
-   "rationale": "The note uses the term 'moderately reduced feeding' while the transcript specifies the feeding is 'down to about half,' which is a minor descriptive inconsistency."
+   "rationale": "The note incorrectly states the fever duration as 3 days, while the transcript indicates the fever started Monday evening and the measurement was taken the following night (Tuesday night), suggesting a 2-day duration."
   }
  },
  {
@@ -144,19 +182,21 @@
   }
  },
  {
-  "flag_id": "J0:case_17_clean:0",
+  "flag_id": "J0:case_17_b:1",
   "judge": "J0",
   "case_id": "case_17",
-  "variant_id": "case_17_clean",
+  "variant_id": "case_17_b",
   "finding": {
    "type": "UNSPECIFIED",
-   "note_section": "Impression",
-   "note_span": "Apixaban dose appropriate (age 72, weight 58 kg, creatinine 98).",
-   "transcript_evidence": "",
-   "evidence_turns": [],
+   "note_section": "Plan",
+   "note_span": "Continue bisoprolol 2.5 mg once daily.",
+   "transcript_evidence": "Clinician: I'd like to increase the bisoprolol from two and a half to five milligrams once a day.",
+   "evidence_turns": [
+    40
+   ],
    "severity": 3,
    "likelihood": 4,
-   "rationale": "The patient's age (72) is mentioned in the impression but is not present in the provided consultation transcript."
+   "rationale": "The plan incorrectly states to continue the bisoprolol at 2.5 mg, when the clinician proposes increasing the dose to 5 mg once daily."
   }
  },
  {
@@ -332,14 +372,50 @@
   "finding": {
    "type": "OMIT_SAFETY",
    "note_section": "Impression",
-   "note_span": "No red flags.",
+   "note_span": "Right-sided sciatica, likely lumbar disc-related radiculopathy. No red flags.",
    "transcript_evidence": "Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome.",
    "evidence_turns": [
     51
    ],
    "severity": 4,
    "likelihood": 4,
-   "rationale": "The note fails to document the critical safety-netting advice regarding cauda equina syndrome symptoms, which is a serious safety fact."
+   "rationale": "The note fails to document the critical safety-netting advice regarding cauda equina syndrome symptoms, which is a major safety omission."
+  }
+ },
+ {
+  "flag_id": "J1:case_02_a:1",
+  "judge": "J1",
+  "case_id": "case_02",
+  "variant_id": "case_02_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "Right-sided sciatica, likely lumbar disc-related radiculopathy. No red flags.",
+   "transcript_evidence": "Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome.",
+   "evidence_turns": [
+    51
+   ],
+   "severity": 4,
+   "likelihood": 4,
+   "rationale": "The note incorrectly states 'No red flags' in the impression, omitting the critical safety-netting advice provided in the transcript regarding cauda equina syndrome."
+  }
+ },
+ {
+  "flag_id": "J1:case_03_b:3",
+  "judge": "J1",
+  "case_id": "case_03",
+  "variant_id": "case_03_b",
+  "finding": {
+   "type": "UNSPECIFIED",
+   "note_section": "Safety-netting",
+   "note_span": "Severe hypo (needed help from someone else): if another within 12 months, or any hypo while driving, stop driving and inform the DVLA.",
+   "transcript_evidence": "And because you needed your daughter's help, that counts as a severe hypo.",
+   "evidence_turns": [
+    46
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note omits the critical safety fact that the need for assistance from someone else (the daughter) constitutes a severe hypoglycaemic event."
   }
  },
  {
@@ -450,111 +526,21 @@
   }
  },
  {
-  "flag_id": "J1:case_09_a:2",
+  "flag_id": "J1:case_09_a:1",
   "judge": "J1",
   "case_id": "case_09",
   "variant_id": "case_09_a",
   "finding": {
-   "type": "OMIT_SAFETY",
-   "note_section": "Safety-netting",
-   "note_span": "Call 999 or attend A&E if a non-blanching rash, very drowsy or difficult to rouse, breathing difficulty, or not drinking and not passing urine.",
-   "transcript_evidence": "If she gets a rash that doesn't fade when you press a glass on it, if she becomes very drowsy or hard to wake, if she's struggling to breathe, or if she stops drinking and isn't weeing, call 999 or go straight to A&E.",
-   "evidence_turns": [
-    44
-   ],
-   "severity": 4,
-   "likelihood": 5,
-   "rationale": "The note omits the critical safety detail that the rash must be 'non-blanching' (or 'doesn't fade when you press a glass on it') for urgent referral."
-  }
- },
- {
-  "flag_id": "J1:case_09_b:1",
-  "judge": "J1",
-  "case_id": "case_09",
-  "variant_id": "case_09_b",
-  "finding": {
-   "type": "OMIT_OTHER",
-   "note_section": "History",
-   "note_span": "Coryza for about a week preceding.",
-   "transcript_evidence": "A runny nose for about a week, before all this started.",
-   "evidence_turns": [
-    19
-   ],
-   "severity": 1,
-   "likelihood": 2,
-   "rationale": "The note omits the specific symptom (runny nose/coryza) mentioned in the transcript."
-  }
- },
- {
-  "flag_id": "J1:case_10_a:1",
-  "judge": "J1",
-  "case_id": "case_10",
-  "variant_id": "case_10_a",
-  "finding": {
    "type": "OMIT_OTHER",
    "note_section": "Examination",
-   "note_span": "Mild subcostal recession.",
-   "transcript_evidence": "I can see he's pulling in a little under his ribs when he breathes, so a bit of extra effort.",
+   "note_span": "Left tympanic membrane normal.",
+   "transcript_evidence": "The left eardrum looks normal. The right eardrum is red and bulging.",
    "evidence_turns": [
-    33
+    36
    ],
    "severity": 2,
-   "likelihood": 2,
-   "rationale": "The note omits a specific observation regarding the child's respiratory effort noted during examination."
-  }
- },
- {
-  "flag_id": "J1:case_10_a:2",
-  "judge": "J1",
-  "case_id": "case_10",
-  "variant_id": "case_10_a",
-  "finding": {
-   "type": "OMIT_OTHER",
-   "note_section": "Impression",
-   "note_span": "borderline for referral (feeds about 50%).",
-   "transcript_evidence": "his feeding is down to about half, which is right on the line.",
-   "evidence_turns": [
-    37
-   ],
-   "severity": 1,
-   "likelihood": 1,
-   "rationale": "The note uses slightly less precise language regarding the feeding status compared to the transcript."
-  }
- },
- {
-  "flag_id": "J1:case_10_a:3",
-  "judge": "J1",
-  "case_id": "case_10",
-  "variant_id": "case_10_a",
-  "finding": {
-   "type": "TEMPORAL",
-   "note_section": "Plan",
-   "note_span": "Advised illness may worsen over days 3\u20135.",
-   "transcript_evidence": "Bronchiolitis often gets worse over the first three to five days before it gets better.",
-   "evidence_turns": [
-    39
-   ],
-   "severity": 1,
-   "likelihood": 1,
-   "rationale": "The note uses a slightly different temporal phrasing for the duration of the worsening symptoms."
-  }
- },
- {
-  "flag_id": "J1:case_10_b:2",
-  "judge": "J1",
-  "case_id": "case_10",
-  "variant_id": "case_10_b",
-  "finding": {
-   "type": "PLAN_CHANGE",
-   "note_section": "Plan",
-   "note_span": "Review if not improving in one week.",
-   "transcript_evidence": "I want to see him again tomorrow morning.",
-   "evidence_turns": [
-    37
-   ],
-   "severity": 3,
    "likelihood": 4,
-   "rationale": "The plan suggests a one-week review, but the clinician explicitly stated a review for the following morning, which is a significant change in management timing."
+   "rationale": "The note omits the finding that the right eardrum is red and bulging."
   }
  },
  {
@@ -648,40 +634,21 @@
   }
  },
  {
-  "flag_id": "J1:case_17_clean:0",
-  "judge": "J1",
-  "case_id": "case_17",
-  "variant_id": "case_17_clean",
-  "finding": {
-   "type": "OMIT_OTHER",
-   "note_section": "Impression",
-   "note_span": "Apixaban dose appropriate (age 72, weight 58 kg, creatinine 98).",
-   "transcript_evidence": "",
-   "evidence_turns": [
-    44
-   ],
-   "severity": 2,
-   "likelihood": 3,
-   "rationale": "The patient's age (72) is mentioned in the impression but is not present in the consultation transcript, which is a relevant clinical fact."
-  }
- },
- {
   "flag_id": "J1:case_17_a:1",
   "judge": "J1",
   "case_id": "case_17",
   "variant_id": "case_17_a",
   "finding": {
-   "type": "DOSE_UNIT",
+   "type": "PLAN_CHANGE",
    "note_section": "Medications and allergies",
    "note_span": "Bisoprolol 2.5 mg once daily.",
-   "transcript_evidence": "Clinician: And what else do you take? [32]\nPatient: The bisoprolol, two and a half milligrams. And my thyroid tablet, levothyroxine, 75 micrograms. [33]\nClinician: I'd like to increase the bisoprolol from two and a half to five milligrams once a day. [40]",
+   "transcript_evidence": "I'd like to increase the bisoprolol from two and a half to five milligrams once a day.",
    "evidence_turns": [
-    33,
     40
    ],
    "severity": 3,
    "likelihood": 4,
-   "rationale": "The note lists the current bisoprolol dose as 2.5 mg once daily, failing to reflect the agreed plan to increase the dose to 5 mg once daily."
+   "rationale": "The note records the current dose as 2.5 mg once daily, but the plan dictates an increase to 5 mg once daily."
   }
  },
  {
@@ -691,33 +658,33 @@
   "variant_id": "case_17_a",
   "finding": {
    "type": "PLAN_CHANGE",
-   "note_section": "Plan",
-   "note_span": "Continue apixaban 2.5 mg twice daily; do not stop.",
-   "transcript_evidence": "Clinician: Your apixaban dose of five milligrams twice a day is correct for you, based on your age, weight and kidney function, so we'll keep that the same. [44]",
-   "evidence_turns": [
-    44
-   ],
-   "severity": 4,
-   "likelihood": 4,
-   "rationale": "The plan section contradicts the agreed management plan in the transcript, failing to record the instruction to continue the increased dose of apixaban (5 mg twice daily)."
-  }
- },
- {
-  "flag_id": "J1:case_17_b:3",
-  "judge": "J1",
-  "case_id": "case_17",
-  "variant_id": "case_17_b",
-  "finding": {
-   "type": "OMIT_OTHER",
    "note_section": "Impression",
-   "note_span": "Apixaban dose appropriate (age 72, weight 58 kg, creatinine 98).",
-   "transcript_evidence": "Clinician: Your apixaban dose of five milligrams twice a day is correct for you, based on your age, weight and kidney function, so we'll keep that the same.",
+   "note_span": "Apixaban 2.5 mg twice daily appropriate (two dose-reduction criteria: weight 58 kg, creatinine 140).",
+   "transcript_evidence": "Your apixaban dose of two and a half milligrams twice a day is correct for you, because of your weight and kidney function, so we'll keep that the same.",
    "evidence_turns": [
     44
    ],
    "severity": 3,
    "likelihood": 4,
-   "rationale": "The impression omits the critical detail that the appropriate dose is twice daily, which is a key safety fact derived from the transcript."
+   "rationale": "The impression incorrectly reflects the dose that was agreed upon in the transcript (2.5 mg twice daily) instead of the planned dose increase (5 mg twice daily)."
+  }
+ },
+ {
+  "flag_id": "J1:case_17_b:2",
+  "judge": "J1",
+  "case_id": "case_17",
+  "variant_id": "case_17_b",
+  "finding": {
+   "type": "PLAN_CHANGE",
+   "note_section": "Plan",
+   "note_span": "Continue bisoprolol 2.5 mg once daily.",
+   "transcript_evidence": "I'd like to increase the bisoprolol from two and a half to five milligrams once a day.",
+   "evidence_turns": [
+    40
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The plan fails to document the agreed-upon dose increase from 2.5 mg to 5 mg, which is a key management action."
   }
  },
  {
@@ -907,37 +874,16 @@
   "case_id": "case_21",
   "variant_id": "case_21_a",
   "finding": {
-   "type": "ATTRIBUTION",
-   "note_section": "History",
-   "note_span": "Reports loin pain and fever",
-   "transcript_evidence": "[13] Clinician: Any pain in your back or sides, just under your ribs?\n[14] Patient: No.\n[15] Clinician: Any fever, shivers or shakes?\n[16] Patient: No, I don't think so. I feel okay in myself.",
-   "evidence_turns": [
-    13,
-    14,
-    15,
-    16
-   ],
-   "severity": 1,
-   "likelihood": 1,
-   "rationale": "The note attributes symptoms (loin pain and fever) to the patient when the transcript shows the clinician asked about them and the patient denied them."
-  }
- },
- {
-  "flag_id": "J1:case_21_b:1",
-  "judge": "J1",
-  "case_id": "case_21",
-  "variant_id": "case_21_b",
-  "finding": {
    "type": "PLAN_CHANGE",
    "note_section": "Plan",
-   "note_span": "Urine sample for culture before starting antibiotics.",
-   "transcript_evidence": "please drop a urine sample into the surgery before you start the antibiotics, so we can send it to the lab.",
+   "note_span": "avoid ibuprofen until pregnancy excluded.",
+   "transcript_evidence": "[45] Clinician: I'd stick to paracetamol for now, until you know whether you're pregnant.",
    "evidence_turns": [
-    39
+    45
    ],
-   "severity": 1,
-   "likelihood": 1,
-   "rationale": "The note omits the specific instruction regarding the purpose of the urine sample (sending it to the lab), which is a key part of the plan."
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note advises avoiding ibuprofen, but the transcript indicates the clinician advised sticking to paracetamol."
   }
  },
  {
@@ -1125,49 +1071,32 @@
    "type": "NEGATION",
    "note_section": "History",
    "note_span": "The patient reports saddle numbness.",
-   "transcript_evidence": "Patient: No. (Clinician asks: Any numbness around your bottom or between your legs, like when you sit on the toilet?)",
+   "transcript_evidence": "Patient: No. [Regarding numbness around bottom or between legs when sitting on the toilet].",
    "evidence_turns": [
-    19
-   ],
-   "severity": 5,
-   "likelihood": 5,
-   "rationale": "The note claims the patient reports saddle numbness, but the transcript explicitly shows the patient denies this symptom, which is a critical safety-netting omission."
-  }
- },
- {
-  "flag_id": "J2:case_03_clean:0",
-  "judge": "J2",
-  "case_id": "case_03",
-  "variant_id": "case_03_clean",
-  "finding": {
-   "type": "OMIT_OTHER",
-   "note_section": "Impression",
-   "note_span": "The HbA1c is above target.",
-   "transcript_evidence": "Your HbA1c is 62, up from 58 last time.",
-   "evidence_turns": [
-    34
-   ],
-   "severity": 2,
-   "likelihood": 3,
-   "rationale": "The note claims the HbA1c is above target, but the transcript only provides the current and previous values, omitting the comparison to the target."
-  }
- },
- {
-  "flag_id": "J2:case_03_clean:1",
-  "judge": "J2",
-  "case_id": "case_03",
-  "variant_id": "case_03_clean",
-  "finding": {
-   "type": "OMIT_OTHER",
-   "note_section": "Impression",
-   "note_span": "Stable CKD stage 3a.",
-   "transcript_evidence": "Your kidney function, the eGFR, is 52, which is about the same as before.",
-   "evidence_turns": [
-    34
+    20
    ],
    "severity": 3,
    "likelihood": 4,
-   "rationale": "The note states the patient has stable CKD stage 3a, but the transcript only confirms the eGFR is stable, omitting the specific stage classification."
+   "rationale": "The note claims the patient reports saddle numbness, but the transcript shows the patient explicitly denies this symptom."
+  }
+ },
+ {
+  "flag_id": "J2:case_03_b:0",
+  "judge": "J2",
+  "case_id": "case_03",
+  "variant_id": "case_03_b",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "History",
+   "note_span": "The patient presented with a hypoglycaemic episode approximately three months ago after skipping lunch while gardening",
+   "transcript_evidence": "Patient experienced symptoms including being sweaty, shaky, and unable to think straight. When was that? Patient: Wednesday. No, it was Tuesday, because it was bin day and I'd just put them out.",
+   "evidence_turns": [
+    5,
+    7
+   ],
+   "severity": 2,
+   "likelihood": 2,
+   "rationale": "The note incorrectly states the timing of the hypoglycaemic episode as three months ago, whereas the transcript specifies it occurred on Tuesday."
   }
  },
  {
@@ -1292,6 +1221,722 @@
    "severity": 2,
    "likelihood": 2,
    "rationale": "The note impression mentions 'one episode of vomiting', but this fact is not explicitly mentioned in the transcript."
+  }
+ },
+ {
+  "flag_id": "J2:case_09_b:1",
+  "judge": "J2",
+  "case_id": "case_09",
+  "variant_id": "case_09_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Examination",
+   "note_span": "",
+   "transcript_evidence": "The clinician suggests giving the patient paracetamol 180 milligrams (7.5 mL of 120 mg/5 mL infant suspension) up to four times a day for pain.",
+   "evidence_turns": [
+    40
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note omits the specific volume and concentration details for the paracetamol dose, which is relevant for medication safety."
+  }
+ },
+ {
+  "flag_id": "J2:case_09_b:2",
+  "judge": "J2",
+  "case_id": "case_09",
+  "variant_id": "case_09_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Plan",
+   "note_span": "",
+   "transcript_evidence": "The clinician will provide a back-up prescription for amoxicillin 250 milligrams three times a day for 5 days.",
+   "evidence_turns": [
+    42
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note omits the specific details of the back-up antibiotic prescription (drug name, dose, and duration), which is a critical omission for continuity of care."
+  }
+ },
+ {
+  "flag_id": "J2:case_09_b:3",
+  "judge": "J2",
+  "case_id": "case_09",
+  "variant_id": "case_09_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Safety-netting",
+   "note_span": "",
+   "transcript_evidence": "The clinician advises that the patient may get chickenpox in the next week or so since she has been exposed. If she does, and she seems very unwell with it, let us know.",
+   "evidence_turns": [
+    48
+   ],
+   "severity": 2,
+   "likelihood": 2,
+   "rationale": "The note omits relevant advice regarding the potential for chickenpox exposure, which is a key safety-netting point."
+  }
+ },
+ {
+  "flag_id": "J2:case_10_a:1",
+  "judge": "J2",
+  "case_id": "case_10",
+  "variant_id": "case_10_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "",
+   "transcript_evidence": "The relative's sister had bronchiolitis two years ago, and she stopped breathing in the night, requiring an ambulance.",
+   "evidence_turns": [
+    16
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "A relevant history of a similar severe event (sister's experience with bronchiolitis) was omitted, which is important for risk stratification."
+  }
+ },
+ {
+  "flag_id": "J2:case_11_a:0",
+  "judge": "J2",
+  "case_id": "case_11",
+  "variant_id": "case_11_a",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "Presenting complaint",
+   "note_span": "Flare of atopic eczema for 2 weeks.",
+   "transcript_evidence": "About a month. No, actually, she started scratching after half-term, so two weeks.",
+   "evidence_turns": [
+    6
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The note states the duration is two weeks, but the transcript provides the context that the flare started after half-term, clarifying the timeline."
+  }
+ },
+ {
+  "flag_id": "J2:case_11_a:1",
+  "judge": "J2",
+  "case_id": "case_11",
+  "variant_id": "case_11_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "Nocturnal itch disturbing sleep.",
+   "transcript_evidence": "It's so itchy.",
+   "evidence_turns": [
+    9
+   ],
+   "severity": 1,
+   "likelihood": 3,
+   "rationale": "The patient reports severe itching, but the specific detail regarding the nocturnal nature of the itch is omitted."
+  }
+ },
+ {
+  "flag_id": "J2:case_12_b:1",
+  "judge": "J2",
+  "case_id": "case_12",
+  "variant_id": "case_12_b",
+  "finding": {
+   "type": "NEGATION",
+   "note_section": "History",
+   "note_span": "The onset of pain was gradual and without a specific injury.",
+   "transcript_evidence": "It just started hurting after football.",
+   "evidence_turns": [
+    10
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note contradicts the transcript regarding the onset of pain, misrepresenting the relationship between the activity and the symptom."
+  }
+ },
+ {
+  "flag_id": "J2:case_12_b:2",
+  "judge": "J2",
+  "case_id": "case_12",
+  "variant_id": "case_12_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "",
+   "transcript_evidence": "Relative states the patient's brother had exactly this when he was fourteen. It was Osgood-something.",
+   "evidence_turns": [
+    28
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The relevant family history regarding Osgood-Schlatter disease is omitted from the history section."
+  }
+ },
+ {
+  "flag_id": "J2:case_13_b:1",
+  "judge": "J2",
+  "case_id": "case_13",
+  "variant_id": "case_13_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "",
+   "transcript_evidence": "Correction: Alcohol consumption is four a night, not four pints a week. Most nights, four cans, sometimes more at the weekend.",
+   "evidence_turns": [
+    31,
+    32
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note omits the specific detail regarding alcohol consumption frequency and quantity (four cans a night, sometimes more at the weekend), which is relevant for assessing harmful use."
+  }
+ },
+ {
+  "flag_id": "J2:case_13_b:2",
+  "judge": "J2",
+  "case_id": "case_13",
+  "variant_id": "case_13_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Plan",
+   "note_span": "",
+   "transcript_evidence": "And let's try to cut down the alcohol gradually. I'll give you the details for the local alcohol support service.",
+   "evidence_turns": [
+    57
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note omits the plan to gradually cut down alcohol and provide details for the local support service, which is a key part of the management plan."
+  }
+ },
+ {
+  "flag_id": "J2:case_14_b:2",
+  "judge": "J2",
+  "case_id": "case_14",
+  "variant_id": "case_14_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "",
+   "transcript_evidence": "I avoid supermarkets now. And I won't get on the Underground.",
+   "evidence_turns": [
+    15
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note omits important contextual information regarding the patient's agoraphobic avoidance behaviors."
+  }
+ },
+ {
+  "flag_id": "J2:case_14_b:3",
+  "judge": "J2",
+  "case_id": "case_14",
+  "variant_id": "case_14_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "",
+   "transcript_evidence": "I worry about everything else too. Work, money, everything.",
+   "evidence_turns": [
+    18
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The note omits the patient's generalized worry about work and money, which is relevant to the presentation."
+  }
+ },
+ {
+  "flag_id": "J2:case_14_b:4",
+  "judge": "J2",
+  "case_id": "case_14",
+  "variant_id": "case_14_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "",
+   "transcript_evidence": "Relative is off at the moment with stress myself. Work's been awful.",
+   "evidence_turns": [
+    33
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note omits non-critical contextual information about the relative's stress."
+  }
+ },
+ {
+  "flag_id": "J2:case_16_clean:0",
+  "judge": "J2",
+  "case_id": "case_16",
+  "variant_id": "case_16_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Presenting complaint/History",
+   "note_span": "Low mood, 10 weeks postpartum.",
+   "transcript_evidence": "Oscar is ten weeks old and is ten weeks on Saturday.",
+   "evidence_turns": [
+    1,
+    6
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The specific timing of the postpartum period (ten weeks on Saturday) is omitted, which is a relevant clinical detail."
+  }
+ },
+ {
+  "flag_id": "J2:case_16_clean:1",
+  "judge": "J2",
+  "case_id": "case_16",
+  "variant_id": "case_16_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "Partner has had panic attacks recently; advised to see his own GP.",
+   "transcript_evidence": "Relative reports having had a couple of panic attacks at work.",
+   "evidence_turns": [
+    29
+   ],
+   "severity": 1,
+   "likelihood": 2,
+   "rationale": "The relative's specific report of having had panic attacks at work is omitted from the history."
+  }
+ },
+ {
+  "flag_id": "J2:case_17_clean:0",
+  "judge": "J2",
+  "case_id": "case_17",
+  "variant_id": "case_17_clean",
+  "finding": {
+   "type": "DOSE_UNIT",
+   "note_section": "Medications and allergies",
+   "note_span": "Apixaban 2.5 mg twice daily (initially reported as once daily; daughter confirmed twice daily). Bisoprolol 2.5 mg once daily.",
+   "transcript_evidence": "Patient: Once a day, in the morning. Relative: No, Mum, it's twice. Morning and night.",
+   "evidence_turns": [
+    19,
+    20
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note inaccurately reflects the history of the Apixaban dose, failing to document the initial discrepancy and subsequent correction regarding the frequency."
+  }
+ },
+ {
+  "flag_id": "J2:case_17_clean:1",
+  "judge": "J2",
+  "case_id": "case_17",
+  "variant_id": "case_17_clean",
+  "finding": {
+   "type": "DOSE_UNIT",
+   "note_section": "Medications and allergies",
+   "note_span": "Bisoprolol 2.5 mg once daily.",
+   "transcript_evidence": "Patient: The bisoprolol, two and a half milligrams.",
+   "evidence_turns": [
+    33
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note states the Bisoprolol dose is once daily, but the transcript shows the patient takes it twice daily, as confirmed by the relative."
+  }
+ },
+ {
+  "flag_id": "J2:case_17_a:1",
+  "judge": "J2",
+  "case_id": "case_17",
+  "variant_id": "case_17_a",
+  "finding": {
+   "type": "CORRECTION_LOST",
+   "note_section": "Plan",
+   "note_span": "Continue apixaban 5 mg twice daily",
+   "transcript_evidence": "Clinician: Your apixaban dose of two and a half milligrams twice a day is correct for you, because of your weight and kidney function, so we'll keep that the same.",
+   "evidence_turns": [
+    44
+   ],
+   "severity": 4,
+   "likelihood": 5,
+   "rationale": "The note records an incorrect plan for the apixaban dose (5 mg twice daily) when the transcript confirms the dose will be maintained at 2.5 mg twice daily."
+  }
+ },
+ {
+  "flag_id": "J2:case_17_b:1",
+  "judge": "J2",
+  "case_id": "case_17",
+  "variant_id": "case_17_b",
+  "finding": {
+   "type": "PLAN_CHANGE",
+   "note_section": "Plan",
+   "note_span": "Continue bisoprolol 2.5 mg once daily.",
+   "transcript_evidence": "Clinician: I'd like to increase the bisoprolol from two and a half to five milligrams once a day.",
+   "evidence_turns": [
+    40
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note fails to record the planned dose increase of bisoprolol from 2.5 mg to 5 mg, which is a significant change in the management plan for rate control."
+  }
+ },
+ {
+  "flag_id": "J2:case_18_clean:0",
+  "judge": "J2",
+  "case_id": "case_18",
+  "variant_id": "case_18_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "",
+   "transcript_evidence": "How have things been since we last saw you? ... I'm more breathless. I have to stop halfway up the hill to the shops now. I can walk on the flat at my own pace, but I'm slower than Valerie.",
+   "evidence_turns": [
+    5,
+    7
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note omitted the patient's MRC dyspnoea grade 3, which is a critical functional assessment for COPD severity."
+  }
+ },
+ {
+  "flag_id": "J2:case_18_clean:1",
+  "judge": "J2",
+  "case_id": "case_18",
+  "variant_id": "case_18_clean",
+  "finding": {
+   "type": "NEGATION",
+   "note_section": "History",
+   "note_span": "No ankle swelling.",
+   "transcript_evidence": "Relative: That's me. I'm the one with the swollen ankles.",
+   "evidence_turns": [
+    18
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note inaccurately summarizes the history regarding ankle swelling; the relative reported it, although the patient denied it."
+  }
+ },
+ {
+  "flag_id": "J2:case_18_a:0",
+  "judge": "J2",
+  "case_id": "case_18",
+  "variant_id": "case_18_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "The patient has a history of MRC dyspnoea grade 3.",
+   "transcript_evidence": "",
+   "evidence_turns": [],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The critical history of MRC dyspnoea grade 3 is missing from the note, which is relevant for assessing severity and management."
+  }
+ },
+ {
+  "flag_id": "J2:case_18_a:2",
+  "judge": "J2",
+  "case_id": "case_18",
+  "variant_id": "case_18_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Examination",
+   "note_span": "The patient's blood eosinophil count last month was 0.35 \u00d7 10\u2079/L.",
+   "transcript_evidence": "Your blood eosinophil count last month was 0.35.",
+   "evidence_turns": [
+    37
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The transcript omitted the unit (\u00d7 10\u2079/L) for the eosinophil count, which is a minor but relevant documentation detail."
+  }
+ },
+ {
+  "flag_id": "J2:case_18_b:0",
+  "judge": "J2",
+  "case_id": "case_18",
+  "variant_id": "case_18_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "The patient has MRC dyspnoea grade 3.",
+   "transcript_evidence": "",
+   "evidence_turns": [],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The patient's MRC dyspnoea grade is a key clinical finding missing from the documentation."
+  }
+ },
+ {
+  "flag_id": "J2:case_18_b:1",
+  "judge": "J2",
+  "case_id": "case_18",
+  "variant_id": "case_18_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "COPD with frequent exacerbations despite LAMA/LABA.",
+   "transcript_evidence": "",
+   "evidence_turns": [],
+   "severity": 3,
+   "likelihood": 3,
+   "rationale": "The note claims the patient has frequent exacerbations despite LAMA/LABA, but this specific medication class is not mentioned in the transcript."
+  }
+ },
+ {
+  "flag_id": "J2:case_19_a:2",
+  "judge": "J2",
+  "case_id": "case_19",
+  "variant_id": "case_19_a",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "History",
+   "note_span": "Early morning stiffness lasting about 90 minutes.",
+   "transcript_evidence": "About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.",
+   "evidence_turns": [
+    7
+   ],
+   "severity": 2,
+   "likelihood": 2,
+   "rationale": "The note fails to capture the correction made by the patient regarding the duration of morning stiffness, leading to an inaccurate representation of the symptom duration."
+  }
+ },
+ {
+  "flag_id": "J2:case_19_a:3",
+  "judge": "J2",
+  "case_id": "case_19",
+  "variant_id": "case_19_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "Husband had shingles last month; patient had chickenpox as a child and has not had shingles.",
+   "transcript_evidence": "Relative: I had shingles last month. Is that a problem for her? ... Did you have chickenpox as a child, Mrs Mbeki-Hollis? ... Patient: Yes, I did.",
+   "evidence_turns": [
+    25,
+    26,
+    27
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note omits the interaction/dialogue regarding the relative's comment and the patient's confirmation about chickenpox, which is a relevant history point."
+  }
+ },
+ {
+  "flag_id": "J2:case_19_a:5",
+  "judge": "J2",
+  "case_id": "case_19",
+  "variant_id": "case_19_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Examination",
+   "note_span": "Right hand normal.",
+   "transcript_evidence": "Your left hand looks fine.",
+   "evidence_turns": [
+    30
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note omits the specific confirmation that the left hand appeared normal, which is a relevant part of the examination findings."
+  }
+ },
+ {
+  "flag_id": "J2:case_19_b:1",
+  "judge": "J2",
+  "case_id": "case_19",
+  "variant_id": "case_19_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "Mild nausea the day after taking methotrexate.",
+   "transcript_evidence": "A bit queasy on Tuesdays, but I manage.",
+   "evidence_turns": [
+    6,
+    17
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note omits the specific timing (Tuesday) and the patient's management of the nausea, which is a minor omission."
+  }
+ },
+ {
+  "flag_id": "J2:case_19_b:2",
+  "judge": "J2",
+  "case_id": "case_19",
+  "variant_id": "case_19_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "History",
+   "note_span": "Mild foot ache.",
+   "transcript_evidence": "My feet ache a bit, but mostly it's the right hand.",
+   "evidence_turns": [
+    9
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The note omits the crucial detail that the pain is primarily localized to the right hand, which is relevant for physical examination."
+  }
+ },
+ {
+  "flag_id": "J2:case_21_b:0",
+  "judge": "J2",
+  "case_id": "case_21",
+  "variant_id": "case_21_b",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "Presenting complaint",
+   "note_span": "The patient is presenting with dysuria and urinary frequency for one day.",
+   "transcript_evidence": "Since yesterday. Sorry, no, since Saturday. So three days now.",
+   "evidence_turns": [
+    4,
+    10
+   ],
+   "severity": 2,
+   "likelihood": 4,
+   "rationale": "The note incorrectly states the duration of symptoms as one day, contradicting the transcript which states the symptoms have been present for three days."
+  }
+ },
+ {
+  "flag_id": "J2:case_21_b:1",
+  "judge": "J2",
+  "case_id": "case_21",
+  "variant_id": "case_21_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Examination",
+   "note_span": "The patient has mild suprapubic tenderness.",
+   "transcript_evidence": "",
+   "evidence_turns": [],
+   "severity": 1,
+   "likelihood": 3,
+   "rationale": "The note omits the finding of mild suprapubic tenderness, which is a relevant physical examination finding."
+  }
+ },
+ {
+  "flag_id": "J2:case_22_b:2",
+  "judge": "J2",
+  "case_id": "case_22",
+  "variant_id": "case_22_b",
+  "finding": {
+   "type": "OMIT_SAFETY",
+   "note_section": "Safety-netting",
+   "note_span": "Same-day contact (or 111) if spreading beyond the marked line.",
+   "transcript_evidence": "If the redness spreads beyond the line, he gets a high temperature, shivers, feels very unwell or confused, or the pain gets much worse, call us straight away for a same-day appointment, or 111 if we're closed.",
+   "evidence_turns": [
+    43
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The safety netting in the note omits critical triggers for same-day contact (high temperature, rigors, feeling very unwell, or confusion)."
+  }
+ },
+ {
+  "flag_id": "J2:case_23_clean:0",
+  "judge": "J2",
+  "case_id": "case_23",
+  "variant_id": "case_23_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "Probable viral gastroenteritis with reduced urine output.",
+   "transcript_evidence": "It sounds like gastroenteritis, a tummy bug, probably the same one her brother had.",
+   "evidence_turns": [
+    33
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The specific clinical finding of 'reduced urine output' is missing from the impression, although the context is implied by the discussion of wet nappies."
+  }
+ },
+ {
+  "flag_id": "J2:case_23_a:1",
+  "judge": "J2",
+  "case_id": "case_23",
+  "variant_id": "case_23_a",
+  "finding": {
+   "type": "NEGATION",
+   "note_section": "History",
+   "note_span": "There is blood in the patient's stool.",
+   "transcript_evidence": "No. Her brother had blood in his last week when he had the same thing, but there's none in hers.",
+   "evidence_turns": [
+    16
+   ],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The note records the presence of blood in the stool, which is contradicted by the transcript stating there was none, potentially missing a critical finding."
+  }
+ },
+ {
+  "flag_id": "J2:case_23_a:3",
+  "judge": "J2",
+  "case_id": "case_23",
+  "variant_id": "case_23_a",
+  "finding": {
+   "type": "TEMPORAL",
+   "note_section": "Plan",
+   "note_span": "Face-to-face assessment at the surgery today at 16:00.",
+   "transcript_evidence": "I'd like to see her this afternoon. Can you bring her in at four o'clock?",
+   "evidence_turns": [
+    35
+   ],
+   "severity": 1,
+   "likelihood": 1,
+   "rationale": "The planned time (16:00) differs from the time agreed upon in the transcript (4:00 PM), which is a minor temporal discrepancy."
+  }
+ },
+ {
+  "flag_id": "J2:case_23_b:1",
+  "judge": "J2",
+  "case_id": "case_23",
+  "variant_id": "case_23_b",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "Probable viral gastroenteritis with reduced urine output.",
+   "transcript_evidence": "I can't examine her over the phone. It sounds like gastroenteritis, a tummy bug, probably the same one her brother had. Most babies get better within a few days.",
+   "evidence_turns": [
+    33
+   ],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The clinical finding of 'reduced urine output' mentioned in the impression is not documented in the transcript."
+  }
+ },
+ {
+  "flag_id": "J2:case_23_b:2",
+  "judge": "J2",
+  "case_id": "case_23",
+  "variant_id": "case_23_b",
+  "finding": {
+   "type": "CORRECTION_LOST",
+   "note_section": "History",
+   "note_span": "Two wet nappies since this morning (initially said four).",
+   "transcript_evidence": "About four, I think. Oh, wait, no. I've only changed two wet ones since this morning. The others were dirty.",
+   "evidence_turns": [
+    20
+   ],
+   "severity": 1,
+   "likelihood": 3,
+   "rationale": "The note fails to record the relative's correction of the nappy count from four to two, losing the context of the observation."
+  }
+ },
+ {
+  "flag_id": "J2:case_24_clean:0",
+  "judge": "J2",
+  "case_id": "case_24",
+  "variant_id": "case_24_clean",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "The clinical impression is probable infective gastroenteritis with dehydration in an 85-year-old on metformin, an ACE inhibitor and a loop diuretic; risk of acute kidney injury.",
+   "transcript_evidence": "",
+   "evidence_turns": [],
+   "severity": 2,
+   "likelihood": 3,
+   "rationale": "The patient's age (85) is a relevant demographic detail for risk stratification and was omitted from the clinical impression."
+  }
+ },
+ {
+  "flag_id": "J2:case_24_a:2",
+  "judge": "J2",
+  "case_id": "case_24",
+  "variant_id": "case_24_a",
+  "finding": {
+   "type": "OMIT_OTHER",
+   "note_section": "Impression",
+   "note_span": "in an 85-year-old",
+   "transcript_evidence": "",
+   "evidence_turns": [],
+   "severity": 3,
+   "likelihood": 4,
+   "rationale": "The patient's age (83, based on DOB 1941) is omitted from the impression, which is a relevant demographic fact."
   }
  }
 ]

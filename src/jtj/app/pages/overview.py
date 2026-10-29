@@ -27,19 +27,27 @@ def _headline(ctx: C.Ctx) -> ft.Control:
                    f"n = {s['by_tier']['High'] + s['by_tier']['Very high']} high-risk errors.")
     else:
         pj = d.metrics["per_judge"]
-        j2, j0 = pj["J2"]["primary"], pj["J0"]["primary"]
+        best = _best_judge(pj)
+        top = pj[best]["primary"]
+        others = "; ".join(f"{JUDGE_LABEL[j].split(' ', 1)[1].lower()} {pj[j]['primary']['k']}"
+                           for j in ("J0", "J1", "J2") if j != best)
         text = ft.Text(spans=[
-            ft.TextSpan("The structured judge caught "),
-            ft.TextSpan(f"{j2['k']} of {j2['n']}", ft.TextStyle(color=p.accent, weight=ft.FontWeight.W_700)),
-            ft.TextSpan(f" high-risk errors ({C.fmt_p(j2['p'], True)}, 95% CI {C.fmt_p(j2['lo'], True)}–"
-                        f"{C.fmt_p(j2['hi'], True)}). The naive judge caught {j0['k']} of {j0['n']}."),
+            ft.TextSpan(f"The best judge ({JUDGE_LABEL[best]}) caught "),
+            ft.TextSpan(f"{top['k']} of {top['n']}", style=ft.TextStyle(color=p.accent, weight=ft.FontWeight.W_700)),
+            ft.TextSpan(f" high-risk errors ({C.fmt_p(top['p'], True)}, 95% CI {C.fmt_p(top['lo'], True)}–"
+                        f"{C.fmt_p(top['hi'], True)}). The others caught: {others}."),
         ], size=24 if not ctx.narrow else 20, weight=ft.FontWeight.W_600, color=p.text)
-        whiskers = [_whisker_row(j, pj[j]["primary"], ctx) for j in ("J0", "J1", "J2")]
+        whiskers = [_whisker_row(j, pj[j]["primary"], ctx, bold=j == best) for j in ("J0", "J1", "J2")]
         caption = "Dot = sensitivity for High + Very high risk errors. Line = 95% CI."
         if d.metrics.get("judge_model"):
             caption += f" Judge model: {d.metrics['judge_model']}."
     return C.card(ft.Column([head_row, text, C.section_gap(6), *whiskers, _axis(ctx),
                              C.body(caption, ctx, size=13, muted=True)], spacing=12), ctx, padding=28)
+
+
+def _best_judge(pj: dict) -> str:
+    """The judge with the highest primary-endpoint sensitivity (ties go to the earlier judge)."""
+    return max(("J0", "J1", "J2"), key=lambda j: pj[j]["primary"]["p"] or 0)
 
 
 def _bar_width(ctx: C.Ctx) -> float:
@@ -50,12 +58,12 @@ def _label_width(ctx: C.Ctx) -> int:
     return 96 if ctx.narrow else 118
 
 
-def _whisker_row(j: str, prop: dict | None, ctx: C.Ctx) -> ft.Control:
+def _whisker_row(j: str, prop: dict | None, ctx: C.Ctx, bold: bool = False) -> ft.Control:
     tone = theme.judge_tone(ctx.page, j)
     val = f"{C.fmt_p(prop['p'], True)}" if prop and prop["p"] is not None else "–"
     return ft.Row([
         ft.Container(ft.Text(JUDGE_LABEL[j], size=13 if ctx.narrow else 14, color=ctx.p.text,
-                             weight=ft.FontWeight.W_700 if j == "J2" else ft.FontWeight.W_400),
+                             weight=ft.FontWeight.W_700 if bold else ft.FontWeight.W_400),
                      width=_label_width(ctx)),
         C.whisker(prop["p"] if prop else None, prop["lo"] if prop else None, prop["hi"] if prop else None,
                   tone, ctx, _bar_width(ctx)),

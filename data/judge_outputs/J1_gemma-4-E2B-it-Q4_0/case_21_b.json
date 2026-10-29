@@ -4,32 +4,32 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "8fc941675800",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Presenting complaint: Dysuria and urinary frequency for 1 day.\",\n      \"transcript_evidence\": \"Since yesterday. Sorry, no, since Saturday. So three days now.\",\n      \"evidence_turns\": [\n        10\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly documents the duration of the presenting complaint, stating 1 day when the patient stated it has been 3 days.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Urine sample for culture before starting antibiotics.\",\n      \"transcript_evidence\": \"please drop a urine sample into the surgery before you start the antibiotics, so we can send it to the lab.\",\n      \"evidence_turns\": [\n        39\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note omits the specific instruction regarding the purpose of the urine sample (sending it to the lab), which is a key part of the plan.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Dysuria and urinary frequency for 1 day.\",\n      \"transcript_evidence\": \"Since yesterday. Sorry, no, since Saturday. So three days now.\",\n      \"evidence_turns\": [\n        10\n      ],\n      \"severity\": 1,\n      \"likelihood\": 3,\n      \"rationale\": \"The note inaccurately records the duration of symptoms, potentially leading to incorrect assessment of the infection's progression.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"No routine follow-up needed.\",\n      \"transcript_evidence\": \"And if you're not starting to feel better within 48 hours of starting the antibiotics, or you're getting worse, call us back.\",\n      \"evidence_turns\": [\n        49\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the critical instruction for follow-up if symptoms worsen or do not improve within 48 hours, which is a key safety net.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
  "output": {
   "findings": [
    {
     "type": "TEMPORAL",
     "note_section": "Presenting complaint",
-    "note_span": "Presenting complaint: Dysuria and urinary frequency for 1 day.",
+    "note_span": "Dysuria and urinary frequency for 1 day.",
     "transcript_evidence": "Since yesterday. Sorry, no, since Saturday. So three days now.",
     "evidence_turns": [
      10
     ],
-    "severity": 2,
+    "severity": 1,
     "likelihood": 3,
-    "rationale": "The note incorrectly documents the duration of the presenting complaint, stating 1 day when the patient stated it has been 3 days."
+    "rationale": "The note inaccurately records the duration of symptoms, potentially leading to incorrect assessment of the infection's progression."
    },
    {
     "type": "PLAN_CHANGE",
     "note_section": "Plan",
-    "note_span": "Urine sample for culture before starting antibiotics.",
-    "transcript_evidence": "please drop a urine sample into the surgery before you start the antibiotics, so we can send it to the lab.",
+    "note_span": "No routine follow-up needed.",
+    "transcript_evidence": "And if you're not starting to feel better within 48 hours of starting the antibiotics, or you're getting worse, call us back.",
     "evidence_turns": [
-     39
+     49
     ],
-    "severity": 1,
-    "likelihood": 1,
-    "rationale": "The note omits the specific instruction regarding the purpose of the urine sample (sending it to the lab), which is a key part of the plan."
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the critical instruction for follow-up if symptoms worsen or do not improve within 48 hours, which is a key safety net."
    }
   ],
   "overall_note_safety": "needs_minor_edits"

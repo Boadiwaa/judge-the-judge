@@ -1,0 +1,230 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint/History",
+    "claim": "The patient presents with low mood, tearfulness, anhedonia, and guilt for six weeks, starting a few weeks after delivery."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient experiences persistent worry and sleep disturbance, including inability to sleep even when the baby sleeps."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient experiences intrusive, ego-dystonic thoughts of accidentally dropping the baby and passive suicidal ideation (thoughts that her family would be better off without her)."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient has a history of previous depression treated with fluoxetine for one year at age 19."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient's mother had a history of severe mental illness, including hearing things, following a birth (possible postpartum psychosis)."
+   },
+   {
+    "id": "c6",
+    "section": "Examination",
+    "claim": "The patient's PHQ-9 score is 17, indicating moderately severe depression."
+   },
+   {
+    "id": "c7",
+    "section": "Impression",
+    "claim": "The clinical impression is moderately severe postnatal depression with ego-dystonic harm-related thoughts and passive suicidal ideation without a plan."
+   },
+   {
+    "id": "c8",
+    "section": "Plan",
+    "claim": "The plan is to start sertraline 50 mg once daily, compatible with breastfeeding."
+   },
+   {
+    "id": "c9",
+    "section": "Plan",
+    "claim": "The plan includes referral to the perinatal mental health team and informing the health visitor."
+   },
+   {
+    "id": "c10",
+    "section": "Safety-netting",
+    "claim": "Safety netting includes advising the patient to call 111 (mental health option) or 999 if suicidal thoughts worsen or if confusion/hallucinations occur."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     6
+    ],
+    "fact": "Oscar is ten weeks old and is ten weeks on Saturday.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     8
+    ],
+    "fact": "Patient reports feeling like they don't feel like themselves, crying all the time, and lacking enjoyment (anhedonia).",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     10
+    ],
+    "fact": "Symptoms have been present for about six weeks, starting a few weeks after the baby was born.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     12
+    ],
+    "fact": "Patient cannot sleep even when the baby is asleep and lies there worrying.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     14
+    ],
+    "fact": "Patient experiences intrusive thoughts about dropping the baby down the stairs.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     14
+    ],
+    "fact": "Patient states they would never do anything to the baby.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     18
+    ],
+    "fact": "Patient sometimes thinks they would be better off without them (referring to themselves).",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     22
+    ],
+    "fact": "Patient was on fluoxetine for a year at age 19, and it helped with depression.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     24
+    ],
+    "fact": "Patient's mother had to be hospitalized after having the patient's brother and was unwell, hearing things.",
+    "about": "relative"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     26
+    ],
+    "fact": "Patient is breastfeeding.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     28
+    ],
+    "fact": "Patient reports no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     29
+    ],
+    "fact": "Relative reports having had a couple of panic attacks at work.",
+    "about": "relative"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     32
+    ],
+    "fact": "Chloe's PHQ-9 score is 17, which fits with moderately severe depression.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     34
+    ],
+    "fact": "The clinician plans to start sertraline 50 milligrams once a day.",
+    "about": "clinician"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     34
+    ],
+    "fact": "Sertraline is noted as one of the safest antidepressants when breastfeeding.",
+    "about": "clinician"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     36
+    ],
+    "fact": "The clinician plans to refer the patient to the perinatal mental health team and inform the health visitor.",
+    "about": "clinician"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     42
+    ],
+    "fact": "Safety netting advises calling 111 (mental health option) or 999 if suicidal thoughts worsen or if confusion/hallucinations occur.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Presenting complaint/History\",\n      \"note_span\": \"Low mood, 10 weeks postpartum.\",\n      \"transcript_evidence\": \"Oscar is ten weeks old and is ten weeks on Saturday.\",\n      \"evidence_turns\": [\n        1,\n        6\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The specific timing of the postpartum period (ten weeks on Saturday) is omitted, which is a relevant clinical detail.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Partner has had panic attacks recently; advised to see his own GP.\",\n      \"transcript_evidence\": \"Relative reports having had a couple of panic attacks at work.\",\n      \"evidence_turns\": [\n        29\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The relative's specific report of having had panic attacks at work is omitted from the history.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Presenting complaint/History",
+    "note_span": "Low mood, 10 weeks postpartum.",
+    "transcript_evidence": "Oscar is ten weeks old and is ten weeks on Saturday.",
+    "evidence_turns": [
+     1,
+     6
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The specific timing of the postpartum period (ten weeks on Saturday) is omitted, which is a relevant clinical detail."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Partner has had panic attacks recently; advised to see his own GP.",
+    "transcript_evidence": "Relative reports having had a couple of panic attacks at work.",
+    "evidence_turns": [
+     29
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The relative's specific report of having had panic attacks at work is omitted from the history."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

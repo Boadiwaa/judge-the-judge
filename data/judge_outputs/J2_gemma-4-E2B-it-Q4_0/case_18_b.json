@@ -1,0 +1,397 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient is presenting with worsening exertional breathlessness and COPD."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient has MRC dyspnoea grade 3."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient has a morning cough with white sputum."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient has had two exacerbations requiring oral steroids in the last 5 years."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "One of the exacerbations required antibiotics."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has no history of hospital admissions."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient has no ankle swelling."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has no chest pain, haemoptysis, or weight loss."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient is an ex-smoker for 6 months."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient has approximately 30 pack-years of smoking history."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed Anoro Ellipta (umeclidinium/vilanterol) one inhalation once daily."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed Salbutamol as needed (about twice daily)."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "The patient has no known drug allergies."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The patient's oxygen level is 93 percent on air."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient's breathing rate is 20."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "The patient has bilateral wheeze."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "The patient has coarse crackles at the bottom of the left lung, at the left base (new finding)."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "The patient's FEV1 is 52 percent of predicted, which is lower than last year."
+   },
+   {
+    "id": "c19",
+    "section": "Examination",
+    "claim": "The patient's blood eosinophil count last month was 0.35 \u00d7 10\u2079/L."
+   },
+   {
+    "id": "c20",
+    "section": "Impression",
+    "claim": "The patient has COPD with frequent exacerbations despite LAMA/LABA."
+   },
+   {
+    "id": "c21",
+    "section": "Impression",
+    "claim": "The patient's eosinophil count (0.35) is \u22650.3, making them suitable for triple therapy."
+   },
+   {
+    "id": "c22",
+    "section": "Impression",
+    "claim": "There are new focal crackles at the left base."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "The plan is to switch the patient from Anoro to Trelegy Ellipta one inhalation once daily."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "Pulmonary rehabilitation is offered but declined by the patient."
+   },
+   {
+    "id": "c25",
+    "section": "Plan",
+    "claim": "A chest X-ray is ordered today."
+   },
+   {
+    "id": "c26",
+    "section": "Plan",
+    "claim": "The patient is scheduled for a clinic review in three months."
+   },
+   {
+    "id": "c27",
+    "section": "Safety-netting",
+    "claim": "The patient should contact their GP the same day if there is increased breathlessness, sputum volume, or a change in sputum colour."
+   },
+   {
+    "id": "c28",
+    "section": "Safety-netting",
+    "claim": "The patient should call 999 if they are very breathless."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "The clinician is Dr Nwosu from the respiratory team.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The patient's wife is Valerie.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     5
+    ],
+    "fact": "The patient reports being more breathless and having to stop halfway up the hill to the shops.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     7
+    ],
+    "fact": "The patient can walk on the flat at their own pace, but is slower than Valerie.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     9
+    ],
+    "fact": "The patient has a cough most mornings with white phlegm.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     11
+    ],
+    "fact": "The patient has had two flare-ups: one in January and one in the summer.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     13
+    ],
+    "fact": "Both flare-ups required antibiotics, specifically the summer one.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     15
+    ],
+    "fact": "The patient has no hospital admissions.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     18
+    ],
+    "fact": "The relative is the one with the swollen ankles, and the patient's are fine.",
+    "about": "relative|patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     19
+    ],
+    "fact": "The clinician asks about chest pain or coughing up blood.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     20
+    ],
+    "fact": "The patient reports no chest pain or coughing up blood.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     23
+    ],
+    "fact": "The clinician asks if the patient stopped smoking.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     24
+    ],
+    "fact": "The patient stopped smoking six months ago and has not smoked since.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     25
+    ],
+    "fact": "The clinician asks how much and for how long the patient smoked.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     26
+    ],
+    "fact": "The patient smoked twenty cigarettes a day for forty years, stopping for ten years in the middle, resulting in thirty years of smoking.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     27
+    ],
+    "fact": "The clinician asks what inhalers the patient is using.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     28
+    ],
+    "fact": "The patient is using the Anoro inhaler once a day and the blue inhaler maybe twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     34
+    ],
+    "fact": "The patient has no known drug allergies, only the inhalers.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician notes the patient's oxygen level is 93 percent on air and breathing rate is 20.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician notes there is some wheeze on both sides and some coarse crackles at the bottom of the left lung, at the left base.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     36
+    ],
+    "fact": "The patient asks if the crackles are new.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician states the crackles were not noted last time.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     37
+    ],
+    "fact": "The patient's breathing test shows an FEV1 of 52 percent of predicted, which is a bit lower than last year.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     37
+    ],
+    "fact": "The patient's blood eosinophil count last month was 0.35.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     47
+    ],
+    "fact": "The clinician advises contacting the GP the same day if there is increased breathlessness, sputum volume, or a change in sputum colour.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     47
+    ],
+    "fact": "The clinician advises calling 999 if the patient is very breathless.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"The patient has MRC dyspnoea grade 3.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The patient's MRC dyspnoea grade is a key clinical finding missing from the documentation.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"COPD with frequent exacerbations despite LAMA/LABA.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 3,\n      \"likelihood\": 3,\n      \"rationale\": \"The note claims the patient has frequent exacerbations despite LAMA/LABA, but this specific medication class is not mentioned in the transcript.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Chest X-ray last month clear.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 2,\n      \"rationale\": \"The relevant history that the chest X-ray was clear last month is omitted.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "The patient has MRC dyspnoea grade 3.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The patient's MRC dyspnoea grade is a key clinical finding missing from the documentation."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Impression",
+    "note_span": "COPD with frequent exacerbations despite LAMA/LABA.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 3,
+    "likelihood": 3,
+    "rationale": "The note claims the patient has frequent exacerbations despite LAMA/LABA, but this specific medication class is not mentioned in the transcript."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Chest X-ray last month clear.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 2,
+    "rationale": "The relevant history that the chest X-ray was clear last month is omitted."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

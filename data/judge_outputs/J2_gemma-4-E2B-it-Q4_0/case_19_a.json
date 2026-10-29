@@ -1,0 +1,520 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient is presenting with a flare of rheumatoid arthritis lasting three weeks."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient reports painful swelling of the right wrist and right hand knuckles for three weeks."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient reports early morning stiffness lasting about 90 minutes."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient reports mild foot ache."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient reports mild nausea the day after taking methotrexate."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient reports no sore throat, fever, bruising, cough, or breathlessness."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient's husband had shingles last month."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient had chickenpox as a child."
+   },
+   {
+    "id": "c9",
+    "section": "Medications and allergies",
+    "claim": "The patient is currently taking methotrexate 15 mg once a week."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking folic acid 5 mg once a week on Thursdays."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient has a history of a rash associated with sulfasalazine."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "The clinician examined the patient's hands and noted synovitis of the right wrist and the second and third knuckles of the right hand."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The clinician noted the patient's left hand appeared normal."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The patient's CRP was 28, and blood count and liver tests were normal."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient's disease activity score (DAS28) was 4.8, indicating moderate activity."
+   },
+   {
+    "id": "c16",
+    "section": "Impression",
+    "claim": "The clinical impression is a rheumatoid arthritis flare with moderate disease activity on methotrexate."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "The plan is to increase the methotrexate dose to 20 mg once weekly on Mondays."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The plan is to continue folic acid 5 mg once weekly on Thursdays."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The plan is to administer a steroid injection of methylprednisolone 120 mg today."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "The plan is to repeat blood tests every two weeks for the next six weeks, then every three months."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "The plan is to schedule a clinic review in three months."
+   },
+   {
+    "id": "c22",
+    "section": "Safety-netting",
+    "claim": "Safety netting advises stopping methotrexate and getting an urgent blood test if the patient experiences a sore throat, fever, mouth ulcers, unusual bruising or bleeding, or a new cough or breathlessness."
+   },
+   {
+    "id": "c23",
+    "section": "Safety-netting",
+    "claim": "Safety netting advises reporting a painful blistering rash promptly."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "The clinician's name is Dr Rourke and their specialty is rheumatology registrar.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The patient's husband's name is Pieter.",
+    "about": "other"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "The relative greeted the clinician.",
+    "about": "other"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     4
+    ],
+    "fact": "The clinician asked how the patient's joints have been.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     5
+    ],
+    "fact": "The patient reports bad symptoms for the last three weeks, specifically swelling and pain in the right wrist and knuckles on that hand.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     6
+    ],
+    "fact": "The clinician asked how long the patient has been stiff in the mornings.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     7
+    ],
+    "fact": "The patient initially stated the stiffness was about half an hour, but corrected this to an hour and a half (until about 8:30 AM).",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     8
+    ],
+    "fact": "The clinician asked about other joints.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     9
+    ],
+    "fact": "The patient reports that their feet ache a bit, but mostly the issue is the right hand.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     10
+    ],
+    "fact": "The clinician asked about the patient's methotrexate dosage and schedule.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     11
+    ],
+    "fact": "The patient takes methotrexate 15 milligrams once a week on Mondays.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     12
+    ],
+    "fact": "The clinician asked about folic acid.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     13
+    ],
+    "fact": "The patient takes folic acid 5 milligrams once a week on Thursdays.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     14
+    ],
+    "fact": "The clinician asked about missed doses.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     15
+    ],
+    "fact": "The patient reports no missed doses.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     16
+    ],
+    "fact": "The clinician asked about side effects, specifically nausea and mouth ulcers.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     17
+    ],
+    "fact": "The patient reports feeling a bit queasy on Tuesdays, but manages it.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     18
+    ],
+    "fact": "The clinician asked about sore throats, fevers, bruising, breathlessness, or cough.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     19
+    ],
+    "fact": "The patient reports no sore throats, fevers, bruising, breathlessness, or cough.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     20
+    ],
+    "fact": "The clinician asked about alcohol consumption.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     21
+    ],
+    "fact": "The patient drinks a glass of wine on Friday and Saturday, totaling about six units a week.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     22
+    ],
+    "fact": "The clinician asked about other medicines and allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     23
+    ],
+    "fact": "The patient states they have no other medicines but mentions that sulfasalazine gave them a rash years ago.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     24
+    ],
+    "fact": "The clinician asked about recent infections.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     25
+    ],
+    "fact": "The relative mentioned that the patient had shingles last month and asked if that was a problem.",
+    "about": "relative"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     26
+    ],
+    "fact": "The clinician asked if the patient had chickenpox as a child.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     27
+    ],
+    "fact": "The patient confirms they had chickenpox as a child.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     28
+    ],
+    "fact": "The clinician advised that the risk is low, but instructed the patient to report a painful blistering rash immediately.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     30
+    ],
+    "fact": "The clinician examined the patient's hands and noted the right wrist and second and third knuckles on the right hand were swollen and tender, diagnosing synovitis.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     31
+    ],
+    "fact": "The patient confirmed that the right hand is the affected one.",
+    "about": "patient"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     32
+    ],
+    "fact": "The clinician reported the patient's blood tests: CRP was 28, and blood count and liver tests were normal.",
+    "about": "patient"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     32
+    ],
+    "fact": "The clinician reported the patient's disease activity score (DAS28) was 4.8, which means moderate activity.",
+    "about": "patient"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     34
+    ],
+    "fact": "The clinician proposed increasing the methotrexate to 20 milligrams once a week on Mondays and keeping the folic acid on Thursdays.",
+    "about": "patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     35
+    ],
+    "fact": "The patient agreed to the proposed changes.",
+    "about": "patient"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     36
+    ],
+    "fact": "The clinician planned to give a steroid injection of methylprednisolone 120 milligrams today to settle the flare.",
+    "about": "patient"
+   },
+   {
+    "id": "f38",
+    "turns": [
+     38
+    ],
+    "fact": "The clinician planned to increase blood tests to every two weeks for the next six weeks, then back to every three months.",
+    "about": "patient"
+   },
+   {
+    "id": "f40",
+    "turns": [
+     40
+    ],
+    "fact": "The clinician scheduled a follow-up appointment in three months.",
+    "about": "patient"
+   },
+   {
+    "id": "f42",
+    "turns": [
+     42
+    ],
+    "fact": "The clinician provided safety netting advice: if the patient experiences a sore throat, fever, mouth ulcers, unusual bruising or bleeding, or a new cough or breathlessness, they should stop methotrexate, get an urgent blood test, and call the rheumatology helpline.",
+    "about": "patient"
+   },
+   {
+    "id": "f43",
+    "turns": [
+     43
+    ],
+    "fact": "The patient confirmed they have the contact number for the helpline.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Synovitis of the left wrist and left 2nd and 3rd MCP joints. Right hand normal.\",\n      \"transcript_evidence\": \"Let me examine your hands. Your right wrist is swollen and tender, and your second and third knuckles on the right hand are swollen and tender too. That's synovitis, inflammation of the joint lining. Your left hand looks fine.\",\n      \"evidence_turns\": [\n        30\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly identifies the affected joint as the left side, contradicting the transcript which clearly states the right wrist and right hand knuckles were affected.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Methotrexate 15 mg once daily.\",\n      \"transcript_evidence\": \"15 milligrams, once a week, on Mondays.\",\n      \"evidence_turns\": [\n        11\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the frequency as 'once daily' instead of the correct frequency and timing of 'once a week on Mondays', which is a significant change in dosing schedule.\"\n    },\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Early morning stiffness lasting about 90 minutes.\",\n      \"transcript_evidence\": \"About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.\",\n      \"evidence_turns\": [\n        7\n      ],\n      \"severity\": 2,\n      \"likelihood\": 2,\n      \"rationale\": \"The note fails to capture the correction made by the patient regarding the duration of morning stiffness, leading to an inaccurate representation of the symptom duration.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Husband had shingles last month; patient had chickenpox as a child and has not had shingles.\",\n      \"transcript_evidence\": \"Relative: I had shingles last month. Is that a problem for her? ... Did you have chickenpox as a child, Mrs Mbeki-Hollis? ... Patient: Yes, I did.\",\n      \"evidence_turns\": [\n        25,\n        26,\n        27\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note omits the interaction/dialogue regarding the relative's comment and the patient's confirmation about chickenpox, which is a relevant history point.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Sulfadiazine: rash.\",\n      \"transcript_evidence\": \"Sulfasalazine gave me a rash years ago.\",\n      \"evidence_turns\": [\n        23\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note omits the specific drug name (Sulfasalazine) mentioned in the transcript, although the allergy history is present.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Right hand normal.\",\n      \"transcript_evidence\": \"Your left hand looks fine.\",\n      \"evidence_turns\": [\n        30\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note omits the specific confirmation that the left hand appeared normal, which is a relevant part of the examination findings.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Synovitis of the left wrist and left 2nd and 3rd MCP joints. Right hand normal.",
+    "transcript_evidence": "Let me examine your hands. Your right wrist is swollen and tender, and your second and third knuckles on the right hand are swollen and tender too. That's synovitis, inflammation of the joint lining. Your left hand looks fine.",
+    "evidence_turns": [
+     30
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The note incorrectly identifies the affected joint as the left side, contradicting the transcript which clearly states the right wrist and right hand knuckles were affected."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Methotrexate 15 mg once daily.",
+    "transcript_evidence": "15 milligrams, once a week, on Mondays.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the frequency as 'once daily' instead of the correct frequency and timing of 'once a week on Mondays', which is a significant change in dosing schedule."
+   },
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Early morning stiffness lasting about 90 minutes.",
+    "transcript_evidence": "About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.",
+    "evidence_turns": [
+     7
+    ],
+    "severity": 2,
+    "likelihood": 2,
+    "rationale": "The note fails to capture the correction made by the patient regarding the duration of morning stiffness, leading to an inaccurate representation of the symptom duration."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Husband had shingles last month; patient had chickenpox as a child and has not had shingles.",
+    "transcript_evidence": "Relative: I had shingles last month. Is that a problem for her? ... Did you have chickenpox as a child, Mrs Mbeki-Hollis? ... Patient: Yes, I did.",
+    "evidence_turns": [
+     25,
+     26,
+     27
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note omits the interaction/dialogue regarding the relative's comment and the patient's confirmation about chickenpox, which is a relevant history point."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Medications and allergies",
+    "note_span": "Sulfadiazine: rash.",
+    "transcript_evidence": "Sulfasalazine gave me a rash years ago.",
+    "evidence_turns": [
+     23
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note omits the specific drug name (Sulfasalazine) mentioned in the transcript, although the allergy history is present."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Right hand normal.",
+    "transcript_evidence": "Your left hand looks fine.",
+    "evidence_turns": [
+     30
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note omits the specific confirmation that the left hand appeared normal, which is a relevant part of the examination findings."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

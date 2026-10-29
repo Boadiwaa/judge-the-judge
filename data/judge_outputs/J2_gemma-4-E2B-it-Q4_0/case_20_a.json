@@ -1,0 +1,362 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "History",
+    "claim": "The presenting complaint is a first seizure occurring 3 months ago."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The seizure involved going quiet, followed by left arm jerking for a few seconds, generalized stiffening, and shaking."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The shaking lasted about 2 minutes (confirmed by the clock)."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Associated symptoms included perioral cyanosis, lateral tongue bite, and urinary incontinence."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient experienced post-ictal confusion lasting about 20 minutes."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The seizure was preceded by sleep deprivation after four consecutive night shifts."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient reported no alcohol consumption that day."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient reported no recreational drug use."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient has no previous history of seizures, myoclonic jerks, or absences."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient has no history of head injury or CNS infection."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "The patient has no family history of epilepsy."
+   },
+   {
+    "id": "c12",
+    "section": "History",
+    "claim": "The patient works as a warehouse supervisor."
+   },
+   {
+    "id": "c13",
+    "section": "Medications",
+    "claim": "The patient reports no regular medications."
+   },
+   {
+    "id": "c14",
+    "section": "Allergies",
+    "claim": "The patient reports no known drug allergies."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The neurological examination was normal."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "The CT scan in A&E was normal."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "The blood tests were normal."
+   },
+   {
+    "id": "c18",
+    "section": "Impression",
+    "claim": "The impression is a first generalized tonic-clonic seizure, possibly of focal onset (left arm, suggesting right hemisphere), provoked in part by sleep deprivation."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The plan includes an MRI brain scan using an epilepsy protocol and an EEG."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "No antiseizure medication is prescribed at present."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "Safety advice includes using showers instead of baths, avoiding swimming alone, avoiding heights, and maintaining a regular sleep pattern."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "A clinic review with results is scheduled in about six weeks."
+   },
+   {
+    "id": "c23",
+    "section": "Safety-netting",
+    "claim": "If a further seizure occurs, the patient should put him in the recovery position, time it, and call 999 if it lasts more than five minutes or if he is injured."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "Clinician is Dr Iyer from the first seizure clinic.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "Relative is Bethany, the patient's wife.",
+    "about": "other"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     4
+    ],
+    "fact": "Patient recalls nothing specific about the event, stating he was watching telly and paramedics arrived.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     6
+    ],
+    "fact": "The event occurred three weeks ago on a Sunday night.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     8
+    ],
+    "fact": "Relative describes the event: he went quiet, then his left arm started jerking for a few seconds, followed by generalized stiffening and shaking.",
+    "about": "relative"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     10
+    ],
+    "fact": "Relative initially estimated the shaking lasted five minutes, but confirmed it lasted two minutes when checking the clock.",
+    "about": "relative"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     12
+    ],
+    "fact": "Relative reports the patient's lips went a bit blue, he bit his tongue on the side, and he wet himself.",
+    "about": "relative"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     14
+    ],
+    "fact": "The patient was confused for about twenty minutes afterwards.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     16
+    ],
+    "fact": "Patient reports having done four night shifts in a row and had maybe four hours' sleep.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     18
+    ],
+    "fact": "Patient reports having no alcohol that day, stating he only has a few pints at the weekend.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     20
+    ],
+    "fact": "Patient reports no recreational drug use.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     22
+    ],
+    "fact": "Patient reports no previous history of funny turns, jerks in the morning, or blank spells.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     24
+    ],
+    "fact": "Patient reports no history of head injuries or meningitis as a child.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     26
+    ],
+    "fact": "Patient reports no family history of epilepsy.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     28
+    ],
+    "fact": "Patient reports no regular medications and no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     30
+    ],
+    "fact": "Patient confirms he drives to work.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     31
+    ],
+    "fact": "Clinician states the neurological examination is completely normal today.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     31
+    ],
+    "fact": "Clinician states the CT scan in A&E was normal.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     31
+    ],
+    "fact": "Clinician states the blood tests were normal.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     33
+    ],
+    "fact": "Clinician suggests the event sounds like a seizure, possibly of focal onset (left arm, suggesting right hemisphere), provoked in part by lack of sleep.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     35
+    ],
+    "fact": "Clinician suggests an MRI scan of the brain using an epilepsy protocol and an EEG.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     37
+    ],
+    "fact": "Clinician states that no tablets are usually needed after a first seizure and they will decide once results are available.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     39
+    ],
+    "fact": "Clinician advises that by law, the patient must not drive and needs to tell the DVLA about the seizure.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     41
+    ],
+    "fact": "Clinician advises the patient not to drive in the meantime and suggests the employer may help with shifts.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     43
+    ],
+    "fact": "Clinician provides safety tips: have showers, not baths; don't swim alone; and avoid heights.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     45
+    ],
+    "fact": "Clinician explains seizure first aid to the wife: put him on his side, time it, and call 999 if it lasts more than five minutes or if he is injured.",
+    "about": "relative"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     47
+    ],
+    "fact": "Clinician states the patient will see them in the clinic with the results in about six weeks.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"The presenting complaint is a first seizure 3 months ago.\",\n      \"transcript_evidence\": \"Three weeks ago, on the Sunday night.\",\n      \"evidence_turns\": [\n        4\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the seizure occurred 3 months ago when the transcript indicates it occurred 3 weeks ago, which is a significant temporal error.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "The presenting complaint is a first seizure 3 months ago.",
+    "transcript_evidence": "Three weeks ago, on the Sunday night.",
+    "evidence_turns": [
+     4
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the seizure occurred 3 months ago when the transcript indicates it occurred 3 weeks ago, which is a significant temporal error."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

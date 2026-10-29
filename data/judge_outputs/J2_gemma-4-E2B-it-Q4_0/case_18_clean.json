@@ -1,0 +1,336 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient is presenting with worsening exertional breathlessness and COPD."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient has a history of MRC dyspnoea grade 3."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient has a history of morning cough with white sputum."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient has had two exacerbations requiring oral steroids in the last 12 months, one of which also required antibiotics."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient has no history of hospital admissions."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has no history of ankle swelling."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient has no history of chest pain, haemoptysis, or weight loss."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient is an ex-smoker for 6 months, with an approximate smoking history of 30 pack-years."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient has good inhaler technique with Anoro."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient has received flu and pneumococcal vaccines."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed Anoro Ellipta (umeclidinium/vilanterol) one inhalation once daily."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed Salbutamol as needed (about twice daily)."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "The patient has no known drug allergies."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The patient's oxygen level is 93 percent on air."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient's breathing rate is 20."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "The patient has bilateral wheeze."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "The patient has coarse crackles at the bottom of the left lung, at the left base (new finding)."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "The patient's FEV1 is 52 percent of predicted, which is lower than last year."
+   },
+   {
+    "id": "c19",
+    "section": "Examination",
+    "claim": "The patient's blood eosinophil count last month was 0.35."
+   },
+   {
+    "id": "c20",
+    "section": "Impression",
+    "claim": "The patient has COPD with frequent exacerbations despite LAMA/LABA."
+   },
+   {
+    "id": "c21",
+    "section": "Impression",
+    "claim": "The patient's eosinophil count (0.35) is suitable for triple therapy (eosinophils \u22650.3)."
+   },
+   {
+    "id": "c22",
+    "section": "Impression",
+    "claim": "There are new focal crackles at the left base."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "The plan is to switch the patient from Anoro to Trelegy Ellipta, one puff once daily."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "The patient is referred to pulmonary rehabilitation."
+   },
+   {
+    "id": "c25",
+    "section": "Plan",
+    "claim": "A chest X-ray is ordered today due to crackles at the left base."
+   },
+   {
+    "id": "c26",
+    "section": "Plan",
+    "claim": "The patient is scheduled for a clinic review in three months."
+   },
+   {
+    "id": "c27",
+    "section": "Safety-netting",
+    "claim": "The patient should contact their GP the same day if they have increased breathlessness, sputum volume, or a change in sputum colour."
+   },
+   {
+    "id": "c28",
+    "section": "Safety-netting",
+    "claim": "The patient should call 999 if they are very breathless."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     35
+    ],
+    "fact": "Patient's oxygen level is 93 percent on air.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     35
+    ],
+    "fact": "Patient's breathing rate is 20.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     35
+    ],
+    "fact": "There is some wheeze on both sides.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     35
+    ],
+    "fact": "There are some coarse crackles at the bottom of the left lung, at the left base.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     37
+    ],
+    "fact": "Patient's FEV1 is 52 percent of predicted, which is a bit lower than last year.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     37
+    ],
+    "fact": "Patient's blood eosinophil count last month was 0.35.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     26
+    ],
+    "fact": "Patient smoked 20 cigarettes a day for 40 years.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     26
+    ],
+    "fact": "Patient stopped smoking for ten years in the middle, resulting in a total of 30 years of smoking.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     28
+    ],
+    "fact": "Patient is using the Anoro inhaler once a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     28
+    ],
+    "fact": "Patient is using the blue inhaler maybe twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     39
+    ],
+    "fact": "Patient might benefit from adding a steroid to their inhalers.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician plans to switch the Anoro to Trelegy, one puff once a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician plans to refer the patient to pulmonary rehabilitation.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician plans to order a chest X-ray today because of the crackles at the left base.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician plans to see the patient back in the clinic in three months.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     47
+    ],
+    "fact": "Safety netting advice: Contact GP the same day if there is a flare-up, more breathlessness, more phlegm, or a change in sputum colour.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     47
+    ],
+    "fact": "Safety netting advice: Call 999 if the patient is very breathless.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     18
+    ],
+    "fact": "Relative states she is the one with the swollen ankles.",
+    "about": "relative"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     18
+    ],
+    "fact": "Patient denies having swollen ankles.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"\",\n      \"transcript_evidence\": \"How have things been since we last saw you? ... I'm more breathless. I have to stop halfway up the hill to the shops now. I can walk on the flat at my own pace, but I'm slower than Valerie.\",\n      \"evidence_turns\": [\n        5,\n        7\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omitted the patient's MRC dyspnoea grade 3, which is a critical functional assessment for COPD severity.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"No ankle swelling.\",\n      \"transcript_evidence\": \"Relative: That's me. I'm the one with the swollen ankles.\",\n      \"evidence_turns\": [\n        18\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note inaccurately summarizes the history regarding ankle swelling; the relative reported it, although the patient denied it.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "",
+    "transcript_evidence": "How have things been since we last saw you? ... I'm more breathless. I have to stop halfway up the hill to the shops now. I can walk on the flat at my own pace, but I'm slower than Valerie.",
+    "evidence_turns": [
+     5,
+     7
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omitted the patient's MRC dyspnoea grade 3, which is a critical functional assessment for COPD severity."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "No ankle swelling.",
+    "transcript_evidence": "Relative: That's me. I'm the one with the swollen ankles.",
+    "evidence_turns": [
+     18
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note inaccurately summarizes the history regarding ankle swelling; the relative reported it, although the patient denied it."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

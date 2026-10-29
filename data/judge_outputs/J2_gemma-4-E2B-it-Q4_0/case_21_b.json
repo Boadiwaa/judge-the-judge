@@ -1,0 +1,353 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient is presenting with dysuria and urinary frequency for one day."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient has experienced dysuria and frequency (about every 30 minutes) since Saturday."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient reported possible pink-tinged urine this morning."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient denies loin pain, fever, rigors, nausea, or vomiting."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient denies vaginal discharge or itching."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has a history of one previous UTI two years ago, treated with antibiotics (agent unknown)."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient's period is approximately one week late."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has not yet had a pregnancy test."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient has no known renal disease."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "The patient takes Vitamin D in the winter."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient has no known drug allergies."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "The abdomen is soft."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The patient has mild suprapubic tenderness."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The patient has no renal angle tenderness."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient is speaking in full sentences and sounds well."
+   },
+   {
+    "id": "c16",
+    "section": "Impression",
+    "claim": "The impression is a lower urinary tract infection (cystitis)."
+   },
+   {
+    "id": "c17",
+    "section": "Impression",
+    "claim": "Possible early pregnancy is noted and needs to be excluded."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The treatment plan is to prescribe nitrofurantoin 100 mg modified-release capsules twice daily for seven days."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "A pregnancy test is required today."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "A urine sample is required for culture before starting antibiotics."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "No routine follow-up is needed."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "The patient should drink plenty of fluids and take paracetamol for discomfort."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "The patient should avoid ibuprofen until pregnancy is excluded."
+   },
+   {
+    "id": "c24",
+    "section": "Safety-netting",
+    "claim": "The patient should call the practice or 111 immediately if they develop pain in their back or side, a fever, shivering, or vomiting."
+   },
+   {
+    "id": "c25",
+    "section": "Safety-netting",
+    "claim": "The patient should call back if they do not start to feel better within 48 hours of starting antibiotics or if they get worse."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     3
+    ],
+    "fact": "Clinician is Dr Whitlock calling back from the surgery.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     6
+    ],
+    "fact": "Patient's date of birth is the second of November, ninety-seven.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     8
+    ],
+    "fact": "Patient reports burning when urinating (dysuria) and needing to go every half an hour (frequency).",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     10
+    ],
+    "fact": "Duration of symptoms is three days (since Saturday).",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     12
+    ],
+    "fact": "Patient reports maybe a little pinkish urine this morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     14
+    ],
+    "fact": "Patient denies pain in the back or sides, just under the ribs.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     16
+    ],
+    "fact": "Patient denies fever, shivers, or shakes.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     18
+    ],
+    "fact": "Patient denies feeling sick or vomiting.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     20
+    ],
+    "fact": "Patient denies unusual vaginal discharge or itching.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     22
+    ],
+    "fact": "Patient had a previous UTI about two years ago, which cleared up after antibiotics.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     26
+    ],
+    "fact": "Patient's period is about a week late.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     30
+    ],
+    "fact": "Patient takes Vitamin D in the winter.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     32
+    ],
+    "fact": "Patient denies any drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     34
+    ],
+    "fact": "Patient denies problems with kidneys.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     35
+    ],
+    "fact": "Clinician suggests the condition sounds like a urine infection in the bladder (cystitis).",
+    "about": "other"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     37
+    ],
+    "fact": "Clinician plans to prescribe nitrofurantoin 100 milligrams, modified-release capsules, twice a day for seven days.",
+    "about": "other"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     39
+    ],
+    "fact": "Clinician requests the patient do a pregnancy test today and drop a urine sample before starting antibiotics.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     41
+    ],
+    "fact": "Clinician requests the patient ring back tomorrow with the pregnancy test result.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     43
+    ],
+    "fact": "Clinician advises the patient to drink plenty of fluids and take paracetamol for discomfort.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     45
+    ],
+    "fact": "Clinician advises sticking to paracetamol for now until pregnancy status is known.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     47
+    ],
+    "fact": "Clinician advises calling straight away or 111 if the patient develops pain in the back or side, a fever, shivering, or vomiting.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     49
+    ],
+    "fact": "Clinician advises calling back if the patient is not starting to feel better within 48 hours of starting antibiotics or if they are getting worse.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"The patient is presenting with dysuria and urinary frequency for one day.\",\n      \"transcript_evidence\": \"Since yesterday. Sorry, no, since Saturday. So three days now.\",\n      \"evidence_turns\": [\n        4,\n        10\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the duration of symptoms as one day, contradicting the transcript which states the symptoms have been present for three days.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"The patient has mild suprapubic tenderness.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 1,\n      \"likelihood\": 3,\n      \"rationale\": \"The note omits the finding of mild suprapubic tenderness, which is a relevant physical examination finding.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"No routine follow-up is needed.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note omits the statement regarding routine follow-up, which is a relevant part of the management plan.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "The patient is presenting with dysuria and urinary frequency for one day.",
+    "transcript_evidence": "Since yesterday. Sorry, no, since Saturday. So three days now.",
+    "evidence_turns": [
+     4,
+     10
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the duration of symptoms as one day, contradicting the transcript which states the symptoms have been present for three days."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "The patient has mild suprapubic tenderness.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 1,
+    "likelihood": 3,
+    "rationale": "The note omits the finding of mild suprapubic tenderness, which is a relevant physical examination finding."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Plan",
+    "note_span": "No routine follow-up is needed.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note omits the statement regarding routine follow-up, which is a relevant part of the management plan."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

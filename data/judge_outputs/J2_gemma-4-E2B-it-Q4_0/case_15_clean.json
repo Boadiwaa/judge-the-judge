@@ -1,0 +1,490 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "Routine lithium monitoring review for bipolar affective disorder."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "Patient reports stable mood and good energy."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Wife reports reduced sleep (about 5 hours) and increased talkativeness and new projects over the last week, which preceded his previous relapse."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Patient denies racing thoughts or overspending."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "Patient has no missed lithium doses."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "Patient took naproxen (his brother's) for back pain for 3\u20134 days last week, initially recalled as ibuprofen."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "Patient denies diarrhoea, vomiting, unsteadiness, or confusion."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "Patient has a long-standing fine tremor in both hands, which is unchanged."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "Patient has good fluid intake."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "Patient is taking Priadel (lithium carbonate) 800 mg at night."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "Patient has no known drug allergies."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "Fine tremor of both hands is present and unchanged."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "Patient's gait is steady."
+   },
+   {
+    "id": "c14",
+    "section": "Blood tests",
+    "claim": "Lithium level last month was 0.7 mmol/L (12-hour post-dose), which is in range."
+   },
+   {
+    "id": "c15",
+    "section": "Blood tests",
+    "claim": "eGFR is 74, which is stable."
+   },
+   {
+    "id": "c16",
+    "section": "Blood tests",
+    "claim": "Thyroid function and calcium are normal."
+   },
+   {
+    "id": "c17",
+    "section": "Impression",
+    "claim": "Possible early signs of hypomanic relapse reported by wife."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "Continue Priadel 800 mg at night."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "Repeat lithium level in 1 week (12 hours post-dose) due to NSAID exposure, then 3-monthly."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "Avoid NSAIDs; paracetamol is fine for back pain."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "Inform community mental health team."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "Patient must keep a sleep diary and contact care coordinator if sleeping less than five hours for two consecutive nights."
+   },
+   {
+    "id": "c23",
+    "section": "Safety-netting",
+    "claim": "If vomiting, diarrhoea, coarse tremor, unsteadiness, or confusion occurs, stop lithium and seek an urgent lithium level or attend A&E."
+   },
+   {
+    "id": "c24",
+    "section": "Safety-netting",
+    "claim": "Avoid dehydration, especially in hot weather."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "Clinician greeted Mr Fairweather-Okoro and his wife.",
+    "about": "patient|relative"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "Patient identified herself as Adaeze.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "Relative greeted the clinician.",
+    "about": "relative"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     4
+    ],
+    "fact": "Clinician asked if it was okay for Adaeze to stay.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     5
+    ],
+    "fact": "Patient confirmed she was okay with staying.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     6
+    ],
+    "fact": "Clinician initiated the routine lithium review.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     7
+    ],
+    "fact": "Patient reported mood has been steady and work is going well.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     8
+    ],
+    "fact": "Clinician asked about sleep.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     9
+    ],
+    "fact": "Patient reported feeling fine.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     10
+    ],
+    "fact": "Relative reported that the patient has been sleeping less this last week (five hours, maybe) and has been talking a lot more and starting lots of projects, which started the previous relapse.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     11
+    ],
+    "fact": "Patient reported feeling well and having loads of energy.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     12
+    ],
+    "fact": "Clinician asked if the patient was having any racing thoughts or spending more money than usual.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     13
+    ],
+    "fact": "Patient denied racing thoughts or overspending.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     14
+    ],
+    "fact": "Clinician asked if the patient was on Priadel, 800 milligrams at night.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     15
+    ],
+    "fact": "Patient confirmed she was on Priadel, 800 milligrams at night.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     16
+    ],
+    "fact": "Clinician asked about missed doses.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     17
+    ],
+    "fact": "Patient confirmed she has never missed a dose.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     18
+    ],
+    "fact": "Clinician asked if the patient had taken any other medicines recently, including anything from the chemist.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     19
+    ],
+    "fact": "Patient initially stated she took ibuprofen for her back, but corrected herself to naproxen, which her brother gave her.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     20
+    ],
+    "fact": "Clinician asked how many days she took the medication for.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     21
+    ],
+    "fact": "Patient stated she took it for three or four days.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     22
+    ],
+    "fact": "Clinician noted that anti-inflammatory painkillers can raise lithium levels and asked about diarrhoea or vomiting.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     23
+    ],
+    "fact": "Patient denied diarrhoea or vomiting.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     24
+    ],
+    "fact": "Clinician asked if the patient was feeling unsteady on her feet or muddled.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     25
+    ],
+    "fact": "Patient denied feeling unsteady on her feet or muddled.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     26
+    ],
+    "fact": "Clinician asked about any change in her tremor.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     27
+    ],
+    "fact": "Patient reported no change in her tremor, stating it is the same little shake she has always had.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     28
+    ],
+    "fact": "Clinician asked if the patient was drinking plenty of fluids.",
+    "about": "patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     29
+    ],
+    "fact": "Patient confirmed she has a big water bottle at work.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     30
+    ],
+    "fact": "Clinician asked about other medicines and allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     31
+    ],
+    "fact": "Patient stated she has no other medicines and no allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     32
+    ],
+    "fact": "Clinician reviewed blood tests: lithium level last month was 0.7 mmol/L (12-hour post-dose), eGFR is 74 (stable), and thyroid and calcium are normal.",
+    "about": "patient"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     33
+    ],
+    "fact": "Patient responded positively to the lab results.",
+    "about": "patient"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     34
+    ],
+    "fact": "Clinician examined the patient's hands and noted a fine tremor in both hands, which is the same as before, and confirmed the patient was walking steadily.",
+    "about": "patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     35
+    ],
+    "fact": "Patient responded with 'Okay'.",
+    "about": "patient"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     36
+    ],
+    "fact": "Clinician planned to recheck the lithium level in one week (12 hours post-dose) because of naproxen exposure, and then follow up every three months.",
+    "about": "patient"
+   },
+   {
+    "id": "f37",
+    "turns": [
+     37
+    ],
+    "fact": "Patient agreed to the plan.",
+    "about": "patient"
+   },
+   {
+    "id": "f38",
+    "turns": [
+     38
+    ],
+    "fact": "Clinician advised the patient not to take ibuprofen or naproxen, suggesting paracetamol for back pain.",
+    "about": "patient"
+   },
+   {
+    "id": "f39",
+    "turns": [
+     39
+    ],
+    "fact": "Patient acknowledged the advice.",
+    "about": "patient"
+   },
+   {
+    "id": "f40",
+    "turns": [
+     40
+    ],
+    "fact": "Clinician planned to inform the community mental health team, ask the patient to keep a sleep diary, and instruct them to contact the care coordinator or the clinic if they sleep less than five hours for two nights running.",
+    "about": "patient"
+   },
+   {
+    "id": "f41",
+    "turns": [
+     41
+    ],
+    "fact": "Relative stated she would keep an eye on the patient.",
+    "about": "patient"
+   },
+   {
+    "id": "f42",
+    "turns": [
+     42
+    ],
+    "fact": "Clinician instructed the patient to continue Priadel at the same dose and provided safety-netting advice: if vomiting, diarrhoea, coarse shaking, unsteadiness, or confusion occurs, the patient should stop lithium and seek an urgent lithium level or go to A&E.",
+    "about": "patient"
+   },
+   {
+    "id": "f43",
+    "turns": [
+     43
+    ],
+    "fact": "Patient acknowledged the safety instructions.",
+    "about": "patient"
+   },
+   {
+    "id": "f44",
+    "turns": [
+     44
+    ],
+    "fact": "Clinician advised the patient to try not to get dehydrated, especially in hot weather.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

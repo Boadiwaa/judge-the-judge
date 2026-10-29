@@ -1,0 +1,329 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient is presenting with a flare of atopic eczema lasting two weeks."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient's eczema flare started two weeks ago, after half-term."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient's eczema is worst in the flexures, particularly the right elbow."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient experiences nocturnal itch that disturbs sleep."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient denies weeping, crusting, blisters, or punched-out lesions."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient is systemically well."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient recently started using bubble baths."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient uses Epaderm once daily and hydrocortisone 1% cream."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient has no personal history of asthma or wheeze."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The father has hay fever and the sister has asthma."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient uses Epaderm emollient and hydrocortisone 1% cream."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "The examination reveals dry, erythematous, excoriated patches in both antecubital and both popliteal fossae."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The right elbow crease is the most severe area of the rash."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "There is no evidence of weeping, crusting, or vesicles."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "Mild cervical lymphadenopathy is present."
+   },
+   {
+    "id": "c16",
+    "section": "Impression",
+    "claim": "The clinical impression is a moderate flare of atopic eczema with no signs of infection."
+   },
+   {
+    "id": "c17",
+    "section": "Impression",
+    "claim": "A possible trigger for the flare is bubble baths."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The plan is to use clobetasone propionate 0.05% once daily for seven days on inflamed areas, followed by hydrocortisone 1% if needed."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The patient is instructed to use Epaderm three or four times daily, at least a 500 gram tub every two weeks, and use it as a soap substitute."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "The patient is instructed to stop using bubble baths."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "The follow-up plan is a review in two weeks."
+   },
+   {
+    "id": "c22",
+    "section": "Safety-netting",
+    "claim": "The patient is advised to seek same-day review if painful sores, blisters, or punched-out spots appear, especially with fever or feeling unwell, due to possible eczema herpeticum."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     4,
+     6
+    ],
+    "fact": "The patient's eczema flare started two weeks ago, after half-term.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     8
+    ],
+    "fact": "The patient's eczema is worst in the backs of her knees and the insides of her elbows, with the right elbow being the worst.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     9
+    ],
+    "fact": "The patient reports feeling itchy.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     11
+    ],
+    "fact": "The patient denies weeping, crusting, or yellow discharge, reporting only red, dry, and scratched skin.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     12,
+     13
+    ],
+    "fact": "The patient denies having any blisters or painful sores that look like little punched-out holes.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     15
+    ],
+    "fact": "The patient denies having fevers or feeling unwell.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     17
+    ],
+    "fact": "The patient is currently using Epaderm once a day and hydrocortisone cream from the chemist.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     19
+    ],
+    "fact": "The hydrocortisone cream is one percent strength.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     21
+    ],
+    "fact": "The patient denies having any other medications or drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     23
+    ],
+    "fact": "The patient's father has hay fever and her big sister has asthma.",
+    "about": "relative"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     25
+    ],
+    "fact": "The patient has no personal history of asthma or wheezing.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     27
+    ],
+    "fact": "The patient has a cat at home.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     29
+    ],
+    "fact": "The patient has started having bubble baths at her mum's.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     30
+    ],
+    "fact": "Examination findings include dry, red, scratched patches in both elbow creases and behind both knees, with the right elbow crease being the worst. There is no weeping, crusting, or blisters, and no sign of infection.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     32
+    ],
+    "fact": "The clinician plans to use clobetasone butyrate 0.05% once daily for seven days on the red patches on the body, then return to hydrocortisone for a few days if needed.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     34
+    ],
+    "fact": "The clinician explains that the cream should be applied using a fingertip unit, covering an area the size of two adult hands.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     36
+    ],
+    "fact": "The clinician advises using Epaderm three or four times a day, at least a 500 gram tub every two weeks, and to use it instead of soap.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     38
+    ],
+    "fact": "The clinician plans to see the patient again in two weeks.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     40
+    ],
+    "fact": "Safety-netting advises seeking same-day review if the patient gets painful sores, blisters, or punched-out spots, especially with a fever or feeling unwell, due to possible eczema herpeticum.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Flare of atopic eczema for 2 weeks.\",\n      \"transcript_evidence\": \"About a month. No, actually, she started scratching after half-term, so two weeks.\",\n      \"evidence_turns\": [\n        6\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note states the duration is two weeks, but the transcript provides the context that the flare started after half-term, clarifying the timeline.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Nocturnal itch disturbing sleep.\",\n      \"transcript_evidence\": \"It's so itchy.\",\n      \"evidence_turns\": [\n        9\n      ],\n      \"severity\": 1,\n      \"likelihood\": 3,\n      \"rationale\": \"The patient reports severe itching, but the specific detail regarding the nocturnal nature of the itch is omitted.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Mild cervical lymphadenopathy is present.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"Mild cervical lymphadenopathy is a relevant physical finding that was not documented in the note.\"\n    },\n    {\n      \"type\": \"DRUG_NAME\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Clobetasol propionate 0.05% once daily\",\n      \"transcript_evidence\": \"clobetasone butyrate, 0.05 percent\",\n      \"evidence_turns\": [\n        32\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note records the drug name as 'clobetasone propionate' while the transcript records it as 'clobetasone butyrate', which is a minor variation.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Flare of atopic eczema for 2 weeks.",
+    "transcript_evidence": "About a month. No, actually, she started scratching after half-term, so two weeks.",
+    "evidence_turns": [
+     6
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note states the duration is two weeks, but the transcript provides the context that the flare started after half-term, clarifying the timeline."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Nocturnal itch disturbing sleep.",
+    "transcript_evidence": "It's so itchy.",
+    "evidence_turns": [
+     9
+    ],
+    "severity": 1,
+    "likelihood": 3,
+    "rationale": "The patient reports severe itching, but the specific detail regarding the nocturnal nature of the itch is omitted."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Mild cervical lymphadenopathy is present.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "Mild cervical lymphadenopathy is a relevant physical finding that was not documented in the note."
+   },
+   {
+    "type": "DRUG_NAME",
+    "note_section": "Plan",
+    "note_span": "Clobetasol propionate 0.05% once daily",
+    "transcript_evidence": "clobetasone butyrate, 0.05 percent",
+    "evidence_turns": [
+     32
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note records the drug name as 'clobetasone propionate' while the transcript records it as 'clobetasone butyrate', which is a minor variation."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

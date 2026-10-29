@@ -1,0 +1,310 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient is presenting with dysuria and urinary frequency for 3 days."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient reports dysuria and frequency occurring about every 30 minutes since Saturday."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient reported possible pink-tinged urine this morning."
+   },
+   {
+    "id": "c4",
+    "section": "History/Negatives",
+    "claim": "The patient denies loin pain, fever, rigors, nausea, or vomiting."
+   },
+   {
+    "id": "c5",
+    "section": "History/Negatives",
+    "claim": "The patient denies vaginal discharge or itching."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has a history of one previous UTI two years ago, which was treated with antibiotics (agent unknown)."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient's period is approximately one week late, and no pregnancy test has been performed yet."
+   },
+   {
+    "id": "c8",
+    "section": "History/Negatives",
+    "claim": "The patient has no known renal disease."
+   },
+   {
+    "id": "c9",
+    "section": "Medications and allergies",
+    "claim": "The patient takes Vitamin D during the winter."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "The patient has no known drug allergies."
+   },
+   {
+    "id": "c11",
+    "section": "Examination",
+    "claim": "The examination was a telephone consultation, and the patient was speaking in full sentences and sounded well."
+   },
+   {
+    "id": "c12",
+    "section": "Impression",
+    "claim": "The clinical impression is a lower urinary tract infection (cystitis)."
+   },
+   {
+    "id": "c13",
+    "section": "Impression",
+    "claim": "Possible early pregnancy is noted and needs to be excluded."
+   },
+   {
+    "id": "c14",
+    "section": "Plan",
+    "claim": "The prescribed treatment is Nitrofurantoin 100 mg modified-release capsules, twice daily for 7 days."
+   },
+   {
+    "id": "c15",
+    "section": "Plan",
+    "claim": "A pregnancy test is ordered today."
+   },
+   {
+    "id": "c16",
+    "section": "Plan",
+    "claim": "A urine sample is requested for culture before starting antibiotics."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "The patient is advised to drink plenty of fluids and take paracetamol for discomfort."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "Ibuprofen should be avoided until pregnancy is excluded."
+   },
+   {
+    "id": "c19",
+    "section": "Safety-netting",
+    "claim": "The patient should call the practice or 111 immediately if they develop back/side pain, fever, shivering, or vomiting."
+   },
+   {
+    "id": "c20",
+    "section": "Safety-netting",
+    "claim": "The patient should call back if they do not feel better within 48 hours of starting antibiotics or if symptoms worsen."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     3
+    ],
+    "fact": "Clinician is Dr Whitlock calling back from the surgery.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     4
+    ],
+    "fact": "Patient is at home.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     6
+    ],
+    "fact": "Patient's date of birth is the second of November, 1997.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     8
+    ],
+    "fact": "Patient reports burning when urinating (dysuria) and needing to go every half an hour (frequency).",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     10
+    ],
+    "fact": "The patient reports the symptoms have been going on since Saturday, which is three days now.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     12
+    ],
+    "fact": "Patient reports maybe a little pinkish urine this morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     14
+    ],
+    "fact": "Patient denies any pain in the back or sides, just under the ribs.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     16
+    ],
+    "fact": "Patient denies fever, shivers, or shakes, stating they feel okay.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     18
+    ],
+    "fact": "Patient denies feeling sick or vomiting.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     20
+    ],
+    "fact": "Patient denies unusual vaginal discharge or itching.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     22
+    ],
+    "fact": "Patient had a previous UTI about two years ago, which cleared up after treatment with antibiotics (agent unknown).",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     26
+    ],
+    "fact": "Patient states they don't think they are pregnant but their period is about a week late.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     28
+    ],
+    "fact": "Patient has not yet done a pregnancy test.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     30
+    ],
+    "fact": "Patient takes Vitamin D in the winter.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     32
+    ],
+    "fact": "Patient has no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     34
+    ],
+    "fact": "Patient denies any problems with their kidneys.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     35
+    ],
+    "fact": "Clinician suggests the condition sounds like a urine infection in the bladder (cystitis).",
+    "about": "clinician"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     37
+    ],
+    "fact": "Clinician prescribes Nitrofurantoin 100 milligrams, modified-release capsules, twice a day for seven days.",
+    "about": "clinician"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     39
+    ],
+    "fact": "Clinician requests the patient do a pregnancy test today and drop a urine sample before starting antibiotics.",
+    "about": "clinician"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     41
+    ],
+    "fact": "Clinician instructs the patient to ring back tomorrow with the pregnancy test result, and if positive, a face-to-face review and treatment plan change will occur.",
+    "about": "clinician"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     43
+    ],
+    "fact": "Clinician advises the patient to drink plenty of fluids and take paracetamol for discomfort.",
+    "about": "clinician"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     45
+    ],
+    "fact": "Clinician advises sticking to paracetamol for now until pregnancy status is known.",
+    "about": "clinician"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     47
+    ],
+    "fact": "Clinician warns that developing back/side pain, fever, shivering, or vomiting could mean the infection has spread to the kidneys, and advises calling immediately or 111 if closed.",
+    "about": "clinician"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     49
+    ],
+    "fact": "Clinician instructs the patient to call back if they are not starting to feel better within 48 hours of starting antibiotics or if they are getting worse.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

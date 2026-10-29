@@ -1,0 +1,311 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint/History",
+    "claim": "The patient presented with a flare of rheumatoid arthritis lasting three weeks."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient experienced painful swelling of the right wrist and right hand knuckles for three weeks."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient has early morning stiffness lasting about 90 minutes (initially reported as 30 minutes)."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient has mild foot ache."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient experiences mild nausea the day after taking methotrexate."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient drinks about six units of alcohol per week."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient's husband had shingles last month."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient had chickenpox as a child."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient has not had shingles."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "The patient is currently taking methotrexate 15 mg once weekly on Mondays."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking folic acid 5 mg once weekly on Thursdays."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient has a history of a rash associated with sulfasalazine."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The examination revealed synovitis of the right wrist and the right second and third MCP joints."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The left hand examination was normal."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient's CRP is 28."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "The patient's blood count and liver tests are normal."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "The disease activity score is 4.8, indicating moderate activity."
+   },
+   {
+    "id": "c18",
+    "section": "Impression",
+    "claim": "The clinical impression is a rheumatoid arthritis flare with moderate disease activity on methotrexate."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The plan is to increase methotrexate to 20 mg once weekly on Mondays."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "The plan is to continue folic acid 5 mg once weekly on Thursdays."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "The plan is to administer a steroid injection (methylprednisolone 120 mg) today to settle the flare."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "The plan is to repeat blood tests every two weeks for the next six weeks, then every three months."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "The patient is scheduled for a clinic review in three months."
+   },
+   {
+    "id": "c24",
+    "section": "Safety-netting",
+    "claim": "Safety netting advises stopping methotrexate and getting an urgent blood test if the patient develops a sore throat, fever, mouth ulcers, unusual bruising or bleeding, or a new cough or breathlessness."
+   },
+   {
+    "id": "c25",
+    "section": "Safety-netting",
+    "claim": "Safety netting advises reporting a painful blistering rash promptly."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     5
+    ],
+    "fact": "Patient reports bad symptoms for the last three weeks, specifically swollen and painful right wrist and knuckles on that hand.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     7
+    ],
+    "fact": "Patient reports morning stiffness lasting about half an hour, but corrects this to an hour and a half, stating she can't do her buttons until about half nine and gets up at eight.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     9
+    ],
+    "fact": "Patient reports that her feet ache a bit, but mostly the pain is in the right hand.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     11
+    ],
+    "fact": "Patient is on methotrexate 15 milligrams once a week on Mondays.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     13
+    ],
+    "fact": "Patient is taking folic acid 5 milligrams once a week on Thursdays.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     17
+    ],
+    "fact": "Patient reports feeling a bit queasy on Tuesdays, but manages it.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     21
+    ],
+    "fact": "Patient drinks about six units of wine per week (a glass on Friday and Saturday).",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     23
+    ],
+    "fact": "Patient has a history of a rash from sulfasalazine.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     25
+    ],
+    "fact": "Relative reports that the patient had shingles last month.",
+    "about": "relative"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     27
+    ],
+    "fact": "Patient confirms she had chickenpox as a child.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     29
+    ],
+    "fact": "Patient states she has never had shingles.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     30
+    ],
+    "fact": "Examination findings show swelling and tenderness of the right wrist and the second and third knuckles on the right hand, consistent with synovitis, while the left hand looks fine.",
+    "about": "clinician"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     32
+    ],
+    "fact": "Blood tests show a CRP of 28, and blood count and liver tests are normal.",
+    "about": "clinician"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     32
+    ],
+    "fact": "The disease activity score is 4.8, which is classified as moderate activity.",
+    "about": "clinician"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     34
+    ],
+    "fact": "Clinician plans to increase methotrexate to 20 milligrams once a week on Mondays.",
+    "about": "clinician"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     34
+    ],
+    "fact": "Clinician plans to keep folic acid 5 mg once weekly on Thursdays.",
+    "about": "clinician"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     36
+    ],
+    "fact": "Clinician plans to give a steroid injection (methylprednisolone 120 mg) today to settle the flare.",
+    "about": "clinician"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     38
+    ],
+    "fact": "Clinician plans to schedule blood tests every two weeks for the next six weeks, then every three months.",
+    "about": "clinician"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     40
+    ],
+    "fact": "Clinician plans to see the patient back in the clinic in three months.",
+    "about": "clinician"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     42
+    ],
+    "fact": "Safety netting advises stopping methotrexate and getting an urgent blood test if the patient develops a sore throat, fever, mouth ulcers, unusual bruising or bleeding, or a new cough or breathlessness.",
+    "about": "clinician"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     42
+    ],
+    "fact": "Safety netting advises reporting a painful blistering rash promptly.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

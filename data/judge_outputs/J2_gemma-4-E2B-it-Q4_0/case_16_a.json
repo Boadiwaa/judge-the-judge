@@ -1,0 +1,280 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "Low mood and 10 weeks postpartum."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "Low mood for 6 weeks, starting a few weeks after delivery, characterized by tearfulness, anhedonia, and guilt."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Poor sleep even when the baby sleeps, accompanied by persistent worry."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Intrusive, unwanted thoughts of accidentally dropping the baby, which distress her."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "Urge to harm the baby and avoidance behavior (not carrying him on the stairs)."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "Passive thoughts that her family would be better off without her."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "Previous depression at age 19, treated with fluoxetine for one year, which helped."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "Breastfeeding."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "Partner has had recent panic attacks."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "No regular medications."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "No known drug allergies."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "PHQ-9 score of 17, fitting moderately severe postnatal depression."
+   },
+   {
+    "id": "c13",
+    "section": "Impression",
+    "claim": "Moderately severe postnatal depression with ego-dystonic intrusive harm-related thoughts and passive suicidal ideation without plan."
+   },
+   {
+    "id": "c14",
+    "section": "Impression",
+    "claim": "Family history of possible postpartum psychosis."
+   },
+   {
+    "id": "c15",
+    "section": "Plan",
+    "claim": "Start sertraline 50 mg once a day (compatible with breastfeeding)."
+   },
+   {
+    "id": "c16",
+    "section": "Plan",
+    "claim": "Referral to the perinatal mental health team."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "Inform the health visitor."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "Provide details for Talking Therapies, prioritizing new parents."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "Review in one week."
+   },
+   {
+    "id": "c20",
+    "section": "Safety-netting",
+    "claim": "If suicidal thoughts worsen or safety is compromised, call NHS 111 (mental health option) or 999."
+   },
+   {
+    "id": "c21",
+    "section": "Safety-netting",
+    "claim": "Seek urgent help if confusion or hallucinations occur."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     6
+    ],
+    "fact": "Patient is eight weeks old, corrected to ten weeks on Saturday.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     8
+    ],
+    "fact": "Patient reports low mood, crying all the time, and anhedonia (doesn't enjoy anything).",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     10
+    ],
+    "fact": "Symptoms have been present for about six weeks, starting a few weeks after birth, and have not lifted.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     12
+    ],
+    "fact": "Patient cannot sleep even when the baby is asleep and lies there worrying.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     14
+    ],
+    "fact": "Patient experiences intrusive thoughts of dropping the baby down the stairs and avoids carrying him on the stairs.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     16
+    ],
+    "fact": "Patient denies any urge or intention to harm Oscar.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     18
+    ],
+    "fact": "Patient has passive suicidal ideation, thinking they would be better off without them, but states they wouldn't do anything.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     22
+    ],
+    "fact": "Patient had previous depression at age 19, treated with fluoxetine for a year, and it helped.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     24
+    ],
+    "fact": "Patient's mother had mental health issues, including hearing things, and had to be hospitalized after having the patient's brother.",
+    "about": "relative"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     26
+    ],
+    "fact": "Patient is breastfeeding.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     28
+    ],
+    "fact": "Patient reports no current medications or known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     29
+    ],
+    "fact": "Relative reports struggling and having had a couple of panic attacks at work.",
+    "about": "relative"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     32
+    ],
+    "fact": "Patient's PHQ-9 score is 17, which is consistent with moderately severe depression and postnatal depression.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     34
+    ],
+    "fact": "Plan to start sertraline 50 milligrams once a day, noted as one of the safest antidepressants when breastfeeding.",
+    "about": "clinician"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     36
+    ],
+    "fact": "Clinician plans to refer the patient to the perinatal mental health team and inform the health visitor.",
+    "about": "clinician"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     38
+    ],
+    "fact": "Clinician will provide details for Talking Therapies, noting they prioritize new parents.",
+    "about": "clinician"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     40
+    ],
+    "fact": "Follow-up scheduled in one week.",
+    "about": "clinician"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     42
+    ],
+    "fact": "Safety-netting advice: Call 111 (mental health option) or 999 if suicidal thoughts worsen or safety is compromised.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Urge to harm the baby and avoidance behavior (not carrying him on the stairs).\",\n      \"transcript_evidence\": \"Patient: No. Never. I love him.\",\n      \"evidence_turns\": [\n        6\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note claims an urge to harm the baby, but the transcript explicitly states the patient denies any urge or intention to harm him, which is a critical contradiction.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Urge to harm the baby and avoidance behavior (not carrying him on the stairs).",
+    "transcript_evidence": "Patient: No. Never. I love him.",
+    "evidence_turns": [
+     6
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note claims an urge to harm the baby, but the transcript explicitly states the patient denies any urge or intention to harm him, which is a critical contradiction."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

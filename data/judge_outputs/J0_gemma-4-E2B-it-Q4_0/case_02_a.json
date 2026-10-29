@@ -4,9 +4,24 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Factual error/Inaccurate finding\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"Straight leg raise positive on the left at 40 degrees; negative on the right.\",\n      \"transcript_evidence\": \"I'm going to lift your right leg up straight. Tell me when it hurts. [35] That's at about 40 degrees. And the left leg? [37] That's fine. [38]\",\n      \"evidence_turns\": [\n        35,\n        37,\n        38\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the straight leg raise was positive on the left and negative on the right, contradicting the transcript where the right leg was tested first and found positive.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
  "output": {
-  "findings": [],
-  "overall_note_safety": "safe_as_is"
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "examination",
+    "note_span": "Straight leg raise positive on the left at 40 degrees; negative on the right.",
+    "transcript_evidence": "I'm going to lift your right leg up straight. Tell me when it hurts. [35] That's at about 40 degrees. And the left leg? [37] That's fine. [38]",
+    "evidence_turns": [
+     35,
+     37,
+     38
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the straight leg raise was positive on the left and negative on the right, contradicting the transcript where the right leg was tested first and found positive."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
  }
 }

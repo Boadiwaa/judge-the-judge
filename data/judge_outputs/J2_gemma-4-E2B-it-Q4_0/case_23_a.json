@@ -1,0 +1,362 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient is presenting with vomiting and diarrhoea since last night."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient has had about five bile-stained, green vomits since last night, with fewer today."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient has had six to seven loose stools today."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "There is blood in the patient's stool."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient's brother had a similar illness from nursery, and the patient attends the same nursery."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has had four wet nappies since this morning."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient is taking small amounts of breast milk and formula."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient's temperature is 37.4 \u00b0C."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient is alert and playing."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient is not drowsy or floppy."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "The patient has no rash."
+   },
+   {
+    "id": "c12",
+    "section": "History",
+    "claim": "The patient was previously well."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "The patient has no regular medications and no known drug allergies."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "Examination was a telephone assessment and no physical examination was performed."
+   },
+   {
+    "id": "c15",
+    "section": "Impression",
+    "claim": "The impression is probable viral gastroenteritis with reduced urine output."
+   },
+   {
+    "id": "c16",
+    "section": "Plan",
+    "claim": "The plan is a face-to-face assessment at the surgery today at 16:00."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "The plan is to continue breastfeeding and give small amounts of oral rehydration solution (e.g., Dioralyte) every few minutes."
+   },
+   {
+    "id": "c18",
+    "section": "Safety-netting",
+    "claim": "Safety netting includes calling 999 if the patient becomes floppy, very sleepy, or hard to wake, or if a rash does not fade when pressed."
+   },
+   {
+    "id": "c19",
+    "section": "Safety-netting",
+    "claim": "Safety netting includes attending A&E if the vomit goes green or if there is blood in the nappy."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "The clinician initiated contact by asking if the caller was Freya's mother.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The relative identified herself as Leanne.",
+    "about": "relative"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "The clinician identified herself as Dr Mistry calling back from the surgery.",
+    "about": "other"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     4
+    ],
+    "fact": "The relative confirmed Freya was on her lap.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     5
+    ],
+    "fact": "The clinician asked to confirm Freya's date of birth.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     6
+    ],
+    "fact": "Freya's date of birth is the fourteenth of December, and she is ten months old.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     8
+    ],
+    "fact": "Freya started being sick last night and had diarrhoea this morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     10
+    ],
+    "fact": "Freya has been sick about five times since last night, with fewer today.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     12
+    ],
+    "fact": "The vomit is milky, not green.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     14
+    ],
+    "fact": "The relative reported six or seven runny dirty nappies today.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     16
+    ],
+    "fact": "There is no blood in Freya's nappies, but her brother had blood in his last week when he had the same illness.",
+    "about": "patient|other"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     18
+    ],
+    "fact": "Freya's brother had a similar illness at nursery, and Freya attends the same nursery.",
+    "about": "other"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     20
+    ],
+    "fact": "The relative initially thought there were about four wet nappies, but corrected this to only two wet ones since this morning, with the others being dirty.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     21
+    ],
+    "fact": "There are two wet nappies since this morning, and the current time is about two o'clock.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     22
+    ],
+    "fact": "Freya is having little bits of milk and is breastfed and has a bit of formula.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     24
+    ],
+    "fact": "Freya's temperature this morning was 37.4 \u00b0C.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     26
+    ],
+    "fact": "Freya is grumpy but is watching the telly and playing with her blocks.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     28
+    ],
+    "fact": "Freya is not very sleepy or floppy or hard to wake.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     30
+    ],
+    "fact": "There is no rash.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     32
+    ],
+    "fact": "The patient has no regular medications and no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     33
+    ],
+    "fact": "The clinician suggested the condition is likely probable viral gastroenteritis with reduced urine output.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician expressed concern about the low number of wet nappies (two) and requested a face-to-face assessment at four o'clock.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician advised continuing to breastfeed and giving small amounts of oral rehydration solution (like Dioralyte) a teaspoon every few minutes.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician advised calling 999 if the patient becomes floppy, very sleepy, or hard to wake, or gets a rash that doesn't fade when pressed.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician advised taking the patient to A&E if the vomit goes green or if there is blood in the nappy.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"HALLUC\",\n      \"note_section\": \"History\",\n      \"note_span\": \"About five bile-stained, green vomits since last night, with fewer today.\",\n      \"transcript_evidence\": \"No, it's milky. Just her milk coming back.\",\n      \"evidence_turns\": [\n        12\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note claims the vomit was green and bile-stained, which is directly contradicted by the transcript stating it was milky.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"There is blood in the patient's stool.\",\n      \"transcript_evidence\": \"No. Her brother had blood in his last week when he had the same thing, but there's none in hers.\",\n      \"evidence_turns\": [\n        16\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records the presence of blood in the stool, which is contradicted by the transcript stating there was none, potentially missing a critical finding.\"\n    },\n    {\n      \"type\": \"CORRECTION_LOST\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Four wet nappies since this morning.\",\n      \"transcript_evidence\": \"About four, I think. Oh, wait, no. I've only changed two wet ones since this morning. The others were dirty.\",\n      \"evidence_turns\": [\n        20\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records a specific count of wet nappies (four), failing to capture the correction made in the transcript that only two were wet and the others were dirty.\"\n    },\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Face-to-face assessment at the surgery today at 16:00.\",\n      \"transcript_evidence\": \"I'd like to see her this afternoon. Can you bring her in at four o'clock?\",\n      \"evidence_turns\": [\n        35\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The planned time (16:00) differs from the time agreed upon in the transcript (4:00 PM), which is a minor temporal discrepancy.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "HALLUC",
+    "note_section": "History",
+    "note_span": "About five bile-stained, green vomits since last night, with fewer today.",
+    "transcript_evidence": "No, it's milky. Just her milk coming back.",
+    "evidence_turns": [
+     12
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note claims the vomit was green and bile-stained, which is directly contradicted by the transcript stating it was milky."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "There is blood in the patient's stool.",
+    "transcript_evidence": "No. Her brother had blood in his last week when he had the same thing, but there's none in hers.",
+    "evidence_turns": [
+     16
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records the presence of blood in the stool, which is contradicted by the transcript stating there was none, potentially missing a critical finding."
+   },
+   {
+    "type": "CORRECTION_LOST",
+    "note_section": "History",
+    "note_span": "Four wet nappies since this morning.",
+    "transcript_evidence": "About four, I think. Oh, wait, no. I've only changed two wet ones since this morning. The others were dirty.",
+    "evidence_turns": [
+     20
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records a specific count of wet nappies (four), failing to capture the correction made in the transcript that only two were wet and the others were dirty."
+   },
+   {
+    "type": "TEMPORAL",
+    "note_section": "Plan",
+    "note_span": "Face-to-face assessment at the surgery today at 16:00.",
+    "transcript_evidence": "I'd like to see her this afternoon. Can you bring her in at four o'clock?",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The planned time (16:00) differs from the time agreed upon in the transcript (4:00 PM), which is a minor temporal discrepancy."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

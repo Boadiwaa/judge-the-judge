@@ -4,22 +4,34 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "8fc941675800",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_SAFETY\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"No red flags.\",\n      \"transcript_evidence\": \"Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome.\",\n      \"evidence_turns\": [\n        51\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The note fails to document the critical safety-netting advice regarding cauda equina syndrome symptoms, which is a serious safety fact.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_SAFETY\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"Right-sided sciatica, likely lumbar disc-related radiculopathy. No red flags.\",\n      \"transcript_evidence\": \"Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome.\",\n      \"evidence_turns\": [\n        51\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The note fails to document the critical safety-netting advice regarding cauda equina syndrome symptoms, which is a major safety omission.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"Right-sided sciatica, likely lumbar disc-related radiculopathy. No red flags.\",\n      \"transcript_evidence\": \"Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome.\",\n      \"evidence_turns\": [\n        51\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states 'No red flags' in the impression, omitting the critical safety-netting advice provided in the transcript regarding cauda equina syndrome.\"\n    }\n  ],\n  \"overall_note_safety\": \"unsafe\"\n}",
  "output": {
   "findings": [
    {
     "type": "OMIT_SAFETY",
     "note_section": "Impression",
-    "note_span": "No red flags.",
+    "note_span": "Right-sided sciatica, likely lumbar disc-related radiculopathy. No red flags.",
     "transcript_evidence": "Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome.",
     "evidence_turns": [
      51
     ],
     "severity": 4,
     "likelihood": 4,
-    "rationale": "The note fails to document the critical safety-netting advice regarding cauda equina syndrome symptoms, which is a serious safety fact."
+    "rationale": "The note fails to document the critical safety-netting advice regarding cauda equina syndrome symptoms, which is a major safety omission."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Impression",
+    "note_span": "Right-sided sciatica, likely lumbar disc-related radiculopathy. No red flags.",
+    "transcript_evidence": "Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome.",
+    "evidence_turns": [
+     51
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states 'No red flags' in the impression, omitting the critical safety-netting advice provided in the transcript regarding cauda equina syndrome."
    }
   ],
-  "overall_note_safety": "needs_major_edits"
+  "overall_note_safety": "unsafe"
  }
 }

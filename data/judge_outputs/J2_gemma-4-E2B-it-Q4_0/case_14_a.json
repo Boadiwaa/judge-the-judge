@@ -1,0 +1,380 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "Panic attacks for 4 years."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "Recurrent panic attacks with palpitations, breathlessness, hand tingling and fear of dying."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Panic attacks last about 10 minutes."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Frequency of attacks is now two to three times a week and increasing."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "Associated symptoms include anticipatory anxiety and generalised worry."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "Avoids supermarkets and the Underground."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "Sleep is satisfactory."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "Mood is 'fed up' but not depressed."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "Reports thoughts of self-harm."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "Caffeine intake is about six coffees a day (initially stated as four)."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "Alcohol intake is a couple of glasses of wine at the weekend."
+   },
+   {
+    "id": "c12",
+    "section": "History",
+    "claim": "No drug use."
+   },
+   {
+    "id": "c13",
+    "section": "History",
+    "claim": "Works in marketing; no time off."
+   },
+   {
+    "id": "c14",
+    "section": "History",
+    "claim": "Partner is off work with stress and has his own GP appointment."
+   },
+   {
+    "id": "c15",
+    "section": "History",
+    "claim": "Thyroid function was normal last month."
+   },
+   {
+    "id": "c16",
+    "section": "History",
+    "claim": "No regular medications or known drug allergies."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "GAD-7 score is 15."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "PHQ-9 score is 8."
+   },
+   {
+    "id": "c19",
+    "section": "Impression",
+    "claim": "Panic disorder with agoraphobic avoidance and generalised anxiety symptoms."
+   },
+   {
+    "id": "c20",
+    "section": "Impression",
+    "claim": "No risk to self identified."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "Self-referral details for NHS Talking Therapies (CBT)."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "Start Sertraline 25 mg once daily for 1 week, then increase to 50 mg once daily; warned of possible initial increase in anxiety."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "Review in 2 weeks after starting sertraline."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "Reduce caffeine gradually."
+   },
+   {
+    "id": "c25",
+    "section": "Safety-netting",
+    "claim": "If thoughts of self-harm, call NHS 111 (mental health option) or Samaritans on 116 123."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     7
+    ],
+    "fact": "Patient reports having panic attacks 'out of nowhere'.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     7
+    ],
+    "fact": "Symptoms of panic attacks include heart racing, inability to breathe, and hand tingling.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     9
+    ],
+    "fact": "Panic attacks have been occurring for about four months, since the start of summer.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     11
+    ],
+    "fact": "Frequency of attacks is two or three times a week now, and they are getting worse.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     13
+    ],
+    "fact": "Each panic attack lasts about ten minutes, but the patient feels wiped out afterward.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     15
+    ],
+    "fact": "Patient avoids supermarkets and will not get on the Underground.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     16
+    ],
+    "fact": "Relative states that the patient used to love going into town.",
+    "about": "relative"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     18
+    ],
+    "fact": "Patient worries about everything else, including work and money.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     20
+    ],
+    "fact": "Patient reports sleep is okay and they get off to sleep fine.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     22
+    ],
+    "fact": "Patient describes their mood as 'a bit fed up, but not depressed'.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     24
+    ],
+    "fact": "Patient denies having any thoughts of harming themselves or ending their life.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     26
+    ],
+    "fact": "Patient reports consuming about four coffees a day, but six if they count the ones at work.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     28
+    ],
+    "fact": "Patient consumes a couple of glasses of wine at the weekend.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     30
+    ],
+    "fact": "Patient confirms no drug use.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     32
+    ],
+    "fact": "Patient works in marketing and has not had any time off.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     33
+    ],
+    "fact": "Relative states they are off at the moment with stress and that work has been awful.",
+    "about": "relative"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     37
+    ],
+    "fact": "Patient denies problems with heart or thyroid, and the clinician confirms the thyroid was normal last month.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     39
+    ],
+    "fact": "Patient confirms no allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     40
+    ],
+    "fact": "Examination findings show GAD-7 score of 15 and PHQ-9 score of 8, fitting with significant anxiety and panic disorder rather than depression.",
+    "about": "clinician"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     42
+    ],
+    "fact": "The treatment with the best evidence for panic disorder is talking therapy called CBT.",
+    "about": "clinician"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     44
+    ],
+    "fact": "Clinician suggests trying an SSRI called sertraline alongside therapy.",
+    "about": "clinician"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     46
+    ],
+    "fact": "Medication plan: Start Sertraline at 25 mg once a day for one week, then increase to 50 mg once a day.",
+    "about": "clinician"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     48
+    ],
+    "fact": "Follow-up plan: Clinician requests a review in two weeks to see how the patient is getting on with the medication.",
+    "about": "clinician"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     50
+    ],
+    "fact": "Clinician suggests gradually cutting down on coffee.",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     52
+    ],
+    "fact": "Safety-netting instruction: If thoughts of self-harm occur, call NHS 111 (mental health option) or Samaritans on 116 123.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Panic attacks for 4 years.\",\n      \"transcript_evidence\": \"Panic attacks have been occurring for about four months, since around the start of summer.\",\n      \"evidence_turns\": [\n        3\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note states the duration of panic attacks is four years, but the transcript indicates they have been occurring for four months.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports thoughts of self-harm.\",\n      \"transcript_evidence\": \"Patient denies having any thoughts of harming themselves or ending their life.\",\n      \"evidence_turns\": [\n        11\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note records a report of self-harm thoughts, but the transcript explicitly states the patient denies having any such thoughts, which is a critical safety contradiction.\"\n    },\n    {\n      \"type\": \"DRUG_NAME\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Start Seroquel 25 mg once daily for 1 week, then 150 mg once daily\",\n      \"transcript_evidence\": \"We start low because it can make anxiety a bit worse for the first week or two. Take 25 milligrams once a day for a week, then go up to 50 milligrams once a day.\",\n      \"evidence_turns\": [\n        46\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly names the medication as Seroquel and specifies a dose of 150 mg, whereas the transcript correctly identifies the drug as Sertraline and the dose as 50 mg.\"\n    }\n  ],\n  \"overall_note_safety\": \"unsafe\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Panic attacks for 4 years.",
+    "transcript_evidence": "Panic attacks have been occurring for about four months, since around the start of summer.",
+    "evidence_turns": [
+     3
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note states the duration of panic attacks is four years, but the transcript indicates they have been occurring for four months."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Reports thoughts of self-harm.",
+    "transcript_evidence": "Patient denies having any thoughts of harming themselves or ending their life.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note records a report of self-harm thoughts, but the transcript explicitly states the patient denies having any such thoughts, which is a critical safety contradiction."
+   },
+   {
+    "type": "DRUG_NAME",
+    "note_section": "Plan",
+    "note_span": "Start Seroquel 25 mg once daily for 1 week, then 150 mg once daily",
+    "transcript_evidence": "We start low because it can make anxiety a bit worse for the first week or two. Take 25 milligrams once a day for a week, then go up to 50 milligrams once a day.",
+    "evidence_turns": [
+     46
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note incorrectly names the medication as Seroquel and specifies a dose of 150 mg, whereas the transcript correctly identifies the drug as Sertraline and the dose as 50 mg."
+   }
+  ],
+  "overall_note_safety": "unsafe"
+ }
+}

@@ -76,9 +76,22 @@
    "type_agree": null
   },
   "case_02_a_e1": {
-   "detected": false,
-   "finding": null,
-   "type_agree": null
+   "detected": true,
+   "finding": {
+    "type": "UNSPECIFIED",
+    "note_section": "examination",
+    "note_span": "Straight leg raise positive on the left at 40 degrees; negative on the right.",
+    "transcript_evidence": "I'm going to lift your right leg up straight. Tell me when it hurts. [35] That's at about 40 degrees. And the left leg? [37] That's fine. [38]",
+    "evidence_turns": [
+     35,
+     37,
+     38
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the straight leg raise was positive on the left and negative on the right, contradicting the transcript where the right leg was tested first and found positive."
+   },
+   "type_agree": false
   },
   "case_02_a_e2": {
    "detected": false,
@@ -96,21 +109,9 @@
    "type_agree": null
   },
   "case_02_b_e1": {
-   "detected": true,
-   "finding": {
-    "type": "UNSPECIFIED",
-    "note_section": "History",
-    "note_span": "Reports saddle numbness",
-    "transcript_evidence": "No. (Response to question about numbness around your bottom or between your legs)",
-    "evidence_turns": [
-     19,
-     20
-    ],
-    "severity": 3,
-    "likelihood": 3,
-    "rationale": "The note claims the patient reported saddle numbness, but the transcript shows the patient denied this symptom when asked."
-   },
-   "type_agree": false
+   "detected": false,
+   "finding": null,
+   "type_agree": null
   },
   "case_02_b_e2": {
    "detected": true,
@@ -118,13 +119,15 @@
     "type": "UNSPECIFIED",
     "note_section": "Plan",
     "note_span": "Start naproxen 500 mg four times daily with food and omeprazole 20 mg once daily, for 2 weeks.",
-    "transcript_evidence": "switch you to naproxen, 500 milligrams twice a day with food, and add omeprazole, 20 milligrams once a day, for a couple of weeks.",
+    "transcript_evidence": "I'll switch you to naproxen, 500 milligrams twice a day with food, and add omeprazole, 20 milligrams once a day, to protect your stomach. Just for a couple of weeks.",
     "evidence_turns": [
+     2,
+     30,
      43
     ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The note incorrectly states the naproxen dosage is four times daily, whereas the transcript indicates it is twice a day."
+    "rationale": "The clinical plan specifies naproxen should be taken four times daily, but the transcript indicates the clinician prescribed it twice a day."
    },
    "type_agree": false
   },
@@ -134,20 +137,9 @@
    "type_agree": null
   },
   "case_02_b_e4": {
-   "detected": true,
-   "finding": {
-    "type": "UNSPECIFIED",
-    "note_section": "Plan",
-    "note_span": "Physiotherapy not required at this stage.",
-    "transcript_evidence": "I'll refer you to physiotherapy.",
-    "evidence_turns": [
-     45
-    ],
-    "severity": 2,
-    "likelihood": 3,
-    "rationale": "The note states physiotherapy is not required, but the transcript indicates the clinician plans to refer the patient to physiotherapy."
-   },
-   "type_agree": false
+   "detected": false,
+   "finding": null,
+   "type_agree": null
   },
   "case_03_a_e1": {
    "detected": false,
@@ -158,7 +150,7 @@
    "detected": true,
    "finding": {
     "type": "UNSPECIFIED",
-    "note_section": "plan",
+    "note_section": "Plan",
     "note_span": "Start empagliflozin 100 mg once daily",
     "transcript_evidence": "I'd like to add a tablet called empagliflozin, 10 milligrams once a day.",
     "evidence_turns": [
@@ -179,33 +171,23 @@
    "detected": true,
    "finding": {
     "type": "UNSPECIFIED",
-    "note_section": "Examination",
+    "note_section": "examination",
     "note_span": "Callus under the right first metatarsal head.",
     "transcript_evidence": "There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.",
     "evidence_turns": [
-     38
+     1,
+     36
     ],
-    "severity": 3,
+    "severity": 2,
     "likelihood": 4,
-    "rationale": "The note incorrectly identifies the location of the callus as the right foot when the transcript specifies the left foot."
+    "rationale": "The note incorrectly states the callus is under the right foot, whereas the transcript specifies the left foot."
    },
    "type_agree": false
   },
   "case_03_b_e2": {
-   "detected": true,
-   "finding": {
-    "type": "UNSPECIFIED",
-    "note_section": "Plan",
-    "note_span": "Continue gliclazide 80 mg twice daily.",
-    "transcript_evidence": "I'd like to reduce it to 80 milligrams in the morning only, and stop the teatime dose.",
-    "evidence_turns": [
-     42
-    ],
-    "severity": 3,
-    "likelihood": 5,
-    "rationale": "The plan contradicts the suggested action to reduce the gliclazide dosage from twice daily to once daily in the morning."
-   },
-   "type_agree": false
+   "detected": false,
+   "finding": null,
+   "type_agree": null
   },
   "case_03_b_e3": {
    "detected": false,
@@ -659,9 +641,21 @@
    "type_agree": null
   },
   "case_09_b_e1": {
-   "detected": false,
-   "finding": null,
-   "type_agree": null
+   "detected": true,
+   "finding": {
+    "type": "UNSPECIFIED",
+    "note_section": "History",
+    "note_span": "Fever since Tuesday evening (2 days)",
+    "transcript_evidence": "Since Monday evening. Three days.",
+    "evidence_turns": [
+     1,
+     6
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note inaccurately reports the duration of the fever as two days, whereas the transcript specifies three days."
+   },
+   "type_agree": false
   },
   "case_09_b_e2": {
    "detected": false,
@@ -679,37 +673,14 @@
    "type_agree": null
   },
   "case_10_a_e1": {
-   "detected": true,
-   "finding": {
-    "type": "UNSPECIFIED",
-    "note_section": "History",
-    "note_span": "Has had an apnoea.",
-    "transcript_evidence": "No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.",
-    "evidence_turns": [
-     15,
-     16
-    ],
-    "severity": 4,
-    "likelihood": 5,
-    "rationale": "The note makes a definitive statement about the child having had an apnoea, which is directly contradicted by the relative's denial and the lack of pauses noted during the examination."
-   },
-   "type_agree": false
+   "detected": false,
+   "finding": null,
+   "type_agree": null
   },
   "case_10_a_e2": {
-   "detected": true,
-   "finding": {
-    "type": "UNSPECIFIED",
-    "note_section": "History",
-    "note_span": "Feeding most of his usual amount.",
-    "transcript_evidence": "He's only managed about half of each bottle since yesterday. I did the night feeds.",
-    "evidence_turns": [
-     11
-    ],
-    "severity": 3,
-    "likelihood": 4,
-    "rationale": "The note contradicts the transcript regarding the feeding amount, stating he is taking 'most of his usual amount' when the transcript indicates he has only managed 'about half' since yesterday."
-   },
-   "type_agree": false
+   "detected": false,
+   "finding": null,
+   "type_agree": null
   },
   "case_10_a_e3": {
    "detected": false,
@@ -720,16 +691,15 @@
    "detected": true,
    "finding": {
     "type": "UNSPECIFIED",
-    "note_section": "history",
-    "note_span": "Coryza and cough for 4 weeks;",
+    "note_section": "History",
+    "note_span": "Coryza and cough for 4 weeks",
     "transcript_evidence": "He's had a runny nose and a cough for four days",
     "evidence_turns": [
-     1,
      4
     ],
-    "severity": 2,
-    "likelihood": 3,
-    "rationale": "The note incorrectly states the duration of the cough/coryza as four weeks, whereas the transcript states four days."
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the duration of the cough/runny nose as four weeks, whereas the transcript specifies four days."
    },
    "type_agree": false
   },
@@ -737,13 +707,13 @@
    "detected": true,
    "finding": {
     "type": "UNSPECIFIED",
-    "note_section": "examination",
-    "note_span": "Weight 8.2 kg (50th centile).",
+    "note_section": "Examination",
+    "note_span": "Weight 8.2 kg (50th centile)",
     "transcript_evidence": "",
     "evidence_turns": [],
-    "severity": 3,
-    "likelihood": 4,
-    "rationale": "The child's weight, a key piece of examination data, is present in the note but is entirely missing from the transcript."
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note includes the child's weight and percentile, which is not mentioned in the provided transcript."
    },
    "type_agree": false
   },
@@ -1156,9 +1126,20 @@
    "type_agree": null
   },
   "case_17_a_e1": {
-   "detected": false,
-   "finding": null,
-   "type_agree": null
+   "detected": true,
+   "finding": {
+    "type": "UNSPECIFIED",
+    "note_section": "Plan",
+    "note_span": "Continue apixaban 5 mg twice daily; do not stop.",
+    "transcript_evidence": "Your apixaban dose of two and a half milligrams twice a day is correct for you, because of your weight and kidney function, so we'll keep that the same.",
+    "evidence_turns": [
+     44
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the apixaban dose will be increased to 5 mg twice daily, whereas the transcript confirms the dose will remain 2.5 mg twice daily."
+   },
+   "type_agree": false
   },
   "case_17_a_e2": {
    "detected": false,
@@ -1175,21 +1156,34 @@
    "finding": {
     "type": "UNSPECIFIED",
     "note_section": "Medications and allergies",
-    "note_span": "Apixaban 5 mg once daily.",
-    "transcript_evidence": "Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday.",
+    "note_span": "Apixaban 2.5 mg once daily. Bisoprolol 2.5 mg once daily.",
+    "transcript_evidence": "Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday. Patient: Oh, is it? Yes, she does the box. Twice then.",
     "evidence_turns": [
-     20
+     20,
+     21
     ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The note incorrectly states the apixaban dosage is once daily, while the transcript indicates the patient takes it twice daily (morning and night)."
+    "rationale": "The note incorrectly states the dosing frequency for Apixaban and Bisoprolol as once daily, whereas the transcript indicates twice daily dosing."
    },
    "type_agree": false
   },
   "case_17_b_e2": {
-   "detected": false,
-   "finding": null,
-   "type_agree": null
+   "detected": true,
+   "finding": {
+    "type": "UNSPECIFIED",
+    "note_section": "Medications and allergies",
+    "note_span": "Apixaban 2.5 mg once daily. Bisoprolol 2.5 mg once daily.",
+    "transcript_evidence": "Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday. Patient: Oh, is it? Yes, she does the box. Twice then.",
+    "evidence_turns": [
+     20,
+     21
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the dosing frequency for Apixaban and Bisoprolol as once daily, whereas the transcript indicates twice daily dosing."
+   },
+   "type_agree": false
   },
   "case_17_b_e3": {
    "detected": false,
@@ -1398,15 +1392,15 @@
    "detected": true,
    "finding": {
     "type": "UNSPECIFIED",
-    "note_section": "plan",
-    "note_span": "Nitrofurantoin 100 mg modified-release four times daily for 3 days.",
-    "transcript_evidence": "It's 100 milligrams, the modified-release capsules, twice a day for three days.",
+    "note_section": "Plan",
+    "note_span": "Nitrofurantoin 100 mg modified-release four times daily for 7 days.",
+    "transcript_evidence": "I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for seven days.",
     "evidence_turns": [
-     37
+     2
     ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The prescribed frequency of the antibiotic in the note (four times daily) contradicts the frequency stated in the transcript (twice a day)."
+    "rationale": "The note incorrectly states the prescribed frequency of nitrofurantoin as four times daily, while the transcript indicates it is twice a day."
    },
    "type_agree": false
   },
@@ -1427,7 +1421,7 @@
     ],
     "severity": 2,
     "likelihood": 4,
-    "rationale": "The note incorrectly states the duration of symptoms as one day, while the patient explicitly states the symptoms have been present for three days."
+    "rationale": "The note incorrectly states the duration of symptoms as one day, while the patient states they have had symptoms since Saturday (three days)."
    },
    "type_agree": false
   },
@@ -1777,14 +1771,14 @@
    "finding": {
     "type": "OMIT_SAFETY",
     "note_section": "Impression",
-    "note_span": "No red flags.",
+    "note_span": "Right-sided sciatica, likely lumbar disc-related radiculopathy. No red flags.",
     "transcript_evidence": "Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome.",
     "evidence_turns": [
      51
     ],
     "severity": 4,
     "likelihood": 4,
-    "rationale": "The note fails to document the critical safety-netting advice regarding cauda equina syndrome symptoms, which is a serious safety fact."
+    "rationale": "The note fails to document the critical safety-netting advice regarding cauda equina syndrome symptoms, which is a major safety omission."
    },
    "type_agree": true
   },
@@ -1811,7 +1805,7 @@
     ],
     "severity": 4,
     "likelihood": 5,
-    "rationale": "The note claims the patient reported saddle numbness, but the transcript shows the patient denied it."
+    "rationale": "The note incorrectly records the patient reporting saddle numbness, when the transcript shows the patient denied it."
    },
    "type_agree": true
   },
@@ -1880,7 +1874,7 @@
     ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The planned dose for the new medication empagliflozin is incorrect (100 mg instead of 10 mg)."
+    "rationale": "The note records an incorrect dose for the new medication, which could lead to under-treatment."
    },
    "type_agree": true
   },
@@ -1900,8 +1894,8 @@
      38
     ],
     "severity": 2,
-    "likelihood": 4,
-    "rationale": "The note incorrectly identifies the location of the callus as the right foot when the transcript specifies the left foot."
+    "likelihood": 2,
+    "rationale": "The note incorrectly documents the location of the callus as the right foot instead of the left foot."
    },
    "type_agree": true
   },
@@ -1917,7 +1911,7 @@
     ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The note fails to document the agreed-upon change in the gliclazide dosing regimen (reducing frequency and stopping the teatime dose)."
+    "rationale": "The plan contradicts the clinician's suggested dose reduction for gliclazide found in the transcript."
    },
    "type_agree": true
   },
@@ -1927,9 +1921,20 @@
    "type_agree": null
   },
   "case_03_b_e4": {
-   "detected": false,
-   "finding": null,
-   "type_agree": null
+   "detected": true,
+   "finding": {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Episode about three months ago after skipping lunch while gardening:",
+    "transcript_evidence": "Wednesday. No, it was Tuesday, because it was bin day and I'd just put them out.",
+    "evidence_turns": [
+     7
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note fails to record the specific day (Tuesday) and context (bin day) of the hypoglycaemic episode mentioned in the transcript."
+   },
+   "type_agree": true
   },
   "case_04_a_e1": {
    "detected": true,
@@ -2376,14 +2381,14 @@
    "finding": {
     "type": "LATERALITY",
     "note_section": "Examination",
-    "note_span": "Left tympanic membrane red and bulging.",
+    "note_span": "Left tympanic membrane normal.",
     "transcript_evidence": "The left eardrum looks normal. The right eardrum is red and bulging.",
     "evidence_turns": [
      36
     ],
-    "severity": 3,
+    "severity": 2,
     "likelihood": 4,
-    "rationale": "The note incorrectly attributes the finding of a red and bulging tympanic membrane to the left ear instead of the right ear."
+    "rationale": "The note incorrectly attributes the finding of the red and bulging eardrum to the left ear."
    },
    "type_agree": true
   },
@@ -2404,7 +2409,7 @@
     ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The note documents the wrong concentration/strength for the paracetamol suspension (7.5 mL of 250 mg/5 mL vs 7.5 mL of 120 mg/5 mL)."
+    "rationale": "The note documents the wrong strength/form of the paracetamol suspension (250 mg/5 mL) compared to the transcript (120 mg in 5 mL)."
    },
    "type_agree": true
   },
@@ -2418,9 +2423,9 @@
     "evidence_turns": [
      6
     ],
-    "severity": 2,
-    "likelihood": 3,
-    "rationale": "The note inaccurately summarizes the duration of the fever based on the transcript's clarification of the exact timing."
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note inaccurately records the duration of the fever as 2 days, whereas the transcript suggests 3 days."
    },
    "type_agree": false
   },
@@ -2435,9 +2440,20 @@
    "type_agree": null
   },
   "case_09_b_e4": {
-   "detected": false,
-   "finding": null,
-   "type_agree": null
+   "detected": true,
+   "finding": {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Back-up prescription: amoxicillin 250 mg three times daily for 5 days, to start today.",
+    "transcript_evidence": "Back-up prescription for amoxicillin, 250 milligrams three times a day for 5 days. Only collect it if she's not improving after three days, or sooner if she's getting worse.",
+    "evidence_turns": [
+     42
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The note omits the critical safety instruction regarding the condition under which the back-up amoxicillin prescription should be collected."
+   },
+   "type_agree": true
   },
   "case_10_a_e1": {
    "detected": true,
@@ -2445,21 +2461,32 @@
     "type": "NEGATION",
     "note_section": "History",
     "note_span": "Has had an apnoea.",
-    "transcript_evidence": "No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.",
+    "transcript_evidence": "Has he had any pauses in his breathing, where he stops breathing for a few seconds? No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.",
     "evidence_turns": [
      15,
      16
     ],
-    "severity": 3,
+    "severity": 4,
     "likelihood": 4,
-    "rationale": "The note incorrectly documents an apnoea, which the relative explicitly denied."
+    "rationale": "The note records a finding (apnoea) that was explicitly denied by the relative, potentially leading to missed critical respiratory distress."
    },
    "type_agree": false
   },
   "case_10_a_e2": {
-   "detected": false,
-   "finding": null,
-   "type_agree": null
+   "detected": true,
+   "finding": {
+    "type": "DOSE_UNIT",
+    "note_section": "History",
+    "note_span": "Feeding most of his usual amount.",
+    "transcript_evidence": "He's only managed about half of each bottle since yesterday.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note inaccurately reflects the feeding amount, which is a significant clinical detail regarding fluid intake and management."
+   },
+   "type_agree": false
   },
   "case_10_a_e3": {
    "detected": false,
@@ -2476,9 +2503,9 @@
     "evidence_turns": [
      4
     ],
-    "severity": 3,
-    "likelihood": 4,
-    "rationale": "The note incorrectly states the duration of the cough and coryza as four weeks, whereas the transcript indicates the symptoms have lasted four days."
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The duration of the cough/coryza is documented as four weeks in the note but four days in the transcript, which is a significant discrepancy."
    },
    "type_agree": true
   },
@@ -2486,13 +2513,13 @@
    "detected": true,
    "finding": {
     "type": "OMIT_OTHER",
-    "note_section": "History",
+    "note_section": "Examination",
     "note_span": "Weight 8.2 kg (50th centile)",
     "transcript_evidence": "",
     "evidence_turns": [],
     "severity": 2,
-    "likelihood": 2,
-    "rationale": "The patient's weight is documented in the note but is entirely omitted from the consultation transcript."
+    "likelihood": 3,
+    "rationale": "The patient's weight and centile status, which is a relevant clinical finding, is omitted from the examination section of the note."
    },
    "type_agree": false
   },
@@ -2502,9 +2529,20 @@
    "type_agree": null
   },
   "case_10_b_e4": {
-   "detected": false,
-   "finding": null,
-   "type_agree": null
+   "detected": true,
+   "finding": {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Clinical review tomorrow morning.",
+    "transcript_evidence": "I'd like him seen at the hospital today.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The planned clinical review timing is changed from 'tomorrow morning' in the note to 'today' in the transcript, which impacts the urgency of the plan."
+   },
+   "type_agree": true
   },
   "case_11_a_e1": {
    "detected": true,
@@ -2953,21 +2991,18 @@
   "case_17_a_e1": {
    "detected": true,
    "finding": {
-    "type": "DOSE_UNIT",
-    "note_section": "Medications and allergies",
-    "note_span": "Apixaban 5 mg twice daily (initially reported as once daily; daughter confirmed twice daily). Bisoprolol 2.5 mg once daily.",
-    "transcript_evidence": "Clinician: Now, you're on a blood thinner, apixaban. How are you taking that? [18]\nRelative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday. [20]\nClinician: Thank you, that's important. Five milligrams each time? [22]\nRelative: Yes, five milligrams. [23]",
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Continue apixaban 5 mg twice daily; do not stop.",
+    "transcript_evidence": "Your apixaban dose of two and a half milligrams twice a day is correct for you, because of your weight and kidney function, so we'll keep that the same.",
     "evidence_turns": [
-     20,
-     21,
-     22,
-     23
+     44
     ],
-    "severity": 4,
+    "severity": 3,
     "likelihood": 4,
-    "rationale": "The note incorrectly lists the current apixaban dose as 2.5 mg twice daily, despite the transcript confirming the dose is 5 mg twice daily and the plan to continue that dose."
+    "rationale": "The plan contradicts the transcript by stating the apixaban dose should be continued at 5 mg twice daily, whereas the clinician stated the dose should remain at 2.5 mg twice daily."
    },
-   "type_agree": true
+   "type_agree": false
   },
   "case_17_a_e2": {
    "detected": false,
@@ -2984,35 +3019,32 @@
    "finding": {
     "type": "DOSE_UNIT",
     "note_section": "Medications and allergies",
-    "note_span": "Apixaban 5 mg once daily.",
-    "transcript_evidence": "Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday.",
+    "note_span": "Apixaban 2.5 mg once daily.",
+    "transcript_evidence": "No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday.",
     "evidence_turns": [
-     20,
-     21,
-     22,
-     23
+     20
     ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The note incorrectly records the apixaban frequency as once daily, contradicting the transcript which confirms a twice-daily regimen."
+    "rationale": "The note fails to document the correct twice-daily dosing schedule for Apixaban, which is critical for anticoagulation management."
    },
    "type_agree": false
   },
   "case_17_b_e2": {
    "detected": true,
    "finding": {
-    "type": "PLAN_CHANGE",
-    "note_section": "Plan",
-    "note_span": "Continue bisoprolol 2.5 mg once daily.",
-    "transcript_evidence": "Clinician: I'd like to increase the bisoprolol from two and a half to five milligrams once a day.",
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Apixaban 2.5 mg once daily.",
+    "transcript_evidence": "No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday.",
     "evidence_turns": [
-     40
+     20
     ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The plan fails to reflect the clinician's decision to increase the bisoprolol dose from 2.5 mg to 5 mg."
+    "rationale": "The note fails to document the correct twice-daily dosing schedule for Apixaban, which is critical for anticoagulation management."
    },
-   "type_agree": true
+   "type_agree": false
   },
   "case_17_b_e3": {
    "detected": true,
@@ -3020,13 +3052,13 @@
     "type": "TEMPORAL",
     "note_section": "History",
     "note_span": "Single episode of fresh red rectal bleeding three years ago, not previously reported; no recurrence, no melaena, no change in bowel habit or weight loss.",
-    "transcript_evidence": "Patient: Well, there was some blood when I went to the toilet, three weeks ago. Fresh red blood. Just the once.",
+    "transcript_evidence": "Well, there was some blood when I went to the toilet, three weeks ago. Fresh red blood. Just the once.",
     "evidence_turns": [
      25
     ],
     "severity": 2,
-    "likelihood": 4,
-    "rationale": "The note incorrectly records the timing of the rectal bleeding as three years ago instead of three weeks ago."
+    "likelihood": 3,
+    "rationale": "The note incorrectly states the bleeding episode occurred three years ago, while the transcript specifies it occurred three weeks ago."
    },
    "type_agree": true
   },
@@ -3311,14 +3343,14 @@
    "finding": {
     "type": "DOSE_UNIT",
     "note_section": "Plan",
-    "note_span": "Nitrofurantoin 100 mg modified-release four times daily for 3 days.",
-    "transcript_evidence": "I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for three days.",
+    "note_span": "Nitrofurantoin 100 mg modified-release four times daily for 7 days.",
+    "transcript_evidence": "[37] Clinician: I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for seven days.",
     "evidence_turns": [
      37
     ],
-    "severity": 3,
-    "likelihood": 4,
-    "rationale": "The prescribed frequency (four times daily) is incorrect; the transcript indicates twice daily, which is a critical dosing error."
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note incorrectly documents the frequency of the prescribed medication as four times daily, whereas the transcript clearly states twice a day."
    },
    "type_agree": true
   },
@@ -3335,9 +3367,9 @@
      15,
      16
     ],
-    "severity": 2,
+    "severity": 3,
     "likelihood": 4,
-    "rationale": "The note falsely documents the patient reporting loin pain and fever, which were denied by the patient during the consultation."
+    "rationale": "The note claims the patient reported loin pain and fever, but the transcript shows the clinician asked about these symptoms and the patient denied them."
    },
    "type_agree": false
   },
@@ -3346,14 +3378,14 @@
    "finding": {
     "type": "TEMPORAL",
     "note_section": "Presenting complaint",
-    "note_span": "Presenting complaint: Dysuria and urinary frequency for 1 day.",
+    "note_span": "Dysuria and urinary frequency for 1 day.",
     "transcript_evidence": "Since yesterday. Sorry, no, since Saturday. So three days now.",
     "evidence_turns": [
      10
     ],
-    "severity": 2,
+    "severity": 1,
     "likelihood": 3,
-    "rationale": "The note incorrectly documents the duration of the presenting complaint, stating 1 day when the patient stated it has been 3 days."
+    "rationale": "The note inaccurately records the duration of symptoms, potentially leading to incorrect assessment of the infection's progression."
    },
    "type_agree": false
   },
@@ -3363,9 +3395,20 @@
    "type_agree": null
   },
   "case_21_b_e3": {
-   "detected": false,
-   "finding": null,
-   "type_agree": null
+   "detected": true,
+   "finding": {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "No routine follow-up needed.",
+    "transcript_evidence": "And if you're not starting to feel better within 48 hours of starting the antibiotics, or you're getting worse, call us back.",
+    "evidence_turns": [
+     49
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the critical instruction for follow-up if symptoms worsen or do not improve within 48 hours, which is a key safety net."
+   },
+   "type_agree": true
   },
   "case_22_a_e1": {
    "detected": true,
@@ -3752,14 +3795,14 @@
    "finding": {
     "type": "DOSE_UNIT",
     "note_section": "Plan",
-    "note_span": "Start naproxen 500 mg four times daily with food and omeprazole 20 mg once daily for 2 weeks.",
+    "note_span": "Start naproxen 500 mg four times daily with food and omeprazole 20 mg once daily, for 2 weeks.",
     "transcript_evidence": "Clinician: I'll switch you to naproxen, 500 milligrams twice a day with food and add omeprazole, 20 milligrams once a day, to protect your stomach. Just for a couple of weeks.",
     "evidence_turns": [
      43
     ],
-    "severity": 2,
-    "likelihood": 3,
-    "rationale": "The note incorrectly records the naproxen frequency as four times daily, whereas the transcript specifies twice a day."
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly records the naproxen frequency as four times daily, whereas the transcript specifies twice daily."
    },
    "type_agree": true
   },
@@ -3768,14 +3811,14 @@
    "finding": {
     "type": "LATERALITY",
     "note_section": "Presenting complaint",
-    "note_span": "The patient presents with left-sided sciatica-type leg pain for 3 weeks.",
+    "note_span": "Left-sided sciatica-type leg pain for 3 weeks.",
     "transcript_evidence": "Patient: My left. No, sorry, the right. I always mix them up when I'm talking. It's definitely the right leg.",
     "evidence_turns": [
      8
     ],
-    "severity": 4,
+    "severity": 3,
     "likelihood": 4,
-    "rationale": "The note incorrectly states the pain is left-sided, contradicting the patient's self-correction to the right side, which is a critical laterality error."
+    "rationale": "The note incorrectly records the side of the pain (Left) when the patient corrected themselves to the Right."
    },
    "type_agree": false
   },
@@ -3811,14 +3854,36 @@
    "type_agree": null
   },
   "case_03_b_e1": {
-   "detected": false,
-   "finding": null,
-   "type_agree": null
+   "detected": true,
+   "finding": {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "The patient has a callus under the right first metatarsal head.",
+    "transcript_evidence": "Clinician: There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.",
+    "evidence_turns": [
+     38
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note incorrectly identifies the location of the callus as the right foot, while the transcript specifies the left foot."
+   },
+   "type_agree": true
   },
   "case_03_b_e2": {
-   "detected": false,
-   "finding": null,
-   "type_agree": null
+   "detected": true,
+   "finding": {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Continue gliclazide 80 mg twice daily.",
+    "transcript_evidence": "Clinician: So, here's what I suggest. The gliclazide is the tablet that can cause hypos. I'd like to reduce it to 80 milligrams in the morning only, and stop the teatime dose.",
+    "evidence_turns": [
+     42
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note fails to record the plan to reduce the gliclazide dose to morning only and stop the teatime dose, which is a significant change in management."
+   },
+   "type_agree": true
   },
   "case_03_b_e3": {
    "detected": false,
@@ -4246,14 +4311,15 @@
    "finding": {
     "type": "TEMPORAL",
     "note_section": "History",
-    "note_span": "Fever since Tuesday evening (2 days)",
-    "transcript_evidence": "Since Tuesday night, so two days. No, hang on, it was Monday. It was the night of her swimming lesson, so Monday evening. Three days.",
+    "note_span": "Fever started since Tuesday evening (2 days)",
+    "transcript_evidence": "The duration of the fever was corrected from two days to three days, starting Monday evening (the night of her swimming lesson).",
     "evidence_turns": [
+     3,
      6
     ],
     "severity": 2,
     "likelihood": 3,
-    "rationale": "The note incorrectly states the duration of the fever as 2 days, whereas the transcript corrects this to 3 days (Monday evening)."
+    "rationale": "The note incorrectly states the duration of the fever as 2 days, whereas the transcript corrects this to 3 days, starting Monday evening."
    },
    "type_agree": false
   },
@@ -4278,14 +4344,14 @@
     "type": "NEGATION",
     "note_section": "History",
     "note_span": "The patient has had an apnoea.",
-    "transcript_evidence": "Clinician: Has he had any pauses in his breathing, where he stops breathing for a few seconds? Relative: No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.",
+    "transcript_evidence": "He keeps pulling off to breathe.",
     "evidence_turns": [
-     15,
-     16
+     8,
+     12
     ],
-    "severity": 3,
-    "likelihood": 4,
-    "rationale": "The note claims the patient had an apnoea, but the transcript shows the clinician asked about it and the relative denied it, making the note an unsupported claim."
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note states 'apnoea', but the transcript describes the action of 'pulling off to breathe', which is a description of increased work of breathing."
    },
    "type_agree": false
   },
@@ -4295,6 +4361,1056 @@
    "type_agree": null
   },
   "case_10_a_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_10_b_e1": {
+   "detected": true,
+   "finding": {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Coryza and cough for 4 weeks",
+    "transcript_evidence": "He's had a runny nose and a cough for four days.",
+    "evidence_turns": [
+     2
+    ],
+    "severity": 1,
+    "likelihood": 3,
+    "rationale": "The duration of the cough/coryza is incorrectly documented as four weeks instead of four days."
+   },
+   "type_agree": true
+  },
+  "case_10_b_e2": {
+   "detected": true,
+   "finding": {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Weight 8.2 kg (50th centile).",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The patient's weight and centile status were omitted from the examination section."
+   },
+   "type_agree": false
+  },
+  "case_10_b_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_10_b_e4": {
+   "detected": true,
+   "finding": {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "The plan is a clinical review tomorrow morning.",
+    "transcript_evidence": "I'd like him seen at the hospital today.",
+    "evidence_turns": [
+     37
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The planned clinical review timing is contradicted; the note states tomorrow morning, but the transcript indicates the clinician intended to see the patient at the hospital today."
+   },
+   "type_agree": true
+  },
+  "case_11_a_e1": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_11_a_e2": {
+   "detected": true,
+   "finding": {
+    "type": "DRUG_NAME",
+    "note_section": "Plan",
+    "note_span": "Clobetasol propionate 0.05% once daily",
+    "transcript_evidence": "clobetasone butyrate, 0.05 percent",
+    "evidence_turns": [
+     32
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note records the drug name as 'clobetasone propionate' while the transcript records it as 'clobetasone butyrate', which is a minor variation."
+   },
+   "type_agree": true
+  },
+  "case_11_a_e3": {
+   "detected": true,
+   "finding": {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Mild cervical lymphadenopathy is present.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "Mild cervical lymphadenopathy is a relevant physical finding that was not documented in the note."
+   },
+   "type_agree": false
+  },
+  "case_11_b_e1": {
+   "detected": true,
+   "finding": {
+    "type": "TEMPORAL",
+    "note_section": "History/Complaint",
+    "note_span": "Flare of atopic eczema for about a month.",
+    "transcript_evidence": "About a month. No, actually, she started scratching after half-term, so two weeks.",
+    "evidence_turns": [
+     6
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note contains an initial claim about the duration of the flare (one month) which was subsequently corrected in the note, indicating a lack of consistency in the initial documentation."
+   },
+   "type_agree": false
+  },
+  "case_11_b_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_11_b_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_11_b_e4": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_12_a_e1": {
+   "detected": false,
+   "finding": null,
+   "no_output": true
+  },
+  "case_12_a_e2": {
+   "detected": false,
+   "finding": null,
+   "no_output": true
+  },
+  "case_12_a_e3": {
+   "detected": false,
+   "finding": null,
+   "no_output": true
+  },
+  "case_12_b_e1": {
+   "detected": true,
+   "finding": {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Pain below the right kneecap for 2 days.",
+    "transcript_evidence": "About two months.",
+    "evidence_turns": [
+     3
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The duration of the presenting complaint is factually incorrect, potentially leading to misinterpretation of the patient's condition timeline."
+   },
+   "type_agree": true
+  },
+  "case_12_b_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_12_b_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_12_b_e4": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_13_a_e1": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_13_a_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_13_a_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_13_b_e1": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_13_b_e2": {
+   "detected": true,
+   "finding": {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Review in 4 weeks.",
+    "transcript_evidence": "I'd also like to see you again in one week, not four.",
+    "evidence_turns": [
+     51
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly records the follow-up interval as four weeks when the transcript shows the clinician agreed to review the patient in one week."
+   },
+   "type_agree": true
+  },
+  "case_13_b_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_14_a_e1": {
+   "detected": true,
+   "finding": {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Reports thoughts of self-harm.",
+    "transcript_evidence": "Patient denies having any thoughts of harming themselves or ending their life.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note records a report of self-harm thoughts, but the transcript explicitly states the patient denies having any such thoughts, which is a critical safety contradiction."
+   },
+   "type_agree": true
+  },
+  "case_14_a_e2": {
+   "detected": true,
+   "finding": {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Panic attacks for 4 years.",
+    "transcript_evidence": "Panic attacks have been occurring for about four months, since around the start of summer.",
+    "evidence_turns": [
+     3
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note states the duration of panic attacks is four years, but the transcript indicates they have been occurring for four months."
+   },
+   "type_agree": true
+  },
+  "case_14_a_e3": {
+   "detected": true,
+   "finding": {
+    "type": "DRUG_NAME",
+    "note_section": "Plan",
+    "note_span": "Start Seroquel 25 mg once daily for 1 week, then 150 mg once daily",
+    "transcript_evidence": "We start low because it can make anxiety a bit worse for the first week or two. Take 25 milligrams once a day for a week, then go up to 50 milligrams once a day.",
+    "evidence_turns": [
+     46
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note incorrectly names the medication as Seroquel and specifies a dose of 150 mg, whereas the transcript correctly identifies the drug as Sertraline and the dose as 50 mg."
+   },
+   "type_agree": false
+  },
+  "case_14_a_e4": {
+   "detected": true,
+   "finding": {
+    "type": "DRUG_NAME",
+    "note_section": "Plan",
+    "note_span": "Start Seroquel 25 mg once daily for 1 week, then 150 mg once daily",
+    "transcript_evidence": "We start low because it can make anxiety a bit worse for the first week or two. Take 25 milligrams once a day for a week, then go up to 50 milligrams once a day.",
+    "evidence_turns": [
+     46
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note incorrectly names the medication as Seroquel and specifies a dose of 150 mg, whereas the transcript correctly identifies the drug as Sertraline and the dose as 50 mg."
+   },
+   "type_agree": true
+  },
+  "case_14_b_e1": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_14_b_e2": {
+   "detected": true,
+   "finding": {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Currently off work with stress.",
+    "transcript_evidence": "I work in marketing. I haven't had any time off.",
+    "evidence_turns": [
+     32
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note contradicts the transcript regarding the patient's current employment status, which is a significant contextual error."
+   },
+   "type_agree": false
+  },
+  "case_14_b_e3": {
+   "detected": true,
+   "finding": {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Review in 3 months.",
+    "transcript_evidence": "I'd like to see you in two weeks to see how you're getting on with it.",
+    "evidence_turns": [
+     48
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The planned follow-up interval is incorrect, potentially leading to a delay in necessary monitoring."
+   },
+   "type_agree": true
+  },
+  "case_14_b_e4": {
+   "detected": true,
+   "finding": {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "",
+    "transcript_evidence": "I avoid supermarkets now. And I won't get on the Underground.",
+    "evidence_turns": [
+     15
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note omits important contextual information regarding the patient's agoraphobic avoidance behaviors."
+   },
+   "type_agree": true
+  },
+  "case_15_a_e1": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_15_a_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_15_a_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_15_b_e1": {
+   "detected": true,
+   "finding": {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Patient reports diarrhoea and unsteadiness; no vomiting or confusion.",
+    "transcript_evidence": "Patient: No. (Referring to diarrhoea/vomiting) / Clinician: Any feeling unsteady on your feet, or muddled? / Patient: No.",
+    "evidence_turns": [
+     23,
+     24,
+     25
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly states the patient reports diarrhoea and unsteadiness, when the transcript shows the patient denied these symptoms."
+   },
+   "type_agree": true
+  },
+  "case_15_b_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_15_b_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_15_b_e4": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_16_a_e1": {
+   "detected": true,
+   "finding": {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Urge to harm the baby and avoidance behavior (not carrying him on the stairs).",
+    "transcript_evidence": "Patient: No. Never. I love him.",
+    "evidence_turns": [
+     6
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note claims an urge to harm the baby, but the transcript explicitly states the patient denies any urge or intention to harm him, which is a critical contradiction."
+   },
+   "type_agree": true
+  },
+  "case_16_a_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_16_a_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_16_b_e1": {
+   "detected": true,
+   "finding": {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "8 weeks postpartum.",
+    "transcript_evidence": "Eight weeks. No, ten. He's ten weeks on Saturday. I've lost track of time.",
+    "evidence_turns": [
+     1,
+     6
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note inaccurately records the patient's age as 8 weeks postpartum, whereas the transcript shows the patient corrected this to 10 weeks."
+   },
+   "type_agree": false
+  },
+  "case_16_b_e2": {
+   "detected": true,
+   "finding": {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Low mood for 6 days, starting a few weeks after delivery",
+    "transcript_evidence": "About six weeks. It started a few weeks after he was born and it hasn't lifted.",
+    "evidence_turns": [
+     3,
+     10
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly records the duration of the low mood as 6 days, while the transcript indicates the symptoms started about six weeks after the baby was born."
+   },
+   "type_agree": true
+  },
+  "case_16_b_e3": {
+   "detected": true,
+   "finding": {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "No specialist referral needed.",
+    "transcript_evidence": "Because of how you're feeling, and your mum's history, I'm going to refer you to the perinatal mental health team.",
+    "evidence_turns": [
+     36,
+     40
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states that no specialist referral was needed, contradicting the clinician's plan to refer the patient to the perinatal mental health team."
+   },
+   "type_agree": true
+  },
+  "case_16_b_e4": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_17_a_e1": {
+   "detected": true,
+   "finding": {
+    "type": "NEGATION",
+    "note_section": "Medications and allergies",
+    "note_span": "Apixaban 2.5 mg twice daily (initially reported as once daily; daughter confirmed twice daily). Bisoprolol 2.5 mg once daily.",
+    "transcript_evidence": "Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday.",
+    "evidence_turns": [
+     20
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the patient is prescribed Bisoprolol 2.5 mg once daily, when the transcript confirms the dose is twice daily."
+   },
+   "type_agree": false
+  },
+  "case_17_a_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_17_a_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_17_b_e1": {
+   "detected": true,
+   "finding": {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Apixaban 2.5 mg once daily.",
+    "transcript_evidence": "Patient: Once a day, in the morning. Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday. Patient: Oh, is it? Yes, she does the box. Twice then.",
+    "evidence_turns": [
+     19,
+     20,
+     21
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly records the Apixaban frequency as once daily, when the transcript confirms it is twice daily (morning and night), which is a critical dosing error for an anticoagulant."
+   },
+   "type_agree": false
+  },
+  "case_17_b_e2": {
+   "detected": true,
+   "finding": {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Apixaban 2.5 mg once daily.",
+    "transcript_evidence": "Patient: Once a day, in the morning. Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday. Patient: Oh, is it? Yes, she does the box. Twice then.",
+    "evidence_turns": [
+     19,
+     20,
+     21
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly records the Apixaban frequency as once daily, when the transcript confirms it is twice daily (morning and night), which is a critical dosing error for an anticoagulant."
+   },
+   "type_agree": false
+  },
+  "case_17_b_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_18_a_e1": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_18_a_e2": {
+   "detected": true,
+   "finding": {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Reports ankle swelling.",
+    "transcript_evidence": "Relative: That's me. I'm the one with the swollen ankles.",
+    "evidence_turns": [
+     18
+    ],
+    "severity": 1,
+    "likelihood": 4,
+    "rationale": "The note incorrectly attributes the report of ankle swelling to the patient, when the transcript shows the relative reported it and the patient denied it."
+   },
+   "type_agree": false
+  },
+  "case_18_a_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_18_a_e4": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_18_b_e1": {
+   "detected": true,
+   "finding": {
+    "type": "OMIT_OTHER",
+    "note_section": "Examination",
+    "note_span": "Chest X-ray last month clear.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 2,
+    "likelihood": 2,
+    "rationale": "The relevant history that the chest X-ray was clear last month is omitted."
+   },
+   "type_agree": false
+  },
+  "case_18_b_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_18_b_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_18_b_e4": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_19_a_e1": {
+   "detected": true,
+   "finding": {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Methotrexate 15 mg once daily.",
+    "transcript_evidence": "15 milligrams, once a week, on Mondays.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the frequency as 'once daily' instead of the correct frequency and timing of 'once a week on Mondays', which is a significant change in dosing schedule."
+   },
+   "type_agree": true
+  },
+  "case_19_a_e2": {
+   "detected": true,
+   "finding": {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Synovitis of the left wrist and left 2nd and 3rd MCP joints. Right hand normal.",
+    "transcript_evidence": "Let me examine your hands. Your right wrist is swollen and tender, and your second and third knuckles on the right hand are swollen and tender too. That's synovitis, inflammation of the joint lining. Your left hand looks fine.",
+    "evidence_turns": [
+     30
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The note incorrectly identifies the affected joint as the left side, contradicting the transcript which clearly states the right wrist and right hand knuckles were affected."
+   },
+   "type_agree": true
+  },
+  "case_19_a_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_19_a_e4": {
+   "detected": true,
+   "finding": {
+    "type": "OMIT_OTHER",
+    "note_section": "Medications and allergies",
+    "note_span": "Sulfadiazine: rash.",
+    "transcript_evidence": "Sulfasalazine gave me a rash years ago.",
+    "evidence_turns": [
+     23
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note omits the specific drug name (Sulfasalazine) mentioned in the transcript, although the allergy history is present."
+   },
+   "type_agree": false
+  },
+  "case_19_b_e1": {
+   "detected": true,
+   "finding": {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Early morning stiffness lasting about 30 minutes.",
+    "transcript_evidence": "About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.",
+    "evidence_turns": [
+     2,
+     7
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note inaccurately records the duration of morning stiffness, which is a key clinical feature for assessing disease activity."
+   },
+   "type_agree": false
+  },
+  "case_19_b_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_19_b_e3": {
+   "detected": true,
+   "finding": {
+    "type": "OMIT_OTHER",
+    "note_section": "Safety-netting",
+    "note_span": "Report a painful blistering rash promptly.",
+    "transcript_evidence": "if you get a sore throat, fever, mouth ulcers, unusual bruising or bleeding, or a new cough or breathlessness, stop the methotrexate and get an urgent blood test, and call the rheumatology helpline.",
+    "evidence_turns": [
+     42
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note provides incomplete safety netting advice, omitting critical symptoms like sore throat and fever."
+   },
+   "type_agree": false
+  },
+  "case_19_b_e4": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_20_a_e1": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_20_a_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_20_a_e3": {
+   "detected": true,
+   "finding": {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "The presenting complaint is a first seizure 3 months ago.",
+    "transcript_evidence": "Three weeks ago, on the Sunday night.",
+    "evidence_turns": [
+     4
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the seizure occurred 3 months ago when the transcript indicates it occurred 3 weeks ago, which is a significant temporal error."
+   },
+   "type_agree": true
+  },
+  "case_20_b_e1": {
+   "detected": true,
+   "finding": {
+    "type": "TEMPORAL",
+    "note_section": "History (Event description)",
+    "note_span": "lasting about 5 minutes",
+    "transcript_evidence": "It felt like five minutes. But I looked at the clock when it started and when it stopped, and it was two minutes.",
+    "evidence_turns": [
+     10
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note inaccurately records the duration of the seizure, which is contradicted by the transcript evidence."
+   },
+   "type_agree": false
+  },
+  "case_20_b_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_20_b_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_20_b_e4": {
+   "detected": true,
+   "finding": {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "No further investigations needed.",
+    "transcript_evidence": "I'd like an MRI scan of your brain, using an epilepsy protocol, and an EEG, a recording of the brain's electrical activity.",
+    "evidence_turns": [
+     35
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note contradicts the transcript regarding planned investigations (MRI/EEG), which is a major clinical error."
+   },
+   "type_agree": true
+  },
+  "case_21_a_e1": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_21_a_e2": {
+   "detected": true,
+   "finding": {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Nitrofurantoin 100 mg modified-release four times daily for 7 days.",
+    "transcript_evidence": "Clinician prescribed nitrofurantoin 100 mg modified-release capsules, twice a day for seven days.",
+    "evidence_turns": [
+     22
+    ],
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note incorrectly states the frequency as four times daily, while the transcript clearly states the prescribed frequency is twice a day, which is a critical dosing error."
+   },
+   "type_agree": true
+  },
+  "case_21_a_e3": {
+   "detected": true,
+   "finding": {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Reports loin pain and fever.",
+    "transcript_evidence": "Patient denies any pain in the back or sides, just under the ribs. No, I don't think so. I feel okay in myself.",
+    "evidence_turns": [
+     11,
+     12
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note claims the patient reported loin pain and fever, which is contradicted by the transcript where the patient denies these symptoms."
+   },
+   "type_agree": true
+  },
+  "case_21_b_e1": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_21_b_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_21_b_e3": {
+   "detected": true,
+   "finding": {
+    "type": "OMIT_OTHER",
+    "note_section": "Plan",
+    "note_span": "No routine follow-up is needed.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note omits the statement regarding routine follow-up, which is a relevant part of the management plan."
+   },
+   "type_agree": false
+  },
+  "case_22_a_e1": {
+   "detected": true,
+   "finding": {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Erythema over the anterior right shin, approximately 10 cm across, with a small central scratch.",
+    "transcript_evidence": "Clinician: I can see a red area on the front of the left shin, about ten centimetres across, with a small scratch in the middle.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the location of the erythema as the right shin when the transcript clearly states it is the left shin."
+   },
+   "type_agree": true
+  },
+  "case_22_a_e2": {
+   "detected": true,
+   "finding": {
+    "type": "ATTRIBUTION",
+    "note_section": "Medications and allergies",
+    "note_span": "Allergic to penicillin.",
+    "transcript_evidence": "Relative: I'm allergic to penicillin. Is that the kind of thing you'd give him? Should we be careful?",
+    "evidence_turns": [
+     28
+    ],
+    "severity": 5,
+    "likelihood": 4,
+    "rationale": "The note incorrectly attributes the penicillin allergy to the patient instead of the relative, which is a critical safety error regarding medication prescribing."
+   },
+   "type_agree": true
+  },
+  "case_22_a_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_22_a_e4": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_22_b_e1": {
+   "detected": true,
+   "finding": {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Red, swollen left shin since Tuesday.",
+    "transcript_evidence": "The patient initially stated the redness started on Tuesday, but corrected this to Wednesday morning after mentioning he was gardening on Tuesday and scratched the leg on roses.",
+    "evidence_turns": [
+     1
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note inaccurately states the onset date as Tuesday, whereas the transcript clarifies it was Wednesday morning."
+   },
+   "type_agree": false
+  },
+  "case_22_b_e2": {
+   "detected": true,
+   "finding": {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Flucloxacillin 500 mg once daily for 7 days.",
+    "transcript_evidence": "I'll prescribe flucloxacillin, 500 milligrams four times a day for seven days.",
+    "evidence_turns": [
+     13
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The prescribed dose and frequency of Flucloxacillin are contradicted; the note states once daily, but the transcript confirms four times daily."
+   },
+   "type_agree": true
+  },
+  "case_22_b_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_22_b_e4": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_23_a_e1": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_23_a_e2": {
+   "detected": true,
+   "finding": {
+    "type": "CORRECTION_LOST",
+    "note_section": "History",
+    "note_span": "Four wet nappies since this morning.",
+    "transcript_evidence": "About four, I think. Oh, wait, no. I've only changed two wet ones since this morning. The others were dirty.",
+    "evidence_turns": [
+     20
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note records a specific count of wet nappies (four), failing to capture the correction made in the transcript that only two were wet and the others were dirty."
+   },
+   "type_agree": true
+  },
+  "case_23_a_e3": {
+   "detected": true,
+   "finding": {
+    "type": "HALLUC",
+    "note_section": "History",
+    "note_span": "About five bile-stained, green vomits since last night, with fewer today.",
+    "transcript_evidence": "No, it's milky. Just her milk coming back.",
+    "evidence_turns": [
+     12
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note claims the vomit was green and bile-stained, which is directly contradicted by the transcript stating it was milky."
+   },
+   "type_agree": false
+  },
+  "case_23_b_e1": {
+   "detected": true,
+   "finding": {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Vomiting and diarrhoea in a 10-month-old since last week.",
+    "transcript_evidence": "She started being sick last night, and then diarrhoea this morning.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note inaccurately states the onset of symptoms as 'since last week' when the transcript indicates the onset was 'last night/this morning'."
+   },
+   "type_agree": true
+  },
+  "case_23_b_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_23_b_e3": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_23_b_e4": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_24_a_e1": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_24_a_e2": {
+   "detected": false,
+   "finding": null,
+   "type_agree": null
+  },
+  "case_24_a_e3": {
+   "detected": true,
+   "finding": {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Fall last month.",
+    "transcript_evidence": "Patient denies having fallen, stating the fall was Mrs Jenkins next door.",
+    "evidence_turns": [
+     5,
+     27
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note claims the patient had a fall last month, which is directly contradicted by the patient's statement in the transcript."
+   },
+   "type_agree": false
+  },
+  "case_24_a_e4": {
+   "detected": true,
+   "finding": {
+    "type": "OMIT_OTHER",
+    "note_section": "Medications and allergies",
+    "note_span": "Metronidazole 500 mg twice daily.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note lists Metronidazole as a medication, but it is entirely omitted from the consultation transcript."
+   },
+   "type_agree": false
+  },
+  "case_24_b_e1": {
+   "detected": true,
+   "finding": {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Blood in stools.",
+    "transcript_evidence": "Patient confirms there is no blood.",
+    "evidence_turns": [
+     17
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note claims blood was present, which contradicts the patient's report of no blood, potentially leading to incorrect clinical assessment."
+   },
+   "type_agree": true
+  },
+  "case_24_b_e2": {
+   "detected": true,
+   "finding": {
+    "type": "UNSPECIFIED",
+    "note_section": "Presenting complaint",
+    "note_span": "Diarrhoea and vomiting for 2 weeks.",
+    "transcript_evidence": "Patient states symptoms have been going on for two days, since Monday.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly states the duration of symptoms as two weeks when the transcript indicates they have only been present for two days."
+   },
+   "type_agree": false
+  },
+  "case_24_b_e3": {
+   "detected": true,
+   "finding": {
+    "type": "LATERALITY",
+    "note_section": "History",
+    "note_span": "District nurses dressing a sore on the right heel twice weekly.",
+    "transcript_evidence": "Patient reports the district nurse dresses a sore on my left heel twice a week.",
+    "evidence_turns": [
+     44
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note incorrectly records the location of the sore (right vs. left heel), which is a minor inaccuracy."
+   },
+   "type_agree": true
+  },
+  "case_24_b_e4": {
    "detected": false,
    "finding": null,
    "type_agree": null

@@ -70,6 +70,8 @@ def _primary(ctx: C.Ctx) -> ft.Control:
                   alignment=ft.MainAxisAlignment.SPACE_BETWEEN, wrap=True)
     rows: list[ft.Control] = []
     w = 220 if ctx.narrow else 560
+    pj = (d.metrics or {}).get("per_judge", {}) if d.has_any_results else {}
+    best = max(pj, key=lambda j: pj[j]["primary"]["p"] or 0) if pj else None
     for j, label in JUDGES.items():
         pr = (d.metrics or {}).get("per_judge", {}).get(j, {}).get("primary") if d.has_any_results else None
         tone = theme.judge_tone(ctx.page, j)
@@ -80,7 +82,7 @@ def _primary(ctx: C.Ctx) -> ft.Control:
             val, link = "not yet run", None
         rows.append(ft.ResponsiveRow([
             ft.Container(ft.Text(label, size=15, color=ctx.p.text,
-                                 weight=ft.FontWeight.W_700 if j == "J2" else ft.FontWeight.W_400),
+                                 weight=ft.FontWeight.W_700 if j == best else ft.FontWeight.W_400),
                          col={"xs": 12, "md": 2}),
             ft.Container(C.whisker(pr["p"] if pr else None, pr["lo"] if pr else None, pr["hi"] if pr else None,
                                    tone, ctx, w), col={"xs": 12, "md": 7}),

@@ -4,22 +4,35 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Medication dosage discrepancy\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Apixaban 5 mg once daily.\",\n      \"transcript_evidence\": \"Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday.\",\n      \"evidence_turns\": [\n        20\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the apixaban dosage is once daily, while the transcript indicates the patient takes it twice daily (morning and night).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Medication dosing error\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Apixaban 2.5 mg once daily. Bisoprolol 2.5 mg once daily.\",\n      \"transcript_evidence\": \"Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday. Patient: Oh, is it? Yes, she does the box. Twice then.\",\n      \"evidence_turns\": [\n        20,\n        21\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the dosing frequency for Apixaban and Bisoprolol as once daily, whereas the transcript indicates twice daily dosing.\"\n    },\n    {\n      \"type\": \"Plan discrepancy\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue bisoprolol 2.5 mg once daily.\",\n      \"transcript_evidence\": \"Clinician: I'd like to increase the bisoprolol from two and a half to five milligrams once a day.\",\n      \"evidence_turns\": [\n        40\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan incorrectly states to continue the bisoprolol at 2.5 mg, when the clinician proposes increasing the dose to 5 mg once daily.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
   "findings": [
    {
     "type": "UNSPECIFIED",
     "note_section": "Medications and allergies",
-    "note_span": "Apixaban 5 mg once daily.",
-    "transcript_evidence": "Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday.",
+    "note_span": "Apixaban 2.5 mg once daily. Bisoprolol 2.5 mg once daily.",
+    "transcript_evidence": "Relative: No, Mum, it's twice. Morning and night. I fill your dosette box every Sunday. Patient: Oh, is it? Yes, she does the box. Twice then.",
     "evidence_turns": [
-     20
+     20,
+     21
     ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The note incorrectly states the apixaban dosage is once daily, while the transcript indicates the patient takes it twice daily (morning and night)."
+    "rationale": "The note incorrectly states the dosing frequency for Apixaban and Bisoprolol as once daily, whereas the transcript indicates twice daily dosing."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Plan",
+    "note_span": "Continue bisoprolol 2.5 mg once daily.",
+    "transcript_evidence": "Clinician: I'd like to increase the bisoprolol from two and a half to five milligrams once a day.",
+    "evidence_turns": [
+     40
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The plan incorrectly states to continue the bisoprolol at 2.5 mg, when the clinician proposes increasing the dose to 5 mg once daily."
    }
   ],
-  "overall_note_safety": "needs_minor_edits"
+  "overall_note_safety": "needs_major_edits"
  }
 }

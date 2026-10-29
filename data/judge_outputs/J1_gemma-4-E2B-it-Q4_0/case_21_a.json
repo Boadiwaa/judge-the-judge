@@ -4,21 +4,9 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "8fc941675800",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Nitrofurantoin 100 mg modified-release four times daily for 3 days.\",\n      \"transcript_evidence\": \"I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for three days.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The prescribed frequency (four times daily) is incorrect; the transcript indicates twice daily, which is a critical dosing error.\"\n    },\n    {\n      \"type\": \"HALLUC\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports loin pain and fever; no rigors, nausea or vomiting.\",\n      \"transcript_evidence\": \"[13] Clinician: Any pain in your back or sides, just under your ribs?\\n[14] Patient: No.\\n[15] Clinician: Any fever, shivers or shakes?\\n[16] Patient: No, I don't think so. I feel okay in myself.\",\n      \"evidence_turns\": [\n        13,\n        14,\n        15,\n        16\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note falsely documents the patient reporting loin pain and fever, which were denied by the patient during the consultation.\"\n    },\n    {\n      \"type\": \"ATTRIBUTION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports loin pain and fever\",\n      \"transcript_evidence\": \"[13] Clinician: Any pain in your back or sides, just under your ribs?\\n[14] Patient: No.\\n[15] Clinician: Any fever, shivers or shakes?\\n[16] Patient: No, I don't think so. I feel okay in myself.\",\n      \"evidence_turns\": [\n        13,\n        14,\n        15,\n        16\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note attributes symptoms (loin pain and fever) to the patient when the transcript shows the clinician asked about them and the patient denied them.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"HALLUC\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Reports loin pain and fever; no rigors, nausea or vomiting.\",\n      \"transcript_evidence\": \"[13] Clinician: Any pain in your back or sides, just under your ribs?\\n[14] Patient: No.\\n[15] Clinician: Any fever, shivers or shakes?\\n[16] Patient: No, I don't think so. I feel okay in myself.\",\n      \"evidence_turns\": [\n        13,\n        14,\n        15,\n        16\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note claims the patient reported loin pain and fever, but the transcript shows the clinician asked about these symptoms and the patient denied them.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Nitrofurantoin 100 mg modified-release four times daily for 7 days.\",\n      \"transcript_evidence\": \"[37] Clinician: I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for seven days.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 4,\n      \"likelihood\": 5,\n      \"rationale\": \"The note incorrectly documents the frequency of the prescribed medication as four times daily, whereas the transcript clearly states twice a day.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"avoid ibuprofen until pregnancy excluded.\",\n      \"transcript_evidence\": \"[45] Clinician: I'd stick to paracetamol for now, until you know whether you're pregnant.\",\n      \"evidence_turns\": [\n        45\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note advises avoiding ibuprofen, but the transcript indicates the clinician advised sticking to paracetamol.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
   "findings": [
-   {
-    "type": "DOSE_UNIT",
-    "note_section": "Plan",
-    "note_span": "Nitrofurantoin 100 mg modified-release four times daily for 3 days.",
-    "transcript_evidence": "I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for three days.",
-    "evidence_turns": [
-     37
-    ],
-    "severity": 3,
-    "likelihood": 4,
-    "rationale": "The prescribed frequency (four times daily) is incorrect; the transcript indicates twice daily, which is a critical dosing error."
-   },
    {
     "type": "HALLUC",
     "note_section": "History",
@@ -30,24 +18,33 @@
      15,
      16
     ],
-    "severity": 2,
+    "severity": 3,
     "likelihood": 4,
-    "rationale": "The note falsely documents the patient reporting loin pain and fever, which were denied by the patient during the consultation."
+    "rationale": "The note claims the patient reported loin pain and fever, but the transcript shows the clinician asked about these symptoms and the patient denied them."
    },
    {
-    "type": "ATTRIBUTION",
-    "note_section": "History",
-    "note_span": "Reports loin pain and fever",
-    "transcript_evidence": "[13] Clinician: Any pain in your back or sides, just under your ribs?\n[14] Patient: No.\n[15] Clinician: Any fever, shivers or shakes?\n[16] Patient: No, I don't think so. I feel okay in myself.",
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Nitrofurantoin 100 mg modified-release four times daily for 7 days.",
+    "transcript_evidence": "[37] Clinician: I'm going to prescribe nitrofurantoin. It's 100 milligrams, the modified-release capsules, twice a day for seven days.",
     "evidence_turns": [
-     13,
-     14,
-     15,
-     16
+     37
     ],
-    "severity": 1,
-    "likelihood": 1,
-    "rationale": "The note attributes symptoms (loin pain and fever) to the patient when the transcript shows the clinician asked about them and the patient denied them."
+    "severity": 4,
+    "likelihood": 5,
+    "rationale": "The note incorrectly documents the frequency of the prescribed medication as four times daily, whereas the transcript clearly states twice a day."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "avoid ibuprofen until pregnancy excluded.",
+    "transcript_evidence": "[45] Clinician: I'd stick to paracetamol for now, until you know whether you're pregnant.",
+    "evidence_turns": [
+     45
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note advises avoiding ibuprofen, but the transcript indicates the clinician advised sticking to paracetamol."
    }
   ],
   "overall_note_safety": "needs_major_edits"

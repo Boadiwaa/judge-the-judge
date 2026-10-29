@@ -1,0 +1,333 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient is presenting with a flare of rheumatoid arthritis lasting three weeks."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient reports painful swelling of the right wrist and right hand knuckles for three weeks."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient reports early morning stiffness lasting about 30 minutes."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient reports mild foot ache."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient reports mild nausea the day after taking methotrexate."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient denies sore throat, fever, bruising, cough, or breathlessness."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient drinks about six units of alcohol per week."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient had shingles last month."
+   },
+   {
+    "id": "c9",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed methotrexate 15 mg once weekly on Mondays."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "The patient is prescribed folic acid 5 mg once weekly on Thursdays."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient has a history of a rash associated with sulfasalazine."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "The examination reveals synovitis of the right wrist and the right second and third MCP joints."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The left hand examination is normal."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The chest is clear on auscultation."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient's CRP is 28."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "The patient's blood count and liver tests are normal."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "The disease activity score (DAS28) is 4.8, indicating moderate activity."
+   },
+   {
+    "id": "c18",
+    "section": "Impression",
+    "claim": "The clinical impression is a rheumatoid arthritis flare with moderate disease activity on methotrexate."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The plan is to increase methotrexate to 20 mg once weekly on Mondays."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "The plan is to continue folic acid 5 mg once weekly on Thursdays."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "The plan is to administer a steroid injection (methylprednisolone 120 mg) today."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "The plan is to repeat blood tests every two weeks for the next six weeks, then every three months."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "The patient is scheduled for a clinic review in three months."
+   },
+   {
+    "id": "c24",
+    "section": "Safety-netting",
+    "claim": "The patient is advised to stop methotrexate and seek urgent blood tests if they develop a sore throat, fever, mouth ulcers, unusual bruising or bleeding, or a new cough or breathlessness."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     5
+    ],
+    "fact": "The patient reports bad symptoms for the last three weeks, specifically painful swelling of the right wrist and knuckles on that hand.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     7
+    ],
+    "fact": "The patient reports morning stiffness lasting about half an hour, but corrects this to being longer: 'I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.'",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     9
+    ],
+    "fact": "The patient reports that while their feet ache a bit, the primary location of pain is the right hand.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     11
+    ],
+    "fact": "The patient is currently taking methotrexate at a dose of 15 milligrams once a week on Mondays.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     13
+    ],
+    "fact": "The patient is currently taking folic acid at a dose of 5 milligrams once a week on Thursdays.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     17
+    ],
+    "fact": "The patient experiences mild queasiness on Tuesdays, but manages it.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     21
+    ],
+    "fact": "The patient drinks about a glass of wine on Friday and Saturday, totaling about six units of alcohol per week.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     23
+    ],
+    "fact": "The patient has a history of a rash caused by sulfasalazine years ago.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     25
+    ],
+    "fact": "The relative reports that the patient had shingles last month.",
+    "about": "relative"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     27
+    ],
+    "fact": "The patient confirms having had chickenpox as a child.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     30
+    ],
+    "fact": "Examination findings show synovitis (inflammation of the joint lining) of the right wrist and the right second and third MCP joints.",
+    "about": "clinician"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     32
+    ],
+    "fact": "The patient's CRP is 28, and their blood count and liver tests are normal.",
+    "about": "clinician"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     32
+    ],
+    "fact": "The patient's disease activity score (DAS28) is 4.8, which is classified as moderate activity.",
+    "about": "clinician"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     34
+    ],
+    "fact": "The clinician plans to increase the methotrexate dose to 20 milligrams once a week on Mondays.",
+    "about": "clinician"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     36
+    ],
+    "fact": "The clinician plans to give the patient a steroid injection (methylprednisolone 120 mg) today to settle the flare.",
+    "about": "clinician"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     38
+    ],
+    "fact": "The clinician plans to schedule blood tests every two weeks for the next six weeks, then every three months.",
+    "about": "clinician"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     40
+    ],
+    "fact": "The clinician plans to see the patient back in the clinic in three months.",
+    "about": "clinician"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     42
+    ],
+    "fact": "The clinician provides safety-netting advice: if the patient develops a sore throat, fever, mouth ulcers, unusual bruising or bleeding, or a new cough or breathlessness, they should stop the methotrexate and get an urgent blood test, and call the rheumatology helpline.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Early morning stiffness lasting about 30 minutes.\",\n      \"transcript_evidence\": \"About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.\",\n      \"evidence_turns\": [\n        2,\n        7\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note inaccurately records the duration of morning stiffness, which is a key clinical feature for assessing disease activity.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Mild nausea the day after taking methotrexate.\",\n      \"transcript_evidence\": \"A bit queasy on Tuesdays, but I manage.\",\n      \"evidence_turns\": [\n        6,\n        17\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note omits the specific timing (Tuesday) and the patient's management of the nausea, which is a minor omission.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Mild foot ache.\",\n      \"transcript_evidence\": \"My feet ache a bit, but mostly it's the right hand.\",\n      \"evidence_turns\": [\n        9\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note omits the crucial detail that the pain is primarily localized to the right hand, which is relevant for physical examination.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Safety-netting\",\n      \"note_span\": \"Report a painful blistering rash promptly.\",\n      \"transcript_evidence\": \"if you get a sore throat, fever, mouth ulcers, unusual bruising or bleeding, or a new cough or breathlessness, stop the methotrexate and get an urgent blood test, and call the rheumatology helpline.\",\n      \"evidence_turns\": [\n        42\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note provides incomplete safety netting advice, omitting critical symptoms like sore throat and fever.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Early morning stiffness lasting about 30 minutes.",
+    "transcript_evidence": "About half an hour. Actually, no, it's longer. I can't do my buttons until about half nine, and I get up at eight. So an hour and a half.",
+    "evidence_turns": [
+     2,
+     7
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note inaccurately records the duration of morning stiffness, which is a key clinical feature for assessing disease activity."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Mild nausea the day after taking methotrexate.",
+    "transcript_evidence": "A bit queasy on Tuesdays, but I manage.",
+    "evidence_turns": [
+     6,
+     17
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note omits the specific timing (Tuesday) and the patient's management of the nausea, which is a minor omission."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "Mild foot ache.",
+    "transcript_evidence": "My feet ache a bit, but mostly it's the right hand.",
+    "evidence_turns": [
+     9
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note omits the crucial detail that the pain is primarily localized to the right hand, which is relevant for physical examination."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Safety-netting",
+    "note_span": "Report a painful blistering rash promptly.",
+    "transcript_evidence": "if you get a sore throat, fever, mouth ulcers, unusual bruising or bleeding, or a new cough or breathlessness, stop the methotrexate and get an urgent blood test, and call the rheumatology helpline.",
+    "evidence_turns": [
+     42
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note provides incomplete safety netting advice, omitting critical symptoms like sore throat and fever."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

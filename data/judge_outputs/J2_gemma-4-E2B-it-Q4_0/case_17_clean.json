@@ -1,0 +1,546 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint/History",
+    "claim": "The patient presented with increased exertional breathlessness and palpitations for three weeks, on a background of atrial fibrillation diagnosed 18 months ago."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient reports symptoms include breathlessness on stairs, palpitations, and occasional postural light-headedness, but no syncope."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient has mild evening ankle swelling."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient had a single episode of fresh red rectal bleeding three weeks ago, which was not previously reported."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient denies recurrence of bleeding, melaena, or change in bowel habit or weight loss."
+   },
+   {
+    "id": "c6",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking Apixaban 2.5 mg twice daily."
+   },
+   {
+    "id": "c7",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking Bisoprolol 2.5 mg once daily."
+   },
+   {
+    "id": "c8",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking Levothyroxine 75 micrograms once daily."
+   },
+   {
+    "id": "c9",
+    "section": "Examination",
+    "claim": "The patient's pulse is irregularly irregular at a rate of 104 beats per minute."
+   },
+   {
+    "id": "c10",
+    "section": "Examination",
+    "claim": "The patient's blood pressure is 128/76 mmHg."
+   },
+   {
+    "id": "c11",
+    "section": "Examination",
+    "claim": "The patient has fine bibasal crackles in the chest."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "The patient has mild bilateral ankle oedema."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The patient's weight is 58 kg."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The patient's ECG shows atrial fibrillation with a ventricular rate of approximately 105 beats per minute."
+   },
+   {
+    "id": "c15",
+    "section": "Impression",
+    "claim": "The patient has reduced renal function, evidenced by a creatinine of 140."
+   },
+   {
+    "id": "c16",
+    "section": "Impression",
+    "claim": "The patient's apixaban dose of 2.5 mg twice daily is appropriate given her weight and kidney function."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "The plan is to increase the bisoprolol dose to 5 mg once daily."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "An echocardiogram is planned within six weeks to assess heart pumping function."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The apixaban dose will be continued at 2.5 mg twice daily."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "Investigations include a Full Blood Count (FBC), a FIT test, and consideration for a lower GI referral."
+   },
+   {
+    "id": "c21",
+    "section": "Safety-netting",
+    "claim": "The patient should attend A&E if there is further significant bleeding, black stools, or feeling faint."
+   },
+   {
+    "id": "c22",
+    "section": "Safety-netting",
+    "claim": "The patient should call 999 if breathing worsens significantly, especially lying flat, or if chest pain occurs."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "Clinician is Dr. Sandhu, a cardiology registrar.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "Patient's daughter's name is Rosalind.",
+    "about": "other"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     4
+    ],
+    "fact": "Patient was diagnosed with atrial fibrillation about eighteen months ago.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     7
+    ],
+    "fact": "Patient reports feeling more puffed out lately, going up the stairs, and feeling her heart fluttering.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     9
+    ],
+    "fact": "Symptoms (breathlessness/fluttering) have been present for three weeks, perhaps a little more.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     11
+    ],
+    "fact": "Patient denies any chest pain.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     13
+    ],
+    "fact": "Patient experiences a bit of light-headedness once or twice when standing up quickly, but has not fainted.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     15
+    ],
+    "fact": "Patient reports ankles swelling, a little, by the evening.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     17
+    ],
+    "fact": "Patient can lie flat at night on one pillow, same as always.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     18
+    ],
+    "fact": "Patient is currently on apixaban.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     19
+    ],
+    "fact": "Patient takes apixaban once a day in the morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     20
+    ],
+    "fact": "Relative states the patient takes apixaban twice a day (morning and night) and fills the dosette box every Sunday.",
+    "about": "relative"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     21
+    ],
+    "fact": "Patient confirms the relative's statement: 'Oh, is it? Yes, she does the box. Twice then.'",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     22
+    ],
+    "fact": "Clinician asks about the dose: 'Five milligrams each time?'",
+    "about": "clinician"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     23
+    ],
+    "fact": "Relative confirms the dose: 'Yes, five milligrams.'",
+    "about": "relative"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     24
+    ],
+    "fact": "Clinician asks about bleeding problems: 'Nosebleeds, bruising, blood in your water or your stools?'",
+    "about": "clinician"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     25
+    ],
+    "fact": "Patient reports there was some fresh red blood when she went to the toilet three weeks ago.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     26
+    ],
+    "fact": "Relative states: 'Mum, you never told me that.'",
+    "about": "relative"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     27
+    ],
+    "fact": "Patient states: 'I didn't want to make a fuss.'",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     28
+    ],
+    "fact": "Clinician asks about recurrence: 'Has it happened again since, or any black stools?'",
+    "about": "clinician"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     29
+    ],
+    "fact": "Patient confirms: 'No, just the once.'",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     30
+    ],
+    "fact": "Clinician asks about change in bowel habit or weight loss: 'Any change in your bowel habit, or weight loss?'",
+    "about": "clinician"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     31
+    ],
+    "fact": "Patient denies change in bowel habit or weight loss: 'No.'",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     32
+    ],
+    "fact": "Clinician asks what else the patient takes: 'And what else do you take?'",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     33
+    ],
+    "fact": "Patient takes bisoprolol 2.5 milligrams and levothyroxine 75 micrograms.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     34
+    ],
+    "fact": "Clinician asks about allergies: 'Any allergies?'",
+    "about": "clinician"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     35
+    ],
+    "fact": "Patient states: 'Codeine makes me sick.'",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     36
+    ],
+    "fact": "Clinician notes intolerance to codeine.",
+    "about": "clinician"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     36
+    ],
+    "fact": "Clinician notes examination findings: Pulse is irregularly irregular at about 104 a minute, BP is 128 over 76, heart sounds are irregular, and there is no murmur.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     36
+    ],
+    "fact": "Clinician notes examination findings: The chest has a few crackles right at the bases on both sides, and there is mild swelling around both ankles.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     36
+    ],
+    "fact": "Clinician notes examination findings: Patient's weight today is 58 kilos.",
+    "about": "patient"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     37
+    ],
+    "fact": "Patient reports: 'I've lost a bit.'",
+    "about": "patient"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     38
+    ],
+    "fact": "Clinician notes bloods from last week: kidney function is reduced, with a creatinine of 140, and the thyroid level is normal.",
+    "about": "patient"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     38
+    ],
+    "fact": "Clinician notes ECG findings: Atrial fibrillation with a rate of about 105.",
+    "about": "patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     39
+    ],
+    "fact": "Relative asks for clarification: 'So what does that mean?'",
+    "about": "relative"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     40
+    ],
+    "fact": "Clinician explains the ECG: 'It means your heart rate is still a bit fast, which is likely why you're more breathless.'",
+    "about": "patient"
+   },
+   {
+    "id": "f37",
+    "turns": [
+     40
+    ],
+    "fact": "Clinician proposes a medication change: 'I'd like to increase the bisoprolol from two and a half to five milligrams once a day.'",
+    "about": "patient"
+   },
+   {
+    "id": "f38",
+    "turns": [
+     41
+    ],
+    "fact": "Patient agrees: 'All right.'",
+    "about": "patient"
+   },
+   {
+    "id": "f39",
+    "turns": [
+     42
+    ],
+    "fact": "Clinician proposes a follow-up test: 'I'd also like an echocardiogram, a scan of the heart, within the next six weeks, to check how well it's pumping, given the crackles and the swelling.'",
+    "about": "patient"
+   },
+   {
+    "id": "f40",
+    "turns": [
+     43
+    ],
+    "fact": "Patient agrees: 'Okay.'",
+    "about": "patient"
+   },
+   {
+    "id": "f41",
+    "turns": [
+     44
+    ],
+    "fact": "Clinician confirms apixaban dose: 'Your apixaban dose of two and a half milligrams twice a day is correct for you, because of your weight and kidney function, so we'll keep that the same.'",
+    "about": "patient"
+   },
+   {
+    "id": "f42",
+    "turns": [
+     44
+    ],
+    "fact": "Clinician plans investigations: 'I'll ask your GP to do a blood count and arrange a FIT test, the stool test, and consider a referral to the bowel team.'",
+    "about": "patient"
+   },
+   {
+    "id": "f43",
+    "turns": [
+     45
+    ],
+    "fact": "Relative asks: 'Should she stop the blood thinner?'",
+    "about": "relative"
+   },
+   {
+    "id": "f44",
+    "turns": [
+     46
+    ],
+    "fact": "Clinician advises against stopping the blood thinner: 'No. Please don't stop it. Stopping it would put her at risk of a stroke. One episode isn't a reason to stop, but we do need to find the cause.'",
+    "about": "patient"
+   },
+   {
+    "id": "f45",
+    "turns": [
+     47
+    ],
+    "fact": "Patient acknowledges: 'Okay.'",
+    "about": "patient"
+   },
+   {
+    "id": "f46",
+    "turns": [
+     48
+    ],
+    "fact": "Clinician provides safety-netting advice: 'If you have any more bleeding, especially a lot of blood, black stools, or you feel faint, go to A&E. And if your breathing gets much worse, especially lying flat, or you get chest pain, call 999.'",
+    "about": "patient"
+   },
+   {
+    "id": "f47",
+    "turns": [
+     49
+    ],
+    "fact": "Relative acknowledges: 'Got it.'",
+    "about": "relative"
+   },
+   {
+    "id": "f48",
+    "turns": [
+     50
+    ],
+    "fact": "Clinician sets the follow-up appointment: 'I'll see you back in clinic in three months, after the echo.'",
+    "about": "patient"
+   },
+   {
+    "id": "f49",
+    "turns": [
+     51
+    ],
+    "fact": "Patient thanks the doctor: 'Thank you, doctor.'",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Apixaban 2.5 mg twice daily (initially reported as once daily; daughter confirmed twice daily). Bisoprolol 2.5 mg once daily.\",\n      \"transcript_evidence\": \"Patient: Once a day, in the morning. Relative: No, Mum, it's twice. Morning and night.\",\n      \"evidence_turns\": [\n        19,\n        20\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note inaccurately reflects the history of the Apixaban dose, failing to document the initial discrepancy and subsequent correction regarding the frequency.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Bisoprolol 2.5 mg once daily.\",\n      \"transcript_evidence\": \"Patient: The bisoprolol, two and a half milligrams.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note states the Bisoprolol dose is once daily, but the transcript shows the patient takes it twice daily, as confirmed by the relative.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Apixaban 2.5 mg twice daily (initially reported as once daily; daughter confirmed twice daily). Bisoprolol 2.5 mg once daily.",
+    "transcript_evidence": "Patient: Once a day, in the morning. Relative: No, Mum, it's twice. Morning and night.",
+    "evidence_turns": [
+     19,
+     20
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note inaccurately reflects the history of the Apixaban dose, failing to document the initial discrepancy and subsequent correction regarding the frequency."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Medications and allergies",
+    "note_span": "Bisoprolol 2.5 mg once daily.",
+    "transcript_evidence": "Patient: The bisoprolol, two and a half milligrams.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note states the Bisoprolol dose is once daily, but the transcript shows the patient takes it twice daily, as confirmed by the relative."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

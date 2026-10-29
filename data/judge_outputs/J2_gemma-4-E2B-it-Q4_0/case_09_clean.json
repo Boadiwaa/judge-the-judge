@@ -8,12 +8,12 @@
    {
     "id": "c1",
     "section": "Presenting complaint",
-    "claim": "The patient is presenting with fever and right earache."
+    "claim": "The presenting complaint is fever and right earache."
    },
    {
     "id": "c2",
     "section": "History",
-    "claim": "The fever has been present since Monday evening (3 days duration), with a maximum recorded temperature of 38.9 \u00b0C at home."
+    "claim": "Fever has been present since Monday evening (3 days), with a maximum temperature of 38.9 \u00b0C at home."
    },
    {
     "id": "c3",
@@ -23,27 +23,27 @@
    {
     "id": "c4",
     "section": "History",
-    "claim": "The patient has a history of vomiting once on Tuesday, but no vomiting since."
+    "claim": "The patient has been eating less but drinking well and passing urine normally."
    },
    {
     "id": "c5",
     "section": "History",
-    "claim": "The patient has a history of a runny nose for about a week preceding the current symptoms."
+    "claim": "The patient vomited once on Tuesday and has had no vomiting since."
    },
    {
     "id": "c6",
     "section": "History",
-    "claim": "The patient has no history of a rash."
+    "claim": "The patient has had a runny nose for about a week preceding the current symptoms."
    },
    {
     "id": "c7",
     "section": "History",
-    "claim": "The patient has no history of chickenpox."
+    "claim": "The patient has no rash."
    },
    {
     "id": "c8",
     "section": "History",
-    "claim": "The patient's brother had chickenpox two weeks prior."
+    "claim": "The patient has not had chickenpox, although her brother had it two weeks ago."
    },
    {
     "id": "c9",
@@ -53,310 +53,301 @@
    {
     "id": "c10",
     "section": "History",
-    "claim": "The patient's vaccinations are up to date."
+    "claim": "The patient's immunisations are up to date."
    },
    {
     "id": "c11",
-    "section": "History",
-    "claim": "The patient has been given paracetamol intermittently."
+    "section": "Medications and allergies",
+    "claim": "The patient takes no regular medications and has no known drug allergies."
    },
    {
     "id": "c12",
     "section": "Examination",
-    "claim": "The patient's examination revealed a temperature of 38.4 \u00b0C, heart rate of 130, and breathing rate of 26."
+    "claim": "The patient weighs 14 kilograms."
    },
    {
     "id": "c13",
     "section": "Examination",
-    "claim": "The patient's hands and feet are warm, and the capillary refill is under two seconds."
+    "claim": "The patient's vital signs are Temperature 38.4 \u00b0C, Heart Rate 130, and Breathing Rate 26."
    },
    {
     "id": "c14",
     "section": "Examination",
-    "claim": "The left tympanic membrane is normal."
+    "claim": "The patient has warm peripheries and a capillary refill time under two seconds."
    },
    {
     "id": "c15",
     "section": "Examination",
-    "claim": "The right tympanic membrane is red and bulging."
+    "claim": "The left tympanic membrane is normal."
    },
    {
     "id": "c16",
     "section": "Examination",
-    "claim": "The patient's throat is mildly erythematous."
+    "claim": "The right tympanic membrane is red and bulging."
    },
    {
     "id": "c17",
     "section": "Examination",
-    "claim": "The chest examination is clear."
+    "claim": "The patient's throat is mildly erythematous."
    },
    {
     "id": "c18",
-    "section": "Impression",
-    "claim": "The diagnosis is Right acute otitis media."
+    "section": "Examination",
+    "claim": "The chest examination is clear."
    },
    {
     "id": "c19",
     "section": "Impression",
-    "claim": "There are no features of serious bacterial illness."
+    "claim": "The impression is Right acute otitis media."
    },
    {
     "id": "c20",
-    "section": "Plan",
-    "claim": "The plan includes regular analgesia with paracetamol 180 mg (7.5 mL of 120 mg/5 mL) up to four times daily and ibuprofen 100 mg (5 mL of 100 mg/5 mL) three times daily with food."
+    "section": "Impression",
+    "claim": "There are no features of serious bacterial illness."
    },
    {
     "id": "c21",
-    "section": "Plan",
-    "claim": "A back-up prescription for amoxicillin 250 mg three times daily for 5 days is provided, to be collected only if the patient does not improve after three days or if symptoms worsen."
+    "section": "Impression",
+    "claim": "There is a recent chickenpox contact."
    },
    {
     "id": "c22",
-    "section": "Safety-netting",
-    "claim": "Urgent care (999 or A&E) is advised if the patient develops a non-blanching rash, becomes very drowsy or hard to wake, struggles to breathe, or stops drinking and not weeing."
+    "section": "Plan",
+    "claim": "The plan includes regular analgesia: paracetamol 180 mg (7.5 mL of 120 mg/5 mL) up to four times daily and ibuprofen 100 mg (5 mL of 100 mg/5 mL) three times daily with food."
    },
    {
     "id": "c23",
-    "section": "Safety-netting",
-    "claim": "Contact the GP or 111 if the fever lasts more than five days in total, if there is ear discharge, or if the patient does not improve after three days."
+    "section": "Plan",
+    "claim": "A back-up prescription for amoxicillin 250 mg three times daily for 5 days is provided, to be collected only if the patient does not improve after three days or if she worsens."
    },
    {
     "id": "c24",
+    "section": "Plan",
+    "claim": "A leaflet on chickenpox is given."
+   },
+   {
+    "id": "c25",
     "section": "Safety-netting",
-    "claim": "The patient should be reported if chickenpox develops and the patient seems very unwell."
+    "claim": "Urgent help (999 or A&E) is required if the patient develops a non-blanching rash, becomes very drowsy or hard to rouse, has breathing difficulty, or stops drinking and not passing urine."
+   },
+   {
+    "id": "c26",
+    "section": "Safety-netting",
+    "claim": "Contact the GP or 111 if the fever lasts more than five days in total, if there is ear discharge, or if the patient is not improving after three days."
+   },
+   {
+    "id": "c27",
+    "section": "Safety-netting",
+    "claim": "The patient should report if she develops chickenpox and seems very unwell."
    }
   ],
   "transcript_facts": [
    {
     "id": "f1",
     "turns": [
-     1
+     3
     ],
-    "fact": "Clinician greeted the patient and asked if she was Poppy.",
+    "fact": "The clinician asks the patient what has been happening.",
     "about": "patient"
    },
    {
     "id": "f2",
     "turns": [
-     2
+     4
     ],
-    "fact": "Relative identified herself as Poppy's mother, Gemma.",
-    "about": "relative"
+    "fact": "The patient has had a temperature and keeps pulling at her ear.",
+    "about": "patient"
    },
    {
     "id": "f3",
     "turns": [
-     3
+     6
     ],
-    "fact": "Clinician asked what had been happening.",
-    "about": "patient"
+    "fact": "The relative corrects the timing of the fever: it was Monday evening (3 days), not Tuesday night.",
+    "about": "relative"
    },
    {
     "id": "f4",
     "turns": [
-     4
+     8
     ],
-    "fact": "Patient has had a temperature and keeps pulling at her ear.",
+    "fact": "The temperature measured last night on the ear thermometer was 38.9.",
     "about": "patient"
    },
    {
     "id": "f5",
     "turns": [
-     4
+     10
     ],
-    "fact": "Patient was up most of last night crying.",
+    "fact": "The patient is pulling at the right ear, mostly.",
     "about": "patient"
    },
    {
     "id": "f6",
     "turns": [
-     6
+     11
     ],
-    "fact": "Relative corrected the timing of the fever duration: it was Monday evening, not Tuesday night, and lasted three days.",
-    "about": "relative"
+    "fact": "The patient states, 'My ear hurts.'",
+    "about": "patient"
    },
    {
     "id": "f7",
     "turns": [
-     8
+     13
     ],
-    "fact": "The patient's temperature was 38.9 \u00b0C last night on the ear thermometer.",
+    "fact": "The patient is not eating much but is drinking okay (juice and milk).",
     "about": "patient"
    },
    {
     "id": "f8",
     "turns": [
-     10
+     15
     ],
-    "fact": "The patient has been pulling at the right ear, mostly.",
+    "fact": "The patient is in pants during the day but is still weeing normally, a few times today already.",
     "about": "patient"
    },
    {
     "id": "f9",
     "turns": [
-     11
+     17
     ],
-    "fact": "Patient reported that her ear hurts.",
+    "fact": "The patient was sick once on Tuesday, but not since.",
     "about": "patient"
    },
    {
     "id": "f10",
     "turns": [
-     13
+     19
     ],
-    "fact": "Patient is not eating much but is drinking okay (juice and milk).",
+    "fact": "The patient had a runny nose for about a week before all this started.",
     "about": "patient"
    },
    {
     "id": "f11",
     "turns": [
-     15
+     21
     ],
-    "fact": "Patient is in pants during the day and is still weeing normally, a few times today already.",
+    "fact": "The patient has no rash, and her brother had chickenpox two weeks ago.",
     "about": "patient"
    },
    {
     "id": "f12",
     "turns": [
-     17
+     23
     ],
-    "fact": "Patient was sick once on Tuesday, but not since.",
+    "fact": "The patient has never had chickenpox.",
     "about": "patient"
    },
    {
     "id": "f13",
     "turns": [
-     19
+     25
     ],
-    "fact": "Patient had a runny nose for about a week before all this started.",
+    "fact": "The patient is grumpy but herself and was playing with her brother this morning.",
     "about": "patient"
    },
    {
     "id": "f14",
     "turns": [
-     21
+     27
     ],
-    "fact": "Relative stated that the patient had no rash, and her brother had chickenpox two weeks ago.",
-    "about": "relative"
+    "fact": "The patient reports no problems breathing.",
+    "about": "patient"
    },
    {
     "id": "f15",
     "turns": [
-     23
+     29
     ],
-    "fact": "Patient has never had chickenpox.",
+    "fact": "The patient is healthy and all her vaccinations are done.",
     "about": "patient"
    },
    {
     "id": "f16",
     "turns": [
-     25
+     31
     ],
-    "fact": "Patient is grumpy but herself and was playing with her brother this morning.",
+    "fact": "The patient takes no regular medicines and has no allergies.",
     "about": "patient"
    },
    {
     "id": "f17",
     "turns": [
-     27
+     33
     ],
-    "fact": "Patient reported no problems breathing.",
+    "fact": "The patient gives Calpol only when she seems really bad.",
     "about": "patient"
    },
    {
     "id": "f18",
     "turns": [
-     29
+     34
     ],
-    "fact": "Patient is healthy and all her vaccinations are up to date.",
+    "fact": "The patient's weight is 14 kilograms. Her temperature is 38.4 \u00b0C, heart rate is 130, and breathing rate is 26. Her hands and feet are warm and the capillary refill is under two seconds. She is alert and chatting.",
     "about": "patient"
    },
    {
     "id": "f19",
     "turns": [
-     31
+     35
     ],
-    "fact": "Patient takes no regular medicines and has no known drug allergies.",
+    "fact": "The patient states, 'Rabbit's ears are fine.'",
     "about": "patient"
    },
    {
     "id": "f20",
     "turns": [
-     33
+     36
     ],
-    "fact": "Patient has been given Calpol, but only when she seems really bad.",
+    "fact": "The clinician examines the ears and notes the left eardrum is normal, while the right eardrum is red and bulging. The patient's throat is a little red.",
     "about": "patient"
    },
    {
     "id": "f21",
     "turns": [
-     34
+     38
     ],
-    "fact": "Examination findings: Temperature 38.4 \u00b0C, heart rate 130, breathing rate 26, hands and feet are warm, and capillary refill is under two seconds.",
+    "fact": "The clinician suggests it looks like a middle ear infection on the right side, which usually gets better on its own within three days or so, even without antibiotics, and antibiotics don't make much difference to the pain.",
     "about": "clinician"
    },
    {
     "id": "f22",
     "turns": [
-     36
+     40
     ],
-    "fact": "Examination findings: Left eardrum is normal, the right eardrum is red and bulging, and the throat is a little red.",
+    "fact": "The clinician suggests giving paracetamol 180 milligrams (7.5 mL of 120 mg/5 mL) up to four times a day and ibuprofen 100 milligrams (5 mL of 100 mg/5 mL) three times a day with food for pain.",
     "about": "clinician"
    },
    {
     "id": "f23",
     "turns": [
-     36
+     42
     ],
-    "fact": "Examination finding: Chest is clear, and there is no rash on her skin.",
+    "fact": "The clinician offers a back-up prescription for amoxicillin 250 milligrams three times a day for 5 days, to be collected only if she is not improving after three days or if she is getting worse.",
     "about": "clinician"
    },
    {
     "id": "f24",
     "turns": [
-     38
+     44
     ],
-    "fact": "Clinician suggested the condition looks like a middle ear infection on the right side, which often gets better on its own within three days.",
+    "fact": "The clinician advises calling 999 or going straight to A&E if the patient gets a rash that doesn't fade when pressed with a glass, becomes very drowsy or hard to wake, is struggling to breathe, or stops drinking and isn't weeing.",
     "about": "clinician"
    },
    {
     "id": "f25",
     "turns": [
-     40
+     46
     ],
-    "fact": "Clinician suggested giving paracetamol 180 milligrams (7.5 mL of 120 mg/5 mL infant suspension) up to four times a day for pain, and ibuprofen 100 milligrams (5 mL of 100 mg/5 mL suspension) three times a day with food.",
+    "fact": "The clinician advises contacting the GP or 111 if the fever lasts more than five days in total, if there is any discharge from the ear, or if the patient is not improving after three days.",
     "about": "clinician"
    },
    {
     "id": "f26",
     "turns": [
-     42
-    ],
-    "fact": "Clinician offered a back-up prescription for amoxicillin 250 milligrams three times a day for 5 days, to be collected only if the patient does not improve after three days or if she gets worse.",
-    "about": "clinician"
-   },
-   {
-    "id": "f27",
-    "turns": [
-     44
-    ],
-    "fact": "Safety netting advice: Call 999 or go straight to A&E if the patient gets a rash that doesn't fade when pressed, becomes very drowsy or hard to wake, struggles to breathe, or stops drinking and not weeing.",
-    "about": "clinician"
-   },
-   {
-    "id": "f28",
-    "turns": [
-     46
-    ],
-    "fact": "Safety netting advice: Contact the GP or 111 if the fever lasts more than five days in total, if there is ear discharge, or if the patient does not improve after three days.",
-    "about": "clinician"
-   },
-   {
-    "id": "f29",
-    "turns": [
      48
     ],
-    "fact": "Clinician advised that chickenpox may develop in the next week or so since she has been exposed, and to let them know if she seems very unwell with it.",
+    "fact": "The clinician advises that the patient may get chickenpox in the next week or so since she has been exposed, and to let them know if she seems very unwell with it.",
     "about": "clinician"
    }
   ]

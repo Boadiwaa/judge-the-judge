@@ -1,0 +1,323 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient presents with red, swollen left shin since Wednesday morning."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient scratched the area on the roses while gardening on Tuesday."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The redness developed on Wednesday morning."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient reports the area is warm and sore."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient has no blistering or dark patches."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient's temperature this morning was 37.6 \u00b0C (self-measured)."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient is systemically well, with no rigors, vomiting, or confusion."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has Type 2 diabetes and is on metformin 500 milligrams twice daily."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient lives alone, and their daughter visits daily."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "The patient has no known drug allergies."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient has had penicillins without problems in the past."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "The examination was performed via video and not palpation."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "There is erythema over the anterior left shin, approximately 10 cm across, with a small central scratch."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "No blistering or necrosis was visible."
+   },
+   {
+    "id": "c15",
+    "section": "Impression",
+    "claim": "The impression is cellulitis of the left lower leg (Eron class I) following a scratch."
+   },
+   {
+    "id": "c16",
+    "section": "Plan",
+    "claim": "The plan is to prescribe flucloxacillin 500 milligrams four times daily for seven days, taken on an empty stomach, one hour before food or two hours after."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "The plan includes marking the margin of erythema with a pen."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The plan includes elevation of the leg and taking paracetamol for pain."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "A photo or video review is requested in 48 hours."
+   },
+   {
+    "id": "c20",
+    "section": "Safety-netting",
+    "claim": "Safety netting includes calling for a same-day appointment or 111 if the redness spreads beyond the marked line, if the patient develops a high temperature, rigors, feels very unwell, or feels confused, or if the pain gets much worse."
+   },
+   {
+    "id": "c21",
+    "section": "Safety-netting",
+    "claim": "Safety netting includes calling 999 if the patient is very unwell."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "The clinician is Dr Hartigan from the surgery.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The patient's daughter is holding the phone.",
+    "about": "other"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "The relative's name is Grace.",
+    "about": "relative"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     4
+    ],
+    "fact": "The patient's date of birth is June 9, 1957.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     7
+    ],
+    "fact": "The patient's leg is red and swollen on the left side.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     9
+    ],
+    "fact": "The patient initially stated the redness started on Tuesday, but corrected it to the scratch on Tuesday and the redness starting Wednesday morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     12
+    ],
+    "fact": "The clinician observed a red area on the front of the left shin, approximately ten centimetres across, with a small scratch in the middle.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     13
+    ],
+    "fact": "The patient reports the area is warm.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     15
+    ],
+    "fact": "The relative reports there are no blisters or dark patches, only redness.",
+    "about": "relative"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     17
+    ],
+    "fact": "The patient reports the area is sore, but not terrible.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     19
+    ],
+    "fact": "The patient's temperature is 37.6 \u00b0C.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     21
+    ],
+    "fact": "The patient reports feeling all right, with no feeling of being shivery, sick, or confused.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     23
+    ],
+    "fact": "The patient reports no swelling in the other leg.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     25
+    ],
+    "fact": "The patient has Type 2 diabetes and is on metformin 500 milligrams twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     27
+    ],
+    "fact": "The patient reports no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     28
+    ],
+    "fact": "The relative is allergic to penicillin.",
+    "about": "relative"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     30
+    ],
+    "fact": "The patient has had penicillin and amoxicillin plenty of times without problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     32
+    ],
+    "fact": "The patient lives on their own, and their daughter visits daily.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     33
+    ],
+    "fact": "The clinician suggests the finding looks like cellulitis, a skin infection, likely from the scratch.",
+    "about": "other"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician plans to prescribe flucloxacillin 500 milligrams four times a day for seven days, to be taken on an empty stomach, an hour before food or two hours after.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician instructs the relative to draw around the edge of the redness with a pen to check for spreading.",
+    "about": "relative"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician advises keeping the leg raised when sitting and taking paracetamol for pain.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician requests the patient to send a photo or have another video call in 48 hours.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     43
+    ],
+    "fact": "Safety netting advises calling for a same-day appointment or 111 if the redness spreads beyond the marked line, if the patient develops a high temperature, rigors, feels very unwell, or feels confused, or if the pain gets much worse.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     43
+    ],
+    "fact": "Safety netting advises calling 999 if the patient is very unwell.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

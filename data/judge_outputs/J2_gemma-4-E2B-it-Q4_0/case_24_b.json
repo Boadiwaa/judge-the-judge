@@ -1,0 +1,597 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "Diarrhoea and vomiting for 2 weeks."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "Vomited twice this morning, none since lunch."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Four to five loose stools today."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Blood in stools."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "Crampy abdominal pain before defecation."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "Poor oral intake."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "Last passed dark urine this morning."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "Postural dizziness."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "No falls (the fall mentioned by her son was a neighbour's)."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "Tired but not confused, per son."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "District nurses dressing a sore on the right heel twice weekly."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "Metformin 500 mg twice daily."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "Ramipril 5 mg once daily."
+   },
+   {
+    "id": "c14",
+    "section": "Medications and allergies",
+    "claim": "Furosemide 40 mg each morning (initially said two tablets, corrected to one)."
+   },
+   {
+    "id": "c15",
+    "section": "Medications and allergies",
+    "claim": "Atorvastatin at night."
+   },
+   {
+    "id": "c16",
+    "section": "Medications and allergies",
+    "claim": "Codeine intolerance (vomiting)."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "Telephone consultation; not examined."
+   },
+   {
+    "id": "c18",
+    "section": "Impression",
+    "claim": "Probable infective gastroenteritis with dehydration in an 85-year-old on metformin, an ACE inhibitor and a loop diuretic; risk of acute kidney injury."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "Sick day rules: temporarily stop metformin, ramipril and furosemide until eating and drinking normally for 24\u201348 hours; continue atorvastatin."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "Small, frequent fluids; oral rehydration sachets."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "U&E at next routine review."
+   },
+   {
+    "id": "c22",
+    "section": "Safety-netting",
+    "claim": "Call 111 (or 999 if very unwell) if unable to keep fluids down, confused or very drowsy, pass no urine for 12 hours, or blood in stool."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "Clinician is calling Mrs Brackenbury.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "Patient confirms she is speaking.",
+    "about": "Patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "Clinician identifies herself as Dr Osei from the surgery and asks if it is alright to talk.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     4
+    ],
+    "fact": "Patient confirms Martin is present and on the speakerphone.",
+    "about": "Patient|Relative"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     5
+    ],
+    "fact": "Relative greets the doctor.",
+    "about": "Relative|Clinician"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     6
+    ],
+    "fact": "Clinician asks Mrs Brackenbury to confirm her date of birth.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     7
+    ],
+    "fact": "Patient's date of birth is March 3, 1941.",
+    "about": "Patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     8
+    ],
+    "fact": "Clinician asks what has been happening.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     9
+    ],
+    "fact": "Patient reports having 'the runs' and being sick, feeling 'washed out'.",
+    "about": "Patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     10
+    ],
+    "fact": "Clinician asks how long the symptoms have been going on.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     11
+    ],
+    "fact": "Patient states symptoms have been going on for two days, since Monday.",
+    "about": "Patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     12
+    ],
+    "fact": "Clinician asks how many times she has been sick today.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     13
+    ],
+    "fact": "Patient reports being sick twice this morning and nothing since lunch.",
+    "about": "Patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     14
+    ],
+    "fact": "Clinician asks how many times the diarrhoea has occurred.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     15
+    ],
+    "fact": "Patient reports four or five times today.",
+    "about": "Patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     16
+    ],
+    "fact": "Clinician asks if there is any blood in the diarrhoea.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     17
+    ],
+    "fact": "Patient confirms there is no blood.",
+    "about": "Patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     18
+    ],
+    "fact": "Clinician asks if she is managing to drink.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     19
+    ],
+    "fact": "Patient reports only sips of water and doesn't fancy much.",
+    "about": "Patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     20
+    ],
+    "fact": "Relative reports she has barely touched her tea all day.",
+    "about": "Relative|Patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     21
+    ],
+    "fact": "Clinician asks when she last passed urine and what colour it was.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     22
+    ],
+    "fact": "Patient states she last passed urine this morning and it was dark.",
+    "about": "Patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     23
+    ],
+    "fact": "Clinician asks if she feels dizzy when she stands up.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     24
+    ],
+    "fact": "Patient reports feeling a bit dizzy and holds onto furniture.",
+    "about": "Patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     25
+    ],
+    "fact": "Clinician asks if she has had any falls.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     26
+    ],
+    "fact": "Relative mentions she had a fall last month, clarifying it was Mrs Jenkins' fall.",
+    "about": "Relative|Patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     27
+    ],
+    "fact": "Patient denies falling, stating the fall mentioned was Mrs Jenkins' and she hasn't fallen.",
+    "about": "Patient|Relative"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     28
+    ],
+    "fact": "Relative confirms the fall mentioned was Mrs Jenkins' fall.",
+    "about": "Relative|Patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     29
+    ],
+    "fact": "Clinician asks about tummy pain.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     30
+    ],
+    "fact": "Patient reports feeling crampy before going.",
+    "about": "Patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     31
+    ],
+    "fact": "Clinician asks if she is feeling confused and if she seems her usual self.",
+    "about": "Clinician|Patient|Relative"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     32
+    ],
+    "fact": "Relative reports she is tired but making sense.",
+    "about": "Relative|Patient"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     33
+    ],
+    "fact": "Clinician asks about her tablets, specifically Metformin.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     34
+    ],
+    "fact": "Patient confirms taking Metformin 500 mg twice a day.",
+    "about": "Patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     35
+    ],
+    "fact": "Clinician asks about Ramipril 5 milligrams.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     36
+    ],
+    "fact": "Patient confirms taking Ramipril.",
+    "about": "Patient"
+   },
+   {
+    "id": "f37",
+    "turns": [
+     37
+    ],
+    "fact": "Clinician asks about the water tablet, Furosemide, and how much she takes.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f38",
+    "turns": [
+     38
+    ],
+    "fact": "Patient initially stated she takes two tablets in the morning, but corrected to taking one 40 milligram tablet each morning.",
+    "about": "Patient|Clinician"
+   },
+   {
+    "id": "f39",
+    "turns": [
+     39
+    ],
+    "fact": "Clinician confirms the dose of Furosemide (one 40 milligram tablet each morning) and asks about Atorvastatin.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f40",
+    "turns": [
+     40
+    ],
+    "fact": "Patient confirms taking Atorvastatin at night.",
+    "about": "Patient"
+   },
+   {
+    "id": "f41",
+    "turns": [
+     41
+    ],
+    "fact": "Clinician asks about allergies.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f42",
+    "turns": [
+     42
+    ],
+    "fact": "Patient reports Codeine intolerance because it makes her very sick.",
+    "about": "Patient"
+   },
+   {
+    "id": "f43",
+    "turns": [
+     43
+    ],
+    "fact": "Clinician asks if anything else is going on, specifically wounds or sores.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f44",
+    "turns": [
+     44
+    ],
+    "fact": "Patient states the district nurse dresses a sore on her left heel twice a week.",
+    "about": "Patient"
+   },
+   {
+    "id": "f45",
+    "turns": [
+     45
+    ],
+    "fact": "Clinician suggests the symptoms sound like a tummy bug and expresses concern about dehydration and kidney effects from her medications.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f46",
+    "turns": [
+     46
+    ],
+    "fact": "Patient responds with 'Oh dear.'",
+    "about": "Patient"
+   },
+   {
+    "id": "f47",
+    "turns": [
+     47
+    ],
+    "fact": "Clinician instructs the patient to stop Metformin, Ramipril, and Furosemide while unwell, restarting them after 24-48 hours of normal eating/drinking, and continuing Atorvastatin.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f48",
+    "turns": [
+     48
+    ],
+    "fact": "Relative agrees to write down the instructions.",
+    "about": "Relative|Clinician"
+   },
+   {
+    "id": "f49",
+    "turns": [
+     49
+    ],
+    "fact": "Clinician advises trying to drink small amounts often, a few mouthfuls every 10 to 15 minutes, and suggests rehydration sachets.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f50",
+    "turns": [
+     50
+    ],
+    "fact": "Patient acknowledges the advice.",
+    "about": "Patient"
+   },
+   {
+    "id": "f51",
+    "turns": [
+     51
+    ],
+    "fact": "Clinician plans a blood test tomorrow to check kidneys and will ask the district nurse to take it when she comes to do the heel dressing.",
+    "about": "Clinician|Patient|District Nurse"
+   },
+   {
+    "id": "f52",
+    "turns": [
+     52
+    ],
+    "fact": "Relative agrees that the blood test plan is good.",
+    "about": "Relative|Clinician"
+   },
+   {
+    "id": "f53",
+    "turns": [
+     53
+    ],
+    "fact": "Clinician provides safety-netting instructions: call 111 (or 999 if very unwell) if unable to keep fluids down, confused or very drowsy, pass no urine for 12 hours, or see blood in diarrhoea.",
+    "about": "Clinician|Patient"
+   },
+   {
+    "id": "f54",
+    "turns": [
+     54
+    ],
+    "fact": "Relative acknowledges the safety instructions and thanks the doctor.",
+    "about": "Relative|Clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Diarrhoea and vomiting for 2 weeks.\",\n      \"transcript_evidence\": \"Patient states symptoms have been going on for two days, since Monday.\",\n      \"evidence_turns\": [\n        11\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly states the duration of symptoms as two weeks when the transcript indicates they have only been present for two days.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Blood in stools.\",\n      \"transcript_evidence\": \"Patient confirms there is no blood.\",\n      \"evidence_turns\": [\n        17\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note claims blood was present, which contradicts the patient's report of no blood, potentially leading to incorrect clinical assessment.\"\n    },\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"History\",\n      \"note_span\": \"District nurses dressing a sore on the right heel twice weekly.\",\n      \"transcript_evidence\": \"Patient reports the district nurse dresses a sore on my left heel twice a week.\",\n      \"evidence_turns\": [\n        44\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note incorrectly records the location of the sore (right vs. left heel), which is a minor inaccuracy.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Presenting complaint",
+    "note_span": "Diarrhoea and vomiting for 2 weeks.",
+    "transcript_evidence": "Patient states symptoms have been going on for two days, since Monday.",
+    "evidence_turns": [
+     11
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly states the duration of symptoms as two weeks when the transcript indicates they have only been present for two days."
+   },
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Blood in stools.",
+    "transcript_evidence": "Patient confirms there is no blood.",
+    "evidence_turns": [
+     17
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note claims blood was present, which contradicts the patient's report of no blood, potentially leading to incorrect clinical assessment."
+   },
+   {
+    "type": "LATERALITY",
+    "note_section": "History",
+    "note_span": "District nurses dressing a sore on the right heel twice weekly.",
+    "transcript_evidence": "Patient reports the district nurse dresses a sore on my left heel twice a week.",
+    "evidence_turns": [
+     44
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note incorrectly records the location of the sore (right vs. left heel), which is a minor inaccuracy."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

@@ -148,7 +148,7 @@
    {
     "id": "c29",
     "section": "Safety-netting",
-    "claim": "A symptom card is given to the patient."
+    "claim": "A symptom leaflet detailing these symptoms is given to the patient."
    }
   ],
   "transcript_facts": [
@@ -221,7 +221,7 @@
     "turns": [
      18
     ],
-    "fact": "The patient reports no weakness.",
+    "fact": "The patient reports no weakness, only pain.",
     "about": "patient"
    },
    {
@@ -229,7 +229,7 @@
     "turns": [
      20
     ],
-    "fact": "The patient reports no numbness around their bottom or between their legs when sitting on the toilet.",
+    "fact": "The patient denies numbness around their bottom or between their legs when sitting on the toilet.",
     "about": "patient"
    },
    {
@@ -261,7 +261,7 @@
     "turns": [
      28
     ],
-    "fact": "The patient reports no history of cancer or unintentional weight loss.",
+    "fact": "The patient has no history of cancer or unintentional weight loss.",
     "about": "patient"
    },
    {
@@ -277,43 +277,59 @@
     "turns": [
      34
     ],
-    "fact": "The patient reports no other medicines and no allergies.",
+    "fact": "The patient has no other medicines and no known drug allergies.",
     "about": "patient"
    },
    {
     "id": "f17",
     "turns": [
-     35
+     31
     ],
-    "fact": "The patient reports shooting pain when asked to bend forward, stating 'Ow, there. That shoots right down.'",
+    "fact": "The patient reports no problems with their stomach, asthma, or kidneys.",
     "about": "patient"
    },
    {
     "id": "f18",
     "turns": [
-     37
+     35
     ],
-    "fact": "The clinician notes the pain is at about 40 degrees when the patient lifts the right leg.",
-    "about": "clinician"
+    "fact": "The patient reports shooting pain when asked to bend forward, which shoots right down.",
+    "about": "patient"
    },
    {
     "id": "f19",
     "turns": [
-     39
+     37
     ],
-    "fact": "The clinician notes the patient's power and knee and ankle reflexes are normal in both legs.",
-    "about": "clinician"
+    "fact": "The pain is noted to be at about 40 degrees when the right leg is lifted straight.",
+    "about": "patient"
    },
    {
     "id": "f20",
     "turns": [
-     40
+     38
     ],
-    "fact": "The patient confirms they can feel the clinician touching both sides of their body.",
+    "fact": "The left leg is fine when lifted straight.",
     "about": "patient"
    },
    {
     "id": "f21",
+    "turns": [
+     39
+    ],
+    "fact": "The patient's power, knee and ankle reflexes are normal in both legs.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     40
+    ],
+    "fact": "The patient can feel touch on both sides of their body.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
     "turns": [
      41
     ],
@@ -321,7 +337,15 @@
     "about": "clinician"
    },
    {
-    "id": "f22",
+    "id": "f24",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician states that most of these conditions settle over a few weeks to a couple of months.",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
     "turns": [
      43
     ],
@@ -329,7 +353,7 @@
     "about": "clinician"
    },
    {
-    "id": "f23",
+    "id": "f26",
     "turns": [
      45
     ],
@@ -337,70 +361,86 @@
     "about": "clinician"
    },
    {
-    "id": "f24",
+    "id": "f27",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician advises the patient to keep moving as much as possible rather than resting in bed.",
+    "about": "clinician"
+   },
+   {
+    "id": "f28",
     "turns": [
      47
     ],
-    "fact": "The clinician plans to give a fit note for two weeks, stating the patient may be fit for work with amended duties (no lifting or handling).",
+    "fact": "The clinician plans to give the patient a fit note for two weeks, stating they may be fit for work with amended duties (no lifting or handling).",
     "about": "clinician"
    },
    {
-    "id": "f25",
+    "id": "f29",
     "turns": [
      49
     ],
-    "fact": "The clinician plans to review the patient in four weeks.",
+    "fact": "The clinician plans to see the patient again in four weeks.",
     "about": "clinician"
    },
    {
-    "id": "f26",
+    "id": "f30",
     "turns": [
      51
     ],
-    "fact": "The clinician advises the patient to attend A&E immediately if they get numbness around their bottom or genitals, difficulty passing urine, loss of control of bladder or bowels, or weakness in both legs (cauda equina symptoms).",
+    "fact": "The clinician provides safety-netting advice: if the patient experiences saddle numbness, difficulty passing urine, loss of bladder or bowel control, or weakness in both legs, they should go to A&E straight away.",
+    "about": "clinician"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     51
+    ],
+    "fact": "The clinician gives the patient a leaflet with these symptoms.",
     "about": "clinician"
    }
   ]
  },
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"The patient presents with left-sided sciatica-type leg pain for 3 weeks.\",\n      \"transcript_evidence\": \"Patient: My left. No, sorry, the right. I always mix them up when I'm talking. It's definitely the right leg.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the pain is left-sided, contradicting the patient's self-correction to the right side, which is a critical laterality error.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"The patient reports saddle numbness.\",\n      \"transcript_evidence\": \"Patient: No. (Clinician asks: Any numbness around your bottom or between your legs, like when you sit on the toilet?)\",\n      \"evidence_turns\": [\n        19\n      ],\n      \"severity\": 5,\n      \"likelihood\": 5,\n      \"rationale\": \"The note claims the patient reports saddle numbness, but the transcript explicitly shows the patient denies this symptom, which is a critical safety-netting omission.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Start naproxen 500 mg four times daily with food and omeprazole 20 mg once daily for 2 weeks.\",\n      \"transcript_evidence\": \"Clinician: I'll switch you to naproxen, 500 milligrams twice a day with food and add omeprazole, 20 milligrams once a day, to protect your stomach. Just for a couple of weeks.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly records the naproxen frequency as four times daily, whereas the transcript specifies twice a day.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Left-sided sciatica-type leg pain for 3 weeks.\",\n      \"transcript_evidence\": \"Patient: My left. No, sorry, the right. I always mix them up when I'm talking. It's definitely the right leg.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly records the side of the pain (Left) when the patient corrected themselves to the Right.\"\n    },\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"The patient reports saddle numbness.\",\n      \"transcript_evidence\": \"Patient: No. [Regarding numbness around bottom or between legs when sitting on the toilet].\",\n      \"evidence_turns\": [\n        20\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note claims the patient reports saddle numbness, but the transcript shows the patient explicitly denies this symptom.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Start naproxen 500 mg four times daily with food and omeprazole 20 mg once daily, for 2 weeks.\",\n      \"transcript_evidence\": \"Clinician: I'll switch you to naproxen, 500 milligrams twice a day with food and add omeprazole, 20 milligrams once a day, to protect your stomach. Just for a couple of weeks.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly records the naproxen frequency as four times daily, whereas the transcript specifies twice daily.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
   "findings": [
    {
     "type": "LATERALITY",
     "note_section": "Presenting complaint",
-    "note_span": "The patient presents with left-sided sciatica-type leg pain for 3 weeks.",
+    "note_span": "Left-sided sciatica-type leg pain for 3 weeks.",
     "transcript_evidence": "Patient: My left. No, sorry, the right. I always mix them up when I'm talking. It's definitely the right leg.",
     "evidence_turns": [
      8
     ],
-    "severity": 4,
+    "severity": 3,
     "likelihood": 4,
-    "rationale": "The note incorrectly states the pain is left-sided, contradicting the patient's self-correction to the right side, which is a critical laterality error."
+    "rationale": "The note incorrectly records the side of the pain (Left) when the patient corrected themselves to the Right."
    },
    {
     "type": "NEGATION",
     "note_section": "History",
     "note_span": "The patient reports saddle numbness.",
-    "transcript_evidence": "Patient: No. (Clinician asks: Any numbness around your bottom or between your legs, like when you sit on the toilet?)",
+    "transcript_evidence": "Patient: No. [Regarding numbness around bottom or between legs when sitting on the toilet].",
     "evidence_turns": [
-     19
+     20
     ],
-    "severity": 5,
-    "likelihood": 5,
-    "rationale": "The note claims the patient reports saddle numbness, but the transcript explicitly shows the patient denies this symptom, which is a critical safety-netting omission."
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note claims the patient reports saddle numbness, but the transcript shows the patient explicitly denies this symptom."
    },
    {
     "type": "DOSE_UNIT",
     "note_section": "Plan",
-    "note_span": "Start naproxen 500 mg four times daily with food and omeprazole 20 mg once daily for 2 weeks.",
+    "note_span": "Start naproxen 500 mg four times daily with food and omeprazole 20 mg once daily, for 2 weeks.",
     "transcript_evidence": "Clinician: I'll switch you to naproxen, 500 milligrams twice a day with food and add omeprazole, 20 milligrams once a day, to protect your stomach. Just for a couple of weeks.",
     "evidence_turns": [
      43
     ],
-    "severity": 2,
-    "likelihood": 3,
-    "rationale": "The note incorrectly records the naproxen frequency as four times daily, whereas the transcript specifies twice a day."
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly records the naproxen frequency as four times daily, whereas the transcript specifies twice daily."
    }
   ],
   "overall_note_safety": "needs_major_edits"

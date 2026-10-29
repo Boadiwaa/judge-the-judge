@@ -1,0 +1,289 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient is presenting with vomiting and diarrhoea since last night."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient has had about five non-bilious, milky vomits since last night, with fewer today."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient has had six to seven loose stools today."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient has no blood in her stools, although her brother had blood in his stool with a similar illness last week."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient's brother had a similar illness from nursery, and the patient attends the same nursery."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has had two wet nappies since this morning."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient is taking small amounts of breast milk and formula."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient's temperature this morning was 37.4 \u00b0C."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient is alert and playing."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient is not drowsy or floppy."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "The patient has no rash."
+   },
+   {
+    "id": "c12",
+    "section": "History",
+    "claim": "The patient has no regular medications and no known drug allergies."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The assessment was conducted over the phone and no physical examination was performed."
+   },
+   {
+    "id": "c14",
+    "section": "Impression",
+    "claim": "The clinical impression is probable viral gastroenteritis with reduced urine output."
+   },
+   {
+    "id": "c15",
+    "section": "Plan",
+    "claim": "A face-to-face assessment is scheduled for the surgery today at 16:00."
+   },
+   {
+    "id": "c16",
+    "section": "Plan",
+    "claim": "The patient should continue breastfeeding and receive small amounts of oral rehydration solution (e.g., Dioralyte) every few minutes."
+   },
+   {
+    "id": "c17",
+    "section": "Safety-netting",
+    "claim": "The patient should call 999 if she becomes floppy, very sleepy, or hard to wake."
+   },
+   {
+    "id": "c18",
+    "section": "Safety-netting",
+    "claim": "The patient should attend A&E if her vomit goes green or if she sees blood in her nappy."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     3
+    ],
+    "fact": "The clinician is Dr Mistry calling back from the surgery.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     6
+    ],
+    "fact": "Freya's date of birth is the Fourteenth of December.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     6
+    ],
+    "fact": "Freya is ten months old.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     8
+    ],
+    "fact": "Freya started being sick last night and then had diarrhoea this morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     10
+    ],
+    "fact": "Freya has been sick about five times since last night, and fewer today.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     12
+    ],
+    "fact": "The vomit is milky, not green.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     14
+    ],
+    "fact": "Freya has six or seven runny nappies today.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     16
+    ],
+    "fact": "Freya has no blood in her stools, but her brother had blood in his stool with a similar illness last week.",
+    "about": "patient|relative"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     18
+    ],
+    "fact": "Freya's brother had a similar illness from nursery, and Freya attends the same nursery.",
+    "about": "relative|patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     20
+    ],
+    "fact": "The relative initially thought there were about four wet nappies, but corrected this to only two wet nappies since this morning, with the others being dirty.",
+    "about": "relative|patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     21
+    ],
+    "fact": "There are two wet nappies since this morning, and the time is about two o'clock.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     22
+    ],
+    "fact": "Freya is having little bits of milk and is breastfed and has a bit of formula.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     24
+    ],
+    "fact": "Freya's temperature this morning was 37.4 \u00b0C.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     26
+    ],
+    "fact": "Freya is grumpy but is watching the telly and playing with her blocks.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     28
+    ],
+    "fact": "Freya is not very sleepy or floppy or hard to wake.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     30
+    ],
+    "fact": "There is no rash.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     32
+    ],
+    "fact": "Freya has no regular medications and no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician is concerned because Freya has only had two wet nappies today.",
+    "about": "clinician"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     37
+    ],
+    "fact": "The plan is to continue breastfeeding and give small amounts of oral rehydration solution (like Dioralyte) a teaspoon every few minutes.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     39
+    ],
+    "fact": "If Freya becomes floppy, very sleepy or hard to wake, or gets a rash that doesn't fade when you press a glass on it, she should call 999.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     41
+    ],
+    "fact": "If her sick goes green or you see blood in her nappy, she should take her to A&E.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"Probable viral gastroenteritis with reduced urine output.\",\n      \"transcript_evidence\": \"It sounds like gastroenteritis, a tummy bug, probably the same one her brother had.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The specific clinical finding of 'reduced urine output' is missing from the impression, although the context is implied by the discussion of wet nappies.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Impression",
+    "note_span": "Probable viral gastroenteritis with reduced urine output.",
+    "transcript_evidence": "It sounds like gastroenteritis, a tummy bug, probably the same one her brother had.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The specific clinical finding of 'reduced urine output' is missing from the impression, although the context is implied by the discussion of wet nappies."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
+ }
+}

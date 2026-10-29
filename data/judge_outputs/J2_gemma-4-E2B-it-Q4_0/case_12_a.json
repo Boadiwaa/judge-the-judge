@@ -1,0 +1,540 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient presents with pain below the right kneecap for two months."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The onset of pain was gradual and without a specific injury."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient plays football (training three times a week plus matches) and attends school PE."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Pain occurs during and after sport and when kneeling on the knee."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient experiences nocturnal pain."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has no rest pain."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient has no swelling, locking, or giving way of the knee."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has no pain in the hip or thigh."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient has no fever or weight loss."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient had Osgood-Schlatter disease in the other knee last year."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "The patient has no previous joint problems."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient has no regular medications and no known drug allergies."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "The patient has no asthma or peptic ulcer disease."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "A tender bony prominence is present over the right tibial tuberosity."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "There is no knee effusion."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "The patient has a full range of knee movement and stable ligaments."
+   },
+   {
+    "id": "c17",
+    "section": "Examination",
+    "claim": "Both hips have a full, pain-free range of movement."
+   },
+   {
+    "id": "c18",
+    "section": "Examination",
+    "claim": "The patient has a normal gait."
+   },
+   {
+    "id": "c19",
+    "section": "Impression",
+    "claim": "The impression is Osgood-Schlatter disease of the right knee with no red flags."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "The plan includes activity modification guided by pain."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "The plan includes ice for 15 minutes after sport."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "The plan includes paracetamol or ibuprofen 400 mg up to three times daily with food as needed."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "The plan includes referral to physiotherapy for quadriceps and hamstring stretching."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "The plan includes a review if the condition has not settled in 6\u20138 weeks."
+   },
+   {
+    "id": "c25",
+    "section": "Safety-netting",
+    "claim": "The safety-netting includes returning sooner if there is night pain, knee swelling, fever, persistent limp, or hip pain."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "The clinician greets the patient, Ethan, and asks if he is his mother.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The relative confirms the patient's identity as Nicola.",
+    "about": "relative"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "The clinician asks what the patient needs help with.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     4
+    ],
+    "fact": "The patient reports pain in his knee, specifically just below the kneecap.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     5
+    ],
+    "fact": "The clinician asks which knee is hurting.",
+    "about": "clinician"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     6
+    ],
+    "fact": "The patient specifies the right knee is hurting.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     7
+    ],
+    "fact": "The clinician asks how long the pain has been.",
+    "about": "clinician"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     8
+    ],
+    "fact": "The patient states the pain has been about two months.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     9
+    ],
+    "fact": "The clinician asks if the patient injured it.",
+    "about": "clinician"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     10
+    ],
+    "fact": "The patient states he did not injure it but it started hurting after football.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     11
+    ],
+    "fact": "The clinician asks how much football the patient plays.",
+    "about": "clinician"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     12
+    ],
+    "fact": "The patient states he trains three times a week and has a match on Saturdays.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     13
+    ],
+    "fact": "The relative mentions the patient does PE at school.",
+    "about": "relative"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     14
+    ],
+    "fact": "The clinician asks when the pain is worst.",
+    "about": "clinician"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     15
+    ],
+    "fact": "The patient states the pain is during and after football, and kneeling on it really hurts.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     16
+    ],
+    "fact": "The clinician asks if it wakes him up at night.",
+    "about": "clinician"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     17
+    ],
+    "fact": "The patient states no.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     18
+    ],
+    "fact": "The clinician asks if it is sore when resting.",
+    "about": "clinician"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     19
+    ],
+    "fact": "The patient states it is not really sore when resting, only after sport.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     20
+    ],
+    "fact": "The clinician asks about swelling, locking, or giving way.",
+    "about": "clinician"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     21
+    ],
+    "fact": "The patient states no.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     22
+    ],
+    "fact": "The clinician asks about pain in the hip or thigh.",
+    "about": "clinician"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     23
+    ],
+    "fact": "The patient states no.",
+    "about": "patient"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     24
+    ],
+    "fact": "The clinician asks about fevers, weight loss, or feeling unwell.",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     25
+    ],
+    "fact": "The patient states no.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     26
+    ],
+    "fact": "The clinician asks if the patient is limping.",
+    "about": "clinician"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     27
+    ],
+    "fact": "The patient states he is only limping after a match.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     28
+    ],
+    "fact": "The relative mentions the patient's brother had a similar issue at age fourteen, which was Osgood-something.",
+    "about": "relative"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     29
+    ],
+    "fact": "The clinician asks if Ethan has had any joint problems before.",
+    "about": "clinician"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     30
+    ],
+    "fact": "The relative states no, nothing.",
+    "about": "relative"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     31
+    ],
+    "fact": "The clinician asks about medicines or allergies.",
+    "about": "clinician"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     32
+    ],
+    "fact": "The patient states no.",
+    "about": "patient"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     33
+    ],
+    "fact": "The clinician asks about asthma or stomach problems.",
+    "about": "clinician"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     34
+    ],
+    "fact": "The patient states no.",
+    "about": "patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician examines the knee and identifies a tender bony lump just below the kneecap on the right shin bone, which is called the tibial tuberosity.",
+    "about": "clinician"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     36
+    ],
+    "fact": "The patient acknowledges the finding, saying 'Ow, yeah, that's the spot.'",
+    "about": "patient"
+   },
+   {
+    "id": "f37",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician states there is no fluid in the knee and the patient can bend and straighten it fully, and the ligaments feel stable.",
+    "about": "clinician"
+   },
+   {
+    "id": "f38",
+    "turns": [
+     38
+    ],
+    "fact": "The clinician checks the hips and the patient reports no pain.",
+    "about": "patient"
+   },
+   {
+    "id": "f39",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician confirms both hips have a full range of movement with no pain and asks the patient to walk to the door and back.",
+    "about": "clinician"
+   },
+   {
+    "id": "f40",
+    "turns": [
+     40
+    ],
+    "fact": "The patient confirms he can walk to the door and back.",
+    "about": "patient"
+   },
+   {
+    "id": "f41",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician diagnoses the condition as Osgood-Schlatter disease, explaining it is an irritation where the tendon from the kneecap attaches to the shin bone, common in active teenagers with growth spurts who settle as they finish growing.",
+    "about": "clinician"
+   },
+   {
+    "id": "f42",
+    "turns": [
+     42
+    ],
+    "fact": "The patient asks if he has to stop football.",
+    "about": "patient"
+   },
+   {
+    "id": "f43",
+    "turns": [
+     43
+    ],
+    "fact": "The clinician advises not to stop completely but to cut down for a few weeks and let the pain guide him, suggesting doing less if it hurts a lot during or after.",
+    "about": "clinician"
+   },
+   {
+    "id": "f44",
+    "turns": [
+     44
+    ],
+    "fact": "The patient acknowledges the advice.",
+    "about": "patient"
+   },
+   {
+    "id": "f45",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician recommends icing the knee for 15 minutes after sport and suggests paracetamol or ibuprofen 400 milligrams up to three times a day with food for pain.",
+    "about": "clinician"
+   },
+   {
+    "id": "f46",
+    "turns": [
+     46
+    ],
+    "fact": "The relative acknowledges the advice.",
+    "about": "relative"
+   },
+   {
+    "id": "f47",
+    "turns": [
+     47
+    ],
+    "fact": "The clinician refers the patient to physiotherapy for stretching exercises for his thigh muscles.",
+    "about": "clinician"
+   },
+   {
+    "id": "f48",
+    "turns": [
+     48
+    ],
+    "fact": "The patient acknowledges the referral.",
+    "about": "patient"
+   },
+   {
+    "id": "f49",
+    "turns": [
+     49
+    ],
+    "fact": "The clinician instructs the patient to come back sooner if the pain wakes him at night, the knee swells up, he gets a fever, starts limping all the time, or gets pain in his hip.",
+    "about": "clinician"
+   },
+   {
+    "id": "f50",
+    "turns": [
+     50
+    ],
+    "fact": "The relative acknowledges and thanks the clinician.",
+    "about": "relative"
+   }
+  ]
+ },
+ "error": "parse_failure: no JSON object found",
+ "raw": "",
+ "output": null
+}

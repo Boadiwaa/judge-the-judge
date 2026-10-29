@@ -1,0 +1,375 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "Panic attacks for 4 months."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "Recurrent panic attacks with palpitations, breathlessness, hand tingling and fear of dying."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Panic attacks lasting about 10 minutes."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Frequency: two to three times a week now and increasing."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "Symptoms: Anticipatory anxiety and generalised worry."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "Sleep: satisfactory."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "Mood: 'fed up' but not depressed."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "Safety: No thoughts of self-harm or suicide."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "Caffeine: about four coffees a day."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "Alcohol: a couple of glasses of wine at weekends."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "Drug use: No."
+   },
+   {
+    "id": "c12",
+    "section": "History",
+    "claim": "Work status: Currently off work with stress."
+   },
+   {
+    "id": "c13",
+    "section": "History",
+    "claim": "Thyroid: function normal last month."
+   },
+   {
+    "id": "c14",
+    "section": "History",
+    "claim": "Medications and allergies: No regular medications. No known drug allergies."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "GAD-7 score: 15."
+   },
+   {
+    "id": "c16",
+    "section": "Examination",
+    "claim": "PHQ-9 score: 8."
+   },
+   {
+    "id": "c17",
+    "section": "Impression",
+    "claim": "Panic disorder with agoraphobic avoidance and generalised anxiety symptoms."
+   },
+   {
+    "id": "c18",
+    "section": "Impression",
+    "claim": "No risk to self identified."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "Self-referral details for NHS Talking Therapies (CBT)."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "Start sertraline 25 mg once daily for 1 week, then 50 mg once daily."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "Warned of possible initial increase in anxiety (due to sertraline)."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "Review in 3 months."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "Reduce caffeine gradually."
+   },
+   {
+    "id": "c24",
+    "section": "Safety-netting",
+    "claim": "If thoughts of self-harm, call NHS 111 (mental health option) or Samaritans 116 123."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     7
+    ],
+    "fact": "Patient reports having panic attacks with palpitations, breathlessness, hand tingling, and fear of dying.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     9
+    ],
+    "fact": "Panic attacks have been occurring for about four months, since around the start of summer.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     11
+    ],
+    "fact": "Frequency of attacks is two or three times a week now, and they are getting worse.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     13
+    ],
+    "fact": "Each panic attack lasts about ten minutes, but the patient feels wiped out afterward.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     15
+    ],
+    "fact": "Patient avoids supermarkets and will not get on the Underground.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     18
+    ],
+    "fact": "Patient worries about everything else, including work and money.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     20
+    ],
+    "fact": "Patient reports sleep is okay and they get off to sleep fine.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     22
+    ],
+    "fact": "Patient's mood is 'a bit fed up' but not depressed.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     24
+    ],
+    "fact": "Patient reports no thoughts of harming themselves or ending their life.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     26
+    ],
+    "fact": "Patient consumes about four coffees a day, or six if counting those at work.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     28
+    ],
+    "fact": "Patient consumes a couple of glasses of wine at the weekend.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     30
+    ],
+    "fact": "Patient reports no drug use.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     32
+    ],
+    "fact": "Patient works in marketing and has not had any time off.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     33
+    ],
+    "fact": "Relative is off at the moment with stress, and work has been awful for both of them.",
+    "about": "relative"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     37
+    ],
+    "fact": "Patient denies problems with heart or thyroid, and the thyroid was normal last month.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     39
+    ],
+    "fact": "Patient reports no allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     40
+    ],
+    "fact": "Questionnaire scores are GAD-7 is 15 and PHQ-9 is 8, fitting with significant anxiety and panic disorder rather than depression.",
+    "about": "clinician"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     42
+    ],
+    "fact": "Treatment with the best evidence for panic disorder is talking therapy called CBT.",
+    "about": "clinician"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     44
+    ],
+    "fact": "Clinician suggests trying an SSRI called sertraline alongside therapy.",
+    "about": "clinician"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     46
+    ],
+    "fact": "Medication plan: Start low at 25 milligrams once a day for a week, then increase to 50 milligrams once a day.",
+    "about": "clinician"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     48
+    ],
+    "fact": "Clinician plans to see the patient in two weeks for a review.",
+    "about": "clinician"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     52
+    ],
+    "fact": "Safety-netting: If thoughts of self-harm occur, call 111 (mental health option) or Samaritans on 116 123.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Currently off work with stress.\",\n      \"transcript_evidence\": \"I work in marketing. I haven't had any time off.\",\n      \"evidence_turns\": [\n        32\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note contradicts the transcript regarding the patient's current employment status, which is a significant contextual error.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Review in 3 months.\",\n      \"transcript_evidence\": \"I'd like to see you in two weeks to see how you're getting on with it.\",\n      \"evidence_turns\": [\n        48\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The planned follow-up interval is incorrect, potentially leading to a delay in necessary monitoring.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"\",\n      \"transcript_evidence\": \"I avoid supermarkets now. And I won't get on the Underground.\",\n      \"evidence_turns\": [\n        15\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note omits important contextual information regarding the patient's agoraphobic avoidance behaviors.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"\",\n      \"transcript_evidence\": \"I worry about everything else too. Work, money, everything.\",\n      \"evidence_turns\": [\n        18\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note omits the patient's generalized worry about work and money, which is relevant to the presentation.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"\",\n      \"transcript_evidence\": \"Relative is off at the moment with stress myself. Work's been awful.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note omits non-critical contextual information about the relative's stress.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Currently off work with stress.",
+    "transcript_evidence": "I work in marketing. I haven't had any time off.",
+    "evidence_turns": [
+     32
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note contradicts the transcript regarding the patient's current employment status, which is a significant contextual error."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Review in 3 months.",
+    "transcript_evidence": "I'd like to see you in two weeks to see how you're getting on with it.",
+    "evidence_turns": [
+     48
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The planned follow-up interval is incorrect, potentially leading to a delay in necessary monitoring."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "",
+    "transcript_evidence": "I avoid supermarkets now. And I won't get on the Underground.",
+    "evidence_turns": [
+     15
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note omits important contextual information regarding the patient's agoraphobic avoidance behaviors."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "",
+    "transcript_evidence": "I worry about everything else too. Work, money, everything.",
+    "evidence_turns": [
+     18
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note omits the patient's generalized worry about work and money, which is relevant to the presentation."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "History",
+    "note_span": "",
+    "transcript_evidence": "Relative is off at the moment with stress myself. Work's been awful.",
+    "evidence_turns": [
+     33
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note omits non-critical contextual information about the relative's stress."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

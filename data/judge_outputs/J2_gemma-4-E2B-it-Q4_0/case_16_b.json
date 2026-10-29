@@ -1,0 +1,302 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "Low mood and 8 weeks postpartum."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "Low mood for 6 days, starting a few weeks after delivery, characterized by tearfulness, anhedonia, and guilt."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "Poor sleep even when the baby sleeps, accompanied by persistent worry."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "Intrusive, unwanted thoughts of accidentally dropping the baby, which cause distress."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "No urge or intent to harm the baby."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "Avoids carrying the baby on the stairs."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "Passive thoughts that her family would be better off without her."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "Previous depression at age 19, treated with fluoxetine for one year."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "Family history of possible postpartum psychosis (mother admitted to hospital with severe mental illness after a birth)."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "Breastfeeding."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "Has had recent panic attacks."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "PHQ-9 score is 17, fitting moderately severe depression."
+   },
+   {
+    "id": "c13",
+    "section": "Impression",
+    "claim": "Moderately severe postnatal depression with ego-dystonic intrusive harm-related thoughts and passive suicidal ideation without plan."
+   },
+   {
+    "id": "c14",
+    "section": "Plan",
+    "claim": "Start sertraline 50 mg once daily, which is compatible with breastfeeding."
+   },
+   {
+    "id": "c15",
+    "section": "Plan",
+    "claim": "Referral to the perinatal mental health team due to symptoms and family history."
+   },
+   {
+    "id": "c16",
+    "section": "Plan",
+    "claim": "Inform the health visitor."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "Provide details for Talking Therapies, which prioritize new parents."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "Review scheduled in one week."
+   },
+   {
+    "id": "c19",
+    "section": "Safety-netting",
+    "claim": "If suicidal thoughts worsen or the patient feels unable to keep herself safe, call NHS 111 (mental health option) or 999."
+   },
+   {
+    "id": "c20",
+    "section": "Safety-netting",
+    "claim": "Seek urgent help if confusion or hallucinations are experienced."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     6
+    ],
+    "fact": "Patient's age is 8 weeks, but corrects it to ten weeks on Saturday.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     8
+    ],
+    "fact": "Patient reports feeling like they don't feel like themselves, crying all the time, and lacking enjoyment (anhedonia).",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     10
+    ],
+    "fact": "Symptoms started about six weeks after the baby was born and have not lifted.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     12
+    ],
+    "fact": "Patient experiences insomnia even when the baby is asleep, and lies there worrying.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     14
+    ],
+    "fact": "Patient has intrusive thoughts about dropping the baby down the stairs.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     14
+    ],
+    "fact": "Patient states they would never do anything to the baby.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     18
+    ],
+    "fact": "Patient has passive suicidal ideation, thinking they would be better off without them.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     22
+    ],
+    "fact": "Patient had previous depression at age 19 and was treated with fluoxetine for a year.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     24
+    ],
+    "fact": "Patient's mother was admitted to the hospital after having the patient's brother and was unwell, hearing things.",
+    "about": "relative"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     26
+    ],
+    "fact": "Patient is breastfeeding.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     29
+    ],
+    "fact": "Relative reports having had a couple of panic attacks at work.",
+    "about": "relative"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     32
+    ],
+    "fact": "Chloe's PHQ-9 score is 17, which fits with moderately severe depression.",
+    "about": "clinician"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     34
+    ],
+    "fact": "Clinician plans to start sertraline 50 milligrams once a day.",
+    "about": "clinician"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     34
+    ],
+    "fact": "Clinician notes sertraline is one of the safest antidepressants when breastfeeding.",
+    "about": "clinician"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     36
+    ],
+    "fact": "Clinician plans to refer Chloe to the perinatal mental health team due to her feelings and her mother's history.",
+    "about": "clinician"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     38
+    ],
+    "fact": "Clinician will give Chloe details for Talking Therapies, noting they prioritize new parents.",
+    "about": "clinician"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     40
+    ],
+    "fact": "Clinician plans to see Chloe again in one week.",
+    "about": "clinician"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     42
+    ],
+    "fact": "Safety-netting advice: If suicidal thoughts worsen or the patient cannot keep herself safe, call 111 (mental health option) or 999.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"8 weeks postpartum.\",\n      \"transcript_evidence\": \"Eight weeks. No, ten. He's ten weeks on Saturday. I've lost track of time.\",\n      \"evidence_turns\": [\n        1,\n        6\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note inaccurately records the patient's age as 8 weeks postpartum, whereas the transcript shows the patient corrected this to 10 weeks.\"\n    },\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Low mood for 6 days, starting a few weeks after delivery\",\n      \"transcript_evidence\": \"About six weeks. It started a few weeks after he was born and it hasn't lifted.\",\n      \"evidence_turns\": [\n        3,\n        10\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly records the duration of the low mood as 6 days, while the transcript indicates the symptoms started about six weeks after the baby was born.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"No specialist referral needed.\",\n      \"transcript_evidence\": \"Because of how you're feeling, and your mum's history, I'm going to refer you to the perinatal mental health team.\",\n      \"evidence_turns\": [\n        36,\n        40\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states that no specialist referral was needed, contradicting the clinician's plan to refer the patient to the perinatal mental health team.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "8 weeks postpartum.",
+    "transcript_evidence": "Eight weeks. No, ten. He's ten weeks on Saturday. I've lost track of time.",
+    "evidence_turns": [
+     1,
+     6
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note inaccurately records the patient's age as 8 weeks postpartum, whereas the transcript shows the patient corrected this to 10 weeks."
+   },
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Low mood for 6 days, starting a few weeks after delivery",
+    "transcript_evidence": "About six weeks. It started a few weeks after he was born and it hasn't lifted.",
+    "evidence_turns": [
+     3,
+     10
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly records the duration of the low mood as 6 days, while the transcript indicates the symptoms started about six weeks after the baby was born."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "No specialist referral needed.",
+    "transcript_evidence": "Because of how you're feeling, and your mum's history, I'm going to refer you to the perinatal mental health team.",
+    "evidence_turns": [
+     36,
+     40
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states that no specialist referral was needed, contradicting the clinician's plan to refer the patient to the perinatal mental health team."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

@@ -4,9 +4,23 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate duration calculation\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Fever since Monday evening (3 days)\",\n      \"transcript_evidence\": \"Since Monday evening. Have you measured it? It was 38.9 last night on the ear thermometer.\",\n      \"evidence_turns\": [\n        6,\n        8\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly states the fever duration as 3 days, while the transcript indicates the fever started Monday evening and the measurement was taken the following night (Tuesday night), suggesting a 2-day duration.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
  "output": {
-  "findings": [],
-  "overall_note_safety": "safe_as_is"
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "History",
+    "note_span": "Fever since Monday evening (3 days)",
+    "transcript_evidence": "Since Monday evening. Have you measured it? It was 38.9 last night on the ear thermometer.",
+    "evidence_turns": [
+     6,
+     8
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note incorrectly states the fever duration as 3 days, while the transcript indicates the fever started Monday evening and the measurement was taken the following night (Tuesday night), suggesting a 2-day duration."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
  }
 }

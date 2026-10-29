@@ -63,7 +63,7 @@
    {
     "id": "c12",
     "section": "Medications and allergies",
-    "claim": "The patient has no other medications and no known drug allergies."
+    "claim": "The patient has no known drug allergies."
    },
    {
     "id": "c13",
@@ -113,12 +113,12 @@
    {
     "id": "c22",
     "section": "Plan",
-    "claim": "A follow-up appointment is scheduled in four weeks."
+    "claim": "A review appointment is scheduled in four weeks."
    },
    {
     "id": "c23",
     "section": "Safety-netting",
-    "claim": "A symptom card is given to the patient."
+    "claim": "A symptom leaflet is given to the patient."
    }
   ],
   "transcript_facts": [
@@ -135,7 +135,7 @@
     "turns": [
      4
     ],
-    "fact": "The pain started about three weeks ago while lifting a resident at work.",
+    "fact": "Pain started about three weeks ago while lifting a resident at work.",
     "about": "patient"
    },
    {
@@ -151,7 +151,7 @@
     "turns": [
      8
     ],
-    "fact": "The patient initially stated the pain was in the left leg, but corrected themselves to the right leg.",
+    "fact": "Patient initially stated the pain was in the left leg, but corrected themselves to the right leg.",
     "about": "patient"
    },
    {
@@ -167,7 +167,7 @@
     "turns": [
      12
     ],
-    "fact": "The pain is rated seven on a bad day and is worse when sitting for a while.",
+    "fact": "Pain is rated seven on a bad day and is worse when sitting for a while.",
     "about": "patient"
    },
    {
@@ -175,7 +175,7 @@
     "turns": [
      14
     ],
-    "fact": "The patient confirms the pain is definitely in the leg, not the back.",
+    "fact": "Patient confirms the leg is worse than the back.",
     "about": "patient"
    },
    {
@@ -183,7 +183,7 @@
     "turns": [
      16
     ],
-    "fact": "The patient reports a bit of tingling on the outside of their foot sometimes.",
+    "fact": "Patient reports a bit of tingling on the outside of their foot sometimes.",
     "about": "patient"
    },
    {
@@ -191,7 +191,7 @@
     "turns": [
      18
     ],
-    "fact": "The patient reports no weakness, only pain.",
+    "fact": "Patient reports no weakness, only pain.",
     "about": "patient"
    },
    {
@@ -239,7 +239,7 @@
     "turns": [
      30
     ],
-    "fact": "Patient is taking Ibuprofen 400 mg three times a day, stating it barely touches the pain.",
+    "fact": "Patient is taking Ibuprofen 400 mg three times a day, which 'barely touches it'.",
     "about": "patient"
    },
    {
@@ -247,40 +247,40 @@
     "turns": [
      34
     ],
-    "fact": "Patient reports no other medicines and no allergies.",
+    "fact": "Patient reports no other medicines or allergies.",
     "about": "patient"
    },
    {
     "id": "f17",
     "turns": [
-     35
+     36
     ],
-    "fact": "Clinician asks the patient to bend forward and lift the right leg up straight to check for pain.",
-    "about": "clinician"
+    "fact": "Patient reports that bending forward is limited by pain.",
+    "about": "patient"
    },
    {
     "id": "f18",
     "turns": [
-     36
+     37
     ],
-    "fact": "Patient reports pain shooting right down when the leg is lifted.",
-    "about": "patient"
+    "fact": "Clinician notes the pain is at about 40 degrees when lifting the right leg.",
+    "about": "clinician"
    },
    {
     "id": "f19",
     "turns": [
-     37
+     39
     ],
-    "fact": "Clinician notes the pain is at about 40 degrees when the leg is lifted.",
+    "fact": "Clinician notes that power, knee and ankle reflexes are normal in both legs.",
     "about": "clinician"
    },
    {
     "id": "f20",
     "turns": [
-     39
+     40
     ],
-    "fact": "Clinician notes that the left leg is fine and power, reflexes, and sensation are normal and symmetrical in both lower limbs.",
-    "about": "clinician"
+    "fact": "Patient confirms they can feel touch on both sides.",
+    "about": "patient"
    },
    {
     "id": "f21",

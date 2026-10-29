@@ -4,59 +4,35 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "8fc941675800",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Has had an apnoea.\",\n      \"transcript_evidence\": \"No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.\",\n      \"evidence_turns\": [\n        15,\n        16\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents an apnoea, which the relative explicitly denied.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Mild subcostal recession.\",\n      \"transcript_evidence\": \"I can see he's pulling in a little under his ribs when he breathes, so a bit of extra effort.\",\n      \"evidence_turns\": [\n        33\n      ],\n      \"severity\": 2,\n      \"likelihood\": 2,\n      \"rationale\": \"The note omits a specific observation regarding the child's respiratory effort noted during examination.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"borderline for referral (feeds about 50%).\",\n      \"transcript_evidence\": \"his feeding is down to about half, which is right on the line.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note uses slightly less precise language regarding the feeding status compared to the transcript.\"\n    },\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Advised illness may worsen over days 3\u20135.\",\n      \"transcript_evidence\": \"Bronchiolitis often gets worse over the first three to five days before it gets better.\",\n      \"evidence_turns\": [\n        39\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note uses a slightly different temporal phrasing for the duration of the worsening symptoms.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Has had an apnoea.\",\n      \"transcript_evidence\": \"Has he had any pauses in his breathing, where he stops breathing for a few seconds? No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.\",\n      \"evidence_turns\": [\n        15,\n        16\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The note records a finding (apnoea) that was explicitly denied by the relative, potentially leading to missed critical respiratory distress.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Feeding most of his usual amount.\",\n      \"transcript_evidence\": \"He's only managed about half of each bottle since yesterday.\",\n      \"evidence_turns\": [\n        11\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note inaccurately reflects the feeding amount, which is a significant clinical detail regarding fluid intake and management.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
   "findings": [
    {
     "type": "NEGATION",
     "note_section": "History",
     "note_span": "Has had an apnoea.",
-    "transcript_evidence": "No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.",
+    "transcript_evidence": "Has he had any pauses in his breathing, where he stops breathing for a few seconds? No. His sister did, though, when she had bronchiolitis two years ago. She stopped breathing in the night and we had to call an ambulance.",
     "evidence_turns": [
      15,
      16
     ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The note records a finding (apnoea) that was explicitly denied by the relative, potentially leading to missed critical respiratory distress."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "History",
+    "note_span": "Feeding most of his usual amount.",
+    "transcript_evidence": "He's only managed about half of each bottle since yesterday.",
+    "evidence_turns": [
+     11
+    ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The note incorrectly documents an apnoea, which the relative explicitly denied."
-   },
-   {
-    "type": "OMIT_OTHER",
-    "note_section": "Examination",
-    "note_span": "Mild subcostal recession.",
-    "transcript_evidence": "I can see he's pulling in a little under his ribs when he breathes, so a bit of extra effort.",
-    "evidence_turns": [
-     33
-    ],
-    "severity": 2,
-    "likelihood": 2,
-    "rationale": "The note omits a specific observation regarding the child's respiratory effort noted during examination."
-   },
-   {
-    "type": "OMIT_OTHER",
-    "note_section": "Impression",
-    "note_span": "borderline for referral (feeds about 50%).",
-    "transcript_evidence": "his feeding is down to about half, which is right on the line.",
-    "evidence_turns": [
-     37
-    ],
-    "severity": 1,
-    "likelihood": 1,
-    "rationale": "The note uses slightly less precise language regarding the feeding status compared to the transcript."
-   },
-   {
-    "type": "TEMPORAL",
-    "note_section": "Plan",
-    "note_span": "Advised illness may worsen over days 3\u20135.",
-    "transcript_evidence": "Bronchiolitis often gets worse over the first three to five days before it gets better.",
-    "evidence_turns": [
-     39
-    ],
-    "severity": 1,
-    "likelihood": 1,
-    "rationale": "The note uses a slightly different temporal phrasing for the duration of the worsening symptoms."
+    "rationale": "The note inaccurately reflects the feeding amount, which is a significant clinical detail regarding fluid intake and management."
    }
   ],
-  "overall_note_safety": "needs_minor_edits"
+  "overall_note_safety": "needs_major_edits"
  }
 }

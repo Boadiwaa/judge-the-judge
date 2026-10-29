@@ -1,0 +1,330 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient presents with red, swollen left shin since Tuesday."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The redness started on Wednesday morning, following a scratch on the roses on Tuesday (patient initially stated Tuesday)."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient reports warmth and soreness in the affected area."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "There are no blisters or dark patches present."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient's temperature this morning was 37.6 \u00b0C (self-measured)."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient feels systemically well, with no rigors, vomiting, or confusion."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "There is no swelling of the other leg."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has Type 2 diabetes."
+   },
+   {
+    "id": "c9",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking Metformin 500 mg twice daily."
+   },
+   {
+    "id": "c10",
+    "section": "Medications and allergies",
+    "claim": "The patient has no known drug allergies."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient has had penicillins without problems."
+   },
+   {
+    "id": "c12",
+    "section": "Examination",
+    "claim": "Erythema is present over the anterior left shin, approximately 10 cm across, with a small central scratch."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "No blistering or necrosis is visible."
+   },
+   {
+    "id": "c14",
+    "section": "Impression",
+    "claim": "The clinical impression is Cellulitis of the left lower leg (Eron class I) following a scratch."
+   },
+   {
+    "id": "c15",
+    "section": "Plan",
+    "claim": "Flucloxacillin 500 mg is prescribed once daily for 7 days."
+   },
+   {
+    "id": "c16",
+    "section": "Plan",
+    "claim": "Flucloxacillin should be taken on an empty stomach, an hour before food or two hours after."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "The margin of erythema should be marked with a pen."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "The patient should keep the leg raised when sitting."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The patient should take paracetamol for pain."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "No routine review is needed."
+   },
+   {
+    "id": "c21",
+    "section": "Safety-netting",
+    "claim": "Same-day contact (or 111) is required if redness spreads beyond the marked line."
+   },
+   {
+    "id": "c22",
+    "section": "Safety-netting",
+    "claim": "Same-day contact (or 111) is required if the patient develops a high temperature, rigors, feels very unwell, or confused."
+   },
+   {
+    "id": "c23",
+    "section": "Safety-netting",
+    "claim": "Call 999 if the patient is very unwell."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     9
+    ],
+    "fact": "The patient initially stated the redness started on Tuesday, but corrected this to Wednesday morning after mentioning he was gardening on Tuesday and scratched the leg on roses.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     12
+    ],
+    "fact": "The clinician observed a red area on the front of the left shin, approximately 10 cm across, with a small scratch in the middle.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     13
+    ],
+    "fact": "The patient reported the area was warm.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     15
+    ],
+    "fact": "The relative reported no blisters or dark patches.",
+    "about": "relative"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     17
+    ],
+    "fact": "The patient reported the area was sore, but not terrible.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     19
+    ],
+    "fact": "The patient reported a temperature of 37.6 \u00b0C this morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     21
+    ],
+    "fact": "The patient stated he felt all right and had no systemic symptoms like shivering, sickness, or confusion.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     23
+    ],
+    "fact": "The patient confirmed there was no swelling in the other leg.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     25
+    ],
+    "fact": "The patient has Type 2 diabetes and is taking Metformin 500 milligrams twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     27
+    ],
+    "fact": "The patient stated he has no known drug allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     28
+    ],
+    "fact": "The relative stated she is allergic to penicillin.",
+    "about": "relative"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     30
+    ],
+    "fact": "The patient confirmed he has had penicillin and amoxicillin plenty of times without problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician prescribed Flucloxacillin 500 milligrams four times a day for seven days.",
+    "about": "clinician"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician instructed the patient to take the medication on an empty stomach, an hour before food or two hours after.",
+    "about": "clinician"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician instructed the relative to draw around the edge of the redness with a pen to check for spreading.",
+    "about": "clinician"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician advised the patient to keep the leg raised when sitting and take paracetamol for pain.",
+    "about": "clinician"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician requested the patient send a photo or have another video call in 48 hours.",
+    "about": "clinician"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     43
+    ],
+    "fact": "Safety netting instructions state that if redness spreads beyond the marked line, the patient should call for a same-day appointment or 111 if closed.",
+    "about": "clinician"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     43
+    ],
+    "fact": "Safety netting instructions state that if the patient has a high temperature, shivers, feels very unwell, or confused, they should call for a same-day appointment or 111 if closed.",
+    "about": "clinician"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     43
+    ],
+    "fact": "Safety netting instructions state that if the patient is very unwell, they should call 999.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"Presenting complaint\",\n      \"note_span\": \"Red, swollen left shin since Tuesday.\",\n      \"transcript_evidence\": \"The patient initially stated the redness started on Tuesday, but corrected this to Wednesday morning after mentioning he was gardening on Tuesday and scratched the leg on roses.\",\n      \"evidence_turns\": [\n        1\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note inaccurately states the onset date as Tuesday, whereas the transcript clarifies it was Wednesday morning.\"\n    },\n    {\n      \"type\": \"DOSE_UNIT\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Flucloxacillin 500 mg once daily for 7 days.\",\n      \"transcript_evidence\": \"I'll prescribe flucloxacillin, 500 milligrams four times a day for seven days.\",\n      \"evidence_turns\": [\n        13\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The prescribed dose and frequency of Flucloxacillin are contradicted; the note states once daily, but the transcript confirms four times daily.\"\n    },\n    {\n      \"type\": \"OMIT_SAFETY\",\n      \"note_section\": \"Safety-netting\",\n      \"note_span\": \"Same-day contact (or 111) if spreading beyond the marked line.\",\n      \"transcript_evidence\": \"If the redness spreads beyond the line, he gets a high temperature, shivers, feels very unwell or confused, or the pain gets much worse, call us straight away for a same-day appointment, or 111 if we're closed.\",\n      \"evidence_turns\": [\n        43\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The safety netting in the note omits critical triggers for same-day contact (high temperature, rigors, feeling very unwell, or confusion).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "Presenting complaint",
+    "note_span": "Red, swollen left shin since Tuesday.",
+    "transcript_evidence": "The patient initially stated the redness started on Tuesday, but corrected this to Wednesday morning after mentioning he was gardening on Tuesday and scratched the leg on roses.",
+    "evidence_turns": [
+     1
+    ],
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note inaccurately states the onset date as Tuesday, whereas the transcript clarifies it was Wednesday morning."
+   },
+   {
+    "type": "DOSE_UNIT",
+    "note_section": "Plan",
+    "note_span": "Flucloxacillin 500 mg once daily for 7 days.",
+    "transcript_evidence": "I'll prescribe flucloxacillin, 500 milligrams four times a day for seven days.",
+    "evidence_turns": [
+     13
+    ],
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The prescribed dose and frequency of Flucloxacillin are contradicted; the note states once daily, but the transcript confirms four times daily."
+   },
+   {
+    "type": "OMIT_SAFETY",
+    "note_section": "Safety-netting",
+    "note_span": "Same-day contact (or 111) if spreading beyond the marked line.",
+    "transcript_evidence": "If the redness spreads beyond the line, he gets a high temperature, shivers, feels very unwell or confused, or the pain gets much worse, call us straight away for a same-day appointment, or 111 if we're closed.",
+    "evidence_turns": [
+     43
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The safety netting in the note omits critical triggers for same-day contact (high temperature, rigors, feeling very unwell, or confusion)."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

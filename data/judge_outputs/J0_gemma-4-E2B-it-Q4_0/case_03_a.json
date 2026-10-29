@@ -4,12 +4,12 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Dosage error\",\n      \"note_section\": \"plan\",\n      \"note_span\": \"Start empagliflozin 100 mg once daily\",\n      \"transcript_evidence\": \"I'd like to add a tablet called empagliflozin, 10 milligrams once a day.\",\n      \"evidence_turns\": [\n        44\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the dosage of empagliflozin as 100 mg, whereas the transcript indicates the prescribed dose is 10 mg.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Dosage discrepancy\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Start empagliflozin 100 mg once daily\",\n      \"transcript_evidence\": \"I'd like to add a tablet called empagliflozin, 10 milligrams once a day.\",\n      \"evidence_turns\": [\n        44\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the dosage of empagliflozin as 100 mg, whereas the transcript indicates the prescribed dose is 10 mg.\"\n    },\n    {\n      \"type\": \"Unit error\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"HbA1c 62 mmol/mol (previously 58)\",\n      \"transcript_evidence\": \"Your blood tests from last week: your HbA1c is 62, up from 58 last time.\",\n      \"evidence_turns\": [\n        34\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note uses the incorrect unit 'mmol/mol' for HbA1c; the transcript correctly uses 'mmol/mol' (or percentage) as the unit for this measurement.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
  "output": {
   "findings": [
    {
     "type": "UNSPECIFIED",
-    "note_section": "plan",
+    "note_section": "Plan",
     "note_span": "Start empagliflozin 100 mg once daily",
     "transcript_evidence": "I'd like to add a tablet called empagliflozin, 10 milligrams once a day.",
     "evidence_turns": [
@@ -18,6 +18,18 @@
     "severity": 3,
     "likelihood": 4,
     "rationale": "The note incorrectly states the dosage of empagliflozin as 100 mg, whereas the transcript indicates the prescribed dose is 10 mg."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Examination",
+    "note_span": "HbA1c 62 mmol/mol (previously 58)",
+    "transcript_evidence": "Your blood tests from last week: your HbA1c is 62, up from 58 last time.",
+    "evidence_turns": [
+     34
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note uses the incorrect unit 'mmol/mol' for HbA1c; the transcript correctly uses 'mmol/mol' (or percentage) as the unit for this measurement."
    }
   ],
   "overall_note_safety": "needs_minor_edits"

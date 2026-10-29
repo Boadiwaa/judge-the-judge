@@ -1,0 +1,411 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient presents with red, swollen left shin since Wednesday morning."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient sustained a scratch on Tuesday while gardening on a rose bush, and the redness developed on Wednesday morning."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient reports the area is warm and sore."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient measured a temperature of 37.6 \u00b0C this morning."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient denies systemic symptoms such as rigors, vomiting, or confusion."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has Type 2 diabetes and is taking metformin 500 milligrams twice daily."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient is living alone, and their daughter visits daily."
+   },
+   {
+    "id": "c8",
+    "section": "Medications and allergies",
+    "claim": "The patient is allergic to penicillin."
+   },
+   {
+    "id": "c9",
+    "section": "Examination",
+    "claim": "The examination reveals warmth and tenderness on palpation, with no crepitus noted."
+   },
+   {
+    "id": "c10",
+    "section": "Examination",
+    "claim": "There is erythema over the anterior right shin, approximately 10 cm across, with a small central scratch."
+   },
+   {
+    "id": "c11",
+    "section": "Examination",
+    "claim": "No blistering or necrosis is visible."
+   },
+   {
+    "id": "c12",
+    "section": "Impression",
+    "claim": "The clinical impression is cellulitis of the left lower leg (Eron class I) following a scratch."
+   },
+   {
+    "id": "c13",
+    "section": "Plan",
+    "claim": "The plan is to prescribe Flucloxacillin 500 mg four times daily for seven days, to be taken on an empty stomach."
+   },
+   {
+    "id": "c14",
+    "section": "Plan",
+    "claim": "The plan includes marking the margin of erythema with a pen, elevation, and the use of paracetamol for pain."
+   },
+   {
+    "id": "c15",
+    "section": "Plan",
+    "claim": "A photo or video review is requested in 48 hours."
+   },
+   {
+    "id": "c16",
+    "section": "Safety-netting",
+    "claim": "Safety netting advises same-day contact (or 111) if the redness spreads beyond the marked line, if the patient develops a high temperature, rigors, feels very unwell or confused, or if pain rapidly worsens. Call 999 if the patient is very unwell."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "The clinician is Dr Hartigan from the surgery.",
+    "about": "other"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The patient can hear the clinician.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     3
+    ],
+    "fact": "The relative's name is Grace.",
+    "about": "relative"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     4
+    ],
+    "fact": "The patient's date of birth is June 9, 1957.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     7
+    ],
+    "fact": "The patient's leg is red and swollen on the left side.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     9
+    ],
+    "fact": "The patient was gardening on Tuesday and scratched the leg on the roses.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     9
+    ],
+    "fact": "The redness appeared on Wednesday morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     12
+    ],
+    "fact": "The clinician observes a red area on the front of the left shin, about ten centimetres across, with a small scratch in the middle.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     13
+    ],
+    "fact": "The patient reports the area is warm.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     14
+    ],
+    "fact": "The patient reports no blisters or black or dark patches.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     16
+    ],
+    "fact": "The clinician cannot see any blisters on the video.",
+    "about": "other"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     17
+    ],
+    "fact": "The patient reports the pain is sore, but not terrible.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     18
+    ],
+    "fact": "The clinician asks if the patient has had a temperature.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     19
+    ],
+    "fact": "The patient checked their temperature this morning and it was 37.6.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     20
+    ],
+    "fact": "The clinician asks if the patient feels unwell (shivery, sick, confused).",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     21
+    ],
+    "fact": "The patient states they feel all right.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     22
+    ],
+    "fact": "The clinician asks about swelling in the other leg.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     23
+    ],
+    "fact": "The patient reports no swelling in the other leg.",
+    "about": "patient"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     25
+    ],
+    "fact": "The patient has Type 2 diabetes.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     25
+    ],
+    "fact": "The patient is on metformin 500 milligrams twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     26
+    ],
+    "fact": "The clinician asks about allergies to medicines.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     27
+    ],
+    "fact": "The patient reports no allergies.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     28
+    ],
+    "fact": "The relative is allergic to penicillin.",
+    "about": "relative"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     29
+    ],
+    "fact": "The clinician clarifies that the allergy is the relative's, not the patient's, and the patient can have penicillin.",
+    "about": "patient"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     30
+    ],
+    "fact": "The patient has had penicillin or amoxicillin plenty of times with no problems.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     31
+    ],
+    "fact": "The clinician asks if the patient lives with anyone.",
+    "about": "patient"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     32
+    ],
+    "fact": "The patient lives on their own, and their daughter visits every day.",
+    "about": "patient"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     33
+    ],
+    "fact": "The clinician suggests the condition looks like cellulitis, a skin infection, probably from the scratch.",
+    "about": "patient"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     34
+    ],
+    "fact": "The patient agrees with the clinician's impression.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician prescribes Flucloxacillin 500 milligrams four times a day for seven days.",
+    "about": "patient"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     35
+    ],
+    "fact": "The clinician instructs the patient to take the medication on an empty stomach, an hour before food or two hours after.",
+    "about": "patient"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     37
+    ],
+    "fact": "The clinician asks the relative to draw around the edge of the redness with a pen to check for spreading.",
+    "about": "relative"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     39
+    ],
+    "fact": "The clinician advises the relative to keep the leg raised when sitting and take paracetamol for pain.",
+    "about": "relative"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     41
+    ],
+    "fact": "The clinician requests the patient to send a photo or have another video call in 48 hours.",
+    "about": "patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     43
+    ],
+    "fact": "Safety netting advises calling for a same-day appointment or 111 if the redness spreads beyond the line, if the patient gets a high temperature, shivers, feels very unwell or confused, or if the pain gets much worse.",
+    "about": "patient"
+   },
+   {
+    "id": "f36",
+    "turns": [
+     43
+    ],
+    "fact": "Safety netting advises calling 999 if the patient is very unwell.",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"ATTRIBUTION\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Allergic to penicillin.\",\n      \"transcript_evidence\": \"Relative: I'm allergic to penicillin. Is that the kind of thing you'd give him? Should we be careful?\",\n      \"evidence_turns\": [\n        28\n      ],\n      \"severity\": 5,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly attributes the penicillin allergy to the patient instead of the relative, which is a critical safety error regarding medication prescribing.\"\n    },\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Erythema over the anterior right shin, approximately 10 cm across, with a small central scratch.\",\n      \"transcript_evidence\": \"Clinician: I can see a red area on the front of the left shin, about ten centimetres across, with a small scratch in the middle.\",\n      \"evidence_turns\": [\n        8\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly documents the location of the erythema as the right shin when the transcript clearly states it is the left shin.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "ATTRIBUTION",
+    "note_section": "Medications and allergies",
+    "note_span": "Allergic to penicillin.",
+    "transcript_evidence": "Relative: I'm allergic to penicillin. Is that the kind of thing you'd give him? Should we be careful?",
+    "evidence_turns": [
+     28
+    ],
+    "severity": 5,
+    "likelihood": 4,
+    "rationale": "The note incorrectly attributes the penicillin allergy to the patient instead of the relative, which is a critical safety error regarding medication prescribing."
+   },
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Erythema over the anterior right shin, approximately 10 cm across, with a small central scratch.",
+    "transcript_evidence": "Clinician: I can see a red area on the front of the left shin, about ten centimetres across, with a small scratch in the middle.",
+    "evidence_turns": [
+     8
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note incorrectly documents the location of the erythema as the right shin when the transcript clearly states it is the left shin."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

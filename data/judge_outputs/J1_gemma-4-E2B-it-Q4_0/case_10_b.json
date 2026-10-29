@@ -4,7 +4,7 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "8fc941675800",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Coryza and cough for 4 weeks\",\n      \"transcript_evidence\": \"He's had a runny nose and a cough for four days\",\n      \"evidence_turns\": [\n        4\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the duration of the cough and coryza as four weeks, whereas the transcript indicates the symptoms have lasted four days.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Weight 8.2 kg (50th centile)\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 2,\n      \"rationale\": \"The patient's weight is documented in the note but is entirely omitted from the consultation transcript.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Review if not improving in one week.\",\n      \"transcript_evidence\": \"I want to see him again tomorrow morning.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan suggests a one-week review, but the clinician explicitly stated a review for the following morning, which is a significant change in management timing.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Coryza and cough for 4 weeks\",\n      \"transcript_evidence\": \"He's had a runny nose and a cough for four days\",\n      \"evidence_turns\": [\n        4\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The duration of the cough/coryza is documented as four weeks in the note but four days in the transcript, which is a significant discrepancy.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Weight 8.2 kg (50th centile)\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The patient's weight and centile status, which is a relevant clinical finding, is omitted from the examination section of the note.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Clinical review tomorrow morning.\",\n      \"transcript_evidence\": \"I'd like him seen at the hospital today.\",\n      \"evidence_turns\": [\n        37\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The planned clinical review timing is changed from 'tomorrow morning' in the note to 'today' in the transcript, which impacts the urgency of the plan.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
   "findings": [
    {
@@ -15,31 +15,31 @@
     "evidence_turns": [
      4
     ],
-    "severity": 3,
-    "likelihood": 4,
-    "rationale": "The note incorrectly states the duration of the cough and coryza as four weeks, whereas the transcript indicates the symptoms have lasted four days."
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The duration of the cough/coryza is documented as four weeks in the note but four days in the transcript, which is a significant discrepancy."
    },
    {
     "type": "OMIT_OTHER",
-    "note_section": "History",
+    "note_section": "Examination",
     "note_span": "Weight 8.2 kg (50th centile)",
     "transcript_evidence": "",
     "evidence_turns": [],
     "severity": 2,
-    "likelihood": 2,
-    "rationale": "The patient's weight is documented in the note but is entirely omitted from the consultation transcript."
+    "likelihood": 3,
+    "rationale": "The patient's weight and centile status, which is a relevant clinical finding, is omitted from the examination section of the note."
    },
    {
     "type": "PLAN_CHANGE",
     "note_section": "Plan",
-    "note_span": "Review if not improving in one week.",
-    "transcript_evidence": "I want to see him again tomorrow morning.",
+    "note_span": "Clinical review tomorrow morning.",
+    "transcript_evidence": "I'd like him seen at the hospital today.",
     "evidence_turns": [
      37
     ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The plan suggests a one-week review, but the clinician explicitly stated a review for the following morning, which is a significant change in management timing."
+    "rationale": "The planned clinical review timing is changed from 'tomorrow morning' in the note to 'today' in the transcript, which impacts the urgency of the plan."
    }
   ],
   "overall_note_safety": "needs_major_edits"

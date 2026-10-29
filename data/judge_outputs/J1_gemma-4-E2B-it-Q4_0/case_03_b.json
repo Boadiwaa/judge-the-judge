@@ -4,20 +4,20 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "8fc941675800",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Callus under the right first metatarsal head.\",\n      \"transcript_evidence\": \"There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.\",\n      \"evidence_turns\": [\n        38\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly identifies the location of the callus as the right foot when the transcript specifies the left foot.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue gliclazide 80 mg twice daily.\",\n      \"transcript_evidence\": \"I'd like to reduce it to 80 milligrams in the morning only, and stop the teatime dose.\",\n      \"evidence_turns\": [\n        42\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note fails to document the agreed-upon change in the gliclazide dosing regimen (reducing frequency and stopping the teatime dose).\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Episode about three months ago after skipping lunch while gardening:\",\n      \"transcript_evidence\": \"Wednesday. No, it was Tuesday, because it was bin day and I'd just put them out.\",\n      \"evidence_turns\": [\n        7\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note fails to record the specific day (Tuesday) and context (bin day) of the hypoglycaemic episode mentioned in the transcript.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue gliclazide 80 mg twice daily.\",\n      \"transcript_evidence\": \"I'd like to reduce it to 80 milligrams in the morning only, and stop the teatime dose.\",\n      \"evidence_turns\": [\n        42\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The plan contradicts the clinician's suggested dose reduction for gliclazide found in the transcript.\"\n    },\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Callus under the right first metatarsal head.\",\n      \"transcript_evidence\": \"There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.\",\n      \"evidence_turns\": [\n        38\n      ],\n      \"severity\": 2,\n      \"likelihood\": 2,\n      \"rationale\": \"The note incorrectly documents the location of the callus as the right foot instead of the left foot.\"\n    },\n    {\n      \"type\": \"SAFETY_NETTING\",\n      \"note_section\": \"Safety-netting\",\n      \"note_span\": \"Severe hypo (needed help from someone else): if another within 12 months, or any hypo while driving, stop driving and inform the DVLA.\",\n      \"transcript_evidence\": \"And because you needed your daughter's help, that counts as a severe hypo.\",\n      \"evidence_turns\": [\n        46\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the critical safety fact that the need for assistance from someone else (the daughter) constitutes a severe hypoglycaemic event.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
   "findings": [
    {
-    "type": "LATERALITY",
-    "note_section": "Examination",
-    "note_span": "Callus under the right first metatarsal head.",
-    "transcript_evidence": "There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.",
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "Episode about three months ago after skipping lunch while gardening:",
+    "transcript_evidence": "Wednesday. No, it was Tuesday, because it was bin day and I'd just put them out.",
     "evidence_turns": [
-     38
+     7
     ],
-    "severity": 2,
-    "likelihood": 4,
-    "rationale": "The note incorrectly identifies the location of the callus as the right foot when the transcript specifies the left foot."
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note fails to record the specific day (Tuesday) and context (bin day) of the hypoglycaemic episode mentioned in the transcript."
    },
    {
     "type": "PLAN_CHANGE",
@@ -29,9 +29,33 @@
     ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The note fails to document the agreed-upon change in the gliclazide dosing regimen (reducing frequency and stopping the teatime dose)."
+    "rationale": "The plan contradicts the clinician's suggested dose reduction for gliclazide found in the transcript."
+   },
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "Callus under the right first metatarsal head.",
+    "transcript_evidence": "There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.",
+    "evidence_turns": [
+     38
+    ],
+    "severity": 2,
+    "likelihood": 2,
+    "rationale": "The note incorrectly documents the location of the callus as the right foot instead of the left foot."
+   },
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Safety-netting",
+    "note_span": "Severe hypo (needed help from someone else): if another within 12 months, or any hypo while driving, stop driving and inform the DVLA.",
+    "transcript_evidence": "And because you needed your daughter's help, that counts as a severe hypo.",
+    "evidence_turns": [
+     46
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note omits the critical safety fact that the need for assistance from someone else (the daughter) constitutes a severe hypoglycaemic event."
    }
   ],
-  "overall_note_safety": "needs_minor_edits"
+  "overall_note_safety": "needs_major_edits"
  }
 }

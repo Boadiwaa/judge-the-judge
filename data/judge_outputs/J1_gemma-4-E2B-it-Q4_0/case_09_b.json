@@ -4,7 +4,7 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "8fc941675800",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Fever since Tuesday evening (2 days)\",\n      \"transcript_evidence\": \"Since Tuesday night, so two days. No, hang on, it was Monday. It was the night of her swimming lesson, so Monday evening. Three days.\",\n      \"evidence_turns\": [\n        6\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note inaccurately summarizes the duration of the fever based on the transcript's clarification of the exact timing.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Coryza for about a week preceding.\",\n      \"transcript_evidence\": \"A runny nose for about a week, before all this started.\",\n      \"evidence_turns\": [\n        19\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note omits the specific symptom (runny nose/coryza) mentioned in the transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Fever since Tuesday evening (2 days)\",\n      \"transcript_evidence\": \"Since Tuesday night, so two days. No, hang on, it was Monday. It was the night of her swimming lesson, so Monday evening. Three days.\",\n      \"evidence_turns\": [\n        6\n      ],\n      \"severity\": 1,\n      \"likelihood\": 1,\n      \"rationale\": \"The note inaccurately records the duration of the fever as 2 days, whereas the transcript suggests 3 days.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Back-up prescription: amoxicillin 250 mg three times daily for 5 days, to start today.\",\n      \"transcript_evidence\": \"Back-up prescription for amoxicillin, 250 milligrams three times a day for 5 days. Only collect it if she's not improving after three days, or sooner if she's getting worse.\",\n      \"evidence_turns\": [\n        42\n      ],\n      \"severity\": 4,\n      \"likelihood\": 4,\n      \"rationale\": \"The note omits the critical safety instruction regarding the condition under which the back-up amoxicillin prescription should be collected.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
   "findings": [
    {
@@ -15,23 +15,23 @@
     "evidence_turns": [
      6
     ],
-    "severity": 2,
-    "likelihood": 3,
-    "rationale": "The note inaccurately summarizes the duration of the fever based on the transcript's clarification of the exact timing."
+    "severity": 1,
+    "likelihood": 1,
+    "rationale": "The note inaccurately records the duration of the fever as 2 days, whereas the transcript suggests 3 days."
    },
    {
-    "type": "OMIT_OTHER",
-    "note_section": "History",
-    "note_span": "Coryza for about a week preceding.",
-    "transcript_evidence": "A runny nose for about a week, before all this started.",
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Back-up prescription: amoxicillin 250 mg three times daily for 5 days, to start today.",
+    "transcript_evidence": "Back-up prescription for amoxicillin, 250 milligrams three times a day for 5 days. Only collect it if she's not improving after three days, or sooner if she's getting worse.",
     "evidence_turns": [
-     19
+     42
     ],
-    "severity": 1,
-    "likelihood": 2,
-    "rationale": "The note omits the specific symptom (runny nose/coryza) mentioned in the transcript."
+    "severity": 4,
+    "likelihood": 4,
+    "rationale": "The note omits the critical safety instruction regarding the condition under which the back-up amoxicillin prescription should be collected."
    }
   ],
-  "overall_note_safety": "needs_minor_edits"
+  "overall_note_safety": "needs_major_edits"
  }
 }

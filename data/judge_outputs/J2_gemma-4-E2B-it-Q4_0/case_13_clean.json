@@ -1,0 +1,415 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The presenting complaint is a review of low mood occurring four weeks after starting sertraline."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient has experienced low mood for approximately three months."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient reports slight improvement in mood only in the mornings."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient reports reduced appetite and approximately half a stone weight loss."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient is currently signed off work as a warehouse supervisor for two weeks."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient reports passive suicidal ideation (wishing to not wake up) most days for the last two weeks."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient has no history of active suicidal thoughts, plans, or preparations."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient has no history of previous self-harm or suicide attempts."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "Protective factors include the nephew and the mother."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient reports alcohol consumption of four cans most nights and sometimes more at the weekend."
+   },
+   {
+    "id": "c11",
+    "section": "History",
+    "claim": "The patient reports no drug use."
+   },
+   {
+    "id": "c12",
+    "section": "History",
+    "claim": "The patient experienced mild nausea in the first week of sertraline, which has since resolved."
+   },
+   {
+    "id": "c13",
+    "section": "Examination",
+    "claim": "The patient appears tired, has reduced eye contact, and has slowed speech, but speech is coherent."
+   },
+   {
+    "id": "c14",
+    "section": "Examination",
+    "claim": "The patient has no sign of psychotic features."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The patient's PHQ-9 score is 19."
+   },
+   {
+    "id": "c16",
+    "section": "Impression",
+    "claim": "The clinical impression is moderately severe depression with partial response to sertraline."
+   },
+   {
+    "id": "c17",
+    "section": "Impression",
+    "claim": "The patient presents with passive suicidal ideation without plan or intent, and protective factors are present."
+   },
+   {
+    "id": "c18",
+    "section": "Impression",
+    "claim": "The patient has harmful alcohol use."
+   },
+   {
+    "id": "c19",
+    "section": "Plan",
+    "claim": "The plan is to increase sertraline to 100 mg once daily."
+   },
+   {
+    "id": "c20",
+    "section": "Plan",
+    "claim": "The patient will be referred to the talking therapies service, and self-referral details will be provided."
+   },
+   {
+    "id": "c21",
+    "section": "Plan",
+    "claim": "The community mental health crisis team will be informed."
+   },
+   {
+    "id": "c22",
+    "section": "Plan",
+    "claim": "The follow-up appointment is scheduled in one week."
+   },
+   {
+    "id": "c23",
+    "section": "Plan",
+    "claim": "The patient agreed to hand stockpiled medicines to the sister."
+   },
+   {
+    "id": "c24",
+    "section": "Plan",
+    "claim": "The patient will be given details for an alcohol support service to help reduce consumption gradually."
+   },
+   {
+    "id": "c25",
+    "section": "Safety-netting",
+    "claim": "A crisis plan was agreed: call NHS 111 (mental health option) or Samaritans 116 123 if thoughts worsen or acting on them; call 999 or go to A&E if unable to keep oneself safe."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     1
+    ],
+    "fact": "The clinician greeted the patient and asked who was with them.",
+    "about": "clinician"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     2
+    ],
+    "fact": "The patient's sister is named Laura.",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     4
+    ],
+    "fact": "The clinician asked if it was okay for Laura to stay for the whole appointment.",
+    "about": "clinician"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     5
+    ],
+    "fact": "The patient wants his sister to stay for the appointment.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     6
+    ],
+    "fact": "The patient started sertraline about four weeks ago.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     7
+    ],
+    "fact": "The patient's mood has been 'not great,' with slight improvement in the mornings, but mostly the same.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     9
+    ],
+    "fact": "The patient has been feeling low since the summer, which is about three months.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     11
+    ],
+    "fact": "The patient's mood is rated as three, maybe two on a scale of nought to ten.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     13
+    ],
+    "fact": "The patient reports bad sleep, waking up at four and lying there.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     15
+    ],
+    "fact": "The patient reports reduced appetite and has lost about half a stone.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     17
+    ],
+    "fact": "The patient is a warehouse supervisor and is signed off for another two weeks.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     19
+    ],
+    "fact": "The patient reports passive suicidal ideation ('it'd be easier if I just didn't wake up') most days for the last couple of weeks.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     21
+    ],
+    "fact": "The patient reports no active suicidal thoughts or plans.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     23
+    ],
+    "fact": "The patient has no plans or preparations, such as getting hold of tablets.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     25
+    ],
+    "fact": "The patient identifies his nephew and his mother as protective factors.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     28
+    ],
+    "fact": "The patient reports no history of self-harm or suicide attempts.",
+    "about": "patient"
+   },
+   {
+    "id": "f17",
+    "turns": [
+     30
+    ],
+    "fact": "The patient initially stated he was drinking four pints a week.",
+    "about": "patient"
+   },
+   {
+    "id": "f18",
+    "turns": [
+     31
+    ],
+    "fact": "The relative corrected the frequency, stating he drinks four cans a night.",
+    "about": "relative"
+   },
+   {
+    "id": "f19",
+    "turns": [
+     32
+    ],
+    "fact": "The patient confirmed the frequency, stating he drinks four cans most nights and sometimes more at the weekend.",
+    "about": "patient"
+   },
+   {
+    "id": "f20",
+    "turns": [
+     36
+    ],
+    "fact": "The patient reports no drug use (cannabis or anything else).",
+    "about": "patient"
+   },
+   {
+    "id": "f21",
+    "turns": [
+     38
+    ],
+    "fact": "The patient reported mild nausea in the first week of sertraline, which has now gone away.",
+    "about": "patient"
+   },
+   {
+    "id": "f22",
+    "turns": [
+     41
+    ],
+    "fact": "The patient is taking sertraline every morning at a dose of fifty milligrams.",
+    "about": "patient"
+   },
+   {
+    "id": "f23",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician observed the patient looks tired, has reduced eye contact, and slowed speech, but is talking clearly and making sense.",
+    "about": "clinician"
+   },
+   {
+    "id": "f24",
+    "turns": [
+     45
+    ],
+    "fact": "The clinician noted there was no sign of anything like hearing voices.",
+    "about": "clinician"
+   },
+   {
+    "id": "f25",
+    "turns": [
+     45
+    ],
+    "fact": "The patient's PHQ-9 score is 19.",
+    "about": "patient"
+   },
+   {
+    "id": "f26",
+    "turns": [
+     47
+    ],
+    "fact": "The clinician assessed the depression as moderately severe, noting only a small improvement after four weeks.",
+    "about": "clinician"
+   },
+   {
+    "id": "f27",
+    "turns": [
+     47
+    ],
+    "fact": "The clinician recommended increasing the sertraline dose to 100 milligrams once a day.",
+    "about": "clinician"
+   },
+   {
+    "id": "f28",
+    "turns": [
+     49
+    ],
+    "fact": "The clinician planned to refer the patient to the talking therapies service and provide self-referral details.",
+    "about": "clinician"
+   },
+   {
+    "id": "f29",
+    "turns": [
+     51
+    ],
+    "fact": "The clinician planned to inform the community mental health crisis team.",
+    "about": "clinician"
+   },
+   {
+    "id": "f30",
+    "turns": [
+     51
+    ],
+    "fact": "The clinician planned to review the patient in one week, rather than four.",
+    "about": "clinician"
+   },
+   {
+    "id": "f31",
+    "turns": [
+     53
+    ],
+    "fact": "The safety plan includes calling NHS 111 (mental health option) or Samaritans 116 123 if thoughts worsen or acting on them.",
+    "about": "clinician"
+   },
+   {
+    "id": "f32",
+    "turns": [
+     53
+    ],
+    "fact": "The safety plan includes calling 999 or going to A&E if the patient feels unable to keep himself safe.",
+    "about": "clinician"
+   },
+   {
+    "id": "f33",
+    "turns": [
+     55
+    ],
+    "fact": "The clinician asked if the patient would be willing to keep any stockpiled medicines out of the house or have the sister look after them.",
+    "about": "clinician"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     57
+    ],
+    "fact": "The clinician planned to give details for a local alcohol support service to help reduce alcohol consumption gradually.",
+    "about": "clinician"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "output": {
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
+ }
+}

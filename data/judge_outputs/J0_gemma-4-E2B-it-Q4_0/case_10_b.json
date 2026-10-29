@@ -4,31 +4,30 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Data omission\",\n      \"note_section\": \"examination\",\n      \"note_span\": \"Weight 8.2 kg (50th centile).\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The child's weight, a key piece of examination data, is present in the note but is entirely missing from the transcript.\"\n    },\n    {\n      \"type\": \"Inaccurate duration\",\n      \"note_section\": \"history\",\n      \"note_span\": \"Coryza and cough for 4 weeks;\",\n      \"transcript_evidence\": \"He's had a runny nose and a cough for four days\",\n      \"evidence_turns\": [\n        1,\n        4\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note incorrectly states the duration of the cough/coryza as four weeks, whereas the transcript states four days.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate history duration\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Coryza and cough for 4 weeks\",\n      \"transcript_evidence\": \"He's had a runny nose and a cough for four days\",\n      \"evidence_turns\": [\n        4\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the duration of the cough/runny nose as four weeks, whereas the transcript specifies four days.\"\n    },\n    {\n      \"type\": \"Information not supported by transcript\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"Weight 8.2 kg (50th centile)\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note includes the child's weight and percentile, which is not mentioned in the provided transcript.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
  "output": {
   "findings": [
    {
     "type": "UNSPECIFIED",
-    "note_section": "examination",
-    "note_span": "Weight 8.2 kg (50th centile).",
-    "transcript_evidence": "",
-    "evidence_turns": [],
+    "note_section": "History",
+    "note_span": "Coryza and cough for 4 weeks",
+    "transcript_evidence": "He's had a runny nose and a cough for four days",
+    "evidence_turns": [
+     4
+    ],
     "severity": 3,
     "likelihood": 4,
-    "rationale": "The child's weight, a key piece of examination data, is present in the note but is entirely missing from the transcript."
+    "rationale": "The note incorrectly states the duration of the cough/runny nose as four weeks, whereas the transcript specifies four days."
    },
    {
     "type": "UNSPECIFIED",
-    "note_section": "history",
-    "note_span": "Coryza and cough for 4 weeks;",
-    "transcript_evidence": "He's had a runny nose and a cough for four days",
-    "evidence_turns": [
-     1,
-     4
-    ],
+    "note_section": "Examination",
+    "note_span": "Weight 8.2 kg (50th centile)",
+    "transcript_evidence": "",
+    "evidence_turns": [],
     "severity": 2,
     "likelihood": 3,
-    "rationale": "The note incorrectly states the duration of the cough/coryza as four weeks, whereas the transcript states four days."
+    "rationale": "The note includes the child's weight and percentile, which is not mentioned in the provided transcript."
    }
   ],
   "overall_note_safety": "needs_minor_edits"

@@ -1,0 +1,275 @@
+{
+ "judge": "J2",
+ "provider": "local",
+ "model": "gemma-4-E2B-it-Q4_0",
+ "prompt_hash": "6fe481511c1d",
+ "extraction": {
+  "note_claims": [
+   {
+    "id": "c1",
+    "section": "Presenting complaint",
+    "claim": "The patient has had diarrhoea and vomiting for two days."
+   },
+   {
+    "id": "c2",
+    "section": "History",
+    "claim": "The patient has experienced vomiting twice this morning and nothing since lunch."
+   },
+   {
+    "id": "c3",
+    "section": "History",
+    "claim": "The patient has had four to five loose stools today."
+   },
+   {
+    "id": "c4",
+    "section": "History",
+    "claim": "The patient has no blood in her stools."
+   },
+   {
+    "id": "c5",
+    "section": "History",
+    "claim": "The patient experiences crampy abdominal pain before defecation."
+   },
+   {
+    "id": "c6",
+    "section": "History",
+    "claim": "The patient has poor oral intake."
+   },
+   {
+    "id": "c7",
+    "section": "History",
+    "claim": "The patient last passed dark urine this morning."
+   },
+   {
+    "id": "c8",
+    "section": "History",
+    "claim": "The patient experiences postural dizziness."
+   },
+   {
+    "id": "c9",
+    "section": "History",
+    "claim": "The patient had a fall last month."
+   },
+   {
+    "id": "c10",
+    "section": "History",
+    "claim": "The patient has a sore on her left heel."
+   },
+   {
+    "id": "c11",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking Metronidazole 500 mg twice daily."
+   },
+   {
+    "id": "c12",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking Ramipril 5 mg once daily."
+   },
+   {
+    "id": "c13",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking Furosemide 40 mg once daily (corrected from initial mention of two tablets)."
+   },
+   {
+    "id": "c14",
+    "section": "Medications and allergies",
+    "claim": "The patient is taking Atorvastatin at night."
+   },
+   {
+    "id": "c15",
+    "section": "Examination",
+    "claim": "The consultation was a telephone consultation and no physical examination was performed."
+   },
+   {
+    "id": "c16",
+    "section": "Impression",
+    "claim": "The clinical impression is probable infective gastroenteritis with dehydration in an 85-year-old on metformin, an ACE inhibitor, and a loop diuretic, with a risk of acute kidney injury."
+   },
+   {
+    "id": "c17",
+    "section": "Plan",
+    "claim": "The plan is to administer small, frequent fluids and oral rehydration sachets."
+   },
+   {
+    "id": "c18",
+    "section": "Plan",
+    "claim": "A U&E blood test is scheduled for tomorrow, to be taken by the district nurse during the heel dressing visit."
+   },
+   {
+    "id": "c19",
+    "section": "Safety-netting",
+    "claim": "The patient should call 111 or 999 if she is unable to keep fluids down, becomes confused or very drowsy, passes no urine for 12 hours, or sees blood in her diarrhoea."
+   }
+  ],
+  "transcript_facts": [
+   {
+    "id": "f1",
+    "turns": [
+     34
+    ],
+    "fact": "Patient takes Metformin 500 mg twice a day.",
+    "about": "patient"
+   },
+   {
+    "id": "f2",
+    "turns": [
+     38
+    ],
+    "fact": "Patient takes Furosemide 40 mg once daily (corrected from initial mention of two tablets).",
+    "about": "patient"
+   },
+   {
+    "id": "f3",
+    "turns": [
+     42
+    ],
+    "fact": "Patient has an allergy to Codeine, which causes sickness.",
+    "about": "patient"
+   },
+   {
+    "id": "f4",
+    "turns": [
+     44
+    ],
+    "fact": "The district nurse dresses a sore on the patient's left heel twice a week.",
+    "about": "patient"
+   },
+   {
+    "id": "f5",
+    "turns": [
+     27
+    ],
+    "fact": "Patient denies having fallen, stating the fall was Mrs Jenkins next door.",
+    "about": "patient"
+   },
+   {
+    "id": "f6",
+    "turns": [
+     38
+    ],
+    "fact": "Patient initially stated she took two tablets of Furosemide in the morning, but corrected it to one 40 milligram tablet.",
+    "about": "patient"
+   },
+   {
+    "id": "f7",
+    "turns": [
+     39
+    ],
+    "fact": "Patient takes Atorvastatin at night.",
+    "about": "patient"
+   },
+   {
+    "id": "f8",
+    "turns": [
+     11
+    ],
+    "fact": "Symptoms have been ongoing for two days, since Monday.",
+    "about": "patient"
+   },
+   {
+    "id": "f9",
+    "turns": [
+     13
+    ],
+    "fact": "Patient has vomited twice this morning and nothing since lunch.",
+    "about": "patient"
+   },
+   {
+    "id": "f10",
+    "turns": [
+     15
+    ],
+    "fact": "Patient has had four or five episodes of diarrhoea today.",
+    "about": "patient"
+   },
+   {
+    "id": "f11",
+    "turns": [
+     17
+    ],
+    "fact": "Patient reports no blood in her diarrhoea.",
+    "about": "patient"
+   },
+   {
+    "id": "f12",
+    "turns": [
+     19
+    ],
+    "fact": "Patient reports poor oral intake, only sips of water, and does not fancy much.",
+    "about": "patient"
+   },
+   {
+    "id": "f13",
+    "turns": [
+     20
+    ],
+    "fact": "Relative reports the patient has barely touched her tea all day.",
+    "about": "patient"
+   },
+   {
+    "id": "f14",
+    "turns": [
+     22
+    ],
+    "fact": "Patient last passed dark urine this morning.",
+    "about": "patient"
+   },
+   {
+    "id": "f15",
+    "turns": [
+     24
+    ],
+    "fact": "Patient feels a bit dizzy when standing up and holds onto furniture.",
+    "about": "patient"
+   },
+   {
+    "id": "f16",
+    "turns": [
+     32
+    ],
+    "fact": "Relative reports the patient is tired but making sense (not confused).",
+    "about": "patient"
+   }
+  ]
+ },
+ "error": null,
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"NEGATION\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Fall last month.\",\n      \"transcript_evidence\": \"Patient denies having fallen, stating the fall was Mrs Jenkins next door.\",\n      \"evidence_turns\": [\n        5,\n        27\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The note claims the patient had a fall last month, which is directly contradicted by the patient's statement in the transcript.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Medications and allergies\",\n      \"note_span\": \"Metronidazole 500 mg twice daily.\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note lists Metronidazole as a medication, but it is entirely omitted from the consultation transcript.\"\n    },\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"in an 85-year-old\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The patient's age (83, based on DOB 1941) is omitted from the impression, which is a relevant demographic fact.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
+ "output": {
+  "findings": [
+   {
+    "type": "NEGATION",
+    "note_section": "History",
+    "note_span": "Fall last month.",
+    "transcript_evidence": "Patient denies having fallen, stating the fall was Mrs Jenkins next door.",
+    "evidence_turns": [
+     5,
+     27
+    ],
+    "severity": 2,
+    "likelihood": 3,
+    "rationale": "The note claims the patient had a fall last month, which is directly contradicted by the patient's statement in the transcript."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Medications and allergies",
+    "note_span": "Metronidazole 500 mg twice daily.",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note lists Metronidazole as a medication, but it is entirely omitted from the consultation transcript."
+   },
+   {
+    "type": "OMIT_OTHER",
+    "note_section": "Impression",
+    "note_span": "in an 85-year-old",
+    "transcript_evidence": "",
+    "evidence_turns": [],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The patient's age (83, based on DOB 1941) is omitted from the impression, which is a relevant demographic fact."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
+ }
+}

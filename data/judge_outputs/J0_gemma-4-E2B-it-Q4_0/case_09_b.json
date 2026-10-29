@@ -4,9 +4,23 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate duration reporting\",\n      \"note_section\": \"History\",\n      \"note_span\": \"Fever since Tuesday evening (2 days)\",\n      \"transcript_evidence\": \"Since Monday evening. Three days.\",\n      \"evidence_turns\": [\n        1,\n        6\n      ],\n      \"severity\": 2,\n      \"likelihood\": 4,\n      \"rationale\": \"The note inaccurately reports the duration of the fever as two days, whereas the transcript specifies three days.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
  "output": {
-  "findings": [],
-  "overall_note_safety": "safe_as_is"
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "History",
+    "note_span": "Fever since Tuesday evening (2 days)",
+    "transcript_evidence": "Since Monday evening. Three days.",
+    "evidence_turns": [
+     1,
+     6
+    ],
+    "severity": 2,
+    "likelihood": 4,
+    "rationale": "The note inaccurately reports the duration of the fever as two days, whereas the transcript specifies three days."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
  }
 }

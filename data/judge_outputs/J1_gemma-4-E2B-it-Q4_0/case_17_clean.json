@@ -4,22 +4,9 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "8fc941675800",
  "error": null,
- "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"OMIT_OTHER\",\n      \"note_section\": \"Impression\",\n      \"note_span\": \"Apixaban dose appropriate (age 72, weight 58 kg, creatinine 98).\",\n      \"transcript_evidence\": \"\",\n      \"evidence_turns\": [\n        44\n      ],\n      \"severity\": 2,\n      \"likelihood\": 3,\n      \"rationale\": \"The patient's age (72) is mentioned in the impression but is not present in the consultation transcript, which is a relevant clinical fact.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
+ "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
  "output": {
-  "findings": [
-   {
-    "type": "OMIT_OTHER",
-    "note_section": "Impression",
-    "note_span": "Apixaban dose appropriate (age 72, weight 58 kg, creatinine 98).",
-    "transcript_evidence": "",
-    "evidence_turns": [
-     44
-    ],
-    "severity": 2,
-    "likelihood": 3,
-    "rationale": "The patient's age (72) is mentioned in the impression but is not present in the consultation transcript, which is a relevant clinical fact."
-   }
-  ],
-  "overall_note_safety": "needs_minor_edits"
+  "findings": [],
+  "overall_note_safety": "safe_as_is"
  }
 }

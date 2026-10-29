@@ -4,9 +4,22 @@
  "model": "gemma-4-E2B-it-Q4_0",
  "prompt_hash": "5b534af6eabd",
  "error": null,
- "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"Inaccurate medication plan\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue apixaban 5 mg twice daily; do not stop.\",\n      \"transcript_evidence\": \"Your apixaban dose of two and a half milligrams twice a day is correct for you, because of your weight and kidney function, so we'll keep that the same.\",\n      \"evidence_turns\": [\n        44\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note incorrectly states the apixaban dose will be increased to 5 mg twice daily, whereas the transcript confirms the dose will remain 2.5 mg twice daily.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_minor_edits\"\n}",
  "output": {
-  "findings": [],
-  "overall_note_safety": "safe_as_is"
+  "findings": [
+   {
+    "type": "UNSPECIFIED",
+    "note_section": "Plan",
+    "note_span": "Continue apixaban 5 mg twice daily; do not stop.",
+    "transcript_evidence": "Your apixaban dose of two and a half milligrams twice a day is correct for you, because of your weight and kidney function, so we'll keep that the same.",
+    "evidence_turns": [
+     44
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note incorrectly states the apixaban dose will be increased to 5 mg twice daily, whereas the transcript confirms the dose will remain 2.5 mg twice daily."
+   }
+  ],
+  "overall_note_safety": "needs_minor_edits"
  }
 }

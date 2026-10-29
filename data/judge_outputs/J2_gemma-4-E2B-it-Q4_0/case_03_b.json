@@ -7,163 +7,103 @@
   "note_claims": [
    {
     "id": "c1",
-    "section": "Presenting complaint",
-    "claim": "The patient is reviewing diabetes care following a hypoglycaemic episode."
+    "section": "Presenting complaint/History",
+    "claim": "The patient presented with a hypoglycaemic episode approximately three months ago after skipping lunch while gardening, characterized by sweating, shakiness, and confusion."
    },
    {
     "id": "c2",
-    "section": "History",
-    "claim": "The patient experienced a hypoglycaemic episode about three months ago after skipping lunch while gardening."
+    "section": "Presenting complaint/History",
+    "claim": "The patient's daughter (who has type 1 diabetes) found him confused and measured his capillary glucose at 2.8 mmol/L."
    },
    {
     "id": "c3",
-    "section": "History",
-    "claim": "The patient's daughter (who has type 1 diabetes) found him confused during the episode."
+    "section": "Presenting complaint/History",
+    "claim": "The patient recovered within 15 minutes after being treated with orange juice and biscuits."
    },
    {
     "id": "c4",
-    "section": "History",
-    "claim": "The patient's daughter measured the capillary glucose at 2.8 mmol/L during the episode."
-   },
-   {
-    "id": "c5",
-    "section": "History",
-    "claim": "The patient recovered from the episode within 15 minutes."
-   },
-   {
-    "id": "c6",
-    "section": "History",
+    "section": "Presenting complaint/History",
     "claim": "The patient experiences occasional pre-meal wobbliness."
    },
    {
-    "id": "c7",
-    "section": "History",
-    "claim": "The patient drives locally."
-   },
-   {
-    "id": "c8",
-    "section": "History",
-    "claim": "The patient has no neuropathic symptoms."
-   },
-   {
-    "id": "c9",
-    "section": "History",
-    "claim": "The patient has no visual problems."
-   },
-   {
-    "id": "c10",
+    "id": "c5",
     "section": "Medications and allergies",
     "claim": "The patient is prescribed Metformin 1g twice daily."
    },
    {
-    "id": "c11",
+    "id": "c6",
     "section": "Medications and allergies",
-    "claim": "The patient is prescribed Gliclazide 80 mg twice daily."
+    "claim": "The patient is prescribed Gliclazide 80 mg twice daily (morning and teatime)."
    },
    {
-    "id": "c12",
+    "id": "c7",
     "section": "Medications and allergies",
-    "claim": "The patient is prescribed Atorvastatin 20 mg."
+    "claim": "The patient is prescribed Atorvastatin 20 mg and Ramipril 5 mg."
    },
    {
-    "id": "c13",
-    "section": "Medications and allergies",
-    "claim": "The patient is prescribed Ramipril 5 mg."
-   },
-   {
-    "id": "c14",
-    "section": "Examination",
-    "claim": "The patient's pedal pulses are palpable."
-   },
-   {
-    "id": "c15",
-    "section": "Examination",
-    "claim": "The patient's ankle brachial pressure index is 1.0 bilaterally."
-   },
-   {
-    "id": "c16",
-    "section": "Examination",
-    "claim": "Monofilament sensation is normal in both feet."
-   },
-   {
-    "id": "c17",
-    "section": "Examination",
-    "claim": "The patient has a callus under the right first metatarsal head."
-   },
-   {
-    "id": "c18",
+    "id": "c8",
     "section": "Examination",
     "claim": "The patient's blood pressure is 138/84."
    },
    {
-    "id": "c19",
+    "id": "c9",
     "section": "Examination",
     "claim": "The patient's weight is 91 kg."
    },
    {
-    "id": "c20",
+    "id": "c10",
     "section": "Examination",
-    "claim": "The patient's HbA1c is 62 mmol/mol, which is up from 58."
+    "claim": "The patient has a callus under the right first metatarsal head."
    },
    {
-    "id": "c21",
+    "id": "c11",
+    "section": "Examination",
+    "claim": "The patient's HbA1c is 62 mmol/mol, which is an increase from the previous level of 58 mmol/mol."
+   },
+   {
+    "id": "c12",
     "section": "Examination",
     "claim": "The patient's eGFR is 52, which is stable."
    },
    {
-    "id": "c22",
+    "id": "c13",
     "section": "Impression",
-    "claim": "The patient has Type 2 diabetes with recent hypoglycaemia on gliclazide."
+    "claim": "The impression is Type 2 diabetes with recent hypoglycaemia on gliclazide and HbA1c above target."
    },
    {
-    "id": "c23",
-    "section": "Impression",
-    "claim": "The patient has stable CKD stage 3a."
-   },
-   {
-    "id": "c24",
+    "id": "c14",
     "section": "Plan",
-    "claim": "The plan is to continue gliclazide 80 mg twice daily."
+    "claim": "The plan is to continue gliclazide 80 mg twice daily and start empagliflozin 10 mg once daily."
    },
    {
-    "id": "c25",
+    "id": "c15",
     "section": "Plan",
-    "claim": "The plan is to start empagliflozin 10 mg once daily."
+    "claim": "A podiatry referral is planned for the callus, and retinal screening is to be booked."
    },
    {
-    "id": "c26",
-    "section": "Plan",
-    "claim": "The plan is to refer the patient to a podiatrist for the callus."
-   },
-   {
-    "id": "c27",
-    "section": "Plan",
-    "claim": "The plan is to book a retinal screening."
-   },
-   {
-    "id": "c28",
-    "section": "Plan",
-    "claim": "The plan is to review the patient in three months with repeat HbA1c and kidney tests."
-   },
-   {
-    "id": "c29",
+    "id": "c16",
     "section": "Safety-netting",
     "claim": "Safety netting includes checking blood glucose before driving and every two hours on long journeys."
    },
    {
-    "id": "c30",
+    "id": "c17",
     "section": "Safety-netting",
-    "claim": "Safety netting includes not driving if blood sugar is below 5 mmol/L."
+    "claim": "The patient must not drive if their blood sugar is below 5 mmol/L."
    },
    {
-    "id": "c31",
+    "id": "c18",
     "section": "Safety-netting",
-    "claim": "Safety netting includes keeping fast-acting glucose in the car."
+    "claim": "The patient must keep fast-acting glucose in the car."
    },
    {
-    "id": "c32",
+    "id": "c19",
     "section": "Safety-netting",
-    "claim": "Safety netting includes stopping empagliflozin if the patient is vomiting, has diarrhoea, or is unable to eat and drink."
+    "claim": "If a severe hypo occurs (e.g., needing help from someone else), the patient must stop driving and inform the DVLA if another severe hypo occurs within 12 months or any hypo while driving."
+   },
+   {
+    "id": "c20",
+    "section": "Safety-netting",
+    "claim": "The patient should stop empagliflozin if they are vomiting, have diarrhoea, or are unable to eat and drink."
    }
   ],
   "transcript_facts": [
@@ -180,8 +120,8 @@
     "turns": [
      2
     ],
-    "fact": "Patient's daughter, Yasmin, requested the visit due to an incident last week.",
-    "about": "other"
+    "fact": "Patient's daughter, Yasmin, requested the appointment due to an incident last week.",
+    "about": "patient"
    },
    {
     "id": "f3",
@@ -204,7 +144,7 @@
     "turns": [
      7
     ],
-    "fact": "The hypoglycaemic episode occurred on Tuesday because it was bin day and the patient had skipped lunch.",
+    "fact": "The patient stated the episode occurred on Tuesday because it was bin day and he had just put them out.",
     "about": "patient"
    },
    {
@@ -220,7 +160,7 @@
     "turns": [
      10
     ],
-    "fact": "Relative found the patient confused and identified it as a hypo due to her own type 1 diabetes.",
+    "fact": "Relative found the patient confused and identified it as a hypoglycaemia due to her own type 1 diabetes.",
     "about": "patient"
    },
    {
@@ -244,7 +184,7 @@
     "turns": [
      14
     ],
-    "fact": "Relative used her meter and measured the capillary glucose at 2.8.",
+    "fact": "Relative used her meter and measured the capillary glucose at 2.8 mmol/L.",
     "about": "patient"
    },
    {
@@ -252,7 +192,7 @@
     "turns": [
      16
     ],
-    "fact": "Patient reports feeling a bit wobbly before tea sometimes.",
+    "fact": "Patient reported feeling a bit wobbly before tea sometimes.",
     "about": "patient"
    },
    {
@@ -276,7 +216,7 @@
     "turns": [
      21
     ],
-    "fact": "Clinician checked medications and found the patient is on metformin 1 gram twice a day.",
+    "fact": "Clinician checked medications and found the patient is on metformin, one gram twice a day.",
     "about": "patient"
    },
    {
@@ -292,7 +232,7 @@
     "turns": [
      23
     ],
-    "fact": "Clinician checked medications and found the patient is on gliclazide 80 milligrams twice a day.",
+    "fact": "Clinician checked medications and found the patient is on gliclazide, 80 milligrams twice a day.",
     "about": "patient"
    },
    {
@@ -356,7 +296,7 @@
     "turns": [
      31
     ],
-    "fact": "Relative reported having pins and needles and getting it in her hands at night, suspecting carpal tunnel.",
+    "fact": "Relative reported having pins and needles in her hands at night, which she suspects is carpal tunnel.",
     "about": "relative"
    },
    {
@@ -364,7 +304,7 @@
     "turns": [
      32
     ],
-    "fact": "Clinician addressed Yasmin but decided to stick with the patient (dad) regarding foot problems.",
+    "fact": "Clinician suggested sticking with the patient today.",
     "about": "patient"
    },
    {
@@ -372,15 +312,15 @@
     "turns": [
      33
     ],
-    "fact": "Patient reported no problems with his eyesight and had received his eye screening letter.",
+    "fact": "Patient denied having problems with his eyesight.",
     "about": "patient"
    },
    {
     "id": "f27",
     "turns": [
-     34
+     33
     ],
-    "fact": "Patient's HbA1c is 62 mmol/mol, up from 58 last time.",
+    "fact": "Patient mentioned his eye screening is due.",
     "about": "patient"
    },
    {
@@ -388,11 +328,19 @@
     "turns": [
      34
     ],
-    "fact": "Patient's kidney function (eGFR) is 52, which is about the same as before.",
+    "fact": "Clinician noted the patient's blood tests from last week showed an HbA1c of 62 mmol/mol, up from 58 mmol/mol.",
     "about": "patient"
    },
    {
     "id": "f29",
+    "turns": [
+     34
+    ],
+    "fact": "Clinician noted the patient's kidney function (eGFR) is 52, which is about the same as before.",
+    "about": "patient"
+   },
+   {
+    "id": "f30",
     "turns": [
      35
     ],
@@ -400,7 +348,7 @@
     "about": "patient"
    },
    {
-    "id": "f30",
+    "id": "f31",
     "turns": [
      36
     ],
@@ -408,23 +356,39 @@
     "about": "patient"
    },
    {
-    "id": "f31",
+    "id": "f32",
     "turns": [
      36
     ],
-    "fact": "Clinician checked the patient's feet and noted that pulses are fine in both feet.",
-    "about": "patient"
-   },
-   {
-    "id": "f32",
-    "turns": [
-     38
-    ],
-    "fact": "Clinician noted there is a bit of hard skin and a callus under the ball of the patient's left foot, by the big toe.",
+    "fact": "Clinician checked the patient's feet and noted pulses were fine in both feet.",
     "about": "patient"
    },
    {
     "id": "f33",
+    "turns": [
+     36
+    ],
+    "fact": "Clinician noted that sensation was normal in both feet.",
+    "about": "patient"
+   },
+   {
+    "id": "f34",
+    "turns": [
+     38
+    ],
+    "fact": "Clinician noted there was a bit of hard skin and a callus under the ball of the patient's left foot, by the big toe.",
+    "about": "patient"
+   },
+   {
+    "id": "f35",
+    "turns": [
+     39
+    ],
+    "fact": "Patient stated he has had the callus for ages.",
+    "about": "patient"
+   },
+   {
+    "id": "f36",
     "turns": [
      40
     ],
@@ -432,7 +396,7 @@
     "about": "patient"
    },
    {
-    "id": "f34",
+    "id": "f37",
     "turns": [
      40
     ],
@@ -440,23 +404,23 @@
     "about": "patient"
    },
    {
-    "id": "f35",
+    "id": "f38",
     "turns": [
      42
     ],
-    "fact": "Clinician suggested reducing gliclazide to 80 milligrams in the morning only and stopping the teatime dose.",
+    "fact": "Clinician suggested reducing the gliclazide dose to 80 milligrams in the morning only and stopping the teatime dose.",
     "about": "patient"
    },
    {
-    "id": "f36",
+    "id": "f39",
     "turns": [
      44
     ],
-    "fact": "Clinician suggested adding empagliflozin 10 milligrams once a day.",
+    "fact": "Clinician suggested adding empagliflozin, 10 milligrams once a day.",
     "about": "patient"
    },
    {
-    "id": "f37",
+    "id": "f40",
     "turns": [
      44
     ],
@@ -464,15 +428,15 @@
     "about": "patient"
    },
    {
-    "id": "f38",
+    "id": "f41",
     "turns": [
      46
     ],
-    "fact": "Clinician advised checking blood sugar before driving and every two hours on long journeys.",
+    "fact": "Clinician advised the patient to check his blood sugar before driving and every two hours on long journeys.",
     "about": "patient"
    },
    {
-    "id": "f39",
+    "id": "f42",
     "turns": [
      46
     ],
@@ -480,7 +444,7 @@
     "about": "patient"
    },
    {
-    "id": "f40",
+    "id": "f43",
     "turns": [
      46
     ],
@@ -488,43 +452,89 @@
     "about": "patient"
    },
    {
-    "id": "f41",
+    "id": "f44",
+    "turns": [
+     46
+    ],
+    "fact": "Clinician stated that needing daughter's help counts as a severe hypo.",
+    "about": "patient"
+   },
+   {
+    "id": "f45",
+    "turns": [
+     46
+    ],
+    "fact": "Clinician stated that if another severe hypo occurs within 12 months, or any hypo while driving, the patient must stop driving and tell the DVLA.",
+    "about": "patient"
+   },
+   {
+    "id": "f46",
     "turns": [
      47
     ],
-    "fact": "Relative offered to get glucose tablets for the patient.",
+    "fact": "Relative offered to get glucose tablets.",
     "about": "patient"
    },
    {
-    "id": "f42",
+    "id": "f47",
     "turns": [
      48
     ],
-    "fact": "Clinician offered to refer the patient to the podiatrist for the callus.",
+    "fact": "Clinician planned to refer the patient to the podiatrist for the callus and book his eye screening.",
     "about": "patient"
    },
    {
-    "id": "f43",
+    "id": "f48",
     "turns": [
      48
     ],
-    "fact": "Clinician advised the patient to book his eye screening.",
-    "about": "patient"
-   },
-   {
-    "id": "f44",
-    "turns": [
-     48
-    ],
-    "fact": "Clinician scheduled a follow-up appointment in three months with a repeat HbA1c and kidney test.",
+    "fact": "Clinician scheduled a review in three months with a repeat HbA1c and kidney test.",
     "about": "patient"
    }
   ]
  },
  "error": null,
- "raw": "{\n  \"findings\": [],\n  \"overall_note_safety\": \"safe_as_is\"\n}",
+ "raw": "{\n  \"findings\": [\n    {\n      \"type\": \"TEMPORAL\",\n      \"note_section\": \"History\",\n      \"note_span\": \"The patient presented with a hypoglycaemic episode approximately three months ago after skipping lunch while gardening\",\n      \"transcript_evidence\": \"Patient experienced symptoms including being sweaty, shaky, and unable to think straight. When was that? Patient: Wednesday. No, it was Tuesday, because it was bin day and I'd just put them out.\",\n      \"evidence_turns\": [\n        5,\n        7\n      ],\n      \"severity\": 2,\n      \"likelihood\": 2,\n      \"rationale\": \"The note incorrectly states the timing of the hypoglycaemic episode as three months ago, whereas the transcript specifies it occurred on Tuesday.\"\n    },\n    {\n      \"type\": \"LATERALITY\",\n      \"note_section\": \"Examination\",\n      \"note_span\": \"The patient has a callus under the right first metatarsal head.\",\n      \"transcript_evidence\": \"Clinician: There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.\",\n      \"evidence_turns\": [\n        38\n      ],\n      \"severity\": 1,\n      \"likelihood\": 2,\n      \"rationale\": \"The note incorrectly identifies the location of the callus as the right foot, while the transcript specifies the left foot.\"\n    },\n    {\n      \"type\": \"PLAN_CHANGE\",\n      \"note_section\": \"Plan\",\n      \"note_span\": \"Continue gliclazide 80 mg twice daily.\",\n      \"transcript_evidence\": \"Clinician: So, here's what I suggest. The gliclazide is the tablet that can cause hypos. I'd like to reduce it to 80 milligrams in the morning only, and stop the teatime dose.\",\n      \"evidence_turns\": [\n        42\n      ],\n      \"severity\": 3,\n      \"likelihood\": 4,\n      \"rationale\": \"The note fails to record the plan to reduce the gliclazide dose to morning only and stop the teatime dose, which is a significant change in management.\"\n    }\n  ],\n  \"overall_note_safety\": \"needs_major_edits\"\n}",
  "output": {
-  "findings": [],
-  "overall_note_safety": "safe_as_is"
+  "findings": [
+   {
+    "type": "TEMPORAL",
+    "note_section": "History",
+    "note_span": "The patient presented with a hypoglycaemic episode approximately three months ago after skipping lunch while gardening",
+    "transcript_evidence": "Patient experienced symptoms including being sweaty, shaky, and unable to think straight. When was that? Patient: Wednesday. No, it was Tuesday, because it was bin day and I'd just put them out.",
+    "evidence_turns": [
+     5,
+     7
+    ],
+    "severity": 2,
+    "likelihood": 2,
+    "rationale": "The note incorrectly states the timing of the hypoglycaemic episode as three months ago, whereas the transcript specifies it occurred on Tuesday."
+   },
+   {
+    "type": "LATERALITY",
+    "note_section": "Examination",
+    "note_span": "The patient has a callus under the right first metatarsal head.",
+    "transcript_evidence": "Clinician: There's a bit of hard skin, a callus, under the ball of your left foot, by the big toe.",
+    "evidence_turns": [
+     38
+    ],
+    "severity": 1,
+    "likelihood": 2,
+    "rationale": "The note incorrectly identifies the location of the callus as the right foot, while the transcript specifies the left foot."
+   },
+   {
+    "type": "PLAN_CHANGE",
+    "note_section": "Plan",
+    "note_span": "Continue gliclazide 80 mg twice daily.",
+    "transcript_evidence": "Clinician: So, here's what I suggest. The gliclazide is the tablet that can cause hypos. I'd like to reduce it to 80 milligrams in the morning only, and stop the teatime dose.",
+    "evidence_turns": [
+     42
+    ],
+    "severity": 3,
+    "likelihood": 4,
+    "rationale": "The note fails to record the plan to reduce the gliclazide dose to morning only and stop the teatime dose, which is a significant change in management."
+   }
+  ],
+  "overall_note_safety": "needs_major_edits"
  }
 }
