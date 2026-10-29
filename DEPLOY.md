@@ -18,6 +18,13 @@ The deployed app serves precomputed results only. It never runs a model and need
 
    Open http://localhost:8080.
 
+If `fly deploy` fails with a registry `401 Unauthorized` from the remote builder, build locally instead
+(Docker Desktop must be running; flyctl needs its socket):
+
+```bash
+DOCKER_HOST=unix://$HOME/.docker/run/docker.sock fly deploy --ha=false --local-only
+```
+
 ## 1. Create the app (once)
 
 ```bash

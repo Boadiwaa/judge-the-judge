@@ -1,5 +1,4 @@
-# fly.io config for Judge the Judge. Do not deploy before clinical review (BUILD_SPEC §0.8).
-# Change `app` to a name you own; `fly launch --no-deploy` will offer to update it.
+# fly.io config for Judge the Judge. Clinical review completed 2026-10-29; first deployed the same day.
 app = "judge-the-judge"
 primary_region = "lhr"
 

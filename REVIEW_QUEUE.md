@@ -7,7 +7,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 - [x] ~~Provide `ANTHROPIC_API_KEY`~~ Superseded 2026-10-28: judges now run locally on open-weight models (DECISIONS D-14).
 - [x] **Choose the judge model(s) for the full run.** Decided 2026-10-28: Gemma 4 E2B only (D-18). Pilot on Gemma 4 E2B Q4_0: see the pilot notes below. MedGemma 1.5 4B **Q3_K_M** looped and produced no usable output on the one note tried. Options: (a) Gemma 4 E2B only; (b) also compress the **Gemma 4 E4B** in your Hugging Face cache to Q4_K_M (larger, likely better); (c) download a lighter-compressed MedGemma (Q4_K_M or Q8_0) for a general-vs-medical comparison. Time: about 1 minute per J1 call on E2B, so a full J0+J1+J2 run is about 5 hours per model.
 - [ ] **Check the model licences** (Gemma terms of use; MedGemma Health AI Developer Foundations terms) before publishing results.
-- [ ] **Decide whether to deploy.** Spec forbids deploying before clinical review. `DEPLOY.md` has the steps.
+- [x] **Decide whether to deploy.** 2026-10-29: Paulina asked to deploy after clinical review; live at https://judge-the-judge.fly.dev (one machine, lhr, rater mode off until `RATER_CODE` is set). Spec forbids deploying before clinical review. `DEPLOY.md` has the steps.
 
 ## Clinical content (must review before anyone sees the app)
 
