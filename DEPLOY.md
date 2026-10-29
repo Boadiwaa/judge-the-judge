@@ -98,7 +98,10 @@ git add data/results && git commit -m "Regenerate results" && fly deploy
 
 ## Costs and behaviour
 
-- `auto_stop_machines = "stop"` and `min_machines_running = 0`: the machine sleeps when idle and wakes
-  on the next visit. The first visit after a sleep is slower.
+- `min_machines_running = 1`: one machine always runs, so visitors never wait for a cold start. This costs
+  a few dollars a month; set it to `0` to let the machine sleep when idle (the first visit after a sleep is
+  then slower).
+- Link previews, icons and the page title come from `src/jtj/app/assets/` (`scripts/make_web_assets.py`).
+  Re-run that script if the public URL changes or after upgrading Flet.
 - The Flet web client is about 3.5 MB gzipped. A cold first load takes a few seconds while the browser
   starts it.

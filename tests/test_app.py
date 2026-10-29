@@ -3,6 +3,7 @@
 test only; they are never written to data/ and never shown in the app.
 """
 import json
+from pathlib import Path
 from types import SimpleNamespace
 
 import flet as ft
@@ -155,3 +156,19 @@ def test_heatmap_cells_meet_wcag_aa(empty, dark):
     for i in range(11):
         bg, fg = _cell_color(i / 10, ctx)
         assert contrast(fg, bg) >= 4.5, (i, bg, fg)
+
+
+def test_web_shell_has_title_preview_and_icons():
+    """The custom index.html replaces Flet's defaults, and every file it or the manifest points to exists."""
+    import json
+    import re
+
+    assets = Path(__file__).resolve().parents[1] / "src" / "jtj" / "app" / "assets"
+    html = (assets / "index.html").read_text()
+    assert "<title>Judge the Judge</title>" in html and "Flet application" not in html
+    for tag in ("og:title", "og:description", "og:image", "twitter:card"):
+        assert f'"{tag}"' in html
+    local = re.findall(r'(?:href|src)="((?:icons/)?[\w.-]+\.png)"', html)
+    local += [i["src"] for i in json.loads((assets / "manifest.json").read_text())["icons"]]
+    assert local and all((assets / p).exists() for p in local), local
+    assert (assets / "og-image.png").exists() and (assets / "favicon.png").exists()

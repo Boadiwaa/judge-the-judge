@@ -48,7 +48,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 ### UI (added 2026-10-28)
 
 - [x] **Heading font:** Resolved 2026-10-29: Source Serif 4 headings, Inter body, JetBrains Mono numbers, bundled (D-29). Original item: the mockups use a serif for display headings. Flutter web can't use system fonts, so headings are currently sans-serif. Pick a font (for example Source Serif 4, SIL Open Font License) and I'll bundle it (DECISIONS D-22).
-- [ ] **First-load speed on phones:** Flet's web client is about 3.5 MB even gzipped, and takes several seconds to start on a cold visit. If that's too slow for recruiters, the alternative is a small static HTML landing page in front of the app (a design change from the spec; your call).
+- [x] **First-load speed on phones:** 2026-10-29: one machine kept warm (no cold start) and a branded loading screen (D-35); the 3.5 MB client download itself is unchanged. Original item: Flet's web client is about 3.5 MB even gzipped, and takes several seconds to start on a cold visit. If that's too slow for recruiters, the alternative is a small static HTML landing page in front of the app (a design change from the spec; your call).
 - [x] **About page wording**: reviewed 2026-10-29; DRAFT label removed.
 - [ ] **Protocol "Related work" and "References"** (`src/jtj/protocol.py`): 13 references, each checked against its publisher or arXiv record on 2026-10-28. Check you're happy with how the study is positioned ("well-established designs, not the frontier").
 
