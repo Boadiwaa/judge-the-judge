@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "Judge the Judge: a clinician-validated mini-study of LLM judges for AI-generated clinical notes"
+type: dataset
+authors:
+  - family-names: Mensah
+    given-names: Paulina
+date-released: 2026-10-29
+version: "1.0"
+repository-code: "https://github.com/Boadiwaa/judge-the-judge"
+url: "https://judge-the-judge.fly.dev"
+license: CC-BY-4.0
+abstract: >-
+  24 synthetic UK consultations, 72 AI-style notes and 174 planted documentation errors with a
+  clinician-reviewed risk-graded answer key, used to measure how many errors three LLM judge designs
+  (naive, rubric, claim-by-claim checking) detect, with confidence intervals. The code is MIT-licensed;
+  the dataset is CC BY 4.0.
+keywords:
+  - clinical documentation
+  - ambient AI scribe
+  - LLM-as-a-judge
+  - patient safety
+  - evaluation

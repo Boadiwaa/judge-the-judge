@@ -1,5 +1,9 @@
 # Judge the Judge
 
+[![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA.md)
+[![Live app](https://img.shields.io/badge/app-judge--the--judge.fly.dev-0B6A72.svg)](https://judge-the-judge.fly.dev)
+
 **A clinician-validated mini-study of LLM judges for AI-generated clinical notes.**
 
 Ambient AI scribes turn consultations into notes, and at scale their safety claims rest on automated
@@ -64,15 +68,27 @@ src/jtj/app/        Flet web app (main.py, pages/, components, theme, data loade
 scripts/            validate_cases, build_notes, run_judges, compute_metrics, compute_agreement, show_evidence
 data/cases/         24 case files (transcript, reference note, seeded variants, answer key)
 data/results/       metrics.json, matches.json, flags.json (+ *_strict.json sensitivity analysis)
-tests/              ~100 pytest tests: matcher, stats, pipeline fixture, cases, app smoke tests, rater mode
+tests/              ~115 pytest tests: matcher, stats, pipeline fixture, cases, app smoke tests, rater mode
 ```
 
 ## Deploy
 
-See [DEPLOY.md](DEPLOY.md). Clinical content must be reviewed first; see [REVIEW_QUEUE.md](REVIEW_QUEUE.md).
+Live at https://judge-the-judge.fly.dev. See [DEPLOY.md](DEPLOY.md) for how it is deployed and updated.
 Decisions made along the way are in [DECISIONS.md](DECISIONS.md).
 
 ## Links
 
 - Author: Dr Paulina Mensah · [github.com/Boadiwaa](https://github.com/Boadiwaa)
 - Related preprint: LLMs for emergency medical help, [doi:10.1101/2024.04.17.24305971](https://doi.org/10.1101/2024.04.17.24305971)
+
+## Licence and citation
+
+- **Code** (`src/`, `scripts/`, `tests/`): [MIT](LICENSE).
+- **Dataset** (cases, notes, answer key, results) and protocol text: [CC BY 4.0](LICENSE-DATA.md). Reuse is
+  welcome, including commercially, with credit.
+- Raw judge outputs and bundled fonts have their own terms; see [LICENSE-DATA.md](LICENSE-DATA.md).
+
+If you use this work, please cite it (GitHub's "Cite this repository" button reads [CITATION.cff](CITATION.cff)):
+
+> Mensah P. *Judge the Judge: a clinician-validated mini-study of LLM judges for AI-generated clinical
+> notes* (dataset and code). 2026. https://github.com/Boadiwaa/judge-the-judge

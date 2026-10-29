@@ -78,3 +78,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 - [x] Safety-netting omissions where the advice was spoken but not recorded: L2 → **L3** for all ten (case_01_b_e2, 02_a_e2, 03_a_e3, 07_b_e3, 09_b_e2, 10_b_e3, 11_b_e3, 12_b_e3, 13_b_e3, 19_b_e3). Later readers (GP, 111, medicolegal review) only have the note, and parents forget verbal advice. Severity 4 becomes 12, severity 5 becomes 15; all High.
 
 - [x] Paulina approved all changes to date on 2026-10-29: drug-name pairs and grades, subtle/obvious tags, 174 errors, the case_09 weight, and the safety-netting L3 rule.
+
+### Licences (2026-10-29)
+
+- [x] Repo licences chosen by Paulina: MIT for code, CC BY 4.0 for the dataset, with `CITATION.cff` (D-34).

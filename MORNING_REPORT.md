@@ -92,7 +92,7 @@ Then open http://localhost:8080. Re-running judges (`scripts/run_judges.py`) nee
 - [ ] "Most DRUG_NAME and NEGATION errors High/Very high" (D-28). Choose: accept as is, add flips, or regrade. If you change the answer key, metrics need recomputing, but **no new LLM calls** are needed unless note text changes.
 - [x] Source for the drug-name and negation weighting: cited as Protocol reference [14] (D-31).
 - [x] Speaker labels: "Relative" is fine.
-- [ ] Model licence (Gemma terms) before publishing results; and licence for the repo (I suggest MIT for code, CC BY 4.0 for cases).
+- [x] Model licence: Gemma 4 is Apache 2.0 (D-33). Repo licences: MIT for code, CC BY 4.0 for the dataset, plus `CITATION.cff` (D-34).
 
 The full list is in `REVIEW_QUEUE.md`.
 
