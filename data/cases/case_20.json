@@ -2,7 +2,7 @@
   "case_id": "case_20",
   "setting": "OUTPATIENT",
   "title": "First seizure clinic",
-  "clinician_reviewed": false,
+  "clinician_reviewed": true,
   "has_correction": true,
   "transcript": [
     {

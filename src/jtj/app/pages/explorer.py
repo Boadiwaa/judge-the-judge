@@ -404,7 +404,8 @@ def _error_detail(ctx: C.Ctx, case, variant, m, judge: str) -> ft.Control:
             ft.Column([C.body(f"Severity {m.seeded_severity} × likelihood {m.seeded_likelihood} = {m.risk_score}.",
                               ctx, size=14, weight=ft.FontWeight.W_600),
                        C.body(m.seeded_rationale, ctx, size=14, muted=True),
-                       C.body("Answer-key grading drafted for clinician review.", ctx, size=12, muted=True,
+                       C.body("Answer-key grading reviewed by a clinician." if case.clinician_reviewed
+                              else "Answer-key grading drafted for clinician review.", ctx, size=12, muted=True,
                               italic=True)], col={"xs": 12, "sm": 6}, spacing=6),
         ], spacing=12),
         C.eyebrow("How each judge saw it", ctx, ctx.p.text_muted),

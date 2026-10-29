@@ -59,7 +59,7 @@ of it. In production, real failures found in surveillance become new seeded case
 the errors that actually occur."""
 
 
-# Each reference was checked against its publisher or arXiv record on 2026-10-28.
+# Each reference was checked against its publisher or arXiv record on 2026-10-28 ([14] against medRxiv on 2026-10-29).
 REFERENCES = [
     "Zheng L, Chiang W-L, et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. NeurIPS 2023 "
     "(Datasets and Benchmarks). [arXiv:2306.05685](https://arxiv.org/abs/2306.05685)",
@@ -89,6 +89,10 @@ REFERENCES = [
     "arXiv preprint 2024. [arXiv:2404.18796](https://arxiv.org/abs/2404.18796)",
     "Gu J, et al. A Survey on LLM-as-a-Judge. arXiv preprint 2024 (revised 2025). "
     "[arXiv:2411.15594](https://arxiv.org/abs/2411.15594)",
+    "Bergman H, Liu V, Austin B, Sanghera R. Beyond word error rate: clinical risk as the necessary standard for "
+    "ambient AI scribe evaluation: evidence from 77 global languages. medRxiv preprint 2026, not peer reviewed; "
+    "authors employed by an ambient-scribe developer. "
+    "[doi:10.64898/2026.09.10.26362715](https://doi.org/10.64898/2026.09.10.26362715)",
 ]
 
 RELATED_WORK = (
@@ -109,7 +113,10 @@ RELATED_WORK = (
     "negation, number changes) to source text goes back to FactCC [9]. MEDEC, a public benchmark for detecting and "
     "correcting medical errors in clinical notes (five error types, 3,848 texts), found that recent LLMs were still "
     "outperformed by doctors [10]. A clinical-safety framework for LLM note generation graded clinician-annotated "
-    "hallucinations and omissions for harm [11]; this study's risk tiers follow the same spirit.\n\n"
+    "hallucinations and omissions for harm [11]; this study's risk tiers follow the same spirit. A study of "
+    "ambient-scribe speech transcription across 77 languages found that the clinically serious errors were "
+    "dominated by medication-name confusions and negation or status flips, which read fluently and plausibly, "
+    "while most errors were benign [14]; this is why the dataset weights those two types.\n\n"
     "**How this design relates to current practice.** J1 and J2 are well-established designs, not the frontier. "
     "The judge here is a small open-weight model run locally. Current directions include strong reasoning models as "
     "judges, juries of diverse models (a panel of three smaller models from different families beat a single large "
@@ -170,13 +177,16 @@ def sections(cases: list[Case]) -> list[tuple[str, str]]:
         f"{len(cases)} consultations across 6 settings, each with one clean variant and two seeded variants of 2–4 "
         f"errors: {sum(len(c.variants) for c in cases)} notes and {len(errs)} seeded errors. "
         f"{sum(c.has_correction for c in cases)} cases contain something said and later corrected. All content is "
-        "synthetic, uses fictional names, follows UK practice (NICE, BNF) and is drafted for clinician review.\n\n"
+        "synthetic, uses fictional names, follows UK practice (NICE, BNF) and "
+        + ("has been reviewed by a clinician" if all(c.clinician_reviewed for c in cases)
+           else "is drafted for clinician review") + ".\n\n"
         "| Setting | Cases |\n| --- | --- |\n" + setting_rows)))
     type_rows = "\n".join(f"| `{t}` | {ERROR_TYPES[t]} | {TYPE_EXAMPLES[t]} | {by_type[t]} |" for t in ERROR_TYPES)
     n_subtle = sum(m.subtle for m in errs)
     out.append(("Error taxonomy", "| Code | Type | Example | n |\n| --- | --- | --- | --- |\n" + type_rows + (
-        "\n\nThe dataset is weighted towards drug-name confusions and negation flips, reported as the commonest "
-        "serious errors made by production ambient scribes: at least 12 of each. Drug-name errors swap a drug the "
+        "\n\nThe dataset is weighted towards drug-name confusions and negation flips, which dominated the "
+        "clinically serious errors in a multilingual study of ambient-scribe transcription [14] (see Related "
+        "work): at least 12 of each. Drug-name errors swap a drug the "
         "reference note mentions for a look-alike or sound-alike (for example amlodipine recorded as amiloride), "
         "and the rationale records why the swap is dangerous.\n\n"
         f"Each seeded error is also tagged **subtle** or **obvious**. {n_subtle} of {len(errs)} "
@@ -190,7 +200,8 @@ def sections(cases: list[Case]) -> list[tuple[str, str]]:
         "Every seeded error has a severity (1–5) and likelihood of harm (1–5) with a one-sentence clinical rationale, "
         "in the style of UK digital clinical safety risk management (DCB0129/DCB0160, ISO 14971). Risk score = "
         "severity × likelihood.\n\n| Score | Tier | Seeded errors |\n| --- | --- | --- |\n" + tier_rows +
-        "\n\nThe grades are drafts and are flagged `clinician_reviewed: false` until reviewed.")))
+        ("\n\nThe grades were drafted by the author and reviewed by a clinician." if all(c.clinician_reviewed for c in cases)
+         else "\n\nThe grades are drafts and are flagged `clinician_reviewed: false` until reviewed."))))
     out.append(("Judges", (
         "All judges see the transcript and the note and return strict JSON.\n\n"
         "- **J0 Naive:** \"Find any errors in this clinical note compared with the transcript.\" No rubric or "

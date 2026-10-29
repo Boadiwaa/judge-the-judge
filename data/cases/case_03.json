@@ -2,7 +2,7 @@
   "case_id": "case_03",
   "setting": "GP_ADULT",
   "title": "Diabetes review after a hypo",
-  "clinician_reviewed": false,
+  "clinician_reviewed": true,
   "has_correction": true,
   "transcript": [
     {

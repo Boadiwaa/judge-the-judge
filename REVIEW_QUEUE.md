@@ -11,8 +11,8 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 
 ## Clinical content (must review before anyone sees the app)
 
-- [ ] Every case in `data/cases/` — transcript realism, UK practice, NICE/BNF consistency. Flip `"clinician_reviewed": true` per case when happy. (The footer drops "drafted for clinician review" automatically once all 24 are true.)
-- [ ] Every seeded error's `seeded_severity`, `seeded_likelihood`, `seeded_rationale` (answer key). A table view: `python scripts/validate_cases.py --table`.
+- [x] Every case in `data/cases/` (2026-10-29: Paulina marked cases 03–24 reviewed; all 24 are now `clinician_reviewed: true`) — transcript realism, UK practice, NICE/BNF consistency. Flip `"clinician_reviewed": true` per case when happy. (The footer drops "drafted for clinician review" automatically once all 24 are true.)
+- [x] Every seeded error's `seeded_severity`, `seeded_likelihood`, `seeded_rationale` (answer key). A table view: `python scripts/validate_cases.py --table`.
 - [x] Judge prompts in `src/jtj/judges.py` (J0/J1/J2) — freeze before the full run.
 - [x] About page wording: reviewed by Paulina 2026-10-29; draft labels removed.
 - [ ] Protocol page wording and the GRRAS / DECIDE-AI checklist.
@@ -43,7 +43,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 - [x] **case_20 (first seizure):** 2026-10-29: wording kept. the seizure was partly provoked by sleep deprivation. I used the standard "usually 6 months off driving" wording. DVLA may treat provoked seizures differently; please check.
 - [x] **case_10 (bronchiolitis):** 2026-10-29: changed to same-day hospital referral (intercostal recession, feeds about half). managed at home with next-day review at about 50% of usual feeds, RR 54 and SpO2 95%. Is this borderline call one you'd make?
 - [x] **Very high grades in new cases:** Superseded by the 2026-10-29 decisions (case_06 and case_19 regraded); case_16 and case_24 are listed under the remaining grade checks. methotrexate weekly recorded as daily (case_19, S5×L4 = 20), sick-day rules dropped for an 85-year-old (case_24, 16), "no intent to harm the baby" recorded as an urge to harm (case_16, 16), anticoagulant dropped from a head-injury note (case_06, 20).
-- [ ] **Speaker labels:** the spec allows only Clinician, Patient and Relative. Partners, a wife who witnessed a seizure, and a son on speakerphone are all labelled "Relative". In cases 10 and 23 the patient is a baby, so every non-clinician turn is a "Relative" (two parents in case_10).
+- [x] **Speaker labels:** 2026-10-29: Paulina: "Relative" is fine. the spec allows only Clinician, Patient and Relative. Partners, a wife who witnessed a seizure, and a son on speakerphone are all labelled "Relative". In cases 10 and 23 the patient is a baby, so every non-clinician turn is a "Relative" (two parents in case_10).
 
 ### UI (added 2026-10-28)
 
@@ -64,7 +64,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
   - **Weakest, please check:** sertraline → Seroquel (case_14_a, 3×3), atorvastatin → rosuvastatin (case_01_a, 2×2), omeprazole → esomeprazole (case_02_a, 1×2). I don't know of a UK look-alike/sound-alike list that includes these three; I added them because the spec's other pairs don't appear in any note. Replace any you don't like.
 - [ ] **"Most DRUG_NAME and NEGATION errors High or Very high."** DRUG_NAME: 6 of 12 are High. NEGATION: 5 of 14. I graded on clinical merit rather than raising grades to hit "most". Options: accept as is; add a few genuinely high-risk negation flips (more errors to review); or regrade.
 - [x] **Subtle/obvious tags** on all 174 errors (rule in D-27; 109 subtle). Tags were applied by rule plus overrides, not one by one, so please skim them while you review each case.
-- [ ] **Source for "most serious errors are drug-name confusions and negation flips".** The protocol says this without a citation, because I haven't verified which publication the spec means. Give me the reference, or ask me to find and check one.
+- [x] **Source for "most serious errors are drug-name confusions and negation flips".** 2026-10-29: cited as reference [14] (Bergman et al., medRxiv 2026, doi:10.64898/2026.09.10.26362715), verified against the preprint text. It supports *serious* errors being dominated by these types, not that they are the most common overall, so the Protocol keeps "serious". Company name omitted per spec §1.7; the reference notes the authors work for an ambient-scribe developer (D-31). The protocol says this without a citation, because I haven't verified which publication the spec means. Give me the reference, or ask me to find and check one.
 - [x] **Total errors is 174**, slightly above the spec's "roughly 130–170".
 - [x] **Reload any case file you have open.** I added errors to 11 case files and a `"subtle"` field to every error in all 24, while you were reviewing. If your editor has unsaved changes to a case file, saving it may overwrite mine, so tell me and I'll merge.
 

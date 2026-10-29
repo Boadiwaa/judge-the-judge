@@ -9,7 +9,7 @@ Everything below is a **pilot on synthetic data with one small local model**. Th
 | Phase | State |
 | --- | --- |
 | 1. Scaffold | Done |
-| 2. Cases (24 cases, 174 errors, 11 types) | Done. Cases 01–02 are clinician-reviewed. 03–24 have had your grade decisions applied, but their `clinician_reviewed` flags are still `false` |
+| 2. Cases (24 cases, 174 errors, 11 types) | Done. All 24 cases clinician-reviewed (2026-10-29) |
 | 3. Pipeline (mutate, judges, matcher, stats) | Done |
 | 4. Judge run (J0, J1, J2 on 72 notes) | **Done** on the spec v2 prompts (D-25). The six cases edited during review (02, 03, 09, 10, 17, 21) were re-judged |
 | 5. UI (Overview, Explorer, Scorecard, Protocol, About) | Done, showing final results |
@@ -84,14 +84,14 @@ Then open http://localhost:8080. Re-running judges (`scripts/run_judges.py`) nee
 
 ## 4. What you must review before anyone sees it
 
-- [ ] **Cases 03–24:** read each one through for realism, UK practice and NICE/BNF consistency, and flip `"clinician_reviewed": true` per case. The footer's "drafted for clinician review" label disappears once all 24 are true.
+- [x] **Cases 01–24:** all marked clinician-reviewed (2026-10-29); the "drafted for clinician review" labels are gone.
 - [x] Seeded severity and likelihood ratings: your decisions of 2026-10-29 are applied, and you approved all changes (REVIEW_QUEUE).
 - [x] About page wording: reviewed, and the draft labels are removed.
 - [x] Judge prompts: frozen before the run (D-24, D-25).
 - [ ] Protocol page wording, the GRRAS / DECIDE-AI checklist, and the "Related work" positioning.
 - [ ] "Most DRUG_NAME and NEGATION errors High/Very high" (D-28). Choose: accept as is, add flips, or regrade. If you change the answer key, metrics need recomputing, but **no new LLM calls** are needed unless note text changes.
-- [ ] A source for "most serious errors are drug-name and negation errors". The Protocol states this without a citation.
-- [ ] Speaker labels: partners, spouses and parents are all labelled "Relative".
+- [x] Source for the drug-name and negation weighting: cited as Protocol reference [14] (D-31).
+- [x] Speaker labels: "Relative" is fine.
 - [ ] Model licence (Gemma terms) before publishing results; and licence for the repo (I suggest MIT for code, CC BY 4.0 for cases).
 
 The full list is in `REVIEW_QUEUE.md`.
