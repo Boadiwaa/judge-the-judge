@@ -20,7 +20,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 ## Environment / verification gaps
 
 - [x] ~~Docker not installed~~ Docker Desktop installed and the image built and tested locally (2026-10-28).
-- [ ] Set `RATER_CODE` secret before sharing rater mode.
+- [x] Set `RATER_CODE` secret before sharing rater mode. Done by Paulina 2026-10-29 (with `OWNER_CODE`).
 
 ## Items added during the build
 
