@@ -273,8 +273,8 @@
             28
           ],
           "seeded_severity": 5,
-          "seeded_likelihood": 4,
-          "seeded_rationale": "Anticoagulation is the main reason for an urgent CT head; if it is missing from the record, a reviewer may cancel the scan or restart dosing, risking a missed intracranial bleed.",
+          "seeded_likelihood": 3,
+          "seeded_rationale": "Anticoagulation is a key reason for an urgent CT head; if it is missing from the record, a reviewer may deprioritise the scan or restart dosing, although her symptoms after the head injury make it likely she would still be scanned.",
           "subtle": false,
           "description": "Blood thinner dropped from a head injury note"
         },
@@ -319,7 +319,7 @@
             28
           ],
           "seeded_severity": 4,
-          "seeded_likelihood": 3,
+          "seeded_likelihood": 4,
           "seeded_rationale": "Amlodipine recorded as amiloride, a look-alike/sound-alike pair; if she is admitted, medicines reconciliation from this note would give an 81-year-old a potassium-sparing diuretic instead of her antihypertensive, risking hyperkalaemia and acute kidney injury.",
           "subtle": true,
           "description": "Amlodipine recorded as amiloride"

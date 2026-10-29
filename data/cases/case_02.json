@@ -2,7 +2,7 @@
   "case_id": "case_02",
   "setting": "GP_ADULT",
   "title": "Low back pain going down one leg",
-  "clinician_reviewed": false,
+  "clinician_reviewed": true,
   "has_correction": true,
   "transcript": [
     {
@@ -258,7 +258,7 @@
     {
       "turn": 51,
       "speaker": "Clinician",
-      "text": "Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome. I'll give you a card with these symptoms on."
+      "text": "Very important: if you get numbness around your bottom or genitals, difficulty passing urine, loss of control of your bladder or bowels, or weakness in both legs, go to A&E straight away. That could be a rare emergency called cauda equina syndrome. I'll give you a leaflet with these symptoms on."
     },
     {
       "turn": 52,
@@ -273,7 +273,7 @@
     "examination": "Lumbar flexion limited by pain. Straight leg raise positive on the right at 40 degrees; negative on the left. Power, reflexes and sensation normal and symmetrical in both lower limbs.",
     "impression": "Right-sided sciatica, likely lumbar disc-related radiculopathy. No red flags.",
     "plan": "Stop ibuprofen. Start naproxen 500 mg twice daily with food and omeprazole 20 mg once daily, for 2 weeks. Refer to physiotherapy. Advised to keep active and avoid bed rest. Fit note for 2 weeks: may be fit for work with amended duties (no lifting or handling). Review in 4 weeks.",
-    "safety_netting": "Attend A&E immediately if saddle numbness, difficulty passing urine, loss of bladder or bowel control, or bilateral leg weakness (cauda equina symptoms). Symptom card given."
+    "safety_netting": "Attend A&E immediately if saddle numbness, difficulty passing urine, loss of bladder or bowel control, or bilateral leg weakness (cauda equina symptoms). Symptom leaflet given."
   },
   "variants": [
     {
@@ -360,7 +360,7 @@
             19,
             20
           ],
-          "seeded_severity": 2,
+          "seeded_severity": 3,
           "seeded_likelihood": 4,
           "seeded_rationale": "A recorded cauda equina red flag that was denied would trigger an unnecessary emergency MRI and alarm, and conflicts with the documented plan.",
           "subtle": false,

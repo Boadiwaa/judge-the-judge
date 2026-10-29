@@ -31,13 +31,13 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
   - `case_07_a_e2` penicillin allergy dropped (ED ankle): S4 × L4 = 16, Very high. I justified it via perioperative flucloxacillin if the fracture needs fixing. The mockup showed 20; is 16 right?
   - `case_13_a_e1` passive suicidal ideation recorded as denied: S5 × L3 = 15, High (just below Very high). Arguably L4.
   - `case_09_b_e2` febrile-child red flags omitted: S5 × L2 = 10. Low likelihood because the advice was given verbally; check you agree with this reasoning, which I applied to all safety-netting omissions.
-- [ ] **Paediatric doses in case_09** (3-year-old, assumed ~14 kg; weight is not stated in the transcript): paracetamol 180 mg QDS, ibuprofen 100 mg TDS, amoxicillin 250 mg TDS × 5 days (NICE NG91 back-up). Should the clinician state the weight?
+- [x] **Paediatric doses in case_09** Resolved 2026-10-29: weight (14 kg) now measured in the transcript and recorded in the examination. Original item: (3-year-old, assumed ~14 kg; weight is not stated in the transcript): paracetamol 180 mg QDS, ibuprofen 100 mg TDS, amoxicillin 250 mg TDS × 5 days (NICE NG91 back-up). Should the clinician state the weight?
 - [ ] **Apixaban dosing logic in case_17** (age 72, 58 kg, creatinine 98 → 5 mg BD, none of the dose-reduction criteria met).
 - [ ] **Nitrofurantoin in possible early pregnancy (case_21).** The clinician says it is suitable early in pregnancy, avoids trimethoprim implicitly and defers ibuprofen. Check the wording matches current UKHSA/BNF guidance.
 
 ### Clinical calls in cases 02–24 I'd most like checked (added 2026-10-28)
 
-- [ ] **case_06 (head injury, 81-year-old):** apixaban 2.5 mg BD is the reduced dose. Age ≥80 is one criterion, but her weight and creatinine aren't stated, so the record doesn't show she meets two. Add a weight, or change to 5 mg BD? I also left CT timing as "within the next few hours" rather than citing the NG232 time limit.
+- [ ] **case_06 (head injury, 81-year-old):** Grades decided 2026-10-29: dropped anticoagulant 5×3 = 15; amlodipine → amiloride 4×4 = 16. Apixaban dose question still open: apixaban 2.5 mg BD is the reduced dose. Age ≥80 is one criterion, but her weight and creatinine aren't stated, so the record doesn't show she meets two. Add a weight, or change to 5 mg BD? I also left CT timing as "within the next few hours" rather than citing the NG232 time limit.
 - [ ] **case_05 (chest pain, possible NSTEMI):** the plan has aspirin (from the ambulance crew) plus fondaparinux, with no second antiplatelet loading dose. I left that to cardiology. Is that realistic for a UK ED note?
 - [ ] **case_03 (diabetes hypo):** the case gives sulfonylurea driving advice but doesn't address whether he must tell the DVLA after one severe hypo needing help from someone else. Should it?
 - [ ] **case_20 (first seizure):** the seizure was partly provoked by sleep deprivation. I used the standard "usually 6 months off driving" wording. DVLA may treat provoked seizures differently; please check.
@@ -67,3 +67,12 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 - [ ] **Source for "most serious errors are drug-name confusions and negation flips".** The protocol says this without a citation, because I haven't verified which publication the spec means. Give me the reference, or ask me to find and check one.
 - [ ] **Total errors is 174**, slightly above the spec's "roughly 130–170".
 - [ ] **Reload any case file you have open.** I added errors to 11 case files and a `"subtle"` field to every error in all 24, while you were reviewing. If your editor has unsaved changes to a case file, saving it may overwrite mine, so tell me and I'll merge.
+
+### Decisions from Paulina, 2026-10-29
+
+- [x] case_06: dropped anticoagulant L4 → **L3** (5×3 = 15, High): she would likely still be scanned given her symptoms. Amlodipine → amiloride L3 → **L4** (16, Very high). Rationale text updated to match.
+- [x] case_19: methotrexate daily L4 → **L2** (5×2 = 10, High); I added "weekly-dose safeguards… make it unlikely to reach the patient" to the rationale, please check the wording. Sulfasalazine → sulfadiazine L3 → **L4** (16, Very high).
+- [x] case_14: sertraline → Seroquel kept as is.
+- [x] case_05: amlodipine → amiloride L3 → **L4** (16, Very high). Antiplatelet question: keep as is.
+- [x] case_09: weight added (14 kg at examination).
+- [ ] case_09: safety-netting omission likelihood (L2) — explained; awaiting your call.

@@ -319,7 +319,7 @@
             22
           ],
           "seeded_severity": 4,
-          "seeded_likelihood": 3,
+          "seeded_likelihood": 4,
           "seeded_rationale": "Amlodipine (a calcium-channel blocker) recorded as amiloride (a potassium-sparing diuretic), a look-alike/sound-alike pair; after a likely NSTEMI he will probably start an ACE inhibitor, and continuing 'amiloride' alongside it risks serious hyperkalaemia, while his real antihypertensive drops off the record.",
           "subtle": true,
           "description": "Amlodipine recorded as amiloride"
