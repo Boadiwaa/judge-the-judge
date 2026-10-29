@@ -32,7 +32,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
   - `case_13_a_e1` passive suicidal ideation recorded as denied: S5 × L3 = 15, High (just below Very high). Arguably L4.
   - ~~`case_09_b_e2` febrile-child red flags omitted: S5 × L2 = 10.~~ Decided 2026-10-29: L3 for all spoken-but-unrecorded safety-netting omissions.
 - [x] **Paediatric doses in case_09** Resolved 2026-10-29: weight (14 kg) now measured in the transcript and recorded in the examination. Original item: (3-year-old, assumed ~14 kg; weight is not stated in the transcript): paracetamol 180 mg QDS, ibuprofen 100 mg TDS, amoxicillin 250 mg TDS × 5 days (NICE NG91 back-up). Should the clinician state the weight?
-- [ ] **Apixaban dosing logic in case_17** (2026-10-29: you asked for 2.5 mg BD; consistency question pending) (age 72, 58 kg, creatinine 98 → 5 mg BD, none of the dose-reduction criteria met).
+- [x] **Apixaban dosing logic in case_17** 2026-10-29: dose is now 2.5 mg BD, with creatinine raised from 98 to 140 so she meets two reduction criteria (weight ≤60 kg, creatinine ≥133). The planted dose error is now 2.5 → 5 mg (overdose, bleeding risk). (age 72, 58 kg, creatinine 98 → 5 mg BD, none of the dose-reduction criteria met).
 - [x] **Nitrofurantoin in possible early pregnancy (case_21).** 2026-10-29: course changed to 7 days. The clinician says it is suitable early in pregnancy, avoids trimethoprim implicitly and defers ibuprofen. Check the wording matches current UKHSA/BNF guidance.
 
 ### Clinical calls in cases 02–24 I'd most like checked (added 2026-10-28)

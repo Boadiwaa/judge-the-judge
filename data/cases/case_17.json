@@ -193,7 +193,7 @@
     {
       "turn": 38,
       "speaker": "Clinician",
-      "text": "Your bloods from last week: kidney function is normal, creatinine 98, and your thyroid level is normal too. The ECG today shows atrial fibrillation with a rate of about 105."
+      "text": "Your bloods from last week: your kidney function is reduced, with a creatinine of 140, and your thyroid level is normal too. The ECG today shows atrial fibrillation with a rate of about 105."
     },
     {
       "turn": 39,
@@ -223,7 +223,7 @@
     {
       "turn": 44,
       "speaker": "Clinician",
-      "text": "Your apixaban dose of five milligrams twice a day is correct for you, based on your age, weight and kidney function, so we'll keep that the same. But the bleeding you mentioned needs looking into. I'll ask your GP to do a blood count and arrange a FIT test, the stool test, and consider a referral to the bowel team."
+      "text": "Your apixaban dose of two and a half milligrams twice a day is correct for you, because of your weight and kidney function, so we'll keep that the same. But the bleeding you mentioned needs looking into. I'll ask your GP to do a blood count and arrange a FIT test, the stool test, and consider a referral to the bowel team."
     },
     {
       "turn": 45,
@@ -264,10 +264,10 @@
   "reference_note": {
     "presenting_complaint": "Increased exertional breathlessness and palpitations for 3 weeks, on a background of atrial fibrillation diagnosed 18 months ago.",
     "history": "Breathless on stairs, palpitations. No chest pain. Occasional postural light-headedness; no syncope. Mild evening ankle swelling. No orthopnoea. Single episode of fresh red rectal bleeding three weeks ago, not previously reported; no recurrence, no melaena, no change in bowel habit or weight loss. Attended with daughter, who manages her dosette box.",
-    "medications_allergies": "Apixaban 5 mg twice daily (initially reported as once daily; daughter confirmed twice daily). Bisoprolol 2.5 mg once daily. Levothyroxine 75 micrograms once daily. Codeine intolerance (nausea).",
-    "examination": "Pulse irregularly irregular, rate 104. BP 128/76. Heart sounds irregular, no murmur. Fine bibasal crackles. Mild bilateral ankle oedema. Weight 58 kg. ECG: atrial fibrillation, ventricular rate approximately 105. Bloods: creatinine 98, thyroid function normal.",
-    "impression": "Atrial fibrillation with suboptimal rate control, likely contributing to breathlessness; possible early heart failure. Apixaban dose appropriate (age 72, weight 58 kg, creatinine 98). Single episode of rectal bleeding on anticoagulation requiring investigation.",
-    "plan": "Increase bisoprolol to 5 mg once daily. Echocardiogram within 6 weeks. Continue apixaban 5 mg twice daily; do not stop. Letter to GP: FBC, FIT, and consider lower GI referral. Clinic review in 3 months after echocardiogram.",
+    "medications_allergies": "Apixaban 2.5 mg twice daily (initially reported as once daily; daughter confirmed twice daily). Bisoprolol 2.5 mg once daily. Levothyroxine 75 micrograms once daily. Codeine intolerance (nausea).",
+    "examination": "Pulse irregularly irregular, rate 104. BP 128/76. Heart sounds irregular, no murmur. Fine bibasal crackles. Mild bilateral ankle oedema. Weight 58 kg. ECG: atrial fibrillation, ventricular rate approximately 105. Bloods: creatinine 140, thyroid function normal.",
+    "impression": "Atrial fibrillation with suboptimal rate control, likely contributing to breathlessness; possible early heart failure. Reduced renal function (creatinine 140). Apixaban 2.5 mg twice daily appropriate (two dose-reduction criteria: weight 58 kg, creatinine 140). Single episode of rectal bleeding on anticoagulation requiring investigation.",
+    "plan": "Increase bisoprolol to 5 mg once daily. Echocardiogram within 6 weeks. Continue apixaban 2.5 mg twice daily; do not stop. Letter to GP: FBC, FIT, and consider lower GI referral. Clinic review in 3 months after echocardiogram.",
     "safety_netting": "Attend A&E if further significant bleeding, black stools or feeling faint. Call 999 if breathing worsens significantly, especially lying flat, or chest pain."
   },
   "variants": [
@@ -282,16 +282,16 @@
           "error_id": "case_17_a_e1",
           "type": "DOSE_UNIT",
           "section": "plan",
-          "original_text": "Continue apixaban 5 mg twice daily",
-          "mutated_text": "Continue apixaban 2.5 mg twice daily",
+          "original_text": "Continue apixaban 2.5 mg twice daily",
+          "mutated_text": "Continue apixaban 5 mg twice daily",
           "evidence_turns": [
             44
           ],
           "seeded_severity": 4,
           "seeded_likelihood": 3,
-          "seeded_rationale": "She meets none of the dose-reduction criteria, so 2.5 mg twice daily under-anticoagulates her and increases stroke risk.",
+          "seeded_rationale": "She meets two dose-reduction criteria (weight 58 kg, creatinine 140), so 5 mg twice daily overdoses her and raises bleeding risk, in a patient already being investigated for rectal bleeding.",
           "subtle": true,
-          "description": "Apixaban halved in the plan"
+          "description": "Reduced apixaban dose recorded as the full dose"
         },
         {
           "error_id": "case_17_a_e2",
@@ -336,8 +336,8 @@
           "error_id": "case_17_b_e1",
           "type": "CORRECTION_LOST",
           "section": "medications_allergies",
-          "original_text": "Apixaban 5 mg twice daily (initially reported as once daily; daughter confirmed twice daily).",
-          "mutated_text": "Apixaban 5 mg once daily.",
+          "original_text": "Apixaban 2.5 mg twice daily (initially reported as once daily; daughter confirmed twice daily).",
+          "mutated_text": "Apixaban 2.5 mg once daily.",
           "evidence_turns": [
             19,
             20,
