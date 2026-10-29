@@ -13,7 +13,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 
 - [ ] Every case in `data/cases/` — transcript realism, UK practice, NICE/BNF consistency. Flip `"clinician_reviewed": true` per case when happy. (The footer drops "drafted for clinician review" automatically once all 24 are true.)
 - [ ] Every seeded error's `seeded_severity`, `seeded_likelihood`, `seeded_rationale` (answer key). A table view: `python scripts/validate_cases.py --table`.
-- [ ] Judge prompts in `src/jtj/judges.py` (J0/J1/J2) — freeze before the full run.
+- [x] Judge prompts in `src/jtj/judges.py` (J0/J1/J2) — freeze before the full run.
 - [ ] About page wording (written in your voice as a draft).
 - [ ] Protocol page wording and the GRRAS / DECIDE-AI checklist.
 
@@ -38,11 +38,11 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 ### Clinical calls in cases 02–24 I'd most like checked (added 2026-10-28)
 
 - [ ] **case_06 (head injury, 81-year-old):** Grades decided 2026-10-29: dropped anticoagulant 5×3 = 15; amlodipine → amiloride 4×4 = 16. Apixaban dose question still open: apixaban 2.5 mg BD is the reduced dose. Age ≥80 is one criterion, but her weight and creatinine aren't stated, so the record doesn't show she meets two. Add a weight, or change to 5 mg BD? I also left CT timing as "within the next few hours" rather than citing the NG232 time limit.
-- [ ] **case_05 (chest pain, possible NSTEMI):** the plan has aspirin (from the ambulance crew) plus fondaparinux, with no second antiplatelet loading dose. I left that to cardiology. Is that realistic for a UK ED note?
+- [x] **case_05 (chest pain, possible NSTEMI):** Kept as is (2026-10-29). the plan has aspirin (from the ambulance crew) plus fondaparinux, with no second antiplatelet loading dose. I left that to cardiology. Is that realistic for a UK ED note?
 - [ ] **case_03 (diabetes hypo):** the case gives sulfonylurea driving advice but doesn't address whether he must tell the DVLA after one severe hypo needing help from someone else. Should it?
 - [ ] **case_20 (first seizure):** the seizure was partly provoked by sleep deprivation. I used the standard "usually 6 months off driving" wording. DVLA may treat provoked seizures differently; please check.
 - [ ] **case_10 (bronchiolitis):** managed at home with next-day review at about 50% of usual feeds, RR 54 and SpO2 95%. Is this borderline call one you'd make?
-- [ ] **Very high grades in new cases:** methotrexate weekly recorded as daily (case_19, S5×L4 = 20), sick-day rules dropped for an 85-year-old (case_24, 16), "no intent to harm the baby" recorded as an urge to harm (case_16, 16), anticoagulant dropped from a head-injury note (case_06, 20).
+- [x] **Very high grades in new cases:** Superseded by the 2026-10-29 decisions (case_06 and case_19 regraded); case_16 and case_24 are listed under the remaining grade checks. methotrexate weekly recorded as daily (case_19, S5×L4 = 20), sick-day rules dropped for an 85-year-old (case_24, 16), "no intent to harm the baby" recorded as an urge to harm (case_16, 16), anticoagulant dropped from a head-injury note (case_06, 20).
 - [ ] **Speaker labels:** the spec allows only Clinician, Patient and Relative. Partners, a wife who witnessed a seizure, and a son on speakerphone are all labelled "Relative". In cases 10 and 23 the patient is a baby, so every non-clinician turn is a "Relative" (two parents in case_10).
 
 ### UI (added 2026-10-28)
@@ -54,7 +54,7 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 
 ### Spec update 2026-10-28 (§2.3 drug names, subtle errors; DECISIONS D-25 to D-28)
 
-- [ ] **Drug-name pairs (spec: "Paulina reviews every pair").** 12 `DRUG_NAME` errors; `python scripts/validate_cases.py --table` lists them. Please check each pair is a realistic confusion and the grade is right:
+- [x] **Drug-name pairs (spec: "Paulina reviews every pair").** 12 `DRUG_NAME` errors; `python scripts/validate_cases.py --table` lists them. Please check each pair is a realistic confusion and the grade is right:
   - amlodipine → amiloride (case_05_a, case_06_a), 4×3 = 12 High: hyperkalaemia once an ACE inhibitor is added.
   - penicillin → penicillamine allergy (case_06_b), 5×3 = 15 High.
   - salbutamol → salmeterol "as required" (case_08_a asthma 5×3 = 15; case_18_a COPD 4×3 = 12).
@@ -63,10 +63,10 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
   - clobetasone → clobetasol (case_11_a, retyped from DOSE_UNIT, 3×3 = 9).
   - **Weakest, please check:** sertraline → Seroquel (case_14_a, 3×3), atorvastatin → rosuvastatin (case_01_a, 2×2), omeprazole → esomeprazole (case_02_a, 1×2). I don't know of a UK look-alike/sound-alike list that includes these three; I added them because the spec's other pairs don't appear in any note. Replace any you don't like.
 - [ ] **"Most DRUG_NAME and NEGATION errors High or Very high."** DRUG_NAME: 6 of 12 are High. NEGATION: 5 of 14. I graded on clinical merit rather than raising grades to hit "most". Options: accept as is; add a few genuinely high-risk negation flips (more errors to review); or regrade.
-- [ ] **Subtle/obvious tags** on all 174 errors (rule in D-27; 109 subtle). Tags were applied by rule plus overrides, not one by one, so please skim them while you review each case.
+- [x] **Subtle/obvious tags** on all 174 errors (rule in D-27; 109 subtle). Tags were applied by rule plus overrides, not one by one, so please skim them while you review each case.
 - [ ] **Source for "most serious errors are drug-name confusions and negation flips".** The protocol says this without a citation, because I haven't verified which publication the spec means. Give me the reference, or ask me to find and check one.
-- [ ] **Total errors is 174**, slightly above the spec's "roughly 130–170".
-- [ ] **Reload any case file you have open.** I added errors to 11 case files and a `"subtle"` field to every error in all 24, while you were reviewing. If your editor has unsaved changes to a case file, saving it may overwrite mine, so tell me and I'll merge.
+- [x] **Total errors is 174**, slightly above the spec's "roughly 130–170".
+- [x] **Reload any case file you have open.** I added errors to 11 case files and a `"subtle"` field to every error in all 24, while you were reviewing. If your editor has unsaved changes to a case file, saving it may overwrite mine, so tell me and I'll merge.
 
 ### Decisions from Paulina, 2026-10-29
 
@@ -76,3 +76,5 @@ Items are added as the build progresses. Tick them off and flip flags in the dat
 - [x] case_05: amlodipine → amiloride L3 → **L4** (16, Very high). Antiplatelet question: keep as is.
 - [x] case_09: weight added (14 kg at examination).
 - [x] Safety-netting omissions where the advice was spoken but not recorded: L2 → **L3** for all ten (case_01_b_e2, 02_a_e2, 03_a_e3, 07_b_e3, 09_b_e2, 10_b_e3, 11_b_e3, 12_b_e3, 13_b_e3, 19_b_e3). Later readers (GP, 111, medicolegal review) only have the note, and parents forget verbal advice. Severity 4 becomes 12, severity 5 becomes 15; all High.
+
+- [x] Paulina approved all changes to date on 2026-10-29: drug-name pairs and grades, subtle/obvious tags, 174 errors, the case_09 weight, and the safety-netting L3 rule.
